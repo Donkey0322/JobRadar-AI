@@ -4,7 +4,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { ATSFetcher } from "../../core/fetcher";
+import { Employer } from "../../core/fetcher";
 
 import { AmazonCompany, fetchAmazon } from "./amazon";
 import { AMDCompany, fetchAMD } from "./amd";
@@ -24,7 +24,7 @@ export {
   type CustomCompanyIdentifier,
 } from "./identifier";
 
-export class CustomFetcher extends ATSFetcher<Job> {
+export class CustomFetcher extends Employer<Job> {
   readonly ats = "custom" as const;
 
   companyKeyFromUrl(url: URL): string {
@@ -145,6 +145,11 @@ export class CustomFetcher extends ATSFetcher<Job> {
       );
       return [];
     }
+  }
+
+  async fetchJD(url: string, signal: AbortSignal) {
+    const { fetchCustomJD } = await import("@/modules/ats/detail/custom");
+    return fetchCustomJD(url, signal);
   }
 }
 

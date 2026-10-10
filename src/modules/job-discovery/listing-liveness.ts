@@ -1,6 +1,6 @@
 import type { Company } from "@/types";
 
-import { getATSFetcher } from "@/modules/ats/core";
+import { asEmployer } from "@/modules/ats/core/registry";
 import { getJobKey } from "@/utils/job-key";
 
 export function partitionUrlsByListedKeys(
@@ -34,6 +34,6 @@ export async function checkUrlsAgainstListing(
     return { listed: [], unverified: [...urls] };
   }
 
-  const listedKeys = await getATSFetcher(company.ats).listJobKeys(company, signal);
+  const listedKeys = await asEmployer(company).listedKeys(signal);
   return partitionUrlsByListedKeys(urls, listedKeys);
 }

@@ -5,7 +5,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { ATSFetcher } from "../core/fetcher";
+import { Employer } from "../core/fetcher";
 import { isTarget } from "../core/filter";
 
 import { findIcimsIframeSrc, isIcimsUrl, normalizeIcimsUrl } from "@/modules/ats/shared/icims";
@@ -144,7 +144,7 @@ interface IcimsPageResponse {
   pageUrl: URL;
 }
 
-export class IcimsFetcher extends ATSFetcher<IcimsJob> {
+export class IcimsFetcher extends Employer<IcimsJob> {
   readonly ats = "icims" as const;
 
   companyKeyFromUrl(url: URL): string {
@@ -276,6 +276,11 @@ export class IcimsFetcher extends ATSFetcher<IcimsJob> {
     }
 
     return allJobs;
+  }
+
+  async fetchJD(url: string, signal: AbortSignal) {
+    const { fetchIcimsJD } = await import("@/modules/ats/detail/icims");
+    return fetchIcimsJD(url, signal);
   }
 }
 

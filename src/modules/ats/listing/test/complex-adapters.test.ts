@@ -9,7 +9,7 @@ vi.mock("../../core/filter", async (importOriginal) => {
 
 import type { Company } from "@/types";
 
-import { ATSFetcher } from "../../core/fetcher";
+import { Employer } from "../../core/fetcher";
 import { icimsFetcher } from "../icims";
 import { phenomFetcher } from "../phenom";
 import { radancyFetcher } from "../radancy";
@@ -36,10 +36,10 @@ describe("complex ATS adapters", () => {
   });
 
   it("exposes stateless singleton fetchers through the common contract", () => {
-    expect(workdayFetcher).toBeInstanceOf(ATSFetcher);
-    expect(icimsFetcher).toBeInstanceOf(ATSFetcher);
-    expect(phenomFetcher).toBeInstanceOf(ATSFetcher);
-    expect(radancyFetcher).toBeInstanceOf(ATSFetcher);
+    expect(workdayFetcher).toBeInstanceOf(Employer);
+    expect(icimsFetcher).toBeInstanceOf(Employer);
+    expect(phenomFetcher).toBeInstanceOf(Employer);
+    expect(radancyFetcher).toBeInstanceOf(Employer);
     expect(Object.keys(workdayFetcher)).toEqual(["ats"]);
     expect(Object.keys(icimsFetcher)).toEqual(["ats"]);
     expect(Object.keys(phenomFetcher)).toEqual(["ats"]);

@@ -4,7 +4,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { ATSFetcher } from "../core/fetcher";
+import { Employer } from "../core/fetcher";
 import { isTarget } from "../core/filter";
 
 import {
@@ -75,7 +75,7 @@ function createRadancyRequestBody(page: number) {
   };
 }
 
-export class RadancyFetcher extends ATSFetcher<RadancyJob> {
+export class RadancyFetcher extends Employer<RadancyJob> {
   readonly ats = "radancy" as const;
 
   companyKeyFromUrl(url: URL): string {
@@ -183,6 +183,11 @@ export class RadancyFetcher extends ATSFetcher<RadancyJob> {
 
       return [];
     }
+  }
+
+  async fetchJD(url: string, signal: AbortSignal) {
+    const { fetchCustomJD } = await import("@/modules/ats/detail/custom");
+    return fetchCustomJD(url, signal);
   }
 }
 

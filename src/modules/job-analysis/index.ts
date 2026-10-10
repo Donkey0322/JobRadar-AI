@@ -9,17 +9,10 @@ import type { JD, Job } from "@/types/jobs";
 import analyzeJD, { analyzeQualifications } from "./ai";
 import { parseAIJDResult, parseQualificationResult } from "./response";
 
-import { classifyATS } from "@/modules/ats/core/classifier";
+import { classifyATS, employers } from "@/modules/ats/core";
 import { isNotifyCandidate } from "@/modules/ats/core/filter";
 import {
-  fetchAshbyJD,
   fetchCustomJD,
-  fetchEightfoldJD,
-  fetchGreenhouseJD,
-  fetchIcimsJD,
-  fetchOracleJD,
-  fetchSmartRecruitersJD,
-  fetchWorkdayJD,
   isRetryableJDFetch,
   JD_FETCH_ERROR,
   JD_FETCH_OK,
@@ -82,6 +75,28 @@ export function isEligibleJD(jd: JD) {
   return [true, null];
 }
 
+export function decideNotification(role: string, jd: JD) {
+  const [eligible, reason] = isEligibleJD(jd);
+
+  if (!eligible) {
+    return {
+      action: "skip" as const,
+      kind: "ineligible" as const,
+      reason: typeof reason === "string" ? reason : null,
+    };
+  }
+
+  if (!isNotifyCandidate(role)) {
+    return {
+      action: "skip" as const,
+      kind: "dashboard" as const,
+      reason: null,
+    };
+  }
+
+  return { action: "notify" as const, kind: null, reason: null };
+}
+
 export function needsQualificationExtraction(jd: JD, role?: string) {
   if (jd.qualifications != null) {
     return false;
@@ -128,40 +143,13 @@ function finishRawJD(result: JDFetchResult): JDFetchResult {
 
 const HTML_JD_SOURCES = new Set<ATS>(["custom", "lever", "phenom", "radancy"]);
 
-async function fetchAtsJD(ats: ATS, url: string, signal: AbortSignal): Promise<JDFetchResult> {
-  switch (ats) {
-    case "ashby":
-      return fetchAshbyJD(url, signal);
-    case "eightfold":
-      return fetchEightfoldJD(url, signal);
-    case "greenhouse":
-      return fetchGreenhouseJD(url, signal);
-    case "icims":
-      return fetchIcimsJD(url, signal);
-    case "oraclecloud":
-      return fetchOracleJD(url, signal);
-    case "smartrecruiters":
-      return fetchSmartRecruitersJD(url, signal);
-    case "workday":
-      return fetchWorkdayJD(url, signal);
-    case "lever":
-    case "phenom":
-    case "radancy":
-    case "custom":
-      return fetchCustomJD(url, signal);
-    default:
-      ats satisfies never;
-      return fetchCustomJD(url, signal);
-  }
-}
-
 export async function getRawJD(
   url: string,
   signal: AbortSignal = ABORT_SIGNAL
 ): Promise<JDFetchResult> {
   try {
     const ats = classifyATS(new URL(url));
-    const result = finishRawJD(await fetchAtsJD(ats, url, signal));
+    const result = finishRawJD(await employers[ats].fetchJD(url, signal));
 
     if (result.jd || HTML_JD_SOURCES.has(ats) || isRetryableJDFetch(result.error)) {
       return result;

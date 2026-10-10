@@ -5,7 +5,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { ATSFetcher } from "../core/fetcher";
+import { Employer } from "../core/fetcher";
 import { isTarget, withinDays } from "../core/filter";
 
 import { appendErrorLog } from "@/utils/data";
@@ -26,7 +26,7 @@ export const SmartRecruitersResponseSchema = z.object({
   content: z.array(SmartRecruitersJobSchema),
 });
 
-export class SmartRecruitersFetcher extends ATSFetcher<SmartRecruitersJob> {
+export class SmartRecruitersFetcher extends Employer<SmartRecruitersJob> {
   readonly ats = "smartrecruiters" as const;
 
   companyKeyFromUrl(url: URL): string {
@@ -133,6 +133,11 @@ export class SmartRecruitersFetcher extends ATSFetcher<SmartRecruitersJob> {
 
       return [];
     }
+  }
+
+  async fetchJD(url: string, signal: AbortSignal) {
+    const { fetchSmartRecruitersJD } = await import("@/modules/ats/detail/smart");
+    return fetchSmartRecruitersJD(url, signal);
   }
 }
 

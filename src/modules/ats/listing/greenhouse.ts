@@ -6,7 +6,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { ATSFetcher } from "../core/fetcher";
+import { Employer } from "../core/fetcher";
 import { isTarget, withinDays } from "../core/filter";
 
 import { appendErrorLog } from "@/utils/data";
@@ -75,7 +75,7 @@ export const GreenhouseResponseSchema = z.object({
   jobs: z.array(GreenhouseJobSchema),
 });
 
-export class GreenhouseFetcher extends ATSFetcher<GreenhouseJob> {
+export class GreenhouseFetcher extends Employer<GreenhouseJob> {
   readonly ats = "greenhouse" as const;
 
   companyKeyFromUrl(url: URL): string {
@@ -307,6 +307,11 @@ export class GreenhouseFetcher extends ATSFetcher<GreenhouseJob> {
     } catch {
       return null;
     }
+  }
+
+  async fetchJD(url: string, signal: AbortSignal) {
+    const { fetchGreenhouseJD } = await import("@/modules/ats/detail/greenhouse");
+    return fetchGreenhouseJD(url, signal);
   }
 }
 

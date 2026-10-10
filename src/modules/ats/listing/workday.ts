@@ -4,7 +4,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { ATSFetcher } from "../core/fetcher";
+import { Employer } from "../core/fetcher";
 import { isTarget } from "../core/filter";
 
 import { isWorkdayLocaleSegment } from "@/modules/ats/shared/workday";
@@ -34,7 +34,7 @@ const WorkdayResponseSchema = z.object({
   jobPostings: z.array(z.unknown()),
 });
 
-export class WorkdayFetcher extends ATSFetcher<WorkdayJob> {
+export class WorkdayFetcher extends Employer<WorkdayJob> {
   readonly ats = "workday" as const;
 
   companyKeyFromUrl(url: URL): string {
@@ -306,6 +306,11 @@ export class WorkdayFetcher extends ATSFetcher<WorkdayJob> {
 
       return recentOnly ? null : results.length > 0 ? results : null;
     }
+  }
+
+  async fetchJD(url: string, signal: AbortSignal) {
+    const { fetchWorkdayJD } = await import("@/modules/ats/detail/workday");
+    return fetchWorkdayJD(url, signal);
   }
 }
 

@@ -4,7 +4,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { ATSFetcher } from "../core/fetcher";
+import { Employer } from "../core/fetcher";
 import { isTarget, withinDays } from "../core/filter";
 
 import { appendErrorLog } from "@/utils/data";
@@ -114,7 +114,7 @@ const composeUrl = (company: Company, id: string) => {
   return `${company.domain}/${id}`;
 };
 
-export class OracleCloudFetcher extends ATSFetcher<OracleCloudJob> {
+export class OracleCloudFetcher extends Employer<OracleCloudJob> {
   readonly ats = "oraclecloud" as const;
 
   companyKeyFromUrl(url: URL): string {
@@ -235,6 +235,11 @@ export class OracleCloudFetcher extends ATSFetcher<OracleCloudJob> {
 
       return [];
     }
+  }
+
+  async fetchJD(url: string, signal: AbortSignal) {
+    const { fetchOracleJD } = await import("@/modules/ats/detail/oraclecloud");
+    return fetchOracleJD(url, signal);
   }
 }
 

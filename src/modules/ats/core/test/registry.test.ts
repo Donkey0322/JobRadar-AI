@@ -32,12 +32,11 @@ import { phenomFetcher } from "../../listing/phenom";
 import { radancyFetcher } from "../../listing/radancy";
 import { smartRecruitersFetcher } from "../../listing/smart";
 import { workdayFetcher } from "../../listing/workday";
-import { ATSFetcher } from "../fetcher";
-import { atsFetchers, getATSFetcher } from "../registry";
+import { Employer } from "../fetcher";
+import { employers } from "../registry";
 
 import { buildCompanyList } from "@/modules/job-discovery/company";
-import discoverJobs, { fetchJobs } from "@/modules/job-discovery/fetch";
-import { toJobKeySet } from "@/utils/job-key";
+import discoverJobs from "@/modules/job-discovery/fetch";
 
 const allATS = [
   "ashby",
@@ -61,8 +60,8 @@ describe("ATS fetcher registry", () => {
   });
 
   it("contains every ATS exactly once and returns its singleton", () => {
-    expect(Object.keys(atsFetchers).sort()).toEqual([...allATS].sort());
-    expect(atsFetchers).toEqual({
+    expect(Object.keys(employers).sort()).toEqual([...allATS].sort());
+    expect(employers).toEqual({
       ashby: ashbyFetcher,
       eightfold: eightfoldFetcher,
       greenhouse: greenhouseFetcher,
@@ -77,14 +76,15 @@ describe("ATS fetcher registry", () => {
     });
 
     for (const ats of allATS) {
-      const fetcher = getATSFetcher(ats);
+      const fetcher = employers[ats];
       const prototype = Object.getPrototypeOf(fetcher) as object;
 
-      expect(fetcher).toBe(atsFetchers[ats]);
-      expect(fetcher).toBeInstanceOf(ATSFetcher);
+      expect(fetcher).toBe(employers[ats]);
+      expect(fetcher).toBeInstanceOf(Employer);
       expect(fetcher.ats).toBe(ats);
       expect(Object.keys(fetcher)).toEqual(["ats"]);
       expect(prototype).toHaveProperty("companyKeyFromUrl", expect.any(Function));
+      expect(prototype).toHaveProperty("fetchJD", expect.any(Function));
       expect(prototype).toHaveProperty("getJobsFromResponse", expect.any(Function));
       expect(prototype).toHaveProperty("getJobLink", expect.any(Function));
       expect(prototype).toHaveProperty("normalizeJob", expect.any(Function));
@@ -216,29 +216,6 @@ describe("ATS fetcher registry", () => {
     );
   });
 
-  it("dispatches fetches and retains final job-key deduplication", async () => {
-    const company: Company = {
-      name: "acme",
-      ats: "lever",
-      identifier: "acme",
-      domain: "https://jobs.lever.co",
-      page: "https://api.lever.co/v0/postings/acme",
-      urls: [],
-    };
-    const existing = "https://jobs.lever.co/acme/known";
-    const discovered = "https://jobs.lever.co/acme/new";
-    const fetch = vi.spyOn(leverFetcher, "fetch").mockResolvedValue([
-      { company: "Acme", role: "Known", link: existing, location: "Remote" },
-      { company: "Acme", role: "New", link: discovered, location: "Remote" },
-    ]);
-    const knownKeys = toJobKeySet([existing]);
-
-    await expect(fetchJobs(company, knownKeys)).resolves.toEqual([
-      { company: "Acme", role: "New", link: discovered, location: "Remote" },
-    ]);
-    expect(fetch).toHaveBeenCalledWith(company, knownKeys, expect.any(AbortSignal));
-  });
-
   it("converts company URLs to keys before dispatching an adapter", async () => {
     const existing = "https://jobs.lever.co/acme/known";
     const company: Company = {
@@ -250,10 +227,19 @@ describe("ATS fetcher registry", () => {
       urls: [existing],
     };
     dataMocks.loadCompanies.mockResolvedValue([company]);
-    const fetch = vi.spyOn(leverFetcher, "fetch").mockResolvedValue([]);
+    const fetch = vi.spyOn(Object.getPrototypeOf(leverFetcher), "fetch").mockResolvedValue([]);
 
     await expect(discoverJobs()).resolves.toEqual([]);
 
-    expect(fetch).toHaveBeenCalledWith(company, new Set(["lever:known"]), expect.any(AbortSignal));
+    expect(fetch).toHaveBeenCalledWith(
+      expect.objectContaining({
+        name: "acme",
+        ats: "lever",
+        identifier: "acme",
+        urls: [existing],
+      }),
+      new Set(["lever:known"]),
+      expect.any(AbortSignal)
+    );
   });
 });

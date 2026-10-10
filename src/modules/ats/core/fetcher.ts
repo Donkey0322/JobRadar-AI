@@ -1,34 +1,90 @@
+import type { JDFetchResult } from "../detail/fetch";
 import type { ATS } from "../type";
 import type { Company, Job } from "@/types";
 
-import { getJobKey, isKnownJob } from "@/utils/job-key";
+import { getJobKey, isKnownJob, toJobKeySet } from "@/utils/job-key";
 
 export type CompanyResult = Company | null;
 export type MaybePromise<T> = T | Promise<T>;
 
-export interface ATSAdapter {
-  readonly ats: ATS;
+const FETCH_TIMEOUT = 20_000;
+const LEVER_TIMEOUT = 60_000;
 
-  /**
-   * Sync grouping key for URLs that resolve to the same company.
-   * Must not perform network I/O. Prefer `${ats}:${identifier}` when known.
-   */
-  companyKeyFromUrl(url: URL): string;
+export function identityKey(
+  company: Pick<Company, "ats" | "identifier" | "domain" | "page">
+): string {
+  if (company.identifier) {
+    return `${company.ats}:${company.identifier}`;
+  }
 
-  formCompany(url: URL): MaybePromise<CompanyResult>;
-
-  fetch(company: Company, knownKeys: ReadonlySet<string>, signal: AbortSignal): Promise<Job[]>;
+  return `${company.ats}:${company.domain}:${company.page}`;
 }
 
 /**
- * Common contract implemented by every ATS adapter.
+ * One employer on a job board.
  *
- * Instances are stateless singletons. Fetch orchestration and response
- * handling remain adapter-specific because APIs differ in pagination,
- * authentication, response format, and stopping rules.
+ * The subclass is the board (Greenhouse, Lever, …). A row from `company.json`
+ * is constructed with that subclass so `getJobs()` uses the matching fetch.
+ * URL-only helpers (`companyKeyFromUrl`, `formCompany`, `fetchJD`) stay on the
+ * shared instance because no employer exists yet.
  */
-export abstract class ATSFetcher<TJob> {
+export abstract class Employer<TJob = unknown> {
   abstract readonly ats: ATS;
+
+  #data?: Company;
+
+  constructor(data?: Company) {
+    if (!data) {
+      return;
+    }
+
+    this.#data = {
+      name: data.name,
+      ats: data.ats,
+      identifier: data.identifier,
+      domain: data.domain,
+      page: data.page,
+      urls: data.urls ?? [],
+    };
+  }
+
+  get name() {
+    return this.#data?.name ?? "";
+  }
+
+  get identifier() {
+    return this.#data?.identifier ?? "";
+  }
+
+  get domain() {
+    return this.#data?.domain ?? "";
+  }
+
+  get page() {
+    return this.#data?.page ?? "";
+  }
+
+  get urls() {
+    return this.#data?.urls ?? [];
+  }
+
+  key(): string {
+    return identityKey(this);
+  }
+
+  async getJobs(): Promise<Job[]> {
+    const knownKeys = toJobKeySet(this.urls ?? []);
+    const timeout = this.ats === "lever" ? LEVER_TIMEOUT : FETCH_TIMEOUT;
+    const signal = AbortSignal.timeout(timeout);
+    const jobs = await this.fetch(this, knownKeys, signal);
+
+    return jobs.filter((job) => !isKnownJob(job.link, knownKeys));
+  }
+
+  /** Job keys currently on this company's board, unfiltered. */
+  async listedKeys(signal: AbortSignal): Promise<Set<string> | null> {
+    return this.listJobKeys(this, signal);
+  }
 
   abstract companyKeyFromUrl(url: URL): string;
 
@@ -54,6 +110,9 @@ export abstract class ATSFetcher<TJob> {
     knownKeys: ReadonlySet<string>,
     signal: AbortSignal
   ): Promise<Job[]>;
+
+  /** Job description for one posting URL. */
+  abstract fetchJD(url: string, signal: AbortSignal): Promise<JDFetchResult>;
 
   /**
    * Job keys currently advertised on `company.page`, unfiltered.

@@ -1,5 +1,6 @@
 import type { ATS } from "../type";
-import type { ATSFetcher } from "./fetcher";
+import type { Employer } from "./fetcher";
+import type { Company } from "@/types";
 
 import { ashbyFetcher } from "../listing/ashby";
 import { customFetcher } from "../listing/custom";
@@ -13,7 +14,7 @@ import { radancyFetcher } from "../listing/radancy";
 import { smartRecruitersFetcher } from "../listing/smart";
 import { workdayFetcher } from "../listing/workday";
 
-export const atsFetchers = {
+export const employers = {
   ashby: ashbyFetcher,
   eightfold: eightfoldFetcher,
   greenhouse: greenhouseFetcher,
@@ -25,8 +26,9 @@ export const atsFetchers = {
   smartrecruiters: smartRecruitersFetcher,
   workday: workdayFetcher,
   custom: customFetcher,
-} satisfies Record<ATS, ATSFetcher<unknown>>;
+} satisfies Record<ATS, Employer<unknown>>;
 
-export function getATSFetcher(ats: ATS): ATSFetcher<unknown> {
-  return atsFetchers[ats];
+export function asEmployer(company: Company): Employer {
+  const Board = employers[company.ats].constructor as new (company?: Company) => Employer;
+  return new Board(company);
 }

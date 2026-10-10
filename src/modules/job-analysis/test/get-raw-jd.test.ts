@@ -1,17 +1,13 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 
-const fetchAshbyJDMock = vi.hoisted(() => vi.fn());
 const fetchCustomJDMock = vi.hoisted(() => vi.fn());
-const fetchGreenhouseJDMock = vi.hoisted(() => vi.fn());
 const loggerWarnMock = vi.hoisted(() => vi.fn());
 
 vi.mock("@/modules/ats/detail", async (importOriginal) => {
   const actual = (await importOriginal()) as Record<string, unknown>;
   return {
     ...actual,
-    fetchAshbyJD: fetchAshbyJDMock,
     fetchCustomJD: fetchCustomJDMock,
-    fetchGreenhouseJD: fetchGreenhouseJDMock,
   };
 });
 
@@ -22,6 +18,13 @@ vi.mock("@/utils/logger", () => ({
 import { getRawJD } from "../index";
 
 import { HttpStatusCode, JD_FETCH_ERROR, JD_FETCH_OK } from "@/modules/ats/detail";
+import { ashbyFetcher } from "@/modules/ats/listing/ashby";
+import { customFetcher } from "@/modules/ats/listing/custom";
+import { greenhouseFetcher } from "@/modules/ats/listing/greenhouse";
+
+const ashbyJD = vi.spyOn(ashbyFetcher, "fetchJD");
+const greenhouseJD = vi.spyOn(greenhouseFetcher, "fetchJD");
+const customJD = vi.spyOn(customFetcher, "fetchJD");
 
 const ASHBY_URL =
   "https://jobs.ashbyhq.com/whatnot/928ffdca-b316-40ce-b82b-94b570919bcd/application?embed=true";
@@ -30,14 +33,15 @@ const GREENHOUSE_URL = "https://boards.greenhouse.io/acme/jobs/123";
 
 describe("getRawJD", () => {
   beforeEach(() => {
-    fetchAshbyJDMock.mockReset();
+    ashbyJD.mockReset();
+    greenhouseJD.mockReset();
+    customJD.mockReset();
     fetchCustomJDMock.mockReset();
-    fetchGreenhouseJDMock.mockReset();
     loggerWarnMock.mockReset();
   });
 
   it("falls back to HTML when an ATS API fetch fails", async () => {
-    fetchAshbyJDMock.mockResolvedValue({
+    ashbyJD.mockResolvedValue({
       jd: null,
       error: JD_FETCH_ERROR.http(HttpStatusCode.NOT_FOUND, "Not Found"),
     });
@@ -50,7 +54,7 @@ describe("getRawJD", () => {
 
     expect(result.jd).toContain("Software Engineer Intern");
     expect(result.error).toEqual(JD_FETCH_OK);
-    expect(fetchAshbyJDMock).toHaveBeenCalledOnce();
+    expect(ashbyJD).toHaveBeenCalledOnce();
     expect(fetchCustomJDMock).toHaveBeenCalledOnce();
     expect(loggerWarnMock).toHaveBeenCalledWith(
       expect.objectContaining({
@@ -63,7 +67,7 @@ describe("getRawJD", () => {
   });
 
   it("does not fetch HTML when the ATS API already returned a JD", async () => {
-    fetchAshbyJDMock.mockResolvedValue({
+    ashbyJD.mockResolvedValue({
       jd: '{"title":"Software Engineer Intern"}',
       error: JD_FETCH_OK,
     });
@@ -76,7 +80,7 @@ describe("getRawJD", () => {
   });
 
   it("does not retry HTML for sources that already scrape the job page", async () => {
-    fetchCustomJDMock.mockResolvedValue({
+    customJD.mockResolvedValue({
       jd: null,
       error: JD_FETCH_ERROR.http(HttpStatusCode.FORBIDDEN, "Forbidden"),
     });
@@ -85,12 +89,13 @@ describe("getRawJD", () => {
 
     expect(result.jd).toBeNull();
     expect(result.error.code).toBe(HttpStatusCode.FORBIDDEN);
-    expect(fetchCustomJDMock).toHaveBeenCalledOnce();
+    expect(customJD).toHaveBeenCalledOnce();
+    expect(fetchCustomJDMock).not.toHaveBeenCalled();
     expect(loggerWarnMock).not.toHaveBeenCalled();
   });
 
   it("returns the HTML error when the fallback also fails", async () => {
-    fetchGreenhouseJDMock.mockResolvedValue({
+    greenhouseJD.mockResolvedValue({
       jd: null,
       error: JD_FETCH_ERROR.http(HttpStatusCode.NOT_FOUND, "Not Found"),
     });
@@ -103,12 +108,12 @@ describe("getRawJD", () => {
 
     expect(result.jd).toBeNull();
     expect(result.error.code).toBe(HttpStatusCode.FORBIDDEN);
-    expect(fetchGreenhouseJDMock).toHaveBeenCalledOnce();
+    expect(greenhouseJD).toHaveBeenCalledOnce();
     expect(fetchCustomJDMock).toHaveBeenCalledOnce();
   });
 
   it("does not fall back to HTML on a 429 ATS fetch", async () => {
-    fetchAshbyJDMock.mockResolvedValue({
+    ashbyJD.mockResolvedValue({
       jd: null,
       error: JD_FETCH_ERROR.http(HttpStatusCode.TOO_MANY_REQUESTS, "Too Many Requests"),
     });
@@ -122,7 +127,7 @@ describe("getRawJD", () => {
   });
 
   it("does not fall back to HTML on a network error", async () => {
-    fetchAshbyJDMock.mockResolvedValue({
+    ashbyJD.mockResolvedValue({
       jd: null,
       error: JD_FETCH_ERROR.fetch("socket hang up"),
     });

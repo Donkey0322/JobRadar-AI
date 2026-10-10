@@ -4,7 +4,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { ATSFetcher } from "../core/fetcher";
+import { Employer } from "../core/fetcher";
 import { isTarget, withinDays } from "../core/filter";
 
 import { appendErrorLog } from "@/utils/data";
@@ -20,7 +20,10 @@ const domainMap = {
 
 /** Brand slug from an Eightfold company domain, e.g. microsoft.com → microsoft. */
 function companySlug(domain: string): string {
-  const host = domain.trim().toLowerCase().replace(/^www\./, "");
+  const host = domain
+    .trim()
+    .toLowerCase()
+    .replace(/^www\./, "");
   return host.split(".")[0] || host;
 }
 
@@ -59,7 +62,7 @@ export const EightfoldApplyResponseSchema = z.object({
 const PAGE_SIZE = 10;
 const MAX_PAGES = 200;
 
-export class EightfoldFetcher extends ATSFetcher<EightfoldJob> {
+export class EightfoldFetcher extends Employer<EightfoldJob> {
   readonly ats = "eightfold" as const;
 
   companyKeyFromUrl(url: URL): string {
@@ -293,6 +296,11 @@ export class EightfoldFetcher extends ATSFetcher<EightfoldJob> {
       );
       return [];
     }
+  }
+
+  async fetchJD(url: string, signal: AbortSignal) {
+    const { fetchEightfoldJD } = await import("@/modules/ats/detail/eightfold");
+    return fetchEightfoldJD(url, signal);
   }
 }
 

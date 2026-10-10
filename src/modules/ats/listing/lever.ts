@@ -4,7 +4,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { ATSFetcher } from "../core/fetcher";
+import { Employer } from "../core/fetcher";
 import { isTarget, withinDays } from "../core/filter";
 
 import { appendErrorLog } from "@/utils/data";
@@ -26,7 +26,7 @@ export type LeverJob = z.infer<typeof LeverJobSchema>;
 
 export const LeverResponseSchema = z.array(LeverJobSchema);
 
-export class LeverFetcher extends ATSFetcher<LeverJob> {
+export class LeverFetcher extends Employer<LeverJob> {
   readonly ats = "lever" as const;
 
   companyKeyFromUrl(url: URL): string {
@@ -138,6 +138,11 @@ export class LeverFetcher extends ATSFetcher<LeverJob> {
 
       return [];
     }
+  }
+
+  async fetchJD(url: string, signal: AbortSignal) {
+    const { fetchCustomJD } = await import("@/modules/ats/detail/custom");
+    return fetchCustomJD(url, signal);
   }
 }
 

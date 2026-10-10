@@ -7,7 +7,7 @@ vi.mock("../../core/filter", () => ({
 
 import type { Company } from "@/types";
 
-import { ATSFetcher } from "../../core/fetcher";
+import { Employer } from "../../core/fetcher";
 import { ashbyFetcher } from "../ashby";
 import { eightfoldFetcher } from "../eightfold";
 import { greenhouseFetcher } from "../greenhouse";
@@ -25,27 +25,27 @@ function jsonResponse(data: unknown): Response {
   });
 }
 
-describe("ATSFetcher pilot adapters", () => {
+describe("Company adapters", () => {
   beforeEach(() => {
     mockFetch.mockReset();
     vi.stubGlobal("fetch", mockFetch);
   });
 
   it("exposes Greenhouse and Eightfold through the common base contract", () => {
-    expect(greenhouseFetcher).toBeInstanceOf(ATSFetcher);
+    expect(greenhouseFetcher).toBeInstanceOf(Employer);
     expect(greenhouseFetcher.ats).toBe("greenhouse");
-    expect(eightfoldFetcher).toBeInstanceOf(ATSFetcher);
+    expect(eightfoldFetcher).toBeInstanceOf(Employer);
     expect(eightfoldFetcher.ats).toBe("eightfold");
   });
 
   it("exposes the simple adapters through the common base contract", () => {
-    expect(ashbyFetcher).toBeInstanceOf(ATSFetcher);
+    expect(ashbyFetcher).toBeInstanceOf(Employer);
     expect(ashbyFetcher.ats).toBe("ashby");
-    expect(leverFetcher).toBeInstanceOf(ATSFetcher);
+    expect(leverFetcher).toBeInstanceOf(Employer);
     expect(leverFetcher.ats).toBe("lever");
-    expect(oracleCloudFetcher).toBeInstanceOf(ATSFetcher);
+    expect(oracleCloudFetcher).toBeInstanceOf(Employer);
     expect(oracleCloudFetcher.ats).toBe("oraclecloud");
-    expect(smartRecruitersFetcher).toBeInstanceOf(ATSFetcher);
+    expect(smartRecruitersFetcher).toBeInstanceOf(Employer);
     expect(smartRecruitersFetcher.ats).toBe("smartrecruiters");
   });
 

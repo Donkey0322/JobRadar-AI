@@ -4,7 +4,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { ATSFetcher } from "@/modules/ats/core/fetcher";
+import { Employer } from "@/modules/ats/core/fetcher";
 import { isTarget, withinDays } from "@/modules/ats/core/filter";
 import { decodeHtmlEntities } from "@/utils/html";
 import { fetchHtmlResponse, getSetCookieHeader, isAbortError, isHtmlResponse } from "@/utils/http";
@@ -610,7 +610,7 @@ function getPhenomJobLocation(job: PhenomJob): string {
   return job.location ?? job.cityStateCountry ?? job.cityState ?? job.city ?? "";
 }
 
-export class PhenomFetcher extends ATSFetcher<PhenomJob> {
+export class PhenomFetcher extends Employer<PhenomJob> {
   readonly ats = "phenom" as const;
 
   companyKeyFromUrl(url: URL): string {
@@ -731,6 +731,11 @@ export class PhenomFetcher extends ATSFetcher<PhenomJob> {
 
       return [];
     }
+  }
+
+  async fetchJD(url: string, signal: AbortSignal) {
+    const { fetchCustomJD } = await import("@/modules/ats/detail/custom");
+    return fetchCustomJD(url, signal);
   }
 }
 

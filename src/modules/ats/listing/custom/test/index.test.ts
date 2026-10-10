@@ -2,7 +2,7 @@ import { beforeEach, describe, expect, it, vi } from "vitest";
 
 import type { Job } from "@/types";
 
-import { ATSFetcher } from "../../../core/fetcher";
+import { Employer } from "../../../core/fetcher";
 
 const { fetchAmazonMock } = vi.hoisted(() => ({
   fetchAmazonMock: vi.fn(),
@@ -42,7 +42,7 @@ describe("CustomFetcher", () => {
 
     fetchAmazonMock.mockResolvedValueOnce(jobs);
 
-    expect(customFetcher).toBeInstanceOf(ATSFetcher);
+    expect(customFetcher).toBeInstanceOf(Employer);
     expect(customFetcher.ats).toBe("custom");
     expect(company.identifier).toBe("amazon");
     await expect(customFetcher.fetch(company, urls, signal)).resolves.toBe(jobs);

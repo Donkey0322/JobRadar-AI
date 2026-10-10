@@ -5,8 +5,8 @@ import { RED_CROSS } from "@/constants/log";
 import type { Job } from "@/types";
 import type { JD, Opportunity } from "@/types/jobs";
 
-import { isNotifyCandidate, shouldBatchAnalyze } from "@/modules/ats/core/filter";
-import getJD, { isEligibleJD } from "@/modules/job-analysis";
+import { shouldBatchAnalyze } from "@/modules/ats/core/filter";
+import getJD, { decideNotification } from "@/modules/job-analysis";
 import { enqueueBatchJobs } from "@/modules/job-analysis/batch-queue";
 import { buildCompanyList } from "@/modules/job-discovery/company";
 import { loadJobs, loadOpportunities, loadUrls, saveOpportunities } from "@/utils/data";
@@ -270,9 +270,9 @@ export async function processJobs({
     job.jd = jd;
     totalCost += cost;
 
-    const [eligible, reason] = isEligibleJD(jd);
+    const decision = decideNotification(job.role, jd);
 
-    if (!eligible) {
+    if (decision.action === "skip" && decision.kind === "ineligible") {
       markAsSeen(job);
       skipped += 1;
 
@@ -281,7 +281,7 @@ export async function processJobs({
           company: job.company,
           role: job.role,
           url: job.link,
-          reason,
+          reason: decision.reason,
         },
         "⏭️ Skipped by eligibility filter"
       );
@@ -289,7 +289,7 @@ export async function processJobs({
       continue;
     }
 
-    if (!isNotifyCandidate(job.role)) {
+    if (decision.action === "skip") {
       markAsSeen(job);
       skipped += 1;
 
@@ -372,9 +372,7 @@ export async function processJobs({
   };
 }
 
-export async function persistAnalyzedJobs(
-  analyzed: Array<{ job: Job; jd: JD; cost: number }>
-) {
+export async function persistAnalyzedJobs(analyzed: Array<{ job: Job; jd: JD; cost: number }>) {
   if (analyzed.length === 0) {
     return {
       jobs: [] as Job[],
@@ -429,9 +427,9 @@ export async function persistAnalyzedJobs(
     job.jd = item.jd;
     totalCost += item.cost;
 
-    const [eligible, reason] = isEligibleJD(item.jd);
+    const decision = decideNotification(job.role, item.jd);
 
-    if (!eligible) {
+    if (decision.action === "skip" && decision.kind === "ineligible") {
       markAsSeen(job);
       skipped += 1;
 
@@ -440,14 +438,14 @@ export async function persistAnalyzedJobs(
           company: job.company,
           role: job.role,
           url: job.link,
-          reason,
+          reason: decision.reason,
         },
         "⏭️ Skipped by eligibility filter"
       );
       continue;
     }
 
-    if (!isNotifyCandidate(job.role)) {
+    if (decision.action === "skip") {
       markAsSeen(job);
       skipped += 1;
 

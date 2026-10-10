@@ -3,7 +3,8 @@ import { URL } from "url";
 
 import type { Company } from "@/types";
 
-import { classifyATS, getATSFetcher } from "@/modules/ats/core";
+import { classifyATS, employers } from "@/modules/ats/core";
+import { identityKey } from "@/modules/ats/core/fetcher";
 import { loadCompanies, saveCompanies } from "@/utils/data";
 import { renderProgress, startProgress } from "@/utils/dev";
 import { logger } from "@/utils/logger";
@@ -11,11 +12,7 @@ import { logger } from "@/utils/logger";
 const CONCURRENCY = 10;
 
 export function getCompanyKey(company: Company): string {
-  if (company.identifier) {
-    return `${company.ats}:${company.identifier}`;
-  }
-
-  return `${company.ats}:${company.domain}:${company.page}`;
+  return identityKey(company);
 }
 
 async function resolveExistingCompany(
@@ -32,7 +29,7 @@ async function resolveExistingCompany(
 
   try {
     const url = new URL(representative);
-    const fetcher = getATSFetcher(classifyATS(url));
+    const fetcher = employers[classifyATS(url)];
     const resolvedKey = fetcher.companyKeyFromUrl(url);
 
     if (resolvedKey === existingKey) {
@@ -60,7 +57,7 @@ export function groupUrlsByCompanyKey(urls: string[]): Map<string, string[]> {
     try {
       const url = new URL(urlStr);
       const ats = classifyATS(url);
-      key = getATSFetcher(ats).companyKeyFromUrl(url);
+      key = employers[ats].companyKeyFromUrl(url);
     } catch (err) {
       logger.warn({ url: urlStr, err }, "Failed to derive company key from URL");
       key = `unkeyed:${urlStr}`;
@@ -87,7 +84,7 @@ async function formCompanyFromGroup(
   try {
     const url = new URL(representative);
     const ats = classifyATS(url);
-    const company = await getATSFetcher(ats).formCompany(url);
+    const company = await employers[ats].formCompany(url);
 
     if (!company) {
       return { groupKey, company: null };

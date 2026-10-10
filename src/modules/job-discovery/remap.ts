@@ -2,7 +2,7 @@ import type { Company } from "@/types";
 
 import { getCompanyKey } from "./company";
 
-import { classifyATS, getATSFetcher } from "@/modules/ats/core";
+import { classifyATS, employers } from "@/modules/ats/core";
 import { loadJobsInFileOrder, loadOpportunities, saveJob, saveOpportunities } from "@/utils/data";
 import { capitalize } from "@/utils/string";
 import { getHostnameWithoutWww } from "@/utils/url";
@@ -28,7 +28,7 @@ function remapRecord<T extends { company: string; link: string }>(
 ): T {
   try {
     const url = new URL(record.link);
-    const company = companiesByKey.get(getATSFetcher(classifyATS(url)).companyKeyFromUrl(url));
+    const company = companiesByKey.get(employers[classifyATS(url)].companyKeyFromUrl(url));
 
     if (!company) {
       return record;

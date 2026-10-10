@@ -1,40 +1,17 @@
 import pLimit from "p-limit";
 
-import type { Company, Job } from "@/types";
-
-import { getATSFetcher } from "@/modules/ats/core";
+import { asEmployer } from "@/modules/ats/core/registry";
 import { loadCompanies } from "@/utils/data";
 import { renderProgress, startProgress } from "@/utils/dev";
-import { deduplicateJobs, isKnownJob, toJobKeySet } from "@/utils/job-key";
+import { deduplicateJobs } from "@/utils/job-key";
 import { logger } from "@/utils/logger";
 
 const limit = pLimit(10);
 
-const FETCH_TIMEOUT = 20_000;
-const LEVER_TIMEOUT = 60_000;
-
 const SLOW_THRESHOLD = 10_000;
 
-export async function fetchJobs(company: Company, knownKeys: ReadonlySet<string>): Promise<Job[]> {
-  const timeout = company.ats === "lever" ? LEVER_TIMEOUT : FETCH_TIMEOUT;
-  const signal = AbortSignal.timeout(timeout);
-
-  const jobs = await getATSFetcher(company.ats).fetch(company, knownKeys, signal);
-
-  return jobs.filter((job) => !isKnownJob(job.link, knownKeys));
-}
-
 export default async function discoverJobs() {
-  const companies = await loadCompanies();
-
-  const companyKeys: Record<string, Set<string>> = companies.reduce(
-    (acc, company) => {
-      acc[`${company.ats}:${company.identifier}`] = toJobKeySet(company.urls);
-
-      return acc;
-    },
-    {} as Record<string, Set<string>>
-  );
+  const companies = (await loadCompanies()).map((company) => asEmployer(company));
 
   const total = companies.length;
 
@@ -60,12 +37,10 @@ export default async function discoverJobs() {
   const results = await Promise.all(
     companies.map((company) =>
       limit(async () => {
-        const key = `${company.ats}:${company.identifier}`;
-
         const start = Date.now();
 
         try {
-          const jobs = await fetchJobs(company, companyKeys[key]);
+          const jobs = await company.getJobs();
 
           const duration = Date.now() - start;
 
