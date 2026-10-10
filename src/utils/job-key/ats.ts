@@ -1,6 +1,6 @@
 import { getLastPathNumber } from "./url";
 
-import { parseCustomCompanyIdentifier } from "@/modules/ats/listing/custom/identifier";
+import { parseCustomCompanyIdentifier } from "@/modules/employer/listing/custom/identifier";
 
 function toATSKey(vendor: string, id: string | null | undefined): string | null {
   return id ? `${vendor}:${id}` : null;

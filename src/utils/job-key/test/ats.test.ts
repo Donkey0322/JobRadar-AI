@@ -13,7 +13,7 @@ import {
   getWorkdayKey,
 } from "../ats";
 
-import { CUSTOM_COMPANY_DOMAINS, parseCustomCompanyIdentifier } from "@/modules/ats/listing";
+import { CUSTOM_COMPANY_DOMAINS, parseCustomCompanyIdentifier } from "@/modules/employer/listing";
 
 describe.each(Object.entries(CUSTOM_COMPANY_DOMAINS))(
   "custom company matcher: %s",

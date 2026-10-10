@@ -3,7 +3,7 @@ import { beforeEach, describe, expect, it, vi } from "vitest";
 import type { Job } from "@/types";
 import type { JD } from "@/types/jobs";
 
-import { HttpStatusCode, JD_FETCH_ERROR, JD_FETCH_OK } from "@/modules/ats/detail";
+import { HttpStatusCode, JD_FETCH_ERROR, JD_FETCH_OK } from "@/modules/employer/detail";
 import { JobCategory } from "@/validation/config";
 
 const dataMocks = vi.hoisted(() => ({
@@ -33,27 +33,27 @@ vi.mock("@/utils/data", async (importOriginal) => {
   };
 });
 
-vi.mock("@/modules/job-analysis", async (importOriginal) => {
-  const actual = await importOriginal<typeof import("@/modules/job-analysis")>();
+vi.mock("@/modules/screen", async (importOriginal) => {
+  const actual = await importOriginal<typeof import("@/modules/screen")>();
   return {
     ...actual,
     default: getJDMock,
   };
 });
 
-vi.mock("@/modules/job-analysis/batch-queue", () => ({
+vi.mock("@/modules/screen/batch", () => ({
   enqueueBatchJobs: enqueueBatchJobsMock,
 }));
 
-vi.mock("@/modules/ats/core/filter", async (importOriginal) => {
-  const actual = await importOriginal<typeof import("@/modules/ats/core/filter")>();
+vi.mock("@/modules/screen/titles", async (importOriginal) => {
+  const actual = await importOriginal<typeof import("@/modules/screen/titles")>();
   return {
     ...actual,
     shouldBatchAnalyze: shouldBatchAnalyzeMock,
   };
 });
 
-vi.mock("@/modules/job-discovery/company", () => ({
+vi.mock("@/modules/employer/build", () => ({
   buildCompanyList: buildCompanyListMock,
 }));
 

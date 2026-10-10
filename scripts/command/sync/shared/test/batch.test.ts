@@ -11,7 +11,7 @@ const loadInflightBatchesMock = vi.hoisted(() => vi.fn());
 const submitQueuedJobsMock = vi.hoisted(() => vi.fn());
 const persistAnalyzedJobsMock = vi.hoisted(() => vi.fn());
 
-vi.mock("@/modules/job-analysis/batch-queue", () => ({
+vi.mock("@/modules/screen/batch", () => ({
   collectInflightBatches: collectInflightBatchesMock,
   loadBatchQueue: loadBatchQueueMock,
   loadInflightBatches: loadInflightBatchesMock,
@@ -108,14 +108,12 @@ describe("processBatchQueue", () => {
   it("persists real-time fallback analysis from submit", async () => {
     const analyzed = [{ job: makeJob(), jd: usaJd, cost: 0.01 }];
     collectInflightBatchesMock.mockResolvedValue({ analyzed: [], remaining: [] });
-    persistAnalyzedJobsMock
-      .mockResolvedValueOnce(emptyPersist)
-      .mockResolvedValueOnce({
-        jobs: analyzed.map(({ job, jd }) => ({ ...job, jd })),
-        count: 1,
-        skipped: 0,
-        totalCost: 0.01,
-      });
+    persistAnalyzedJobsMock.mockResolvedValueOnce(emptyPersist).mockResolvedValueOnce({
+      jobs: analyzed.map(({ job, jd }) => ({ ...job, jd })),
+      count: 1,
+      skipped: 0,
+      totalCost: 0.01,
+    });
     loadBatchQueueMock.mockResolvedValueOnce([makeJob()]).mockResolvedValue([]);
     submitQueuedJobsMock.mockResolvedValue({ submitted: 0, analyzed });
 
@@ -136,18 +134,18 @@ describe("processBatchQueue", () => {
     collectInflightBatchesMock
       .mockResolvedValueOnce({ analyzed: [], remaining: [] })
       .mockResolvedValueOnce({ analyzed, remaining: [], completedDurationMs: 240_000 });
-    persistAnalyzedJobsMock
-      .mockResolvedValueOnce(emptyPersist)
-      .mockResolvedValueOnce({
-        jobs: analyzed.map(({ job, jd }) => ({ ...job, jd })),
-        count: 1,
-        skipped: 0,
-        totalCost: 0.002,
-      });
+    persistAnalyzedJobsMock.mockResolvedValueOnce(emptyPersist).mockResolvedValueOnce({
+      jobs: analyzed.map(({ job, jd }) => ({ ...job, jd })),
+      count: 1,
+      skipped: 0,
+      totalCost: 0.002,
+    });
     loadBatchQueueMock.mockResolvedValueOnce([makeJob()]).mockResolvedValue([]);
     submitQueuedJobsMock.mockResolvedValue({ submitted: 1, analyzed: [] });
     loadInflightBatchesMock
-      .mockResolvedValueOnce([{ name: "batches/abc", submittedAt: "2026-09-02T00:00:00.000Z", jobs: [makeJob()] }])
+      .mockResolvedValueOnce([
+        { name: "batches/abc", submittedAt: "2026-09-02T00:00:00.000Z", jobs: [makeJob()] },
+      ])
       .mockResolvedValue([]);
 
     const result = await processBatchQueue(120_000, { pollIntervalMs: 1, sleep });

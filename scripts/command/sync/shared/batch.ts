@@ -5,7 +5,7 @@ import {
   loadBatchQueue,
   loadInflightBatches,
   submitQueuedJobs,
-} from "@/modules/job-analysis/batch-queue";
+} from "@/modules/screen/batch";
 import { logger } from "@/utils/logger";
 
 export const DEFAULT_SOFT_DEADLINE_MS = 20 * 60 * 1000;

@@ -4,8 +4,8 @@ import type { Job } from "@/types";
 
 import { createSyncContext, processJobs } from "./shared";
 
-import { isTarget } from "@/modules/ats/core/filter";
-import fetchSource from "@/modules/community-source";
+import { isTarget } from "@/modules/screen/titles";
+import fetchSource from "@/modules/source";
 import { isKnownJob } from "@/utils/job-key";
 import { logger } from "@/utils/logger";
 

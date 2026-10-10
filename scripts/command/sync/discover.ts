@@ -1,10 +1,10 @@
 import "dotenv/config";
 import { ALLOWED_COUNTRIES } from "@/constants";
 
+import discoverJobs from "./discover-jobs";
 import { createSyncContext, processJobs } from "./shared";
 
-import { classifyLocations } from "@/modules/job-discovery/ai";
-import discoverJobs from "@/modules/job-discovery/fetch";
+import { classifyLocations } from "@/modules/screen/location";
 import { logger } from "@/utils/logger";
 
 export default async function syncDiscover() {

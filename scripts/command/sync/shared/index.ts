@@ -5,10 +5,10 @@ import { RED_CROSS } from "@/constants/log";
 import type { Job } from "@/types";
 import type { JD, Opportunity } from "@/types/jobs";
 
-import { shouldBatchAnalyze } from "@/modules/ats/core/filter";
-import getJD, { decideNotification } from "@/modules/job-analysis";
-import { enqueueBatchJobs } from "@/modules/job-analysis/batch-queue";
-import { buildCompanyList } from "@/modules/job-discovery/company";
+import { buildCompanyList } from "@/modules/employer/build";
+import getJD, { decideNotification } from "@/modules/screen";
+import { enqueueBatchJobs } from "@/modules/screen/batch";
+import { shouldBatchAnalyze } from "@/modules/screen/titles";
 import { loadJobs, loadOpportunities, loadUrls, saveOpportunities } from "@/utils/data";
 import { saveJob, saveUrls } from "@/utils/data";
 import { renderProgress, startProgress } from "@/utils/dev";

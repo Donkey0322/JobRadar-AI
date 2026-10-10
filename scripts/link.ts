@@ -7,8 +7,8 @@ import type { Job } from "@/types";
 
 import { createSyncContext, processJobs } from "./command/sync/shared";
 
-import { HttpStatusCode } from "@/modules/ats/detail";
-import { analyzeLink, getRawJD } from "@/modules/job-analysis";
+import { HttpStatusCode } from "@/modules/employer/detail";
+import { analyzeLink, getRawJD } from "@/modules/screen";
 import { logger } from "@/utils/logger";
 
 function isJob(value: unknown): value is Job {

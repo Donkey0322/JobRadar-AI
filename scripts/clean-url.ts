@@ -3,21 +3,21 @@ import pLimit from "p-limit";
 
 import { GREEN_CHECKMARK, RED_CROSS } from "@/constants/log";
 
-import type { JDFetchResult, JDFetchStatus } from "@/modules/ats/detail";
+import type { JDFetchResult, JDFetchStatus } from "@/modules/employer/detail";
 import type { Opportunity } from "@/types";
 
 import deduplicate, { syncExpiredFlags } from "./dedup";
 
-import { classifyATS } from "@/modules/ats/core/classifier";
-import { isTarget } from "@/modules/ats/core/filter";
-import { HttpStatusCode, isRetryableJDFetch, NETWORK_ERROR_CODE } from "@/modules/ats/detail/fetch";
-import { getRawJD } from "@/modules/job-analysis";
+import { buildCompanyList, getCompanyKey, groupUrlsByCompanyKey } from "@/modules/employer/build";
+import { classifyATS } from "@/modules/employer/classifier";
 import {
-  buildCompanyList,
-  getCompanyKey,
-  groupUrlsByCompanyKey,
-} from "@/modules/job-discovery/company";
-import { checkUrlsAgainstListing } from "@/modules/job-discovery/listing-liveness";
+  HttpStatusCode,
+  isRetryableJDFetch,
+  NETWORK_ERROR_CODE,
+} from "@/modules/employer/detail/fetch";
+import { checkUrlsAgainstListing } from "@/modules/employer/liveness";
+import { getRawJD } from "@/modules/screen";
+import { isTarget } from "@/modules/screen/titles";
 import {
   loadCompanies,
   loadOpportunities,

@@ -2,9 +2,9 @@ import { describe, expect, it } from "vitest";
 
 import type { Opportunity } from "@/types";
 
-import { groupUrlsByKey } from "@/utils/job-key";
-
 import { deduplicateOpportunities, syncExpiredFlags } from "../dedup";
+
+import { groupUrlsByKey } from "@/utils/job-key";
 
 function opportunity(link: string, overrides: Partial<Opportunity> = {}): Opportunity {
   return {
