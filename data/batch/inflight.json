@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "name": "batches/iqbyer3vmshg7494ydfpukmcgxcxx7bi9rir",
+    "submittedAt": "2026-10-10T18:09:08.555Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "ByteDance",
+        "role": "New Grad 2026: Site Reliability Engineer (Edge Services)",
+        "link": "https://joinbytedance.com/search/7540061337369954567",
+        "location": "San Jose, CA"
+      },
+      {
+        "company": "TikTok",
+        "role": "Research Scientist New Grad - Conversational AI 🎓",
+        "link": "https://lifeattiktok.com/search/7670685496821713205",
+        "location": "San Jose, CA"
+      }
+    ]
+  }
+]
