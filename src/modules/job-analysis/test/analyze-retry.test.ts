@@ -12,6 +12,7 @@ vi.mock("@/utils/logger", () => ({
 
 import analyzeJD, {
   analyzeQualifications,
+  formatJDPrompt,
   formatQualificationPrompt,
   getAnalyzeJDConfig,
   getQualificationConfig,
@@ -25,6 +26,17 @@ const screen = {
   category: "entry level",
   season: "None",
 };
+
+describe("formatJDPrompt", () => {
+  it("leaves the job description unchanged when no listing location is available", () => {
+    expect(formatJDPrompt("job text")).toBe("job text");
+    expect(formatJDPrompt("job text", "  ")).toBe("job text");
+  });
+
+  it("appends the listing location after the job description", () => {
+    expect(formatJDPrompt("job text", "Singapore")).toBe("job text\n\nListing location:\nSingapore");
+  });
+});
 
 describe("analyzeJD spill retry", () => {
   beforeEach(() => {
@@ -102,11 +114,20 @@ describe("analyzeJD spill retry", () => {
     });
   });
 
+  it("sends the listing location with the job description", async () => {
+    callAIModelMock.mockResolvedValue({ result: JSON.stringify(screen), cost: 0.01 });
+
+    await analyzeJD("job text", true, "Singapore");
+
+    expect(callAIModelMock.mock.calls[0]?.[0]).toBe(formatJDPrompt("job text", "Singapore"));
+  });
+
   it("reuses one system instruction for screening and qualifications", async () => {
     const screening = await getAnalyzeJDConfig();
     const qualifications = await getQualificationConfig();
 
     expect(qualifications.systemInstruction).toBe(screening.systemInstruction);
+    expect(screening.systemInstruction).toContain('Never return "Singapore, Singapore, Singapore"');
     expect(screening.schema).not.toHaveProperty("properties.qualifications");
     expect(qualifications.schema).toHaveProperty("properties.qualifications");
   });

@@ -199,7 +199,7 @@ export default async function getJD(job: Job): Promise<{
     };
   }
 
-  const { result, cost } = await analyzeJD(rawJD);
+  const { result, cost } = await analyzeJD(rawJD, true, job.location);
 
   if (!result) {
     return {

@@ -76,7 +76,11 @@ vi.mock("@/modules/job-analysis", async (importOriginal) => {
 vi.mock("../ai", () => ({
   default: analyzeJDMock,
   analyzeQualifications: analyzeQualificationsMock,
-  formatJDPrompt: (rawJD: string) => rawJD,
+  formatJDPrompt: (rawJD: string, listingLocation?: string | null) => {
+    const listing = listingLocation?.trim();
+    if (!listing) return rawJD;
+    return `${rawJD}\n\nListing location:\n${listing}`;
+  },
   formatQualificationPrompt: (rawJD: string) => `${rawJD}\n\nExtract qualifications only.`,
   getAnalyzeJDConfig: getAnalyzeJDConfigMock,
   getQualificationConfig: getQualificationConfigMock,
@@ -134,7 +138,7 @@ describe("batch-queue", () => {
   });
 
   it("appends unseen jobs to the batch queue", async () => {
-    const job = makeJob();
+    const job = { ...makeJob(), country: "USA" as const };
 
     await enqueueBatchJobs([job, job]);
 
@@ -145,6 +149,7 @@ describe("batch-queue", () => {
         role: job.role,
         link: job.link,
         location: job.location,
+        country: "USA",
       })}\n`,
       "utf-8"
     );
@@ -222,7 +227,7 @@ describe("batch-queue", () => {
 
     const { analyzed } = await collectInflightBatches();
 
-    expect(analyzeJDMock).toHaveBeenCalledWith("raw jd", false);
+    expect(analyzeJDMock).toHaveBeenCalledWith("raw jd", false, "Austin, TX");
     expect(analyzed).toEqual([
       expect.objectContaining({
         job,
@@ -299,7 +304,7 @@ describe("batch-queue", () => {
       [
         expect.objectContaining({
           key: getJobKey(job.link),
-          prompt: "raw jd",
+          prompt: "raw jd\n\nListing location:\nAustin, TX",
         }),
       ],
       expect.any(String)
@@ -326,6 +331,7 @@ describe("batch-queue", () => {
     const result = await submitQueuedJobs();
 
     expect(result.submitted).toBe(0);
+    expect(analyzeJDMock).toHaveBeenCalledWith("raw jd", true, "Austin, TX");
     expect(result.analyzed).toEqual([
       expect.objectContaining({
         job,

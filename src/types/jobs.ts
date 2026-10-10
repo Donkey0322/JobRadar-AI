@@ -2,17 +2,15 @@ import type { COUNTRIES } from "@/constants";
 import type { JobCategory } from "@/validation/config";
 import type { Season } from "@/validation/season";
 
+/** Parsed by AI from the job description. */
 export interface JD {
   citizenship: boolean | null;
   sponsorship: boolean | null;
   qualifications: string[] | null;
-
-  // these fields are added to fill the gap between Job and JD
   country: (typeof COUNTRIES)[number];
   location: string | null;
   category: JobCategory;
-  // if category is entry level, mid level, or senior level, season is none
-  // if season is not found, return none
+  // None for entry level, mid level, and senior level, and when no season is found.
   season: Season;
 }
 
@@ -21,8 +19,12 @@ export interface Job {
   company: string;
   role: string;
   link: string;
-  jd?: JD | null;
   location: string;
+
+  // AI-parsed. `country` is classified from the listing title and location, and is
+  // kept when JD analysis is skipped. `jd` is parsed from the job description.
+  country?: (typeof COUNTRIES)[number];
+  jd?: JD | null;
 }
 
 export interface Opportunity extends Job {

@@ -194,7 +194,9 @@ describe("processJobs", () => {
   });
 
   it("still records location-filtered jobs without a JD so they are not retried", async () => {
-    const job = makeJob("india");
+    const job = makeJob("singapore");
+    job.location = "Singapore";
+    job.country = "Singapore";
 
     const result = await processJobs({
       jobs: [job],
@@ -206,8 +208,14 @@ describe("processJobs", () => {
     expect(result.failed).toBe(0);
     expect(result.skipped).toBe(1);
     expect(dataMocks.saveOpportunities).toHaveBeenCalledWith([
-      expect.objectContaining({ link: job.link, expired: false }),
+      expect.objectContaining({
+        link: job.link,
+        location: "Singapore",
+        country: "Singapore",
+        expired: false,
+      }),
     ]);
+    expect(dataMocks.saveOpportunities.mock.calls[0]?.[0]?.[0]).not.toHaveProperty("jd");
     expect(dataMocks.saveJob).toHaveBeenCalledWith([]);
     expect(enqueueBatchJobsMock).not.toHaveBeenCalled();
   });

@@ -64,30 +64,43 @@ Never invent a country.
 
 Return the most specific primary work location as a string.
 
-Format:
+When both a city and a state or province are known, use:
 - "City, StateOrProvinceAbbreviation, Country"
 
 Examples:
 - "New York, NY, USA"
 - "San Francisco, CA, USA"
 - "Toronto, ON, Canada"
-- "London, England, UK"
-- "Taipei, Taiwan, Taiwan"
+
+When a city is known but there is no state or province, return the city, or "City, Country" when the country is a different name.
+
+Examples:
+- "London, UK"
+- "Taipei, Taiwan"
+
+When the only known place is a country, city-state, or region, return that place once.
+
+Examples:
+- "Singapore"
+- "USA"
+- "California"
+
+Do not repeat a name to fill City, State, Country.
+Never return "Singapore, Singapore, Singapore".
 
 Rules:
-- Use the primary work location.
-- Use city name when available.
-- Use state or province abbreviation when available.
-- Use the same country value chosen in the country field.
+- Use the job description first.
+- The user message may end with a "Listing location:" section from the job board. Use it when the description does not state a workplace.
+- Ignore listing values that are not a place, including "N/A", "Unsure", "ASSIGN LOCATION", and counts such as "2 Locations".
+- Use a state or province abbreviation when that state is known. "Pennsylvania" may be written as "PA".
+- When a country segment is included, use the same value chosen in the country field.
 - If multiple locations are listed, choose the primary location if clear.
 - If no primary location is clear, choose the first supported location listed.
 - If the role is remote but restricted to a city, state, province, or country, include that restriction.
 - If the role is fully remote and not tied to a specific place, return "Remote".
-- If the location is clear but does not include city or state/province, return the available location only.
 - If the location is missing, unclear, or ambiguous, return null.
 
-Do not invent city, state, province, or country.
-Do not expand abbreviations unless the job description clearly provides them.
+Do not invent a city, state, or province that neither the description nor the listing location states.
 
 5. qualifications
 
@@ -228,4 +241,4 @@ If category is "entry level", "mid level", or "senior level":
 
 Never return a season that is not listed in the supported seasons.
 
-The job description is provided in the user message.
+The user message is the job description. It may end with a Listing location section from the job board.

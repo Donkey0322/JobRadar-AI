@@ -15,21 +15,27 @@ export default async function syncDiscover() {
   const jobs = await discoverJobs();
   const locations = await classifyLocations(jobs);
 
+  for (let index = 0; index < jobs.length; index++) {
+    const country = locations[index];
+
+    if (country) {
+      jobs[index]!.country = country;
+    }
+  }
+
   await processJobs({
     jobs,
     ...context,
 
     filter(job) {
-      const index = jobs.indexOf(job);
-      const location = locations[index];
-
-      if (ALLOWED_COUNTRIES.size > 0 && !ALLOWED_COUNTRIES.has(location)) {
+      if (ALLOWED_COUNTRIES.size > 0 && job.country && !ALLOWED_COUNTRIES.has(job.country)) {
         logger.info(
           {
             company: job.company,
             role: job.role,
             url: job.link,
-            location,
+            location: job.location,
+            country: job.country,
           },
           "⏭️ Skipped by location filter"
         );

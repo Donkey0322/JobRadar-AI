@@ -94,6 +94,7 @@ export async function enqueueBatchJobs(jobs: Job[]) {
       role: job.role,
       link: job.link,
       location: job.location,
+      ...(job.country ? { country: job.country } : {}),
     });
   }
 
@@ -151,7 +152,7 @@ async function resolveAnalyzedResult(
   const { jd: rawJD } = await getRawJD(job.link);
 
   if (rawJD) {
-    const retry = await analyzeJD(rawJD, false);
+    const retry = await analyzeJD(rawJD, false, job.location);
     if (retry.result) {
       return parseAnalyzedResult(job, retry.result, cost + retry.cost);
     }
@@ -298,7 +299,7 @@ async function analyzeJobsRealtime(jobs: Array<{ job: Job; rawJD: string }>) {
   const analyzed: AnalyzedBatchJob[] = [];
 
   for (const { job, rawJD } of jobs) {
-    const { result, cost } = await analyzeJD(rawJD);
+    const { result, cost } = await analyzeJD(rawJD, true, job.location);
     const parsed = parseAnalyzedResult(job, result, cost);
 
     if (!parsed) {
@@ -534,7 +535,7 @@ export async function submitQueuedJobs(limit = Number.POSITIVE_INFINITY): Promis
   const { schema, systemInstruction } = await getAnalyzeJDConfig();
   const requests: BatchGenerateRequest[] = fetched.map(({ job, rawJD }) => ({
     key: getJobKey(job.link),
-    prompt: formatJDPrompt(rawJD),
+    prompt: formatJDPrompt(rawJD, job.location),
     schema,
     systemInstruction,
   }));

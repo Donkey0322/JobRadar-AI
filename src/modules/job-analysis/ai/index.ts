@@ -76,8 +76,14 @@ function schemaFor(fields: ReadonlyArray<keyof JD>) {
 const SCREEN_SCHEMA = schemaFor(SCREEN_FIELDS);
 const QUALIFICATION_SCHEMA = schemaFor(["qualifications"]);
 
-export function formatJDPrompt(rawJD: string) {
-  return rawJD;
+export function formatJDPrompt(rawJD: string, listingLocation?: string | null) {
+  const listing = listingLocation?.trim();
+
+  if (!listing) {
+    return rawJD;
+  }
+
+  return `${rawJD}\n\nListing location:\n${listing}`;
 }
 
 export function formatQualificationPrompt(rawJD: string) {
@@ -129,12 +135,13 @@ async function requestAnalysis(
 }
 
 async function analyzeWithRetry(
-  promptFor: (context: string) => string,
+  promptFor: (context: string, listingLocation?: string | null) => string,
   loadConfig: () => Promise<{ schema: Schema; systemInstruction: string }>,
   context: string,
-  retrySpills: boolean
+  retrySpills: boolean,
+  listingLocation?: string | null
 ): Promise<AIResponse> {
-  const prompt = promptFor(context);
+  const prompt = promptFor(context, listingLocation);
   const first = await requestAnalysis(prompt, loadConfig);
 
   if (!retrySpills || !first.result || !jdResponseSpilled(first.result)) {
@@ -150,8 +157,18 @@ async function analyzeWithRetry(
   };
 }
 
-export default async function analyzeJD(context: string, retrySpills = true): Promise<AIResponse> {
-  return analyzeWithRetry(formatJDPrompt, getAnalyzeJDConfig, context, retrySpills);
+export default async function analyzeJD(
+  context: string,
+  retrySpills = true,
+  listingLocation?: string | null
+): Promise<AIResponse> {
+  return analyzeWithRetry(
+    formatJDPrompt,
+    getAnalyzeJDConfig,
+    context,
+    retrySpills,
+    listingLocation
+  );
 }
 
 export async function analyzeQualifications(
