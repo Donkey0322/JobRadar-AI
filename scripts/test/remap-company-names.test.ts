@@ -11,7 +11,7 @@ vi.mock("@/utils/data", () => dataMocks);
 
 import type { Company } from "@/types";
 
-import { remapStoredCompanyNames } from "../remap-company-names";
+import { remapStoredCompanyNames } from "../refresh-companies";
 
 const rtx: Company = {
   name: "rtx",

@@ -1,4 +1,3 @@
-
 # Environments
 .env
 .envrc
@@ -23,3 +22,5 @@ data/jd/
 data/profile.json
 data/background.md
 data/resume.pdf
+
+.cursor/rules/modules-and-scripts.mdc

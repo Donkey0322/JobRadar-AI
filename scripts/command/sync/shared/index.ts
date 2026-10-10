@@ -2,10 +2,16 @@ import pLimit from "p-limit";
 
 import { RED_CROSS } from "@/constants/log";
 
+import type { OpportunityLedger } from "@/modules/opportunity/seen";
 import type { Job } from "@/types";
-import type { JD, Opportunity } from "@/types/jobs";
+import type { JD } from "@/types/jobs";
 
 import { buildCompanyList } from "@/modules/employer/build";
+import {
+  createOpportunityLedger,
+  recordSeenOpportunity,
+  seenOpportunitiesToWrite,
+} from "@/modules/opportunity/seen";
 import getJD, { decideNotification } from "@/modules/screen";
 import { enqueueBatchJobs } from "@/modules/screen/batch";
 import { shouldBatchAnalyze } from "@/modules/screen/titles";
@@ -60,6 +66,21 @@ interface ProcessJobsOptions {
 
 const AI_CONCURRENCY = 5;
 
+async function saveSeenOpportunities(ledger: OpportunityLedger) {
+  const write = seenOpportunitiesToWrite(ledger);
+
+  if (!write) {
+    return;
+  }
+
+  if (write.overwrite) {
+    await saveOpportunities(write.opportunities, true);
+    return;
+  }
+
+  await saveOpportunities(write.opportunities);
+}
+
 export async function processJobs({
   jobs: rawIncomingJobs,
   urls,
@@ -80,40 +101,12 @@ export async function processJobs({
   }
 
   let newUrlAdded = false;
-  const existingOpportunities = await loadOpportunities();
-  const opportunityIndexByKey = new Map<string, number>();
-
-  for (let index = 0; index < existingOpportunities.length; index++) {
-    const key = getJobKey(existingOpportunities[index]!.link);
-
-    if (!opportunityIndexByKey.has(key)) {
-      opportunityIndexByKey.set(key, index);
-    }
-  }
-
-  let opportunitiesMutated = false;
-  const appendedOpportunities: Opportunity[] = [];
+  const opportunities = createOpportunityLedger(await loadOpportunities());
 
   function markAsSeen(job: Job) {
-    const key = getJobKey(job.link);
-    const existingIndex = opportunityIndexByKey.get(key);
-    const nextOpportunity: Opportunity = {
-      ...job,
-      postedAt: new Date().toISOString(),
-      expired: false,
-    };
-
+    recordSeenOpportunity(opportunities, job, "refresh");
     urls.add(job.link);
-    keys.add(key);
-
-    if (existingIndex !== undefined) {
-      existingOpportunities[existingIndex] = nextOpportunity;
-      opportunitiesMutated = true;
-    } else {
-      opportunityIndexByKey.set(key, existingOpportunities.length + appendedOpportunities.length);
-      appendedOpportunities.push(nextOpportunity);
-    }
-
+    keys.add(getJobKey(job.link));
     newUrlAdded = true;
   }
 
@@ -317,24 +310,7 @@ export async function processJobs({
 
   await saveUrls(urls);
   await saveJob(jobs);
-
-  if (opportunitiesMutated) {
-    const seenKeys = new Set<string>();
-    const merged = [...existingOpportunities, ...appendedOpportunities].filter((opportunity) => {
-      const key = getJobKey(opportunity.link);
-
-      if (seenKeys.has(key)) {
-        return false;
-      }
-
-      seenKeys.add(key);
-      return true;
-    });
-
-    await saveOpportunities(merged, true);
-  } else if (appendedOpportunities.length > 0) {
-    await saveOpportunities(appendedOpportunities);
-  }
+  await saveSeenOpportunities(opportunities);
 
   if (newUrlAdded) {
     await buildCompanyList(urls);
@@ -384,42 +360,13 @@ export async function persistAnalyzedJobs(analyzed: Array<{ job: Job; jd: JD; co
 
   const { currentId: startingId } = await createSyncContext();
   let currentId = startingId;
-  const existingOpportunities = await loadOpportunities();
-  const opportunityIndexByKey = new Map<string, number>();
-
-  for (let index = 0; index < existingOpportunities.length; index++) {
-    const key = getJobKey(existingOpportunities[index]!.link);
-
-    if (!opportunityIndexByKey.has(key)) {
-      opportunityIndexByKey.set(key, index);
-    }
-  }
-
-  let opportunitiesMutated = false;
-  const appendedOpportunities: Opportunity[] = [];
+  const opportunities = createOpportunityLedger(await loadOpportunities());
   const jobs: Job[] = [];
   let skipped = 0;
   let totalCost = 0;
 
   function markAsSeen(job: Job) {
-    const key = getJobKey(job.link);
-    const existingIndex = opportunityIndexByKey.get(key);
-    const nextOpportunity: Opportunity = {
-      ...job,
-      postedAt:
-        existingIndex !== undefined
-          ? existingOpportunities[existingIndex]!.postedAt
-          : new Date().toISOString(),
-      expired: false,
-    };
-
-    if (existingIndex !== undefined) {
-      existingOpportunities[existingIndex] = nextOpportunity;
-      opportunitiesMutated = true;
-    } else {
-      opportunityIndexByKey.set(key, existingOpportunities.length + appendedOpportunities.length);
-      appendedOpportunities.push(nextOpportunity);
-    }
+    recordSeenOpportunity(opportunities, job, "preserve");
   }
 
   for (const item of analyzed) {
@@ -476,24 +423,7 @@ export async function persistAnalyzedJobs(analyzed: Array<{ job: Job; jd: JD; co
   }
 
   await saveJob(jobs);
-
-  if (opportunitiesMutated) {
-    const seenKeys = new Set<string>();
-    const merged = [...existingOpportunities, ...appendedOpportunities].filter((opportunity) => {
-      const key = getJobKey(opportunity.link);
-
-      if (seenKeys.has(key)) {
-        return false;
-      }
-
-      seenKeys.add(key);
-      return true;
-    });
-
-    await saveOpportunities(merged, true);
-  } else if (appendedOpportunities.length > 0) {
-    await saveOpportunities(appendedOpportunities);
-  }
+  await saveSeenOpportunities(opportunities);
 
   if (jobs.length > 0) {
     logger.info(

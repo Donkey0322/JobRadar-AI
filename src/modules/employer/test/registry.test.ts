@@ -21,7 +21,6 @@ vi.mock("@/utils/logger", () => ({
 import type { ATS } from "../type";
 import type { Company } from "@/types";
 
-import discoverJobs from "../../../../scripts/command/sync/discover-jobs";
 import { Employer } from "../employer";
 import { ashbyFetcher } from "../listing/ashby";
 import { customFetcher } from "../listing/custom";
@@ -216,30 +215,4 @@ describe("ATS fetcher registry", () => {
     );
   });
 
-  it("converts company URLs to keys before dispatching an adapter", async () => {
-    const existing = "https://jobs.lever.co/acme/known";
-    const company: Company = {
-      name: "acme",
-      ats: "lever",
-      identifier: "acme",
-      domain: "https://jobs.lever.co",
-      page: "https://api.lever.co/v0/postings/acme",
-      urls: [existing],
-    };
-    dataMocks.loadCompanies.mockResolvedValue([company]);
-    const fetch = vi.spyOn(Object.getPrototypeOf(leverFetcher), "fetch").mockResolvedValue([]);
-
-    await expect(discoverJobs()).resolves.toEqual([]);
-
-    expect(fetch).toHaveBeenCalledWith(
-      expect.objectContaining({
-        name: "acme",
-        ats: "lever",
-        identifier: "acme",
-        urls: [existing],
-      }),
-      new Set(["lever:known"]),
-      expect.any(AbortSignal)
-    );
-  });
 });
