@@ -137,10 +137,10 @@ describe("ConfigSchema", () => {
     expect(result.success).toBe(true);
   });
 
-  it("should allow an optional expanded dashboard flag", () => {
+  it("should allow an optional batch-only dashboard flag", () => {
     const result = ConfigSchema.safeParse(
       createValidConfig({
-        dashboard: { includeAllTechJobs: true },
+        dashboard: { batchOnly: true },
       })
     );
 

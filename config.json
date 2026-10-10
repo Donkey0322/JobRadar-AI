@@ -1,13 +1,10 @@
 {
   "target": {
+    "intern": ["summer intern", "off-season intern"],
     "full-time": ["entry level"],
-    "countries": ["USA", "Taiwan", "Singapore"],
+    "countries": ["USA"],
     "filter": {
       "USA": {
-        "allow_citizenship_required": false,
-        "allow_no_sponsorship": false
-      },
-      "Singapore": {
         "allow_citizenship_required": false,
         "allow_no_sponsorship": false
       }
@@ -39,6 +36,12 @@
       "cloud",
       "infra",
       "infrastructure",
+      "sre",
+      "site reliability",
+      "devops",
+      "devsecops",
+      "security",
+      "cybersecurity",
       "ui",
       "ux"
     ],
@@ -67,8 +70,7 @@
       "technician",
       "civil",
       "chemical",
-      "biomedical",
-      "research"
+      "biomedical"
     ]
   },
   "ai": {
@@ -83,9 +85,9 @@
     "email": "donkey@ntu.im"
   },
   "receiver": {
-    "emails": ["donkey.leelee@gmail.com", "ntuimb09705004@ntu.im"]
+    "emails": ["ntuimb09705004@ntu.im"]
   },
   "dashboard": {
-    "includeAllTechJobs": true
+    "batchOnly": true
   }
 }

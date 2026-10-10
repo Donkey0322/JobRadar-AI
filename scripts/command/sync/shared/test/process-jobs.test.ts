@@ -269,7 +269,7 @@ describe("processJobs", () => {
     );
   });
 
-  it("keeps expanded-dashboard titles on the board without notifying", async () => {
+  it("saves non-notify titles without emailing", async () => {
     const job = makeJob("senior");
     job.role = "Senior Software Engineer";
 

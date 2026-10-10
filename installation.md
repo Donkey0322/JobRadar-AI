@@ -30,7 +30,7 @@ The important pieces are:
 - `config.json` controls target roles, countries, keywords, AI provider/model, SMTP sender, and receiver emails.
 - GitHub Actions runs the sync/discovery workflows on a schedule.
 - Newly discovered jobs are committed into `data/`.
-- Titles that match your notify config are analyzed in real time. Unspecified-level titles go through cheaper batch analysis. On an expanded dashboard, intern titles also batch even if intern is not in notify config.
+- Titles that match your notify config are analyzed in real time. Unspecified-level titles go through cheaper batch analysis.
 - A notification workflow sends emails only for newly updated job data.
 - A README update workflow regenerates the job board when config or job data changes.
 
@@ -421,7 +421,7 @@ This runs:
 pnpm jobctl batch
 ```
 
-It submits queued job descriptions to the provider Batch API (about 50% of real-time cost), checkpoints `data/batch/inflight.json` immediately, then waits in the same run (polling every 20 seconds) until those jobs finish. Notify still follows `config.json`. On an expanded dashboard this queue includes intern titles even when intern is not configured.
+It submits queued job descriptions to the provider Batch API (about 50% of real-time cost), checkpoints `data/batch/inflight.json` immediately, then waits in the same run (polling every 20 seconds) until those jobs finish. Notify still follows `config.json`. In the default hybrid setup, this queue is unspecified-level titles. Notify titles stay on the real-time path.
 
 ### Notify Latest Jobs
 

@@ -1,17 +1,15 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 
-import { CONFIG, JOB_CATEGORIES } from "@/constants";
+import { CONFIG } from "@/constants";
 import { getSeasonYears } from "@/constants/season";
 
 import type { JD, Opportunity } from "@/types/jobs";
 import type { Config } from "@/validation/config";
 
-import { includeAllTechJobs } from "@/modules/ats/core/filter";
 import { loadOpportunities } from "@/utils/data";
 import { escapeHtml } from "@/utils/html";
 import { getJobKey } from "@/utils/job-key";
-import { JobCategory } from "@/validation/config";
 
 type TableRow = [string, string, string, string, string];
 
@@ -33,16 +31,6 @@ const ISSUE_TEMPLATE_URL = `${REPO_URL}/issues/new/choose`;
 
 const MAX_JOBS_PER_README_SECTION = 30;
 const MAX_JOBS_PER_CATEGORY_PAGE = 300;
-
-/**
- * Expanded dashboards keep this intern/entry layout even if config later
- * adds mid/senior for email notify. Template users still follow config.
- */
-const EXPANDED_BOARD_CATEGORIES = [
-  JobCategory.SUMMER_INTERN,
-  JobCategory.OFF_SEASON_INTERN,
-  JobCategory.ENTRY_LEVEL,
-];
 
 const BADGE_CITIZENSHIP = `<img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" />`;
 
@@ -93,72 +81,35 @@ async function main() {
   reopenedJobKeys = detectReopenedKeys(opportunities);
 
   const allowedCountries = new Set(CONFIG.target.countries.map(normalizeCountry));
-  const targetCategories = new Set(buildDisplayCategories(CONFIG));
-  const categoryOrder = buildCategoryOrder(CONFIG);
+  const categoryOrder = buildTargetCategories(CONFIG);
+  const targetCategories = new Set(categoryOrder);
   const generatedAt = new Date();
 
-  const countryMatched = opportunities
+  const targetOpportunities = opportunities
     .filter((job) => isRenderableOpportunity(job))
     .filter((job) => {
       const country = normalizeCountry(job.jd?.country);
       return country ? allowedCountries.has(country) : false;
     })
+    .filter((job) => targetCategories.has(getDisplayCategory(job)))
     .sort(comparePostedAtDesc);
 
-  const targetOpportunities = countryMatched.filter((job) => {
-    const category = getDisplayCategory(job);
-    return targetCategories.has(category);
-  });
-
-  const outsideTargetCategoryOpportunities = countryMatched.filter((job) => {
-    const category = getDisplayCategory(job);
-    return !targetCategories.has(category);
-  });
-
   const grouped = groupByCategory(targetOpportunities, categoryOrder);
-  const outsideTargetCategoryGrouped = groupByCategory(
-    outsideTargetCategoryOpportunities,
-    categoryOrder
-  );
-  const extraCategoryOpportunities = includeAllTechJobs() ? outsideTargetCategoryOpportunities : [];
-  const extraCategoryGrouped = includeAllTechJobs()
-    ? outsideTargetCategoryGrouped
-    : new Map<string, Opportunity[]>();
-  const allGrouped = includeAllTechJobs()
-    ? withCategorySlots(
-        groupByCategory(countryMatched, categoryOrder),
-        JOB_CATEGORIES.map(normalizeCategory)
-      )
-    : grouped;
 
   const markdown = buildReadme({
     config: CONFIG,
     targetOpportunities,
     grouped,
-    outsideTargetCategoryOpportunities: extraCategoryOpportunities,
-    outsideTargetCategoryGrouped: extraCategoryGrouped,
-    allGrouped,
     generatedAt,
   });
 
   await writeFeaturedCompanyBadges();
-  await writeCategoryPages(allGrouped, generatedAt);
+  await writeCategoryPages(grouped, generatedAt);
   await fs.writeFile(README_PATH, markdown, "utf-8");
 
   console.log(`README generated: ${README_PATH}`);
-  console.log(`Category pages generated: ${allGrouped.size}`);
+  console.log(`Category pages generated: ${grouped.size}`);
   console.log(`Target opportunities included: ${targetOpportunities.length}`);
-  console.log(
-    `Same-country opportunities outside target categories included in toggle: ${extraCategoryOpportunities.length}`
-  );
-}
-
-function buildDisplayCategories(config: Config): string[] {
-  if (includeAllTechJobs()) {
-    return EXPANDED_BOARD_CATEGORIES.map(normalizeCategory);
-  }
-
-  return buildTargetCategories(config);
 }
 
 function buildTargetCategories(config: Config): string[] {
@@ -166,10 +117,6 @@ function buildTargetCategories(config: Config): string[] {
     ...(config.target.intern ?? []).map(normalizeCategory),
     ...(config.target["full-time"] ?? []).map(normalizeCategory),
   ]);
-}
-
-function buildCategoryOrder(config: Config): string[] {
-  return unique([...buildDisplayCategories(config), ...JOB_CATEGORIES.map(normalizeCategory)]);
 }
 
 function groupByCategory(
@@ -209,39 +156,13 @@ function sortCategoryGroups(
   );
 }
 
-function withCategorySlots(
-  groups: Map<string, Opportunity[]>,
-  categories: string[]
-): Map<string, Opportunity[]> {
-  const next = new Map(groups);
-
-  for (const category of categories) {
-    if (!next.has(category)) {
-      next.set(category, []);
-    }
-  }
-
-  return sortCategoryGroups(next, categories);
-}
-
 function buildReadme(input: {
   config: Config;
   targetOpportunities: Opportunity[];
   grouped: Map<string, Opportunity[]>;
-  outsideTargetCategoryOpportunities: Opportunity[];
-  outsideTargetCategoryGrouped: Map<string, Opportunity[]>;
-  allGrouped: Map<string, Opportunity[]>;
   generatedAt: Date;
 }): string {
-  const {
-    config,
-    targetOpportunities,
-    grouped,
-    outsideTargetCategoryOpportunities,
-    outsideTargetCategoryGrouped,
-    allGrouped,
-    generatedAt,
-  } = input;
+  const { config, targetOpportunities, grouped, generatedAt } = input;
 
   const generatedDate = generatedAt.toISOString().slice(0, 10);
 
@@ -327,7 +248,7 @@ function buildReadme(input: {
     `Each category page shows up to ${MAX_JOBS_PER_CATEGORY_PAGE.toLocaleString()} of the latest opportunities.`
   );
   lines.push("");
-  lines.push(...buildCategoryPageLinks(allGrouped));
+  lines.push(...buildCategoryPageLinks(grouped));
   lines.push("");
 
   lines.push(`## The List 🚴‍♂️`);
@@ -340,10 +261,6 @@ function buildReadme(input: {
     lines.push("");
   } else {
     lines.push(...buildCategorySections(grouped));
-  }
-
-  if (outsideTargetCategoryOpportunities.length > 0) {
-    lines.push(...buildOutsideTargetCategoryToggle(outsideTargetCategoryGrouped));
   }
 
   lines.push(`<!-- TABLE_END -->`);
@@ -362,35 +279,6 @@ function buildCategorySections(grouped: Map<string, Opportunity[]>): string[] {
     lines.push(...buildOpportunityTable(jobs));
     lines.push("");
   }
-
-  return lines;
-}
-
-function buildOutsideTargetCategoryToggle(grouped: Map<string, Opportunity[]>): string[] {
-  const total = [...grouped.values()].reduce((sum, jobs) => sum + jobs.length, 0);
-
-  const categoryNames = [...grouped.keys()].map(formatCategoryTitle);
-  const summaryTitle = formatToggleSummary(categoryNames, total);
-
-  const lines: string[] = [];
-
-  lines.push(`<details>`);
-  lines.push(`  <summary><b>${escapeHtml(summaryTitle)}</b></summary>`);
-  lines.push("");
-  lines.push(`  <br />`);
-  lines.push("");
-
-  for (const [category, jobs] of grouped) {
-    lines.push(
-      `  <h3>${escapeHtml(formatCategoryTitle(category))} (${jobs.length.toLocaleString()})</h3>`
-    );
-    lines.push("");
-    lines.push(...buildOpportunityTable(jobs));
-    lines.push("");
-  }
-
-  lines.push(`</details>`);
-  lines.push("");
 
   return lines;
 }
@@ -695,30 +583,6 @@ function formatCategoryTitle(category: string): string {
   }
 
   return title;
-}
-
-function formatToggleSummary(categories: string[], total: number): string {
-  if (categories.length === 0) {
-    return `More opportunities (${total.toLocaleString()})`;
-  }
-
-  if (categories.length <= 3) {
-    return `More in ${formatHumanList(categories)} (${total.toLocaleString()})`;
-  }
-
-  const visible = categories.slice(0, 3);
-
-  return `More in ${formatHumanList(visible)} and ${
-    categories.length - visible.length
-  } more (${total.toLocaleString()})`;
-}
-
-function formatHumanList(values: string[]): string {
-  if (values.length === 0) return "";
-  if (values.length === 1) return values[0];
-  if (values.length === 2) return `${values[0]} & ${values[1]}`;
-
-  return `${values.slice(0, -1).join(", ")} & ${values.at(-1)}`;
 }
 
 function buildHtmlTable(headers: TableRow, rows: TableRow[]): string[] {

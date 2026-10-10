@@ -86,13 +86,13 @@ export const ConfigSchema = z.object({
   target: TargetSchema,
 
   /**
-   * Owner-only expanded dashboard. Omitted from the setup issue form.
-   * When true, intern titles still run for the board even if intern is not
-   * in notify config. Mid/senior only run when those categories are configured.
+   * Owner-only. Omitted from the setup issue form, so template installs stay
+   * hybrid: notify titles are analyzed in real time, unspecified titles batch.
+   * When batchOnly is true, every discovered target is queued for batch.
    */
   dashboard: z
     .object({
-      includeAllTechJobs: z.boolean().optional(),
+      batchOnly: z.boolean().optional(),
     })
     .optional(),
 

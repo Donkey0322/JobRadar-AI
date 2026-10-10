@@ -241,13 +241,11 @@ export function isTechSeniorLevel(title: string) {
 }
 
 /**
- * Owner-only: keep intern titles on the dashboard even if intern is not in
- * notify config. Country scope still comes from `target.countries`.
- * Mid/senior are only crawled when those categories are configured.
- * Template users omit this flag.
+ * Owner-only. Omitted from the setup issue form, so template installs stay hybrid.
+ * When true, every discovered target is queued for batch analysis.
  */
-export function includeAllTechJobs() {
-  return CONFIG.dashboard?.includeAllTechJobs === true;
+export function usesBatchOnly() {
+  return CONFIG.dashboard?.batchOnly === true;
 }
 
 /**
@@ -265,9 +263,8 @@ export function isUnspecifiedTechLevel(title: string) {
 }
 
 /**
- * Titles that can produce email notify. Dashboard mode does not change this:
- * configured intern/full-time titles, plus unspecified-level tech titles
- * whose JD may later match config.
+ * Titles that can produce email notify: configured intern/full-time titles,
+ * plus unspecified-level tech titles whose JD may later match config.
  */
 export function isNotifyCandidate(title: string) {
   return isNotifyTarget(title) || isUnspecifiedTechLevel(title);
@@ -275,31 +272,29 @@ export function isNotifyCandidate(title: string) {
 
 /**
  * Listing / discovery filter.
- * Always keep notify titles and unspecified-level tech titles.
- * Expanded dashboards also keep intern titles when intern is not in config.
+ * Keep notify titles and unspecified-level tech titles.
  * Mid/senior stay off unless those categories are configured.
  */
-export function isTarget(title: string, expanded = includeAllTechJobs()) {
-  if (isNotifyCandidate(title)) return true;
-  return expanded && isTechIntern(title);
+export function isTarget(title: string) {
+  return isNotifyCandidate(title);
 }
 
 /**
  * Real-time vs batch routing after discovery.
- * Notify titles stay on the real-time path.
- * Unspecified titles always batch.
- * Expanded dashboards also batch intern titles that are not in notify config.
+ * Hybrid: notify titles stay on the real-time path, unspecified titles batch.
+ * Batch-only dashboards queue every target title.
  */
-export function shouldBatchAnalyze(title: string, expanded = includeAllTechJobs()) {
-  if (isNotifyTarget(title)) return false;
-  if (isUnspecifiedTechLevel(title)) return true;
-  return expanded && isTechIntern(title);
+export function shouldBatchAnalyze(title: string, batchOnly = usesBatchOnly()) {
+  if (!isNotifyCandidate(title)) return false;
+  if (batchOnly) return true;
+
+  return !isNotifyTarget(title);
 }
 
 /**
  * Notification-priority heuristic from title + configured intern/full-time
  * categories. Only explicit level signals count; unspecified titles are not
- * treated as a match. Matching jobs use the original real-time analysis path.
+ * treated as a match. In hybrid mode, matching jobs stay on the real-time path.
  */
 export function isNotifyTarget(title: string) {
   const status =
