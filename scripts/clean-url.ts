@@ -4,7 +4,7 @@ import pLimit from "p-limit";
 import { GREEN_CHECKMARK, RED_CROSS } from "@/constants/log";
 
 import type { JDFetchResult, JDFetchStatus } from "@/modules/posting/jd";
-import type { Opportunity } from "@/types";
+import type { Company, Opportunity } from "@/types";
 
 import deduplicate from "./dedup";
 
@@ -12,11 +12,7 @@ import { buildCompanyList, getCompanyKey, groupUrlsByCompanyKey } from "@/module
 import { classifyATS } from "@/modules/employer/classifier";
 import { checkUrlsAgainstListing } from "@/modules/employer/liveness";
 import { Posting } from "@/modules/posting";
-import {
-  HttpStatusCode,
-  isRetryableJDFetch,
-  NETWORK_ERROR_CODE,
-} from "@/modules/posting/jd";
+import { HttpStatusCode, isRetryableJDFetch, NETWORK_ERROR_CODE } from "@/modules/posting/jd";
 import { syncExpiredFlags } from "@/modules/postings/dedup";
 import {
   loadCompanies,
@@ -29,9 +25,25 @@ import { renderProgress, startProgress } from "@/utils/dev";
 import { groupUrlsByKey } from "@/utils/job-key";
 import { logger } from "@/utils/logger";
 
+/**
+ * Drop dead posting URLs from data/urls.json and refresh opportunity expiry.
+ *
+ * urls.json is the seen set. Discovery treats a posting as new when its URL is
+ * missing, so a link is removed only after a check shows the posting is gone.
+ *
+ * 1. An employer listing page can confirm many URLs at once.
+ * 2. URLs the listing did not confirm are checked by fetching the job description.
+ *
+ * A stored opportunity whose title no longer matches the target config stays in
+ * urls.json and is not checked. Expiry uses only URLs that were checked, so an
+ * unchecked link cannot keep a targeted opportunity alive.
+ */
+
 // Node's fetch adds a `terminated` listener per redirect; Workday chains exceed the default of 10.
 setMaxListeners(32);
 
+// Workday rejects bursts. Each host runs one request at a time, and a 429 pauses
+// later requests to that host. Other boards share a wider pool.
 const LISTING_OTHER_CONCURRENCY = 12;
 const LISTING_WORKDAY_CONCURRENCY = 6;
 const JD_OTHER_CONCURRENCY = 8;
@@ -43,6 +55,8 @@ const INITIAL_DELAY_MS = 2000;
 const MAX_DELAY_MS = 60_000;
 const FETCH_TIMEOUT_MS = 5 * 60 * 1000;
 const LISTING_TIMEOUT_MS = 2 * 60 * 1000;
+
+type FetchKind = "listing" | "jd";
 
 const listingOtherLimit = pLimit(LISTING_OTHER_CONCURRENCY);
 const listingWorkdayLimit = pLimit(LISTING_WORKDAY_CONCURRENCY);
@@ -75,11 +89,12 @@ function extendHostCooldown(host: string, ms: number) {
   hostCooldownUntil.set(host, Math.max(hostCooldownUntil.get(host) ?? 0, Date.now() + ms));
 }
 
-function retryDelay(error: JDFetchStatus, delay: number) {
-  return Math.min(MAX_DELAY_MS, Math.max(delay, error.retryAfterMs ?? 0));
+function retryDelay(status: JDFetchStatus, delay: number) {
+  return Math.min(MAX_DELAY_MS, Math.max(delay, status.retryAfterMs ?? 0));
 }
 
-async function fetchPostingRawJD(url: string, signal: AbortSignal): Promise<JDFetchResult> {
+/** getRawJD only reads the link. The other posting fields are unused. */
+function fetchRawJD(url: string, signal: AbortSignal): Promise<JDFetchResult> {
   return Posting.from({
     company: "",
     role: "",
@@ -88,24 +103,29 @@ async function fetchPostingRawJD(url: string, signal: AbortSignal): Promise<JDFe
   }).getRawJD(signal);
 }
 
-async function getRawJDWithRetry(url: string, host: string): Promise<JDFetchResult> {
+/**
+ * Retry 429 and network errors with exponential backoff.
+ * The wait is also applied to later requests for the same host.
+ */
+async function fetchRawJDWithRetry(url: string, host: string): Promise<JDFetchResult> {
   let delay = INITIAL_DELAY_MS;
-  let result = await fetchPostingRawJD(url, AbortSignal.timeout(FETCH_TIMEOUT_MS));
+  let result = await fetchRawJD(url, AbortSignal.timeout(FETCH_TIMEOUT_MS));
 
   for (let attempt = 0; attempt < MAX_RETRIES && isRetryableJDFetch(result.error); attempt++) {
     const wait = retryDelay(result.error, delay);
     extendHostCooldown(host, wait);
     await sleep(wait + Math.floor(Math.random() * 250));
-    result = await fetchPostingRawJD(url, AbortSignal.timeout(FETCH_TIMEOUT_MS));
+    result = await fetchRawJD(url, AbortSignal.timeout(FETCH_TIMEOUT_MS));
     delay *= 2;
   }
 
   return result;
 }
 
-function schedule<T>(url: string, kind: "listing" | "jd", fn: () => Promise<T>): Promise<T> {
+/** Run one fetch under the pool that matches its board. */
+function runLimited<T>(url: string, kind: FetchKind, task: () => Promise<T>): Promise<T> {
   if (classifyATS(new URL(url)) !== "workday") {
-    return (kind === "listing" ? listingOtherLimit : jdOtherLimit)(fn);
+    return (kind === "listing" ? listingOtherLimit : jdOtherLimit)(task);
   }
 
   const host = new URL(url).hostname;
@@ -113,7 +133,7 @@ function schedule<T>(url: string, kind: "listing" | "jd", fn: () => Promise<T>):
   return getWorkdayHostLimit(host)(() =>
     pool(async () => {
       await waitForHostCooldown(host);
-      const result = await fn();
+      const result = await task();
       if (kind === "jd") {
         await sleep(WORKDAY_JD_GAP_MS);
       }
@@ -122,107 +142,203 @@ function schedule<T>(url: string, kind: "listing" | "jd", fn: () => Promise<T>):
   );
 }
 
-async function main() {
-  await deduplicate();
-  const sent = await loadUrls();
-  const urls = Array.from(sent);
+interface CleanupPlan {
+  /** Opportunities whose titles still match the target config. */
+  targeted: Opportunity[];
+  /** Seen URLs left in place because their opportunity is no longer a target. */
+  skippedUrls: string[];
+  /** Seen URLs that still need a liveness check. */
+  urlsToCheck: string[];
+}
 
-  const untargetedOpportunities = new Set<string>();
-  const targetedOpportunities: Opportunity[] = [];
-  const jobs = await loadOpportunities();
-  for (const job of jobs) {
-    if (!Posting.from(job).isTarget()) {
-      untargetedOpportunities.add(job.link);
+function planCleanup(urls: readonly string[], opportunities: readonly Opportunity[]): CleanupPlan {
+  const untargetedLinks = new Set<string>();
+  const targeted: Opportunity[] = [];
+
+  for (const opportunity of opportunities) {
+    if (Posting.from(opportunity).isTarget()) {
+      targeted.push(opportunity);
     } else {
-      targetedOpportunities.push(job);
+      untargetedLinks.add(opportunity.link);
     }
   }
 
-  const urlsToCheck = urls.filter((url) => !untargetedOpportunities.has(url));
-  const companiesByKey = new Map(
-    (await loadCompanies()).map((company) => [getCompanyKey(company), company])
-  );
-  const groups = groupUrlsByCompanyKey(urlsToCheck);
+  const skippedUrls: string[] = [];
+  const urlsToCheck: string[] = [];
 
+  for (const url of urls) {
+    if (untargetedLinks.has(url)) {
+      skippedUrls.push(url);
+    } else {
+      urlsToCheck.push(url);
+    }
+  }
+
+  return { targeted, skippedUrls, urlsToCheck };
+}
+
+function trackProgress(total: number) {
   let completed = 0;
-  let dropped = 0;
-  let listed = 0;
-  let rateLimited = 0;
-  let networkFailed = 0;
-  const total = urlsToCheck.length;
-  const listedUrls: string[] = [];
-  const unverifiedUrls: string[] = [];
-
   startProgress(total);
 
+  return (count: number) => {
+    completed += count;
+    renderProgress(completed, total);
+  };
+}
+
+interface ListingPass {
+  listedUrls: string[];
+  unverifiedUrls: string[];
+}
+
+/**
+ * Ask each employer's listing page which of our URLs are still posted.
+ * Boards without a listing page leave every URL for the JD pass.
+ */
+async function confirmOnListings(
+  urls: string[],
+  companiesByKey: ReadonlyMap<string, Company>,
+  advance: (count: number) => void
+): Promise<ListingPass> {
+  const listedUrls: string[] = [];
+  const unverifiedUrls: string[] = [];
+  const urlsByCompany = groupUrlsByCompanyKey(urls);
+
   await Promise.all(
-    Array.from(groups.entries()).map(([key, groupUrls]) =>
-      schedule(groupUrls[0], "listing", async () => {
-        const company = companiesByKey.get(key);
+    Array.from(urlsByCompany.entries()).map(([companyKey, companyUrls]) =>
+      // The first URL picks the concurrency pool for the whole company.
+      runLimited(companyUrls[0], "listing", async () => {
+        const company = companiesByKey.get(companyKey);
         const result = company?.page
           ? await checkUrlsAgainstListing(
               company,
-              groupUrls,
+              companyUrls,
               AbortSignal.timeout(LISTING_TIMEOUT_MS)
             )
-          : { listed: [], unverified: groupUrls };
+          : { listed: [], unverified: [...companyUrls] };
 
         listedUrls.push(...result.listed);
         unverifiedUrls.push(...result.unverified);
-        listed += result.listed.length;
-        completed += result.listed.length;
-        renderProgress(completed, total);
+        advance(result.listed.length);
       })
     )
   );
 
-  console.log(
-    { listed, remaining: unverifiedUrls.length },
-    `${GREEN_CHECKMARK} Listing pass finished`
-  );
+  return { listedUrls, unverifiedUrls };
+}
 
-  const verifiedFromJd = (
+type JdOutcome = "live" | "dropped" | "rate-limited" | "network-failed" | "unexpected";
+
+/**
+ * A 429 or a network failure is not evidence the posting is gone, so those URLs stay.
+ * Any other HTTP error removes the URL.
+ */
+function classifyJdFetch(status: JDFetchStatus): JdOutcome {
+  if (HttpStatusCode.isError(status.code)) {
+    return "dropped";
+  }
+  if (status.code === HttpStatusCode.TOO_MANY_REQUESTS) {
+    return "rate-limited";
+  }
+  if (status.code === NETWORK_ERROR_CODE) {
+    return "network-failed";
+  }
+  if (!HttpStatusCode.isOk(status.code)) {
+    return "unexpected";
+  }
+  return "live";
+}
+
+interface JdPass {
+  keptUrls: string[];
+  dropped: number;
+  rateLimited: number;
+  networkFailed: number;
+}
+
+async function confirmByJobDescription(
+  urls: readonly string[],
+  advance: (count: number) => void
+): Promise<JdPass> {
+  let dropped = 0;
+  let rateLimited = 0;
+  let networkFailed = 0;
+
+  const keptUrls = (
     await Promise.all(
-      unverifiedUrls.map((url) =>
-        schedule(url, "jd", async () => {
+      urls.map((url) =>
+        runLimited(url, "jd", async () => {
           const host = new URL(url).hostname;
-          const { error } = await getRawJDWithRetry(url, host);
+          const { error } = await fetchRawJDWithRetry(url, host);
+          advance(1);
 
-          completed++;
-          renderProgress(completed, total);
-
-          if (HttpStatusCode.isError(error.code)) {
-            dropped++;
-            return null;
+          switch (classifyJdFetch(error)) {
+            case "dropped":
+              dropped++;
+              return null;
+            case "rate-limited":
+              rateLimited++;
+              return url;
+            case "network-failed":
+              networkFailed++;
+              return url;
+            case "unexpected":
+              console.error({ url, error }, `${RED_CROSS} Error fetching JD`);
+              return url;
+            case "live":
+              return url;
           }
-          if (error.code === HttpStatusCode.TOO_MANY_REQUESTS) {
-            rateLimited++;
-            return url;
-          }
-          if (error.code === NETWORK_ERROR_CODE) {
-            networkFailed++;
-            return url;
-          }
-          if (!HttpStatusCode.isOk(error.code)) {
-            console.error({ url, error }, `${RED_CROSS} Error fetching JD`);
-          }
-          return url;
         })
       )
     )
   ).filter((url): url is string => url !== null);
 
-  const validUrls = [...listedUrls, ...verifiedFromJd];
+  return { keptUrls, dropped, rateLimited, networkFailed };
+}
+
+async function main() {
+  await deduplicate();
+
+  const storedUrls = Array.from(await loadUrls());
+  const opportunities = await loadOpportunities();
+  const { targeted, skippedUrls, urlsToCheck } = planCleanup(storedUrls, opportunities);
+  const companiesByKey = new Map(
+    (await loadCompanies()).map((company) => [getCompanyKey(company), company])
+  );
+
+  const advance = trackProgress(urlsToCheck.length);
+  const { listedUrls, unverifiedUrls } = await confirmOnListings(
+    urlsToCheck,
+    companiesByKey,
+    advance
+  );
 
   console.log(
-    { validUrls: validUrls.length, listed, dropped, rateLimited, networkFailed },
+    { listed: listedUrls.length, remaining: unverifiedUrls.length },
+    `${GREEN_CHECKMARK} Listing pass finished`
+  );
+
+  const jd = await confirmByJobDescription(unverifiedUrls, advance);
+  const checkedUrls = [...listedUrls, ...jd.keptUrls];
+  const urlsToSave = [...checkedUrls, ...skippedUrls];
+
+  console.log(
+    {
+      validUrls: urlsToSave.length,
+      listed: listedUrls.length,
+      dropped: jd.dropped,
+      rateLimited: jd.rateLimited,
+      networkFailed: jd.networkFailed,
+      skipped: skippedUrls.length,
+    },
     `${GREEN_CHECKMARK} Successfully cleaned urls`
   );
 
-  await saveUrls(new Set(validUrls));
-  await saveOpportunities(syncExpiredFlags(targetedOpportunities, groupUrlsByKey(validUrls)), true);
+  await saveUrls(new Set(urlsToSave));
+  await saveOpportunities(syncExpiredFlags(targeted, groupUrlsByKey(checkedUrls)), true);
 
-  return validUrls;
+  return urlsToSave;
 }
 
 logger.level = "silent";

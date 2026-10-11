@@ -170,3 +170,11 @@
 2026-10-11T07:25:39.953Z Workday: jabil - 429 - Too Many Requests
 2026-10-11T07:25:42.067Z Workday: liveramp - 403 - Forbidden
 2026-10-11T07:28:18.229Z Workday: osv-rubicon - 422 - Unprocessable Entity
+2026-10-11T09:35:57.737Z Workday: jci - 429 - Too Many Requests
+2026-10-11T09:35:57.882Z Workday: jj - 429 - Too Many Requests
+2026-10-11T09:35:58.195Z Workday: jabil - 429 - Too Many Requests
+2026-10-11T09:35:58.258Z Workday: leidos - 429 - Too Many Requests
+2026-10-11T09:35:58.543Z Workday: levistraussandco - 429 - Too Many Requests
+2026-10-11T09:35:58.665Z Workday: kbr - 429 - Too Many Requests
+2026-10-11T09:35:59.433Z Workday: liveramp - 403 - Forbidden
+2026-10-11T09:38:32.328Z Workday: osv-rubicon - 422 - Unprocessable Entity
