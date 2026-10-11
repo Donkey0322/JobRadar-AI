@@ -1,1 +1,226 @@
-[]
+[
+  {
+    "name": "batches/dyq8wqgjwf3x77epckrwackxp1ys498y941p",
+    "submittedAt": "2026-10-11T04:37:57.123Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Amazon",
+        "role": "Software Development Engineer, AWS CloudWatch OpenTelemetry",
+        "link": "https://amazon.jobs/en/jobs/10534633",
+        "location": "US, WA, Seattle",
+        "country": "USA"
+      },
+      {
+        "company": "Amazon",
+        "role": "AI Security Engineer, AWS Security, AWS Security - AISec",
+        "link": "https://amazon.jobs/en/jobs/10489738",
+        "location": "US, TX, Austin",
+        "country": "USA"
+      },
+      {
+        "company": "Anduril Industries",
+        "role": "Software Engineer, Strategic Defense",
+        "link": "https://boards.greenhouse.io/andurilindustries/jobs/5260733007?gh_jid=5260733007",
+        "location": "Costa Mesa, California, United States; Huntsville, Alabama, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States; Washington, District of Columbia, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Apple",
+        "role": "SAP Security Engineer - SAP Cybersecurity",
+        "link": "https://jobs.apple.com/en-us/details/200685831-3715/sap-security-engineer-sap-cybersecurity?team=SFTWR",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Cisco",
+        "role": "Software Engineer - Cisco IOS-XE (Hybrid)",
+        "link": "https://careers.cisco.com/global/en/job/2025205?ph_id=2025205",
+        "location": "Milpitas, California, United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "The MITRE Corporation",
+        "role": "Digital Investigations Software Engineer",
+        "link": "https://careers.mitre.org/us/en/job/R117693?ph_id=R117693",
+        "location": "Fort Belvoir, Virginia, United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "Centricsoftware",
+        "role": "Data Scientist Consultant",
+        "link": "https://centricsoftware.wd501.myworkdayjobs.com/Centric/job/Campbell-CA/Senior-Data-Scientist---Consultant_JR393",
+        "location": "Campbell, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Citi",
+        "role": "DevOps Engineer",
+        "link": "https://jobs.citi.com/job/new-castle/devops-engineer/287/101749500256",
+        "location": "New Castle, Delaware, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Comcast",
+        "role": "Site Reliability Engineer Centennial, CO Site Reliability Engineering Computer Engineering 10/09/2026",
+        "link": "https://jobs.comcast.com/job/centennial/site-reliability-engineer/45483/97838414896",
+        "location": "Centennial, CO",
+        "country": "USA"
+      },
+      {
+        "company": "Gdms",
+        "role": "Advanced DevSecOps Engineer",
+        "link": "https://careers-gdms.icims.com/jobs/75481/advanced-devsecops-engineer/job",
+        "location": "Unsure",
+        "country": "Unsure"
+      },
+      {
+        "company": "Highmarkhealth",
+        "role": "Associate Software Engineer",
+        "link": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Associate-Software-Engineer_J288028",
+        "location": "PA, Working at Home - Pennsylvania",
+        "country": "USA"
+      },
+      {
+        "company": "Ice",
+        "role": "Engineer, Cybersecurity",
+        "link": "https://careers-ice.icims.com/jobs/13852/engineer%2c-cybersecurity/job",
+        "location": "Unsure",
+        "country": "Unsure"
+      },
+      {
+        "company": "Ice",
+        "role": "Engineer, Cybersecurity Engineering",
+        "link": "https://careers-ice.icims.com/jobs/13851/engineer%2c-cybersecurity-engineering/job",
+        "location": "Unsure",
+        "country": "Unsure"
+      },
+      {
+        "company": "Ice",
+        "role": "Analyst, Cybersecurity Architecture",
+        "link": "https://careers-ice.icims.com/jobs/13826/analyst%2c-cybersecurity-architecture/job",
+        "location": "Unsure",
+        "country": "Unsure"
+      },
+      {
+        "company": "BAE Systems",
+        "role": "Systems Engineer IVV (Sign-On Bonus)",
+        "link": "https://jobs.baesystems.com/global/en/job/131317BR?ph_id=131317BR",
+        "location": "Nashua, New Hampshire, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Lmi",
+        "role": "DevOps Engineer",
+        "link": "https://careers-lmi.icims.com/jobs/14698/devops-engineer/job",
+        "location": "Unsure",
+        "country": "Unsure"
+      },
+      {
+        "company": "Magaero",
+        "role": "Cybersecurity Engineer",
+        "link": "https://careers-magaero.icims.com/jobs/8364/cybersecurity-engineer/job",
+        "location": "Unsure",
+        "country": "Unsure"
+      },
+      {
+        "company": "Marvell",
+        "role": "Network Platform Development Engineer (Switch, SAI, NOS/SDK, Routing/Tunneling/Overlay protocols, L2/L3 Development, C, Linux Kernel, DPDK)",
+        "link": "https://marvell.wd1.myworkdayjobs.com/marvellcareers/job/Hyderabad/Network-Platform-Development-Engineer--Switch--SAI--NOS-SDK--Routing-Tunneling-Overlay-protocols--L2-L3-Development--C--Linux-Kernel--DPDK-_2604998",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Meta",
+        "role": "AI Research Scientist (Technical Leadership)",
+        "link": "https://www.metacareers.com/profile/job_details/2529575007506721",
+        "location": "Bellevue, WA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Research Scientist - AI Safety Red Teaming",
+        "link": "https://www.metacareers.com/profile/job_details/1064895849707262",
+        "location": "Menlo Park, CA, New York, NY",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Research Scientist, Wearables AI",
+        "link": "https://www.metacareers.com/profile/job_details/1664500798343394",
+        "location": "New York, NY",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Research Scientist Intern, Audio, Machine Learning and Computer Vision (PhD)",
+        "link": "https://www.metacareers.com/profile/job_details/2211974449401350",
+        "location": "Redmond, WA, Burlingame, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Ngc",
+        "role": "Engineer Systems",
+        "link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/Engineer-Systems_R10254202",
+        "location": "3 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Parsons",
+        "role": "DevSecOps Engineer/Administrator",
+        "link": "https://parsons.wd5.myworkdayjobs.com/search/job/US---CO-Boulder/DevSecOps-Engineer-Administrator_R186932",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Peraton",
+        "role": "Cybersecurity / Compliance Engineer",
+        "link": "https://careers-peraton.icims.com/jobs/172158/cybersecurity---compliance-engineer/job",
+        "location": "Unsure",
+        "country": "Unsure"
+      },
+      {
+        "company": "Peraton",
+        "role": "AWS Security Engineer",
+        "link": "https://careers-peraton.icims.com/jobs/172157/aws-security-engineer/job",
+        "location": "Unsure",
+        "country": "Unsure"
+      },
+      {
+        "company": "Schwab",
+        "role": "Production Site Reliability Engineer Austin, TX; Omaha, NE Requisition ID: 2026-126693 Application deadline: 2026-10-21 Save for Later",
+        "link": "https://www.schwabjobs.com/job/austin/production-site-reliability-engineer/33727/101762437520",
+        "location": "Austin, TX; Omaha, NE",
+        "country": "USA"
+      },
+      {
+        "company": "TikTok",
+        "role": "Machine Learning Engineer Intern (E-Commerce User Growth) - 2027 Start (PhD)",
+        "link": "https://lifeattiktok.com/search/7694356134081972533",
+        "location": "Seattle",
+        "country": "USA"
+      },
+      {
+        "company": "TikTok",
+        "role": "Security Engineer, Detection & Response - Global Security Organization - Threat Management Incident Response and Investigation",
+        "link": "https://lifeattiktok.com/search/7694385468762229045",
+        "location": "San Jose",
+        "country": "USA"
+      },
+      {
+        "company": "TikTok",
+        "role": "Machine Learning Engineer Graduate (E-Commerce User Growth) - 2027 Start",
+        "link": "https://lifeattiktok.com/search/7694353236283935029",
+        "location": "Seattle",
+        "country": "USA"
+      },
+      {
+        "company": "Varda Space Industries",
+        "role": "Vehicle Systems, Integration, & Test Engineer",
+        "link": "https://job-boards.greenhouse.io/vardaspace/jobs/6485429003",
+        "location": "El Segundo, California, United States",
+        "country": "USA"
+      }
+    ]
+  }
+]
