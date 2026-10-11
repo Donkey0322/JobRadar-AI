@@ -6,6 +6,9 @@ let displayedElapsedMs = 0;
 let displayedEtaMs = Number.NaN;
 let tickTimer: ReturnType<typeof setInterval> | null = null;
 
+/** GitHub Actions has no TTY, so a carriage-return bar never shows up in the log. */
+const CI_PROGRESS_INTERVAL_MS = 30_000;
+
 function formatDuration(ms: number): string {
   if (!Number.isFinite(ms) || ms < 0) {
     return "--";
@@ -48,6 +51,26 @@ function refreshDisplayedTiming() {
   }
 }
 
+function timingSuffix(current: number): string {
+  const elapsed = formatDuration(displayedElapsedMs);
+  if (current < lastTotal) {
+    return `${elapsed} ETA ${formatDuration(displayedEtaMs)}`;
+  }
+  return elapsed;
+}
+
+function logCiProgress() {
+  if (process.stdout.isTTY || progressStartedAt == null || lastTotal <= 0) {
+    return;
+  }
+
+  refreshDisplayedTiming();
+
+  const ratio = lastTotal > 0 ? lastCurrent / lastTotal : 0;
+  const percent = (ratio * 100).toFixed(1);
+  console.log(`progress ${lastCurrent}/${lastTotal} (${percent}%) ${timingSuffix(lastCurrent)}`);
+}
+
 function drawProgress() {
   if (!process.stdout.isTTY || progressStartedAt == null || lastTotal <= 0) {
     return;
@@ -63,10 +86,7 @@ function drawProgress() {
 
   const bar = "█".repeat(filled) + "-".repeat(empty);
   const percent = (ratio * 100).toFixed(1);
-  const timing =
-    current < total
-      ? ` ${formatDuration(displayedElapsedMs)} ETA ${formatDuration(displayedEtaMs)}`
-      : ` ${formatDuration(displayedElapsedMs)}`;
+  const timing = ` ${timingSuffix(current)}`;
 
   process.stdout.write(`\r[${bar}] ${current}/${total} (${percent}%)${timing}   `);
 }
@@ -76,8 +96,34 @@ function onWallClockTick() {
   drawProgress();
 }
 
+function resetProgress(total: number) {
+  clearTickTimer();
+  progressStartedAt = Date.now();
+  lastCurrent = 0;
+  lastTotal = total;
+  displayedElapsedMs = 0;
+  displayedEtaMs = Number.NaN;
+}
+
+function finishProgress() {
+  clearTickTimer();
+  progressStartedAt = null;
+  lastCurrent = 0;
+  lastTotal = 0;
+  displayedElapsedMs = 0;
+  displayedEtaMs = Number.NaN;
+}
+
 function ensureTickTimer() {
-  if (tickTimer || !process.stdout.isTTY) {
+  if (tickTimer) {
+    return;
+  }
+
+  if (!process.stdout.isTTY) {
+    tickTimer = setInterval(() => {
+      logCiProgress();
+    }, CI_PROGRESS_INTERVAL_MS);
+    tickTimer.unref();
     return;
   }
 
@@ -87,26 +133,19 @@ function ensureTickTimer() {
 
 /** Start (or restart) a progress run so the clock ticks before the first item finishes. */
 export function startProgress(total: number) {
+  resetProgress(total);
+
   if (!process.stdout.isTTY) {
+    logCiProgress();
+    ensureTickTimer();
     return;
   }
 
-  clearTickTimer();
-  progressStartedAt = Date.now();
-  lastCurrent = 0;
-  lastTotal = total;
-  displayedElapsedMs = 0;
-  displayedEtaMs = Number.NaN;
   drawProgress();
   ensureTickTimer();
 }
 
 export function renderProgress(current: number, total: number) {
-  // Skip in CI / GitHub Actions
-  if (!process.stdout.isTTY) {
-    return;
-  }
-
   if (progressStartedAt == null || current < lastCurrent) {
     progressStartedAt = Date.now();
     displayedElapsedMs = 0;
@@ -117,6 +156,16 @@ export function renderProgress(current: number, total: number) {
   lastCurrent = current;
   lastTotal = total;
 
+  if (!process.stdout.isTTY) {
+    if (current >= total && total > 0) {
+      logCiProgress();
+      finishProgress();
+    } else {
+      ensureTickTimer();
+    }
+    return;
+  }
+
   // Progress bar/count update immediately; leave elapsed/ETA for the wall-clock tick.
   drawProgress();
 
@@ -124,12 +173,7 @@ export function renderProgress(current: number, total: number) {
     refreshDisplayedTiming();
     drawProgress();
     process.stdout.write("\n");
-    clearTickTimer();
-    progressStartedAt = null;
-    lastCurrent = 0;
-    lastTotal = 0;
-    displayedElapsedMs = 0;
-    displayedEtaMs = Number.NaN;
+    finishProgress();
     return;
   }
 
