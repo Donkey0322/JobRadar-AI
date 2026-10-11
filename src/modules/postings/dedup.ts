@@ -2,6 +2,9 @@ import type { Opportunity } from "@/types";
 
 import { getJobKey } from "@/utils/job-key";
 
+/** Drop expired rows last seen longer ago than this. `postedAt` is that sighting, not the expiry time. */
+export const STALE_EXPIRED_OPPORTUNITY_MS = 90 * 24 * 60 * 60 * 1000;
+
 function shouldReplace(existing: Opportunity, candidate: Opportunity): boolean {
   if (existing.expired !== candidate.expired) {
     return existing.expired;
@@ -66,5 +69,30 @@ export function syncExpiredFlags(
       expired,
       link,
     };
+  });
+}
+
+/**
+ * Keep every active row. Drop expired rows whose `postedAt` is older than the window.
+ * A row with an unreadable `postedAt` stays, so a bad date cannot delete it.
+ */
+export function dropStaleExpiredOpportunities(
+  opportunities: readonly Opportunity[],
+  now = Date.now(),
+  maxAgeMs = STALE_EXPIRED_OPPORTUNITY_MS
+): Opportunity[] {
+  const cutoff = now - maxAgeMs;
+
+  return opportunities.filter((opportunity) => {
+    if (!opportunity.expired) {
+      return true;
+    }
+
+    const postedAt = new Date(opportunity.postedAt).getTime();
+    if (Number.isNaN(postedAt)) {
+      return true;
+    }
+
+    return postedAt >= cutoff;
   });
 }

@@ -13,7 +13,7 @@ import { classifyATS } from "@/modules/employer/classifier";
 import { checkUrlsAgainstListing } from "@/modules/employer/liveness";
 import { Posting } from "@/modules/posting";
 import { HttpStatusCode, isRetryableJDFetch, NETWORK_ERROR_CODE } from "@/modules/posting/jd";
-import { syncExpiredFlags } from "@/modules/postings/dedup";
+import { dropStaleExpiredOpportunities, syncExpiredFlags } from "@/modules/postings/dedup";
 import {
   loadCompanies,
   loadOpportunities,
@@ -34,9 +34,10 @@ import { logger } from "@/utils/logger";
  * 1. An employer listing page can confirm many URLs at once.
  * 2. URLs the listing did not confirm are checked by fetching the job description.
  *
- * A stored opportunity whose title no longer matches the target config stays in
- * urls.json and is not checked. Expiry uses only URLs that were checked, so an
- * unchecked link cannot keep a targeted opportunity alive.
+ * Every stored URL is checked, including ones whose opportunity title no longer
+ * matches the target config. That mismatch does not remove the URL. Expiry is
+ * updated only for opportunities that still match. Expired rows last seen more
+ * than 90 days ago are removed; active rows stay regardless of age.
  */
 
 // Node's fetch adds a `terminated` listener per redirect; Workday chains exceed the default of 10.
@@ -142,39 +143,9 @@ function runLimited<T>(url: string, kind: FetchKind, task: () => Promise<T>): Pr
   );
 }
 
-interface CleanupPlan {
-  /** Opportunities whose titles still match the target config. */
-  targeted: Opportunity[];
-  /** Seen URLs left in place because their opportunity is no longer a target. */
-  skippedUrls: string[];
-  /** Seen URLs that still need a liveness check. */
-  urlsToCheck: string[];
-}
-
-function planCleanup(urls: readonly string[], opportunities: readonly Opportunity[]): CleanupPlan {
-  const untargetedLinks = new Set<string>();
-  const targeted: Opportunity[] = [];
-
-  for (const opportunity of opportunities) {
-    if (Posting.from(opportunity).isTarget()) {
-      targeted.push(opportunity);
-    } else {
-      untargetedLinks.add(opportunity.link);
-    }
-  }
-
-  const skippedUrls: string[] = [];
-  const urlsToCheck: string[] = [];
-
-  for (const url of urls) {
-    if (untargetedLinks.has(url)) {
-      skippedUrls.push(url);
-    } else {
-      urlsToCheck.push(url);
-    }
-  }
-
-  return { targeted, skippedUrls, urlsToCheck };
+/** Opportunities whose titles still match the target config. The rest are not written back. */
+function targetedOpportunities(opportunities: readonly Opportunity[]): Opportunity[] {
+  return opportunities.filter((opportunity) => Posting.from(opportunity).isTarget());
 }
 
 function trackProgress(total: number) {
@@ -301,15 +272,14 @@ async function main() {
   await deduplicate();
 
   const storedUrls = Array.from(await loadUrls());
-  const opportunities = await loadOpportunities();
-  const { targeted, skippedUrls, urlsToCheck } = planCleanup(storedUrls, opportunities);
+  const targeted = targetedOpportunities(await loadOpportunities());
   const companiesByKey = new Map(
     (await loadCompanies()).map((company) => [getCompanyKey(company), company])
   );
 
-  const advance = trackProgress(urlsToCheck.length);
+  const advance = trackProgress(storedUrls.length);
   const { listedUrls, unverifiedUrls } = await confirmOnListings(
-    urlsToCheck,
+    storedUrls,
     companiesByKey,
     advance
   );
@@ -320,8 +290,7 @@ async function main() {
   );
 
   const jd = await confirmByJobDescription(unverifiedUrls, advance);
-  const checkedUrls = [...listedUrls, ...jd.keptUrls];
-  const urlsToSave = [...checkedUrls, ...skippedUrls];
+  const urlsToSave = [...listedUrls, ...jd.keptUrls];
 
   console.log(
     {
@@ -330,13 +299,21 @@ async function main() {
       dropped: jd.dropped,
       rateLimited: jd.rateLimited,
       networkFailed: jd.networkFailed,
-      skipped: skippedUrls.length,
     },
     `${GREEN_CHECKMARK} Successfully cleaned urls`
   );
 
   await saveUrls(new Set(urlsToSave));
-  await saveOpportunities(syncExpiredFlags(targeted, groupUrlsByKey(checkedUrls)), true);
+
+  const synced = syncExpiredFlags(targeted, groupUrlsByKey(urlsToSave));
+  const opportunities = dropStaleExpiredOpportunities(synced);
+
+  console.log(
+    { opportunities: opportunities.length, staleExpired: synced.length - opportunities.length },
+    `${GREEN_CHECKMARK} Pruned stale expired opportunities`
+  );
+
+  await saveOpportunities(opportunities, true);
 
   return urlsToSave;
 }

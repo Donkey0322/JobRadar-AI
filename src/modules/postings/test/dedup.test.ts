@@ -2,7 +2,12 @@ import { describe, expect, it } from "vitest";
 
 import type { Opportunity } from "@/types";
 
-import { deduplicateOpportunities, syncExpiredFlags } from "../dedup";
+import {
+  deduplicateOpportunities,
+  dropStaleExpiredOpportunities,
+  STALE_EXPIRED_OPPORTUNITY_MS,
+  syncExpiredFlags,
+} from "../dedup";
 
 import { groupUrlsByKey } from "@/utils/job-key";
 
@@ -54,6 +59,36 @@ describe("syncExpiredFlags", () => {
     expect(syncExpiredFlags([job], groupUrlsByKey([otherJob]))).toEqual([
       { ...job, expired: true },
     ]);
+  });
+});
+
+describe("dropStaleExpiredOpportunities", () => {
+  const now = Date.parse("2026-10-11T00:00:00.000Z");
+  const recent = new Date(now - STALE_EXPIRED_OPPORTUNITY_MS + 1).toISOString();
+  const stale = new Date(now - STALE_EXPIRED_OPPORTUNITY_MS - 1).toISOString();
+
+  it("keeps an active row even when postedAt is old", () => {
+    const job = opportunity(klaSearch, { expired: false, postedAt: stale });
+
+    expect(dropStaleExpiredOpportunities([job], now)).toEqual([job]);
+  });
+
+  it("keeps an expired row inside the window", () => {
+    const job = opportunity(klaSearch, { expired: true, postedAt: recent });
+
+    expect(dropStaleExpiredOpportunities([job], now)).toEqual([job]);
+  });
+
+  it("drops an expired row last seen before the window", () => {
+    const job = opportunity(klaSearch, { expired: true, postedAt: stale });
+
+    expect(dropStaleExpiredOpportunities([job], now)).toEqual([]);
+  });
+
+  it("keeps an expired row with an unreadable postedAt", () => {
+    const job = opportunity(klaSearch, { expired: true, postedAt: "not-a-date" });
+
+    expect(dropStaleExpiredOpportunities([job], now)).toEqual([job]);
   });
 });
 
