@@ -1,4 +1,4 @@
-import { ABORT_SIGNAL } from "@/constants";
+import { createJDFetchSignal } from "@/constants";
 
 import type { JDFetchResult } from "./fetch";
 
@@ -21,7 +21,7 @@ const convertOracleJDUrl = (url: string) => {
 
 export async function fetchOracleJD(
   url: string,
-  signal: AbortSignal = ABORT_SIGNAL
+  signal: AbortSignal = createJDFetchSignal()
 ): Promise<JDFetchResult> {
   const apiUrl = convertOracleJDUrl(url);
 

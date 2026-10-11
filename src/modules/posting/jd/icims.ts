@@ -1,6 +1,6 @@
 import * as cheerio from "cheerio";
 
-import { ABORT_SIGNAL } from "@/constants";
+import { createJDFetchSignal } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
 import type { JDFetchResult } from "./fetch";
@@ -287,7 +287,7 @@ function extractIcimsJD(html: string): string | null {
 
 export async function fetchIcimsJD(
   url: string,
-  signal: AbortSignal = ABORT_SIGNAL
+  signal: AbortSignal = createJDFetchSignal()
 ): Promise<JDFetchResult> {
   const resolved = await resolveIcimsJobPage(url, signal);
 

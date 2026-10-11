@@ -1,6 +1,6 @@
 import z from "zod";
 
-import { ABORT_SIGNAL } from "@/constants";
+import { createJDFetchSignal } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
@@ -61,7 +61,7 @@ function normalizeNetflixJob(job: NetflixJob): Job {
 export async function fetchNetflix(
   company: Company,
   knownKeys: ReadonlySet<string>,
-  signal: AbortSignal = ABORT_SIGNAL
+  signal: AbortSignal = createJDFetchSignal()
 ): Promise<Job[]> {
   try {
     const jobs: Job[] = [];

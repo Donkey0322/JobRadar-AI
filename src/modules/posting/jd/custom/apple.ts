@@ -1,4 +1,4 @@
-import { ABORT_SIGNAL } from "@/constants";
+import { createJDFetchSignal } from "@/constants";
 
 import { JD_FETCH_ERROR, JD_FETCH_OK, type JDFetchResult } from "../fetch";
 
@@ -207,7 +207,7 @@ ${additionalRequirements}
 
 export async function fetchAppleJD(
   url: string,
-  signal: AbortSignal = ABORT_SIGNAL
+  signal: AbortSignal = createJDFetchSignal()
 ): Promise<JDFetchResult> {
   const res = await fetch(url, {
     signal,

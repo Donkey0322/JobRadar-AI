@@ -1,4 +1,4 @@
-import { ABORT_SIGNAL } from "@/constants";
+import { createJDFetchSignal } from "@/constants";
 
 import { JD_FETCH_ERROR, JD_FETCH_OK, type JDFetchResult } from "../fetch";
 
@@ -8,7 +8,7 @@ const NETFLIX_API_URL = "https://explore.jobs.netflix.net/api/apply/v2/jobs";
 
 export async function fetchNetflixJD(
   url: string,
-  signal: AbortSignal = ABORT_SIGNAL
+  signal: AbortSignal = createJDFetchSignal()
 ): Promise<JDFetchResult> {
   const u = new URL(url);
   const jobId = u.searchParams.get("pid") || getLastPathNumber(u.pathname);

@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 
-import { ABORT_SIGNAL } from "@/constants";
+import { DEFAULT_JD_FETCH_TIMEOUT_MS } from "@/constants";
 
 import type { JD, Job } from "@/types";
 
@@ -108,6 +108,7 @@ describe("Posting.analyze", () => {
   it("uses a supplied fetch result without requesting the JD again", async () => {
     const posting = Posting.from(job);
     const fetched = { jd: "supplied", error: JD_FETCH_OK };
+    const timeout = vi.spyOn(AbortSignal, "timeout");
     analyzePostingMock.mockResolvedValue({
       jd: screened,
       rawJD: "supplied",
@@ -119,7 +120,9 @@ describe("Posting.analyze", () => {
     await posting.analyze({ fetched });
 
     expect(fetchPostingJDMock).not.toHaveBeenCalled();
+    expect(timeout).not.toHaveBeenCalled();
     expect(analyzePostingMock).toHaveBeenCalledWith(expect.objectContaining({ link: job.link }), fetched);
+    timeout.mockRestore();
   });
 
   it("extracts qualifications for a bare link that passes eligibility", async () => {
@@ -169,7 +172,7 @@ describe("Posting.analyze", () => {
     expect(fetchPostingJDMock).toHaveBeenCalledTimes(1);
     expect(fetchPostingJDMock.mock.calls[0]?.[1]).toBeInstanceOf(AbortSignal);
     expect(timeout).toHaveBeenCalledWith(LINK_ANALYSIS_TIMEOUT_MS);
-    expect(timeout).not.toHaveBeenCalledWith(5 * 60 * 1000);
+    expect(timeout).not.toHaveBeenCalledWith(DEFAULT_JD_FETCH_TIMEOUT_MS);
     timeout.mockRestore();
   });
 });
@@ -177,14 +180,32 @@ describe("Posting.analyze", () => {
 describe("Posting.getRawJD", () => {
   beforeEach(() => {
     fetchPostingJDMock.mockReset();
+    fetchPostingJDMock.mockResolvedValue({ jd: "raw", error: JD_FETCH_OK });
   });
 
-  it("delegates to the raw JD fetch for this link", async () => {
-    fetchPostingJDMock.mockResolvedValue({ jd: "raw", error: JD_FETCH_OK });
+  it("creates a new default signal on every call", async () => {
+    const timeout = vi.spyOn(AbortSignal, "timeout");
+    const posting = Posting.from(job);
 
-    const result = await Posting.from(job).getRawJD();
+    await posting.getRawJD();
+    await posting.getRawJD();
 
-    expect(fetchPostingJDMock).toHaveBeenCalledWith(job.link, ABORT_SIGNAL);
+    expect(timeout).toHaveBeenCalledTimes(2);
+    expect(timeout).toHaveBeenNthCalledWith(1, DEFAULT_JD_FETCH_TIMEOUT_MS);
+    expect(timeout).toHaveBeenNthCalledWith(2, DEFAULT_JD_FETCH_TIMEOUT_MS);
+    expect(fetchPostingJDMock).toHaveBeenCalledTimes(2);
+    timeout.mockRestore();
+  });
+
+  it("uses an explicit signal without creating the default timeout", async () => {
+    const timeout = vi.spyOn(AbortSignal, "timeout");
+    const signal = new AbortController().signal;
+
+    const result = await Posting.from(job).getRawJD(signal);
+
+    expect(timeout).not.toHaveBeenCalled();
+    expect(fetchPostingJDMock).toHaveBeenCalledWith(job.link, signal);
     expect(result.jd).toBe("raw");
+    timeout.mockRestore();
   });
 });

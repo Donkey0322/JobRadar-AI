@@ -1,6 +1,6 @@
 import z from "zod";
 
-import { ABORT_SIGNAL } from "@/constants";
+import { createJDFetchSignal } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
 import {
@@ -183,7 +183,7 @@ async function loadMetaSession(pages: string[], signal: AbortSignal) {
 
 export async function fetchMetaJD(
   url: string,
-  signal: AbortSignal = ABORT_SIGNAL
+  signal: AbortSignal = createJDFetchSignal()
 ): Promise<JDFetchResult> {
   const jobId = getLastPathNumber(new URL(url).pathname);
 

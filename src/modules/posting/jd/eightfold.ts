@@ -1,4 +1,4 @@
-import { ABORT_SIGNAL } from "@/constants";
+import { createJDFetchSignal } from "@/constants";
 
 import type { JDFetchResult } from "./fetch";
 
@@ -9,7 +9,7 @@ import { getLastPathNumber } from "@/utils/job-key/url";
 
 export async function fetchEightfoldJD(
   url: string,
-  signal: AbortSignal = ABORT_SIGNAL
+  signal: AbortSignal = createJDFetchSignal()
 ): Promise<JDFetchResult> {
   const u = new URL(url);
   const domain = eightfoldDomain(u);

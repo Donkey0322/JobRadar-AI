@@ -1,7 +1,7 @@
 import * as cheerio from "cheerio";
 import z from "zod";
 
-import { ABORT_SIGNAL } from "@/constants";
+import { createJDFetchSignal } from "@/constants";
 
 import type { Company, Job } from "@/types";
 
@@ -84,7 +84,7 @@ function normalizeGoogleJob(job: GoogleJob): Job {
 export async function fetchGoogle(
   company: Company,
   knownKeys: ReadonlySet<string>,
-  signal: AbortSignal = ABORT_SIGNAL
+  signal: AbortSignal = createJDFetchSignal()
 ): Promise<Job[]> {
   const jobs: Job[] = [];
 

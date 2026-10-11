@@ -1,4 +1,4 @@
-import { ABORT_SIGNAL } from "@/constants";
+import { createJDFetchSignal } from "@/constants";
 import { GREENHOUSE_API_URL } from "@/constants/ats";
 
 import type { JDFetchResult } from "./fetch";
@@ -31,7 +31,7 @@ export async function parseGreenhouse(url: string) {
 
 export async function fetchGreenhouseJD(
   url: string,
-  signal: AbortSignal = ABORT_SIGNAL
+  signal: AbortSignal = createJDFetchSignal()
 ): Promise<JDFetchResult> {
   const parsed = await parseGreenhouse(url);
   if (!parsed) {

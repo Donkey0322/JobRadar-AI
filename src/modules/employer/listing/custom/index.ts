@@ -11,18 +11,18 @@ import { AMDCompany, fetchAMD } from "./amd";
 import { AppleCompany, fetchApple } from "./apple";
 import { ByteDanceCompany, fetchByteDance } from "./bytedance";
 import { fetchGoogle, GoogleCompany } from "./google";
-import { parseCustomCompanyIdentifier } from "./identifier";
 import { fetchMeta, MetaCompany } from "./meta";
 import { fetchNetflix, NetflixCompany } from "./netflix";
 import { fetchTikTok, TikTokCompany } from "./tiktok";
 
+import { parseCustomCompanyIdentifier } from "@/modules/employer/shared/custom-identifier";
 import { logger } from "@/utils/logger";
 
 export {
   CUSTOM_COMPANY_DOMAINS,
   parseCustomCompanyIdentifier,
   type CustomCompanyIdentifier,
-} from "./identifier";
+} from "@/modules/employer/shared/custom-identifier";
 
 export class CustomFetcher extends Employer<Job> {
   readonly ats = "custom" as const;

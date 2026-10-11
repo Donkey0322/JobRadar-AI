@@ -1,4 +1,4 @@
-import { ABORT_SIGNAL, ALLOWED_COUNTRIES, CONFIG } from "@/constants";
+import { ALLOWED_COUNTRIES, CONFIG, createJDFetchSignal } from "@/constants";
 
 import type { PostingAnalysisResult } from "./analyze";
 import type { JDFetchResult } from "./jd";
@@ -66,14 +66,13 @@ export class Posting implements Job {
     return this;
   }
 
-  async getRawJD(signal: AbortSignal = ABORT_SIGNAL): Promise<JDFetchResult> {
+  async getRawJD(signal: AbortSignal = createJDFetchSignal()): Promise<JDFetchResult> {
     return fetchPostingJD(this.link, signal);
   }
 
   async analyze(options: PostingAnalyzeOptions = {}): Promise<PostingAnalysisResult> {
     const fetched =
-      options.fetched ??
-      (await this.getRawJD(options.signal ?? AbortSignal.timeout(5 * 60 * 1000)));
+      options.fetched ?? (await this.getRawJD(options.signal ?? createJDFetchSignal()));
     const result = await analyzePosting(this.toJob(), fetched);
     this.setJD(result.jd);
 

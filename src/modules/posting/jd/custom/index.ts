@@ -1,6 +1,6 @@
 import * as cheerio from "cheerio";
 
-import { ABORT_SIGNAL } from "@/constants";
+import { createJDFetchSignal } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
 import type { JDFetchResult } from "../fetch";
@@ -103,7 +103,7 @@ function extractFallbackJD(html: string): string | null {
 
 export async function fetchCustomJD(
   url: string,
-  signal: AbortSignal = ABORT_SIGNAL
+  signal: AbortSignal = createJDFetchSignal()
 ): Promise<JDFetchResult> {
   const identifier = parseCustomCompanyIdentifier(new URL(url));
 

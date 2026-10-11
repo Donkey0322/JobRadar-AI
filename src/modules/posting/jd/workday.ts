@@ -1,4 +1,4 @@
-import { ABORT_SIGNAL } from "@/constants";
+import { createJDFetchSignal } from "@/constants";
 
 import type { JDFetchResult } from "./fetch";
 
@@ -8,7 +8,7 @@ import { isWorkdayLocaleSegment } from "@/modules/employer/shared/workday";
 
 export async function fetchWorkdayJD(
   url: string,
-  signal: AbortSignal = ABORT_SIGNAL
+  signal: AbortSignal = createJDFetchSignal()
 ): Promise<JDFetchResult> {
   const u = new URL(url);
   const name = u.hostname.split(".")[0];
