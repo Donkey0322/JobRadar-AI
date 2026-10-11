@@ -16,7 +16,40 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      send: ${{ steps.check.outputs.send }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+
+      # dashboard.notify is omitted on template installs, so those still email.
+      # The public board sets it to false.
+      - name: Check whether this repo sends notifications
+        id: check
+        run: |
+          python3 <<'PY'
+          import json
+          import os
+
+          config = json.load(open("config.json", encoding="utf-8"))
+          notify = (config.get("dashboard") or {}).get("notify", True)
+          send = "true" if notify else "false"
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              output.write(f"send={send}\n")
+
+          print("Notifications disabled." if not notify else "Notifications enabled.")
+          PY
+
   notify-jobs:
+    needs: gate
+    if: needs.gate.outputs.send == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 10
 

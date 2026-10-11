@@ -574,7 +574,7 @@ on:
       - "data/jobs.ndjson"
 ```
 
-It sends notifications when job data changes.
+It sends notifications when job data changes. Set `dashboard.notify` to `false` to skip this workflow. The public board does that. Template installs omit the field and still send mail.
 
 ### README Update
 

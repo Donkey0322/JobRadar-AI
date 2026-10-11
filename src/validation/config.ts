@@ -89,10 +89,12 @@ export const ConfigSchema = z.object({
    * Owner-only. Omitted from the setup issue form, so template installs stay
    * hybrid: notify titles are analyzed in real time, unspecified titles batch.
    * When batchOnly is true, every discovered target is queued for batch.
+   * When notify is false, this repo does not send email. Omitted means send.
    */
   dashboard: z
     .object({
       batchOnly: z.boolean().optional(),
+      notify: z.boolean().optional(),
     })
     .optional(),
 

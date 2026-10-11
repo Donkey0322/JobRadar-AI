@@ -12,6 +12,11 @@ function sleep(ms: number) {
 }
 
 export default async function notifyRange(from: string, to: string) {
+  if (CONFIG.dashboard?.notify === false) {
+    logger.info("📭 This repo does not send notifications");
+    return;
+  }
+
   logger.info({ from, to }, "📬 Generating notification diff...");
 
   const jobs = getNewJobsFromDiff(from, to);

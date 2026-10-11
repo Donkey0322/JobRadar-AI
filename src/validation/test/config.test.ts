@@ -137,10 +137,10 @@ describe("ConfigSchema", () => {
     expect(result.success).toBe(true);
   });
 
-  it("should allow an optional batch-only dashboard flag", () => {
+  it("should allow optional dashboard flags", () => {
     const result = ConfigSchema.safeParse(
       createValidConfig({
-        dashboard: { batchOnly: true },
+        dashboard: { batchOnly: true, notify: false },
       })
     );
 
