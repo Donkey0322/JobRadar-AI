@@ -17,7 +17,7 @@
       <td width="180" align="left" valign="top"><img height="28" alt="Meta" src="../assets/featured-badges/meta.svg" /></td>
       <td width="420" align="left" valign="top">Research Scientist Intern, Audio, Machine Learning and Computer Vision (PhD)</td>
       <td width="180" align="left" valign="top">Redmond, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.metacareers.com/profile/job_details/2211974449401350"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 10</td>
     </tr>
     <tr>
@@ -815,21 +815,21 @@
       <td width="180" align="left" valign="top"><img height="28" alt="Meta" src="../assets/featured-badges/meta.svg" /></td>
       <td width="420" align="left" valign="top">Software Engineering Intern</td>
       <td width="180" align="left" valign="top">Bellevue, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.metacareers.com/profile/job_details/1952991802037374"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 6</td>
     </tr>
     <tr>
       <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Software Engineer Intern, Machine Learning (PhD)</td>
       <td width="180" align="left" valign="top">Sunnyvale, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.metacareers.com/profile/job_details/2180490782513668"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 6</td>
     </tr>
     <tr>
       <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Software Engineer Intern, Systems and Infrastructure (PhD)</td>
       <td width="180" align="left" valign="top">Sunnyvale, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.metacareers.com/profile/job_details/945520495299801"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 6</td>
     </tr>
     <tr>
@@ -1263,7 +1263,7 @@
       <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Software Engineer: Intership Opportunities, Azure Databases</td>
       <td width="180" align="left" valign="top">Redmond, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://apply.careers.microsoft.com/careers/job/1970393557002476?domain=microsoft.com&amp;8fold_id=1970393557002476"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 1</td>
     </tr>
     <tr>
@@ -2115,8 +2115,8 @@
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,464 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,463 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-11T19:37:28.945Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-11T20:52:52.342Z</code></sub>

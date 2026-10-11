@@ -24,7 +24,7 @@
       <td width="180" align="left" valign="top"><img height="28" alt="Meta" src="../assets/featured-badges/meta.svg" /></td>
       <td width="420" align="left" valign="top">Research Scientist, Wearables AI</td>
       <td width="180" align="left" valign="top">New York, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://www.metacareers.com/profile/job_details/1664500798343394"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 10</td>
     </tr>
     <tr>
@@ -2115,8 +2115,8 @@
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 3,120 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 3,105 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-11T19:37:28.945Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-11T20:52:52.342Z</code></sub>

@@ -90,8 +90,8 @@
 Each category page shows up to 300 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 1,505 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 1,464 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,120 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 1,463 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,105 opportunities
 
 ## The List 🚴‍♂️
 
@@ -149,7 +149,7 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="180" align="left" valign="top"><img height="28" alt="Meta" src="./assets/featured-badges/meta.svg" /></td>
       <td width="420" align="left" valign="top">Production Systems Engineering Intern</td>
       <td width="180" align="left" valign="top">Menlo Park, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.metacareers.com/profile/job_details/1772445513807075"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 9</td>
     </tr>
     <tr>
@@ -341,7 +341,7 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="180" align="left" valign="top"><img height="28" alt="Meta" src="./assets/featured-badges/meta.svg" /></td>
       <td width="420" align="left" valign="top">Research Scientist Intern, Audio, Machine Learning and Computer Vision (PhD)</td>
       <td width="180" align="left" valign="top">Redmond, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.metacareers.com/profile/job_details/2211974449401350"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 10</td>
     </tr>
     <tr>
@@ -549,7 +549,7 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,464 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,463 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -575,7 +575,7 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="180" align="left" valign="top"><img height="28" alt="Meta" src="./assets/featured-badges/meta.svg" /></td>
       <td width="420" align="left" valign="top">Research Scientist, Wearables AI</td>
       <td width="180" align="left" valign="top">New York, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://www.metacareers.com/profile/job_details/1664500798343394"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 10</td>
     </tr>
     <tr>
@@ -776,7 +776,7 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,120 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,105 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -795,7 +795,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-11T19:37:28.945Z</code>
+      🕒 Last updated <code>2026-10-11T20:52:52.342Z</code>
     </span>
   </p>
 </div>
