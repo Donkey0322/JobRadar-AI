@@ -147,3 +147,26 @@
 2026-10-11T04:21:28.606Z Workday: vhr-genband - 422 - Unprocessable Entity
 2026-10-11T04:21:31.644Z Ashby: whatnot - 404 - Not Found
 2026-10-11T04:21:32.174Z Greenhouse: x - 404 - Not Found
+2026-10-11T07:21:54.831Z Workday: entegris - 429 - Too Many Requests
+2026-10-11T07:21:54.835Z Workday: dxctechnology - 429 - Too Many Requests
+2026-10-11T07:21:54.871Z Workday: dickssportinggoods - 429 - Too Many Requests
+2026-10-11T07:21:54.955Z Workday: equinix - 429 - Too Many Requests
+2026-10-11T07:21:55.502Z Workday: ercot - 429 - Too Many Requests
+2026-10-11T07:21:55.886Z Workday: envista - 429 - Too Many Requests
+2026-10-11T07:21:55.958Z Workday: evercommerce - 429 - Too Many Requests
+2026-10-11T07:21:56.542Z Workday: evergreenix - 429 - Too Many Requests
+2026-10-11T07:21:56.797Z Workday: eversource - 429 - Too Many Requests
+2026-10-11T07:23:04.964Z Workday: gfs - 429 - Too Many Requests
+2026-10-11T07:23:04.966Z Workday: generalmotors - 429 - Too Many Requests
+2026-10-11T07:23:04.967Z Workday: gdit - 429 - Too Many Requests
+2026-10-11T07:23:04.976Z Workday: gevernova - 429 - Too Many Requests
+2026-10-11T07:23:59.063Z Workday: hitachi - 500 - Internal Server Error
+2026-10-11T07:25:38.770Z Workday: kbr - 429 - Too Many Requests
+2026-10-11T07:25:38.864Z Workday: jci - 429 - Too Many Requests
+2026-10-11T07:25:38.892Z Workday: keybank - 429 - Too Many Requests
+2026-10-11T07:25:39.510Z Workday: jj - 429 - Too Many Requests
+2026-10-11T07:25:39.584Z Workday: leidos - 429 - Too Many Requests
+2026-10-11T07:25:39.756Z Workday: levistraussandco - 429 - Too Many Requests
+2026-10-11T07:25:39.953Z Workday: jabil - 429 - Too Many Requests
+2026-10-11T07:25:42.067Z Workday: liveramp - 403 - Forbidden
+2026-10-11T07:28:18.229Z Workday: osv-rubicon - 422 - Unprocessable Entity
