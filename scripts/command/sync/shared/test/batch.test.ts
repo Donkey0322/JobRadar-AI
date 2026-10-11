@@ -11,7 +11,7 @@ const loadInflightBatchesMock = vi.hoisted(() => vi.fn());
 const submitQueuedJobsMock = vi.hoisted(() => vi.fn());
 const persistAnalyzedJobsMock = vi.hoisted(() => vi.fn());
 
-vi.mock("@/modules/screen/batch", () => ({
+vi.mock("@/modules/postings/batch", () => ({
   collectInflightBatches: collectInflightBatchesMock,
   loadBatchQueue: loadBatchQueueMock,
   loadInflightBatches: loadInflightBatchesMock,

@@ -16,9 +16,8 @@ import {
   NETWORK_ERROR_CODE,
 } from "@/modules/employer/detail/fetch";
 import { checkUrlsAgainstListing } from "@/modules/employer/liveness";
-import { syncExpiredFlags } from "@/modules/opportunity/dedup";
-import { getRawJD } from "@/modules/screen";
-import { isTarget } from "@/modules/screen/titles";
+import { getRawJD, Posting } from "@/modules/posting";
+import { syncExpiredFlags } from "@/modules/postings/dedup";
 import {
   loadCompanies,
   loadOpportunities,
@@ -123,7 +122,7 @@ async function main() {
   const targetedOpportunities: Opportunity[] = [];
   const jobs = await loadOpportunities();
   for (const job of jobs) {
-    if (!isTarget(job.role)) {
+    if (!Posting.from(job).isTarget()) {
       untargetedOpportunities.add(job.link);
     } else {
       targetedOpportunities.push(job);

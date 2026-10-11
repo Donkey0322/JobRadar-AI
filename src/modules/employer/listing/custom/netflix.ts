@@ -5,8 +5,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { isTarget, withinDays } from "@/modules/screen/titles";
-import { isKnownJob } from "@/utils/job-key";
+import { Posting } from "@/modules/posting/posting";
 import { logger } from "@/utils/logger";
 
 export const NETFLIX_API_URL = "https://explore.jobs.netflix.net/api/apply/v2/jobs";
@@ -95,13 +94,11 @@ export async function fetchNetflix(
       }
 
       const opportunities = rawJobs
+        .map((job) => Posting.from(normalizeNetflixJob(job), [job.t_create, job.t_update]))
         .filter(
-          (job) =>
-            isTarget(job.posting_name) &&
-            !isKnownJob(job.canonicalPositionUrl, knownKeys) &&
-            (withinDays(job.t_create) || withinDays(job.t_update))
+          (posting) => posting.isTarget() && !posting.isKnown(knownKeys) && posting.isRecent()
         )
-        .map(normalizeNetflixJob);
+        .map((posting) => posting.toJob());
 
       jobs.push(...opportunities);
     }

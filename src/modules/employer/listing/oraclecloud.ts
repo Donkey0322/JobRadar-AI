@@ -6,7 +6,6 @@ import type { Company, Job } from "@/types";
 
 import { Employer } from "../employer";
 
-import { isTarget, withinDays } from "@/modules/screen/titles";
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
 import { capitalize } from "@/utils/string";
@@ -199,13 +198,11 @@ export class OracleCloudFetcher extends Employer<OracleCloudJob> {
       const rawJobs = this.getJobsFromResponse(await res.json());
 
       const opportunities = rawJobs
+        .map((job) => this.posting(job, company, job.PostedDate))
         .filter(
-          (job) =>
-            isTarget(job.Title) &&
-            !this.isKnownJob(this.getJobLink(job, company), knownKeys) &&
-            withinDays(job.PostedDate)
+          (posting) => posting.isTarget() && !posting.isKnown(knownKeys) && posting.isRecent()
         )
-        .map((job) => this.normalizeJob(job, company));
+        .map((posting) => posting.toJob());
 
       return opportunities;
     } catch (error) {

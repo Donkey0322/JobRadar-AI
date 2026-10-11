@@ -5,8 +5,7 @@ import { ABORT_SIGNAL } from "@/constants";
 
 import type { Company, Job } from "@/types";
 
-import { isTarget } from "@/modules/screen/titles";
-import { isKnownJob } from "@/utils/job-key";
+import { Posting } from "@/modules/posting/posting";
 
 const GOOGLE_CAREERS_URL = "https://www.google.com/about/careers/applications";
 
@@ -109,8 +108,9 @@ export async function fetchGoogle(
     }
 
     const opportunities = rawJobs
-      .filter((job) => isTarget(job.role) && !isKnownJob(job.link, knownKeys))
-      .map(normalizeGoogleJob);
+      .map((job) => Posting.from(normalizeGoogleJob(job)))
+      .filter((posting) => posting.isTarget() && !posting.isKnown(knownKeys))
+      .map((posting) => posting.toJob());
 
     jobs.push(...opportunities);
   }

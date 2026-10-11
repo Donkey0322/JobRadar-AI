@@ -5,6 +5,7 @@ import type { Job } from "@/types";
 import type { JD } from "@/types/jobs";
 
 import { HttpStatusCode, JD_FETCH_ERROR, JD_FETCH_OK } from "@/modules/employer/detail";
+import { Posting } from "@/modules/posting/posting";
 import { JobCategory } from "@/validation/config";
 
 const readNdjsonFileIfExistsMock = vi.hoisted(() => vi.fn());
@@ -64,15 +65,7 @@ vi.mock("@/utils/ai", async (importOriginal) => {
   };
 });
 
-vi.mock("@/modules/screen", async (importOriginal) => {
-  const actual = await importOriginal<typeof import("@/modules/screen")>();
-  return {
-    ...actual,
-    getRawJD: getRawJDMock,
-  };
-});
-
-vi.mock("../ai", () => ({
+vi.mock("@/modules/posting/ai", () => ({
   default: analyzeJDMock,
   analyzeQualifications: analyzeQualificationsMock,
   formatJDPrompt: (rawJD: string, listingLocation?: string | null) => {
@@ -92,6 +85,8 @@ vi.mock("@/utils/logger", () => ({
 import { collectInflightBatches, enqueueBatchJobs, submitQueuedJobs } from "../batch";
 
 import { getJobKey } from "@/utils/job-key";
+
+const getRawJDSpy = vi.spyOn(Posting.prototype, "getRawJD");
 
 const usaJd: JD = {
   citizenship: false,
@@ -120,6 +115,10 @@ describe("batch-queue", () => {
     mkdirMock.mockReset().mockResolvedValue(undefined);
     getAIProviderMock.mockReset();
     getRawJDMock.mockReset();
+    getRawJDSpy.mockReset();
+    getRawJDSpy.mockImplementation(function (this: Posting) {
+      return getRawJDMock(this.link);
+    });
     analyzeJDMock.mockReset();
     analyzeQualificationsMock.mockReset();
     getAnalyzeJDConfigMock.mockReset().mockResolvedValue({

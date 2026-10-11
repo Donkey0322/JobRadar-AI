@@ -6,8 +6,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { isTarget, withinDays } from "@/modules/screen/titles";
-import { isKnownJob } from "@/utils/job-key";
+import { Posting } from "@/modules/posting/posting";
 import { logger } from "@/utils/logger";
 import { cleanText } from "@/utils/string";
 
@@ -60,14 +59,12 @@ export function parseAppleJobs(html: string): AppleJob[] {
 
     const postedAt = cleanText(card.find(".job-posted-date").first().text()) || null;
 
-    if (withinDays(postedAt ?? "", 2)) {
-      jobs.push({
-        title,
-        link: new URL(href, APPLE_CAREERS_URL).toString(),
-        location,
-        postedAt,
-      });
-    }
+    jobs.push({
+      title,
+      link: new URL(href, APPLE_CAREERS_URL).toString(),
+      location,
+      postedAt,
+    });
   });
 
   return jobs;
@@ -128,9 +125,17 @@ export async function fetchApple(
         break;
       }
 
-      const opportunities = rawJobs
-        .filter((job) => isTarget(job.title) && !isKnownJob(job.link, knownKeys))
-        .map(normalizeAppleJob);
+      const recent = rawJobs
+        .map((job) => Posting.from(normalizeAppleJob(job), job.postedAt))
+        .filter((posting) => posting.isRecent(2));
+
+      if (recent.length === 0) {
+        break;
+      }
+
+      const opportunities = recent
+        .filter((posting) => posting.isTarget() && !posting.isKnown(knownKeys))
+        .map((posting) => posting.toJob());
 
       jobs.push(...opportunities);
     }

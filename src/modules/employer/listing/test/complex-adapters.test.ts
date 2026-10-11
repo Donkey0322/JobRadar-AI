@@ -1,8 +1,8 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 
-import type * as CompanyUtils from "@/modules/screen/titles";
+import type * as CompanyUtils from "@/modules/posting/titles";
 
-vi.mock("@/modules/screen/titles", async (importOriginal) => {
+vi.mock("@/modules/posting/titles", async (importOriginal) => {
   const actual = await importOriginal<typeof CompanyUtils>();
   return { ...actual, isTarget: vi.fn(() => true) };
 });

@@ -2,6 +2,7 @@ import type { JDFetchResult } from "./detail/fetch";
 import type { ATS } from "./type";
 import type { Company, Job } from "@/types";
 
+import { Posting, type PostingDate } from "@/modules/posting/posting";
 import { getJobKey, isKnownJob, toJobKeySet } from "@/utils/job-key";
 
 export type CompanyResult = Company | null;
@@ -95,6 +96,14 @@ export abstract class Employer<TJob = unknown> {
   protected abstract getJobLink(job: TJob, company: Company): string;
 
   protected abstract normalizeJob(job: TJob, company: Company): Job;
+
+  protected posting(
+    job: TJob,
+    company: Company,
+    dates?: PostingDate | readonly PostingDate[]
+  ): Posting {
+    return Posting.from(this.normalizeJob(job, company), dates);
+  }
 
   protected isKnownJob(link: string, knownKeys: ReadonlySet<string>) {
     return isKnownJob(link, knownKeys);

@@ -5,7 +5,6 @@ import { RED_CROSS } from "@/constants/log";
 import type { Company, Job } from "@/types";
 
 import { Employer } from "@/modules/employer/employer";
-import { isTarget, withinDays } from "@/modules/screen/titles";
 import { decodeHtmlEntities } from "@/utils/html";
 import { fetchHtmlResponse, getSetCookieHeader, isAbortError, isHtmlResponse } from "@/utils/http";
 import { logger } from "@/utils/logger";
@@ -699,18 +698,18 @@ export class PhenomFetcher extends Employer<PhenomJob> {
         let reachedOldJob = false;
 
         for (const rawJob of rawJobs) {
-          if (!withinDays(rawJob.postedDate, RECENT_DAYS)) {
+          const posting = this.posting(rawJob, resolvedCompany, rawJob.postedDate);
+
+          if (!posting.isRecent(RECENT_DAYS)) {
             reachedOldJob = true;
             break;
           }
 
-          const link = this.getJobLink(rawJob, resolvedCompany);
-
-          if (!isTarget(rawJob.title) || this.isKnownJob(link, knownKeys)) {
+          if (!posting.isTarget() || posting.isKnown(knownKeys)) {
             continue;
           }
 
-          jobs.push(this.normalizeJob(rawJob, resolvedCompany));
+          jobs.push(posting.toJob());
         }
 
         if (reachedOldJob || rawJobs.length < PAGE_SIZE) {

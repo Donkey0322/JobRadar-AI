@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 
-vi.mock("@/modules/screen/titles", () => ({
+vi.mock("@/modules/posting/titles", () => ({
   isTarget: vi.fn(() => true),
   withinDays: vi.fn(() => true),
 }));

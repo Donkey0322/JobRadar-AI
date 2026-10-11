@@ -6,7 +6,6 @@ import type { Company, Job } from "@/types";
 
 import { Employer } from "../employer";
 
-import { isTarget, withinDays } from "@/modules/screen/titles";
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
 import { capitalize } from "@/utils/string";
@@ -255,16 +254,19 @@ export class EightfoldFetcher extends Employer<EightfoldJob> {
 
         let reachedOldJob = false;
         const opportunities = rawJobs
-          .filter((job) => {
-            if (job.postedTs && !withinDays(job.postedTs)) {
+          .map((job) => ({
+            posting: this.posting(job, company, job.postedTs),
+            hasPostedAt: Boolean(job.postedTs),
+          }))
+          .filter(({ posting, hasPostedAt }) => {
+            if (hasPostedAt && !posting.isRecent()) {
               reachedOldJob = true;
               return false;
             }
 
-            const link = this.getJobLink(job, company);
-            return !!(job.name && link && isTarget(job.name) && !this.isKnownJob(link, knownKeys));
+            return posting.isTarget() && !posting.isKnown(knownKeys);
           })
-          .map((job) => this.normalizeJob(job, company));
+          .map(({ posting }) => posting.toJob());
 
         allJobs.push(...opportunities);
         if (rawJobs.length < PAGE_SIZE || reachedOldJob) break;

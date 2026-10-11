@@ -8,10 +8,8 @@ import type { Company, Job } from "@/types";
 import { Employer } from "../employer";
 
 import { findIcimsIframeSrc, isIcimsUrl, normalizeIcimsUrl } from "@/modules/employer/shared/icims";
-import { isTarget } from "@/modules/screen/titles";
 import { decodeHtmlEntities } from "@/utils/html";
 import { fetchHtmlResponse } from "@/utils/http";
-import { getJobKey } from "@/utils/job-key";
 import { logger } from "@/utils/logger";
 import { capitalize, cleanText } from "@/utils/string";
 
@@ -260,13 +258,13 @@ export class IcimsFetcher extends Employer<IcimsJob> {
         if (rawJobs.length === 0) break;
 
         const opportunities = rawJobs
-          .filter((job) => {
-            const link = this.getJobLink(job, company);
-            if (!isTarget(job.title) || this.isKnownJob(link, seenKeys)) return false;
-            seenKeys.add(getJobKey(link));
+          .map((job) => this.posting(job, company))
+          .filter((posting) => {
+            if (!posting.isTarget() || posting.isKnown(seenKeys)) return false;
+            seenKeys.add(posting.key());
             return true;
           })
-          .map((job) => this.normalizeJob(job, company));
+          .map((posting) => posting.toJob());
 
         allJobs.push(...opportunities);
       }

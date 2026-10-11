@@ -5,8 +5,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { isTarget, withinDays } from "@/modules/screen/titles";
-import { isKnownJob } from "@/utils/job-key";
+import { Posting } from "@/modules/posting/posting";
 import { logger } from "@/utils/logger";
 
 const AMD_CAREERS_URL = "https://careers.amd.com/careers-home/jobs";
@@ -105,15 +104,16 @@ export async function fetchAMD(
       let reachedOldJob = false;
 
       const opportunities = rawJobs
-        .filter((job) => {
-          if (!withinDays(job.posted_date)) {
+        .map((job) => Posting.from(normalizeAMDJob(job), job.posted_date))
+        .filter((posting) => {
+          if (!posting.isRecent()) {
             reachedOldJob = true;
             return false;
           }
 
-          return isTarget(job.title) && !isKnownJob(`${AMD_JOB_URL}/${job.req_id}`, knownKeys);
+          return posting.isTarget() && !posting.isKnown(knownKeys);
         })
-        .map(normalizeAMDJob);
+        .map((posting) => posting.toJob());
 
       jobs.push(...opportunities);
 

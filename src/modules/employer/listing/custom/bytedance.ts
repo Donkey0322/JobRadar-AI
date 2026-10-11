@@ -5,8 +5,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { isTarget } from "@/modules/screen/titles";
-import { isKnownJob } from "@/utils/job-key";
+import { Posting } from "@/modules/posting/posting";
 import { logger } from "@/utils/logger";
 
 const BYTEDANCE_CAREERS_URL = "https://joinbytedance.com";
@@ -150,8 +149,9 @@ export async function fetchByteDance(
     const rawJobs = await fetchAllByteDanceJobs(company, signal);
 
     return rawJobs
-      .filter((job) => isTarget(job.title) && !isKnownJob(getByteDanceJobLink(job), knownKeys))
-      .map(normalizeByteDanceJob);
+      .map((job) => Posting.from(normalizeByteDanceJob(job)))
+      .filter((posting) => posting.isTarget() && !posting.isKnown(knownKeys))
+      .map((posting) => posting.toJob());
   } catch (error) {
     if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
       logger.error(

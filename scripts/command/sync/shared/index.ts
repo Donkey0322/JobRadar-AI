@@ -2,23 +2,22 @@ import pLimit from "p-limit";
 
 import { RED_CROSS } from "@/constants/log";
 
-import type { OpportunityLedger } from "@/modules/opportunity/seen";
+import type { OpportunityLedger } from "@/modules/postings/seen";
 import type { Job } from "@/types";
 import type { JD } from "@/types/jobs";
 
 import { buildCompanyList } from "@/modules/employer/build";
+import { Posting } from "@/modules/posting";
+import { enqueueBatchJobs } from "@/modules/postings/batch";
 import {
   createOpportunityLedger,
   recordSeenOpportunity,
   seenOpportunitiesToWrite,
-} from "@/modules/opportunity/seen";
-import getJD, { decideNotification } from "@/modules/screen";
-import { enqueueBatchJobs } from "@/modules/screen/batch";
-import { shouldBatchAnalyze } from "@/modules/screen/titles";
+} from "@/modules/postings/seen";
 import { loadJobs, loadOpportunities, loadUrls, saveOpportunities } from "@/utils/data";
 import { saveJob, saveUrls } from "@/utils/data";
 import { renderProgress, startProgress } from "@/utils/dev";
-import { deduplicateJobs, getJobKey, groupUrlsByKey } from "@/utils/job-key";
+import { deduplicateJobs, groupUrlsByKey } from "@/utils/job-key";
 import { logger } from "@/utils/logger";
 
 const DEFAULT_SOFT_DEADLINE_MS = 15 * 60 * 1000;
@@ -89,7 +88,7 @@ export async function processJobs({
   filter,
   softDeadlineMs = DEFAULT_SOFT_DEADLINE_MS,
 }: ProcessJobsOptions) {
-  const incomingJobs = deduplicateJobs(rawIncomingJobs);
+  const incomingJobs = deduplicateJobs(rawIncomingJobs).map((job) => Posting.from(job));
   const startedAt = Date.now();
 
   function remainingMs() {
@@ -103,10 +102,10 @@ export async function processJobs({
   let newUrlAdded = false;
   const opportunities = createOpportunityLedger(await loadOpportunities());
 
-  function markAsSeen(job: Job) {
-    recordSeenOpportunity(opportunities, job, "refresh");
-    urls.add(job.link);
-    keys.add(getJobKey(job.link));
+  function markAsSeen(posting: Posting) {
+    recordSeenOpportunity(opportunities, posting.toJob(), "refresh");
+    urls.add(posting.link);
+    keys.add(posting.key());
     newUrlAdded = true;
   }
 
@@ -134,7 +133,7 @@ export async function processJobs({
         completed++;
         renderProgress(completed, total);
 
-        const key = getJobKey(job.link);
+        const key = job.key();
 
         if (keys.has(key)) {
           return {
@@ -159,14 +158,14 @@ export async function processJobs({
           };
         }
 
-        if (shouldBatchAnalyze(job.role)) {
+        if (job.shouldBatchAnalyze()) {
           return {
             type: "batch" as const,
             job,
           };
         }
 
-        const result = await getJD(job);
+        const result = await job.analyze();
 
         if (!result.jd) {
           return {
@@ -229,7 +228,7 @@ export async function processJobs({
 
     if (result.type === "batch") {
       markAsSeen(result.job);
-      batchedJobs.push(result.job);
+      batchedJobs.push(result.job.toJob());
       batched += 1;
 
       logger.info(
@@ -260,10 +259,9 @@ export async function processJobs({
       continue;
     }
 
-    job.jd = jd;
     totalCost += cost;
 
-    const decision = decideNotification(job.role, jd);
+    const decision = job.decideNotification();
 
     if (decision.action === "skip" && decision.kind === "ineligible") {
       markAsSeen(job);
@@ -301,7 +299,7 @@ export async function processJobs({
     currentId += 1;
     job.id = currentId;
     markAsSeen(job);
-    jobs.push(job);
+    jobs.push(job.toJob());
   }
 
   if (batchedJobs.length > 0) {
@@ -365,16 +363,16 @@ export async function persistAnalyzedJobs(analyzed: Array<{ job: Job; jd: JD; co
   let skipped = 0;
   let totalCost = 0;
 
-  function markAsSeen(job: Job) {
-    recordSeenOpportunity(opportunities, job, "preserve");
+  function markAsSeen(posting: Posting) {
+    recordSeenOpportunity(opportunities, posting.toJob(), "preserve");
   }
 
   for (const item of analyzed) {
-    const job = item.job;
+    const job = Posting.from(item.job);
     job.jd = item.jd;
     totalCost += item.cost;
 
-    const decision = decideNotification(job.role, item.jd);
+    const decision = job.decideNotification();
 
     if (decision.action === "skip" && decision.kind === "ineligible") {
       markAsSeen(job);
@@ -410,7 +408,7 @@ export async function persistAnalyzedJobs(analyzed: Array<{ job: Job; jd: JD; co
     currentId += 1;
     job.id = currentId;
     markAsSeen(job);
-    jobs.push(job);
+    jobs.push(job.toJob());
 
     logger.info(
       {

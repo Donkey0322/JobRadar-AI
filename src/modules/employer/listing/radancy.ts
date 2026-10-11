@@ -11,7 +11,6 @@ import {
   getRadancyResultsPostUrl,
   parseRadancyJobs,
 } from "@/modules/employer/shared/radancy";
-import { isTarget } from "@/modules/screen/titles";
 import { appendErrorLog } from "@/utils/data";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
@@ -162,8 +161,9 @@ export class RadancyFetcher extends Employer<RadancyJob> {
         if (rawJobs.length === 0) break;
 
         const opportunities = rawJobs
-          .filter((job) => isTarget(job.title) && !this.isKnownJob(job.link, knownKeys))
-          .map((job) => this.normalizeJob(job, company));
+          .map((job) => this.posting(job, company))
+          .filter((posting) => posting.isTarget() && !posting.isKnown(knownKeys))
+          .map((posting) => posting.toJob());
 
         jobs.push(...opportunities);
 

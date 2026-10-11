@@ -1,9 +1,12 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 
+import type * as PostingTitles from "@/modules/posting/titles";
 import type { Job } from "@/types";
 import type { JD } from "@/types/jobs";
+import type * as DataUtils from "@/utils/data";
 
 import { HttpStatusCode, JD_FETCH_ERROR, JD_FETCH_OK } from "@/modules/employer/detail";
+import { Posting } from "@/modules/posting/posting";
 import { JobCategory } from "@/validation/config";
 
 const dataMocks = vi.hoisted(() => ({
@@ -26,27 +29,19 @@ const loggerMocks = vi.hoisted(() => ({
 }));
 
 vi.mock("@/utils/data", async (importOriginal) => {
-  const actual = await importOriginal<typeof import("@/utils/data")>();
+  const actual = await importOriginal<typeof DataUtils>();
   return {
     ...actual,
     ...dataMocks,
   };
 });
 
-vi.mock("@/modules/screen", async (importOriginal) => {
-  const actual = await importOriginal<typeof import("@/modules/screen")>();
-  return {
-    ...actual,
-    default: getJDMock,
-  };
-});
-
-vi.mock("@/modules/screen/batch", () => ({
+vi.mock("@/modules/postings/batch", () => ({
   enqueueBatchJobs: enqueueBatchJobsMock,
 }));
 
-vi.mock("@/modules/screen/titles", async (importOriginal) => {
-  const actual = await importOriginal<typeof import("@/modules/screen/titles")>();
+vi.mock("@/modules/posting/titles", async (importOriginal) => {
+  const actual = await importOriginal<typeof PostingTitles>();
   return {
     ...actual,
     shouldBatchAnalyze: shouldBatchAnalyzeMock,
@@ -62,6 +57,8 @@ vi.mock("@/utils/logger", () => ({
 }));
 
 import { persistAnalyzedJobs, processJobs } from "../index";
+
+const analyzePostingSpy = vi.spyOn(Posting.prototype, "analyze");
 
 const usaJd: JD = {
   citizenship: null,
@@ -99,6 +96,11 @@ describe("processJobs", () => {
     dataMocks.loadUrls.mockReset().mockResolvedValue(new Set<string>());
     dataMocks.loadJobs.mockReset().mockResolvedValue([]);
     getJDMock.mockReset();
+    analyzePostingSpy.mockImplementation(async function (this: Posting) {
+      const result = await getJDMock(this);
+      this.jd = result.jd;
+      return result;
+    });
     enqueueBatchJobsMock.mockReset().mockResolvedValue(undefined);
     shouldBatchAnalyzeMock.mockReset().mockReturnValue(false);
     buildCompanyListMock.mockReset().mockResolvedValue(undefined);

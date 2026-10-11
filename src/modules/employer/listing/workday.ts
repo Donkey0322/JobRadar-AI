@@ -7,7 +7,6 @@ import type { Company, Job } from "@/types";
 import { Employer } from "../employer";
 
 import { isWorkdayLocaleSegment } from "@/modules/employer/shared/workday";
-import { isTarget } from "@/modules/screen/titles";
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
 import { capitalize } from "@/utils/string";
@@ -167,10 +166,9 @@ export class WorkdayFetcher extends Employer<WorkdayJob> {
     }
 
     return results
-      .filter(
-        (job) => isTarget(job.title) && !this.isKnownJob(this.getJobLink(job, company), knownKeys)
-      )
-      .map((job) => this.normalizeJob(job, company));
+      .map((job) => this.posting(job, company))
+      .filter((posting) => posting.isTarget() && !posting.isKnown(knownKeys))
+      .map((posting) => posting.toJob());
   }
 
   private async paginateJobPostings(

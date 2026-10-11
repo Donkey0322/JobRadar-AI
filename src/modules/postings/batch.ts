@@ -8,22 +8,45 @@ import { RED_CROSS } from "@/constants/log";
 import type { JD, Job } from "@/types";
 import type { BatchGenerateRequest } from "@/utils/ai/provider/utils";
 
+import { isRetryableJDFetch } from "@/modules/employer/detail";
 import analyzeJD, {
   analyzeQualifications,
   formatJDPrompt,
   formatQualificationPrompt,
   getAnalyzeJDConfig,
   getQualificationConfig,
-} from "./ai";
-import { attachQualifications, getRawJD, needsQualificationExtraction } from "./index";
-import { jdResponseSpilled, parseAIJDResult, parseQualificationResult } from "./response";
-
-import { isRetryableJDFetch } from "@/modules/employer/detail";
+} from "@/modules/posting/ai";
+import { extractQualifications } from "@/modules/posting/analyze";
+import { Posting } from "@/modules/posting/posting";
+import {
+  jdResponseSpilled,
+  parseAIJDResult,
+  parseQualificationResult,
+} from "@/modules/posting/response";
 import { AI_DEFAULT_MODEL, getAIProvider } from "@/utils/ai";
 import { readJsonFile } from "@/utils/data";
 import { getJobKey } from "@/utils/job-key";
 import { logger } from "@/utils/logger";
 import { readNdjsonFileIfExists } from "@/utils/ndjson-archive";
+
+async function withQualifications(job: Job, jd: JD, rawJD: string, cost: number) {
+  const posting = Posting.from(job).setJD(jd);
+
+  if (!posting.needsQualifications()) {
+    return { jd, cost };
+  }
+
+  const qualificationResult = await extractQualifications(rawJD);
+
+  if (qualificationResult.qualifications) {
+    posting.setJD({
+      ...jd,
+      qualifications: qualificationResult.qualifications,
+    });
+  }
+
+  return { jd: posting.jd ?? jd, cost: cost + qualificationResult.cost };
+}
 
 export interface InflightBatch {
   name: string;
@@ -149,7 +172,7 @@ async function resolveAnalyzedResult(
 
   logger.warn({ company: job.company, url: job.link }, "⚠️ AI response spilled; retrying once");
 
-  const { jd: rawJD } = await getRawJD(job.link);
+  const { jd: rawJD } = await Posting.from(job).getRawJD();
 
   if (rawJD) {
     const retry = await analyzeJD(rawJD, false, job.location);
@@ -181,7 +204,7 @@ async function resolveQualificationResult(
       logger.warn({ company: job.company, url: job.link }, "⚠️ AI response spilled; retrying once");
     }
 
-    const { jd: rawJD } = await getRawJD(job.link);
+    const { jd: rawJD } = await Posting.from(job).getRawJD();
 
     if (rawJD) {
       const retry = await analyzeQualifications(rawJD, false);
@@ -217,7 +240,7 @@ async function submitQualificationBatches(
   const fetched = await Promise.all(
     pending.map((item) =>
       fetchLimit(async () => {
-        const { jd: rawJD, error } = await getRawJD(item.job.link);
+        const { jd: rawJD, error } = await Posting.from(item.job).getRawJD();
         return { ...item, rawJD, error };
       })
     )
@@ -247,7 +270,7 @@ async function submitQualificationBatches(
 
   if (ready.length === 0 || !provider?.submitBatch) {
     for (const item of ready) {
-      const finished = await attachQualifications(item.rawJD, item.jd, item.cost, item.job.role);
+      const finished = await withQualifications(item.job, item.jd, item.rawJD, item.cost);
       analyzed.push({ job: item.job, jd: finished.jd, cost: finished.cost });
     }
 
@@ -269,7 +292,7 @@ async function submitQualificationBatches(
 
     if (!submitted) {
       for (const item of chunk) {
-        const finished = await attachQualifications(item.rawJD, item.jd, item.cost, item.job.role);
+        const finished = await withQualifications(item.job, item.jd, item.rawJD, item.cost);
         analyzed.push({ job: item.job, jd: finished.jd, cost: finished.cost });
       }
       continue;
@@ -298,16 +321,15 @@ async function submitQualificationBatches(
 async function analyzeJobsRealtime(jobs: Array<{ job: Job; rawJD: string }>) {
   const analyzed: AnalyzedBatchJob[] = [];
 
-  for (const { job, rawJD } of jobs) {
-    const { result, cost } = await analyzeJD(rawJD, true, job.location);
-    const parsed = parseAnalyzedResult(job, result, cost);
+  for (const { job } of jobs) {
+    const posting = Posting.from(job);
+    const result = await posting.analyze();
 
-    if (!parsed) {
+    if (!result.jd) {
       continue;
     }
 
-    const finished = await attachQualifications(rawJD, parsed.jd, parsed.cost, job.role);
-    analyzed.push({ job, jd: finished.jd, cost: finished.cost });
+    analyzed.push({ job, jd: result.jd, cost: result.cost });
   }
 
   return analyzed;
@@ -411,8 +433,11 @@ export async function collectInflightBatches(): Promise<{
         }
       } else {
         const parsed = await resolveAnalyzedResult(job, result.result, result.cost);
+        const posting = Posting.from(job);
 
-        if (parsed && needsQualificationExtraction(parsed.jd, job.role)) {
+        if (parsed) posting.setJD(parsed.jd);
+
+        if (parsed && posting.needsQualifications()) {
           pendingQualifications.push({ job, jd: parsed.jd, cost: parsed.cost });
           continue;
         }
@@ -492,7 +517,7 @@ export async function submitQueuedJobs(limit = Number.POSITIVE_INFINITY): Promis
   const fetchResults = await Promise.all(
     chunk.map((job) =>
       fetchLimit(async () => {
-        const { jd: rawJD, error } = await getRawJD(job.link);
+        const { jd: rawJD, error } = await Posting.from(job).getRawJD();
         return { job, rawJD, error };
       })
     )

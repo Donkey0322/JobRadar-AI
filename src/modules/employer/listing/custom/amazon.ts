@@ -5,8 +5,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { isTarget, withinDays } from "@/modules/screen/titles";
-import { isKnownJob } from "@/utils/job-key";
+import { Posting } from "@/modules/posting/posting";
 import { logger } from "@/utils/logger";
 
 const AMAZON_CAREERS_URL = "https://amazon.jobs";
@@ -83,17 +82,11 @@ export async function fetchAmazon(
     const rawJobs = getAmazonJobsFromResponse(await res.json());
 
     const opportunities = rawJobs
-      .filter((job) => {
-        const title = job.title?.[0] ?? "";
-        const link = `${AMAZON_CAREERS_URL}/en/jobs/${job.icimsJobId?.[0]}`;
-
-        return (
-          isTarget(title) &&
-          !isKnownJob(link, knownKeys) &&
-          (withinDays(job.createdDate?.[0]) || withinDays(job.updatedDate?.[0]))
-        );
-      })
-      .map(normalizeAmazonJob);
+      .map((job) =>
+        Posting.from(normalizeAmazonJob(job), [job.createdDate?.[0], job.updatedDate?.[0]])
+      )
+      .filter((posting) => posting.isTarget() && !posting.isKnown(knownKeys) && posting.isRecent())
+      .map((posting) => posting.toJob());
 
     return opportunities;
   } catch (error) {

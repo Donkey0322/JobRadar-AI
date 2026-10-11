@@ -5,9 +5,8 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { isTarget } from "@/modules/screen/titles";
+import { Posting } from "@/modules/posting/posting";
 import { fetchHtmlResponse, getSetCookieHeader, isAbortError, isHtmlResponse } from "@/utils/http";
-import { isKnownJob } from "@/utils/job-key";
 import { logger } from "@/utils/logger";
 
 const META_CAREERS_URL = "https://www.metacareers.com/jobsearch";
@@ -206,13 +205,10 @@ export async function fetchMeta(
     const rawJobs = getMetaJobsFromResponse(JSON.parse(cleanMetaJson(raw)));
 
     const opportunities = rawJobs
-      .filter((job) => {
-        const title = job.title ?? "";
-        const link = job.id ? `${META_DETAILS_URL}/${job.id}` : null;
-
-        return !!(link && isTarget(title) && !isKnownJob(link, knownKeys));
-      })
-      .map(normalizeMetaJob);
+      .filter((job) => Boolean(job.id))
+      .map((job) => Posting.from(normalizeMetaJob(job)))
+      .filter((posting) => posting.isTarget() && !posting.isKnown(knownKeys))
+      .map((posting) => posting.toJob());
 
     return opportunities;
   } catch (error) {

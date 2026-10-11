@@ -5,8 +5,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { isTarget } from "@/modules/screen/titles";
-import { isKnownJob } from "@/utils/job-key";
+import { Posting } from "@/modules/posting/posting";
 import { logger } from "@/utils/logger";
 
 const TIKTOK_CAREERS_URL = "https://lifeattiktok.com";
@@ -110,8 +109,9 @@ export async function fetchTikTok(
     const rawJobs = getTikTokJobsFromResponse(await res.json());
 
     const opportunities = rawJobs
-      .filter((job) => isTarget(job.title) && !isKnownJob(getTikTokJobLink(job), knownKeys))
-      .map(normalizeTikTokJob);
+      .map((job) => Posting.from(normalizeTikTokJob(job)))
+      .filter((posting) => posting.isTarget() && !posting.isKnown(knownKeys))
+      .map((posting) => posting.toJob());
 
     return opportunities;
   } catch (error) {

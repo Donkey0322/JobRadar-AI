@@ -8,7 +8,6 @@ import type { Company, Job } from "@/types";
 
 import { Employer } from "../employer";
 
-import { isTarget, withinDays } from "@/modules/screen/titles";
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
 import { getHostnameWithoutWww, getSubdomainIdentifier } from "@/utils/url";
@@ -219,15 +218,11 @@ export class GreenhouseFetcher extends Employer<GreenhouseJob> {
       }
 
       return this.getJobsFromResponse(await response.json())
-        .filter((job) => {
-          const link = this.getJobLink(job, company);
-          return (
-            isTarget(job.title) &&
-            !this.isKnownJob(link, knownKeys) &&
-            (withinDays(job.first_published) || withinDays(job.updated_at))
-          );
-        })
-        .map((job) => this.normalizeJob(job, company));
+        .map((job) => this.posting(job, company, [job.first_published, job.updated_at]))
+        .filter(
+          (posting) => posting.isTarget() && !posting.isKnown(knownKeys) && posting.isRecent()
+        )
+        .map((posting) => posting.toJob());
     } catch (error) {
       if (
         error instanceof Error &&
