@@ -8,7 +8,6 @@ import { RED_CROSS } from "@/constants/log";
 import type { JD, Job } from "@/types";
 import type { BatchGenerateRequest } from "@/utils/ai/provider/utils";
 
-import { isRetryableJDFetch } from "@/modules/employer/detail";
 import analyzeJD, {
   analyzeQualifications,
   formatJDPrompt,
@@ -17,6 +16,7 @@ import analyzeJD, {
   getQualificationConfig,
 } from "@/modules/posting/ai";
 import { extractQualifications } from "@/modules/posting/analyze";
+import { isRetryableJDFetch, JD_FETCH_OK } from "@/modules/posting/jd";
 import { Posting } from "@/modules/posting/posting";
 import {
   jdResponseSpilled,
@@ -321,9 +321,11 @@ async function submitQualificationBatches(
 async function analyzeJobsRealtime(jobs: Array<{ job: Job; rawJD: string }>) {
   const analyzed: AnalyzedBatchJob[] = [];
 
-  for (const { job } of jobs) {
+  for (const { job, rawJD } of jobs) {
     const posting = Posting.from(job);
-    const result = await posting.analyze();
+    const result = await posting.analyze({
+      fetched: { jd: rawJD, error: JD_FETCH_OK },
+    });
 
     if (!result.jd) {
       continue;

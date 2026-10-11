@@ -5,7 +5,7 @@ import type { Job } from "@/types";
 import type { JD } from "@/types/jobs";
 import type * as DataUtils from "@/utils/data";
 
-import { HttpStatusCode, JD_FETCH_ERROR, JD_FETCH_OK } from "@/modules/employer/detail";
+import { HttpStatusCode, JD_FETCH_ERROR, JD_FETCH_OK } from "@/modules/posting/jd";
 import { Posting } from "@/modules/posting/posting";
 import { JobCategory } from "@/validation/config";
 

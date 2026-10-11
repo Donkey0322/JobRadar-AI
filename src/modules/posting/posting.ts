@@ -1,10 +1,11 @@
-import { ALLOWED_COUNTRIES, CONFIG } from "@/constants";
+import { ABORT_SIGNAL, ALLOWED_COUNTRIES, CONFIG } from "@/constants";
 
 import type { PostingAnalysisResult } from "./analyze";
-import type { JDFetchResult } from "@/modules/employer/detail";
+import type { JDFetchResult } from "./jd";
 import type { JD, Job } from "@/types";
 
-import { analyzePosting, extractQualifications, getRawJD } from "./analyze";
+import { analyzePosting, extractQualifications } from "./analyze";
+import { fetchPostingJD } from "./jd";
 import { isNotifyCandidate, isTarget, shouldBatchAnalyze, withinDays } from "./titles";
 
 import { getJobKey, isKnownJob } from "@/utils/job-key";
@@ -65,15 +66,15 @@ export class Posting implements Job {
     return this;
   }
 
-  async getRawJD(signal?: AbortSignal): Promise<JDFetchResult> {
-    return getRawJD(this.link, signal);
+  async getRawJD(signal: AbortSignal = ABORT_SIGNAL): Promise<JDFetchResult> {
+    return fetchPostingJD(this.link, signal);
   }
 
-  async analyze(): Promise<PostingAnalysisResult> {
-    const result = await analyzePosting(
-      this.toJob(),
-      await this.getRawJD(AbortSignal.timeout(5 * 60 * 1000))
-    );
+  async analyze(options: PostingAnalyzeOptions = {}): Promise<PostingAnalysisResult> {
+    const fetched =
+      options.fetched ??
+      (await this.getRawJD(options.signal ?? AbortSignal.timeout(5 * 60 * 1000)));
+    const result = await analyzePosting(this.toJob(), fetched);
     this.setJD(result.jd);
 
     if (!this.jd || !this.needsQualifications()) {
@@ -203,6 +204,13 @@ export class Posting implements Job {
   }
 }
 
+export const LINK_ANALYSIS_TIMEOUT_MS = 5000;
+
+export interface PostingAnalyzeOptions {
+  fetched?: JDFetchResult;
+  signal?: AbortSignal;
+}
+
 export async function analyzeLink(link: string): Promise<JD | null> {
   const posting = Posting.from({
     company: "",
@@ -210,6 +218,8 @@ export async function analyzeLink(link: string): Promise<JD | null> {
     link,
     location: "",
   });
-  const result = await posting.analyze();
+  const result = await posting.analyze({
+    signal: AbortSignal.timeout(LINK_ANALYSIS_TIMEOUT_MS),
+  });
   return result.jd;
 }

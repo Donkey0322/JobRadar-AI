@@ -132,10 +132,6 @@ export class SmartRecruitersFetcher extends Employer<SmartRecruitersJob> {
     }
   }
 
-  async fetchJD(url: string, signal: AbortSignal) {
-    const { fetchSmartRecruitersJD } = await import("@/modules/employer/detail/smart");
-    return fetchSmartRecruitersJD(url, signal);
-  }
 }
 
 export const smartRecruitersFetcher = new SmartRecruitersFetcher();

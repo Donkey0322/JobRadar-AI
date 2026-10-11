@@ -276,10 +276,6 @@ export class IcimsFetcher extends Employer<IcimsJob> {
     return allJobs;
   }
 
-  async fetchJD(url: string, signal: AbortSignal) {
-    const { fetchIcimsJD } = await import("@/modules/employer/detail/icims");
-    return fetchIcimsJD(url, signal);
-  }
 }
 
 export const icimsFetcher = new IcimsFetcher();

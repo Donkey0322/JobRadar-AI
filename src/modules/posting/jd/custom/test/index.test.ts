@@ -2,7 +2,7 @@ import { afterEach, describe, expect, it, vi } from "vitest";
 
 import { fetchCustomJD } from "../index";
 
-import { HttpStatusCode, JD_FETCH_ERROR } from "@/modules/employer/detail";
+import { HttpStatusCode, JD_FETCH_ERROR } from "@/modules/posting/jd";
 
 describe("fetchCustomJD", () => {
   afterEach(() => {

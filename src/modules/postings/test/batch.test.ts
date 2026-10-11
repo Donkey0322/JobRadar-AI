@@ -4,7 +4,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import type { Job } from "@/types";
 import type { JD } from "@/types/jobs";
 
-import { HttpStatusCode, JD_FETCH_ERROR, JD_FETCH_OK } from "@/modules/employer/detail";
+import { HttpStatusCode, JD_FETCH_ERROR, JD_FETCH_OK } from "@/modules/posting/jd";
 import { Posting } from "@/modules/posting/posting";
 import { JobCategory } from "@/validation/config";
 
@@ -337,6 +337,7 @@ describe("batch-queue", () => {
         cost: 0.01,
       }),
     ]);
+    expect(getRawJDMock).toHaveBeenCalledTimes(1);
   });
 
   it("keeps retryable JD fetch failures in the queue and drops the rest", async () => {

@@ -3,20 +3,20 @@ import pLimit from "p-limit";
 
 import { GREEN_CHECKMARK, RED_CROSS } from "@/constants/log";
 
-import type { JDFetchResult, JDFetchStatus } from "@/modules/employer/detail";
+import type { JDFetchResult, JDFetchStatus } from "@/modules/posting/jd";
 import type { Opportunity } from "@/types";
 
 import deduplicate from "./dedup";
 
 import { buildCompanyList, getCompanyKey, groupUrlsByCompanyKey } from "@/modules/employer/build";
 import { classifyATS } from "@/modules/employer/classifier";
+import { checkUrlsAgainstListing } from "@/modules/employer/liveness";
+import { Posting } from "@/modules/posting";
 import {
   HttpStatusCode,
   isRetryableJDFetch,
   NETWORK_ERROR_CODE,
-} from "@/modules/employer/detail/fetch";
-import { checkUrlsAgainstListing } from "@/modules/employer/liveness";
-import { getRawJD, Posting } from "@/modules/posting";
+} from "@/modules/posting/jd";
 import { syncExpiredFlags } from "@/modules/postings/dedup";
 import {
   loadCompanies,
@@ -79,15 +79,24 @@ function retryDelay(error: JDFetchStatus, delay: number) {
   return Math.min(MAX_DELAY_MS, Math.max(delay, error.retryAfterMs ?? 0));
 }
 
+async function fetchPostingRawJD(url: string, signal: AbortSignal): Promise<JDFetchResult> {
+  return Posting.from({
+    company: "",
+    role: "",
+    link: url,
+    location: "",
+  }).getRawJD(signal);
+}
+
 async function getRawJDWithRetry(url: string, host: string): Promise<JDFetchResult> {
   let delay = INITIAL_DELAY_MS;
-  let result = await getRawJD(url, AbortSignal.timeout(FETCH_TIMEOUT_MS));
+  let result = await fetchPostingRawJD(url, AbortSignal.timeout(FETCH_TIMEOUT_MS));
 
   for (let attempt = 0; attempt < MAX_RETRIES && isRetryableJDFetch(result.error); attempt++) {
     const wait = retryDelay(result.error, delay);
     extendHostCooldown(host, wait);
     await sleep(wait + Math.floor(Math.random() * 250));
-    result = await getRawJD(url, AbortSignal.timeout(FETCH_TIMEOUT_MS));
+    result = await fetchPostingRawJD(url, AbortSignal.timeout(FETCH_TIMEOUT_MS));
     delay *= 2;
   }
 

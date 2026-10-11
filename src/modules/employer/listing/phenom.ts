@@ -732,10 +732,6 @@ export class PhenomFetcher extends Employer<PhenomJob> {
     }
   }
 
-  async fetchJD(url: string, signal: AbortSignal) {
-    const { fetchCustomJD } = await import("@/modules/employer/detail/custom");
-    return fetchCustomJD(url, signal);
-  }
 }
 
 export const phenomFetcher = new PhenomFetcher();

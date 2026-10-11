@@ -234,10 +234,6 @@ export class OracleCloudFetcher extends Employer<OracleCloudJob> {
     }
   }
 
-  async fetchJD(url: string, signal: AbortSignal) {
-    const { fetchOracleJD } = await import("@/modules/employer/detail/oraclecloud");
-    return fetchOracleJD(url, signal);
-  }
 }
 
 export const oracleCloudFetcher = new OracleCloudFetcher();

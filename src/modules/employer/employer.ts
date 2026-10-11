@@ -1,4 +1,3 @@
-import type { JDFetchResult } from "./detail/fetch";
 import type { ATS } from "./type";
 import type { Company, Job } from "@/types";
 
@@ -26,7 +25,7 @@ export function identityKey(
  *
  * The subclass is the board (Greenhouse, Lever, …). A row from `company.json`
  * is constructed with that subclass so `getJobs()` uses the matching fetch.
- * URL-only helpers (`companyKeyFromUrl`, `formCompany`, `fetchJD`) stay on the
+ * URL-only helpers (`companyKeyFromUrl`, `formCompany`) stay on the
  * shared instance because no employer exists yet.
  */
 export abstract class Employer<TJob = unknown> {
@@ -119,9 +118,6 @@ export abstract class Employer<TJob = unknown> {
     knownKeys: ReadonlySet<string>,
     signal: AbortSignal
   ): Promise<Job[]>;
-
-  /** Job description for one posting URL. */
-  abstract fetchJD(url: string, signal: AbortSignal): Promise<JDFetchResult>;
 
   /**
    * Job keys currently advertised on `company.page`, unfiltered.

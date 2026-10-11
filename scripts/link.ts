@@ -7,8 +7,8 @@ import type { Job } from "@/types";
 
 import { createSyncContext, processJobs } from "./command/sync/shared";
 
-import { HttpStatusCode } from "@/modules/employer/detail";
-import { analyzeLink, getRawJD } from "@/modules/posting";
+import { analyzeLink, Posting } from "@/modules/posting";
+import { HttpStatusCode } from "@/modules/posting/jd";
 import { logger } from "@/utils/logger";
 
 function isJob(value: unknown): value is Job {
@@ -155,7 +155,7 @@ async function main() {
 
     const ready: Job[] = [];
     for (const job of jobs) {
-      const { error } = await getRawJD(job.link);
+      const { error } = await Posting.from(job).getRawJD();
       if (HttpStatusCode.isError(error.code)) {
         logger.error(`${RED_CROSS} ${job.company} — ${job.role}`);
         continue;
@@ -173,7 +173,7 @@ async function main() {
 
   // 3. default → add mode
   const job = await promptJob();
-  const { error } = await getRawJD(job.link);
+  const { error } = await Posting.from(job).getRawJD();
   if (HttpStatusCode.isError(error.code)) {
     process.exit(1);
   }

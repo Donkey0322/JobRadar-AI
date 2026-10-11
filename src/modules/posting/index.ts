@@ -1,7 +1,6 @@
 export {
   analyzePosting,
   extractQualifications,
-  getRawJD,
   normalizeJD,
   type PostingAnalysisResult,
   type QualificationAnalysisResult,

@@ -1,21 +1,26 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 
+import { ABORT_SIGNAL } from "@/constants";
+
 import type { JD, Job } from "@/types";
 
-import { JD_FETCH_ERROR, JD_FETCH_OK } from "@/modules/employer/detail";
+import { JD_FETCH_ERROR, JD_FETCH_OK } from "@/modules/posting/jd/fetch";
 import { JobCategory } from "@/validation/config";
 
 const analyzePostingMock = vi.hoisted(() => vi.fn());
 const extractQualificationsMock = vi.hoisted(() => vi.fn());
-const getRawJDMock = vi.hoisted(() => vi.fn());
+const fetchPostingJDMock = vi.hoisted(() => vi.fn());
 
 vi.mock("../analyze", () => ({
   analyzePosting: analyzePostingMock,
   extractQualifications: extractQualificationsMock,
-  getRawJD: getRawJDMock,
 }));
 
-import { analyzeLink, Posting } from "../posting";
+vi.mock("../jd", () => ({
+  fetchPostingJD: fetchPostingJDMock,
+}));
+
+import { analyzeLink, LINK_ANALYSIS_TIMEOUT_MS, Posting } from "../posting";
 
 const job: Job = {
   company: "Acme",
@@ -38,7 +43,8 @@ describe("Posting.analyze", () => {
   beforeEach(() => {
     analyzePostingMock.mockReset();
     extractQualificationsMock.mockReset();
-    getRawJDMock.mockReset();
+    fetchPostingJDMock.mockReset();
+    fetchPostingJDMock.mockResolvedValue({ jd: "raw", error: JD_FETCH_OK });
   });
 
   it("leaves the job passed to the analyzer unchanged and stores the final jd", async () => {
@@ -99,6 +105,23 @@ describe("Posting.analyze", () => {
     expect(posting.jd?.category).toBe(JobCategory.SENIOR_LEVEL);
   });
 
+  it("uses a supplied fetch result without requesting the JD again", async () => {
+    const posting = Posting.from(job);
+    const fetched = { jd: "supplied", error: JD_FETCH_OK };
+    analyzePostingMock.mockResolvedValue({
+      jd: screened,
+      rawJD: "supplied",
+      cost: 0.1,
+      error: JD_FETCH_OK,
+    });
+    extractQualificationsMock.mockResolvedValue({ qualifications: null, cost: 0 });
+
+    await posting.analyze({ fetched });
+
+    expect(fetchPostingJDMock).not.toHaveBeenCalled();
+    expect(analyzePostingMock).toHaveBeenCalledWith(expect.objectContaining({ link: job.link }), fetched);
+  });
+
   it("extracts qualifications for a bare link that passes eligibility", async () => {
     analyzePostingMock.mockResolvedValue({
       jd: screened,
@@ -129,20 +152,39 @@ describe("Posting.analyze", () => {
 
     expect(jd).toBeNull();
     expect(extractQualificationsMock).not.toHaveBeenCalled();
+    expect(fetchPostingJDMock).toHaveBeenCalledTimes(1);
+  });
+
+  it("fetches a bare link once with the short timeout", async () => {
+    const timeout = vi.spyOn(AbortSignal, "timeout");
+    analyzePostingMock.mockResolvedValue({
+      jd: null,
+      rawJD: "",
+      cost: 0,
+      error: JD_FETCH_ERROR.noData(),
+    });
+
+    await analyzeLink("https://example.com/jobs/bare");
+
+    expect(fetchPostingJDMock).toHaveBeenCalledTimes(1);
+    expect(fetchPostingJDMock.mock.calls[0]?.[1]).toBeInstanceOf(AbortSignal);
+    expect(timeout).toHaveBeenCalledWith(LINK_ANALYSIS_TIMEOUT_MS);
+    expect(timeout).not.toHaveBeenCalledWith(5 * 60 * 1000);
+    timeout.mockRestore();
   });
 });
 
 describe("Posting.getRawJD", () => {
   beforeEach(() => {
-    getRawJDMock.mockReset();
+    fetchPostingJDMock.mockReset();
   });
 
   it("delegates to the raw JD fetch for this link", async () => {
-    getRawJDMock.mockResolvedValue({ jd: "raw", error: JD_FETCH_OK });
+    fetchPostingJDMock.mockResolvedValue({ jd: "raw", error: JD_FETCH_OK });
 
     const result = await Posting.from(job).getRawJD();
 
-    expect(getRawJDMock).toHaveBeenCalledWith(job.link, undefined);
+    expect(fetchPostingJDMock).toHaveBeenCalledWith(job.link, ABORT_SIGNAL);
     expect(result.jd).toBe("raw");
   });
 });

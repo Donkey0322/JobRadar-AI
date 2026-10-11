@@ -5,12 +5,11 @@ import type { JDFetchResult } from "./fetch";
 
 import { fetchJD, JD_FETCH_ERROR } from "./fetch";
 
-import { greenhouseFetcher } from "@/modules/employer/listing/greenhouse";
+import { resolveGreenhouseIdentifier } from "@/modules/employer/shared/greenhouse";
 
 export async function parseGreenhouse(url: string) {
   const u = new URL(url);
-
-  const { identifier: company } = await greenhouseFetcher.formCompany(new URL(url));
+  const company = await resolveGreenhouseIdentifier(u);
   const jobIdFromQuery = u.searchParams.get("gh_jid");
   if (jobIdFromQuery) {
     return {

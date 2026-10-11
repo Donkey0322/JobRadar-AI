@@ -306,10 +306,6 @@ export class WorkdayFetcher extends Employer<WorkdayJob> {
     }
   }
 
-  async fetchJD(url: string, signal: AbortSignal) {
-    const { fetchWorkdayJD } = await import("@/modules/employer/detail/workday");
-    return fetchWorkdayJD(url, signal);
-  }
 }
 
 export const workdayFetcher = new WorkdayFetcher();

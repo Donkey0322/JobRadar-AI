@@ -185,10 +185,6 @@ export class RadancyFetcher extends Employer<RadancyJob> {
     }
   }
 
-  async fetchJD(url: string, signal: AbortSignal) {
-    const { fetchCustomJD } = await import("@/modules/employer/detail/custom");
-    return fetchCustomJD(url, signal);
-  }
 }
 
 export const radancyFetcher = new RadancyFetcher();

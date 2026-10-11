@@ -11,12 +11,12 @@ import {
   type JDFetchStatus,
 } from "../fetch";
 
-import { MetaCompany } from "@/modules/employer/listing/custom/meta";
 import { fetchHtmlResponse, getSetCookieHeader, isHtmlResponse } from "@/utils/http";
 import { getLastPathNumber } from "@/utils/job-key/url";
 import { logger } from "@/utils/logger";
 import { htmlToText, normalizeRawText } from "@/utils/string";
 
+const META_CAREERS_PAGE = "https://www.metacareers.com/jobsearch";
 const META_GRAPHQL_URL = "https://www.metacareers.com/api/graphql/";
 const META_JOB_DETAILS_DOC_ID = "27371134039243725";
 const META_JOB_DETAILS_QUERY = "CandidatePortalJobDetailsViewQuery";
@@ -194,7 +194,7 @@ export async function fetchMetaJD(
     };
   }
 
-  const session = await loadMetaSession([url, MetaCompany.page], signal);
+  const session = await loadMetaSession([url, META_CAREERS_PAGE], signal);
 
   if ("error" in session) {
     return { jd: null, error: session.error ?? JD_FETCH_ERROR.noData() };

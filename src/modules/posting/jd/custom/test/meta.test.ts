@@ -2,7 +2,7 @@ import { afterEach, describe, expect, it, vi } from "vitest";
 
 import { fetchCustomJD } from "../index";
 
-import { JD_FETCH_OK } from "@/modules/employer/detail";
+import { JD_FETCH_OK } from "@/modules/posting/jd";
 
 const JOB_URL = "https://www.metacareers.com/profile/job_details/1104959738740874";
 

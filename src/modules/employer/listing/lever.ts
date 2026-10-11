@@ -137,10 +137,6 @@ export class LeverFetcher extends Employer<LeverJob> {
     }
   }
 
-  async fetchJD(url: string, signal: AbortSignal) {
-    const { fetchCustomJD } = await import("@/modules/employer/detail/custom");
-    return fetchCustomJD(url, signal);
-  }
 }
 
 export const leverFetcher = new LeverFetcher();

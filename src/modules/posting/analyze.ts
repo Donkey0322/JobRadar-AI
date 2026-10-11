@@ -1,21 +1,11 @@
-import { ABORT_SIGNAL } from "@/constants";
-import { RED_CROSS } from "@/constants/log";
-
-import type { JDFetchResult, JDFetchStatus } from "@/modules/employer/detail";
-import type { ATS } from "@/modules/employer/type";
+import type { JDFetchResult, JDFetchStatus } from "./jd/fetch";
 import type { JD, Job } from "@/types/jobs";
 
+import { JD_FETCH_ERROR, JD_FETCH_OK } from "./jd/fetch";
 import analyzeJD, { analyzeQualifications } from "./ai";
 import { parseAIJDResult, parseQualificationResult } from "./response";
 
-import { classifyATS } from "@/modules/employer/classifier";
-import {
-  isRetryableJDFetch,
-  JD_FETCH_ERROR,
-  JD_FETCH_OK,
-} from "@/modules/employer/detail/fetch";
 import { logger } from "@/utils/logger";
-import { normalizeRawText } from "@/utils/string";
 
 export { normalizeJD } from "./response";
 
@@ -42,51 +32,11 @@ export async function extractQualifications(rawJD: string): Promise<Qualificatio
   return { qualifications, cost: second.cost };
 }
 
-function finishRawJD(result: JDFetchResult): JDFetchResult {
-  if (!result.jd) return result;
-
-  const jd = normalizeRawText(result.jd);
-  return { jd, error: JD_FETCH_OK };
-}
-
-const HTML_JD_SOURCES = new Set<ATS>(["custom", "lever", "phenom", "radancy"]);
-
-export async function getRawJD(
-  url: string,
-  signal: AbortSignal = ABORT_SIGNAL
-): Promise<JDFetchResult> {
-  const [{ employers }, { fetchCustomJD }] = await Promise.all([
-    import("@/modules/employer"),
-    import("@/modules/employer/detail"),
-  ]);
-
-  try {
-    const ats = classifyATS(new URL(url));
-    const result = finishRawJD(await employers[ats].fetchJD(url, signal));
-
-    if (result.jd || HTML_JD_SOURCES.has(ats) || isRetryableJDFetch(result.error)) {
-      return result;
-    }
-
-    logger.warn(
-      { url, ats, code: result.error.code },
-      "⚠️ ATS JD fetch failed, falling back to HTML"
-    );
-
-    return finishRawJD(await fetchCustomJD(url, signal));
-  } catch (e) {
-    const desc = e instanceof Error ? e.message : "Unknown fetch error";
-    logger.error({ err: e, url }, `${RED_CROSS} Error fetching JD`);
-    return { jd: null, error: JD_FETCH_ERROR.fetch(desc) };
-  }
-}
-
 export async function analyzePosting(
   job: Job,
-  fetched?: JDFetchResult
+  fetched: JDFetchResult
 ): Promise<PostingAnalysisResult> {
-  const { jd: rawJD, error } =
-    fetched ?? (await getRawJD(job.link, AbortSignal.timeout(5 * 60 * 1000)));
+  const { jd: rawJD, error } = fetched;
 
   if (!rawJD) {
     return {

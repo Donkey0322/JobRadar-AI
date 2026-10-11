@@ -4,12 +4,12 @@ import type { JDFetchResult } from "./fetch";
 
 import { fetchJD, JD_FETCH_ERROR } from "./fetch";
 
-import { ashbyFetcher, type AshbyJob } from "@/modules/employer/listing/ashby";
+import { resolveAshbyIdentifier } from "@/modules/employer/shared/ashby";
 import { getAshbyJobId } from "@/utils/job-key/ats";
 
 export async function fetchAshbyJD(url: string, signal: AbortSignal): Promise<JDFetchResult> {
   const u = new URL(url);
-  const { identifier } = await ashbyFetcher.formCompany(u);
+  const identifier = await resolveAshbyIdentifier(u);
   const id = getAshbyJobId(u);
 
   if (!identifier || !id) {
@@ -21,7 +21,7 @@ export async function fetchAshbyJD(url: string, signal: AbortSignal): Promise<JD
   return fetchJD(apiUrl, signal, {
     logLabel: "ashby JD",
     transform: (data) => {
-      const jobs = (data as { jobs?: AshbyJob[] })?.jobs;
+      const jobs = (data as { jobs?: Array<{ id: string }> })?.jobs;
       const jd = jobs?.find((job) => job.id.toLowerCase() === id.toLowerCase());
       return jd ? JSON.stringify(jd) : null;
     },

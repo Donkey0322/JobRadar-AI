@@ -3,9 +3,9 @@ import * as cheerio from "cheerio";
 import { ABORT_SIGNAL } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
-import type { JDFetchResult } from "../index";
+import type { JDFetchResult } from "../fetch";
 
-import { JD_FETCH_ERROR, JD_FETCH_OK, jdFetchErrorFromResponse } from "../index";
+import { JD_FETCH_ERROR, JD_FETCH_OK, jdFetchErrorFromResponse } from "../fetch";
 import {
   extractJobPostingFromJsonLd,
   extractRelevantJDWindow,
@@ -17,7 +17,7 @@ import { fetchAppleJD } from "./apple";
 import { fetchMetaJD } from "./meta";
 import { fetchNetflixJD } from "./netflix";
 
-import { parseCustomCompanyIdentifier } from "@/modules/employer/listing/custom";
+import { parseCustomCompanyIdentifier } from "@/modules/employer/shared/custom-identifier";
 import { logger } from "@/utils/logger";
 import { normalizeRawText } from "@/utils/string";
 

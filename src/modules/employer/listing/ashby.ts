@@ -1,4 +1,3 @@
-import * as cheerio from "cheerio";
 import z from "zod";
 
 import { ASHBY_API_URL } from "@/constants/ats";
@@ -7,28 +6,12 @@ import { RED_CROSS } from "@/constants/log";
 import type { Company, Job } from "@/types";
 
 import { Employer } from "../employer";
+import { ashbyBoardOverride, ashbySyncIdentifier, isAshbyJobBoardHost, resolveAshbyIdentifier } from "../shared/ashby";
 
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
 import { capitalize } from "@/utils/string";
-import { getHostnameWithoutWww, getSubdomainIdentifier } from "@/utils/url";
-
-const identifierMap: Record<string, { identifier: string; name: string }> = {
-  "superhuman.com": {
-    identifier: "Superhuman%20Platform%20Inc",
-    name: "Superhuman%20Platform%20Inc",
-  },
-  "skyscanner.com": {
-    identifier: "eb485598-6bf3-40a5-8560-d70150131305",
-    name: "skyscanner",
-  },
-};
-
-const ASHBY_HOSTS = new Set(["jobs.ashbyhq.com", "job-boards.ashbyhq.com"]);
-
-function isAshbyJobBoardHost(host: string) {
-  return host === "jobs.ashbyhq.com" || host === "job-boards.ashbyhq.com" || ASHBY_HOSTS.has(host);
-}
+import { getHostnameWithoutWww } from "@/utils/url";
 
 function buildCompany(url: URL, identifier: string, name = identifier): Company {
   return {
@@ -39,61 +22,6 @@ function buildCompany(url: URL, identifier: string, name = identifier): Company 
     page: `${ASHBY_API_URL}/${identifier}`,
     urls: [],
   };
-}
-
-function getAshbyIdentifierFromUrl(url: URL): string | null {
-  const host = getHostnameWithoutWww(url);
-  const parts = url.pathname.split("/").filter(Boolean);
-
-  // https://jobs.ashbyhq.com/semgrep/embed?version=2
-  // https://jobs.ashbyhq.com/semgrep/b3d22389-...
-  // https://job-boards.ashbyhq.com/semgrep
-  if (isAshbyJobBoardHost(host) && parts[0]) {
-    return parts[0];
-  }
-
-  // https://api.ashbyhq.com/posting-api/job-board/semgrep
-  const apiMatch = url.pathname.match(/\/posting-api\/job-board\/([^/?#]+)/i);
-
-  return apiMatch?.[1] ?? null;
-}
-
-async function findEmbeddedAshbyIdentifier(url: URL): Promise<string | null> {
-  try {
-    const res = await fetch(url.href);
-
-    if (!res.ok) {
-      return null;
-    }
-
-    const html = await res.text();
-    const $ = cheerio.load(html);
-
-    const embedSrc = $("script[src*='ashbyhq.com'], iframe[src*='ashbyhq.com']")
-      .first()
-      .attr("src");
-
-    if (embedSrc) {
-      const identifier = getAshbyIdentifierFromUrl(new URL(embedSrc, url.href));
-      if (identifier) return identifier;
-    }
-
-    const baseUrlMatch = html.match(
-      /(?:__ashbyBaseJobBoardUrl|ashbyBaseJobBoardUrl)\s*(?::|=)\s*["'](https?:\/\/(?:jobs|job-boards)\.ashbyhq\.com\/[^"'?#\s]+)["']/i
-    );
-
-    if (baseUrlMatch?.[1]) {
-      return getAshbyIdentifierFromUrl(new URL(baseUrlMatch[1]));
-    }
-
-    return (
-      html.match(
-        /https?:\/\/(?:jobs|job-boards)\.ashbyhq\.com\/([^/"'?#\s]+)(?:\/embed|\?embed=js|["'?#\s])/i
-      )?.[1] ?? null
-    );
-  } catch {
-    return null;
-  }
 }
 
 export function isAshbyUrl(url: URL): boolean {
@@ -132,25 +60,12 @@ export class AshbyFetcher extends Employer<AshbyJob> {
   }
 
   async formCompany(url: URL): Promise<Company> {
-    const override = identifierMap[getHostnameWithoutWww(url)];
+    const override = ashbyBoardOverride(getHostnameWithoutWww(url));
     if (override) {
       return buildCompany(url, override.identifier, override.name);
     }
 
-    const syncIdentifier = this.getSyncIdentifier(url);
-
-    if (syncIdentifier) {
-      return buildCompany(url, syncIdentifier);
-    }
-
-    // Case 3: scrape embedded Ashby identifier from careers HTML
-    const embeddedIdentifier = await findEmbeddedAshbyIdentifier(url);
-    if (embeddedIdentifier) {
-      return buildCompany(url, embeddedIdentifier);
-    }
-
-    // Case 4: fallback
-    return buildCompany(url, getSubdomainIdentifier(url));
+    return buildCompany(url, await resolveAshbyIdentifier(url));
   }
 
   /**
@@ -158,25 +73,7 @@ export class AshbyFetcher extends Employer<AshbyJob> {
    * Returns null when HTML scrape is required.
    */
   private getSyncIdentifier(url: URL): string | null {
-    const host = getHostnameWithoutWww(url);
-
-    // Case 0: known manual overrides
-    if (identifierMap[host]) {
-      return identifierMap[host].identifier;
-    }
-
-    // Case 1: Ashby job board hosts
-    if (isAshbyJobBoardHost(host)) {
-      return getAshbyIdentifierFromUrl(url) || getSubdomainIdentifier(url);
-    }
-
-    // Case 2: API posting URL
-    const directIdentifier = getAshbyIdentifierFromUrl(url);
-    if (directIdentifier) {
-      return directIdentifier;
-    }
-
-    return null;
+    return ashbySyncIdentifier(url);
   }
 
   protected getJobsFromResponse(data: unknown): AshbyJob[] {
@@ -259,10 +156,6 @@ export class AshbyFetcher extends Employer<AshbyJob> {
     }
   }
 
-  async fetchJD(url: string, signal: AbortSignal) {
-    const { fetchAshbyJD } = await import("@/modules/employer/detail/ashby");
-    return fetchAshbyJD(url, signal);
-  }
 }
 
 export const ashbyFetcher = new AshbyFetcher();

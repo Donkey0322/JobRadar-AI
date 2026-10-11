@@ -147,10 +147,6 @@ export class CustomFetcher extends Employer<Job> {
     }
   }
 
-  async fetchJD(url: string, signal: AbortSignal) {
-    const { fetchCustomJD } = await import("@/modules/employer/detail/custom");
-    return fetchCustomJD(url, signal);
-  }
 }
 
 export const customFetcher = new CustomFetcher();

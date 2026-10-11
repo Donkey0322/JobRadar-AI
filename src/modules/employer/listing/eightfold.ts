@@ -5,17 +5,13 @@ import { RED_CROSS } from "@/constants/log";
 import type { Company, Job } from "@/types";
 
 import { Employer } from "../employer";
+import { eightfoldDomain } from "../shared/eightfold";
 
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
 import { capitalize } from "@/utils/string";
 
 export const TRACKING_PARAM = "8fold_id";
-
-const domainMap = {
-  "searchcareers.caci.com": "caci.com",
-  "apply.careers.microsoft.com": "microsoft.com",
-};
 
 /** Brand slug from an Eightfold company domain, e.g. microsoft.com → microsoft. */
 function companySlug(domain: string): string {
@@ -100,11 +96,7 @@ export class EightfoldFetcher extends Employer<EightfoldJob> {
   }
 
   private getDomain(url: URL, identifier: string): string {
-    return (
-      url.searchParams.get("domain") ??
-      domainMap[url.hostname as keyof typeof domainMap] ??
-      `${identifier}.com`
-    );
+    return eightfoldDomain(url, identifier);
   }
 
   /**
@@ -300,10 +292,6 @@ export class EightfoldFetcher extends Employer<EightfoldJob> {
     }
   }
 
-  async fetchJD(url: string, signal: AbortSignal) {
-    const { fetchEightfoldJD } = await import("@/modules/employer/detail/eightfold");
-    return fetchEightfoldJD(url, signal);
-  }
 }
 
 export const eightfoldFetcher = new EightfoldFetcher();

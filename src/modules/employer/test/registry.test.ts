@@ -83,7 +83,6 @@ describe("ATS fetcher registry", () => {
       expect(fetcher.ats).toBe(ats);
       expect(Object.keys(fetcher)).toEqual(["ats"]);
       expect(prototype).toHaveProperty("companyKeyFromUrl", expect.any(Function));
-      expect(prototype).toHaveProperty("fetchJD", expect.any(Function));
       expect(prototype).toHaveProperty("getJobsFromResponse", expect.any(Function));
       expect(prototype).toHaveProperty("getJobLink", expect.any(Function));
       expect(prototype).toHaveProperty("normalizeJob", expect.any(Function));
