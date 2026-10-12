@@ -1,1 +1,1948 @@
-[]
+[
+  {
+    "name": "batches/td9zjm3wgqzsh7hyje4jolg2xytcbhw7ca03",
+    "submittedAt": "2026-10-12T16:47:07.504Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Accenture",
+        "role": "Internship: Software Engineer Avanade Agentic Engineering Factory",
+        "link": "https://accenture.wd103.myworkdayjobs.com/avanadecareers/job/Brussels/Internship--Software-Engineer-Avanade-Agentic-Engineering-Factory_R00363529",
+        "location": "Brussels",
+        "country": "Unsure"
+      },
+      {
+        "company": "Accenture",
+        "role": "Managed Services L2 Cloud Engineer",
+        "link": "https://accenture.wd103.myworkdayjobs.com/avanadecareers/job/Brussels/Managed-Services-L2-Cloud-Engineer_R00363255",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Ag",
+        "role": "Supply Chain Data Analyst",
+        "link": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Mobile-Area-AL/Supply-Chain-Data-Analyst_JR10447525-1",
+        "location": "Mobile Area, AL",
+        "country": "USA"
+      },
+      {
+        "company": "Alliance",
+        "role": "Financial AI Engineering Intern - Summer 2027 - Franklin, TN",
+        "link": "https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Franklin-Tennessee---United-States-of-America/Financial-AI-Engineering-Intern---Summer-2027---Franklin--TN_R00214241",
+        "location": "Franklin, Tennessee - United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "Amazon",
+        "role": "System Development Engineer, Salesforce & AWS Developer, Amazon Supply Chain Services",
+        "link": "https://amazon.jobs/en/jobs/10470546",
+        "location": "US, WA, Bellevue",
+        "country": "USA"
+      },
+      {
+        "company": "Amazon",
+        "role": "Software Development Engineer, Amazon Fulfillment Technologies (AFT)  - Platform Engineering & Services",
+        "link": "https://amazon.jobs/en/jobs/10575919",
+        "location": "US, WA, Bellevue",
+        "country": "USA"
+      },
+      {
+        "company": "Amazon",
+        "role": "System Development Engineer, Amazon Fulfillment Technologies Support (AFTS)",
+        "link": "https://amazon.jobs/en/jobs/10575918",
+        "location": "US, WA, Bellevue",
+        "country": "USA"
+      },
+      {
+        "company": "Amazon",
+        "role": "Software Development Engineer, Selling Partner Experience Core Services",
+        "link": "https://amazon.jobs/en/jobs/10575876",
+        "location": "US, AZ, Tempe",
+        "country": "USA"
+      },
+      {
+        "company": "Amazon",
+        "role": "Software Engineer, SSO Intelligence",
+        "link": "https://amazon.jobs/en/jobs/10575853",
+        "location": "US, WA, Seattle",
+        "country": "USA"
+      },
+      {
+        "company": "Amazon",
+        "role": "Security Engineer, Leo Security",
+        "link": "https://amazon.jobs/en/jobs/10575820",
+        "location": "US, VA, Herndon",
+        "country": "USA"
+      },
+      {
+        "company": "Amazon",
+        "role": "Systems Development Engineer, Analytics ADC",
+        "link": "https://amazon.jobs/en/jobs/10575807",
+        "location": "US, CO, Denver",
+        "country": "USA"
+      },
+      {
+        "company": "Amazon",
+        "role": "Software Development Engineer I, AWS IoT Fleet Management",
+        "link": "https://amazon.jobs/en/jobs/10571756",
+        "location": "US, WA, Seattle",
+        "country": "USA"
+      },
+      {
+        "company": "Amazon",
+        "role": "Software Development Engineer, Inter Datacenter Network Engineering",
+        "link": "https://amazon.jobs/en/jobs/10575760",
+        "location": "US, WA, Seattle",
+        "country": "USA"
+      },
+      {
+        "company": "Amazon",
+        "role": "Intelligence Analyst, Global Security Intelligence ",
+        "link": "https://amazon.jobs/en/jobs/10574627",
+        "location": "US, VA, Herndon",
+        "country": "USA"
+      },
+      {
+        "company": "Amgen",
+        "role": "Sr Data Scientist",
+        "link": "https://amgen.wd1.myworkdayjobs.com/careers/job/US---California---Los-Angeles/Sr-Data-Scientist_R-250525",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Amgen",
+        "role": "Specialist Software Engineer",
+        "link": "https://amgen.wd1.myworkdayjobs.com/careers/job/US---California---Thousand-Oaks/Specialist-Software-Engineer_R-255466",
+        "location": "US - California - Thousand Oaks",
+        "country": "USA"
+      },
+      {
+        "company": "Amgen",
+        "role": "Specialist Software Engineer",
+        "link": "https://amgen.wd1.myworkdayjobs.com/careers/job/US---California---Thousand-Oaks/Specialist-Software-Engineer_R-255470",
+        "location": "US - California - Thousand Oaks",
+        "country": "USA"
+      },
+      {
+        "company": "Apple",
+        "role": "Machine Learning Engineer - Strategic Data Solutions",
+        "link": "https://jobs.apple.com/en-us/details/200687919-0157/machine-learning-engineer-strategic-data-solutions?team=MLAI",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Apple",
+        "role": "Software Engineer, iCloud Platform",
+        "link": "https://jobs.apple.com/en-us/details/200634236-2114/software-engineer-icloud-platform?team=SFTWR",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Apple",
+        "role": "Full Stack Engineer, Device Management",
+        "link": "https://jobs.apple.com/en-us/details/200687176-0562/full-stack-engineer-device-management?team=CORSV",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Apple",
+        "role": "Software Development Engineer in Test, Retail CS&E",
+        "link": "https://jobs.apple.com/en-us/details/200686533-0321/software-development-engineer-in-test-retail-cs-e?team=SFTWR",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Apple",
+        "role": "Platform Specialist, Leisure - Export, Apple Ads Partner Development, Greater China",
+        "link": "https://jobs.apple.com/en-us/details/200688432-3715/platform-specialist-leisure-export-apple-ads-partner-development-greater-china?team=SLDEV",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Apple",
+        "role": "Platform Specialist, Industry - Export, Apple Ads Partner Development, Greater China",
+        "link": "https://jobs.apple.com/en-us/details/200688409-3715/platform-specialist-industry-export-apple-ads-partner-development-greater-china?team=SLDEV",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Apple",
+        "role": "Associate Platform Specialist, Gaming, Apple Ads Partner Development, Greater China",
+        "link": "https://jobs.apple.com/en-us/details/200688407-3715/associate-platform-specialist-gaming-apple-ads-partner-development-greater-china?team=SLDEV",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Apple",
+        "role": "Associate Platform Specialist, Gaming, Apple Ads Partner Development, Greater China",
+        "link": "https://jobs.apple.com/en-us/details/200688407-3435/associate-platform-specialist-gaming-apple-ads-partner-development-greater-china?team=SLDEV",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Apple",
+        "role": "Associate Platform Specialist, Gaming, Apple Ads Partner Development, Greater China",
+        "link": "https://jobs.apple.com/en-us/details/200688407-0351/associate-platform-specialist-gaming-apple-ads-partner-development-greater-china?team=SLDEV",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Apple",
+        "role": "Platform Specialist, Gaming - Export, Apple Ads Partner Development, Greater China",
+        "link": "https://jobs.apple.com/en-us/details/200688406-3715/platform-specialist-gaming-export-apple-ads-partner-development-greater-china?team=SLDEV",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Apple",
+        "role": "Platform Specialist, Gaming - Export, Apple Ads Partner Development, Greater China",
+        "link": "https://jobs.apple.com/en-us/details/200688406-3435/platform-specialist-gaming-export-apple-ads-partner-development-greater-china?team=SLDEV",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Applied",
+        "role": "Robotic Software Engineer - Aerial Autonomy",
+        "link": "https://jobs.ashbyhq.com/applied/20d44733-b53a-4f8f-a10f-a5dc24d1a6fc",
+        "location": "Fort Walton Beach, FL",
+        "country": "USA"
+      },
+      {
+        "company": "Avisbudget",
+        "role": "Data Analyst",
+        "link": "https://avisbudget.wd1.myworkdayjobs.com/abg_careers/job/Avis-Budget-House-HQ/Data-Analyst_R0190645",
+        "location": "Avis Budget House, HQ",
+        "country": "Unsure"
+      },
+      {
+        "company": "Axiomspace",
+        "role": "Avionics Software Project Engineer",
+        "link": "https://axiomspace.wd5.myworkdayjobs.com/external_career_site/job/Houston/Avionics-Software-Project-Engineer_JR100747",
+        "location": "Houston",
+        "country": "USA"
+      },
+      {
+        "company": "Barclays",
+        "role": "Full Stack Developer",
+        "link": "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Building-300-Whippany-Campus-Jefferson-Park/Full-Stack-Developer_JR-0000098421-1",
+        "location": "Building 300-Whippany Campus, Jefferson Park",
+        "country": "Unsure"
+      },
+      {
+        "company": "Boeing",
+        "role": "Software Engineer–DevSecOps",
+        "link": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Software-Engineer-DevSecOps_JR2026519673-1",
+        "location": "USA - Berkeley, MO",
+        "country": "USA"
+      },
+      {
+        "company": "Caci",
+        "role": "Data Scientist",
+        "link": "https://caci.wd1.myworkdayjobs.com/external/job/Norfolk-VA-US/Data-Scientist_333426",
+        "location": "Norfolk, VA, US",
+        "country": "USA"
+      },
+      {
+        "company": "Caci",
+        "role": "Network Security Engineer",
+        "link": "https://caci.wd1.myworkdayjobs.com/external/job/Columbia-MD-US/Network-Security-Engineer_333225",
+        "location": "Columbia, MD, US",
+        "country": "USA"
+      },
+      {
+        "company": "Caci",
+        "role": "Application Engineer - Data Management",
+        "link": "https://caci.wd1.myworkdayjobs.com/external/job/Linthicum-MD-US/Application-Engineer---Data-Management_322628-1",
+        "location": "Linthicum, MD, US",
+        "country": "USA"
+      },
+      {
+        "company": "Caci",
+        "role": "Software Engineering Co-op - Summer & Fall 2027",
+        "link": "https://caci.wd1.myworkdayjobs.com/external/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354",
+        "location": "Danbury, CT, US",
+        "country": "USA"
+      },
+      {
+        "company": "Caci",
+        "role": "DevSecOps Engineer",
+        "link": "https://caci.wd1.myworkdayjobs.com/external/job/Tampa-FL-US/DevSecOps-Engineer_330626",
+        "location": "6 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Caci",
+        "role": "Defense Readiness Reporting Systems (DRRS) Analyst",
+        "link": "https://caci.wd1.myworkdayjobs.com/external/job/Macdill-AFB-FL-US/Defense-Readiness-Reporting-Systems--DRRS--Analyst_333403",
+        "location": "Macdill AFB, FL, US",
+        "country": "USA"
+      },
+      {
+        "company": "Caci",
+        "role": "Application Engineer - Data Management",
+        "link": "https://searchcareers.caci.com/careers/job/1443149539892?domain=caci.com&8fold_id=1443149539892",
+        "location": "Linthicum, MD, US",
+        "country": "USA"
+      },
+      {
+        "company": "Caci",
+        "role": "Software Engineering Co-op - Summer & Fall 2027",
+        "link": "https://searchcareers.caci.com/careers/job/1443153287580?domain=caci.com&8fold_id=1443153287580",
+        "location": "Danbury, CT, US",
+        "country": "USA"
+      },
+      {
+        "company": "Caci",
+        "role": "Network Security Engineer",
+        "link": "https://searchcareers.caci.com/careers/job/1443153932273?domain=caci.com&8fold_id=1443153932273",
+        "location": "Columbia, MD, US",
+        "country": "USA"
+      },
+      {
+        "company": "Caci",
+        "role": "Data Scientist",
+        "link": "https://searchcareers.caci.com/careers/job/1443153932853?domain=caci.com&8fold_id=1443153932853",
+        "location": "Norfolk, VA, US",
+        "country": "USA"
+      },
+      {
+        "company": "Caci",
+        "role": "DevSecOps Engineer",
+        "link": "https://searchcareers.caci.com/careers/job/1443152827549?domain=caci.com&8fold_id=1443152827549",
+        "location": "Tampa, FL, US, Reston, VA, US, Sarasota, FL, US, Rome, NY, US, Omaha, NE, US, Denver, CO, US",
+        "country": "USA"
+      },
+      {
+        "company": "Caci",
+        "role": "Defense Readiness Reporting Systems (DRRS) Analyst",
+        "link": "https://searchcareers.caci.com/careers/job/1443153928165?domain=caci.com&8fold_id=1443153928165",
+        "location": "Macdill AFB, FL, US",
+        "country": "USA"
+      },
+      {
+        "company": "Cai",
+        "role": "Full Stack Developer",
+        "link": "https://cai.wd5.myworkdayjobs.com/computer_aid/job/DC-CLIENT-STATE/Programmer-Analyst_R8717",
+        "location": "DC-CLIENT-STATE",
+        "country": "Unsure"
+      },
+      {
+        "company": "Captech consulting",
+        "role": "Consulting Internship: Business Systems Analyst (Summer 2027)",
+        "link": "https://jobs.smartrecruiters.com/CapTechConsulting/744000155060459",
+        "location": "Richmond, VA, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Captech consulting",
+        "role": "Consulting Internship: Data Analysis/Data Engineering  (Summer 2027)",
+        "link": "https://jobs.smartrecruiters.com/CapTechConsulting/744000155023169",
+        "location": "Richmond, VA, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Captech consulting",
+        "role": "Consulting Internship: Software Engineering (Summer 2027)",
+        "link": "https://jobs.smartrecruiters.com/CapTechConsulting/744000155019115",
+        "location": "Richmond, VA, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Cisco",
+        "role": "Software Engineering Technical Leader",
+        "link": "https://careers.cisco.com/global/en/job/2024738?ph_id=2024738",
+        "location": "San Jose, California, United States of America",
+        "country": "USA"
+      }
+    ]
+  },
+  {
+    "name": "batches/da14kguf3qf0r94oobw3q5e7vdvlkrjgjz80",
+    "submittedAt": "2026-10-12T16:47:14.629Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "ICF",
+        "role": "DevSecOps Engineer (Cloud)",
+        "link": "https://careers.icf.com/us/en/job/R2603457?ph_id=R2603457",
+        "location": "Reston, Virginia, United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "ICF",
+        "role": "Azure Ops/AI Engineer (US Remote)",
+        "link": "https://careers.icf.com/us/en/job/R2603451?ph_id=R2603451",
+        "location": "Reston, Virginia, United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "ITW",
+        "role": "Product Engineer Systems",
+        "link": "https://careers.itw.com/us/en/job/JR10455?ph_id=JR10455",
+        "location": "Eden Prairie, Minnesota, United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "Cat",
+        "role": "Electronic Systems Verification and Validation Engineer",
+        "link": "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Mossville-Illinois/Electronic-Systems-Verification-and-Validation-Engineer_R0000398345",
+        "location": "Mossville, Illinois",
+        "country": "USA"
+      },
+      {
+        "company": "Cat",
+        "role": "Project Engineer – Site Infrastructure",
+        "link": "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Tucson-Arizona/Project-Engineer---Site-Infrastructure_R0000394649",
+        "location": "Tucson, Arizona",
+        "country": "USA"
+      },
+      {
+        "company": "Cat",
+        "role": "AI Development Engineer",
+        "link": "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Wuxi-Jiangsu/AI-Development-Engineer_R0000394454-1",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Centrica",
+        "role": "Application Security Engineer",
+        "link": "https://centrica.wd3.myworkdayjobs.com/centrica/job/Windsor/Application-Security-Engineer_R0087015-1",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Cox",
+        "role": "Data Engineer I",
+        "link": "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Carmel-IN/Data-Engineer-I_R202683561-1",
+        "location": "Carmel IN",
+        "country": "USA"
+      },
+      {
+        "company": "Databricks",
+        "role": "Software Engineering Intern (2027)",
+        "link": "https://databricks.com/company/careers/open-positions/job?gh_jid=6865687002",
+        "location": "Bellevue, Washington; Mountain View, California; San Francisco, California; Vancouver, Canada",
+        "country": "Unsure"
+      },
+      {
+        "company": "Disney",
+        "role": "Data Analyst, Engagement Analytics",
+        "link": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Santa-Monica-CA-USA/Data-Analyst--Engagement-Analytics_10159478-1",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Duolingo",
+        "role": "AI Research Engineer, New PhD Graduate ",
+        "link": "https://careers.duolingo.com/jobs/8881612002?gh_jid=8881612002",
+        "location": "New York, NY; Pittsburgh, PA",
+        "country": "USA"
+      },
+      {
+        "company": "Duolingo University Recruitment",
+        "role": "AI Research Engineer, New PhD Graduate ",
+        "link": "https://job-boards.greenhouse.io/duolingounirecruitment/jobs/8881692002",
+        "location": "Pittsburgh, PA; New York, NY",
+        "country": "USA"
+      },
+      {
+        "company": "Equifax",
+        "role": "Software Engineer",
+        "link": "https://equifax.wd5.myworkdayjobs.com/external/job/USA---Missouri---St-Louis---Lackland/Software-Engineer_J00178792",
+        "location": "USA - Missouri - St. Louis - Lackland",
+        "country": "USA"
+      },
+      {
+        "company": "Fanniemae",
+        "role": "Cloud Engineer (Advisor)",
+        "link": "https://fanniemae.wd1.myworkdayjobs.com/fanniemaecareers/job/Reston-VA/Cloud-Engineer--Advisor-_JR2754",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Fiserv",
+        "role": "Sr Server Software Engineer",
+        "link": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Alpharetta-Georgia/Staff-Server-Software-Engineer_R-10377650",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Fiserv",
+        "role": "Release Train Engineer – Cloud Product Team",
+        "link": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Berkeley-Heights-New-Jersey/Release-Train-Engineer---Cloud-Product-Team_R-10403941",
+        "location": "Berkeley Heights, New Jersey",
+        "country": "USA"
+      },
+      {
+        "company": "Gdit",
+        "role": "Summer 2027 Software Development Internship",
+        "link": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228405-2",
+        "location": "USA VA Falls Church",
+        "country": "USA"
+      },
+      {
+        "company": "Gdit",
+        "role": "Summer 2027 Software Development Internship",
+        "link": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228404-1",
+        "location": "USA VA Falls Church",
+        "country": "USA"
+      },
+      {
+        "company": "Gdms",
+        "role": "Ground Systems MBSE Advanced Systems Engineer (TS/SCI Clearance Required)",
+        "link": "https://careers-gdms.icims.com/jobs/75407/ground-systems-mbse-advanced-systems-engineer-%28ts-sci-clearance-required%29/job",
+        "location": "Unsure",
+        "country": "Unsure"
+      },
+      {
+        "company": "Gdms",
+        "role": "Systems Engineer (TS/SCI with Full Scope Poly Clearance Required)",
+        "link": "https://careers-gdms.icims.com/jobs/75409/systems-engineer-%28ts-sci-with-full-scope-poly-clearance-required%29/job",
+        "location": "Unsure",
+        "country": "Unsure"
+      },
+      {
+        "company": "Gdms",
+        "role": "Junior Embedded Software Engineer (cleared)",
+        "link": "https://careers-gdms.icims.com/jobs/75506/junior-embedded-software-engineer-%28cleared%29/job",
+        "location": "Unsure",
+        "country": "Unsure"
+      },
+      {
+        "company": "Gdms",
+        "role": "Embedded Software Engineer",
+        "link": "https://careers-gdms.icims.com/jobs/75508/embedded-software-engineer/job",
+        "location": "Unsure",
+        "country": "Unsure"
+      },
+      {
+        "company": "Geaerospace",
+        "role": "Engines Engineering Co-op – Computer or Software Engineering – US – Fall 2027 - Returning Students",
+        "link": "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Evendale/Engines-Engineering-Co-op---Computer-or-Software-Engineering---US---Fall-2027---Returning-Students_R5030075-1",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Geaerospace",
+        "role": "Engines Engineering Intern – Computer or Software Engineering – US – Summer 2027 - Returning Students",
+        "link": "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Evendale/Engines-Engineering-Intern---Computer-or-Software-Engineering---US---Summer-2027---Returning-Students_R5030074-1",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Generalmotors",
+        "role": "Software Engineer",
+        "link": "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Milford-Michigan-United-States-of-America/Software-Engineer_JR-202622222",
+        "location": "Milford, Michigan, United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "Generalmotors",
+        "role": "2027 Summer Intern - Research and Development - Connected Vehicle Systems",
+        "link": "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---Connected-Vehicle-Systems_JR-202621747",
+        "location": "Warren, Michigan, United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "Generalmotors",
+        "role": "2027 Summer Intern - Research and Development - System Safety",
+        "link": "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---System-Safety_JR-202621736",
+        "location": "Warren, Michigan, United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "Generalmotors",
+        "role": "2027 Summer Intern - Research and Development - Machine Learning for Automation",
+        "link": "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---Machine-Learning-for-Automation_JR-202621724",
+        "location": "Warren, Michigan, United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "Generalmotors",
+        "role": "2027 Summer Intern - Research and Development - AI/Machine Learning",
+        "link": "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Mountain-View-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---AI-Machine-Learning_JR-202621620",
+        "location": "Mountain View, California, United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "Generalmotors",
+        "role": "Entry Level - Researcher - System Safety",
+        "link": "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Warren-Michigan-United-States-of-America/Entry-Level---Researcher---System-Safety_JR-202621823",
+        "location": "Warren, Michigan, United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "Generalmotors",
+        "role": "Entry-Level – AI and Machine Learning for Automation Researcher",
+        "link": "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Warren-Michigan-United-States-of-America/Entry-Level---AI-and-Machine-Learning-for-Automation-Researcher_JR-202621769",
+        "location": "Warren, Michigan, United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "Generalmotors",
+        "role": "Entry-Level – AI/Machine Learning Researcher",
+        "link": "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Mountain-View-California-United-States-of-America/Entry-Level---AI-Machine-Learning-Researcher_JR-202621753",
+        "location": "Mountain View, California, United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "Generalmotors",
+        "role": "Software Developer - Virtualization and SIL Integration",
+        "link": "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Milford-Michigan-United-States-of-America/Software-Developer---Virtualization-and-SIL-Integration_JR-202610792",
+        "location": "Milford, Michigan, United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "Generalmotors",
+        "role": "Software Engineer, AV HIL Platform",
+        "link": "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Sunnyvale-California-United-States-of-America/Software-Engineer--AV-HIL-Platform_JR-202619689",
+        "location": "Sunnyvale, California, United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "Gevernova",
+        "role": "GE Vernova Cyber UX Controls Engineer",
+        "link": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Schenectady/GE-Vernova-Cyber-UX-Controls-Engineer_R5054913-1",
+        "location": "3 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Gfs",
+        "role": "Intermediate Software Engineer",
+        "link": "https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Atlanta-Georgia/Intermediate-Software-Engineer_R-58461",
+        "location": "Atlanta, Georgia",
+        "country": "USA"
+      },
+      {
+        "company": "Gfs",
+        "role": "Intermediate Software Engineer",
+        "link": "https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Wyoming-Michigan/Intermediate-Software-Engineer_R-58401",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Google",
+        "role": "Software Engineer, Security, Silicon",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/107940907147240134-software-engineer-security-silicon?sort_by=date&page=1",
+        "location": "Mountain View, CA, USA",
+        "country": "USA"
+      },
+      {
+        "company": "Google",
+        "role": "Data Scientist",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/93873755381473990-data-scientist?sort_by=date&page=1",
+        "location": "New York, NY, USA",
+        "country": "USA"
+      },
+      {
+        "company": "Google",
+        "role": "Site Reliability Engineer- SWE- Cloud (Multiple Openings)",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/109464830263337670-site-reliability-engineer-swe-cloud-multiple-openings?sort_by=date&page=1",
+        "location": "Mountain View, CA, USA",
+        "country": "USA"
+      },
+      {
+        "company": "Google",
+        "role": "Software Engineer",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/80291213365650118-software-engineer?sort_by=date&page=1",
+        "location": "Atlanta, GA, USA",
+        "country": "USA"
+      },
+      {
+        "company": "Google",
+        "role": "Software Engineer",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/137359440260014790-software-engineer?sort_by=date&page=1",
+        "location": "Mountain View, CA, USA",
+        "country": "USA"
+      },
+      {
+        "company": "Google",
+        "role": "Site Reliability Engineer- SWE- Cloud (multiple openings)",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/138838008521466566-site-reliability-engineer-swe-cloud-multiple-openings?sort_by=date&page=2",
+        "location": "Sunnyvale, CA, USA",
+        "country": "USA"
+      },
+      {
+        "company": "Google",
+        "role": "Technical Solutions- GBO- Web Solutions Engineering (Multiple Openings)",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/75443741476692678-technical-solutions-gbo-web-solutions-engineering-multiple-openings?sort_by=date&page=2",
+        "location": "San Francisco, CA, USA",
+        "country": "USA"
+      },
+      {
+        "company": "Google",
+        "role": "Data Scientist",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/135323144725373638-data-scientist?sort_by=date&page=2",
+        "location": "San Bruno, CA, USA",
+        "country": "USA"
+      },
+      {
+        "company": "Google",
+        "role": "Strategic Cloud Engineer",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/77870363639194310-strategic-cloud-engineer?sort_by=date&page=2",
+        "location": "Boulder, CO, USA",
+        "country": "USA"
+      },
+      {
+        "company": "Google",
+        "role": "Customer Engineer, Cloud AI, Media and Entertainment, Google Cloud",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/143922425166209734-customer-engineer-cloud-ai-media-and-entertainment-google-cloud?sort_by=date&page=3",
+        "location": "New York, NY, USA; San Francisco, CA, USA; +2 more; +1 more",
+        "country": "USA"
+      },
+      {
+        "company": "Google",
+        "role": "Dev and AI Infra Software Engineer, Release and Test Infra, XR",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/87632377626403526-dev-and-ai-infra-software-engineer-release-and-test-infra-xr?sort_by=date&page=5",
+        "location": "San Jose, CA, USA",
+        "country": "USA"
+      },
+      {
+        "company": "Google",
+        "role": "Customer Engineer, Platform, Google Cloud",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/138577836582544070-customer-engineer-platform-google-cloud?sort_by=date&page=5",
+        "location": "Cambridge, MA, USA",
+        "country": "USA"
+      }
+    ]
+  },
+  {
+    "name": "batches/6smgcxqq9g2m0z87dnri29yngho8mckpwq9o",
+    "submittedAt": "2026-10-12T16:47:23.258Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Google",
+        "role": "Forward Deployed Engineering Intern, BS/MS, Summer 2027",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/75665705386549958-forward-deployed-engineering-intern-bsms-summer-2027?sort_by=date&page=9",
+        "location": "Sunnyvale, CA, USA; New York, NY, USA",
+        "country": "USA"
+      },
+      {
+        "company": "Here",
+        "role": "ML & AI Engineer",
+        "link": "https://careers-here.icims.com/jobs/83679/ml-%26-ai-engineer/job",
+        "location": "Unsure",
+        "country": "Unsure"
+      },
+      {
+        "company": "Here",
+        "role": "Sr ML & AI Engineer",
+        "link": "https://careers-here.icims.com/jobs/83461/sr-ml-%26-ai-engineer/job",
+        "location": "Unsure",
+        "country": "Unsure"
+      },
+      {
+        "company": "Highmarkhealth",
+        "role": "Associate Software Engineer",
+        "link": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Associate-Software-Engineer_J288021-1",
+        "location": "51 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Hitachi",
+        "role": "Cyber Security Engineer",
+        "link": "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Birmingham-England-United-Kingdom/Cyber-Security-Engineer_R0147263",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Icf",
+        "role": "DevSecOps Engineer (Cloud)",
+        "link": "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/DevSecOps-Engineer--Cloud-_R2603457",
+        "location": "Reston, VA",
+        "country": "USA"
+      },
+      {
+        "company": "Icf",
+        "role": "Azure Ops/AI Engineer (US Remote)",
+        "link": "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/Azure-Ops-AI-Engineer---Remote_R2603451",
+        "location": "Reston, VA",
+        "country": "USA"
+      },
+      {
+        "company": "Ing",
+        "role": "Machine Learning DevOps Engineer",
+        "link": "https://ing.wd3.myworkdayjobs.com/icsgblcor/job/Warszawa-Paska-97/Machine-Learning-DevOps-Engineer_REQ-10123094",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Ipipeline",
+        "role": "Experienced IT Systems Engineer",
+        "link": "https://careers-ipipeline.icims.com/jobs/1732/experienced-it-systems-engineer/job",
+        "location": "Unsure",
+        "country": "Unsure"
+      },
+      {
+        "company": "Jabil",
+        "role": "SRSE V - Site Reliability Security Engineer",
+        "link": "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Remote---USA/SRSE-V---Site-Reliability-Security-Engineer_J2467749",
+        "location": "Remote - USA",
+        "country": "USA"
+      },
+      {
+        "company": "Jabil",
+        "role": "Cloud Test Development Engineer",
+        "link": "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Florence-KY/Cloud-Test-Development-Engineer_J2458759",
+        "location": "Florence, KY",
+        "country": "USA"
+      },
+      {
+        "company": "Jda",
+        "role": "Software Engineer (Java backend)",
+        "link": "https://jda.wd5.myworkdayjobs.com/jda_careers/job/Dallas/Software-Engineer--Java-backend-_263328-1",
+        "location": "Dallas",
+        "country": "USA"
+      },
+      {
+        "company": "Kla",
+        "role": "AI/ML Software Engineer - Intern",
+        "link": "https://kla.wd1.myworkdayjobs.com/ur/job/Ann-Arbor-MI/AI-ML-Software-Engineer---Intern_2641701",
+        "location": "Ann Arbor, MI",
+        "country": "USA"
+      },
+      {
+        "company": "Levistraussandco",
+        "role": "Global Size Data Analyst - Data Pillar",
+        "link": "https://levistraussandco.wd5.myworkdayjobs.com/external/job/India-Bangalore---Office/Global-Size-Data-Analyst---Data-Pillar_R-0156433",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Lmi",
+        "role": "Data Engineer (Supply Chain) - Clearance Required",
+        "link": "https://careers-lmi.icims.com/jobs/14703/data-engineer-%28supply-chain%29---clearance-required/job",
+        "location": "Unsure",
+        "country": "Unsure"
+      },
+      {
+        "company": "Lowes",
+        "role": "Software Engineer-Platform Engineering / Kubernetes",
+        "link": "https://lowes.wd5.myworkdayjobs.com/LWS_External_CS/job/Lowes-Charlotte-Technology-Hub-3505/Software-Engineer-Platform-Engineering---Kubernetes_JR-02671857",
+        "location": "Lowe's Charlotte Technology Hub 3505",
+        "country": "USA"
+      },
+      {
+        "company": "Mckesson",
+        "role": "AI Full stack Software Engineer",
+        "link": "https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/USA-OH-Columbus/AI-Full-stack-Software-Engineer_JR0155425-1",
+        "location": "4 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Medimpact",
+        "role": "GPS Business Systems Analyst I",
+        "link": "https://medimpact.wd5.myworkdayjobs.com/medimpact/job/GPS-Business-Systems-Analyst-I_JR102918",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer, Product",
+        "link": "https://www.metacareers.com/profile/job_details/9657291271065759",
+        "location": "Sunnyvale, CA, Remote, US, Bellevue, WA, Redmond, WA, Austin, TX, Menlo Park, CA, Seattle, WA, Burlingame, CA, Washington, DC, Boston, MA, New York, NY, San Francisco, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer, Machine Learning",
+        "link": "https://www.metacareers.com/profile/job_details/998357492128826",
+        "location": "Sunnyvale, CA, Remote, US, Bellevue, WA, Menlo Park, CA, Seattle, WA, Burlingame, CA, New York, NY, San Francisco, CA, Fremont, CA, Mountain View, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Data Scientist, Analytics (Technical Leadership)",
+        "link": "https://www.metacareers.com/profile/job_details/613354727793690",
+        "location": "Sunnyvale, CA, Los Angeles, CA, Bellevue, WA, Austin, TX, Menlo Park, CA, Seattle, WA, New York, NY, San Francisco, CA, Fremont, CA, Mountain View, CA, Remote, US",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Connectivity Engineer - Data Center Design, Engineering, & Construction",
+        "link": "https://www.metacareers.com/profile/job_details/2855754681424767",
+        "location": "Temple, TX, Rayville, LA, Newton County, GA, Menlo Park, CA, Montgomery, AL, Prineville, OR, Lebanon, IN, El Paso, TX, Bowling Green, OH, Miami, Florida, New Albany, OH, Tulsa, OK",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer - Product (Technical Leadership)",
+        "link": "https://www.metacareers.com/profile/job_details/4043567932553615",
+        "location": "Bellevue, WA, Menlo Park, CA, Seattle, WA, Washington, DC, New York, NY, San Francisco, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Data Scientist, Product Analytics",
+        "link": "https://www.metacareers.com/profile/job_details/435020605866341",
+        "location": "Bellevue, WA, Redmond, WA, Austin, TX, Menlo Park, CA, Seattle, WA, Burlingame, CA, Boston, MA, New York, NY, San Francisco, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer, Infrastructure",
+        "link": "https://www.metacareers.com/profile/job_details/2486789151677735",
+        "location": "Sunnyvale, CA, Los Angeles, CA, Remote, US, Bellevue, WA, Redmond, WA, Menlo Park, CA, Seattle, WA, Burlingame, CA, Washington, DC, Boston, MA, New York, NY, San Francisco, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Data Engineer, Product Analytics",
+        "link": "https://www.metacareers.com/profile/job_details/3713685685437806",
+        "location": "Remote, US, Bellevue, WA, Menlo Park, CA, New York, NY, San Francisco, CA, Chicago, IL, Fremont, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Data Engineer, Product Analytics",
+        "link": "https://www.metacareers.com/profile/job_details/438521235471941",
+        "location": "Bellevue, WA, Redmond, WA, Menlo Park, CA, Seattle, WA, Burlingame, CA, New York, NY, San Francisco, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer (Leadership) - Infrastructure",
+        "link": "https://www.metacareers.com/profile/job_details/704019139159184",
+        "location": "Sunnyvale, CA, Remote, US, Bellevue, WA, Redmond, WA, Menlo Park, CA, Seattle, WA, Burlingame, CA, New York, NY",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Data Engineer, Analytics (Technical Leadership)",
+        "link": "https://www.metacareers.com/profile/job_details/875077395010020",
+        "location": "Remote, US, Bellevue, WA, Menlo Park, CA, Washington, DC, New York, NY",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer, Multimedia & Multimodal AI",
+        "link": "https://www.metacareers.com/profile/job_details/957354176761521",
+        "location": "Bellevue, WA, Menlo Park, CA, New York, NY",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Research Scientist, Infrastructure Modeling and Reliability",
+        "link": "https://www.metacareers.com/profile/job_details/2689975688126702",
+        "location": "Menlo Park, CA, Remote, US",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer, Wearables Interfaces Engineering ",
+        "link": "https://www.metacareers.com/profile/job_details/1819250669048060",
+        "location": "Redmond, WA, New York, NY",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer, Wearables Interfaces Engineering",
+        "link": "https://www.metacareers.com/profile/job_details/2010980536447079",
+        "location": "Redmond, WA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer, GenAI Frameworks - MTIA",
+        "link": "https://www.metacareers.com/profile/job_details/2411086396300206",
+        "location": "Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Embedded Software Engineer, Firmware",
+        "link": "https://www.metacareers.com/profile/job_details/893276690137821",
+        "location": "Sunnyvale, CA, Redmond, WA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Production Systems Engineering Intern",
+        "link": "https://www.metacareers.com/profile/job_details/1772445513807075",
+        "location": "Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Research Acoustic Systems Engineer",
+        "link": "https://www.metacareers.com/profile/job_details/2120663861995143",
+        "location": "Redmond, WA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer - Android (Technical Leadership)",
+        "link": "https://www.metacareers.com/profile/job_details/699608119727078",
+        "location": "Menlo Park, CA, New York, NY, San Francisco, CA, Remote, US",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "AI Research Scientist (Technical Leadership)",
+        "link": "https://www.metacareers.com/profile/job_details/2529575007506721",
+        "location": "Bellevue, WA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineering Intern",
+        "link": "https://www.metacareers.com/profile/job_details/1952991802037374",
+        "location": "Bellevue, WA, Menlo Park, CA, Seattle, WA, New York, NY",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Developer, GO Systems",
+        "link": "https://www.metacareers.com/profile/job_details/27362141263462210",
+        "location": "Austin, TX, Menlo Park, CA, New York, NY",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Developer, GO Systems",
+        "link": "https://www.metacareers.com/profile/job_details/1670149234051960",
+        "location": "Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Embedded Software Engineer, Silicon Validation Firmware",
+        "link": "https://www.metacareers.com/profile/job_details/1622733036193562",
+        "location": "Sunnyvale, CA, Redmond, WA, Austin, TX",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer, Meta Horizon Engine - Reality Labs",
+        "link": "https://www.metacareers.com/profile/job_details/3945997555696610",
+        "location": "Los Angeles, CA, Redmond, WA, Burlingame, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer, Systems ML",
+        "link": "https://www.metacareers.com/profile/job_details/3414246448833665",
+        "location": "Sunnyvale, CA, Bellevue, WA, Menlo Park, CA, New York, NY, Remote, US",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "AI Research Scientist, Video Generation and Post Training, FAIR",
+        "link": "https://www.metacareers.com/profile/job_details/1647169276484472",
+        "location": "Menlo Park, CA, Seattle, WA, New York, NY",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Research Scientist, Wearables AI",
+        "link": "https://www.metacareers.com/profile/job_details/1664500798343394",
+        "location": "New York, NY",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Research Scientist Intern, Audio, Machine Learning and Computer Vision (PhD)",
+        "link": "https://www.metacareers.com/profile/job_details/2211974449401350",
+        "location": "Redmond, WA, Burlingame, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer, Machine Learning RecSys",
+        "link": "https://www.metacareers.com/profile/job_details/1665891037811282",
+        "location": "Sunnyvale, CA, Bellevue, WA, Menlo Park, CA, New York, NY, San Francisco, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Capacity Engineer, Infrastructure Data Governance",
+        "link": "https://www.metacareers.com/profile/job_details/1973193599967591",
+        "location": "Bellevue, WA, Menlo Park, CA, Seattle, WA",
+        "country": "USA"
+      }
+    ]
+  },
+  {
+    "name": "batches/gcyrburxbg3jmxt9dcen3njgkqmk0efwqwfc",
+    "submittedAt": "2026-10-12T16:47:33.467Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Meta",
+        "role": "Capacity Engineer, Infrastructure Data Governance",
+        "link": "https://www.metacareers.com/profile/job_details/1650986243412203",
+        "location": "Bellevue, WA, Menlo Park, CA, Seattle, WA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "UX Researcher, Quantitative",
+        "link": "https://www.metacareers.com/profile/job_details/27754665087526682",
+        "location": "Bellevue, WA, Menlo Park, CA, Seattle, WA, New York, NY, San Francisco, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Production Systems Engineer, Fleet Strategy",
+        "link": "https://www.metacareers.com/profile/job_details/1858344791964854",
+        "location": "Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Data Engineer, Analytics (Ranking, AI)",
+        "link": "https://www.metacareers.com/profile/job_details/4647361298838627",
+        "location": "Sunnyvale, CA, Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "AI Research Scientist, Robotics - Meta Superintelligence Labs",
+        "link": "https://www.metacareers.com/profile/job_details/2329761541160858",
+        "location": "Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "AI Research Scientist, Robotics - Meta Superintelligence Labs",
+        "link": "https://www.metacareers.com/profile/job_details/2617228595359261",
+        "location": "Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Production Systems Engineer, Automation",
+        "link": "https://www.metacareers.com/profile/job_details/2186963648750076",
+        "location": "Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Production Systems Engineer, Fleet AI Systems",
+        "link": "https://www.metacareers.com/profile/job_details/4385739228344797",
+        "location": "Bellevue, WA, Austin, TX, Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer, Systems ML",
+        "link": "https://www.metacareers.com/profile/job_details/1781579976506597",
+        "location": "Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer, Systems Machine Learning",
+        "link": "https://www.metacareers.com/profile/job_details/1791619365408270",
+        "location": "New York, NY",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineering, OS Frameworks (Wearables)",
+        "link": "https://www.metacareers.com/profile/job_details/962515016277790",
+        "location": "Seattle, WA, Burlingame, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer, Embedded Systems",
+        "link": "https://www.metacareers.com/profile/job_details/1721414708926696",
+        "location": "Menlo Park, CA, New York, NY",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Security Engineer",
+        "link": "https://www.metacareers.com/profile/job_details/5486943914865119",
+        "location": "Bellevue, WA, Menlo Park, CA, New York, NY",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "LINCS Security Engineer",
+        "link": "https://www.metacareers.com/profile/job_details/939208228624316",
+        "location": "Temple, TX, Papillion, NE, Aurora, IL, Garland, TX, Huntsville, AL, Houston, TX",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Data Engineer, Meta Superintelligence Labs ",
+        "link": "https://www.metacareers.com/profile/job_details/1793454285057119",
+        "location": "Bellevue, WA, Menlo Park, CA, New York, NY",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Production Systems Engineer, NPI",
+        "link": "https://www.metacareers.com/profile/job_details/1977588726255706",
+        "location": "Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Production Systems Engineer, NPI Storage",
+        "link": "https://www.metacareers.com/profile/job_details/1823768988630973",
+        "location": "Austin, TX, Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Production Systems Engineer, NPI Compute",
+        "link": "https://www.metacareers.com/profile/job_details/2162477688015728",
+        "location": "Austin, TX, Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer, HW/SW Co-Design",
+        "link": "https://www.metacareers.com/profile/job_details/2419224192216550",
+        "location": "Bellevue, WA, Menlo Park, CA, New York, NY",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Foundation Labs Engineer, Production Systems",
+        "link": "https://www.metacareers.com/profile/job_details/2623937954716288",
+        "location": "Austin, TX, Prineville, OR, Fremont, CA, Huntsville, AL",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "AI Research Scientist - Meta Superintelligence Labs (Technical Leadership)",
+        "link": "https://www.metacareers.com/profile/job_details/1951694715520954",
+        "location": "Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Security Engineer, Applied AI",
+        "link": "https://www.metacareers.com/profile/job_details/4263630903853943",
+        "location": "Bellevue, WA, Menlo Park, CA, Seattle, WA, Washington, DC, New York, NY",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Data Engineer, Teen & Family Experience (TFE)",
+        "link": "https://www.metacareers.com/profile/job_details/1774677140239590",
+        "location": "Menlo Park, CA, New York, NY, San Francisco, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Data Scientist Intern, Product Analytics (PhD) (Summer 2027)",
+        "link": "https://www.metacareers.com/profile/job_details/929757023499411",
+        "location": "Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer, Machine Learning RecSys",
+        "link": "https://www.metacareers.com/profile/job_details/1645503493182815",
+        "location": "Sunnyvale, CA, Bellevue, WA, Menlo Park, CA, Seattle, WA, New York, NY",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "AI Research Scientist, Physical AI",
+        "link": "https://www.metacareers.com/profile/job_details/2947322545617694",
+        "location": "New York, NY",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Data Scientist Intern, Product Analytics (Summer 2027)",
+        "link": "https://www.metacareers.com/profile/job_details/1633096478817942",
+        "location": "Menlo Park, CA, New York, NY",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer Intern, Machine Learning (PhD)",
+        "link": "https://www.metacareers.com/profile/job_details/2180490782513668",
+        "location": "Sunnyvale, CA, Bellevue, WA, Redmond, WA, Menlo Park, CA, Seattle, WA, Burlingame, CA, New York, NY",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer Intern, Systems and Infrastructure (PhD)",
+        "link": "https://www.metacareers.com/profile/job_details/945520495299801",
+        "location": "Sunnyvale, CA, Bellevue, WA, Redmond, WA, Menlo Park, CA, Seattle, WA, Burlingame, CA, New York, NY",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Embedded Software Engineer, Connectivity/Wireless",
+        "link": "https://www.metacareers.com/profile/job_details/1967414873947303",
+        "location": "Redmond, WA, Burlingame, CA, San Diego, CA, Remote, US, New York, NY",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Machine Learning Digital Design Engineer",
+        "link": "https://www.metacareers.com/profile/job_details/4406208926373444",
+        "location": "Sunnyvale, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer (Technical Leadership)",
+        "link": "https://www.metacareers.com/profile/job_details/2282367178830920",
+        "location": "Remote, US, Bellevue, WA, Menlo Park, CA, New York, NY",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "AI Research Scientist, Ads Ranking",
+        "link": "https://www.metacareers.com/profile/job_details/28584828864517265",
+        "location": "Sunnyvale, CA, New York, NY",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Silicon Validation Engineer, Infrastructure",
+        "link": "https://www.metacareers.com/profile/job_details/1612676913871919",
+        "location": "Sunnyvale, CA, Austin, TX",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "System Engineer, AI Accelerator Module Management",
+        "link": "https://www.metacareers.com/profile/job_details/1718053493021436",
+        "location": "Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer (Technical Leadership)",
+        "link": "https://www.metacareers.com/profile/job_details/933751172631170",
+        "location": "Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "IP Validation Engineer - Machine Learning Accelerators",
+        "link": "https://www.metacareers.com/profile/job_details/1639485184196542",
+        "location": "Sunnyvale, CA, Redmond, WA, Austin, TX",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Infrastructure Engineer, Automation & Tooling",
+        "link": "https://www.metacareers.com/profile/job_details/4322884088022032",
+        "location": "Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "AI Research Scientist, Pre-training Data - MSL FAIR",
+        "link": "https://www.metacareers.com/profile/job_details/1927852644809839",
+        "location": "Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Telecom Conveyance Engineer, Data Center Infrastructure",
+        "link": "https://www.metacareers.com/profile/job_details/3481968971967785",
+        "location": "Denver, CO, Reston, VA, Menlo Park, CA, New York, NY, Remote, US",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "AI Research Scientist, Robotics",
+        "link": "https://www.metacareers.com/profile/job_details/4173593806295761",
+        "location": "Redmond, WA, Burlingame, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer Leadership, Machine Learning RecSys",
+        "link": "https://www.metacareers.com/profile/job_details/2119062762001462",
+        "location": "Bellevue, WA, Menlo Park, CA, New York, NY, San Francisco, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Global Production Platform Engineer",
+        "link": "https://www.metacareers.com/profile/job_details/2585311065226798",
+        "location": "Menlo Park, CA, New Albany, OH",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": " Infrastructure Security Monitoring Engineer",
+        "link": "https://www.metacareers.com/profile/job_details/1643131417152491",
+        "location": "Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "AI Research Scientist, AI Safety and Security",
+        "link": "https://www.metacareers.com/profile/job_details/1873038390772808",
+        "location": "Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Research Scientist, Systems ML - HW/SW Co-Design",
+        "link": "https://www.metacareers.com/profile/job_details/2561197087738216",
+        "location": "Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Energy Analyst, Data Center Portfolio ",
+        "link": "https://www.metacareers.com/profile/job_details/2097712830820463",
+        "location": "Bellevue, WA, Menlo Park, CA, Seattle, WA, New York, NY, San Francisco, CA, Chicago, IL",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer, Infrastructure (Technical Leadership)",
+        "link": "https://www.metacareers.com/profile/job_details/941201945734492",
+        "location": "Bellevue, WA, Menlo Park, CA, New York, NY",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Systems Integration Engineer, Embedded Systems / Mechatronics",
+        "link": "https://www.metacareers.com/profile/job_details/1667531704771019",
+        "location": "Redmond, WA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer, Network Infrastructure",
+        "link": "https://www.metacareers.com/profile/job_details/3221791248029792",
+        "location": "Menlo Park, CA",
+        "country": "USA"
+      }
+    ]
+  },
+  {
+    "name": "batches/q0d9yw5cskhlsu5pcu6frqipffhouappbn9k",
+    "submittedAt": "2026-10-12T16:47:42.677Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Meta",
+        "role": "Network Production Engineer, Network.AI",
+        "link": "https://www.metacareers.com/profile/job_details/2018238108857051",
+        "location": "Menlo Park, CA, Seattle, WA, Remote, US",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "AI Research Scientist, CoreML - Monetization",
+        "link": "https://www.metacareers.com/profile/job_details/1865758441490305",
+        "location": "Sunnyvale, CA, Bellevue, WA, Menlo Park, CA, New York, NY, San Francisco, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Data Center Energy Regulatory Analyst",
+        "link": "https://www.metacareers.com/profile/job_details/3714236338724745",
+        "location": "Seattle, WA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer - Host Networking",
+        "link": "https://www.metacareers.com/profile/job_details/1746789856394159",
+        "location": "Bellevue, WA, Menlo Park, CA, New York, NY",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer (Technical Leadership) — Central Security",
+        "link": "https://www.metacareers.com/profile/job_details/28156927303999140",
+        "location": "Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "AI Research Engineer",
+        "link": "https://www.metacareers.com/profile/job_details/882415754757202",
+        "location": "Bellevue, WA, Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Connectivity Engineer, Lease - Data Center Construction",
+        "link": "https://www.metacareers.com/profile/job_details/994881556459825",
+        "location": "Remote, US",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Lease Connectivity Engineer, Data Center Infrastructure",
+        "link": "https://www.metacareers.com/profile/job_details/2700820770367153",
+        "location": "New Albany, OH",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Data Engineer, Analytics (Technical Leadership)",
+        "link": "https://www.metacareers.com/profile/job_details/1653502876113633",
+        "location": "Menlo Park, CA, New York, NY, San Francisco, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "AI Research Scientist, VLM (vision language models)",
+        "link": "https://www.metacareers.com/profile/job_details/3882902818612530",
+        "location": "Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer, Product (Technical Leadership)",
+        "link": "https://www.metacareers.com/profile/job_details/1796500981494634",
+        "location": "Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer (Technical Leadership)",
+        "link": "https://www.metacareers.com/profile/job_details/4681548652164642",
+        "location": "Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "System Failure Analysis Engineer",
+        "link": "https://www.metacareers.com/profile/job_details/996030293506644",
+        "location": "Sunnyvale, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "AI Research Scientist, Robotics",
+        "link": "https://www.metacareers.com/profile/job_details/3068587003348843",
+        "location": "Redmond, WA, Burlingame, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Global Production Systems Engineer",
+        "link": "https://www.metacareers.com/profile/job_details/2195824790988908",
+        "location": "Los Lunas, NM, Sarpy County, NE, Mesa, AZ, Kansas City, MO, Santa Clara, CA, Newton County, GA, Hillsboro, OR, Gallatin, TN, Reston, VA, Forest City, NC, Menlo Park, CA, Montgomery, AL, Papillion, NE, Prineville, OR, Fort Worth, TX, Aurora, IL, Garland, TX, Stanton Springs, GA, DeKalb, IL, Chandler, AZ, New Albany, OH, Altoona, IA, Huntsville, AL, Crook County, OR, Houston, TX, Kuna, ID",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Security Engineer, Wearables (RL)",
+        "link": "https://www.metacareers.com/profile/job_details/2043408953216138",
+        "location": "Redmond, WA, Burlingame, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Research Scientist, Camera and Sensor Systems",
+        "link": "https://www.metacareers.com/profile/job_details/882461694479677",
+        "location": "Burlingame, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer - Storage (Technical Leadership)",
+        "link": "https://www.metacareers.com/profile/job_details/2100171950572222",
+        "location": "Bellevue, WA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Research Scientist, Contextual AI and Multimodal Agents",
+        "link": "https://www.metacareers.com/profile/job_details/1590348436203666",
+        "location": "Redmond, WA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer, Audio SWE",
+        "link": "https://www.metacareers.com/profile/job_details/2100512477168182",
+        "location": "Burlingame, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Production Systems Engineer, AI Network",
+        "link": "https://www.metacareers.com/profile/job_details/2581011072359613",
+        "location": "Austin, TX, Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Privacy Data Analyst, Evidencing and Monitoring",
+        "link": "https://www.metacareers.com/profile/job_details/2091420381760990",
+        "location": "Menlo Park, CA, Seattle, WA, Washington, DC, New York, NY",
+        "country": "USA"
+      }
+    ]
+  },
+  {
+    "name": "batches/vqajb8kb7vqzfggsdx6xu0zrtgkt60hqg0yk",
+    "submittedAt": "2026-10-12T16:47:49.966Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Mmc",
+        "role": "Engineer - IT Systems Engineering",
+        "link": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Gurugram---DLF-Building/Engineer---IT-Systems-Engineering_R_366579",
+        "location": "Gurugram - DLF Building",
+        "country": "Unsure"
+      },
+      {
+        "company": "Mmc",
+        "role": "Engineer - IT Systems Engineering",
+        "link": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Gurugram---DLF-Building/Engineer---IT-Systems-Engineering_R_366577",
+        "location": "Gurugram - DLF Building",
+        "country": "Unsure"
+      },
+      {
+        "company": "Mmc",
+        "role": "Engineer - IT Systems Engineering",
+        "link": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Gurugram---DLF-Building/Engineer---IT-Systems-Engineering_R_366578",
+        "location": "Gurugram - DLF Building",
+        "country": "Unsure"
+      },
+      {
+        "company": "Nationwide",
+        "role": "Specialist, Software Engineer (Java, Spring Boot, Angular)",
+        "link": "https://nationwide.wd1.myworkdayjobs.com/nationwide_career/job/Ohio---Columbus-One-Nationwide-Plaza/Specialist--Software-Engineer--Java--Spring-Boot--Angular-_100600",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Nvidia",
+        "role": "Field Applications Engineer, Embedded Systems - NALA",
+        "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Field-Applications-Engineer--Embedded-Systems---NALA_JR2014493",
+        "location": "US, CA, Santa Clara",
+        "country": "USA"
+      },
+      {
+        "company": "Nvidia",
+        "role": "AI Developer Technology Engineer",
+        "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Developer-Technology-Engineer_JR2027383",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Onehealthineers",
+        "role": "UX Researcher",
+        "link": "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/DWL-T/Usability-Engineer_R-31377-1",
+        "location": "DWL T",
+        "country": "Unsure"
+      },
+      {
+        "company": "Onehealthineers",
+        "role": "Information Systems Engineer",
+        "link": "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/DWL-T/Information-Systems-Engineer_R-29335-1",
+        "location": "DWL T",
+        "country": "Unsure"
+      },
+      {
+        "company": "Pae",
+        "role": "Systems Engineer",
+        "link": "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-MD-Columbia/Systems-Engineer_R0172869",
+        "location": "US-MD-Columbia",
+        "country": "USA"
+      },
+      {
+        "company": "Pae",
+        "role": "Systems Engineer - Security",
+        "link": "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-MD-Columbia/Systems-Engineer---Security_R0172861-1",
+        "location": "US-MD-Columbia",
+        "country": "USA"
+      },
+      {
+        "company": "Paypal",
+        "role": "Sr Software Engineer - CPE",
+        "link": "https://paypal.eightfold.ai/careers/job/274922654826?domain=paypal.com&8fold_id=274922654826",
+        "location": "Scottsdale, Arizona, United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "Peraton",
+        "role": "Front-End UI Developer",
+        "link": "https://careers-peraton.icims.com/jobs/172220/front-end-ui-developer/job",
+        "location": "Unsure",
+        "country": "Unsure"
+      },
+      {
+        "company": "Peraton",
+        "role": "DHA PRMD Acquisition Analyst – Hardware/Software",
+        "link": "https://careers-peraton.icims.com/jobs/172159/dha-prmd-acquisition-analyst-%e2%80%93-hardware-software/job",
+        "location": "Unsure",
+        "country": "Unsure"
+      },
+      {
+        "company": "Peraton",
+        "role": ".Net CAD Software Developer",
+        "link": "https://careers-peraton.icims.com/jobs/172063/.net-cad-software-developer/job",
+        "location": "Unsure",
+        "country": "Unsure"
+      },
+      {
+        "company": "Psu",
+        "role": "Systems & Robotics Engineer",
+        "link": "https://psu.wd1.myworkdayjobs.com/PSU_Staff/job/Penn-State-University-Park/Systems---Robotics-Engineer_REQ_0000083179-2",
+        "location": "Penn State University Park",
+        "country": "USA"
+      },
+      {
+        "company": "Qualtrics",
+        "role": "Software Engineer I ",
+        "link": "https://www.qualtrics.com/careers/us/en/job/8264811?gh_jid=8264811",
+        "location": "Provo, Utah, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Renesas electronics",
+        "role": "Power System Application Engineer",
+        "link": "https://jobs.smartrecruiters.com/RenesasElectronics/744000155068826",
+        "location": "Plano, TEXAS, United States",
+        "country": "USA"
+      },
+      {
+        "company": "RF-SMART",
+        "role": "Software Developer Internship- Summer 2027",
+        "link": "https://job-boards.greenhouse.io/rfsmart/jobs/5446867008",
+        "location": "Highlands Ranch, Colorado, United States",
+        "country": "USA"
+      },
+      {
+        "company": "RF-SMART",
+        "role": "Software Support Engineer Internship (RFS for NetSuite) -Summer 2027",
+        "link": "https://job-boards.greenhouse.io/rfsmart/jobs/5427723008",
+        "location": "Jacksonville, Florida, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Rocket Lab Corporation",
+        "role": "Systems Engineer I",
+        "link": "https://job-boards.greenhouse.io/rocketlab/jobs/7996430003",
+        "location": "Long Beach, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Rockwellautomation",
+        "role": "Business Intelligence / Data Analyst",
+        "link": "https://rockwellautomation.wd1.myworkdayjobs.com/external_rockwell_automation/job/Katowice-Poland/Business-Intelligence---Data-Analyst_R26-7934",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Rtx",
+        "role": "Systems Engineer I - ACTT Int & Test (Onsite)",
+        "link": "https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Systems-Engineer-I---ACTT-Int---Test--Onsite-_01881541",
+        "location": "US-IA-CEDAR RAPIDS-130 ~ 5350 C Ave NE ~ BLDG 130",
+        "country": "USA"
+      },
+      {
+        "company": "Rtx",
+        "role": "Software Engineering Intern (Summer 2027)",
+        "link": "https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-CO-AURORA-S77--16470-E-Hughes-Dr--BLDG-S77/Software-Engineering-Intern--Summer-2027-_01881524",
+        "location": "US-CO-AURORA-S77 ~ 16470 E Hughes Dr ~ BLDG S77",
+        "country": "USA"
+      },
+      {
+        "company": "Rtx",
+        "role": "Compression Systems Engineering - Structures Engineer Intern (Summer 2027)(Hybrid)",
+        "link": "https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-PR-AGUADILLA-110--Rd-110-N-Km-288--RD110/Compression-Systems-Engineering---Structures-Engineer-Intern--Summer-2027--Hybrid-_01881393",
+        "location": "US-PR-AGUADILLA-110 ~ Rd 110 N Km 28.8 ~ RD110",
+        "country": "USA"
+      },
+      {
+        "company": "Rtx",
+        "role": "Software Engineer Intern",
+        "link": "https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-AZ-TUCSON-805--1151-E-Hermans-Rd--BLDG-805/Software-Engineer-Intern_01874282-1",
+        "location": "US-AZ-TUCSON-805 ~ 1151 E Hermans Rd ~ BLDG 805",
+        "country": "USA"
+      },
+      {
+        "company": "Rtx",
+        "role": "Data Analyst - 1st Shift (Onsite)",
+        "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AR-SPRINGDALE-BLDG-4--275-E-Robinson-Ave--BLDG-4/Data-Analyst---1st-Shift--Onsite-_01879916",
+        "location": "US-AR-SPRINGDALE-BLDG 4 ~ 275 E Robinson Ave ~ BLDG 4",
+        "country": "USA"
+      },
+      {
+        "company": "Rtx",
+        "role": "Software Engineering Intern (Summer 2027)",
+        "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-FULLERTON-675--1801-Hughes-Dr--BLDG-675/Software-Engineering-Intern--Summer-2027-_01879741",
+        "location": "US-CA-FULLERTON-675 ~ 1801 Hughes Dr ~ BLDG 675",
+        "country": "USA"
+      },
+      {
+        "company": "Rtx",
+        "role": "Software Security Engineer, Onsite",
+        "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-E01--2000-E-El-Segundo-Blvd--BLDG-E01/Software-Security-Engineer--Onsite_01878774",
+        "location": "US-CA-EL SEGUNDO-E01 ~ 2000 E El Segundo Blvd ~ BLDG E01",
+        "country": "USA"
+      },
+      {
+        "company": "Sbdinc",
+        "role": "Master Data Analyst",
+        "link": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site/job/Towson-MD-United-States/Master-Data-Analyst_REQ-1000052785",
+        "location": "Towson, MD, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Schwab",
+        "role": "Sr Software Engineer - Blockchain Ann Arbor, MI; Austin, TX; San Francisco, CA Requisition ID: 2026-127767 Application deadline: 2026-10-16 Save for Later",
+        "link": "https://www.schwabjobs.com/job/ann-arbor/sr-software-engineer-blockchain/33727/101865445760",
+        "location": "Ann Arbor, MI; Austin, TX; San Francisco, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Schwab",
+        "role": "Platform Engineer Ann Arbor, MI Requisition ID: 2026-127768 Application deadline: 2026-10-14 Save for Later",
+        "link": "https://www.schwabjobs.com/job/ann-arbor/platform-engineer/33727/101861631024",
+        "location": "Ann Arbor, MI",
+        "country": "USA"
+      },
+      {
+        "company": "Slihrms",
+        "role": "Software Developer Intern - Summer 2027",
+        "link": "https://slihrms.wd3.myworkdayjobs.com/careers/job/USCODenver/Software-Developer-Intern---Summer-2027_R-161580-1",
+        "location": "US.CO.Denver",
+        "country": "USA"
+      },
+      {
+        "company": "Slihrms",
+        "role": "Data Analyst",
+        "link": "https://slihrms.wd3.myworkdayjobs.com/careers/job/GBLondonNova-North/Data-Analyst_R-162634-1",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Spectrum",
+        "role": "Data Scientist Stamford, CT 10/12/2026",
+        "link": "https://jobs.spectrum.com/job/stamford/data-scientist/4673/98486255872",
+        "location": "Stamford, CT",
+        "country": "USA"
+      },
+      {
+        "company": "Ssctech",
+        "role": "AI QA Engineer",
+        "link": "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Hyderabad-India/AI-QA-Engineer_R45989",
+        "location": "4 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Stoke Space ",
+        "role": "Design Reliability Engineer - System Safety",
+        "link": "https://job-boards.greenhouse.io/stokespacetechnologies/jobs/6182863004",
+        "location": "Kent, Washington",
+        "country": "USA"
+      },
+      {
+        "company": "Stoke Space ",
+        "role": "Frontend Software Engineer, Data Platform (Svelte + Rust ) ",
+        "link": "https://job-boards.greenhouse.io/stokespacetechnologies/jobs/5710886004",
+        "location": "Kent, Washington",
+        "country": "USA"
+      },
+      {
+        "company": "Stoke Space ",
+        "role": "Software Integration Engineer - HIL  ",
+        "link": "https://job-boards.greenhouse.io/stokespacetechnologies/jobs/5833628004",
+        "location": "Kent, Washington",
+        "country": "USA"
+      },
+      {
+        "company": "Stoke Space ",
+        "role": "Vehicle Software Engineer – Rust Controls",
+        "link": "https://job-boards.greenhouse.io/stokespacetechnologies/jobs/6176777004",
+        "location": "Kent, Washington",
+        "country": "USA"
+      },
+      {
+        "company": "Synchronyfinancial",
+        "role": "AVP, Security Tools Engineering",
+        "link": "https://synchronyfinancial.wd5.myworkdayjobs.com/careers/job/Central-Region-Engagement-Hub-IN/AVP--Security-Tools-Engineering_2602408",
+        "location": "5 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Synchronyfinancial",
+        "role": "AVP - Cloud Database Automation Engineer",
+        "link": "https://synchronyfinancial.wd5.myworkdayjobs.com/careers/job/Hyderabad-IN/AVP---Cloud-Database-Automation-Engineer_2602366",
+        "location": "5 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Synchronyfinancial",
+        "role": "AVP, Tanium Security Engineer",
+        "link": "https://synchronyfinancial.wd5.myworkdayjobs.com/careers/job/Hyderabad-IN/AVP--Tanium-Security-Engineer_2602508-1",
+        "location": "6 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Thermofisher",
+        "role": "AVI Software, Vision and Automation Systems Engineer",
+        "link": "https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/Greenville-North-Carolina-USA/AVI-Software---Vision-Systems-Trainer_R-01355572",
+        "location": "Greenville, North Carolina, USA",
+        "country": "USA"
+      },
+      {
+        "company": "Thomsonreuters",
+        "role": "Legal AI Engineer",
+        "link": "https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/United-States-of-America-Eagan-Minnesota/Legal-AI-Engineer_JREQ204195-1",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Thomsonreuters",
+        "role": "Software Engineer",
+        "link": "https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/United-States-of-America-Eagan-Minnesota/Software-Engineer_JREQ204005",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "TikTok",
+        "role": "Machine Learning Engineer Intern (E-Commerce Recommendation Live) - 2027 Start (PhD)",
+        "link": "https://lifeattiktok.com/search/7694045969844209973",
+        "location": "Seattle",
+        "country": "USA"
+      },
+      {
+        "company": "Tsys",
+        "role": "AI Engineer",
+        "link": "https://tsys.wd1.myworkdayjobs.com/tsys/job/ALPHARETTA-GEORGIA/AI-Engineer_R0073963",
+        "location": "ALPHARETTA, GEORGIA",
+        "country": "USA"
+      },
+      {
+        "company": "Vanguard",
+        "role": "AI Engineer",
+        "link": "https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Malvern-PA/AI-Engineer_181844-1",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Washpost",
+        "role": "Mobile Software Engineer, Architecture & Core Platform",
+        "link": "https://washpost.wd5.myworkdayjobs.com/washingtonpostcareers/job/DC-Washington-TWP-Headquarters/Mobile-Software-Engineer--Architecture---Core-Platform_JR-90275937",
+        "location": "DC-Washington-TWP Headquarters",
+        "country": "USA"
+      }
+    ]
+  },
+  {
+    "name": "batches/piao55k183svuqsgw1inznvu7nmijebosiq7",
+    "submittedAt": "2026-10-12T16:47:53.068Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "WSP",
+        "role": "Web Developer",
+        "link": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/92392",
+        "location": "Meridian, ID, United States",
+        "country": "USA"
+      }
+    ]
+  }
+]
