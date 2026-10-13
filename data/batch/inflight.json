@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "name": "batches/9u9dshter1yk94w9cnk0qa22zis7ozqrql7m",
+    "submittedAt": "2026-10-13T06:43:45.346Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Bakerhughes",
+        "role": "Data Visualization Engineering",
+        "link": "https://bakerhughes.wd5.myworkdayjobs.com/bakerhughes/job/IN-KA-BANGALORE-NEON-BUILDING-WEST-TOWER/Data-Visualization-Engineering_R166620",
+        "location": "5 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Microsoft",
+        "role": "Software Engineer",
+        "link": "https://apply.careers.microsoft.com/careers/job/1970393557023170?domain=microsoft.com&8fold_id=1970393557023170",
+        "location": "United States, Washington, Redmond",
+        "country": "USA"
+      },
+      {
+        "company": "Microsoft",
+        "role": "Software Engineering",
+        "link": "https://apply.careers.microsoft.com/careers/job/1970393556999878?domain=microsoft.com&8fold_id=1970393556999878",
+        "location": "United States, Washington, Redmond",
+        "country": "USA"
+      },
+      {
+        "company": "Microsoft",
+        "role": "Cloud Network Engineering Internship Oportunities",
+        "link": "https://apply.careers.microsoft.com/careers/job/1970393557037856?domain=microsoft.com&8fold_id=1970393557037856",
+        "location": "United States, Washington, Redmond",
+        "country": "USA"
+      },
+      {
+        "company": "Salesforce",
+        "role": "Technical Support Engineer - Commerce Cloud",
+        "link": "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Hyderabad/Technical-Support-Engineer---Commerce-Cloud_JR353944-1",
+        "location": "2 Locations",
+        "country": "Unsure"
+      }
+    ]
+  }
+]
