@@ -83,37 +83,32 @@ describe("fetchCustomJD", () => {
     expect(fetchMock).toHaveBeenCalledWith(url, expect.objectContaining({ redirect: "manual" }));
   });
 
-  it("treats a Radancy host that redirects onto another origin's homepage as the job path there", async () => {
-    const fetchMock = vi
-      .fn()
-      .mockResolvedValueOnce(redirect("https://www.disneycareers.com/"))
-      .mockResolvedValueOnce(redirect(`/en/job/burbank/forward-deployed-engineer/391/99227453008`))
-      .mockResolvedValueOnce(new Response("missing", { status: 404, statusText: "Not Found" }));
+  it("treats a Radancy host that redirects onto another origin's homepage as no data", async () => {
+    const fetchMock = vi.fn().mockResolvedValueOnce(redirect("https://www.disneycareers.com/"));
     vi.stubGlobal("fetch", fetchMock);
 
     const result = await fetchCustomJD(EXPIRED_DISNEY_JOB);
 
-    expect(fetchMock.mock.calls.map((call) => call[0])).toEqual([
-      EXPIRED_DISNEY_JOB,
-      MOVED_DISNEY_JOB,
-      LOCALIZED_DISNEY_JOB,
-    ]);
+    expect(fetchMock).toHaveBeenCalledOnce();
     expect(result).toEqual({
       jd: null,
-      error: JD_FETCH_ERROR.http(HttpStatusCode.NOT_FOUND, "Not Found"),
+      error: JD_FETCH_ERROR.noData(),
     });
   });
 
-  it("keeps a Radancy job that is still posted after the host move", async () => {
+  it("follows a Radancy redirect that keeps the same job id", async () => {
     const fetchMock = vi
       .fn()
-      .mockResolvedValueOnce(redirect("https://www.disneycareers.com/"))
       .mockResolvedValueOnce(redirect(`/en/job/burbank/forward-deployed-engineer/391/99227453008`))
       .mockResolvedValueOnce(jobPage("Forward Deployed Engineer"));
     vi.stubGlobal("fetch", fetchMock);
 
-    const result = await fetchCustomJD(EXPIRED_DISNEY_JOB);
+    const result = await fetchCustomJD(MOVED_DISNEY_JOB);
 
+    expect(fetchMock.mock.calls.map((call) => call[0])).toEqual([
+      MOVED_DISNEY_JOB,
+      LOCALIZED_DISNEY_JOB,
+    ]);
     expect(result.error).toEqual(JD_FETCH_OK);
     expect(result.jd).toContain("Forward Deployed Engineer");
   });

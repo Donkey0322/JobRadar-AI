@@ -13,9 +13,8 @@ export interface RadancyJobDocument {
 }
 
 /**
- * Follow a Radancy job URL.
- * A move onto another origin's homepage keeps the job path, so a retired host
- * still resolves to the posting instead of the board's front page.
+ * Follow a Radancy job URL only when the redirect still names that job.
+ * A hop to another origin's homepage drops the posting path, so the stored URL is gone.
  */
 export function radancyJobUrlAfterRedirect(from: string, location: string): string | null {
   let next: URL;
@@ -26,18 +25,10 @@ export function radancyJobUrlAfterRedirect(from: string, location: string): stri
     return null;
   }
 
-  const current = new URL(from);
-  const currentId = getRadancyJobId(current);
   const nextId = getRadancyJobId(next);
+  if (!nextId) return null;
 
-  if (currentId && currentId === nextId) return next.toString();
-
-  if (next.origin !== current.origin && currentId) {
-    return `${next.origin}${current.pathname}${current.search}`;
-  }
-
-  if (nextId) return next.toString();
-  return null;
+  return next.toString();
 }
 
 export async function fetchRadancyJobDocument(

@@ -182,3 +182,13 @@
 2026-10-11T12:11:01.794Z Workday: jci - 429 - Too Many Requests
 2026-10-11T12:11:26.602Z Workday: liveramp - 403 - Forbidden
 2026-10-11T12:14:04.998Z Workday: osv-rubicon - 422 - Unprocessable Entity
+2026-10-13T08:42:55.858Z Workday: jda - 429 - Too Many Requests
+2026-10-13T08:42:55.899Z Workday: jabil - 429 - Too Many Requests
+2026-10-13T08:42:55.933Z Workday: leidos - 429 - Too Many Requests
+2026-10-13T08:42:55.971Z Workday: levistraussandco - 429 - Too Many Requests
+2026-10-13T08:42:59.027Z Workday: liveramp - 403 - Forbidden
+2026-10-13T08:43:34.643Z Workday: marvell - 502 - Bad Gateway
+2026-10-13T08:45:14.017Z Workday: osv-rubicon - 422 - Unprocessable Entity
+2026-10-13T08:50:50.688Z Workday: uhaul - 503 - Service Unavailable
+2026-10-13T08:51:19.425Z Workday: zayo - 500 - Internal Server Error
+2026-10-13T08:51:50.374Z Workday: costar - 500 - Internal Server Error
