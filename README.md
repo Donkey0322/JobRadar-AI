@@ -90,7 +90,7 @@
 Each category page shows up to 300 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 1,534 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 1,482 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 1,483 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 3,140 opportunities
 
 ## The List 🚴‍♂️
@@ -338,6 +338,13 @@ Each category page shows up to 300 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Microsoft" src="./assets/featured-badges/microsoft.svg" /></td>
+      <td width="420" align="left" valign="top">Cloud Network Engineering Internship Oportunities</td>
+      <td width="180" align="left" valign="top">Redmond, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://apply.careers.microsoft.com/careers/job/1970393557037856?domain=microsoft.com&amp;8fold_id=1970393557037856"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 12</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Rocket Lab Corporation</td>
       <td width="420" align="left" valign="top">Ground Systems Engineering Intern Spring 2027<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Stennis Space Center, MS</td>
@@ -540,16 +547,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---IT-Software-Engineer_JR113941"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 9</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Tenet3</td>
-      <td width="420" align="left" valign="top">Software Developer Intern - Full Stack</td>
-      <td width="180" align="left" valign="top">Dayton, OH</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/tenet3/jobs/8878874002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 9</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,482 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,483 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -795,7 +795,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-13T06:43:49.480Z</code>
+      🕒 Last updated <code>2026-10-13T06:50:20.838Z</code>
     </span>
   </p>
 </div>
