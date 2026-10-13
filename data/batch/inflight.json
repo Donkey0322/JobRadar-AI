@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "name": "batches/v5qs7kbo7255lv0nfl6jsuh7t3p34kw5ogle",
+    "submittedAt": "2026-10-13T23:37:36.066Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Armadin",
+        "role": "Frontend Engineer Intern - Member of Technical Staff",
+        "link": "https://jobs.ashbyhq.com/armadin/571d7673-ce4b-414c-b736-38297d1d2b8b/application?embed=true",
+        "location": "Palo Alto, CA"
+      },
+      {
+        "company": "Boston Consulting Group",
+        "role": "Forward Deployed AI Engineer Intern 🎓",
+        "link": "https://careers.bcg.com/global/en/job/59702",
+        "location": "4 locationsBoston, MALAChicago, ILNYC"
+      },
+      {
+        "company": "Carbon Robotics",
+        "role": "Engineering Intern - Hardware & Software",
+        "link": "https://carbonrobotics.com/job-openings?gh_jid=4721558006",
+        "location": "Seattle, WA"
+      },
+      {
+        "company": "Netflix",
+        "role": "Software Engineer Intern",
+        "link": "https://explore.jobs.netflix.net/careers/job/790318904468",
+        "location": "LALos Gatos, CA"
+      },
+      {
+        "company": "7-Eleven",
+        "role": "AI Analyst / AI Automation Specialist Intern",
+        "link": "https://my7elevenhr.wd12.myworkdayjobs.com/Careers/job/SSC-Irving-TX/ServiceNow-Intern_R26_6017",
+        "location": "Irving, TX"
+      },
+      {
+        "company": "Metropolitan Transportation Authority",
+        "role": "Data Analyst Emerging Talent Intern - Supplier Relations",
+        "link": "https://jobs.jobvite.com/metropolitantransportationauthority/job/oOvWAfwz?nl=1&nl=1&fr=false",
+        "location": "NYC"
+      },
+      {
+        "company": "Northrop Grumman",
+        "role": "Associate Cloud Software Engineer 1",
+        "link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Redondo-Beach/Associate-Cloud-Software-Engineer--Level-1-_R10255928",
+        "location": "Redondo Beach, CA"
+      }
+    ]
+  }
+]
