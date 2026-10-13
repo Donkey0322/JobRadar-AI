@@ -89,9 +89,9 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [2027 Summer Intern](./job-postings/summer-intern.md) — 1,534 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 1,483 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,141 opportunities
+- [2027 Summer Intern](./job-postings/summer-intern.md) — 1,533 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 1,476 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,109 opportunities
 
 ## The List 🚴‍♂️
 
@@ -233,7 +233,7 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Compression Systems Engineering - Structures Engineer Intern (Summer 2027)(Hybrid)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Aguadilla, PR</td>
-      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-PR-AGUADILLA-110--Rd-110-N-Km-288--RD110/Compression-Systems-Engineering---Structures-Engineer-Intern--Summer-2027--Hybrid-_01881393"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 12</td>
     </tr>
     <tr>
@@ -322,7 +322,7 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,534 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,533 opportunities in this section.</sub></p>
 
 ### Off Season Intern
 
@@ -549,7 +549,7 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,483 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,476 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -776,7 +776,7 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,141 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,109 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -795,7 +795,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-13T07:20:27.396Z</code>
+      🕒 Last updated <code>2026-10-13T10:33:24.749Z</code>
     </span>
   </p>
 </div>
