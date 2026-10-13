@@ -14203,6 +14203,16 @@
     ]
   },
   {
+    "name": "clark",
+    "ats": "ashby",
+    "identifier": "clark",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/clark",
+    "urls": [
+      "https://jobs.ashbyhq.com/clark/e39423ba-10f6-44bb-a20f-5ccd33d53c52/application?utm_source=0jQmGMXGwG&jr_id=6acb9db5a56e5406e57bc669"
+    ]
+  },
+  {
     "name": "claylabs",
     "ats": "ashby",
     "identifier": "claylabs",
