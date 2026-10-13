@@ -286,4 +286,57 @@ describe("complex ATS adapters", () => {
     });
     expect([...knownKeys]).toEqual(["radancy:1"]);
   });
+
+  it("reposts the listing when a Radancy host redirects to another origin", async () => {
+    const company: Company = {
+      name: "disney",
+      ats: "radancy",
+      identifier: "jobs.disneycareers.com",
+      domain: "https://jobs.disneycareers.com",
+      page: "https://jobs.disneycareers.com/search-jobs/resultspost",
+      urls: [],
+    };
+    const movedPage = "https://www.disneycareers.com/search-jobs/resultspost";
+
+    mockFetch
+      .mockResolvedValueOnce(
+        new Response(null, {
+          status: 301,
+          statusText: "Moved Permanently",
+          headers: { location: "https://www.disneycareers.com/" },
+        })
+      )
+      .mockResolvedValueOnce(
+        jsonResponse(
+          {
+            hasJobs: true,
+            results: `
+              <ul>
+                <li>
+                  <a href="/job/orlando/engineer/391/42" data-job-id="42">
+                    <h3>Engineer</h3>
+                  </a>
+                  <span class="location">Orlando, Florida</span>
+                </li>
+              </ul>
+            `,
+          },
+          movedPage
+        )
+      );
+
+    const jobs = await radancyFetcher.fetch(company, new Set(), AbortSignal.timeout(1000));
+
+    expect(jobs).toEqual([
+      {
+        company: "Disney",
+        role: "Engineer",
+        link: "https://www.disneycareers.com/job/orlando/engineer/391/42",
+        location: "Orlando, Florida",
+      },
+    ]);
+    expect(mockFetch.mock.calls[0]?.[0]).toBe(company.page);
+    expect(mockFetch.mock.calls[0]?.[1]).toMatchObject({ redirect: "manual" });
+    expect(mockFetch.mock.calls[1]?.[0]).toBe(movedPage);
+  });
 });

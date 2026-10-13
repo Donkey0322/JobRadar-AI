@@ -16,8 +16,10 @@ import {
 import { fetchAppleJD } from "./apple";
 import { fetchMetaJD } from "./meta";
 import { fetchNetflixJD } from "./netflix";
+import { fetchRadancyJobDocument } from "./radancy";
 
 import { parseCustomCompanyIdentifier } from "@/modules/employer/shared/custom-identifier";
+import { isRadancyJobUrl } from "@/modules/employer/shared/radancy";
 import { logger } from "@/utils/logger";
 import { normalizeRawText } from "@/utils/string";
 
@@ -120,13 +122,24 @@ export async function fetchCustomJD(
       }
       // TODO: google, amazon
       default: {
-        const res = await fetch(url, {
-          signal,
-          headers: {
-            "User-Agent": "Mozilla/5.0 (JD-Analyzer)",
-            "Accept-Encoding": "identity",
-          },
-        });
+        const document = isRadancyJobUrl(new URL(url))
+          ? await fetchRadancyJobDocument(url, signal)
+          : {
+              response: await fetch(url, {
+                signal,
+                headers: {
+                  "User-Agent": "Mozilla/5.0 (JD-Analyzer)",
+                  "Accept-Encoding": "identity",
+                },
+              }),
+              landedOnJob: true,
+            };
+
+        if (!document.landedOnJob) {
+          return { jd: null, error: JD_FETCH_ERROR.noData() };
+        }
+
+        const res = document.response;
 
         if (!res.ok) {
           logger.error({ url, status: res.status }, `${RED_CROSS} Failed to fetch text`);
