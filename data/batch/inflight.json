@@ -1,1 +1,156 @@
-[]
+[
+  {
+    "name": "batches/ofja7isk2ugrdutciwudfz1plz7k5tcbrpe8",
+    "submittedAt": "2026-10-14T09:09:24.241Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Accenture",
+        "role": "Generative AI Software Engineer Specialist (all genders)",
+        "link": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kronberg-Campus-Kronberg-1/Generative-AI-Software-Engineer-Specialist--all-genders-_R00362247",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Apex-technology-inc",
+        "role": "Embedded Flight Software Engineer (TS/SCI Cleared) ",
+        "link": "https://jobs.ashbyhq.com/apex-technology-inc/bdc65d67-894e-4db7-87db-676930b7c9f9",
+        "location": "Los Angeles",
+        "country": "USA"
+      },
+      {
+        "company": "Apple",
+        "role": "Java Backend Engineer-Retail",
+        "link": "https://jobs.apple.com/en-us/details/200677519-3715/java-backend-engineer-retail?team=CORSV",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Apple",
+        "role": "Software Developement Engineer in Test",
+        "link": "https://jobs.apple.com/en-us/details/200686513-3715/software-developement-engineer-in-test?team=SFTWR",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Apple",
+        "role": "Measurement Strategist (Data Analyst) - Apple Ads, APAC",
+        "link": "https://jobs.apple.com/en-us/details/200688683-6482/measurement-strategist-data-analyst-apple-ads-apac?team=SLDEV",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Apple",
+        "role": "Data Scientist",
+        "link": "https://jobs.apple.com/en-us/details/200688673-0351/data-scientist?team=SLDEV",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Cgg",
+        "role": "ML Engineer, Agentic Systems",
+        "link": "https://cgg.wd103.myworkdayjobs.com/viridiencareers/job/Houston-United-States-of-America/ML-Engineer--Agentic-Systems_JR101529-1",
+        "location": "Houston, United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "Citi",
+        "role": "Full Stack Developer",
+        "link": "https://citi.wd5.myworkdayjobs.com/2/job/1124-SHIVAJI-GARDENS-MOONLI/Full-Stack-Developer_26996731",
+        "location": "1/124, SHIVAJI GARDENS, MOONLI",
+        "country": "Unsure"
+      },
+      {
+        "company": "Citi",
+        "role": "Full Stack Developer",
+        "link": "https://citi.wd5.myworkdayjobs.com/2/job/1124-SHIVAJI-GARDENS-MOONLI/Full-Stack-Developer_26996736",
+        "location": "1/124, SHIVAJI GARDENS, MOONLI",
+        "country": "Unsure"
+      },
+      {
+        "company": "Fortinet",
+        "role": "Sr Applications Security Engineer",
+        "link": "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/24619",
+        "location": "Sunnyvale, CA, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Google",
+        "role": "Software Engineer, Mobile Performance",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/75727153483653830-software-engineer-mobile-performance?sort_by=date&page=1",
+        "location": "San Jose, CA, USA; Kirkland, WA, USA",
+        "country": "USA"
+      },
+      {
+        "company": "Google",
+        "role": "Software Engineer, Embedded Systems/Firmware, Pixel Bootloader",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/117387923937993414-software-engineer-embedded-systemsfirmware-pixel-bootloader?sort_by=date&page=3",
+        "location": "Mountain View, CA, USA",
+        "country": "USA"
+      },
+      {
+        "company": "Here",
+        "role": "Sr Data Scientist",
+        "link": "https://careers-here.icims.com/jobs/83670/sr-data-scientist/job",
+        "location": "Unsure",
+        "country": "Unsure"
+      },
+      {
+        "company": "Microsoft",
+        "role": "Applied AI Engineer",
+        "link": "https://apply.careers.microsoft.com/careers/job/1970393557040326?domain=microsoft.com&8fold_id=1970393557040326",
+        "location": "United States, Washington, Redmond, United States, Georgia, Atlanta",
+        "country": "USA"
+      },
+      {
+        "company": "Microsoft",
+        "role": "Digital Cloud & AI Solution Engineer - Azure Platform",
+        "link": "https://apply.careers.microsoft.com/careers/job/1970393557040185?domain=microsoft.com&8fold_id=1970393557040185",
+        "location": "United States, Multiple Locations, Multiple Locations",
+        "country": "USA"
+      },
+      {
+        "company": "Nvidia",
+        "role": "Software Engineer, NVLink",
+        "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/Software-Engineer--NVLink_JR2025935",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Salesforce",
+        "role": "Software Engineering SMTS (Backend - Distributed Systems)",
+        "link": "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Hyderabad/Software-Engineering-SMTS---MTS----Platform-Engineering--Backend--Kubernetes---Cloud-_JR347341",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Slihrms",
+        "role": "Software Engineer - ERP",
+        "link": "https://slihrms.wd3.myworkdayjobs.com/careers/job/GBBirmingham---Chamberlain-Square/Software-Engineer---ERP_R-166412",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Synchronyfinancial",
+        "role": "Analyst, HPA Monitoring Analyst, Information Security (L9)",
+        "link": "https://synchronyfinancial.wd5.myworkdayjobs.com/careers/job/Hyderabad-IN/Analyst--HPA-Monitoring-Analyst--Information-Security--L9-_2602348",
+        "location": "6 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Synchronyfinancial",
+        "role": "AVP, Site Reliability Engineer - CloudOps (L10)",
+        "link": "https://synchronyfinancial.wd5.myworkdayjobs.com/careers/job/Hyderabad-IN/AVP--Site-Reliability-Engineer---CloudOps--L10-_2602019-1",
+        "location": "5 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Verizon",
+        "role": "Engr IV-Security Engrg (Network)",
+        "link": "https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Chennai-India/Engr-IV-Security-Engrg--Network-_R-1097658",
+        "location": "2 Locations",
+        "country": "Unsure"
+      }
+    ]
+  }
+]
