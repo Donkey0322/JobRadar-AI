@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "name": "batches/omwtfva25tsqj8b71gl82bobw7v5zsrj4n9o",
+    "submittedAt": "2026-10-15T07:02:38.718Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Amazon",
+        "role": "Data Engineer, Robotics Delivery and Packaging Innovation",
+        "link": "https://amazon.jobs/en/jobs/10579596",
+        "location": "US, WA, Bellevue",
+        "country": "USA"
+      },
+      {
+        "company": "Amazon",
+        "role": "Software Development Engineer, AWS Neuron, Annapurna Labs",
+        "link": "https://amazon.jobs/en/jobs/10579585",
+        "location": "US, CA, Cupertino",
+        "country": "USA"
+      },
+      {
+        "company": "Apex-technology-inc",
+        "role": "Flight Software Engineer",
+        "link": "https://jobs.ashbyhq.com/apex-technology-inc/4cabd6f4-8b6e-48cc-9554-5943c1df04bb",
+        "location": "Los Angeles",
+        "country": "USA"
+      },
+      {
+        "company": "Apex-technology-inc",
+        "role": "Site Reliability Engineer",
+        "link": "https://jobs.ashbyhq.com/apex-technology-inc/f228117c-377b-448c-a119-f6ab7a803bf1",
+        "location": "Los Angeles",
+        "country": "USA"
+      },
+      {
+        "company": "Assurant",
+        "role": "Software Engineer Digital Claims Channel (ASP.NET Core + C# + MVC + Angular + Azure DevOps + Git + REST APIs + Agile Scrum",
+        "link": "https://assurant.wd1.myworkdayjobs.com/Assurant_Careers/job/Bengaluru/Software-Engineer-Digital-Claims-Channel--Sitefinity--or-CMS----HTML---CSS---ASPNET---Web-Forms---MVC---Agile_R-114642-1",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Cisco",
+        "role": "Software Engineering Technical Leader (remote) - 2025538",
+        "link": "https://careers.cisco.com/global/en/job/2025538?ph_id=2025538",
+        "location": "Research Triangle Park, North Carolina, United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "Equifax",
+        "role": "AI Quality Assurance Engineer",
+        "link": "https://equifax.wd5.myworkdayjobs.com/external/job/IND-Trivandrum-Equifax-Analytics-PEC/AI-Quality-Assurance-Engineer_J00179330-1",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Schwab",
+        "role": "Associate Software Engineer Austin, TX Requisition ID: 2026-127949 Application deadline: 2026-10-24 Save for Later",
+        "link": "https://www.schwabjobs.com/job/austin/associate-software-engineer/33727/101977388560",
+        "location": "Austin, TX",
+        "country": "USA"
+      },
+      {
+        "company": "Synchronyfinancial",
+        "role": "Analyst, HPA Monitoring Analyst, Information Security (L9)",
+        "link": "https://synchronyfinancial.wd5.myworkdayjobs.com/careers/job/Hyderabad-IN/Analyst--HPA-Monitoring-Analyst--Information-Security--L9-_2602748",
+        "location": "6 Locations",
+        "country": "Unsure"
+      }
+    ]
+  }
+]
