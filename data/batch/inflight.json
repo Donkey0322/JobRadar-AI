@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "name": "batches/brc4761z9indbgen40c7fk65wto1qjdk4ozu",
+    "submittedAt": "2026-10-15T23:19:25.437Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "TikTok",
+        "role": "Software Engineer Graduate (Data Ecosystem) - 2027 Start",
+        "link": "https://lifeattiktok.com/search/7685769994391832837",
+        "location": "San Jose",
+        "country": "USA"
+      },
+      {
+        "company": "Sierra Nevada Corporation",
+        "role": "Software Engineer Intern",
+        "link": "https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Lone-Tree-CO/Software-Engineer-Intern---Summer-2027--For-SNC-Summer-2026-Interns-Only-_R0031098",
+        "location": "Lone Tree, CO"
+      },
+      {
+        "company": "Leidos",
+        "role": "Data Engineering & Analytics Intern",
+        "link": "https://leidos.wd5.myworkdayjobs.com/External/job/Shiloh-IL/Data-Engineering---Analytics-Intern_R-00194635",
+        "location": "Shiloh, IL"
+      },
+      {
+        "company": "Commonwealth Fusion Systems",
+        "role": "AI & Infrastructure Engineer Intern",
+        "link": "https://jobs.lever.co/cfsenergy/fa87d365-ac8a-44c3-8fda-c9dec3ea8878/apply",
+        "location": "Devens, MA"
+      },
+      {
+        "company": "Wikimedia Foundation",
+        "role": "Software Engineering Intern",
+        "link": "https://job-boards.greenhouse.io/wikimedia/jobs/8268853",
+        "location": "Remote in USA"
+      },
+      {
+        "company": "TechInsights",
+        "role": "Software Development Co-op Student",
+        "link": "https://techinsights.applytojob.com/apply/3yhis78252/Software-Development-Coop-Student-Winter-2026",
+        "location": "Ottawa, ON, Canada"
+      },
+      {
+        "company": "Rivian",
+        "role": "Software Engineer Intern Co-op - Machine Learning Research - Perception 🎓",
+        "link": "https://careers.rivian.com/jobs/33801?icims=1",
+        "location": "Palo Alto, CA"
+      },
+      {
+        "company": "Nokia",
+        "role": "Embedded C/C++ Software Developer Co-op Intern",
+        "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/41311",
+        "location": "Ottawa, ON, Canada"
+      }
+    ]
+  }
+]
