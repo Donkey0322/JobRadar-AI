@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Symbotic</td>
+      <td width="420" align="left" valign="top">Co-Op- System Engineer</td>
+      <td width="180" align="left" valign="top">Brooksville, FL</td>
+      <td width="120" align="left" valign="top"><a href="https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Brooksville-FL/Co-Op--System-Engineer_R8261"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 15</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Tessera-labs</td>
       <td width="420" align="left" valign="top">Software Engineering Intern, Full Stack</td>
       <td width="180" align="left" valign="top">San Jose, CA</td>
@@ -2106,17 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/genscript/jobs/5253581007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 30</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Clay</td>
-      <td width="420" align="left" valign="top">Software Engineer Intern</td>
-      <td width="180" align="left" valign="top">New York, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/claylabs/5b7eced2-36bd-4265-a2a8-da0f786e47aa/application?embed=true"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 30</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,512 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,513 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-15T13:28:42.564Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-15T13:33:53.134Z</code></sub>

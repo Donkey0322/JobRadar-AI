@@ -14,6 +14,20 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Rtx</td>
+      <td width="420" align="left" valign="top">Software Engineer I - Test<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Tucson, AZ</td>
+      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AZ-TUCSON-805--1151-E-Hermans-Rd--BLDG-805/Software-Engineer-I---Test_01873961"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 15</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Curtisswright</td>
+      <td width="420" align="left" valign="top">Systems Engineer, Assoc<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Idaho Falls, ID</td>
+      <td width="120" align="left" valign="top"><a href="https://curtisswright.wd1.myworkdayjobs.com/cw_external_career_site/job/US-ID-Idaho-Falls-Nuclear/Systems-Engineer--Assoc_JR13920"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 15</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Schwab</td>
       <td width="420" align="left" valign="top">Associate Software Engineer Austin, TX Requisition ID: 2026-127949 Application deadline: 2026-10-24 Save for Later</td>
       <td width="180" align="left" valign="top">Austin, TX</td>
@@ -2099,24 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/twitch/jobs/8879673002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 8</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Travelers</td>
-      <td width="420" align="left" valign="top">Software Engineer I (JavaScript, TypeScript, AWS, React, Node.js)<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Baltimore, MD</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Micron</td>
-      <td width="420" align="left" valign="top">AI Engineer</td>
-      <td width="180" align="left" valign="top">Boise, ID</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 3,139 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 3,141 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-15T13:28:42.564Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-15T13:33:53.134Z</code></sub>

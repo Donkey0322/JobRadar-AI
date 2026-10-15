@@ -90,8 +90,8 @@
 Each category page shows up to 300 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 1,583 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 1,512 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,139 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 1,513 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,141 opportunities
 
 ## The List 🚴‍♂️
 
@@ -338,6 +338,13 @@ Each category page shows up to 300 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Symbotic</td>
+      <td width="420" align="left" valign="top">Co-Op- System Engineer</td>
+      <td width="180" align="left" valign="top">Brooksville, FL</td>
+      <td width="120" align="left" valign="top"><a href="https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Brooksville-FL/Co-Op--System-Engineer_R8261"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 15</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Tessera-labs</td>
       <td width="420" align="left" valign="top">Software Engineering Intern, Full Stack</td>
       <td width="180" align="left" valign="top">San Jose, CA</td>
@@ -540,16 +547,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/brainco/7ce0af56-d15e-4fc8-91a5-9e56cdb9cf42/application?embed=true"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 13</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Machine Learning Engineer – Applied AI Co-op Intern</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/brainco/b6adda4c-490c-4e9e-8354-e55c05d3c6ac/application?embed=true"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 13</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,512 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,513 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -564,6 +564,20 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Rtx</td>
+      <td width="420" align="left" valign="top">Software Engineer I - Test<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Tucson, AZ</td>
+      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AZ-TUCSON-805--1151-E-Hermans-Rd--BLDG-805/Software-Engineer-I---Test_01873961"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 15</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Curtisswright</td>
+      <td width="420" align="left" valign="top">Systems Engineer, Assoc<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Idaho Falls, ID</td>
+      <td width="120" align="left" valign="top"><a href="https://curtisswright.wd1.myworkdayjobs.com/cw_external_career_site/job/US-ID-Idaho-Falls-Nuclear/Systems-Engineer--Assoc_JR13920"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 15</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Schwab</td>
       <td width="420" align="left" valign="top">Associate Software Engineer Austin, TX Requisition ID: 2026-127949 Application deadline: 2026-10-24 Save for Later</td>
@@ -760,23 +774,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/robinhood/jobs/7263578?t=gh_src=&amp;gh_jid=7263578"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 14</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Salesforce" src="./assets/featured-badges/salesforce.svg" /></td>
-      <td width="420" align="left" valign="top">Software Engineering AMTS (College Grad)</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/Software-Engineering-AMTS-MTS--College-Grad-_JR330400-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 14</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Ngc</td>
-      <td width="420" align="left" valign="top">2027 Associate Software Quality Engineer - San Diego<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">San Diego, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/XMLNAME-2027-Associate-Software-Quality-Engineer---San-Diego_R10256051"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 14</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,139 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,141 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -795,7 +795,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-15T13:28:42.564Z</code>
+      🕒 Last updated <code>2026-10-15T13:33:53.134Z</code>
     </span>
   </p>
 </div>
