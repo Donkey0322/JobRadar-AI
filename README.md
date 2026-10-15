@@ -91,7 +91,7 @@ Each category page shows up to 300 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 1,583 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,512 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,139 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,140 opportunities
 
 ## The List 🚴‍♂️
 
@@ -565,6 +565,13 @@ Each category page shows up to 300 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Schwab</td>
+      <td width="420" align="left" valign="top">Associate Software Engineer Austin, TX Requisition ID: 2026-127949 Application deadline: 2026-10-24 Save for Later</td>
+      <td width="180" align="left" valign="top">Austin, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://www.schwabjobs.com/job/austin/associate-software-engineer/33727/101977388560"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 15</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Rtx</td>
       <td width="420" align="left" valign="top">Software Engineer/Developer I (Onsite)<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Woburn, MA</td>
@@ -767,16 +774,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/XMLNAME-2027-Associate-Software-Quality-Engineer---San-Diego_R10256051"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 14</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Nike</td>
-      <td width="420" align="left" valign="top">Machine Learning Engineer I</td>
-      <td width="180" align="left" valign="top">Beaverton, OR</td>
-      <td width="120" align="left" valign="top"><a href="https://nike.wd1.myworkdayjobs.com/nke/job/Beaverton-Oregon/Machine-Learning-Engineer-I_R-92370-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 14</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,139 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,140 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -795,7 +795,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-15T07:02:26.916Z</code>
+      🕒 Last updated <code>2026-10-15T07:09:33.207Z</code>
     </span>
   </p>
 </div>
