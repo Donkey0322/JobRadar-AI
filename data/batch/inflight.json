@@ -1,1 +1,100 @@
-[]
+[
+  {
+    "name": "batches/kxdf7iy7snt6dqxv2hrp1vmmlqgk3dlhdgww",
+    "submittedAt": "2026-10-16T13:18:41.951Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Capitalone",
+        "role": "Data Engineer 4, Auto Data Platforms",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Plano-TX/Data-Engineer-4--Auto-Data-Platforms_R1003878-1",
+        "location": "Plano, TX",
+        "country": "USA"
+      },
+      {
+        "company": "Cisco",
+        "role": "DevOps Engineer",
+        "link": "https://careers.cisco.com/global/en/job/2025333?ph_id=2025333",
+        "location": "Research Triangle Park, North Carolina, United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "Centricsoftware",
+        "role": "Site Reliability Engineer",
+        "link": "https://centricsoftware.wd501.myworkdayjobs.com/Centric/job/Paris-France/Site-Reliability-Engineer_JR374",
+        "location": "3 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Dxctechnology",
+        "role": "AI Engineer",
+        "link": "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/POL---MZ---WARSAW/AI-Engineer_51584805-1",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Dxctechnology",
+        "role": "Data Engineer with German",
+        "link": "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/POL---MZ---WARSAW/Data-Engineer-with-German_51589660",
+        "location": "4 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "GuideWell",
+        "role": "Associate Cybersecurity Threat Analyst",
+        "link": "http://fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/42210",
+        "location": "United States",
+        "country": "USA"
+      },
+      {
+        "company": "GuideWell",
+        "role": "Cybersecurity Analyst (AI Focus)",
+        "link": "http://fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/42220",
+        "location": "United States",
+        "country": "USA"
+      },
+      {
+        "company": "Icf",
+        "role": "2027 Summer Intern, Cloud Engineer (AWS/Azure) (Reston, VA)",
+        "link": "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Cloud-Engineer--AWS-Azure---Reston--VA-_R2603554",
+        "location": "Reston, VA",
+        "country": "USA"
+      },
+      {
+        "company": "Netflix",
+        "role": "Software Engineer 4/5 – Model Serving Systems, AI Platform",
+        "link": "https://explore.jobs.netflix.net/careers/job/790300350307",
+        "location": "Remote, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Pipersandler",
+        "role": "Core Infrastructure Engineer – Professional",
+        "link": "https://pipersandler.wd501.myworkdayjobs.com/piper_sandler_careers/job/Minneapolis-MN---HQ/Core-Infrastructure-Engineer---Professional_R-100749",
+        "location": "Minneapolis, MN - HQ",
+        "country": "USA"
+      },
+      {
+        "company": "Rockwellautomation",
+        "role": "Power Platform Developer",
+        "link": "https://rockwellautomation.wd1.myworkdayjobs.com/external_rockwell_automation/job/India-Pune-Mississippi-Building/Power-Platform-Developer_R26-4707",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Rtx",
+        "role": "Information Systems Engineer",
+        "link": "https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-AZ-TUCSON-801--1151-E-Hermans-Rd--BLDG-801-External-Site/Information-Systems-Engineer_01882684",
+        "location": "US-AZ-TUCSON-801 ~ 1151 E Hermans Rd ~ BLDG 801 (External Site)",
+        "country": "USA"
+      },
+      {
+        "company": "STR",
+        "role": "Software Engineer",
+        "link": "https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4717545006",
+        "location": "Woburn, MA",
+        "country": "USA"
+      }
+    ]
+  }
+]
