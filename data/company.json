@@ -27338,9 +27338,12 @@
     "name": "leonardocompany",
     "ats": "workday",
     "identifier": "leonardocompany-leonardocareersite",
-    "domain": "https://leonardocompany.wd3.myworkdayjobs.com/leonardocareersite",
-    "page": "https://leonardocompany.wd3.myworkdayjobs.com/wday/cxs/leonardocompany/leonardocareersite/jobs",
+    "domain": "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite",
+    "page": "https://leonardocompany.wd3.myworkdayjobs.com/wday/cxs/leonardocompany/LeonardoCareerSite/jobs",
     "urls": [
+      "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Basildon/Summer-Placement-Software-Engineer_R0034282",
+      "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Edinburgh/Industrial-Placement-Test-Systems-Engineer_R0034207",
+      "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Edinburgh/Summer-Placement-Software-Engineer_R0033869-1",
       "https://leonardocompany.wd3.myworkdayjobs.com/leonardocareersite/job/GB---Basildon/Electro-Optic-Systems-Engineer_R0029195",
       "https://leonardocompany.wd3.myworkdayjobs.com/leonardocareersite/job/GB---Basildon/System-Engineer---Land-CEMA--All-Levels-_R0030980",
       "https://leonardocompany.wd3.myworkdayjobs.com/leonardocareersite/job/GB---Edinburgh/C---Software-Engineer_R0029200",
@@ -27348,9 +27351,7 @@
       "https://leonardocompany.wd3.myworkdayjobs.com/leonardocareersite/job/GB---Southampton/Chief-Systems-Engineer_R0031438",
       "https://leonardocompany.wd3.myworkdayjobs.com/leonardocareersite/job/IT---Pomezia/Avionic-Software-Engineer_R0027699",
       "https://leonardocompany.wd3.myworkdayjobs.com/leonardocareersite/job/IT---Varese---Cascina-Costa/ELI---Avionic-Systems-Engineer_R0032661-1",
-      "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Edinburgh/Summer-Placement-Software-Engineer_R0033869-1",
-      "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Basildon/Summer-Placement-Software-Engineer_R0034282",
-      "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Edinburgh/Industrial-Placement-Test-Systems-Engineer_R0034207"
+      "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Newcastle/Summer-Placement-Software-Engineer_R0033874"
     ]
   },
   {
@@ -37818,7 +37819,8 @@
     "page": "",
     "urls": [
       "https://www.shopify.com/careers/canada-engineering-internships-winter-2026_04cf2b87-6660-45c7-95f2-e734b7844612",
-      "https://www.shopify.com/careers/software-engineer-monorepo-systems-rust-nix_95aac134-c21a-456d-b8b3-a9aac6aa6118"
+      "https://www.shopify.com/careers/software-engineer-monorepo-systems-rust-nix_95aac134-c21a-456d-b8b3-a9aac6aa6118",
+      "https://www.shopify.com/careers/demo-engineer-software-development_a6126bad-c0ba-4d02-94fb-7c5e21bef9f5"
     ]
   },
   {
@@ -40625,7 +40627,10 @@
     "domain": "https://www.tesla.com",
     "page": "",
     "urls": [
-      "https://www.tesla.com/careers/search/job/253464"
+      "https://www.tesla.com/careers/search/job/253464",
+      "https://www.tesla.com/careers/search/job/253636",
+      "https://www.tesla.com/careers/search/job/253673",
+      "https://www.tesla.com/careers/search/job/253715"
     ]
   },
   {
