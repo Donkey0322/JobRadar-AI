@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "name": "batches/caxppdb8gjge028fz2fl1snnb678r7ukpzwx",
+    "submittedAt": "2026-10-18T03:01:47.892Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Leonardo",
+        "role": "Software Engineer Intern",
+        "link": "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Edinburgh/Summer-Placement-Software-Engineer_R0033869-1",
+        "location": "Edinburgh, UK"
+      },
+      {
+        "company": "Leonardo",
+        "role": "Software Engineer Placement Intern",
+        "link": "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Basildon/Summer-Placement-Software-Engineer_R0034282",
+        "location": "Basildon, UK"
+      },
+      {
+        "company": "Leonardo",
+        "role": "Test Systems Engineer Intern",
+        "link": "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Edinburgh/Industrial-Placement-Test-Systems-Engineer_R0034207",
+        "location": "Edinburgh, UK"
+      }
+    ]
+  }
+]
