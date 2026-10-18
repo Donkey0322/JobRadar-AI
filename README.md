@@ -91,7 +91,7 @@ Each category page shows up to 300 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 1,614 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,540 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,192 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,193 opportunities
 
 ## The List 🚴‍♂️
 
@@ -565,6 +565,13 @@ Each category page shows up to 300 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">VTG</td>
+      <td width="420" align="left" valign="top">Junior Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Hanover, MD</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.vtgdefense.com/jobs/9669?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 18</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top"><img height="28" alt="Microsoft" src="./assets/featured-badges/microsoft.svg" /></td>
       <td width="420" align="left" valign="top">Software Engineer - Forward Deployed Engineer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Redmond, WA</td>
@@ -767,16 +774,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/spacex/jobs/8893406002?gh_jid=8893406002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 15</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Anysignal</td>
-      <td width="420" align="left" valign="top">Associate Embedded Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Los Angeles, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/anysignal/71ef4b1c-be24-4ee7-b152-3ac14d9b5426"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 15</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,192 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,193 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -795,7 +795,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-18T23:38:47.707Z</code>
+      🕒 Last updated <code>2026-10-18T23:43:56.056Z</code>
     </span>
   </p>
 </div>
