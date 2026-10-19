@@ -91,7 +91,7 @@ Each category page shows up to 300 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 1,615 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,543 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,199 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,201 opportunities
 
 ## The List 🚴‍♂️
 
@@ -565,6 +565,20 @@ Each category page shows up to 300 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Huntington Ingalls Industries</td>
+      <td width="420" align="left" valign="top">Software Engineer 1<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Newport News, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.huntingtoningalls.com/job/Newport-News-ENGINEER-SOFTWARE-1-Virg/1440992800/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 19</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">OSF HealthCare</td>
+      <td width="420" align="left" valign="top">Data Engineer 1<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Peoria, IL</td>
+      <td width="120" align="left" valign="top"><a href="https://www.osfcareers.org/jobs/112750?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 19</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Tenet3</td>
       <td width="420" align="left" valign="top">Junior Frontend Software Engineer- Hybrid</td>
       <td width="180" align="left" valign="top">Dayton, OH</td>
@@ -760,23 +774,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://statestreet.wd1.myworkdayjobs.com/global/job/Quincy-Massachusetts/Junior-SIEM-Data-Engineer_R-794329"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 16</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Tmobile</td>
-      <td width="420" align="left" valign="top">Associate Engineer,  Software - Mobile App Development<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Overland Park, KS</td>
-      <td width="120" align="left" valign="top"><a href="https://tmobile.wd1.myworkdayjobs.com/external/job/Overland-Park-Kansas/Associate-Engineer---Software---Mobile-App-Development_REQ370392-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 16</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Ngc</td>
-      <td width="420" align="left" valign="top">2027 Associate Embedded Software Engineer - Pathways Program - Baltimore MD<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Baltimore, MD</td>
-      <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/XMLNAME-2027-Associate-Embedded-Software-Engineer---Pathways-Program---Baltimore-MD_R10256411"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 16</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,199 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,201 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -795,7 +795,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-19T19:35:54.351Z</code>
+      🕒 Last updated <code>2026-10-19T19:40:33.413Z</code>
     </span>
   </p>
 </div>

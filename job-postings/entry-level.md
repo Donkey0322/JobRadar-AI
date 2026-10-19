@@ -14,6 +14,20 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Huntington Ingalls Industries</td>
+      <td width="420" align="left" valign="top">Software Engineer 1<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Newport News, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.huntingtoningalls.com/job/Newport-News-ENGINEER-SOFTWARE-1-Virg/1440992800/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 19</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">OSF HealthCare</td>
+      <td width="420" align="left" valign="top">Data Engineer 1<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Peoria, IL</td>
+      <td width="120" align="left" valign="top"><a href="https://www.osfcareers.org/jobs/112750?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 19</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Tenet3</td>
       <td width="420" align="left" valign="top">Junior Frontend Software Engineer- Hybrid</td>
       <td width="180" align="left" valign="top">Dayton, OH</td>
@@ -2099,24 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://joinbytedance.com/search/7667976924430633269"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 8</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Product Security Engineer Graduate (Security BP) - 2027 Start</td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://joinbytedance.com/search/7668636404159858997"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Engineer Graduate (Data-Speech-Product RD-Engineering-US) - 2027 Start<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://joinbytedance.com/search/7669899962768165173"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 3,199 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 3,201 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-19T19:35:54.351Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-19T19:40:33.413Z</code></sub>
