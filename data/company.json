@@ -22778,6 +22778,16 @@
     "urls": []
   },
   {
+    "name": "heygen",
+    "ats": "greenhouse",
+    "identifier": "heygen",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/heygen/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/heygen/jobs/4540716007"
+    ]
+  },
+  {
     "name": "hhmi",
     "ats": "workday",
     "identifier": "hhmi-external",
