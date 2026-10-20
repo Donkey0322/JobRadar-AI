@@ -90,7 +90,7 @@
 Each category page shows up to 300 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 1,641 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 1,559 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 1,560 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 3,244 opportunities
 
 ## The List 🚴‍♂️
@@ -338,6 +338,13 @@ Each category page shows up to 300 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Microsoft" src="./assets/featured-badges/microsoft.svg" /></td>
+      <td width="420" align="left" valign="top">Data Science - Forward Deployed Engineer: PhD Internship Opportunities<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Redmond, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://apply.careers.microsoft.com/careers/job/1970393557040991?domain=microsoft.com&amp;8fold_id=1970393557040991"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 20</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Rtx</td>
       <td width="420" align="left" valign="top">Part time Software Engineer Co-op (Remote)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Aurora, CO</td>
@@ -540,16 +547,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://careers.agcocorp.com/job/Hesston-Embedded-Software-Engineering-Intern-Summer-2027-KS-67062/1440993300/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 16</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Assort Health</td>
-      <td width="420" align="left" valign="top">Software Engineer Intern</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/assorthealth/3d8a2c74-8d0c-40be-9624-afc3678654ee/application?embed=true"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 16</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,559 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,560 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -795,7 +795,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-20T11:47:42.000Z</code>
+      🕒 Last updated <code>2026-10-20T11:51:24.614Z</code>
     </span>
   </p>
 </div>
