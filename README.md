@@ -89,9 +89,9 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [2027 Summer Intern](./job-postings/summer-intern.md) — 1,666 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 1,583 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,276 opportunities
+- [2027 Summer Intern](./job-postings/summer-intern.md) — 1,667 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 1,586 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,279 opportunities
 
 ## The List 🚴‍♂️
 
@@ -110,6 +110,13 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Rtx</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern (Summer 2027)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Tewksbury, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Software-Engineer-Intern--Summer-2027-_01880127"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 21</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Smithnephew</td>
       <td width="420" align="left" valign="top">Intern Systems Engineering<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
@@ -313,16 +320,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern/216262"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 19</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Engineer Intern<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Orlando, FL</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern/216250"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 19</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,666 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,667 opportunities in this section.</sub></p>
 
 ### Off Season Intern
 
@@ -337,6 +337,27 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Rtx</td>
+      <td width="420" align="left" valign="top">Part Time Systems Engineer Co-Op (Remote)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Aurora, CO</td>
+      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/Part-Time-Systems-Engineer-Co-Op--Remote-_01883866"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 21</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Part Time Systems Engineer Co-Op (Remote)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Aurora, CO</td>
+      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/Part-Time-Systems-Engineer-Co-Op--Remote-_01883862"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 21</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Expedia</td>
+      <td width="420" align="left" valign="top">Software Developer I</td>
+      <td width="180" align="left" valign="top">Springfield, MO</td>
+      <td width="120" align="left" valign="top"><a href="https://expedia.wd108.myworkdayjobs.com/private/job/USA---Missouri---Springfield/Software-Developer-I_R-110635"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 21</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Smithnephew</td>
       <td width="420" align="left" valign="top">Co-Op Systems Engineering<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
@@ -526,30 +547,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://apply.careers.microsoft.com/careers/job/1970393557040991?domain=microsoft.com&amp;8fold_id=1970393557040991"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 20</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Rtx</td>
-      <td width="420" align="left" valign="top">Part time Software Engineer Co-op (Remote)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Aurora, CO</td>
-      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/Part-time-Software-Engineer-Co-op--Remote-_01883452"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Part time Software Engineer Co-op (Remote)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Richardson, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineer-Co-op--Remote-_01883545"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Meta" src="./assets/featured-badges/meta.svg" /></td>
-      <td width="420" align="left" valign="top">Research Scientist Intern, On-Device AI Model Optimization (PhD)</td>
-      <td width="180" align="left" valign="top">Menlo Park, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.metacareers.com/profile/job_details/4455569504707135"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 19</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,583 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,586 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -564,6 +564,27 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Rtx</td>
+      <td width="420" align="left" valign="top">Secure Systems Engineer I (Onsite)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Cedar Rapids, IA</td>
+      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-121--350-Collins-Rd-NE--BLDG-121/Secure-Systems-Engineer-I--Onsite-_01883612"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 21</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Servicenow</td>
+      <td width="420" align="left" valign="top">Machine Learning Engineer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Santa Clara, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/ServiceNow/744000156637254"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 21</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Custom Computer Specialists</td>
+      <td width="420" align="left" valign="top">Associate Systems Engineer</td>
+      <td width="180" align="left" valign="top">Hauppauge, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/customcomputerspecialists/jobs/4452111009"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 21</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Ngc</td>
       <td width="420" align="left" valign="top">Associate Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
@@ -753,30 +774,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AL-HUNTSVILLE-382--420-Jan-Davis-Dr--DAVIS-382/Software-Engineer-I--Core-Services-and-Libraries--Onsite-_01883494"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 20</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Boeing</td>
-      <td width="420" align="left" valign="top">Product Security Engineer (Product Security Engineer)<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Berkeley, MO</td>
-      <td width="120" align="left" valign="top"><a href="https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Product-Security-Engineer--Product-Security-Engineer-_JR2026516106-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Bah</td>
-      <td width="420" align="left" valign="top">Software Developer, Junior<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Aberdeen Proving Ground, MD</td>
-      <td width="120" align="left" valign="top"><a href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Aberdeen-Proving-Ground-MD/Software-Developer--Junior_R0251954-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Boeing</td>
-      <td width="420" align="left" valign="top">787 Cabin Systems Engineer, Associate - Charleston, SC<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">North Charleston, SC</td>
-      <td width="120" align="left" valign="top"><a href="https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---North-Charleston-SC/XMLNAME-787-Cabin-Systems-Engineer--Associate---Charleston--SC_JR2026499336-2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 20</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,276 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,279 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -795,7 +795,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-21T13:49:38.239Z</code>
+      🕒 Last updated <code>2026-10-21T13:56:46.021Z</code>
     </span>
   </p>
 </div>

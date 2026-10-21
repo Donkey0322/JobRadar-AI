@@ -14,6 +14,27 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Rtx</td>
+      <td width="420" align="left" valign="top">Secure Systems Engineer I (Onsite)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Cedar Rapids, IA</td>
+      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-121--350-Collins-Rd-NE--BLDG-121/Secure-Systems-Engineer-I--Onsite-_01883612"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 21</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Servicenow</td>
+      <td width="420" align="left" valign="top">Machine Learning Engineer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Santa Clara, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/ServiceNow/744000156637254"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 21</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Custom Computer Specialists</td>
+      <td width="420" align="left" valign="top">Associate Systems Engineer</td>
+      <td width="180" align="left" valign="top">Hauppauge, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/customcomputerspecialists/jobs/4452111009"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 21</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Ngc</td>
       <td width="420" align="left" valign="top">Associate Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Bellevue, NE</td>
@@ -2092,31 +2113,10 @@
       <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 9</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Schwab</td>
-      <td width="420" align="left" valign="top">Associate - Software Development &amp; Engineering Austin, TX Requisition ID: 2026-126651 Application deadline: 2026-10-10 Save for Later<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Austin, TX</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 9</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Mastercard</td>
-      <td width="420" align="left" valign="top">Associate Analyst, Security Infrastructure Engineering &amp; Architecture, Launch Program 2027 – St. Louis, MO, US<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">St. Louis, MO</td>
-      <td width="120" align="left" valign="top"><a href="https://mastercard.wd1.myworkdayjobs.com/Campus/job/OFallon-Missouri/Associate-Analyst--Security-Infrastructure-Engineering---Architecture--Launch-Program-2027---St-Louis--MO--US_R-284863"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 9</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Radiancetech</td>
-      <td width="420" align="left" valign="top">Junior Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Beavercreek, OH</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 9</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 3,276 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 3,279 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-21T13:49:38.239Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-21T13:56:46.021Z</code></sub>

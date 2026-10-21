@@ -14,6 +14,27 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Rtx</td>
+      <td width="420" align="left" valign="top">Part Time Systems Engineer Co-Op (Remote)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Aurora, CO</td>
+      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/Part-Time-Systems-Engineer-Co-Op--Remote-_01883866"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 21</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Part Time Systems Engineer Co-Op (Remote)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Aurora, CO</td>
+      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/Part-Time-Systems-Engineer-Co-Op--Remote-_01883862"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 21</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Expedia</td>
+      <td width="420" align="left" valign="top">Software Developer I</td>
+      <td width="180" align="left" valign="top">Springfield, MO</td>
+      <td width="120" align="left" valign="top"><a href="https://expedia.wd108.myworkdayjobs.com/private/job/USA---Missouri---Springfield/Software-Developer-I_R-110635"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 21</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Smithnephew</td>
       <td width="420" align="left" valign="top">Co-Op Systems Engineering<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Andover, MA</td>
@@ -2092,31 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Wake-County-NC/Data-Engineering-Intern_JR-125224"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 5</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Autodesk</td>
-      <td width="420" align="left" valign="top">PhD Researcher Intern - Machine Learning for Construction 🎓</td>
-      <td width="180" align="left" valign="top">Boston, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://autodesk.wd1.myworkdayjobs.com/uni/job/Boston-MA-USA/Phd-Researcher--Machine-Learning-for-Construction_26WD101430"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 5</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Wexinc</td>
-      <td width="420" align="left" valign="top">Backend Software Engineer Intern - C#/Java &amp; AI Workflows (Undergraduate)</td>
-      <td width="180" align="left" valign="top">Remote</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 5</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Backend Software Engineer Intern - Java &amp; AI (Master’s)</td>
-      <td width="180" align="left" valign="top">Remote</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 5</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,583 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,586 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-21T13:49:38.239Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-21T13:56:46.021Z</code></sub>
