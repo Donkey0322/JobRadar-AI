@@ -1,1 +1,99 @@
-[]
+[
+  {
+    "name": "batches/vm0j6t8nkwkad513codvztjs7m6zpsty1b0b",
+    "submittedAt": "2026-10-22T03:24:57.645Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Walrus",
+        "role": "Full Stack Developer Intern",
+        "link": "https://jobs.ashbyhq.com/walrusfi/7dd09f17-cfff-48d8-8e4e-c3e016fe8cf5/application?embed=true",
+        "location": "NYC"
+      },
+      {
+        "company": "Trace3",
+        "role": "Data and Analytics Engineer Intern",
+        "link": "https://job-boards.greenhouse.io/trace3/jobs/8274818",
+        "location": "Irvine, CA"
+      },
+      {
+        "company": "Safran",
+        "role": "Software Engineering Intern",
+        "link": "https://careers.safran-dsi.com/job/Bedford-Software-Engineering-Internship-NH-03110/1440599100/?ats=successfactors",
+        "location": "Bedford, NH"
+      },
+      {
+        "company": "Microsoft",
+        "role": "Software Engineer Intern, Security & Identity",
+        "link": "https://apply.careers.microsoft.com/careers/job/1970393557044765",
+        "location": "Cambridge, MA"
+      },
+      {
+        "company": "Light & Wonder",
+        "role": "Software Engineering Intern",
+        "link": "https://lnw.wd5.myworkdayjobs.com/en-US/LightWonderExternalCareers/job/Las-Vegas-NV/Intern-Software-Engineering_R322982",
+        "location": "Las Vegas, NV"
+      },
+      {
+        "company": "Light & Wonder",
+        "role": "Software Engineer Intern",
+        "link": "https://lnw.wd5.myworkdayjobs.com/en-US/LightWonderExternalCareers/job/Las-Vegas-NV/Software-Engineer---Intern_R323017",
+        "location": "Las Vegas, NV"
+      },
+      {
+        "company": "L3Harris Technologies",
+        "role": "Software Engineer Intern",
+        "link": "https://jobs.l3harris.com/job/Salt-Lake-City-Intern,-Software-Engineer-(Salt-Lake-City,-UT)-UT-84116/1418569700/?ats=successfactors",
+        "location": "Salt Lake City, UT"
+      },
+      {
+        "company": "Cisco",
+        "role": "Software Engineer Intern, Embedded Systems II",
+        "link": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Embedded-Systems-II--Intern----United-States_2026805",
+        "location": "<details><summary>**4 locations**</summary>San Jose, CA</br>Milpitas, CA</br>Rtp, NC</br>San Francisco, CA</details>"
+      },
+      {
+        "company": "Cisco",
+        "role": "Software Engineer Intern, Full Stack / Backend I",
+        "link": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Full-Stack---Backend-I--Intern----United-States_2025924",
+        "location": "<details><summary>**4 locations**</summary>San Jose, CA</br>Milpitas, CA</br>Rtp, NC</br>San Francisco, CA</details>"
+      },
+      {
+        "company": "Cisco",
+        "role": "Software Engineer Intern, Full Stack / Backend II",
+        "link": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Full-Stack---Backend-II--Intern----United-States_2026800",
+        "location": "<details><summary>**4 locations**</summary>San Jose, CA</br>Milpitas, CA</br>Rtp, NC</br>San Francisco, CA</details>"
+      },
+      {
+        "company": "Cisco",
+        "role": "Machine Learning Engineer I Intern",
+        "link": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Machine-Learning-Engineer-I--Intern----United-States_2026803",
+        "location": "<details><summary>**4 locations**</summary>San Jose, CA</br>Milpitas, CA</br>Rtp, NC</br>San Francisco, CA</details>"
+      },
+      {
+        "company": "Cisco",
+        "role": "Machine Learning Engineer II Intern",
+        "link": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Machine-Learning-Engineer-II--Intern----United-States_2026802",
+        "location": "<details><summary>**4 locations**</summary>San Jose, CA</br>Milpitas, CA</br>Rtp, NC</br>San Francisco, CA</details>"
+      },
+      {
+        "company": "Aptiv",
+        "role": "AI Product Analyst Intern",
+        "link": "https://aptiv.wd5.myworkdayjobs.com/en-US/aptiv_careers/job/USA-San-Diego-CA---WR/Product-Analyst-Intern_J000704400",
+        "location": "San Diego, CA"
+      },
+      {
+        "company": "Intel",
+        "role": "Information Security Engineer Intern",
+        "link": "https://intel.wd1.myworkdayjobs.com/External/job/US-California-Folsom/Information-Security-Engineer-Undergraduate-Intern_JR0287588",
+        "location": "Folsom, CA"
+      },
+      {
+        "company": "Qualcomm",
+        "role": "Applied AI Engineer Intern",
+        "link": "https://qualcomm.eightfold.ai/careers/job/446721664194",
+        "location": "Markham, ON, Canada"
+      }
+    ]
+  }
+]
