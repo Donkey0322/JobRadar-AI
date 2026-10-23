@@ -1,1 +1,75 @@
-[]
+[
+  {
+    "name": "batches/dwdbfed8gefxxgesfv8nlmeybue4jjpubh5x",
+    "submittedAt": "2026-10-23T18:03:17.883Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "KLA",
+        "role": "Software Engineering Intern, AI/ML for Diagnostics & Calibration",
+        "link": "https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Software-Engineering-Intern---AI-ML-for-Diagnostics---Calibration_2642129-1",
+        "location": "Milpitas, CA"
+      },
+      {
+        "company": "Cisco",
+        "role": "Software Engineer Data & AI II Intern",
+        "link": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Data---AI-II--Intern----United-States_2026798",
+        "location": "<details><summary>**4 locations**</summary>San Jose, CA</br>Milpitas, CA</br>Research Triangle Park, NC</br>San Francisco, CA</details>"
+      },
+      {
+        "company": "ASML",
+        "role": "Software Engineer In Test Intern, MOD",
+        "link": "https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Jose-CA-USA/Internship---Software-Engineer-In-Test--MOD-_J-00354568",
+        "location": "San Jose, CA"
+      },
+      {
+        "company": "Nokia",
+        "role": "Network Systems Engineer Co-op",
+        "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/41672",
+        "location": "Canada"
+      },
+      {
+        "company": "Cisco",
+        "role": "Software Engineer Full Stack / Backend I Co-op",
+        "link": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Full-Stack---Backend-I--Co-op----United-States_2026049",
+        "location": "San Jose, CA</br>Carlsbad, CA"
+      },
+      {
+        "company": "Cisco",
+        "role": "Software Engineer Embedded Systems I Co-op",
+        "link": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Embedded-Systems-I--Co-op----United-States_2029701",
+        "location": "San Jose, CA</br>Milpitas, CA</br>Research Triangle Park, NC"
+      },
+      {
+        "company": "Rendezvous Robotics",
+        "role": "New Grad 2027: Flight Software Engineer",
+        "link": "https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4464270009",
+        "location": "Golden, CO"
+      },
+      {
+        "company": "Applied Materials",
+        "role": "New Grad 2027: Software Engineer",
+        "link": "https://amat.wd1.myworkdayjobs.com/en-US/external/job/GloucesterMA/XMLNAME-2027-Software-Engineer-New-College-Grad--Bachelor-s----Gloucester--MA_R2625914",
+        "location": "Gloucester, MA"
+      },
+      {
+        "company": "Applied Materials",
+        "role": "Software Engineer (Master's)",
+        "link": "https://amat.wd1.myworkdayjobs.com/External/job/ChandlerAZ/Software-Engineer--New-College-Grad--Master-s--Chandler--AZ-_R2627911",
+        "location": "Chandler, AZ"
+      },
+      {
+        "company": "Shield AI",
+        "role": "Software Engineer 1 New Grad",
+        "link": "https://jobs.lever.co/shieldai/633a3038-574c-45ff-babb-7e1b8b7c6196/apply",
+        "location": "Seattle, WA"
+      },
+      {
+        "company": "U.S. Bank",
+        "role": "Software Engineer 1 - Python",
+        "link": "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Minneapolis-MN/Software-Engineer-1---Python_2026-0033403-1",
+        "location": "Minneapolis, MN"
+      }
+    ]
+  }
+]
