@@ -1,1 +1,128 @@
-[]
+[
+  {
+    "name": "batches/eu993hrya3nw5uon0ksqanuq88ks4eqo667g",
+    "submittedAt": "2026-10-23T10:05:38.787Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Ag",
+        "role": "Cyber-Security-Engineer (d/m/w)",
+        "link": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Immenstaad-am-Bodensee/Cyber-Security-Engineer--d-m-w-_JR10216124",
+        "location": "3 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Amazon",
+        "role": "Support Engineer, WWOS Physical Security Innovation Solutions (PSIS)",
+        "link": "https://amazon.jobs/en/jobs/10587280",
+        "location": "US, TN, Nashville",
+        "country": "USA"
+      },
+      {
+        "company": "Apple",
+        "role": "Site Reliability Engineer, London",
+        "link": "https://jobs.apple.com/en-us/details/200673585-2114/site-reliability-engineer-london?team=SFTWR",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Apple",
+        "role": "ML Infrastructure Service Reliability Engineer- Apple Services Engineering",
+        "link": "https://jobs.apple.com/en-us/details/200664425-0321/ml-infrastructure-service-reliability-engineer-apple-services-engineering?team=MLAI",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Cisco",
+        "role": "Data Engineer Remote",
+        "link": "https://careers.cisco.com/global/en/job/2027223?ph_id=2027223",
+        "location": "Research Triangle Park, North Carolina, United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "Cisco",
+        "role": "AI Infrastructure Technical Systems Engineer",
+        "link": "https://careers.cisco.com/global/en/job/2026031?ph_id=2026031",
+        "location": "Research Triangle Park, North Carolina, United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "Globalfoundries",
+        "role": "Full Stack Engineer - Agentic Platforms",
+        "link": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/Richardson/Full-Stack-Engineer---Agentic-Platforms_JR-2605792",
+        "location": "Richardson",
+        "country": "Unsure"
+      },
+      {
+        "company": "Google",
+        "role": "Machine Learning Engineer, AI/ML Expert for Agents and TrustGraph, Google Ads",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/132867596763439814-machine-learning-engineer-aiml-expert-for-agents-and-trustgraph-google-ads?sort_by=date&page=1",
+        "location": "Mountain View, CA, USA",
+        "country": "USA"
+      },
+      {
+        "company": "Google",
+        "role": "Design Verification Engineer, Google Cloud TPU",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/100979560534680262-design-verification-engineer-google-cloud-tpu?sort_by=date&page=3",
+        "location": "Sunnyvale, CA, USA",
+        "country": "USA"
+      },
+      {
+        "company": "Hiscox",
+        "role": "Machine Learning Engineer",
+        "link": "https://hiscox.wd3.myworkdayjobs.com/hiscox_external_site/job/York/Machine-Learning-Engineer_R0020112",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Microsoft",
+        "role": "Solution Engineering (Early in Profession)-Cloud Endpoint",
+        "link": "https://apply.careers.microsoft.com/careers/job/1970393557045603?domain=microsoft.com&8fold_id=1970393557045603",
+        "location": "Australia, New South Wales, Sydney",
+        "country": "Unsure"
+      },
+      {
+        "company": "Motorolasolutions",
+        "role": "System Development Engineer",
+        "link": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Ho-Chi-Minh-Vietnam/System-Development-Engineer_R65728",
+        "location": "Ho Chi Minh, Vietnam",
+        "country": "Unsure"
+      },
+      {
+        "company": "Qualcomm",
+        "role": "Customer Engineer, IoT Connectivity Systems",
+        "link": "https://qualcomm.eightfold.ai/careers/job/446721651695?domain=qualcomm.com&8fold_id=446721651695",
+        "location": "Shanghai, China",
+        "country": "Unsure"
+      },
+      {
+        "company": "Roche",
+        "role": "AI Data Scientist - Applied AI",
+        "link": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Warsaw/AI-Data-Scientist---Applied-AI_202610-127254-1",
+        "location": "2 Locations",
+        "country": "USA"
+      },
+      {
+        "company": "Statestreet",
+        "role": "Cloud Platform Engineer – Devops/IAC, Officer",
+        "link": "https://statestreet.wd1.myworkdayjobs.com/global/job/Hyderabad-India/Cloud-Platform-Engineer---Devops-IAC--Officer_R-800191",
+        "location": "Hyderabad, India",
+        "country": "Unsure"
+      },
+      {
+        "company": "Thales",
+        "role": "Stage - Data Engineering pour le pilotage de la performance en ingénierie F/H",
+        "link": "https://thales.wd3.myworkdayjobs.com/careers/job/La-Ciotat/Stage---Data-Engineering-pour-le-pilotage-de-la-performance-en-ingnierie-F-H_R0343897-1",
+        "location": "La Ciotat",
+        "country": "Unsure"
+      },
+      {
+        "company": "Ucar",
+        "role": "HPC Systems Engineer",
+        "link": "https://ucar.wd5.myworkdayjobs.com/UCAR_Careers/job/Boulder-CO/HPC-Systems-Engineer_REQ-2026-190",
+        "location": "Boulder, CO",
+        "country": "USA"
+      }
+    ]
+  }
+]
