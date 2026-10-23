@@ -224,7 +224,7 @@
       <td width="120" align="left" valign="top">Oct 22</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Databricks</td>
+      <td width="180" align="left" valign="top"><img height="28" alt="Databricks" src="../assets/featured-badges/databricks.svg" /></td>
       <td width="420" align="left" valign="top">Associate Forward Deployed Engineer</td>
       <td width="180" align="left" valign="top">New York City, NY</td>
       <td width="120" align="left" valign="top"><a href="https://databricks.com/company/careers/open-positions/job?gh_jid=8907988002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -2119,4 +2119,4 @@
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-23T02:01:30.639Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-23T02:14:36.440Z</code></sub>
