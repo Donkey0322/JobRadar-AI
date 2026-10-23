@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "name": "batches/l9c3ikwekwkim0a2rlvnvaxuaxy24vjaenzq",
+    "submittedAt": "2026-10-23T04:47:04.536Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Anduril Industries",
+        "role": "Quality Systems Engineer, Battlespace Awareness",
+        "link": "https://boards.greenhouse.io/andurilindustries/jobs/5236058007?gh_jid=5236058007",
+        "location": "Fort Collins, Colorado, United States",
+        "country": "USA"
+      },
+      {
+        "company": "HPE",
+        "role": "Software Engineer",
+        "link": "https://careers.hpe.com/us/en/job/1215856?ph_id=1215856",
+        "location": "Westford, Massachusetts, 01886",
+        "country": "USA"
+      },
+      {
+        "company": "Gdms",
+        "role": "Systems Engineer Supporting Future Combatants and Mission Systems",
+        "link": "https://careers-gdms.icims.com/jobs/75800/systems-engineer-supporting-future-combatants-and-mission-systems/job",
+        "location": "Unsure",
+        "country": "Unsure"
+      },
+      {
+        "company": "Intuit",
+        "role": "Forward Deployed Engineer New York, New York",
+        "link": "https://jobs.intuit.com/job/new-york/forward-deployed-engineer/27595/102313711600",
+        "location": "New York, New York",
+        "country": "USA"
+      },
+      {
+        "company": "L3harris",
+        "role": "Specialist, Systems Engineering (Orbital Analyst) Engineering Lompoc, CA",
+        "link": "https://careers.l3harris.com/job/lompoc/specialist-systems-engineering-orbital-analyst/4832/102312133872",
+        "location": "Lompoc, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Salesforce",
+        "role": "Software Engineering, SMTS/MTS (Backend + Kubernetes/Docker/Helm)",
+        "link": "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Hyderabad/Software-Engineering-MTS_JR338172-1",
+        "location": "2 Locations",
+        "country": "Unsure"
+      }
+    ]
+  }
+]
