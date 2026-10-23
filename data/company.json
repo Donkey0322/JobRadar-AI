@@ -5567,7 +5567,8 @@
       "https://apply.workable.com/commonai/j/021D3FCF3E/apply",
       "https://apply.workable.com/node/j/2E183FDDB9/apply",
       "https://apply.workable.com/nuovophotography/j/7DE79BE9A8/apply",
-      "https://apply.workable.com/rokt/j/616F2D0286/apply"
+      "https://apply.workable.com/rokt/j/616F2D0286/apply",
+      "https://apply.workable.com/thorlabs/j/B3CD05F790/apply"
     ]
   },
   {
@@ -9823,7 +9824,9 @@
       "https://jobs.ashbyhq.com/brainco/7ce0af56-d15e-4fc8-91a5-9e56cdb9cf42/application?embed=true",
       "https://jobs.ashbyhq.com/brainco/962d81f4-ca91-4f9c-ae9b-21842d673672",
       "https://jobs.ashbyhq.com/brainco/b6adda4c-490c-4e9e-8354-e55c05d3c6ac/application?embed=true",
-      "https://jobs.ashbyhq.com/brainco/c1788246-305f-4e4f-8b03-8444c76a466e"
+      "https://jobs.ashbyhq.com/brainco/c1788246-305f-4e4f-8b03-8444c76a466e",
+      "https://jobs.ashbyhq.com/brainco/32c4e1c9-ccd1-4dca-a68b-31ad1b868030/application",
+      "https://jobs.ashbyhq.com/brainco/4d39773e-f4c3-49c1-87c3-812a9804fb15/application"
     ]
   },
   {
@@ -14289,7 +14292,8 @@
     "page": "",
     "urls": [
       "https://careers.nrgenergy.com/SMARTHOMES/job/Boston-Software-Engineer-Intern,-Mobile-Apps-MA-02109/1345133100/?ats=successfactors",
-      "https://careers.nrgenergy.com/SMARTHOMES/job/Salesforce-Developer-Intern-UT-84043/1358225200/?ats=successfactors"
+      "https://careers.nrgenergy.com/SMARTHOMES/job/Salesforce-Developer-Intern-UT-84043/1358225200/?ats=successfactors",
+      "https://careers.nrgenergy.com/nrg/job/Houston-Data-Science-Analyst-Agentic-AI-Developer-TX-77010/1441481900/?ats=successfactors"
     ]
   },
   {
@@ -15785,7 +15789,8 @@
       "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Technical-Leader---Network-Data-Plane---Hypershield_2025874",
       "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Stockholm-Sweden/Software-Engineer_2020685",
       "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Stockholm-Sweden/Software-Engineer_2020686",
-      "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Stockholm-Sweden/Software-Engineering-Technical-Leader_2018789"
+      "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Stockholm-Sweden/Software-Engineering-Technical-Leader_2018789",
+      "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/RTP-North-Carolina-US/Attack-Surface-Management-Security-Engineer-I--Full-Time----United-States_2029031"
     ]
   },
   {
@@ -16623,6 +16628,16 @@
     "page": "https://api.ashbyhq.com/posting-api/job-board/collective",
     "urls": [
       "https://jobs.ashbyhq.com/collective/874de602-0598-47be-8c07-8775143245c6"
+    ]
+  },
+  {
+    "name": "collegeboard",
+    "ats": "workday",
+    "identifier": "collegeboard-cbcareers",
+    "domain": "https://collegeboard.wd1.myworkdayjobs.com/cbcareers",
+    "page": "https://collegeboard.wd1.myworkdayjobs.com/wday/cxs/collegeboard/cbcareers/jobs",
+    "urls": [
+      "https://collegeboard.wd1.myworkdayjobs.com/en-US/cbcareers/job/Remote---USA/Software-Engineer-I--New-Grad-_REQ002974-1"
     ]
   },
   {
@@ -18906,6 +18921,8 @@
       "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/CAN---ON---OTTAWA/Cyber-Security-Engineer_51592296",
       "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/CAN---ON---OTTAWA/Zscaler-Site-Reliability-Engineer--SRE-_51589082",
       "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/CAN---QC---ANY-CITY/Analyst-I-Infrastructure-Services_51592042",
+      "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/CHL---RM---SANTIAGO/Sr-Analyst-Data-Engineering_51590240",
+      "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/CHL---RM---SANTIAGO/Sr-Analyst-Data-Engineering_51590242",
       "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/CHN---HONG-KONG/System-Analyst_51584588",
       "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/CHN---SHANGHAI/Business-Systems-Analyst_51591957",
       "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/CHN---SHANGHAI/Data-engineer_51585333",
@@ -19024,9 +19041,7 @@
       "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/VNM---HO-CHI-MINH-CITY/IT-Support---Infrastructure-Engineer_51591605",
       "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/VNM---HO-CHI-MINH-CITY/K-S-Phn-Mm--N3-N2-Ting-Nht-_51584838",
       "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/VNM---HO-CHI-MINH-CITY/Software-Engineer_51585418",
-      "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/VNM---HO-CHI-MINH-CITY/Software-Engineering_51591847",
-      "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/CHL---RM---SANTIAGO/Sr-Analyst-Data-Engineering_51590240",
-      "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/CHL---RM---SANTIAGO/Sr-Analyst-Data-Engineering_51590242"
+      "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/VNM---HO-CHI-MINH-CITY/Software-Engineering_51591847"
     ]
   },
   {
@@ -25259,9 +25274,9 @@
       "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Taipei-Taipei-City-Taiwan/Software-Tools---Process-Automation-Engineer_1213882-2",
       "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Tlaquepaque-Jalisco-Mexico/HR-Business-Solutions-Data-Analyst_1212304-2",
       "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Westford-Massachusetts-United-States-of-America/Networking-Software-Quality-Assurance-Engineer_1202481-2",
+      "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Westford-Massachusetts-United-States-of-America/Software-Engineer_1215856-2",
       "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Winnersh-Berkshire-United-Kingdom/HPC---AI-Application-Performance-Engineer_1212364-2",
-      "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Wroclaw-Lower-Silesian-Poland/HR-Information-Systems-Solution-Analyst_1215553-2",
-      "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Westford-Massachusetts-United-States-of-America/Software-Engineer_1215856-2"
+      "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Wroclaw-Lower-Silesian-Poland/HR-Information-Systems-Solution-Analyst_1215553-2"
     ]
   },
   {
@@ -27617,7 +27632,8 @@
       "https://jobs.l3harris.com/job/Waterdown-Software-Engineering-Co-Op-(Waterdown,-CAN)-ON-L9H-0C5/1432400300/?ats=successfactors",
       "https://jobs.l3harris.com/job/Waterdown-Systems-Engineering-Test-Co-Op-(Waterdown,-CAN)-ON-L9H-0C5/1434804100/?ats=successfactors",
       "https://jobs.l3harris.com/job/Wilmington-Intern,-Software-Engineer-MA-01887/1425515000/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Wilmington-Intern-D,-Software-Engineer-MA-01887/1422529400/?ats=successfactors"
+      "https://jobs.l3harris.com/job/Wilmington-Intern-D,-Software-Engineer-MA-01887/1422529400/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Colorado-Springs-Associate,-Software-Engineer-CO-80916/1441835200/?ats=successfactors"
     ]
   },
   {
@@ -27683,7 +27699,8 @@
       "https://jobs.paccar.com/job/Renton-2027-Winter-Internship-Software-Developer-Intern-WA-98057/1435928733/?ats=successfactors",
       "https://jobs.paccar.com/job/Renton-Summer-Internship-IT-Applications-WA-98055/1256156801/?ats=successfactors",
       "https://jobs.paccar.com/job/Renton-Summer-Internship-IT-Applications-WA-98055/1389651133/?ats=successfactors",
-      "https://jobs.paccar.com/job/Sunnyvale-2026-Summer-Internship-Advanced-Mobility-Tech-Engineering-CA-94089/1292877901/?ats=successfactors"
+      "https://jobs.paccar.com/job/Sunnyvale-2026-Summer-Internship-Advanced-Mobility-Tech-Engineering-CA-94089/1292877901/?ats=successfactors",
+      "https://jobs.paccar.com/job/Kirkland-Summer-2027-AfterSales-Data-Analyst-Intern-WA-98033/1450518033/?ats=successfactors"
     ]
   },
   {
@@ -35915,9 +35932,9 @@
       "https://careers-peraton.icims.com/jobs/172654/systems-engineer/job",
       "https://careers-peraton.icims.com/jobs/172658/air-vehicle-systems-engineer/job",
       "https://careers-peraton.icims.com/jobs/172661/network-devops-developer---ansible/job",
+      "https://careers-peraton.icims.com/jobs/172684/platform-aircraft-integration-engineer/job",
       "https://careers-peraton.icims.com/jobs/172691/technical-writer---mbse---software-development/job",
-      "https://careers-peraton.icims.com/jobs/172702/junior-data-engineer-%28etl-data-quality%29/job",
-      "https://careers-peraton.icims.com/jobs/172684/platform-aircraft-integration-engineer/job"
+      "https://careers-peraton.icims.com/jobs/172702/junior-data-engineer-%28etl-data-quality%29/job"
     ]
   },
   {
@@ -39298,6 +39315,16 @@
       "https://www.sagesure.com/careers/current-job-openings/?gh_jid=4719514006",
       "https://www.sagesure.com/careers/current-job-openings/?gh_jid=4719517006",
       "https://www.sagesure.com/careers/current-job-openings/?gh_jid=4719536006"
+    ]
+  },
+  {
+    "name": "SAIC",
+    "ats": "oraclecloud",
+    "identifier": "eihu.fa.us8.oraclecloud.com",
+    "domain": "https://eihu.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job",
+    "page": "https://eihu.fa.us8.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://eihu.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2618210"
     ]
   },
   {
@@ -46691,6 +46718,16 @@
     ]
   },
   {
+    "name": "verily",
+    "ats": "workday",
+    "identifier": "verily-verily_careers",
+    "domain": "https://verily.wd1.myworkdayjobs.com/verily_careers",
+    "page": "https://verily.wd1.myworkdayjobs.com/wday/cxs/verily/verily_careers/jobs",
+    "urls": [
+      "https://verily.wd1.myworkdayjobs.com/en-US/verily_careers/job/Raleigh-North-Carolina/ATLAS-Software-Engineer_REQ-330"
+    ]
+  },
+  {
     "name": "Verisk Careers | Verisk",
     "ats": "oraclecloud",
     "identifier": "fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com",
@@ -48236,6 +48273,16 @@
       "https://job-boards.greenhouse.io/xai/jobs/5270340007",
       "https://job-boards.greenhouse.io/xai/jobs/5271372007",
       "https://job-boards.greenhouse.io/xai/jobs/5271634007"
+    ]
+  },
+  {
+    "name": "xairatherapeutics",
+    "ats": "greenhouse",
+    "identifier": "xairatherapeutics",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/xairatherapeutics/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/xairatherapeutics/jobs/5255784007"
     ]
   },
   {
