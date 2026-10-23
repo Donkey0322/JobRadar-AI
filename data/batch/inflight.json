@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "name": "batches/nbdyxx55anfc7aly9gzzb10hz0kk2ovdq21f",
+    "submittedAt": "2026-10-23T23:39:10.835Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "American Express",
+        "role": "AI Engineer Intern - Enterprise Technology Services 🎓",
+        "link": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015552",
+        "location": "Toronto, ON, Canada"
+      },
+      {
+        "company": "American Family Insurance Group",
+        "role": "AI Platform Engineering Intern",
+        "link": "https://amfam.wd1.myworkdayjobs.com/en-US/Careers/job/WI-Madison/Product-Data-Engineering-Intern--Hybrid-_R39462",
+        "location": "Madison, WI"
+      },
+      {
+        "company": "Waymo",
+        "role": "Software Engineer Intern - MS/PhD - ML Frameworks and Efficiency 🎓",
+        "link": "https://careers.withwaymo.com/jobs?gh_jid=8287385",
+        "location": "Mountain View, CA"
+      },
+      {
+        "company": "Simbe Robotics",
+        "role": "Robot Software Engineer Intern",
+        "link": "https://jobs.lever.co/SimbeRobotics/d91f42b9-50b8-4b5f-8daf-00281d7dd61c/apply",
+        "location": "Burlingame, CA"
+      },
+      {
+        "company": "MSA Safety",
+        "role": "AI Engineer Co-op",
+        "link": "https://careers.msasafety.com/jobs/10243?icims=1",
+        "location": "Cranberry Township, PA"
+      },
+      {
+        "company": "Meijer",
+        "role": "Software Engineer 1, AI",
+        "link": "https://meijer.wd5.myworkdayjobs.com/en-US/Meijer/job/Grand-Rapids-MI/Software-Engineer_R000692154",
+        "location": "Grand Rapids, MI"
+      },
+      {
+        "company": "Citi",
+        "role": "Software Developer New Grad - Application Development",
+        "link": "https://citi.wd5.myworkdayjobs.com/2/job/Jacksonville-Florida-United-States/Technology--Application-Development--Full-Time-Analyst--Jacksonville---USA--2027_261004412",
+        "location": "Jacksonville, FL"
+      }
+    ]
+  }
+]
