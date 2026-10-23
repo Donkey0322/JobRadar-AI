@@ -67,6 +67,7 @@ const FEATURED_COMPANIES: FeaturedCompany[] = [
   { slug: "salesforce", label: "Salesforce", aliases: ["salesforce"] },
   { slug: "adobe", label: "Adobe", aliases: ["adobe"] },
   { slug: "snowflake", label: "Snowflake", aliases: ["snowflake"] },
+  { slug: "databricks", label: "Databricks", aliases: ["databricks"] },
 ];
 
 const FEATURED_COMPANY_BY_ALIAS = new Map(
