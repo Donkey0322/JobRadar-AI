@@ -1,1 +1,69 @@
-[]
+[
+  {
+    "name": "batches/x1nq3dr3vhazha7sxqby4acgjnirgmdak1d7",
+    "submittedAt": "2026-10-23T03:24:07.668Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Xaira Therapeutics",
+        "role": "Robotics Systems & Simulation Engineer",
+        "link": "https://job-boards.greenhouse.io/xairatherapeutics/jobs/5255784007",
+        "location": "South San Francisco, CA"
+      },
+      {
+        "company": "Verily",
+        "role": "Cloud Engineer",
+        "link": "https://verily.wd1.myworkdayjobs.com/en-US/verily_careers/job/Raleigh-North-Carolina/ATLAS-Software-Engineer_REQ-330",
+        "location": "Raleigh, NC"
+      },
+      {
+        "company": "SAIC",
+        "role": "Software Test Engineer",
+        "link": "https://eihu.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2618210",
+        "location": "Point Mugu NAWC, CA"
+      },
+      {
+        "company": "NRG Energy",
+        "role": "Data Science Analyst - Agentic AI Developer",
+        "link": "https://careers.nrgenergy.com/nrg/job/Houston-Data-Science-Analyst-Agentic-AI-Developer-TX-77010/1441481900/?ats=successfactors",
+        "location": "Houston, TX</br>Princeton, NJ"
+      },
+      {
+        "company": "L3Harris Technologies",
+        "role": "New Grad 2027: Associate Software Engineer",
+        "link": "https://jobs.l3harris.com/job/Colorado-Springs-Associate,-Software-Engineer-CO-80916/1441835200/?ats=successfactors",
+        "location": "Colorado Springs, CO"
+      },
+      {
+        "company": "College Board",
+        "role": "Software Engineer I",
+        "link": "https://collegeboard.wd1.myworkdayjobs.com/en-US/cbcareers/job/Remote---USA/Software-Engineer-I--New-Grad-_REQ002974-1",
+        "location": "Remote"
+      },
+      {
+        "company": "Cisco",
+        "role": "Attack Surface Management Security Engineer I",
+        "link": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/RTP-North-Carolina-US/Attack-Surface-Management-Security-Engineer-I--Full-Time----United-States_2029031",
+        "location": "Research Triangle Park, NC"
+      },
+      {
+        "company": "Brain Co.",
+        "role": "New Grad 2027: AI Security Engineer",
+        "link": "https://jobs.ashbyhq.com/brainco/32c4e1c9-ccd1-4dca-a68b-31ad1b868030/application",
+        "location": "San Francisco, CA"
+      },
+      {
+        "company": "Brain Co.",
+        "role": "New Grad 2027: AI Platform Engineer",
+        "link": "https://jobs.ashbyhq.com/brainco/4d39773e-f4c3-49c1-87c3-812a9804fb15/application",
+        "location": "San Francisco, CA"
+      },
+      {
+        "company": "Paccar",
+        "role": "Aftersales Data Analyst Intern",
+        "link": "https://jobs.paccar.com/job/Kirkland-Summer-2027-AfterSales-Data-Analyst-Intern-WA-98033/1450518033/?ats=successfactors",
+        "location": "Kirkland, WA"
+      }
+    ]
+  }
+]
