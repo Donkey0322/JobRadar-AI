@@ -33,6 +33,15 @@ describe("isTechIntern", () => {
     expect(isTechIntern("Front End Engineer Intern")).toBe(true);
   });
 
+  it("matches hyphen, space, and closed forms", () => {
+    expect(isTechIntern("Back-End Engineer Intern")).toBe(true);
+    expect(isTechIntern("Back End Engineer Intern")).toBe(true);
+    expect(isTechIntern("Backend Engineer Intern")).toBe(true);
+    expect(isTechIntern("Full-Stack Engineer Intern")).toBe(true);
+    expect(isTechIntern("Full Stack Engineer Intern")).toBe(true);
+    expect(isTechIntern("Fullstack Engineer Intern")).toBe(true);
+  });
+
   it("treats punctuation in configured words literally", () => {
     expect(isTechIntern("Software Eng. Intern")).toBe(true);
     expect(isTechIntern("Software EngX Intern")).toBe(false);

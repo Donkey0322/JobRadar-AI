@@ -35,54 +35,14 @@ const TECH_DOMAIN_WORDS = [
 ];
 const EXCLUDE_WORDS = cleanWords(CONFIG.target.excludeKeywords);
 
-// const STRONG_TECH_PHRASES = [
-//   "software engineer",
-//   "software engineering",
-//   "software developer",
-//   "backend engineer",
-//   "back-end engineer",
-//   "backend developer",
-//   "back-end developer",
-//   "frontend engineer",
-//   "front-end engineer",
-//   "frontend developer",
-//   "front-end developer",
-//   "full-stack engineer",
-//   "full stack engineer",
-//   "fullstack engineer",
-//   "full-stack developer",
-//   "full stack developer",
-//   "fullstack developer",
-//   "web engineer",
-//   "web developer",
-//   "mobile engineer",
-//   "mobile developer",
-//   "ios engineer",
-//   "ios developer",
-//   "android engineer",
-//   "android developer",
-//   "machine learning engineer",
-//   "ml engineer",
-//   "ai engineer",
-//   "data engineer",
-//   "platform engineer",
-//   "cloud engineer",
-//   "infrastructure engineer",
-//   "devops engineer",
-//   "site reliability engineer",
-//   "security engineer",
-//   "automation engineer",
-//   "software development engineer",
-// ];
-
-const INTERN_WORDS = ["intern", "internship", "co-op", "coop", "student"];
+const INTERN_WORDS = ["intern", "internship", "co-op", "student"];
 
 const ENTRY_LEVEL_WORDS = [
   "junior",
   "entry",
   "early-career",
-  "new grad",
-  "new graduate",
+  "new-grad",
+  "new-graduate",
   "graduate",
   "1",
   "i",
@@ -91,7 +51,7 @@ const ENTRY_LEVEL_WORDS = [
   "l2",
 ];
 
-const MID_LEVEL_WORDS = ["2", "ii", "mid level", "mid-level"];
+const MID_LEVEL_WORDS = ["2", "ii", "mid-level"];
 
 const SENIOR_LEVEL_WORDS = [
   "3",
@@ -107,28 +67,33 @@ const SENIOR_LEVEL_WORDS = [
   "lead",
   "head",
   "vp",
-  "vice president",
+  "vice-president",
 ];
 
 const NON_TECH_WORDS = [
   "recruiter",
   "sales",
   "marketing",
-  "customer success",
-  "business analyst",
+  "customer-success",
+  "business-analyst",
   "finance",
-  "account executive",
+  "account-executive",
   "operations",
-  "program manager",
-  "product marketing",
+  "program-manager",
+  "product-marketing",
   "administrative",
-  "support specialist",
-  "partner manager",
+  "support-specialist",
+  "partner-manager",
 ];
 
+/**
+ * Whole-word, case-insensitive matchers.
+ * A space and a hyphen are the same separator, so word lists use hyphens.
+ * `new-grad` matches "new grad", "new-grad", and "newgrad".
+ */
 function buildPatterns(words: string[]) {
   return words.map((word) => {
-    const escaped = escapeRegExp(word).replace(/\s+/g, "\\s+").replace(/-/g, "[- ]?");
+    const escaped = escapeRegExp(word).replace(/[-\s]+/g, "[-\\s]*");
 
     return new RegExp(`(^|\\W)${escaped}($|\\W)`, "i");
   });
@@ -138,7 +103,6 @@ const ENGINEERING_PATTERNS = buildPatterns(ENGINEERING_WORDS);
 const TECH_DOMAIN_PATTERNS = buildPatterns(TECH_DOMAIN_WORDS);
 const PRIORITY_PATTERNS = buildPatterns(PRIORITY_WORDS);
 const EXCLUDE_PATTERNS = buildPatterns(EXCLUDE_WORDS);
-// const STRONG_TECH_PATTERNS = buildPatterns(STRONG_TECH_PHRASES);
 
 const INTERN_PATTERNS = buildPatterns(INTERN_WORDS);
 const ENTRY_LEVEL_PATTERNS = buildPatterns(ENTRY_LEVEL_WORDS);
@@ -162,10 +126,6 @@ function isEngineering(title: string) {
 function isTechDomain(title: string) {
   return hasPattern(TECH_DOMAIN_PATTERNS, title);
 }
-
-// function isStrongTech(title: string) {
-//   return hasPattern(STRONG_TECH_PATTERNS, title);
-// }
 
 function isPriority(title: string) {
   return hasPattern(PRIORITY_PATTERNS, title);
