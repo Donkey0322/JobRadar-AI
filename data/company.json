@@ -5545,6 +5545,7 @@
       "https://jobs.apple.com/en-us/details/200690641-1052/software-engineer-agent-development?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200690683-0157/software-engineering-ai-ml-retail-and-marcom-engineering?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200690683-3956/software-engineering-ai-ml-retail-and-marcom-engineering?team=SFTWR",
+      "https://jobs.apple.com/en-us/details/200690706-3337/security-site-reliability-engineer-apple-service-engineering?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200690733-0157/site-reliability-engineer-apple-data-platform-adp?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200690747-0157/software-engineer-soc-level-validation-engineer?team=HRDWR",
       "https://jobs.apple.com/en-us/details/200690747-0505/software-engineer-soc-level-validation-engineer?team=HRDWR",
@@ -5579,8 +5580,7 @@
       "https://jobs.apple.com/en-us/details/200691141-2926/sr-machine-learning-engineer-ml-systems-engineering-proactive?team=MLAI",
       "https://jobs.apple.com/en-us/details/200691161-0351/machine-learning-engineer-foundation-models?team=MLAI",
       "https://jobs.apple.com/en-us/details/200691355-0365/acoustics-ml-dsp-engineer?team=MLAI",
-      "https://jobs.apple.com/en-us/details/200691391-0836/software-engineer-evaluation?team=SFTWR",
-      "https://jobs.apple.com/en-us/details/200690706-3337/security-site-reliability-engineer-apple-service-engineering?team=SFTWR"
+      "https://jobs.apple.com/en-us/details/200691391-0836/software-engineer-evaluation?team=SFTWR"
     ]
   },
   {
@@ -19559,31 +19559,6 @@
     "urls": []
   },
   {
-    "name": "ejta.fa.us6.oraclecloud.com",
-    "ats": "oraclecloud",
-    "identifier": "ejta.fa.us6.oraclecloud.com",
-    "domain": "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job",
-    "page": "https://ejta.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_2001%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
-    "urls": [
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10240",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10303",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10438",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10542",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10581",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10605",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10661",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10662",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10664",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10748",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10881",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10930",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10977",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/11077",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9503",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9727"
-    ]
-  },
-  {
     "name": "ekgn.fa.us6.oraclecloud.com",
     "ats": "oraclecloud",
     "identifier": "ekgn.fa.us6.oraclecloud.com",
@@ -21837,6 +21812,31 @@
       "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/24755",
       "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/24756",
       "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/24758"
+    ]
+  },
+  {
+    "name": "Fortive Careers",
+    "ats": "oraclecloud",
+    "identifier": "ejta.fa.us6.oraclecloud.com",
+    "domain": "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job",
+    "page": "https://ejta.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_2001%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10240",
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10303",
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10438",
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10542",
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10581",
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10605",
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10661",
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10662",
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10664",
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10748",
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10881",
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10930",
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10977",
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/11077",
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9503",
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9727"
     ]
   },
   {
@@ -30197,7 +30197,8 @@
       "https://careers-lmi.icims.com/jobs/14733/software-engineer%2c-foundry-%26-ai-applications-%e2%80%93-clearance-required/job",
       "https://careers-lmi.icims.com/jobs/14749/devsecops-cloud-automation-engineer---clearance-required/job",
       "https://careers-lmi.icims.com/jobs/14752/cybersecurity-information-system-security-engineer---clearance-required/job",
-      "https://careers-lmi.icims.com/jobs/14754/logistics-data-analyst---clearance-required/job"
+      "https://careers-lmi.icims.com/jobs/14754/logistics-data-analyst---clearance-required/job",
+      "https://careers-lmi.icims.com/jobs/14777/data-engineer-%7c-va-claims-modernization/job"
     ]
   },
   {
@@ -35480,7 +35481,9 @@
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/344616",
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/344982",
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/345665",
-      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/346303"
+      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/346303",
+      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/345728",
+      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/345729"
     ]
   },
   {
@@ -39720,7 +39723,8 @@
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/Warminster-Wiltshire/AI-Solution-Engineer_01865103",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/Winnersh-Wokingham/Systems-Engineer_01877067",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/Winnersh-Wokingham/Training-Data-Analyst_01882121",
-      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/XX-XX-UNDISCLOSED/System-Engineer_01875338"
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/XX-XX-UNDISCLOSED/System-Engineer_01875338",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MN-BURNSVILLE-WEST--14300-Judicial-Rd--WEST-BLDG/Engineer-I--Software-Engineer---Test-Engineering--Onsite-_01883521"
     ]
   },
   {
