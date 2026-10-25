@@ -275,7 +275,7 @@ export function isNotifyTarget(title: string) {
 }
 
 function getDiscoveryLookbackDays() {
-  const days = Number(process.env.DISCOVERY_LOOKBACK_DAYS ?? 1);
+  const days = Number(process.env.DISCOVERY_LOOKBACK_DAYS ?? 2);
 
   return Number.isInteger(days) && days >= 1 && days <= 7 ? days : 1;
 }
