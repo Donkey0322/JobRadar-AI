@@ -11,7 +11,12 @@ import {
   type JDFetchStatus,
 } from "../fetch";
 
-import { fetchHtmlResponse, getSetCookieHeader, isHtmlResponse } from "@/utils/http";
+import {
+  fetchHtmlResponse,
+  getSetCookieHeader,
+  isHtmlResponse,
+  type HtmlResponse,
+} from "@/utils/http";
 import { getLastPathNumber } from "@/utils/job-key/url";
 import { logger } from "@/utils/logger";
 import { htmlToText, normalizeRawText } from "@/utils/string";
@@ -50,6 +55,60 @@ const MetaJobDetailsResponseSchema = z.object({
 });
 
 type MetaJobDescription = z.infer<typeof MetaJobDescriptionSchema>;
+
+const META_JSON_SCRIPT = /<script\s+type="application\/json"[^>]*>([\s\S]*?)<\/script>/gi;
+
+function findMetaJobDescription(node: unknown): MetaJobDescription | null {
+  if (!node || typeof node !== "object") {
+    return null;
+  }
+
+  if (Array.isArray(node)) {
+    for (const item of node) {
+      const found = findMetaJobDescription(item);
+      if (found) return found;
+    }
+
+    return null;
+  }
+
+  const record = node as Record<string, unknown>;
+
+  if ("xcp_requisition_job_description" in record) {
+    const parsed = MetaJobDescriptionSchema.safeParse(record.xcp_requisition_job_description);
+
+    if (parsed.success && formatMetaJobDescription(parsed.data)) {
+      return parsed.data;
+    }
+  }
+
+  for (const value of Object.values(record)) {
+    const found = findMetaJobDescription(value);
+    if (found) return found;
+  }
+
+  return null;
+}
+
+/** Job pages preload the description. GraphQL is only the fallback. */
+export function extractMetaJobFromHtml(html: string): MetaJobDescription | null {
+  for (const match of html.matchAll(META_JSON_SCRIPT)) {
+    const raw = match[1];
+
+    if (!raw?.includes("xcp_requisition_job_description")) {
+      continue;
+    }
+
+    try {
+      const job = findMetaJobDescription(JSON.parse(raw) as unknown);
+      if (job) return job;
+    } catch {
+      continue;
+    }
+  }
+
+  return null;
+}
 
 function extractLsd(html: string): string | null {
   const patterns = [
@@ -149,32 +208,41 @@ export function formatMetaJobDescription(job: MetaJobDescription): string | null
   );
 }
 
-async function loadMetaSession(pages: string[], signal: AbortSignal) {
-  let lastError: JDFetchStatus = JD_FETCH_ERROR.noData("Failed to extract Meta LSD token");
+const META_PAGE_HEADERS = {
+  "user-agent": "Mozilla/5.0",
+  accept: "text/html",
+};
+
+type MetaPage = {
+  url: string;
+  document?: HtmlResponse;
+};
+
+async function loadMetaSession(pages: MetaPage[], signal: AbortSignal) {
+  let lastError: JDFetchStatus = JD_FETCH_ERROR.fetch("Failed to extract Meta LSD token");
 
   for (const page of pages) {
-    const { response, html } = await fetchHtmlResponse(page, {
-      signal,
-      headers: {
-        "user-agent": "Mozilla/5.0",
-        accept: "text/html",
-      },
-    });
+    const document =
+      page.document ??
+      (await fetchHtmlResponse(page.url, {
+        signal,
+        headers: META_PAGE_HEADERS,
+      }));
 
-    if (!response.ok) {
-      lastError = jdFetchErrorFromResponse(response);
+    if (!document.response.ok) {
+      lastError = jdFetchErrorFromResponse(document.response);
       continue;
     }
 
-    const lsd = extractLsd(html);
+    const lsd = extractLsd(document.html);
     if (!lsd) {
       continue;
     }
 
     return {
       lsd,
-      cookie: getSetCookieHeader(response),
-      referer: page,
+      cookie: getSetCookieHeader(document.response),
+      referer: page.url,
     };
   }
 
@@ -194,10 +262,30 @@ export async function fetchMetaJD(
     };
   }
 
-  const session = await loadMetaSession([url, META_CAREERS_PAGE], signal);
+  const page = await fetchHtmlResponse(url, {
+    signal,
+    headers: META_PAGE_HEADERS,
+  });
+
+  if (page.response.ok) {
+    const embedded = extractMetaJobFromHtml(page.html);
+    const preloaded = embedded ? formatMetaJobDescription(embedded) : null;
+
+    if (preloaded) {
+      return { jd: preloaded, error: JD_FETCH_OK };
+    }
+  }
+
+  const session = await loadMetaSession(
+    [{ url, document: page }, { url: META_CAREERS_PAGE }],
+    signal
+  );
 
   if ("error" in session) {
-    return { jd: null, error: session.error ?? JD_FETCH_ERROR.noData() };
+    return {
+      jd: null,
+      error: session.error ?? JD_FETCH_ERROR.fetch("Failed to load Meta session"),
+    };
   }
 
   const body = new URLSearchParams({
@@ -246,11 +334,24 @@ export async function fetchMetaJD(
 
     return {
       jd: null,
-      error: res.ok ? JD_FETCH_ERROR.noData() : jdFetchErrorFromResponse(res),
+      error: res.ok
+        ? JD_FETCH_ERROR.fetch("Meta returned an HTML page instead of job JSON")
+        : jdFetchErrorFromResponse(res),
     };
   }
 
-  const parsed = MetaJobDetailsResponseSchema.safeParse(JSON.parse(cleanMetaJson(raw)));
+  let payload: unknown;
+
+  try {
+    payload = JSON.parse(cleanMetaJson(raw)) as unknown;
+  } catch {
+    return {
+      jd: null,
+      error: JD_FETCH_ERROR.fetch("Meta job JSON was unreadable"),
+    };
+  }
+
+  const parsed = MetaJobDetailsResponseSchema.safeParse(payload);
   const job = parsed.success ? parsed.data.data?.xcp_requisition_job_description : null;
   const jd = job ? formatMetaJobDescription(job) : null;
 

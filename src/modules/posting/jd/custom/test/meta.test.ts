@@ -2,7 +2,7 @@ import { afterEach, describe, expect, it, vi } from "vitest";
 
 import { fetchCustomJD } from "../index";
 
-import { JD_FETCH_OK } from "@/modules/posting/jd";
+import { isRetryableJDFetch, JD_FETCH_OK } from "@/modules/posting/jd";
 
 const JOB_URL = "https://www.metacareers.com/profile/job_details/1104959738740874";
 
@@ -80,5 +80,46 @@ describe("fetchMetaJD", () => {
 
     expect(result.error).toEqual(JD_FETCH_OK);
     expect(result.jd).toContain("Build integrity systems.");
+  });
+
+  it("reads a job description preloaded in the page and skips GraphQL", async () => {
+    const html = `<html><script type="application/json">${JSON.stringify({
+      require: [{ __bbox: { result: { data: GRAPHQL.data } } }],
+    })}</script></html>`;
+
+    vi.stubGlobal(
+      "fetch",
+      vi.fn(async (input: string) => {
+        if (String(input).includes("/api/graphql")) {
+          throw new Error("GraphQL should not be called");
+        }
+
+        return new Response(html, { status: 200 });
+      })
+    );
+
+    const result = await fetchCustomJD(JOB_URL);
+
+    expect(result.error).toEqual(JD_FETCH_OK);
+    expect(result.jd).toContain("Build integrity systems.");
+    expect(result.jd).toContain("Minimum Qualifications:");
+  });
+
+  it("treats an HTML GraphQL response as retryable", async () => {
+    vi.stubGlobal(
+      "fetch",
+      vi.fn(async (input: string) => {
+        if (String(input).includes("/api/graphql")) {
+          return new Response("<html>blocked</html>", { status: 200 });
+        }
+
+        return new Response(PAGE_HTML, { status: 200 });
+      })
+    );
+
+    const result = await fetchCustomJD(JOB_URL);
+
+    expect(result.jd).toBeNull();
+    expect(isRetryableJDFetch(result.error)).toBe(true);
   });
 });
