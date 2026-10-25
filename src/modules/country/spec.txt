@@ -1,0 +1,20 @@
+Allowed countries:
+@@COUNTRIES@@
+
+Country rules:
+- Choose exactly one allowed value.
+- Classify by the primary work location.
+- Use "USA" for any place in the United States, including Washington, DC and US territories: Puerto Rico, Guam, US Virgin Islands, Northern Mariana Islands, and American Samoa.
+- A city with a US state abbreviation and no other country, such as "Austin, TX", is in the USA.
+- A city with a Canadian province abbreviation, such as "Toronto, ON", is in Canada.
+- Use "UK" for England, Scotland, Wales, and Northern Ireland.
+- Use "Hong Kong" for Hong Kong, including "Hong Kong SAR". Mainland China and Macau are "Other".
+- Use "Taiwan" for Taiwan, including "Taiwan, Province of China".
+- If every listed location is in the same country, return that country.
+- If locations span several countries, return the primary location's country when it is clear. Otherwise return "Unsure".
+- Use "Remote" only for fully remote work not restricted to a place.
+- If remote work is restricted to one country, return that country, or "Other" when that country is not allowed.
+- If remote work is restricted to a region spanning several countries, such as "EMEA" or "North America", return "Unsure".
+- Use "Other" when the location is clear but its country is not allowed.
+- Use "Unsure" when the location is missing, unclear, or ambiguous.
+- Never invent a country.

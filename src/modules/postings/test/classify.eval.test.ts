@@ -33,8 +33,13 @@ const LOCATION_EVAL_CASES: Array<{
   {
     role: "Software Engineer",
     location: "San Francisco, CA or New York, NY",
-    expected: "Unsure",
+    expected: "USA",
   },
+  { role: "Data Analyst", location: "Aguadilla, Puerto Rico", expected: "USA" },
+  { role: "Software Engineer", location: "Edinburgh, Scotland", expected: "UK" },
+  { role: "Software Engineer", location: "Toronto, ON or Seattle, WA", expected: "Unsure" },
+  { role: "Software Engineer", location: "Remote - EMEA", expected: "Unsure" },
+  { role: "Software Engineer", location: "Remote - Brazil", expected: "Other" },
 ];
 
 beforeAll(() => {

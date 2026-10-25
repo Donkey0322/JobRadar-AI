@@ -18,6 +18,8 @@ import analyzeJD, {
   getQualificationConfig,
 } from "../ai";
 
+import { getCountryRules } from "@/modules/country";
+
 const screen = {
   citizenship: false,
   sponsorship: null,
@@ -130,6 +132,7 @@ describe("analyzeJD spill retry", () => {
 
     expect(qualifications.systemInstruction).toBe(screening.systemInstruction);
     expect(screening.systemInstruction).toContain('Never return "Singapore, Singapore, Singapore"');
+    expect(screening.systemInstruction).toContain(await getCountryRules());
     expect(screening.schema).not.toHaveProperty("properties.qualifications");
     expect(qualifications.schema).toHaveProperty("properties.qualifications");
   });

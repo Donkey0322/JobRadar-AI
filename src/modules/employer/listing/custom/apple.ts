@@ -54,8 +54,7 @@ export function parseAppleJobs(html: string): AppleJob[] {
       return;
     }
 
-    const location =
-      cleanText(card.find(".table--advanced-search__location-sub").first().text()) || null;
+    const location = readAppleLocation(card);
 
     const postedAt = cleanText(card.find(".job-posted-date").first().text()) || null;
 
@@ -68,6 +67,19 @@ export function parseAppleJobs(html: string): AppleJob[] {
   });
 
   return jobs;
+}
+
+type AppleCard = ReturnType<ReturnType<typeof cheerio.load>>;
+
+function readAppleLocation(card: AppleCard): string | null {
+  const locationRoot = card.find(".job-title-location").first().clone();
+  locationRoot.find(".a11y").remove();
+
+  return (
+    cleanText(locationRoot.text()) ||
+    cleanText(card.find(".table--advanced-search__location-sub").first().text()) ||
+    null
+  );
 }
 
 async function fetchAppleHtml(urlStr: string, page: number = 1, signal: AbortSignal) {

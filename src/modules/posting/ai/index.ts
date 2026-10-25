@@ -8,6 +8,7 @@ import type { AIResponse, Schema } from "@/utils/ai/provider/utils";
 
 import { jdResponseSpilled } from "../response";
 
+import { getCountryRules } from "@/modules/country";
 import callAIModel from "@/utils/ai";
 import { buildPrompt, readPromptFile, toBulletList } from "@/utils/ai/prompt";
 import { logger } from "@/utils/logger";
@@ -94,7 +95,7 @@ async function getSystemInstruction() {
   const template = await readPromptFile(import.meta.dirname, "spec.txt");
 
   return buildPrompt(template, {
-    COUNTRIES: toBulletList(COUNTRIES),
+    COUNTRY_RULES: await getCountryRules(),
     JOB_CATEGORIES: toBulletList(JOB_CATEGORIES),
     SEASONS: toBulletList(SEASON_VALUES),
   });

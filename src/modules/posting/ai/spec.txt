@@ -8,8 +8,7 @@ Do not add extra fields.
 Use JSON null, not the string "null".
 Use only enum values allowed by the schema.
 
-Supported countries:
-@@COUNTRIES@@
+@@COUNTRY_RULES@@
 
 Supported job categories:
 @@JOB_CATEGORIES@@
@@ -40,25 +39,9 @@ Do not treat CPT or OPT acceptance as visa sponsorship unless visa sponsorship i
 
 3. country
 
-Choose exactly one supported country.
+Follow the country rules above.
 
-Use the primary work location.
-
-If the role is onsite or hybrid in a supported country, return that country.
-
-If remote work is explicitly allowed and not tied to a specific supported country, return "Remote".
-
-If remote work is restricted to a supported country, return that country.
-
-If multiple supported countries are listed:
-- choose the primary location if clear
-- otherwise choose the first supported country listed
-
-Use "Other" if the location is clear but not included in the supported country list.
-
-Use "Unsure" if the location is unclear, missing, or ambiguous.
-
-Never invent a country.
+Use the job description first. Use the listing location when the description does not state a workplace.
 
 4. location
 
@@ -93,7 +76,7 @@ Rules:
 - The user message may end with a "Listing location:" section from the job board. Use it when the description does not state a workplace.
 - Ignore listing values that are not a place, including "N/A", "Unsure", "ASSIGN LOCATION", and counts such as "2 Locations".
 - Use a state or province abbreviation when that state is known. "Pennsylvania" may be written as "PA".
-- When a country segment is included, use the same value chosen in the country field.
+- When a country segment is included, name the country as the country rules do, such as "USA" for Puerto Rico. For a country that is not allowed, use its common English name. Never write "Unsure", "Other", or "Remote" as a country segment.
 - If multiple locations are listed, choose the primary location if clear.
 - If no primary location is clear, choose the first supported location listed.
 - If the role is remote but restricted to a city, state, province, or country, include that restriction.

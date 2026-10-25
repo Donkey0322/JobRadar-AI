@@ -4,8 +4,9 @@ import { RED_CROSS } from "@/constants/log";
 import type { Job } from "@/types";
 import type { Country } from "@/validation/config";
 
+import { getCountryRules } from "@/modules/country";
 import callAIModel from "@/utils/ai";
-import { buildPrompt, readPromptFile, toBulletList } from "@/utils/ai/prompt";
+import { buildPrompt, readPromptFile } from "@/utils/ai/prompt";
 import { logger } from "@/utils/logger";
 
 const BATCH_SIZE = 50;
@@ -85,7 +86,7 @@ async function classifyBatch(jobs: Job[]): Promise<{ result: Country[]; cost: nu
 
     const template = await readPromptFile(import.meta.dirname, "spec.txt");
     const systemInstruction = buildPrompt(template, {
-      COUNTRIES: toBulletList(COUNTRIES),
+      COUNTRY_RULES: await getCountryRules(),
     });
 
     const { result, cost } = await callAIModel(JSON.stringify(payload), schema, {
