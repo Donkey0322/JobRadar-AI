@@ -910,13 +910,6 @@
       <td width="120" align="left" valign="top">Oct 19</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Gdit</td>
-      <td width="420" align="left" valign="top">GDIT Summer Internship Program-Summer 2027 Software Development Internship -Egg Harbor Township New Jersey<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Egg Harbor Township, NJ</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 19</td>
-    </tr>
-    <tr>
       <td width="180" align="left" valign="top">Generac</td>
       <td width="420" align="left" valign="top">Micro-Grid Systems Engineering Summer Intern</td>
       <td width="180" align="left" valign="top">Fort Collins, CO</td>
@@ -2113,10 +2106,17 @@
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/perpay/jobs/5260444007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 8</td>
     </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Rtx</td>
+      <td width="420" align="left" valign="top">Software Engineering Intern (Summer 2027)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Anaheim, CA</td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 8</td>
+    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,726 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,724 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-26T08:42:29.033Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-26T14:15:02.797Z</code></sub>

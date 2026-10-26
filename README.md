@@ -89,9 +89,9 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [2027 Summer Intern](./job-postings/summer-intern.md) — 1,726 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 1,634 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,233 opportunities
+- [2027 Summer Intern](./job-postings/summer-intern.md) — 1,724 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 1,632 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,230 opportunities
 
 ## The List 🚴‍♂️
 
@@ -322,7 +322,7 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,726 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,724 opportunities in this section.</sub></p>
 
 ### Off Season Intern
 
@@ -549,7 +549,7 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,634 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,632 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -777,7 +777,7 @@ Machine Learning for Monetization (PhD)<br /><img height="18" alt="reopen" src="
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,233 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,230 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -796,7 +796,7 @@ Machine Learning for Monetization (PhD)<br /><img height="18" alt="reopen" src="
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-26T08:42:29.033Z</code>
+      🕒 Last updated <code>2026-10-26T14:15:02.797Z</code>
     </span>
   </p>
 </div>
