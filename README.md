@@ -796,7 +796,7 @@ Machine Learning for Monetization (PhD)<br /><img height="18" alt="reopen" src="
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-26T14:22:26.790Z</code>
+      🕒 Last updated <code>2026-10-26T19:39:42.466Z</code>
     </span>
   </p>
 </div>
