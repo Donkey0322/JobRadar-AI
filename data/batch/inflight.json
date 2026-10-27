@@ -1,1 +1,100 @@
-[]
+[
+  {
+    "name": "batches/7g0rv30hjp56no6mgmv4s5ivv4lznboa6ony",
+    "submittedAt": "2026-10-27T09:43:35.054Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Beyondsoft",
+        "role": "Full Stack Developer",
+        "link": "https://careers-beyondsoft.icims.com/jobs/10994/full-stack-developer/job",
+        "location": "Unsure",
+        "country": "Unsure"
+      },
+      {
+        "company": "Citi",
+        "role": "Data Analyst- Tableau and SQL",
+        "link": "https://citi.wd5.myworkdayjobs.com/2/job/DLF-CYBERCITY-12B/Data-Analyst--Tableau-and-SQL_26998694",
+        "location": "DLF CYBERCITY 12B",
+        "country": "Unsure"
+      },
+      {
+        "company": "Fis",
+        "role": "Cybersecurity Analyst (US Shifts)",
+        "link": "https://fis.wd5.myworkdayjobs.com/searchjobs/job/IND-CHNN-32-AB-3FL-STE-C-D/Cybersecurity-Analyst--US-Shifts-_JR0310401",
+        "location": "IND CHNN 32 A&B 3FL STE C-D",
+        "country": "Unsure"
+      },
+      {
+        "company": "Fis",
+        "role": "Information Security Analyst",
+        "link": "https://fis.wd5.myworkdayjobs.com/searchjobs/job/IND-PUNE-FL7/Information-Security-Analyst_JR0310637",
+        "location": "IND PUNE FL7",
+        "country": "Unsure"
+      },
+      {
+        "company": "DeepMind",
+        "role": "Research Scientist, Robotics Data, Pretraining, DeepMind",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/89853379034915526-research-scientist-robotics-data-pretraining-deepmind?sort_by=date&page=2",
+        "location": "Mountain View, CA, USA",
+        "country": "USA"
+      },
+      {
+        "company": "Google",
+        "role": "Embedded Systems Engineer, High Speed DSP",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/90195327151153862-embedded-systems-engineer-high-speed-dsp?sort_by=date&page=3",
+        "location": "Sunnyvale, CA, USA; Tel Aviv, Israel; +2 more; +1 more",
+        "country": "Unsure"
+      },
+      {
+        "company": "Harvey",
+        "role": "Software Engineer, Agents",
+        "link": "https://jobs.ashbyhq.com/harvey/0c3ccbfd-25d1-4f66-be9c-e3c680fbe2fc",
+        "location": "San Francisco",
+        "country": "USA"
+      },
+      {
+        "company": "Nvidia",
+        "role": "Software Engineering Intern, AI Agents & Backend Infrastructure – 2027",
+        "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Germany-Remote/Software-Engineering-Intern--AI-Agents---Backend-Infrastructure---2027_JR2027942",
+        "location": "6 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Nvidia",
+        "role": "Software Engineering Intern, AI Agents and Backend Infrastructure – 2027",
+        "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/UK-Remote/Software-Engineering-Intern--AI-Agents-and-Backend-Infrastructure---2027_JR2027939",
+        "location": "4 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Pearson",
+        "role": "Advanced Specialist, Security Engineer",
+        "link": "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/26452",
+        "location": "Durham, NC, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Rtx",
+        "role": "Flight Control Software Engineer I (Onsite)",
+        "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineer-I--Onsite-_01870923",
+        "location": "US-IA-CEDAR RAPIDS-193 ~ 1120 Collins Rd NE ~ BLDG193",
+        "country": "USA"
+      },
+      {
+        "company": "Salesforce",
+        "role": "Software Engineering SMTS (Backend - Distributed Systems)",
+        "link": "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Hyderabad/Software-Engineering-SMTS---MTS----Platform-Engineering--Backend--Kubernetes---Cloud-_JR347341",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Synchronyfinancial",
+        "role": "AVP, Tanium Security Engineer",
+        "link": "https://synchronyfinancial.wd5.myworkdayjobs.com/careers/job/Hyderabad-IN/AVP--Tanium-Security-Engineer_2602508-1",
+        "location": "6 Locations",
+        "country": "Unsure"
+      }
+    ]
+  }
+]
