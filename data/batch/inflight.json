@@ -1,1 +1,63 @@
-[]
+[
+  {
+    "name": "batches/4tvthn1oj2e5ysjgbe0kpf4rmrd06kmlxlyy",
+    "submittedAt": "2026-10-28T01:59:46.189Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "RTX",
+        "role": "Software Engineer Intern, Receiver, Exciter, & Processing Architecture 🇺🇸",
+        "link": "https://go.vansh.nyc/WQ?s=y",
+        "location": "Marlborough, MA"
+      },
+      {
+        "company": "Protagonist",
+        "role": "Software Engineering Intern",
+        "link": "https://go.vansh.nyc/WS?s=y",
+        "location": "Washington, DC"
+      },
+      {
+        "company": "Paccar",
+        "role": "Data Engineer Intern",
+        "link": "https://go.vansh.nyc/WP?s=y",
+        "location": "Chillicothe, OH"
+      },
+      {
+        "company": "Mercor",
+        "role": "Research Engineer Intern, Environments, Data and Post-Training",
+        "link": "https://go.vansh.nyc/WU?s=y",
+        "location": "San Francisco, CA"
+      },
+      {
+        "company": "FUTO",
+        "role": "Software Engineer Intern",
+        "link": "https://jobs.lever.co/futo-org/7dd9877a-9009-408d-aa50-623cd5153f70/apply",
+        "location": "Austin, TX"
+      },
+      {
+        "company": "Paccar",
+        "role": "Data Engineer Intern",
+        "link": "https://jobs.paccar.com/job/Kirkland-Summer-2027-Data-Engineer-Intern-(OH)-WA-98033/1451916833/?ats=successfactors",
+        "location": "Chillicothe, OH"
+      },
+      {
+        "company": "ACLU Kentucky",
+        "role": "Undergraduate Software Engineer Intern - Technology and Analytics Department-Educate Pod",
+        "link": "https://job-boards.greenhouse.io/acluinternships/jobs/8919540002",
+        "location": "NYC"
+      },
+      {
+        "company": "GrayMatter Robotics",
+        "role": "Robotics Engineering Intern: Systems & Applications",
+        "link": "https://jobs.ashbyhq.com/graymatter-robotics/1cdbf03d-438b-46f8-808e-76fb6cfd4320/application?embed=true",
+        "location": "Carson, CA"
+      },
+      {
+        "company": "SambaNova Systems",
+        "role": "ML Infrastructure Engineer New Grad",
+        "link": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6224938004",
+        "location": "Austin, TXSan Jose, CA"
+      }
+    ]
+  }
+]
