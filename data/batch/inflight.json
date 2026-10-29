@@ -1,1 +1,275 @@
-[]
+[
+  {
+    "name": "batches/kkdyfov4q1tcr1044krutcii8izopxmul353",
+    "submittedAt": "2026-10-29T12:59:38.095Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Accenture",
+        "role": "DevSecOps Engineer",
+        "link": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Oslo/DevOps-Engineer_13889118-1",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Allstate",
+        "role": "In-Memory/Redis Database Platform Engineer",
+        "link": "https://allstate.wd5.myworkdayjobs.com/allstate_careers/job/Ind--Blr-Sez-1-3Rd-6Th--7Th-Floor/In-Memory-Redis-Database-Platform-Engineer_R36400",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Amazon",
+        "role": "Sr Software Dev Engineer",
+        "link": "https://amazon.jobs/en/jobs/10588592",
+        "location": "US, NY, New York",
+        "country": "USA"
+      },
+      {
+        "company": "Analogdevices",
+        "role": "Azure DevOps Engineer",
+        "link": "https://analogdevices.wd1.myworkdayjobs.com/external/job/Ireland-Dublin-Glasnevin/Azure-DevOps-Engineer_R268212-1",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Barclays",
+        "role": "Engineer - AI Platform",
+        "link": "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Bengaluru-Maruthi-Onyx---TESCO-TSA/Engineer---Applied-AI_JR-0000103434-3",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Barclays",
+        "role": "Kafka Platform Engineer",
+        "link": "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Knutsford-Radbroke-Hall/Software-Engineer_JR-0000082433",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Cat",
+        "role": "Product Owner- Data Engineering",
+        "link": "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Irving-Texas/Lead-Digital-Project-Manager---Data-Engineering_R0000390752",
+        "location": "Irving, Texas",
+        "country": "USA"
+      },
+      {
+        "company": "Centrica",
+        "role": "Cloud Platform Engineer",
+        "link": "https://centrica.wd3.myworkdayjobs.com/centrica/job/Aalborg/Cloud-Platform-Engineer_R0089243-1",
+        "location": "3 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Citi",
+        "role": "Big Data Developer and spark",
+        "link": "https://citi.wd5.myworkdayjobs.com/2/job/DLF-CYBERCITY-12B/Big-Data-Developer-and-spark_261000054",
+        "location": "DLF CYBERCITY 12B",
+        "country": "Unsure"
+      },
+      {
+        "company": "Citi",
+        "role": "Apps Dev Intmd Programmer Analyst - Officer",
+        "link": "https://citi.wd5.myworkdayjobs.com/2/job/Tampa-Florida-United-States/Apps-Dev-Intmd-Programmer-Analyst---Officer_261004426",
+        "location": "Tampa Florida United States",
+        "country": "USA"
+      },
+      {
+        "company": "Citi",
+        "role": "Apps Dev Intmd Programmer Analyst - Officer",
+        "link": "https://citi.wd5.myworkdayjobs.com/2/job/Tampa-Florida-United-States/Apps-Dev-Intmd-Programmer-Analyst---Officer_261004423",
+        "location": "Tampa Florida United States",
+        "country": "USA"
+      },
+      {
+        "company": "Citi",
+        "role": "Apps Dev Intmd Programmer Analyst - Officer",
+        "link": "https://jobs.citi.com/job/tampa/apps-dev-intmd-programmer-analyst-officer/287/102584403024",
+        "location": "Tampa, Florida, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Citi",
+        "role": "Apps Dev Intmd Programmer Analyst - Officer",
+        "link": "https://jobs.citi.com/job/tampa/apps-dev-intmd-programmer-analyst-officer/287/102584402928",
+        "location": "Tampa, Florida, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Empower",
+        "role": "Sr Analyst Business Systems",
+        "link": "https://empower.wd12.myworkdayjobs.com/empower/job/KA-Bangalore/Sr-Analyst-Business-Systems_R0062108",
+        "location": "KA Bangalore",
+        "country": "Unsure"
+      },
+      {
+        "company": "Finastra",
+        "role": "Software Engineer",
+        "link": "https://finastra.wd3.myworkdayjobs.com/FINC/job/Pune/Software-Engineer_REQ0926_0038198",
+        "location": "Pune",
+        "country": "Unsure"
+      },
+      {
+        "company": "Google",
+        "role": "Formal Verification Engineer, Google Cloud",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/140302021944058566-formal-verification-engineer-google-cloud?sort_by=date&page=1",
+        "location": "Tel Aviv, Israel; Haifa, Israel",
+        "country": "USA"
+      },
+      {
+        "company": "Google",
+        "role": "Forward Deployed Engineer, Generative AI, Google Cloud",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/110432414185988806-forward-deployed-engineer-generative-ai-google-cloud?sort_by=date&page=2",
+        "location": "Singapore",
+        "country": "USA"
+      },
+      {
+        "company": "Harman",
+        "role": "Software Engineer - Automation Testing",
+        "link": "https://harman.wd3.myworkdayjobs.com/harman/job/Bangalore---Karnataka-India---Kalyani-Platina/Test-Engineering---Software_R-56789-2026",
+        "location": "Bangalore - Karnataka, India - Kalyani Platina",
+        "country": "Unsure"
+      },
+      {
+        "company": "Incident",
+        "role": "Cloud Security Engineer",
+        "link": "https://jobs.ashbyhq.com/incident/591f4ddb-70b4-4e13-bb49-1a1f9bd249da",
+        "location": "London",
+        "country": "USA"
+      },
+      {
+        "company": "Kla",
+        "role": "Software Engineer Intern",
+        "link": "https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/Software-Engineer-Intern_2642721",
+        "location": "Milpitas, CA",
+        "country": "Unsure"
+      },
+      {
+        "company": "Kla",
+        "role": "System Software Engineer - Distributed Computing",
+        "link": "https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/System-Software-Engineer---Distributed-Computing_2642720",
+        "location": "Milpitas, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Leidos",
+        "role": "Software Engineer",
+        "link": "https://leidos.wd5.myworkdayjobs.com/External/job/Omaha-NE/Software-Engineer_R-00195792-1",
+        "location": "Omaha, NE",
+        "country": "USA"
+      },
+      {
+        "company": "Nvidia",
+        "role": "Software Engineer, Data Systems",
+        "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Data-Systems_JR2028978",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Nvidia",
+        "role": "Software Engineer, ML Performance",
+        "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--ML-Performance_JR2028979",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Nvidia",
+        "role": "Software Engineer, Performance Instrumentation",
+        "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Performance-Instrumentation_JR2028980-1",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Parsons",
+        "role": "Materials Engineer (Infrastructure - RTA Approved)",
+        "link": "https://parsons.wd5.myworkdayjobs.com/search/job/AE---Dubai/Material-Engineer_R183296",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Parsons",
+        "role": "Assistant Resident Engineer - Infrastructure/Stormwater",
+        "link": "https://parsons.wd5.myworkdayjobs.com/search/job/AE---Abu-Dhabi/Assistant-Resident-Engineer---Infrastructure-Stormwater_R188020-1",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Parsons",
+        "role": "Assistant Resident Engineer - Infrastructure/Stormwater",
+        "link": "https://parsons.wd5.myworkdayjobs.com/search/job/AE---Abu-Dhabi/Assistant-Resident-Engineer---Infrastructure-Stormwater_R188019",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Qualcomm",
+        "role": "GenAI System Integration and Testing Engineer",
+        "link": "https://qualcomm.eightfold.ai/careers/job/446721765270?domain=qualcomm.com&8fold_id=446721765270",
+        "location": "Beijing, China, Shanghai, China, Guangdong, China",
+        "country": "USA"
+      },
+      {
+        "company": "Roche",
+        "role": "AWS DevOps & Data Platform Engineer",
+        "link": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Warsaw/AWS-DevOps---Data-Platform-Engineer_202610-125333-1",
+        "location": "Warsaw",
+        "country": "USA"
+      },
+      {
+        "company": "Roche",
+        "role": "Real-World Data (RWD) Scientist",
+        "link": "https://roche.wd3.myworkdayjobs.com/rog-a2o-gene/job/South-San-Francisco/Real-World-Data--RWD--Scientist_202610-125114",
+        "location": "South San Francisco",
+        "country": "USA"
+      },
+      {
+        "company": "Rtx",
+        "role": "Software Security Engineer I",
+        "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-E01--2000-E-El-Segundo-Blvd--BLDG-E01/Software-Security-Engineer-I_01885443",
+        "location": "US-CA-EL SEGUNDO-E01 ~ 2000 E El Segundo Blvd ~ BLDG E01",
+        "country": "USA"
+      },
+      {
+        "company": "Salesforce",
+        "role": "Software Engineering AMTS",
+        "link": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Software-Engineering-AMTS_JR307116",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Schwab",
+        "role": "AI Developer - Financial Crimes AI & Automation Austin, TX; Southlake, TX; Orlando, FL Requisition ID: 2026-127168 Application deadline: 2026-11-08 Save for Later",
+        "link": "https://www.schwabjobs.com/job/austin/ai-developer-financial-crimes-ai-and-automation/33727/102580634640",
+        "location": "Austin, TX; Southlake, TX; Orlando, FL",
+        "country": "USA"
+      },
+      {
+        "company": "Slihrms",
+        "role": "Data Analyst",
+        "link": "https://slihrms.wd3.myworkdayjobs.com/careers/job/GBLondonNova-North/Data-Analyst_R-162634-1",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Starfish",
+        "role": "Artificial Intelligence and Machine Learning Scientist",
+        "link": "https://starfish.wd501.myworkdayjobs.com/careers/job/Colorado-Springs-CO/Artificial-Intelligence-and-Machine-Learning-Scientist_R2134",
+        "location": "Colorado Springs, CO",
+        "country": "USA"
+      },
+      {
+        "company": "Synchronyfinancial",
+        "role": "Analyst, HPA Monitoring Analyst, Information Security (L9)",
+        "link": "https://synchronyfinancial.wd5.myworkdayjobs.com/careers/job/Hyderabad-IN/Analyst--HPA-Monitoring-Analyst--Information-Security--L9-_2602748",
+        "location": "6 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "SpaceXSI",
+        "role": "Software Engineer, Imagine Safety",
+        "link": "https://job-boards.greenhouse.io/xai/jobs/5151022007",
+        "location": " Palo Alto, CA",
+        "country": "USA"
+      }
+    ]
+  }
+]
