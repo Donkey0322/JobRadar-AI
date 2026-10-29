@@ -2116,8 +2116,8 @@ Machine Learning for Monetization (PhD)<br /><img height="18" alt="reopen" src="
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 3,283 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 3,282 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-29T19:36:44.285Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-29T21:09:47.098Z</code></sub>
