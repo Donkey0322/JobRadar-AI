@@ -89,9 +89,9 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [2027 Summer Intern](./job-postings/summer-intern.md) — 1,865 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 1,722 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,374 opportunities
+- [2027 Summer Intern](./job-postings/summer-intern.md) — 1,854 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 1,704 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,269 opportunities
 
 ## The List 🚴‍♂️
 
@@ -268,7 +268,7 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="180" align="left" valign="top">Disney</td>
       <td width="420" align="left" valign="top">Walt Disney Animation Studios Full Stack Web Development Intern, Summer 2027 Walt Disney Animation Studios Burbank, California Oct. 28, 2026</td>
       <td width="180" align="left" valign="top">Burbank, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.disneycareers.com/job/burbank/walt-disney-animation-studios-full-stack-web-development-intern-summer-2027/391/102557876496"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 28</td>
     </tr>
     <tr>
@@ -322,7 +322,7 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,865 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,854 opportunities in this section.</sub></p>
 
 ### Off Season Intern
 
@@ -549,7 +549,7 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,722 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,704 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -776,7 +776,7 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,374 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,269 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -795,7 +795,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-29T04:29:02.487Z</code>
+      🕒 Last updated <code>2026-10-29T06:12:50.648Z</code>
     </span>
   </p>
 </div>
