@@ -14,6 +14,20 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Ngc</td>
+      <td width="420" align="left" valign="top">Engineer Embedded Software<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">San Diego, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/Engineer-Embedded-Software_R10247331"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 28</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Rocket Lab Corporation</td>
+      <td width="420" align="left" valign="top">Spacecraft Propulsion Systems Engineer I<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Long Beach, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/rocketlab/jobs/8058455003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 28</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Rtx</td>
       <td width="420" align="left" valign="top">Systems Engineer I<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Tucson, AZ</td>
@@ -2100,24 +2114,10 @@ Machine Learning for Monetization (PhD)<br /><img height="18" alt="reopen" src="
       <td width="120" align="left" valign="top"><a href="https://careers-gdeb.icims.com/jobs/21160/entry-level-engineer--systems---hull-planning-yard/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 20</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Johndeere</td>
-      <td width="420" align="left" valign="top">IT Development Program - Software Engineering<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Moline, IL</td>
-      <td width="120" align="left" valign="top"><a href="https://johndeere.eightfold.ai/careers/job/137482532344?domain=johndeere.com&amp;8fold_id=137482532344"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">L3harris</td>
-      <td width="420" align="left" valign="top">Associate, Systems Engineer Engineering|New, Grads Yorba Linda, CA<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Yorba Linda, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.l3harris.com/job/yorba-linda/associate-systems-engineer/4832/102210213744"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 20</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 3,371 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 3,373 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-29T03:32:20.646Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-29T03:40:27.134Z</code></sub>
