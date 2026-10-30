@@ -1,1 +1,576 @@
-[]
+[
+  {
+    "name": "batches/ikayc284o5azedyxnoucqy8vfdcq6uvuwwy2",
+    "submittedAt": "2026-10-30T01:00:46.193Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Amazon",
+        "role": "Software Development Engineer - Embedded, Flight Computer Software",
+        "link": "https://amazon.jobs/en/jobs/10593163",
+        "location": "US, WA, Redmond",
+        "country": "USA"
+      },
+      {
+        "company": "Amazon",
+        "role": "Software Development Engineer, Mobile App Foundations, BuilderWorks",
+        "link": "https://amazon.jobs/en/jobs/10593119",
+        "location": "US, WA, Seattle",
+        "country": "USA"
+      },
+      {
+        "company": "Amazon",
+        "role": "Data Center Infrastructure Engineer Intern, Summer 2027 - Midwest / Southeast",
+        "link": "https://amazon.jobs/en/jobs/10593054",
+        "location": "US, TX, Austin",
+        "country": "USA"
+      },
+      {
+        "company": "Amazon",
+        "role": "Software Development Engineer, AWS EC2 Nitro Team",
+        "link": "https://amazon.jobs/en/jobs/10591625",
+        "location": "US, CA, Santa Clara",
+        "country": "USA"
+      },
+      {
+        "company": "Anduril Industries",
+        "role": "Applied LLM Systems Engineer",
+        "link": "https://boards.greenhouse.io/andurilindustries/jobs/5197253007?gh_jid=5197253007",
+        "location": "Costa Mesa, California, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Anduril Industries",
+        "role": "Robotics Software Engineer, Verification & Validation",
+        "link": "https://boards.greenhouse.io/andurilindustries/jobs/5083521007?gh_jid=5083521007",
+        "location": "Costa Mesa, California, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Anduril Industries",
+        "role": "Software Engineer, ERP Applications & Development",
+        "link": "https://boards.greenhouse.io/andurilindustries/jobs/5279793007?gh_jid=5279793007",
+        "location": "Costa Mesa, California, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Apple",
+        "role": "Software Developer in Test - Core I/O",
+        "link": "https://jobs.apple.com/en-us/details/200692119-0836/software-developer-in-test-core-i-o?team=SFTWR",
+        "location": "Cupertino",
+        "country": "USA"
+      },
+      {
+        "company": "Apple",
+        "role": "Software Engineer, Employee Experience & Productivity",
+        "link": "https://jobs.apple.com/en-us/details/200678553-0670/software-engineer-employee-experience-productivity?team=SFTWR",
+        "location": "Culver City",
+        "country": "USA"
+      },
+      {
+        "company": "Apple",
+        "role": "AI Application Engineer",
+        "link": "https://jobs.apple.com/en-us/details/200692523-3401/ai-application-engineer?team=HRDWR",
+        "location": "Various Locations within San Francisco Bay Area",
+        "country": "USA"
+      },
+      {
+        "company": "Apple",
+        "role": "AI Application Engineer",
+        "link": "https://jobs.apple.com/en-us/details/200692523/ai-application-engineer?team=HRDWR",
+        "location": "Various Locations within San Diego Metro Area",
+        "country": "USA"
+      },
+      {
+        "company": "Apple",
+        "role": "Battery Algorithm ML Engineer",
+        "link": "https://jobs.apple.com/en-us/details/200692363-0836/battery-algorithm-ml-engineer?team=HRDWR",
+        "location": "Cupertino",
+        "country": "USA"
+      },
+      {
+        "company": "Applied",
+        "role": "Software Engineer- Maps Rendering",
+        "link": "https://jobs.ashbyhq.com/applied/88cd29c0-a142-4f7a-b9ea-be557bac9624",
+        "location": "Sunnyvale",
+        "country": "USA"
+      },
+      {
+        "company": "Join Our Talent Community",
+        "role": "2027 US Software Engineering Internship (Dedrone)",
+        "link": "https://job-boards.greenhouse.io/axontalentcommunity/jobs/8037922003",
+        "location": "Seattle, Washington, United States; Sterling, Virginia, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Bah",
+        "role": "UI Full Stack Software Developer",
+        "link": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fort-Meade-MD/UI-Full-Stack-Software-Developer_R0237666",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Bah",
+        "role": "Data Engineer, Mid",
+        "link": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Aurora-CO/Data-Engineer--Mid_R0252640",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Barrywehmiller",
+        "role": "Computer Systems Validation Engineer (CSV/CSA)",
+        "link": "https://barrywehmiller.wd1.myworkdayjobs.com/bwcareers/job/Raleigh-NC/Computer-Systems-Validation-Engineer--CSV-CSA-_R023353",
+        "location": "Raleigh, NC",
+        "country": "USA"
+      },
+      {
+        "company": "Boeing",
+        "role": "Ground Systems Engineer - Millennium Space Systems",
+        "link": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Ground-Systems-Engineer---Millennium-Space-Systems_JR2026525676",
+        "location": "USA - El Segundo, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Boeing",
+        "role": "Systems Engineer (Systems Engineering Engineer-General)",
+        "link": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Richardson-TX/Systems-Engineer--Systems-Engineering-Engineer-General-_JR2026518839-1",
+        "location": "USA - Richardson, TX",
+        "country": "USA"
+      },
+      {
+        "company": "Boeing",
+        "role": "Systems Software Engineer (Associate or Experienced)",
+        "link": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Chantilly-VA/Systems-Software-Engineer--Associate-or-Experienced-_JR2026525892-1",
+        "location": "3 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Bosch group",
+        "role": "IT Systems Engineering Intern (19 hours per week)",
+        "link": "https://jobs.smartrecruiters.com/BoschGroup/744000158620079",
+        "location": "Roseville, CA, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Caci",
+        "role": "Systems Integration Test Engineer (2nd/3rd Shift)",
+        "link": "https://caci.wd1.myworkdayjobs.com/external/job/Orlando-FL-US/Systems-Integration-Test-Engineer--2nd-3rd-Shift-_334369",
+        "location": "Orlando, FL, US",
+        "country": "USA"
+      },
+      {
+        "company": "Caci",
+        "role": "Information Systems Security Engineer (ISSE) Linux/RHEL",
+        "link": "https://searchcareers.caci.com/careers/job/1443154271133?domain=caci.com&8fold_id=1443154271133",
+        "location": "Sterling, VA, US",
+        "country": "USA"
+      },
+      {
+        "company": "Caci",
+        "role": "Systems Integration Test Engineer (2nd/3rd Shift)",
+        "link": "https://searchcareers.caci.com/careers/job/1443154275366?domain=caci.com&8fold_id=1443154275366",
+        "location": "Orlando, FL, US",
+        "country": "USA"
+      },
+      {
+        "company": "Cai",
+        "role": "Full-Stack Software Engineer",
+        "link": "https://cai.wd5.myworkdayjobs.com/computer_aid/job/PA-CLIENT-STATE/Software-Developer_R8881",
+        "location": "PA-CLIENT-STATE",
+        "country": "Unsure"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Mobile Engineer 4 (iOS)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Mobile-Engineer-4--iOS-_R1003371-1",
+        "location": "McLean, VA",
+        "country": "USA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-Stack Engineer 5",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Plano-TX/Full-Stack-Engineer-5_R1001713-1",
+        "location": "Plano, TX",
+        "country": "USA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "102615369840 10/29/2026 Mobile Engineer 4 (iOS) McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/mobile-engineer-4-ios/1732/102615369840",
+        "location": "McLean, VA",
+        "country": "USA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "101362213360 10/29/2026 Full-Stack Engineer 5 Plano, TX",
+        "link": "https://www.capitalonecareers.com/job/plano/full-stack-engineer-5/1732/101362213360",
+        "location": "Plano, TX",
+        "country": "USA"
+      },
+      {
+        "company": "Captivation Software",
+        "role": "Radio Frequency Software Engineer 1 - C++/Linux/Python/DSP",
+        "link": "https://job-boards.greenhouse.io/captivation/jobs/5467652008",
+        "location": "Annapolis Junction, MD",
+        "country": "USA"
+      },
+      {
+        "company": "Cisco",
+        "role": "AI Delivery Researcher",
+        "link": "https://careers.cisco.com/global/en/job/2027607?ph_id=2027607",
+        "location": "San Jose, California, United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "Cisco",
+        "role": "Software Engineering Technical Leader",
+        "link": "https://careers.cisco.com/global/en/job/2025905?ph_id=2025905",
+        "location": "Milpitas, California, United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "HPE",
+        "role": "HPC Software & Storage Engineering Strategist",
+        "link": "https://careers.hpe.com/us/en/job/1216872?ph_id=1216872",
+        "location": "Ft. Collins, Colorado, 80528-9544",
+        "country": "USA"
+      },
+      {
+        "company": "HPE",
+        "role": "Software Quality Engineer",
+        "link": "https://careers.hpe.com/us/en/job/1189841?ph_id=1189841",
+        "location": "Aguadilla, 00603",
+        "country": "USA"
+      },
+      {
+        "company": "U.S. Bank",
+        "role": "Information Security Engineer - Cyber Threat Intelligence",
+        "link": "https://careers.usbank.com/global/en/job/2026-0033015?ph_id=2026-0033015",
+        "location": "Cincinnati, OH, United States",
+        "country": "USA"
+      },
+      {
+        "company": "U.S. Bank",
+        "role": "Security Automation Engineer - Python",
+        "link": "https://careers.usbank.com/global/en/job/2026-0034083?ph_id=2026-0034083",
+        "location": "Minneapolis, MN, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Centene",
+        "role": "Portfolio Data Analyst Intern (Undergraduate - Summer 2027)",
+        "link": "https://centene.wd5.myworkdayjobs.com/centene_external/job/Remote-MO/Portfolio-Data-Analyst-Intern--Undergraduate---Summer-2027-_1667733-1",
+        "location": "Remote-MO",
+        "country": "USA"
+      },
+      {
+        "company": "CHAOS Industries",
+        "role": "Software Engineer, Sensing Systems",
+        "link": "https://job-boards.greenhouse.io/chaosindustries/jobs/5269079007",
+        "location": "El Segundo, California, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Costar",
+        "role": "Software Engineer I (C#/.NET)",
+        "link": "https://costar.wd1.myworkdayjobs.com/costarcareers/job/US-VA-Arlington/Software-Engineer-I--C--NET-_R40234",
+        "location": "US-VA Arlington",
+        "country": "USA"
+      },
+      {
+        "company": "Cvshealth",
+        "role": "Associate Software Development Engineer (Conversion)",
+        "link": "https://cvshealth.wd1.myworkdayjobs.com/Private_Postings_Intern_Conversion_ONLY/job/IL---Work-from-home/Associate-Software-Development-Engineer--Conversion-_R1077672",
+        "location": "IL - Work from home",
+        "country": "USA"
+      },
+      {
+        "company": "Deezee",
+        "role": "Software Development Intern",
+        "link": "https://deezee.wd108.myworkdayjobs.com/DeeZee_Careers/job/Des-Moines/Software-Development-Intern_REQ00471",
+        "location": "Des Moines",
+        "country": "USA"
+      },
+      {
+        "company": "Disney",
+        "role": "Sr Product Software Engineer Disney Entertainment and ESPN Product & Technology Glendale, California Oct. 30, 2026",
+        "link": "https://www.disneycareers.com/job/glendale/sr-product-software-engineer/391/102614604624",
+        "location": "Glendale, California",
+        "country": "USA"
+      },
+      {
+        "company": "DLH ",
+        "role": "Data Analyst (R, Power BI, and SAS) (Job 1507)",
+        "link": "https://job-boards.greenhouse.io/dlhcorporation/jobs/5277167007",
+        "location": "United States - Remote",
+        "country": "USA"
+      },
+      {
+        "company": "Fortinet",
+        "role": "Software Engineer – FortiSIEM Threat Detection & Integration",
+        "link": "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/24582",
+        "location": "Sunnyvale, CA, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Fox",
+        "role": "Software Developer",
+        "link": "https://fox.wd1.myworkdayjobs.com/domestic/job/Los-Angeles-California-USA/Software-Developer_R50034213",
+        "location": "Los Angeles, California, USA",
+        "country": "USA"
+      },
+      {
+        "company": "Globalfoundries",
+        "role": "Digital Design Backend Engineering Intern, 3D and AI Flows",
+        "link": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---California---Santa-Clara/Digital-Design-Backend-Engineering-Intern--3D-and-AI-Flows_JR-2604355",
+        "location": "USA - California - Santa Clara",
+        "country": "USA"
+      },
+      {
+        "company": "Hcsc",
+        "role": "Enterprise Data Analyst Specialist",
+        "link": "https://hcsc.wd1.myworkdayjobs.com/hcsc_external/job/National-Remote/Enterprise-Data-Analyst-Specilaist_R0056250-1",
+        "location": "National Remote",
+        "country": "Unsure"
+      },
+      {
+        "company": "Highmarkhealth",
+        "role": "Site Reliability Engineer",
+        "link": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Site-Reliability-Engineer_J290565",
+        "location": "51 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Hitachi",
+        "role": "Data Analyst",
+        "link": "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Norman-Oklahoma-United-States/Data-Analyst_R0150190",
+        "location": "Norman, Oklahoma, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Hpe",
+        "role": "Software Quality Engineer",
+        "link": "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Aguadilla-Puerto-Rico-Puerto-Rico/Principal-Cloud-Developer-in-Test_1189841-4",
+        "location": "Aguadilla, Puerto Rico, Puerto Rico",
+        "country": "USA"
+      }
+    ]
+  },
+  {
+    "name": "batches/6nmxm9n5p980ofm04m7nwdev4yv81yw6lrji",
+    "submittedAt": "2026-10-30T01:00:54.806Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Humana",
+        "role": "AI Engineer",
+        "link": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Louisville-KY/AI-Engineer_R-434028",
+        "location": "6 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Kaiserpermanente",
+        "role": "R and Python Programmer / Data Scientist, Epidemiologic Research (Durational with Benefits) Pasadena, CA, Flexible, Regular, Full-time, Day shift, 40 hours",
+        "link": "https://www.kaiserpermanentejobs.org/job/pasadena/r-and-python-programmer-data-scientist-epidemiologic-research-durational-with-benefits/641/102615074000",
+        "location": "Pasadena, CA, Flexible, Regular, Full-time, Day shift, 40 hours",
+        "country": "USA"
+      },
+      {
+        "company": "Llnl",
+        "role": "Geographic Information System Software Developer",
+        "link": "https://jobs.smartrecruiters.com/LLNL/3743990016514176",
+        "location": "Livermore, CA, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Micron",
+        "role": "New College Grad - Data Scientist, AI for Business Functions",
+        "link": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/New-College-Grad---Data-Scientist--AI-for-Business-Functions_JR115682",
+        "location": "Boise, ID - Main Site",
+        "country": "USA"
+      },
+      {
+        "company": "Motorolasolutions",
+        "role": "Systems Engineer",
+        "link": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Texas-Remote-Work/Systems-Engineer_R69089",
+        "location": "Texas Remote Work",
+        "country": "USA"
+      },
+      {
+        "company": "Ngc",
+        "role": "2027 Systems Engineering Intern - Boulder CO",
+        "link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Boulder/XMLNAME-2027-Systems-Engineering-Intern---Boulder-CO_R10258456-1",
+        "location": "United States-Colorado-Boulder",
+        "country": "USA"
+      },
+      {
+        "company": "Ngc",
+        "role": "Systems Test Engineer 4",
+        "link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Sunnyvale/Systems-Test-Engineer-4_R10258453",
+        "location": "United States-California-Sunnyvale",
+        "country": "USA"
+      },
+      {
+        "company": "Ngc",
+        "role": "Computer Systems Analyst - 19133 - Roy Utah",
+        "link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/Computer-Operations-Analyst-2---19133---Roy-Utah_R10244001",
+        "location": "United States-Utah-Roy",
+        "country": "USA"
+      },
+      {
+        "company": "Northwoodspace",
+        "role": "Software Engineer, Platform (Early Career)",
+        "link": "https://jobs.ashbyhq.com/NorthwoodSpace/f7b9e8d5-7368-4a54-b445-ff647f12b1b6",
+        "location": "Torrance, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Everpure",
+        "role": "AI Enablement Engineer",
+        "link": "https://job-boards.greenhouse.io/purestorage/jobs/8331163",
+        "location": "Santa Clara, California",
+        "country": "USA"
+      },
+      {
+        "company": "Qualcomm",
+        "role": "5G/6G System Integration & Test Engineer",
+        "link": "https://qualcomm.eightfold.ai/careers/job/446721855913?domain=qualcomm.com&8fold_id=446721855913",
+        "location": "San Diego, California, United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "Rtx",
+        "role": "Systems Engineer I- Onsite",
+        "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Systems-Engineer-I_01874215",
+        "location": "US-MA-TEWKSBURY-TB1 ~ 50 Apple Hill Dr ~ ASSABET BLDG",
+        "country": "USA"
+      },
+      {
+        "company": "Rtx",
+        "role": "Systems Engineer I",
+        "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA1--1001-Boston-Post-Rd--BLDG-1/Systems-Engineer-I_01866673",
+        "location": "US-MA-MARLBOROUGH-MA1 ~ 1001 Boston Post Rd ~ BLDG 1",
+        "country": "USA"
+      },
+      {
+        "company": "Rtx",
+        "role": "Sr Engineer, Applied Machine Learning (Onsite)",
+        "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-OH-TROY-101--101-Waco-St--WACO/Sr-Engineer--Applied-Machine-Learning--Onsite-_01884341",
+        "location": "US-OH-TROY-101 ~ 101 Waco St ~ WACO",
+        "country": "USA"
+      },
+      {
+        "company": "Salesforce",
+        "role": "Systems Engineer (Level 6 or 7)",
+        "link": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Texas---Dallas/Systems-Engineer--Level-6-or-7-_JR366398",
+        "location": "3 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Salesforce",
+        "role": "Systems Engineer / Level 6 or Level 7",
+        "link": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Texas---Dallas/Systems-Engineer--lLevel-6---7-_JR366389",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Salesforce",
+        "role": "Business Development Representative – Data Foundation (Chicago)",
+        "link": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Illinois---Chicago/Business-Development-Representative---Data-Foundation--Chicago-_JR366001",
+        "location": "Illinois - Chicago",
+        "country": "USA"
+      },
+      {
+        "company": "Samsung Semiconductor",
+        "role": "Intern, Systems Software Engineering",
+        "link": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8046887003",
+        "location": "San Jose, California, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Selinc",
+        "role": "Software Engineer",
+        "link": "https://selinc.wd1.myworkdayjobs.com/SEL/job/Washington---Pullman/Software-Engineer_2026-24389",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Spectrum",
+        "role": "2027 Summer Intern: Security Engineer Greenwood Village, CO 10/29/2026",
+        "link": "https://jobs.spectrum.com/job/greenwood-village/2027-summer-intern-security-engineer/4673/100143766832",
+        "location": "Greenwood Village, CO",
+        "country": "USA"
+      },
+      {
+        "company": "Spectrum",
+        "role": "2027 Summer Intern: Software Engineer Maryland Heights, MO 10/29/2026",
+        "link": "https://jobs.spectrum.com/job/maryland-heights/2027-summer-intern-software-engineer/4673/100133775792",
+        "location": "Maryland Heights, MO",
+        "country": "USA"
+      },
+      {
+        "company": "Spectrum",
+        "role": "2027 Summer Intern: Software Engineer Town and Country, MO 10/29/2026",
+        "link": "https://jobs.spectrum.com/job/town-and-country/2027-summer-intern-software-engineer/4673/100143762416",
+        "location": "Town and Country, MO",
+        "country": "USA"
+      },
+      {
+        "company": "Texas Instruments",
+        "role": "Software Engineer | Aerospace & Defense",
+        "link": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25019254",
+        "location": "Dallas, TX, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Tmobile",
+        "role": "Engineer, Software - Core & IP Services Automation",
+        "link": "https://tmobile.wd1.myworkdayjobs.com/external/job/Bellevue-Washington/Engineer--Software---Core---IP-Services-Automation_REQ366778-1",
+        "location": "Bellevue, Washington",
+        "country": "USA"
+      },
+      {
+        "company": "Tsc",
+        "role": "Junior Software Engineer (UAS)",
+        "link": "https://tsc.wd12.myworkdayjobs.com/TSC-Careers/job/Arlington-VA/Junior-Software-Engineer--UAS-_JR2896",
+        "location": "Arlington, VA",
+        "country": "USA"
+      },
+      {
+        "company": "Usbank",
+        "role": "Security Automation Engineer - Python",
+        "link": "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Minneapolis-MN/Security-Automation-Engineer---Python_2026-0034083-1",
+        "location": "3 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Wadetrim",
+        "role": "Information Security IAM Engineer - #3073",
+        "link": "https://jobs.lever.co/wadetrim/de66709f-ee22-4e26-ac81-22d30cdf6309",
+        "location": "Detroit, MI",
+        "country": "USA"
+      },
+      {
+        "company": "Zocdoc",
+        "role": "Data Scientist",
+        "link": "https://job-boards.greenhouse.io/zocdoc/jobs/8335345",
+        "location": "New York, NY",
+        "country": "USA"
+      },
+      {
+        "company": "Zoox",
+        "role": "Contract Student Worker - Software Engineer (40 hrs/wk)",
+        "link": "https://jobs.lever.co/zoox/67982bee-811b-453b-8596-b53c13f7a78d",
+        "location": "Foster City, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Zoox",
+        "role": "Systems Engineer, Motion Controls Safety",
+        "link": "https://jobs.lever.co/zoox/6e2c1641-a814-43ad-a807-34f585a35fd9",
+        "location": "Foster City, CA",
+        "country": "USA"
+      }
+    ]
+  }
+]
