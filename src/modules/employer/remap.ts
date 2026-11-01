@@ -17,6 +17,23 @@ function tenantHintFromUrl(url: URL): string | undefined {
 }
 
 /**
+ * Display name for a link that already belongs to a stored employer.
+ * Returns null when the URL does not match one.
+ */
+export function knownEmployerName(
+  link: string,
+  companiesByKey: ReadonlyMap<string, Company>
+): string | null {
+  try {
+    const url = new URL(link);
+    const company = companiesByKey.get(employers[classifyATS(url)].companyKeyFromUrl(url));
+    return company ? capitalize(company.name) : null;
+  } catch {
+    return null;
+  }
+}
+
+/**
  * Rewrite a stored company label after an identifier remap.
  * Only rows whose company still matches the URL tenant, slug, identifier, or
  * hostname change (e.g. globalhr → Rtx).

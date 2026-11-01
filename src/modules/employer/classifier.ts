@@ -2,6 +2,8 @@ import type { ATS } from "./type";
 
 import { isRadancyUrl } from "./shared/radancy";
 
+import { getHostnameWithoutWww } from "@/utils/url";
+
 const hostToATS: Record<string, ATS> = {
   "stripe.com": "greenhouse",
   "deere.com": "greenhouse",
@@ -12,8 +14,9 @@ export function classifyATS(url: URL): ATS {
   const host = url.hostname;
 
   // end with a known ATS
-  if (hostToATS[host]) {
-    return hostToATS[host];
+  const listedHost = hostToATS[host] ?? hostToATS[getHostnameWithoutWww(url)];
+  if (listedHost) {
+    return listedHost;
   }
 
   if (host.endsWith("greenhouse.io")) {

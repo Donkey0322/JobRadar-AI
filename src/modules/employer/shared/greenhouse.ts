@@ -40,6 +40,92 @@ function mappedIdentifier(host: string): string | undefined {
   }
 }
 
+export interface GreenhousePostingRef {
+  board: string | null;
+  jobId: string;
+}
+
+function cleanBoard(value: string | undefined): string | null {
+  if (!value) return null;
+
+  let board: string;
+  try {
+    board = decodeURIComponent(value);
+  } catch {
+    board = value;
+  }
+
+  if (!board || board === "embed") return null;
+  return board;
+}
+
+/** Long requisition id at the end of a career slug, such as `...-start-6865704002`. */
+function slugJobId(pageUrl: string): string | null {
+  try {
+    const slug = new URL(pageUrl).pathname.split("/").filter(Boolean).at(-1);
+    return slug?.match(/-(\d{7,})$/)?.[1] ?? null;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Read a Greenhouse board and job id from a career page.
+ * A trailing slug number counts only after the HTML shows this page is Greenhouse.
+ */
+export function greenhousePostingFromHtml(
+  pageUrl: string,
+  html: string
+): GreenhousePostingRef | null {
+  const pairs: Array<{ board: string; jobId: string }> = [];
+  const jobUrl = /https?:\/\/(?:job-boards|boards)\.greenhouse\.io\/([^/?#'"\s]+)\/jobs\/(\d+)/gi;
+  const apiJob = /boards-api\.greenhouse\.io\/v1\/boards\/([^/"'?#\s]+)\/jobs\/(\d+)/gi;
+
+  for (const match of html.matchAll(jobUrl)) {
+    const board = cleanBoard(match[1]);
+    if (board && match[2]) pairs.push({ board, jobId: match[2] });
+  }
+
+  for (const match of html.matchAll(apiJob)) {
+    const board = cleanBoard(match[1]);
+    if (board && match[2]) pairs.push({ board, jobId: match[2] });
+  }
+
+  const slugId = slugJobId(pageUrl);
+  const slugPair = slugId ? pairs.find((pair) => pair.jobId === slugId) : undefined;
+  if (slugPair) return slugPair;
+  if (pairs.length === 1) return pairs[0];
+
+  const board =
+    cleanBoard(
+      html.match(
+        /(?:boards|job-boards)(?:\.[a-z]+)?\.greenhouse\.io\/embed\/job_board\/(?:js)?\?for=([^"'&\s]+)/i
+      )?.[1]
+    ) ?? cleanBoard(html.match(/boards-api\.greenhouse\.io\/v1\/boards\/([^/"'?#\s]+)/i)?.[1]);
+  const ghJids = [...html.matchAll(/gh_jid=(\d+)/gi)]
+    .map((match) => match[1])
+    .filter((id): id is string => Boolean(id));
+  const confirmed = pairs.length > 0 || board !== null || ghJids.length > 0;
+  if (!confirmed) return null;
+
+  const jobId =
+    (slugId && ghJids.includes(slugId) ? slugId : undefined) ?? ghJids[0] ?? slugId ?? null;
+  if (!jobId) return null;
+
+  const boardForJob = pairs.find((pair) => pair.jobId === jobId)?.board ?? board;
+  return { board: boardForJob, jobId };
+}
+
+export function canonicalGreenhouseJobUrl(pageUrl: string, posting: GreenhousePostingRef): string {
+  if (posting.board) {
+    return `https://job-boards.greenhouse.io/${posting.board}/jobs/${posting.jobId}`;
+  }
+
+  const url = new URL(pageUrl);
+  url.searchParams.set("gh_jid", posting.jobId);
+  return url.toString();
+}
+
 export function isGreenhouseJobBoardHost(host: string) {
   return (
     host === "boards.greenhouse.io" ||

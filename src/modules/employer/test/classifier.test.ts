@@ -40,5 +40,12 @@ describe("classifyATS", () => {
 
   it("falls back to custom", () => {
     expect(classifyATS(new URL("https://careers.example.com/job/1"))).toBe("custom");
+    expect(
+      classifyATS(
+        new URL(
+          "https://www.databricks.com/company/careers/university-recruiting---engineering/software-engineer---new-grad-distributed-data-systems-2027-start-6865704002"
+        )
+      )
+    ).toBe("custom");
   });
 });
