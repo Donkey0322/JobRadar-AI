@@ -15,9 +15,11 @@ const identifierMap: Record<string, string> = {
   "dltrading.io": "confidentialsportstradingfirm",
   "duolingo.com": "duolingo",
   "getfiber.ai": "clerkie",
+  "konrad.com": "konradgroup",
   "mlb.com": "majorleaguebaseball",
   "pinterestcareers.com": "pinterest",
   "precisely.com": "preciselyusjobs",
+  "quantbot.com": "quantbot-technologies",
   "rentptr.com": "premiertruckrental",
   "solarwinds.com": "solarwinds",
   "squarepoint-capital.com": "squarepointcapital",
@@ -94,8 +96,15 @@ function greenhouseBoardFromHtml(html: string): string | null {
   );
   if (embedded) return embedded;
 
-  const api = cleanBoard(html.match(/boards-api\.greenhouse\.io\/v1\/boards\/([^/"'?#\s]+)/i)?.[1]);
+  const api = cleanBoard(
+    html.match(/boards-api\.greenhouse\.io\\?\/v1\\?\/boards\\?\/([^/"'?#\\\s]+)/i)?.[1]
+  );
   if (api) return api;
+
+  const token = cleanBoard(
+    html.match(/name=["']board_token["'][^>]*?\bvalue=["']([^"']+)["']/i)?.[1]
+  );
+  if (token) return token;
 
   return boardFromJsTemplate(html);
 }
@@ -119,8 +128,10 @@ export function greenhousePostingFromHtml(
   html: string
 ): GreenhousePostingRef | null {
   const pairs: Array<{ board: string; jobId: string }> = [];
-  const jobUrl = /https?:\/\/(?:job-boards|boards)\.greenhouse\.io\/([^/?#'"\s]+)\/jobs\/(\d+)/gi;
-  const apiJob = /boards-api\.greenhouse\.io\/v1\/boards\/([^/"'?#\s]+)\/jobs\/(\d+)/gi;
+  const jobUrl =
+    /https?:\\?\/\\?\/(?:job-boards|boards)\.greenhouse\.io\\?\/([^/?#'"\\\s]+)\\?\/jobs\\?\/(\d+)/gi;
+  const apiJob =
+    /boards-api\.greenhouse\.io\\?\/v1\\?\/boards\\?\/([^/"'?#\\\s]+)\\?\/jobs\\?\/(\d+)/gi;
 
   for (const match of html.matchAll(jobUrl)) {
     const board = cleanBoard(match[1]);
