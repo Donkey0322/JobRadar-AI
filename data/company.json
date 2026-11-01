@@ -12849,7 +12849,8 @@
       "https://careers.huntingtoningalls.com/job/Newport-News-ENGINEER-SOFTWARE-1-Virg/1440976000/?ats=successfactors",
       "https://careers.huntingtoningalls.com/job/Newport-News-ENGINEER-SOFTWARE-1-Virg/1440992800/?ats=successfactors",
       "https://careers.huntingtoningalls.com/job/Newport-News-SOFTWARE-ENGINEER-1-Virg/1408046100/?ats=successfactors",
-      "https://careers.huntingtoningalls.com/job/Newport-News-SOFTWARE-ENGINEER-1-Virg/1412050700/?ats=successfactors"
+      "https://careers.huntingtoningalls.com/job/Newport-News-SOFTWARE-ENGINEER-1-Virg/1412050700/?ats=successfactors",
+      "https://careers.huntingtoningalls.com/job/Newport-News-ENGINEER-SOFTWARE-1-Virg/1446380900/?ats=successfactors"
     ]
   },
   {
@@ -14915,6 +14916,16 @@
     "page": "https://cliftonlarsonallen.wd115.myworkdayjobs.com/wday/cxs/cliftonlarsonallen/CLA/jobs",
     "urls": [
       "https://cliftonlarsonallen.wd115.myworkdayjobs.com/en-US/CLA/details/Seasonal-Client-Services-Coordinator---Tax_R18389"
+    ]
+  },
+  {
+    "name": "clipboard",
+    "ats": "ashby",
+    "identifier": "clipboard",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/clipboard",
+    "urls": [
+      "https://jobs.ashbyhq.com/clipboard/b83ea62e-f143-4673-a741-3e98e7e083bd"
     ]
   },
   {
@@ -29201,7 +29212,8 @@
       "https://www.metacareers.com/profile/job_details/990953733995858",
       "https://www.metacareers.com/profile/job_details/991877626535287",
       "https://www.metacareers.com/profile/job_details/996030293506644",
-      "https://www.metacareers.com/profile/job_details/998357492128826"
+      "https://www.metacareers.com/profile/job_details/998357492128826",
+      "https://www.metacareers.com/jobs/2578176955882259"
     ]
   },
   {
@@ -40594,7 +40606,9 @@
     "identifier": "tesla.com",
     "domain": "https://www.tesla.com",
     "page": "",
-    "urls": []
+    "urls": [
+      "https://www.tesla.com/careers/search/job/249570"
+    ]
   },
   {
     "name": "tessera-labs",
@@ -42112,7 +42126,10 @@
       "https://lifeattiktok.com/search/7699008371693816069",
       "https://lifeattiktok.com/search/7699479125563738373",
       "https://lifeattiktok.com/search/7700820444199225653",
-      "https://lifeattiktok.com/search/7700828936843299125"
+      "https://lifeattiktok.com/search/7700828936843299125",
+      "https://lifeattiktok.com/search/7610543185362372917",
+      "https://lifeattiktok.com/search/7584179082162653445",
+      "https://lifeattiktok.com/search/7530513185797359880"
     ]
   },
   {
