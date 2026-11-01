@@ -339,3 +339,34 @@
 2026-11-01T12:33:30.630Z Workday: vhr-otsuka - 422 - Unprocessable Entity
 2026-11-01T12:33:30.630Z Workday: vhr-genband - 422 - Unprocessable Entity
 2026-11-01T12:33:32.777Z Ashby: whatnot - 404 - Not Found
+2026-11-01T13:23:32.962Z Workday: acehardware - 500 - Internal Server Error
+2026-11-01T13:23:37.500Z Lever: aofl - 404 - Not Found
+2026-11-01T13:23:49.145Z Lever: calstart - 404 - Not Found
+2026-11-01T13:23:57.031Z Workday: cff - 422 - Unprocessable Entity
+2026-11-01T13:23:59.239Z Workday: cliftonlarsonallen - 422 - Unprocessable Entity
+2026-11-01T13:24:00.306Z Workday: comcast - 422 - Unprocessable Entity
+2026-11-01T13:24:03.817Z Workday: dell - 422 - Unprocessable Entity
+2026-11-01T13:24:06.753Z Workday: elkay - 500 - Internal Server Error
+2026-11-01T13:24:07.562Z Greenhouse: equipmentshare - 404 - Not Found
+2026-11-01T13:24:13.327Z Workday: geico - 500 - Internal Server Error
+2026-11-01T13:24:14.617Z Workday: gtsgbu - 403 - Forbidden
+2026-11-01T13:24:18.194Z Greenhouse: hubspot - 404 - Not Found
+2026-11-01T13:24:19.516Z Workday: idexx - 422 - Unprocessable Entity
+2026-11-01T13:24:23.241Z Workday: kar - 422 - Unprocessable Entity
+2026-11-01T13:24:26.375Z Workday: liveramp - 403 - Forbidden
+2026-11-01T13:24:31.794Z Eightfold: mlp - 403 - FORBIDDEN
+2026-11-01T13:24:31.924Z Eightfold: microsoft - 429 - Too Many Requests
+2026-11-01T13:24:34.623Z Workday: nio - 422 - Unprocessable Entity
+2026-11-01T13:24:35.230Z Workday: nordstrom - 500 - Internal Server Error
+2026-11-01T13:24:36.943Z Workday: osv-rubicon - 422 - Unprocessable Entity
+2026-11-01T13:24:36.976Z Workday: osv-tifec - 422 - Unprocessable Entity
+2026-11-01T13:24:37.071Z Workday: otis - 422 - Unprocessable Entity
+2026-11-01T13:24:38.740Z Workday: plexus - 422 - Unprocessable Entity
+2026-11-01T13:24:42.972Z Workday: regions - 500 - Internal Server Error
+2026-11-01T13:24:47.466Z Workday: sallie-mae - 422 - Unprocessable Entity
+2026-11-01T13:24:47.893Z Lever: saronic - 404 - Not Found
+2026-11-01T13:24:51.561Z Workday: signetjewelers - 500 - Internal Server Error
+2026-11-01T13:24:54.680Z Lever: SprinterHealth - 404 - Not Found
+2026-11-01T13:25:02.675Z Workday: truist - 500 - Internal Server Error
+2026-11-01T13:25:05.656Z Workday: vhr-otsuka - 422 - Unprocessable Entity
+2026-11-01T13:25:05.894Z Workday: vhr-genband - 422 - Unprocessable Entity
