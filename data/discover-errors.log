@@ -192,3 +192,7 @@
 2026-10-13T08:50:50.688Z Workday: uhaul - 503 - Service Unavailable
 2026-10-13T08:51:19.425Z Workday: zayo - 500 - Internal Server Error
 2026-10-13T08:51:50.374Z Workday: costar - 500 - Internal Server Error
+2026-11-01T09:17:42.059Z Workday: acehardware - 500 - Internal Server Error
+2026-11-01T09:33:48.542Z Workday: liveramp - 403 - Forbidden
+2026-11-01T09:38:42.226Z Workday: osv-rubicon - 422 - Unprocessable Entity
+2026-11-01T09:41:18.192Z Workday: sallie-mae - 422 - Unprocessable Entity

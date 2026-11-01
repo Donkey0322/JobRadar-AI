@@ -19,12 +19,14 @@ function redirect(location: string) {
   });
 }
 
-function jobPage(title: string) {
+function jobPage(title: string, url?: string) {
   const copy = `${title}. Responsibilities. ${"Build and operate production services. ".repeat(20)}`;
-  return new Response(`<html><body><main>${copy}</main></body></html>`, {
+  const response = new Response(`<html><body><main>${copy}</main></body></html>`, {
     status: 200,
     statusText: "OK",
   });
+  if (url) Object.defineProperty(response, "url", { value: url });
+  return response;
 }
 
 describe("fetchCustomJD", () => {
@@ -69,6 +71,44 @@ describe("fetchCustomJD", () => {
       jd: null,
       error: JD_FETCH_ERROR.noData(),
     });
+  });
+
+  it("reads a job page that stays on the same posting", async () => {
+    vi.stubGlobal(
+      "fetch",
+      vi.fn().mockResolvedValue(jobPage("Software Engineer", "https://example.com/jobs/1"))
+    );
+
+    const result = await fetchCustomJD("https://example.com/jobs/1");
+
+    expect(result.error).toEqual(JD_FETCH_OK);
+    expect(result.jd).toContain("Responsibilities");
+  });
+
+  it("treats a redirect onto a different job key as no data", async () => {
+    vi.stubGlobal(
+      "fetch",
+      vi.fn().mockResolvedValue(
+        jobPage("Careers home", "https://boards.greenhouse.io/databricks")
+      )
+    );
+
+    const result = await fetchCustomJD("https://boards.greenhouse.io/databricks/jobs/6865704002");
+
+    expect(result).toEqual({
+      jd: null,
+      error: JD_FETCH_ERROR.noData(),
+    });
+  });
+
+  it("keeps a redirect that lands on the same job id", async () => {
+    const landed = "https://job-boards.greenhouse.io/databricks/jobs/6865704002";
+    vi.stubGlobal("fetch", vi.fn().mockResolvedValue(jobPage("Software Engineer", landed)));
+
+    const result = await fetchCustomJD("https://boards.greenhouse.io/databricks/jobs/6865704002");
+
+    expect(result.error).toEqual(JD_FETCH_OK);
+    expect(result.jd).toContain("Software Engineer");
   });
 
   it("reads a Radancy job page that stays on the posting", async () => {

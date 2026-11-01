@@ -14,6 +14,7 @@ import {
 } from "../text";
 
 import { fetchAppleJD } from "./apple";
+import { landedOnSameJob } from "./landed";
 import { fetchMetaJD } from "./meta";
 import { fetchNetflixJD } from "./netflix";
 import { fetchRadancyJobDocument } from "./radancy";
@@ -39,6 +40,24 @@ const JD_KEYWORDS = [
   "what you will do",
   "who you are",
 ];
+
+async function fetchJobDocument(
+  url: string,
+  signal: AbortSignal
+): Promise<{ response: Response; landedOnJob: boolean }> {
+  const response = await fetch(url, {
+    signal,
+    headers: {
+      "User-Agent": "Mozilla/5.0 (JD-Analyzer)",
+      "Accept-Encoding": "identity",
+    },
+  });
+
+  return {
+    response,
+    landedOnJob: landedOnSameJob(url, response.url),
+  };
+}
 
 function extractFallbackJD(html: string): string | null {
   const $ = cheerio.load(html);
@@ -124,16 +143,7 @@ export async function fetchCustomJD(
       default: {
         const document = isRadancyJobUrl(new URL(url))
           ? await fetchRadancyJobDocument(url, signal)
-          : {
-              response: await fetch(url, {
-                signal,
-                headers: {
-                  "User-Agent": "Mozilla/5.0 (JD-Analyzer)",
-                  "Accept-Encoding": "identity",
-                },
-              }),
-              landedOnJob: true,
-            };
+          : await fetchJobDocument(url, signal);
 
         if (!document.landedOnJob) {
           return { jd: null, error: JD_FETCH_ERROR.noData() };

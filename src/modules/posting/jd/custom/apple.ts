@@ -2,6 +2,8 @@ import { createJDFetchSignal } from "@/constants";
 
 import { JD_FETCH_ERROR, JD_FETCH_OK, type JDFetchResult } from "../fetch";
 
+import { landedOnSameJob } from "./landed";
+
 import { htmlToText } from "@/utils/string";
 
 const APPLE_HYDRATION_PATTERN =
@@ -221,6 +223,10 @@ export async function fetchAppleJD(
       jd: null,
       error: JD_FETCH_ERROR.http(res.status, res.statusText),
     };
+  }
+
+  if (!landedOnSameJob(url, res.url)) {
+    return { jd: null, error: JD_FETCH_ERROR.noData() };
   }
 
   const html = await res.text();
