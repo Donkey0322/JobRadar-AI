@@ -196,3 +196,109 @@
 2026-11-01T09:33:48.542Z Workday: liveramp - 403 - Forbidden
 2026-11-01T09:38:42.226Z Workday: osv-rubicon - 422 - Unprocessable Entity
 2026-11-01T09:41:18.192Z Workday: sallie-mae - 422 - Unprocessable Entity
+2026-11-01T11:18:03.369Z Greenhouse: ${BOARD} - 404 - Not Found
+2026-11-01T11:18:04.397Z Workday: acehardware - 500 - Internal Server Error
+2026-11-01T11:18:09.225Z Lever: aofl - 404 - Not Found
+2026-11-01T11:18:09.589Z Ashby: arch.co - 404 - Not Found
+2026-11-01T11:18:10.891Z Greenhouse: aurora - 404 - Not Found
+2026-11-01T11:18:13.513Z Ashby: beaconsoftware - 404 - Not Found
+2026-11-01T11:18:16.103Z Greenhouse: breezeairways - 404 - Not Found
+2026-11-01T11:18:17.924Z Lever: calstart - 404 - Not Found
+2026-11-01T11:18:19.024Z Greenhouse: carbonrobotics - 404 - Not Found
+2026-11-01T11:18:19.068Z Greenhouse: careers - 404 - Not Found
+2026-11-01T11:18:24.408Z Workday: cff - 422 - Unprocessable Entity
+2026-11-01T11:18:26.646Z Workday: cliftonlarsonallen - 422 - Unprocessable Entity
+2026-11-01T11:18:28.205Z Workday: comcast - 422 - Unprocessable Entity
+2026-11-01T11:18:32.079Z Workday: dell - 422 - Unprocessable Entity
+2026-11-01T11:18:35.265Z Workday: elkay - 500 - Internal Server Error
+2026-11-01T11:18:36.051Z Greenhouse: equipmentshare - 404 - Not Found
+2026-11-01T11:18:38.448Z Ashby: firetiger - 404 - Not Found
+2026-11-01T11:18:41.865Z Workday: geico - 500 - Internal Server Error
+2026-11-01T11:18:43.888Z Workday: gtsgbu - 403 - Forbidden
+2026-11-01T11:18:48.692Z Greenhouse: hubspot - 404 - Not Found
+2026-11-01T11:18:48.745Z Greenhouse: hudsonrivertrading - 404 - Not Found
+2026-11-01T11:18:50.115Z Workday: idexx - 422 - Unprocessable Entity
+2026-11-01T11:18:52.058Z Greenhouse: ixl - 404 - Not Found
+2026-11-01T11:18:52.198Z Greenhouse: jobs - 404 - Not Found
+2026-11-01T11:18:53.464Z Workday: kar - 422 - Unprocessable Entity
+2026-11-01T11:18:55.006Z Greenhouse: konrad - 404 - Not Found
+2026-11-01T11:18:56.391Z Workday: liveramp - 403 - Forbidden
+2026-11-01T11:18:56.998Z Ashby: luma-ai - 404 - Not Found
+2026-11-01T11:18:58.947Z Ashby: maximor - 404 - Not Found
+2026-11-01T11:19:01.321Z Eightfold: mlp - 403 - FORBIDDEN
+2026-11-01T11:19:04.080Z Workday: nio - 422 - Unprocessable Entity
+2026-11-01T11:19:04.468Z Workday: nordstrom - 500 - Internal Server Error
+2026-11-01T11:19:05.176Z Greenhouse: oldmissioncapital - 404 - Not Found
+2026-11-01T11:19:05.784Z Workday: osv-rubicon - 422 - Unprocessable Entity
+2026-11-01T11:19:05.798Z Workday: osv-tifec - 422 - Unprocessable Entity
+2026-11-01T11:19:05.800Z Workday: otis - 422 - Unprocessable Entity
+2026-11-01T11:19:07.729Z Workday: plexus - 422 - Unprocessable Entity
+2026-11-01T11:19:09.879Z Greenhouse: quantbot - 404 - Not Found
+2026-11-01T11:19:10.784Z Greenhouse: rdccareers - 404 - Not Found
+2026-11-01T11:19:11.940Z Workday: regions - 500 - Internal Server Error
+2026-11-01T11:19:12.663Z Greenhouse: revionics - 404 - Not Found
+2026-11-01T11:19:15.842Z Workday: sallie-mae - 422 - Unprocessable Entity
+2026-11-01T11:19:16.235Z Lever: saronic - 404 - Not Found
+2026-11-01T11:19:20.213Z Workday: signetjewelers - 500 - Internal Server Error
+2026-11-01T11:19:22.933Z Lever: SprinterHealth - 404 - Not Found
+2026-11-01T11:19:24.600Z Greenhouse: stepstonegroup - 404 - Not Found
+2026-11-01T11:19:25.979Z Workday: swa - 429 - Too Many Requests
+2026-11-01T11:19:26.099Z Workday: selinc - 429 - Too Many Requests
+2026-11-01T11:19:26.113Z Workday: swbc - 429 - Too Many Requests
+2026-11-01T11:19:26.114Z Workday: swbc - 429 - Too Many Requests
+2026-11-01T11:19:27.321Z Workday: tencent - 429 - Too Many Requests
+2026-11-01T11:19:27.333Z Workday: tencent - 429 - Too Many Requests
+2026-11-01T11:19:27.337Z Workday: tencent - 429 - Too Many Requests
+2026-11-01T11:19:28.804Z Ashby: tilderesearch - 404 - Not Found
+2026-11-01T11:19:30.963Z Workday: tti - 429 - Too Many Requests
+2026-11-01T11:19:31.025Z Workday: uhaul - 429 - Too Many Requests
+2026-11-01T11:19:31.039Z Workday: uline - 429 - Too Many Requests
+2026-11-01T11:19:31.078Z Workday: umd - 429 - Too Many Requests
+2026-11-01T11:19:31.326Z Workday: truist - 500 - Internal Server Error
+2026-11-01T11:19:31.344Z Workday: usaa - 429 - Too Many Requests
+2026-11-01T11:19:31.437Z Workday: usbank - 429 - Too Many Requests
+2026-11-01T11:19:31.720Z Workday: usventure - 429 - Too Many Requests
+2026-11-01T11:19:33.552Z Workday: vhr-genband - 422 - Unprocessable Entity
+2026-11-01T11:19:33.571Z Workday: vhr-otsuka - 422 - Unprocessable Entity
+2026-11-01T11:19:33.588Z Workday: viavisolutions - 429 - Too Many Requests
+2026-11-01T11:19:33.779Z Greenhouse: visiersolutionsinc - 404 - Not Found
+2026-11-01T11:19:35.753Z Ashby: whatnot - 404 - Not Found
+2026-11-01T11:19:36.692Z Greenhouse: x - 404 - Not Found
+2026-11-01T12:23:24.314Z Workday: acehardware - 500 - Internal Server Error
+2026-11-01T12:23:28.713Z Lever: aofl - 404 - Not Found
+2026-11-01T12:23:34.028Z Ashby: beaconsoftware - 404 - Not Found
+2026-11-01T12:23:41.029Z Lever: calstart - 404 - Not Found
+2026-11-01T12:23:41.997Z Greenhouse: carbonrobotics - 404 - Not Found
+2026-11-01T12:23:48.055Z Workday: cff - 422 - Unprocessable Entity
+2026-11-01T12:23:50.561Z Workday: cliftonlarsonallen - 422 - Unprocessable Entity
+2026-11-01T12:23:51.632Z Workday: comcast - 422 - Unprocessable Entity
+2026-11-01T12:23:54.581Z Workday: dell - 422 - Unprocessable Entity
+2026-11-01T12:23:57.448Z Workday: elkay - 500 - Internal Server Error
+2026-11-01T12:23:58.041Z Greenhouse: equipmentshare - 404 - Not Found
+2026-11-01T12:24:00.225Z Ashby: firetiger - 404 - Not Found
+2026-11-01T12:24:03.596Z Workday: geico - 500 - Internal Server Error
+2026-11-01T12:24:05.272Z Workday: gtsgbu - 403 - Forbidden
+2026-11-01T12:24:08.818Z Greenhouse: hubspot - 404 - Not Found
+2026-11-01T12:24:10.316Z Workday: idexx - 422 - Unprocessable Entity
+2026-11-01T12:24:13.866Z Workday: kar - 422 - Unprocessable Entity
+2026-11-01T12:24:16.820Z Workday: liveramp - 403 - Forbidden
+2026-11-01T12:24:17.689Z Ashby: luma-ai - 404 - Not Found
+2026-11-01T12:24:19.634Z Ashby: maximor - 404 - Not Found
+2026-11-01T12:24:21.928Z Eightfold: mlp - 403 - FORBIDDEN
+2026-11-01T12:24:25.135Z Workday: nio - 422 - Unprocessable Entity
+2026-11-01T12:24:25.407Z Workday: nordstrom - 500 - Internal Server Error
+2026-11-01T12:24:26.215Z Greenhouse: oldmissioncapital - 404 - Not Found
+2026-11-01T12:24:26.778Z Workday: osv-rubicon - 422 - Unprocessable Entity
+2026-11-01T12:24:26.878Z Workday: osv-tifec - 422 - Unprocessable Entity
+2026-11-01T12:24:26.929Z Workday: otis - 422 - Unprocessable Entity
+2026-11-01T12:24:28.563Z Workday: plexus - 422 - Unprocessable Entity
+2026-11-01T12:24:33.137Z Workday: regions - 500 - Internal Server Error
+2026-11-01T12:24:36.948Z Workday: sallie-mae - 422 - Unprocessable Entity
+2026-11-01T12:24:37.349Z Lever: saronic - 404 - Not Found
+2026-11-01T12:24:41.024Z Workday: signetjewelers - 500 - Internal Server Error
+2026-11-01T12:24:43.614Z Lever: SprinterHealth - 404 - Not Found
+2026-11-01T12:24:50.021Z Ashby: tilderesearch - 404 - Not Found
+2026-11-01T12:24:52.528Z Workday: truist - 500 - Internal Server Error
+2026-11-01T12:24:55.659Z Workday: vhr-genband - 422 - Unprocessable Entity
+2026-11-01T12:24:55.942Z Workday: vhr-otsuka - 422 - Unprocessable Entity
+2026-11-01T12:24:58.323Z Ashby: whatnot - 404 - Not Found

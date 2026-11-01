@@ -11786,16 +11786,6 @@
     ]
   },
   {
-    "name": "carbonrobotics",
-    "ats": "greenhouse",
-    "identifier": "carbonrobotics",
-    "domain": "https://carbonrobotics.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/carbonrobotics/jobs",
-    "urls": [
-      "https://carbonrobotics.com/job-openings?gh_jid=4721558006"
-    ]
-  },
-  {
     "name": "cardinalhealth",
     "ats": "workday",
     "identifier": "cardinalhealth-ext",
@@ -32225,18 +32215,6 @@
     ]
   },
   {
-    "name": "oldmissioncapital",
-    "ats": "greenhouse",
-    "identifier": "oldmissioncapital",
-    "domain": "https://www.oldmissioncapital.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/oldmissioncapital/jobs",
-    "urls": [
-      "https://www.oldmissioncapital.com/careers/?gh_jid=5607344003",
-      "https://www.oldmissioncapital.com/careers/?gh_jid=6107903003",
-      "https://www.oldmissioncapital.com/careers/?gh_jid=7796180003"
-    ]
-  },
-  {
     "name": "olix",
     "ats": "ashby",
     "identifier": "olix",
@@ -35910,7 +35888,24 @@
     "domain": "https://careers.roblox.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs",
     "urls": [
-      "https://careers.roblox.com/jobs/8242619?gh_jid=8242619"
+      "https://careers.roblox.com/jobs/8242619?gh_jid=8242619",
+      "https://careers.roblox.com/jobs/8072244?gh_jid=8072244",
+      "https://careers.roblox.com/jobs/8209006?gh_jid=8209006",
+      "https://careers.roblox.com/jobs/8283641?gh_jid=8283641",
+      "https://careers.roblox.com/jobs/8168881?gh_jid=8168881",
+      "https://careers.roblox.com/jobs/8159857?gh_jid=8159857",
+      "https://careers.roblox.com/jobs/8304210?gh_jid=8304210",
+      "https://careers.roblox.com/jobs/8171506?gh_jid=8171506",
+      "https://careers.roblox.com/jobs/8226958?gh_jid=8226958",
+      "https://careers.roblox.com/jobs/8159854?gh_jid=8159854",
+      "https://careers.roblox.com/jobs/8123004?gh_jid=8123004",
+      "https://careers.roblox.com/jobs/8259453?gh_jid=8259453",
+      "https://careers.roblox.com/jobs/8171283?gh_jid=8171283",
+      "https://careers.roblox.com/jobs/8261393?gh_jid=8261393",
+      "https://careers.roblox.com/jobs/8283707?gh_jid=8283707",
+      "https://careers.roblox.com/jobs/8262223?gh_jid=8262223",
+      "https://careers.roblox.com/jobs/8229705?gh_jid=8229705",
+      "https://careers.roblox.com/jobs/8072713?gh_jid=8072713"
     ]
   },
   {
@@ -44615,7 +44610,34 @@
     "identifier": "wehrtyou",
     "domain": "https://www.hudsonrivertrading.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/wehrtyou/jobs",
-    "urls": []
+    "urls": [
+      "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7972593",
+      "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7972584",
+      "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8161767",
+      "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8161770",
+      "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8234195",
+      "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8257369",
+      "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8249942",
+      "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7162019",
+      "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8046074",
+      "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8244346",
+      "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8160721",
+      "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7938792",
+      "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7392942",
+      "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052122",
+      "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7566004",
+      "https://www.hudsonrivertrading.com/careers/job/?gh_jid=6703954",
+      "https://www.hudsonrivertrading.com/careers/job/?gh_jid=6703952",
+      "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7610947",
+      "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
+      "https://www.hudsonrivertrading.com/careers/job/?gh_jid=6345536",
+      "https://www.hudsonrivertrading.com/careers/job/?gh_jid=1229082",
+      "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7398013",
+      "https://www.hudsonrivertrading.com/careers/job/?gh_jid=4374565",
+      "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7647727",
+      "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8210349",
+      "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8046163"
+    ]
   },
   {
     "name": "wellington",
