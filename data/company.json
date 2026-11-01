@@ -13191,7 +13191,10 @@
       "https://careers.jhuapl.edu/jobs/59974?icims=1",
       "https://careers.jhuapl.edu/jobs/60114?icims=1",
       "https://careers.jhuapl.edu/jobs/60116?icims=1",
-      "https://careers.jhuapl.edu/jobs/60223?icims=1"
+      "https://careers.jhuapl.edu/jobs/60223?icims=1",
+      "https://careers.jhuapl.edu/jobs/60601",
+      "https://careers.jhuapl.edu/jobs/60115",
+      "https://careers.jhuapl.edu/jobs/60384"
     ]
   },
   {
@@ -14809,7 +14812,9 @@
       "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Milpitas-California-US/Sr-Software-Engineer--Routing-Platform---Infrastructure_2022971-1",
       "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Technical-Leader---Network-Data-Plane---Hypershield_2025874",
       "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Stockholm-Sweden/Software-Engineer_2020686",
-      "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Stockholm-Sweden/Software-Engineering-Technical-Leader_2018789"
+      "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Stockholm-Sweden/Software-Engineering-Technical-Leader_2018789",
+      "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/RTP-North-Carolina-US/Security-Consulting-Engineer-I--Intern----United-States_2024817",
+      "https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/Richardson-Texas-US/Software-QA-Engineer-I--Full-Time----United-States_2030253"
     ]
   },
   {
@@ -15340,7 +15345,9 @@
     "identifier": "cmu-cmu",
     "domain": "https://cmu.wd5.myworkdayjobs.com/cmu",
     "page": "https://cmu.wd5.myworkdayjobs.com/wday/cxs/cmu/cmu/jobs",
-    "urls": []
+    "urls": [
+      "https://cmu.wd115.myworkdayjobs.com/CMU/job/Pittsburgh-PA/Full-Stack-Software-Development-Intern_2025287-1"
+    ]
   },
   {
     "name": "cna",
@@ -21550,7 +21557,9 @@
       "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Taubate/Field-Service-Engineer---Automation--Protection---Control-Systems--Taubat-SP-_R5052019",
       "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Taubate/Field-Service-Engineer---Automation--Protection---Control-Systems--Taubat-SP-_R5052021-1",
       "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Vadodara/Engineer---Control-System_R5052035-2",
-      "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Zamudio/Protection---Control-Systems-Engineer--GRID-AUTOMATION-_R5051547-2"
+      "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Zamudio/Protection---Control-Systems-Engineer--GRID-AUTOMATION-_R5051547-2",
+      "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Greenville/GE-Vernova-AI-Engineer_R5057133-2",
+      "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Greenville/GE-Vernova-Data-Scientist_R5057035-2"
     ]
   },
   {
@@ -21813,151 +21822,6 @@
       "https://gnw.wd1.myworkdayjobs.com/GNW/job/Remote-US/Data-Analyst_REQ-260404-1",
       "https://gnw.wd1.myworkdayjobs.com/GNW/job/Richmond-Virginia/Platform-Engineer--Azure---DevOps_REQ-260246",
       "https://gnw.wd1.myworkdayjobs.com/GNW/job/Stamford-Connecticut/AI-Solutions-Engineer_REQ-260351-1"
-    ]
-  },
-  {
-    "name": "go.vansh.nyc",
-    "ats": "custom",
-    "identifier": "go.vansh.nyc",
-    "domain": "https://go.vansh.nyc",
-    "page": "",
-    "urls": [
-      "https://go.vansh.nyc/10A?s=z",
-      "https://go.vansh.nyc/10X?s=y",
-      "https://go.vansh.nyc/10Y?s=y",
-      "https://go.vansh.nyc/10Z?s=y",
-      "https://go.vansh.nyc/10c?s=A",
-      "https://go.vansh.nyc/10d?s=A",
-      "https://go.vansh.nyc/10e?s=A",
-      "https://go.vansh.nyc/10f?s=A",
-      "https://go.vansh.nyc/10j?s=A",
-      "https://go.vansh.nyc/10l?s=y",
-      "https://go.vansh.nyc/10n?s=y",
-      "https://go.vansh.nyc/10o?s=y",
-      "https://go.vansh.nyc/10p?s=y",
-      "https://go.vansh.nyc/10v?s=z",
-      "https://go.vansh.nyc/10x?s=y",
-      "https://go.vansh.nyc/10z?s=y",
-      "https://go.vansh.nyc/111?s=y",
-      "https://go.vansh.nyc/113?s=y",
-      "https://go.vansh.nyc/11D?s=A",
-      "https://go.vansh.nyc/11G?s=A",
-      "https://go.vansh.nyc/11I?s=y",
-      "https://go.vansh.nyc/11c?s=A",
-      "https://go.vansh.nyc/11g?s=y",
-      "https://go.vansh.nyc/11i?s=A",
-      "https://go.vansh.nyc/11r?s=A",
-      "https://go.vansh.nyc/11w?s=z",
-      "https://go.vansh.nyc/125?s=y",
-      "https://go.vansh.nyc/12g?s=y",
-      "https://go.vansh.nyc/13O?s=A",
-      "https://go.vansh.nyc/13P?s=A",
-      "https://go.vansh.nyc/13Q?s=A",
-      "https://go.vansh.nyc/13R?s=A",
-      "https://go.vansh.nyc/13S?s=A",
-      "https://go.vansh.nyc/13T?s=A",
-      "https://go.vansh.nyc/13U?s=A",
-      "https://go.vansh.nyc/BD?s=z",
-      "https://go.vansh.nyc/BE?s=z",
-      "https://go.vansh.nyc/BF?s=z",
-      "https://go.vansh.nyc/BJ?s=A",
-      "https://go.vansh.nyc/BP?s=y",
-      "https://go.vansh.nyc/CS?s=y",
-      "https://go.vansh.nyc/Qs?s=y",
-      "https://go.vansh.nyc/SB?s=y",
-      "https://go.vansh.nyc/SI?s=y",
-      "https://go.vansh.nyc/SJ?s=y",
-      "https://go.vansh.nyc/SK?s=y",
-      "https://go.vansh.nyc/SN?s=y",
-      "https://go.vansh.nyc/SR?s=y",
-      "https://go.vansh.nyc/SS?s=y",
-      "https://go.vansh.nyc/SV?s=y",
-      "https://go.vansh.nyc/SX?s=y",
-      "https://go.vansh.nyc/SY?s=y",
-      "https://go.vansh.nyc/SZ?s=y",
-      "https://go.vansh.nyc/Sj?s=y",
-      "https://go.vansh.nyc/Sy?s=y",
-      "https://go.vansh.nyc/T0?s=y",
-      "https://go.vansh.nyc/T1?s=z",
-      "https://go.vansh.nyc/Ta?s=y",
-      "https://go.vansh.nyc/Tb?s=y",
-      "https://go.vansh.nyc/Tc?s=y",
-      "https://go.vansh.nyc/Tf?s=y",
-      "https://go.vansh.nyc/Tg?s=y",
-      "https://go.vansh.nyc/Ti?s=z",
-      "https://go.vansh.nyc/Tj?s=A",
-      "https://go.vansh.nyc/UA?s=y",
-      "https://go.vansh.nyc/UB?s=z",
-      "https://go.vansh.nyc/UC?s=y",
-      "https://go.vansh.nyc/UE?s=A",
-      "https://go.vansh.nyc/Uz?s=y",
-      "https://go.vansh.nyc/VB?s=y",
-      "https://go.vansh.nyc/VC?s=y",
-      "https://go.vansh.nyc/VK?s=A",
-      "https://go.vansh.nyc/VL?s=A",
-      "https://go.vansh.nyc/VM?s=y",
-      "https://go.vansh.nyc/VO?s=y",
-      "https://go.vansh.nyc/VP?s=y",
-      "https://go.vansh.nyc/VQ?s=y",
-      "https://go.vansh.nyc/VR?s=y",
-      "https://go.vansh.nyc/VW?s=y",
-      "https://go.vansh.nyc/VY?s=y",
-      "https://go.vansh.nyc/Vn?s=A",
-      "https://go.vansh.nyc/Vq?s=A",
-      "https://go.vansh.nyc/Vr?s=A",
-      "https://go.vansh.nyc/Vu?s=y",
-      "https://go.vansh.nyc/Vx?s=y",
-      "https://go.vansh.nyc/Vy?s=y",
-      "https://go.vansh.nyc/Vz?s=y",
-      "https://go.vansh.nyc/WB?s=A",
-      "https://go.vansh.nyc/WH?s=A",
-      "https://go.vansh.nyc/WJ?s=A",
-      "https://go.vansh.nyc/WP?s=y",
-      "https://go.vansh.nyc/WS?s=y",
-      "https://go.vansh.nyc/WU?s=y",
-      "https://go.vansh.nyc/WW?s=y",
-      "https://go.vansh.nyc/Wd?s=y",
-      "https://go.vansh.nyc/Wj?s=y",
-      "https://go.vansh.nyc/Wo?s=A",
-      "https://go.vansh.nyc/Wr?s=y",
-      "https://go.vansh.nyc/Wt?s=A",
-      "https://go.vansh.nyc/X2?s=A",
-      "https://go.vansh.nyc/XB?s=y",
-      "https://go.vansh.nyc/XJ?s=A",
-      "https://go.vansh.nyc/XK?s=A",
-      "https://go.vansh.nyc/XL?s=z",
-      "https://go.vansh.nyc/XU?s=y",
-      "https://go.vansh.nyc/XV?s=y",
-      "https://go.vansh.nyc/XZ?s=z",
-      "https://go.vansh.nyc/Xo?s=y",
-      "https://go.vansh.nyc/Xp?s=y",
-      "https://go.vansh.nyc/Xr?s=y",
-      "https://go.vansh.nyc/Xv?s=y",
-      "https://go.vansh.nyc/Xx?s=y",
-      "https://go.vansh.nyc/Y1?s=y",
-      "https://go.vansh.nyc/Y2?s=y",
-      "https://go.vansh.nyc/YG?s=A",
-      "https://go.vansh.nyc/YI?s=A",
-      "https://go.vansh.nyc/YT?s=A",
-      "https://go.vansh.nyc/YU?s=y",
-      "https://go.vansh.nyc/YV?s=z",
-      "https://go.vansh.nyc/YW?s=y",
-      "https://go.vansh.nyc/Yh?s=y",
-      "https://go.vansh.nyc/Yn?s=A",
-      "https://go.vansh.nyc/Yw?s=y",
-      "https://go.vansh.nyc/Z3?s=y",
-      "https://go.vansh.nyc/ZK?s=y",
-      "https://go.vansh.nyc/ZO?s=A",
-      "https://go.vansh.nyc/ZP?s=A",
-      "https://go.vansh.nyc/ZQ?s=A",
-      "https://go.vansh.nyc/ZR?s=A",
-      "https://go.vansh.nyc/Zg?s=y",
-      "https://go.vansh.nyc/Zn?s=A",
-      "https://go.vansh.nyc/Zp?s=A",
-      "https://go.vansh.nyc/Zr?s=y",
-      "https://go.vansh.nyc/Zv?s=A",
-      "https://go.vansh.nyc/Zy?s=y",
-      "https://go.vansh.nyc/wL?s=A"
     ]
   },
   {
@@ -24922,7 +24786,8 @@
       "https://intel.wd1.myworkdayjobs.com/external/job/Virtual-Canada/AI-and-Compiler-Engineering-Graduate-Intern_JR0286850",
       "https://intel.wd1.myworkdayjobs.com/external/job/Virtual-Canada/System-Simulation-Engineering-CO-OP_JR0287122",
       "https://intel.wd1.myworkdayjobs.com/external/job/Virtual-Germany/AI-RnD-Engineer--XeSS-and-Neural-Graphics--f-m-d-_JR0286970-1",
-      "https://intel.wd1.myworkdayjobs.com/external/job/Virtual-US/Information-Security-Engineer_JR0287278"
+      "https://intel.wd1.myworkdayjobs.com/external/job/Virtual-US/Information-Security-Engineer_JR0287278",
+      "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/Software-Application-Development-Engineer_JR0288523"
     ]
   },
   {
@@ -26242,7 +26107,9 @@
       "https://jobs.l3harris.com/job/Waterdown-Software-Engineering-Co-Op-(Waterdown,-CAN)-ON-L9H-0C5/1432400300/?ats=successfactors",
       "https://jobs.l3harris.com/job/Waterdown-Systems-Engineering-Test-Co-Op-(Waterdown,-CAN)-ON-L9H-0C5/1434804100/?ats=successfactors",
       "https://jobs.l3harris.com/job/Wilmington-Intern,-Software-Engineer-MA-01887/1425515000/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Wilmington-Intern-D,-Software-Engineer-MA-01887/1422529400/?ats=successfactors"
+      "https://jobs.l3harris.com/job/Wilmington-Intern-D,-Software-Engineer-MA-01887/1422529400/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Rockwall-Intern,-Software-Engineer-TX-75032/1443682400/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Carlsbad-Software-Engineering-Intern-(Carlsbad,-CA)-CA-92009/1444689600/?ats=successfactors"
     ]
   },
   {
@@ -27751,7 +27618,8 @@
       "https://leidos.wd5.myworkdayjobs.com/external/job/Fort-Belvoir-VA/Hybrid-Multi-Cloud-Engineer-SME--Azure-Identity-_R-00188322",
       "https://leidos.wd5.myworkdayjobs.com/external/job/Fort-Belvoir-VA/Hybrid-Multi-Cloud-Engineer-SME_R-00188318",
       "https://leidos.wd5.myworkdayjobs.com/external/job/Honolulu-HI/Systems-Engineer_R-00187709-1",
-      "https://leidos.wd5.myworkdayjobs.com/external/job/San-Diego-CA/Software-Engineer_R-00187128"
+      "https://leidos.wd5.myworkdayjobs.com/external/job/San-Diego-CA/Software-Engineer_R-00187128",
+      "https://leidos.wd5.myworkdayjobs.com/External/job/Bethesda-MD/Cybersecurity-Engineer-Co-op_R-00190764"
     ]
   },
   {
@@ -39051,7 +38919,8 @@
       "https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Lone-Tree-CO/Sr-Systems-Engineer_R0029470",
       "https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Lone-Tree-CO/Sr-Systems-Security-Engineer_R0030167",
       "https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Lone-Tree-CO/Sr-Systems-Security-Engineer_R0030191",
-      "https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Lone-Tree-CO/Sr-Systems-Security-Engineer_R0030673"
+      "https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Lone-Tree-CO/Sr-Systems-Security-Engineer_R0030673",
+      "https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Sparks-NV/Cybersecurity-Analyst-Intern_R0031269"
     ]
   },
   {
@@ -39350,7 +39219,9 @@
     "identifier": "spacedynamicslaboratory.applytojob.com",
     "domain": "https://spacedynamicslaboratory.applytojob.com",
     "page": "",
-    "urls": []
+    "urls": [
+      "https://spacedynamicslaboratory.applytojob.com/apply/Xb4whC202X/Student-Software-Engineer"
+    ]
   },
   {
     "name": "spacex",
