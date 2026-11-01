@@ -14106,9 +14106,11 @@
     "name": "cff",
     "ats": "workday",
     "identifier": "cff-explore-career-opportunities",
-    "domain": "https://cff.wd1.myworkdayjobs.com/explore-career-opportunities",
-    "page": "https://cff.wd1.myworkdayjobs.com/wday/cxs/cff/explore-career-opportunities/jobs",
-    "urls": []
+    "domain": "https://cff.wd504.myworkdayjobs.com/explore-career-opportunities",
+    "page": "https://cff.wd504.myworkdayjobs.com/wday/cxs/cff/explore-career-opportunities/jobs",
+    "urls": [
+      "https://cff.wd504.myworkdayjobs.com/en-US/explore-career-opportunities/details/Executive-Director_JR100702"
+    ]
   },
   {
     "name": "cfins",
@@ -14909,9 +14911,11 @@
     "name": "cliftonlarsonallen",
     "ats": "workday",
     "identifier": "cliftonlarsonallen-cla",
-    "domain": "https://cliftonlarsonallen.wd1.myworkdayjobs.com/cla",
-    "page": "https://cliftonlarsonallen.wd1.myworkdayjobs.com/wday/cxs/cliftonlarsonallen/cla/jobs",
-    "urls": []
+    "domain": "https://cliftonlarsonallen.wd115.myworkdayjobs.com/CLA",
+    "page": "https://cliftonlarsonallen.wd115.myworkdayjobs.com/wday/cxs/cliftonlarsonallen/CLA/jobs",
+    "urls": [
+      "https://cliftonlarsonallen.wd115.myworkdayjobs.com/en-US/CLA/details/Seasonal-Client-Services-Coordinator---Tax_R18389"
+    ]
   },
   {
     "name": "clockworksystems",
@@ -15278,14 +15282,6 @@
       "https://jobs.comcast.com/job/reston/software-engineer-c-python-golang-or-java-onsite-4-days-reston-va-freewheel/45483/100084443488",
       "https://jobs.comcast.com/job/reston/sr-software-engineer/45483/102646446144"
     ]
-  },
-  {
-    "name": "comcast",
-    "ats": "workday",
-    "identifier": "comcast-comcast_careers",
-    "domain": "https://comcast.wd5.myworkdayjobs.com/Comcast_Careers",
-    "page": "https://comcast.wd5.myworkdayjobs.com/wday/cxs/comcast/Comcast_Careers/jobs",
-    "urls": []
   },
   {
     "name": "commercebank",
@@ -16599,6 +16595,43 @@
     "urls": []
   },
   {
+    "name": "Dell",
+    "ats": "oraclecloud",
+    "identifier": "iawmqy.fa.ocs.oraclecloud.com",
+    "domain": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job",
+    "page": "https://iawmqy.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3Dcareers%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/293104",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/293221",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/293524",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/294891",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/296612",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/296702",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/297148",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/297384",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/297948",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/298784",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/299107",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/299245",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/299350",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/299524",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/299734",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/299739",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/299942",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/299947",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/299949",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/300198",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/300448",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/300450",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/300497",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/300865",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/300866",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/300869",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/300879",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/301252"
+    ]
+  },
+  {
     "name": "delta.avature.net",
     "ats": "custom",
     "identifier": "delta.avature.net",
@@ -17773,9 +17806,11 @@
     "name": "elkay",
     "ats": "workday",
     "identifier": "elkay-elkay_external",
-    "domain": "https://elkay.wd1.myworkdayjobs.com/elkay_external",
-    "page": "https://elkay.wd1.myworkdayjobs.com/wday/cxs/elkay/elkay_external/jobs",
-    "urls": []
+    "domain": "https://elkay.wd1.myworkdayjobs.com/Elkay_External",
+    "page": "https://elkay.wd1.myworkdayjobs.com/wday/cxs/elkay/Elkay_External/jobs",
+    "urls": [
+      "https://elkay.wd1.myworkdayjobs.com/en-US/Elkay_External/details/Channel-Marketing-Manager--MRO_REQ-020307"
+    ]
   },
   {
     "name": "ellipsislabs",
@@ -23555,43 +23590,6 @@
       "https://careers-i3-corps.icims.com/jobs/5307/data-analyst-%28junior-associate%29/job",
       "https://careers-i3-corps.icims.com/jobs/5309/systems-engineer---euas/job",
       "https://careers-i3-corps.icims.com/jobs/5383/security-research-engineer/job"
-    ]
-  },
-  {
-    "name": "iawmqy.fa.ocs.oraclecloud.com",
-    "ats": "oraclecloud",
-    "identifier": "iawmqy.fa.ocs.oraclecloud.com",
-    "domain": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job",
-    "page": "https://iawmqy.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3Dcareers%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
-    "urls": [
-      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/293104",
-      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/293221",
-      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/293524",
-      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/294891",
-      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/296612",
-      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/296702",
-      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/297148",
-      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/297384",
-      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/297948",
-      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/298784",
-      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/299107",
-      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/299245",
-      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/299350",
-      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/299524",
-      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/299734",
-      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/299739",
-      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/299942",
-      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/299947",
-      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/299949",
-      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/300198",
-      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/300448",
-      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/300450",
-      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/300497",
-      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/300865",
-      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/300866",
-      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/300869",
-      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/300879",
-      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/301252"
     ]
   },
   {

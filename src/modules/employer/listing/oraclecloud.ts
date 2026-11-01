@@ -35,6 +35,7 @@ const identifierMap: Record<string, string> = {
   "hcjy.fa.us2.oraclecloud.com": "CooperSurgical",
   "ecnf.fa.us2.oraclecloud.com": "Tradeweb",
   "ibqbjb.fa.ocs.oraclecloud.com": "Honeywell",
+  "iawmqy.fa.ocs.oraclecloud.com": "Dell",
   "ecge.fa.us2.oraclecloud.com": "Blue Shield",
   "edel.fa.us2.oraclecloud.com": "Fortinet",
   "fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com": "Citco",
@@ -233,7 +234,6 @@ export class OracleCloudFetcher extends Employer<OracleCloudJob> {
       return [];
     }
   }
-
 }
 
 export const oracleCloudFetcher = new OracleCloudFetcher();

@@ -16,6 +16,7 @@ describe("oracleCompanyName", () => {
     expect(oracleCompanyName("Candidate Experience site", "hcgn.fa.us2.oraclecloud.com")).toBe(
       "Citizens"
     );
+    expect(oracleCompanyName(undefined, "iawmqy.fa.ocs.oraclecloud.com")).toBe("Dell");
   });
 
   it("keeps the brand from a career-page title when the host is not mapped", () => {
