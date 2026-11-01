@@ -39176,14 +39176,6 @@
     ]
   },
   {
-    "name": "SprinterHealth",
-    "ats": "lever",
-    "identifier": "SprinterHealth",
-    "domain": "https://jobs.lever.co",
-    "page": "https://api.lever.co/v0/postings/SprinterHealth?mode=json",
-    "urls": []
-  },
-  {
     "name": "spruceid",
     "ats": "ashby",
     "identifier": "spruceid",
