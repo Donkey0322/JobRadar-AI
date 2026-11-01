@@ -1,10 +1,14 @@
-import { describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 
 import { ashbyFetcher } from "../ashby";
 import { greenhouseFetcher } from "../greenhouse";
 import { workdayFetcher } from "../workday";
 
 describe("ATS URL hostname normalization", () => {
+  afterEach(() => {
+    vi.unstubAllGlobals();
+  });
+
   it("retains Ashby identifiers for www-prefixed override hosts", async () => {
     const company = await ashbyFetcher.formCompany(new URL("https://www.superhuman.com/careers"));
 
@@ -42,6 +46,24 @@ describe("ATS URL hostname normalization", () => {
 
     expect(company.identifier).toBe("duolingo");
     expect(company.page).toBe("https://boards-api.greenhouse.io/v1/boards/duolingo/jobs");
+  });
+
+  it("uses the company name when a careers host does not embed a Greenhouse board", async () => {
+    vi.stubGlobal(
+      "fetch",
+      vi.fn().mockResolvedValue({
+        ok: false,
+        status: 404,
+        text: async () => "",
+      })
+    );
+
+    const company = await greenhouseFetcher.formCompany(
+      new URL("https://careers.roblox.com/jobs/8242619?gh_jid=8242619")
+    );
+
+    expect(company.identifier).toBe("roblox");
+    expect(company.page).toBe("https://boards-api.greenhouse.io/v1/boards/roblox/jobs");
   });
 
   it("maps career subdomains to hardcoded Greenhouse slugs without scraping", async () => {

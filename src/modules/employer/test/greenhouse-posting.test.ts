@@ -13,9 +13,9 @@ describe("greenhousePostingFromHtml", () => {
       board: "databricks",
       jobId: "6865704002",
     });
-    expect(
-      canonicalGreenhouseJobUrl(PAGE, { board: "databricks", jobId: "6865704002" })
-    ).toBe("https://job-boards.greenhouse.io/databricks/jobs/6865704002");
+    expect(canonicalGreenhouseJobUrl(PAGE, { board: "databricks", jobId: "6865704002" })).toBe(
+      "https://job-boards.greenhouse.io/databricks/jobs/6865704002"
+    );
   });
 
   it("reads a board and job id from an embedded Greenhouse job url", () => {
@@ -33,6 +33,30 @@ describe("greenhousePostingFromHtml", () => {
 
     expect(posting).toEqual({ board: null, jobId: "6865704002" });
     expect(canonicalGreenhouseJobUrl(PAGE, posting!)).toBe(`${PAGE}?gh_jid=6865704002`);
+  });
+
+  it("resolves a board assigned to a JavaScript template variable", () => {
+    const html = `<script>
+      const BOARD = 'jumptrading';
+      const API = \`https://boards-api.greenhouse.io/v1/boards/\${BOARD}/jobs\`;
+      const link = "https://www.jumptrading.com/hr/job?gh_jid=4982814";
+    </script>`;
+
+    expect(
+      greenhousePostingFromHtml("https://www.jumptrading.com/hr/job?gh_jid=4982814", html)
+    ).toEqual({
+      board: "jumptrading",
+      jobId: "4982814",
+    });
+  });
+
+  it("ignores an unsubstituted Greenhouse template variable", () => {
+    const html = "https://boards-api.greenhouse.io/v1/boards/${BOARD}/jobs?gh_jid=4982814";
+
+    expect(greenhousePostingFromHtml("https://www.jumptrading.com/hr/job", html)).toEqual({
+      board: null,
+      jobId: "4982814",
+    });
   });
 
   it("ignores a trailing slug number when the page is not Greenhouse", () => {

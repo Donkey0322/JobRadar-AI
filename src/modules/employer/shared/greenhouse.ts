@@ -1,6 +1,6 @@
 import * as cheerio from "cheerio";
 
-import { getHostnameWithoutWww, getSubdomainIdentifier } from "@/utils/url";
+import { escapeRegExp, getHostnameWithoutWww, getSubdomainIdentifier } from "@/utils/url";
 
 const identifierMap: Record<string, string> = {
   "8am.com": "affinipay1",
@@ -45,6 +45,8 @@ export interface GreenhousePostingRef {
   jobId: string;
 }
 
+const BOARD_TOKEN = /^[A-Za-z0-9][A-Za-z0-9_-]*$/;
+
 function cleanBoard(value: string | undefined): string | null {
   if (!value) return null;
 
@@ -55,8 +57,46 @@ function cleanBoard(value: string | undefined): string | null {
     board = value;
   }
 
-  if (!board || board === "embed") return null;
+  if (!BOARD_TOKEN.test(board) || board === "embed") return null;
   return board;
+}
+
+/** Board slug assigned to a JS variable used inside an uninterpolated Greenhouse URL. */
+function boardFromJsTemplate(html: string): string | null {
+  const names = new Set<string>();
+  const template =
+    /(?:boards-api\.greenhouse\.io\/v1\/boards|(?:job-)?boards\.greenhouse\.io)\/\$\{([A-Za-z_$][\w$]*)\}|\?for=\$\{([A-Za-z_$][\w$]*)\}|greenhouse\.io\/embed\/job_board\/(?:js)?\?for=['"]\s*\+\s*(?:encodeURIComponent\s*\(\s*)?([A-Za-z_$][\w$]*)/gi;
+
+  for (const match of html.matchAll(template)) {
+    const name = match[1] ?? match[2] ?? match[3];
+    if (name) names.add(name);
+  }
+
+  for (const name of names) {
+    const assigned = html.match(
+      new RegExp(
+        String.raw`(?:const|let|var)\s+${escapeRegExp(name)}\s*=\s*['"]([A-Za-z0-9][A-Za-z0-9_-]*)['"]`
+      )
+    );
+    const board = cleanBoard(assigned?.[1]);
+    if (board) return board;
+  }
+
+  return null;
+}
+
+function greenhouseBoardFromHtml(html: string): string | null {
+  const embedded = cleanBoard(
+    html.match(
+      /(?:boards|job-boards)(?:\.[a-z]+)?\.greenhouse\.io\/embed\/job_board\/(?:js)?\?for=([^"'&\s]+)/i
+    )?.[1]
+  );
+  if (embedded) return embedded;
+
+  const api = cleanBoard(html.match(/boards-api\.greenhouse\.io\/v1\/boards\/([^/"'?#\s]+)/i)?.[1]);
+  if (api) return api;
+
+  return boardFromJsTemplate(html);
 }
 
 /** Long requisition id at the end of a career slug, such as `...-start-6865704002`. */
@@ -96,12 +136,7 @@ export function greenhousePostingFromHtml(
   if (slugPair) return slugPair;
   if (pairs.length === 1) return pairs[0];
 
-  const board =
-    cleanBoard(
-      html.match(
-        /(?:boards|job-boards)(?:\.[a-z]+)?\.greenhouse\.io\/embed\/job_board\/(?:js)?\?for=([^"'&\s]+)/i
-      )?.[1]
-    ) ?? cleanBoard(html.match(/boards-api\.greenhouse\.io\/v1\/boards\/([^/"'?#\s]+)/i)?.[1]);
+  const board = greenhouseBoardFromHtml(html);
   const ghJids = [...html.matchAll(/gh_jid=(\d+)/gi)]
     .map((match) => match[1])
     .filter((id): id is string => Boolean(id));
@@ -124,6 +159,20 @@ export function canonicalGreenhouseJobUrl(pageUrl: string, posting: GreenhousePo
   const url = new URL(pageUrl);
   url.searchParams.set("gh_jid", posting.jobId);
   return url.toString();
+}
+
+const GENERIC_HOST_LABELS = new Set(["apply", "boards", "career", "careers", "job", "jobs"]);
+
+/** Company label from a career hostname, skipping a generic first label such as `careers`. */
+function greenhouseCompanyLabel(url: URL): string {
+  const labels = getHostnameWithoutWww(url).split(".").filter(Boolean);
+  const [first, second] = labels;
+
+  if (labels.length >= 3 && first && GENERIC_HOST_LABELS.has(first) && second) {
+    return second;
+  }
+
+  return first || "unknown";
 }
 
 export function isGreenhouseJobBoardHost(host: string) {
@@ -193,25 +242,17 @@ async function findEmbeddedGreenhouseIdentifier(url: URL): Promise<string | null
 
     if (embedSrc) {
       const embedUrl = new URL(embedSrc, url.href);
-      const identifier = embedUrl.searchParams.get("for");
+      const identifier = cleanBoard(embedUrl.searchParams.get("for") ?? undefined);
       if (identifier) return identifier;
 
       const parts = embedUrl.pathname.split("/").filter(Boolean);
-      if (
-        isGreenhouseJobBoardHost(getHostnameWithoutWww(embedUrl)) &&
-        parts[0] &&
-        parts[0] !== "embed"
-      ) {
-        return parts[0];
+      if (isGreenhouseJobBoardHost(getHostnameWithoutWww(embedUrl))) {
+        const board = cleanBoard(parts[0]);
+        if (board) return board;
       }
     }
 
-    const match = html.match(
-      /(?:boards|job-boards)(?:\.[a-z]+)?\.greenhouse\.io\/embed\/job_board\/(?:js)?\?for=([^"'&\s]+)/i
-    );
-    if (match?.[1]) return match[1];
-
-    return html.match(/boards-api\.greenhouse\.io\/v1\/boards\/([^/"'?#\s]+)/i)?.[1] ?? null;
+    return greenhouseBoardFromHtml(html);
   } catch {
     return null;
   }
@@ -241,5 +282,5 @@ export async function resolveGreenhouseIdentifier(url: URL): Promise<string> {
     return embeddedIdentifier;
   }
 
-  return getSubdomainIdentifier(url);
+  return greenhouseCompanyLabel(url);
 }
