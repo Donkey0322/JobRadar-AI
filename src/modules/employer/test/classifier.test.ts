@@ -25,6 +25,10 @@ describe("classifyATS", () => {
   it.each<[string, ATS]>([
     ["https://stripe.com/jobs/1", "greenhouse"],
     ["https://deere.com/careers/1", "greenhouse"],
+    [
+      "https://www.hudsonrivertrading.com/hrt-job/algorithm-development-quant-research-trading-phd-internship-summer-2027/",
+      "greenhouse",
+    ],
   ])("applies the exact-host override for %s", (url, ats) => {
     expect(classifyATS(new URL(url))).toBe(ats);
   });

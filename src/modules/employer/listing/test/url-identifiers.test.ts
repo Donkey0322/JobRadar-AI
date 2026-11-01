@@ -66,6 +66,24 @@ describe("ATS URL hostname normalization", () => {
     expect(company.page).toBe("https://boards-api.greenhouse.io/v1/boards/roblox/jobs");
   });
 
+  it("uses the company name when a jobs host does not embed a Greenhouse board", async () => {
+    vi.stubGlobal(
+      "fetch",
+      vi.fn().mockResolvedValue({
+        ok: false,
+        status: 404,
+        text: async () => "",
+      })
+    );
+
+    const company = await greenhouseFetcher.formCompany(
+      new URL("https://jobs.dropbox.com/listing/6330377?gh_jid=6330377")
+    );
+
+    expect(company.identifier).toBe("dropbox");
+    expect(company.page).toBe("https://boards-api.greenhouse.io/v1/boards/dropbox/jobs");
+  });
+
   it("maps career subdomains to hardcoded Greenhouse slugs without scraping", async () => {
     const url = new URL("https://jobs.solarwinds.com/job-detail/?gh_jid=4716665005");
 

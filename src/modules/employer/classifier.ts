@@ -7,6 +7,7 @@ import { getHostnameWithoutWww } from "@/utils/url";
 const hostToATS: Record<string, ATS> = {
   "stripe.com": "greenhouse",
   "deere.com": "greenhouse",
+  "hudsonrivertrading.com": "greenhouse",
   "apply.careers.microsoft.com": "eightfold",
 };
 
