@@ -1,3 +1,4 @@
+import pLimit from "p-limit";
 import z from "zod";
 
 import { ASHBY_API_URL } from "@/constants/ats";
@@ -6,7 +7,15 @@ import { RED_CROSS } from "@/constants/log";
 import type { Company, Job } from "@/types";
 
 import { Employer } from "../employer";
-import { ashbyBoardOverride, ashbySyncIdentifier, isAshbyJobBoardHost, resolveAshbyIdentifier } from "../shared/ashby";
+import {
+  ashbyBoardOverride,
+  ashbyHostedJobUrl,
+  ashbySyncIdentifier,
+  fetchAshbyBoardPostings,
+  fetchAshbyPublishedDate,
+  isAshbyJobBoardHost,
+  resolveAshbyIdentifier,
+} from "../shared/ashby";
 
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
@@ -45,6 +54,8 @@ export type AshbyJob = z.infer<typeof AshbyJobSchema>;
 export const AshbyResponseSchema = z.object({
   jobs: z.array(AshbyJobSchema),
 });
+
+const PUBLISHED_DATE_CONCURRENCY = 8;
 
 export class AshbyFetcher extends Employer<AshbyJob> {
   readonly ats = "ashby" as const;
@@ -102,31 +113,48 @@ export class AshbyFetcher extends Employer<AshbyJob> {
     };
   }
 
+  protected async collectListingJobs(
+    company: Company,
+    signal: AbortSignal
+  ): Promise<AshbyJob[] | null> {
+    const res = await fetch(company.page, { signal });
+
+    if (res.ok) {
+      return this.getJobsFromResponse(await res.json());
+    }
+
+    const board = await fetchAshbyBoardPostings(company.identifier, signal);
+    if (board) {
+      return board.map((posting) => ({
+        id: posting.id,
+        title: posting.title,
+        location: posting.location,
+        jobUrl: ashbyHostedJobUrl(company.identifier, posting.id),
+        publishedAt: "",
+      }));
+    }
+
+    await appendErrorLog(`Ashby: ${company.name} - ${res.status} - ${res.statusText}`);
+    return null;
+  }
+
   async fetch(
     company: Company,
     knownKeys: ReadonlySet<string>,
     signal: AbortSignal
   ): Promise<Job[]> {
     try {
-      const res = await fetch(company.page, {
-        signal,
-      });
+      const rawJobs = await this.collectListingJobs(company, signal);
+      if (!rawJobs) return [];
 
-      if (!res.ok) {
-        await appendErrorLog(`Ashby: ${company.name} - ${res.status} - ${res.statusText}`);
-        return [];
-      }
+      const jobs = await this.attachPublishedDates(rawJobs, company, knownKeys, signal);
 
-      const rawJobs = this.getJobsFromResponse(await res.json());
-
-      const opportunities = rawJobs
+      return jobs
         .map((job) => this.posting(job, company, job.publishedAt))
         .filter(
           (posting) => posting.isTarget() && !posting.isKnown(knownKeys) && posting.isRecent()
         )
         .map((posting) => posting.toJob());
-
-      return opportunities;
     } catch (error) {
       if (
         error instanceof Error &&
@@ -156,6 +184,42 @@ export class AshbyFetcher extends Employer<AshbyJob> {
     }
   }
 
+  /**
+   * Hosted-board rows have no publishedDate. Look it up only for titles that
+   * can still become a discovery.
+   */
+  private async attachPublishedDates(
+    jobs: AshbyJob[],
+    company: Company,
+    knownKeys: ReadonlySet<string>,
+    signal: AbortSignal
+  ): Promise<AshbyJob[]> {
+    const pending = jobs.filter((job) => {
+      if (job.publishedAt) return false;
+
+      const posting = this.posting(job, company, job.publishedAt);
+      return posting.isTarget() && !posting.isKnown(knownKeys);
+    });
+
+    if (pending.length === 0) return jobs;
+
+    const dates = new Map<string, string>();
+    const limit = pLimit(PUBLISHED_DATE_CONCURRENCY);
+
+    await Promise.all(
+      pending.map((job) =>
+        limit(async () => {
+          const date = await fetchAshbyPublishedDate(company.identifier, job.id, signal);
+          if (date) dates.set(job.id, date);
+        })
+      )
+    );
+
+    return jobs.map((job) => {
+      const date = dates.get(job.id);
+      return date ? { ...job, publishedAt: date } : job;
+    });
+  }
 }
 
 export const ashbyFetcher = new AshbyFetcher();
