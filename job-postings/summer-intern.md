@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Lockheedmartin</td>
+      <td width="420" align="left" valign="top">Software Engineer - Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Fort Worth, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477643928?domain=lockheedmartin.com&amp;8fold_id=996477643928"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 2</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Hudson River Trading</td>
       <td width="420" align="left" valign="top">Software Engineering Internship (C++ or Python) – Summer 2027</td>
       <td width="180" align="left" valign="top">Austin, TX</td>
@@ -2106,17 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/inversionspace/jobs/4745076005"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 19</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Vehicle Software Engineer - Summer Internship 2027<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Playa Vista, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/inversionspace/jobs/4745083005"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 19</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,862 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,863 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-02T11:48:31.303Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-02T11:54:40.208Z</code></sub>
