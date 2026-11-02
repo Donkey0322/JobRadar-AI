@@ -26,6 +26,7 @@ const identifierMap: Record<string, string> = {
   "tower-research.com": "towerresearchcapital",
   "hudsonrivertrading.com": "wehrtyou",
   "verition.com": "veritiongroupllc",
+  "withwaymo.com": "waymo",
   "zipline.com": "flyzipline",
 
   // careerpuck.com

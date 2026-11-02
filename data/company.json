@@ -13705,14 +13705,6 @@
     ]
   },
   {
-    "name": "careers.withwaymo.com",
-    "ats": "custom",
-    "identifier": "careers.withwaymo.com",
-    "domain": "https://careers.withwaymo.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "careers.zebra.com",
     "ats": "custom",
     "identifier": "careers.zebra.com",
@@ -44762,6 +44754,16 @@
     "domain": "https://wavetronix.breezy.hr",
     "page": "",
     "urls": []
+  },
+  {
+    "name": "waymo",
+    "ats": "greenhouse",
+    "identifier": "waymo",
+    "domain": "https://careers.withwaymo.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/waymo/jobs",
+    "urls": [
+      "https://careers.withwaymo.com/jobs/2027-summer-intern-bs-depot-automation-san-francisco-california-united-states?gh_jid=8234553"
+    ]
   },
   {
     "name": "waystar",

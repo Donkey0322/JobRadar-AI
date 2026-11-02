@@ -140,6 +140,19 @@ describe("ATS URL hostname normalization", () => {
     expect(company.page).toBe("https://boards-api.greenhouse.io/v1/boards/solarwinds/jobs");
   });
 
+  it("maps Waymo career pages to the waymo Greenhouse board", async () => {
+    const url = new URL(
+      "https://careers.withwaymo.com/jobs/2027-summer-intern-bs-depot-automation-san-francisco-california-united-states?gh_jid=8234553"
+    );
+
+    expect(greenhouseFetcher.companyKeyFromUrl(url)).toBe("greenhouse:waymo");
+
+    const company = await greenhouseFetcher.formCompany(url);
+
+    expect(company.identifier).toBe("waymo");
+    expect(company.page).toBe("https://boards-api.greenhouse.io/v1/boards/waymo/jobs");
+  });
+
   it("maps generic Workday tenants to the real company identifier", () => {
     const company = workdayFetcher.formCompany(
       new URL(
