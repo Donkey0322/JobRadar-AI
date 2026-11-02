@@ -112,7 +112,10 @@ describe("complex ATS adapters", () => {
     expect(keys?.has("workday:acme:R1000")).toBe(true);
     expect(keys?.has("workday:acme:R2004")).toBe(true);
     expect(mockFetch).toHaveBeenCalledTimes(2);
-    expect(mockFetch.mock.calls[0][1]).toMatchObject({ method: "POST" });
+    expect(mockFetch.mock.calls[0][1]).toMatchObject({
+      method: "POST",
+      headers: { "Accept-Language": "en-US" },
+    });
   });
 
   it("parses iCIMS HTML without mutating the caller's key set", async () => {

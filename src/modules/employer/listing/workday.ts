@@ -204,6 +204,7 @@ export class WorkdayFetcher extends Employer<WorkdayJob> {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
+            "Accept-Language": "en-US",
           },
           body: JSON.stringify({
             appliedFacets: {},
