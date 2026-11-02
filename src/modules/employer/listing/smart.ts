@@ -9,7 +9,7 @@ import { Employer } from "../employer";
 
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
-import { capitalize } from "@/utils/string";
+import { formatCompanyName } from "@/utils/string";
 
 export const SmartRecruitersJobSchema = z.object({
   id: z.string(),
@@ -70,7 +70,7 @@ export class SmartRecruitersFetcher extends Employer<SmartRecruitersJob> {
 
   protected normalizeJob(job: SmartRecruitersJob, company: Company): Job {
     return {
-      company: capitalize(job.company?.name ?? ""),
+      company: formatCompanyName(job.company?.name ?? ""),
       role: job.name,
       link: this.getJobLink(job, company),
       location: job.location?.fullLocation ?? "",
@@ -131,7 +131,6 @@ export class SmartRecruitersFetcher extends Employer<SmartRecruitersJob> {
       return [];
     }
   }
-
 }
 
 export const smartRecruitersFetcher = new SmartRecruitersFetcher();

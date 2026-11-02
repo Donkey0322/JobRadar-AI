@@ -11,7 +11,7 @@ import { findIcimsIframeSrc, isIcimsUrl, normalizeIcimsUrl } from "@/modules/emp
 import { decodeHtmlEntities } from "@/utils/html";
 import { fetchHtmlResponse } from "@/utils/http";
 import { logger } from "@/utils/logger";
-import { capitalize, cleanText } from "@/utils/string";
+import { cleanText, formatCompanyName } from "@/utils/string";
 
 export const IcimsJobSchema = z.object({
   title: z.string(),
@@ -193,7 +193,7 @@ export class IcimsFetcher extends Employer<IcimsJob> {
 
   protected normalizeJob(job: IcimsJob, company: Company): Job {
     return {
-      company: capitalize(company.name),
+      company: formatCompanyName(company.name),
       role: job.title,
       link: this.getJobLink(job, company),
       location: job.location,
@@ -275,7 +275,6 @@ export class IcimsFetcher extends Employer<IcimsJob> {
 
     return allJobs;
   }
-
 }
 
 export const icimsFetcher = new IcimsFetcher();

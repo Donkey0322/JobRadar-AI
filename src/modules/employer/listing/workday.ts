@@ -9,7 +9,7 @@ import { Employer } from "../employer";
 import { isWorkdayLocaleSegment } from "@/modules/employer/shared/workday";
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
-import { capitalize } from "@/utils/string";
+import { formatCompanyName } from "@/utils/string";
 
 const PAGE_SIZE = 20;
 const MAX_PAGES = 20;
@@ -134,7 +134,7 @@ export class WorkdayFetcher extends Employer<WorkdayJob> {
 
   protected normalizeJob(job: WorkdayJob, company: Company): Job {
     return {
-      company: capitalize(company.name),
+      company: formatCompanyName(company.name),
       role: job.title,
       link: this.getJobLink(job, company),
       location: job.locationsText ?? "",
@@ -305,7 +305,6 @@ export class WorkdayFetcher extends Employer<WorkdayJob> {
       return recentOnly ? null : results.length > 0 ? results : null;
     }
   }
-
 }
 
 export const workdayFetcher = new WorkdayFetcher();

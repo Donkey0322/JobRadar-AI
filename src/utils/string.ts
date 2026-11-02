@@ -60,6 +60,13 @@ export function capitalize(s: string) {
   return s.charAt(0).toUpperCase() + s.slice(1).toLowerCase();
 }
 
+/** Capitalize a lowercase slug. Leave a name that already has capitals unchanged. */
+export function formatCompanyName(name: string): string {
+  const trimmed = name.trim();
+  if (trimmed === trimmed.toLowerCase()) return capitalize(trimmed);
+  return trimmed;
+}
+
 const VALID_SEASONS = new Set(["Winter", "Spring", "Summer", "Fall"]);
 export function normalizeSeason(input: string): string {
   const cleaned = input.trim();

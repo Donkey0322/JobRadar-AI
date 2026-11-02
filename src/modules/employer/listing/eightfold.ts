@@ -9,7 +9,7 @@ import { eightfoldDomain } from "../shared/eightfold";
 
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
-import { capitalize } from "@/utils/string";
+import { formatCompanyName } from "@/utils/string";
 
 export const TRACKING_PARAM = "8fold_id";
 
@@ -152,7 +152,7 @@ export class EightfoldFetcher extends Employer<EightfoldJob> {
 
   protected normalizeJob(job: EightfoldJob, company: Company): Job {
     return {
-      company: capitalize(company.name),
+      company: formatCompanyName(company.name),
       role: job.name,
       link: this.getJobLink(job, company),
       location: job.locations.join(", "),
@@ -291,7 +291,6 @@ export class EightfoldFetcher extends Employer<EightfoldJob> {
       return [];
     }
   }
-
 }
 
 export const eightfoldFetcher = new EightfoldFetcher();

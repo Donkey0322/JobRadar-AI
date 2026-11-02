@@ -3,7 +3,7 @@ import type { Company } from "@/types";
 import { classifyATS } from "./classifier";
 import { employers } from "./registry";
 
-import { capitalize } from "@/utils/string";
+import { formatCompanyName } from "@/utils/string";
 import { getHostnameWithoutWww } from "@/utils/url";
 
 function tenantHintFromUrl(url: URL): string | undefined {
@@ -27,7 +27,7 @@ export function knownEmployerName(
   try {
     const url = new URL(link);
     const company = companiesByKey.get(employers[classifyATS(url)].companyKeyFromUrl(url));
-    return company ? capitalize(company.name) : null;
+    return company ? formatCompanyName(company.name) : null;
   } catch {
     return null;
   }
@@ -50,7 +50,7 @@ export function remapStoredCompany<T extends { company: string; link: string }>(
       return record;
     }
 
-    const displayName = capitalize(company.name);
+    const displayName = formatCompanyName(company.name);
 
     if (record.company === displayName) {
       return record;

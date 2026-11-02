@@ -14,7 +14,7 @@ import {
 import { appendErrorLog } from "@/utils/data";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
-import { capitalize } from "@/utils/string";
+import { formatCompanyName } from "@/utils/string";
 import { getHostnameWithoutWww } from "@/utils/url";
 
 export const RadancyJobSchema = z.object({
@@ -187,7 +187,7 @@ export class RadancyFetcher extends Employer<RadancyJob> {
 
   protected normalizeJob(job: RadancyJob, company: Company): Job {
     return {
-      company: capitalize(company.name),
+      company: formatCompanyName(company.name),
       role: job.title,
       link: this.getJobLink(job, company),
       location: job.location,
@@ -249,7 +249,6 @@ export class RadancyFetcher extends Employer<RadancyJob> {
       return [];
     }
   }
-
 }
 
 export const radancyFetcher = new RadancyFetcher();

@@ -8,7 +8,7 @@ import { Employer } from "../employer";
 
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
-import { capitalize } from "@/utils/string";
+import { formatCompanyName } from "@/utils/string";
 
 const identifierToLeverCompany = {
   InfrastructureandCapitalProjects: "accenture",
@@ -75,7 +75,7 @@ export class LeverFetcher extends Employer<LeverJob> {
 
   protected normalizeJob(job: LeverJob, company: Company): Job {
     return {
-      company: capitalize(company.name),
+      company: formatCompanyName(company.name),
       role: job.text,
       link: this.getJobLink(job, company),
       location: job.categories?.location ?? "",
@@ -136,7 +136,6 @@ export class LeverFetcher extends Employer<LeverJob> {
       return [];
     }
   }
-
 }
 
 export const leverFetcher = new LeverFetcher();

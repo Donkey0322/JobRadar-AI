@@ -8,7 +8,7 @@ import { Employer } from "../employer";
 
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
-import { capitalize } from "@/utils/string";
+import { formatCompanyName } from "@/utils/string";
 
 export const OracleCloudJobSchema = z.object({
   Id: z.string(),
@@ -69,13 +69,6 @@ export function oracleCompanyName(siteName: string | undefined, hostname: string
   if (trimmed) return trimmed;
 
   return mapped ?? hostname.replace(/^www\./, "");
-}
-
-/** Keep display names that already have capitals. Only title-case plain slugs. */
-function formatOracleCompanyName(name: string): string {
-  const trimmed = name.trim();
-  if (trimmed === trimmed.toLowerCase()) return capitalize(trimmed);
-  return trimmed;
 }
 
 export async function getSiteSettings(url: URL) {
@@ -174,7 +167,7 @@ export class OracleCloudFetcher extends Employer<OracleCloudJob> {
 
   protected normalizeJob(job: OracleCloudJob, company: Company): Job {
     return {
-      company: formatOracleCompanyName(company.name),
+      company: formatCompanyName(company.name),
       role: job.Title,
       link: this.getJobLink(job, company),
       location: job.PrimaryLocation ?? "",

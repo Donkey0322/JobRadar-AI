@@ -19,7 +19,7 @@ import {
 
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
-import { capitalize } from "@/utils/string";
+import { formatCompanyName } from "@/utils/string";
 import { getHostnameWithoutWww } from "@/utils/url";
 
 function buildCompany(url: URL, identifier: string, name = identifier): Company {
@@ -106,7 +106,7 @@ export class AshbyFetcher extends Employer<AshbyJob> {
 
   protected normalizeJob(job: AshbyJob, company: Company): Job {
     return {
-      company: capitalize(company.name),
+      company: formatCompanyName(company.name),
       role: job.title,
       link: this.getJobLink(job, company),
       location: job.location ?? "",
