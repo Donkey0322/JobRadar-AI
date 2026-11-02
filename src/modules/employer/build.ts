@@ -168,7 +168,9 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
     });
   }
 
-  const result = Array.from(map.values()).sort((a, b) => a.name.localeCompare(b.name));
+  const result = Array.from(map.values())
+    .map((company) => ({ ...company, urls: [...company.urls].sort() }))
+    .sort((a, b) => a.name.localeCompare(b.name));
 
   await saveCompanies(result);
 
