@@ -12907,6 +12907,16 @@
     ]
   },
   {
+    "name": "careers.idexx.com",
+    "ats": "phenom",
+    "identifier": "careers.idexx.com",
+    "domain": "https://careers.idexx.com",
+    "page": "https://careers.idexx.com",
+    "urls": [
+      "https://careers.idexx.com/us/en/job/J-053025/Team-Lead-Veterinary-Laboratory-Scientist?ph_id=J-053025"
+    ]
+  },
+  {
     "name": "careers.inogen.com",
     "ats": "custom",
     "identifier": "careers.inogen.com",
@@ -22092,14 +22102,6 @@
     "urls": []
   },
   {
-    "name": "gtsgbu",
-    "ats": "workday",
-    "identifier": "gtsgbu-careers",
-    "domain": "https://gtsgbu.wd3.myworkdayjobs.com/careers",
-    "page": "https://gtsgbu.wd3.myworkdayjobs.com/wday/cxs/gtsgbu/careers/jobs",
-    "urls": []
-  },
-  {
     "name": "guardianlife",
     "ats": "workday",
     "identifier": "guardianlife-guardian-life-careers",
@@ -23765,14 +23767,6 @@
       "https://idexcorp.wd5.myworkdayjobs.com/idex_careers/job/Mansfield-Ohio/CMM-Programmer---Measurement-Systems-Specialist_R-10167",
       "https://idexcorp.wd5.myworkdayjobs.com/idex_careers/job/Wheeling-Illinois/Software-Engineer_R-09759"
     ]
-  },
-  {
-    "name": "idexx",
-    "ats": "workday",
-    "identifier": "idexx-idexx",
-    "domain": "https://idexx.wd1.myworkdayjobs.com/idexx",
-    "page": "https://idexx.wd1.myworkdayjobs.com/wday/cxs/idexx/idexx/jobs",
-    "urls": []
   },
   {
     "name": "idmeuniversityrecruiting",
@@ -26105,14 +26099,6 @@
     ]
   },
   {
-    "name": "kar",
-    "ats": "workday",
-    "identifier": "kar-openlane_careers",
-    "domain": "https://kar.wd1.myworkdayjobs.com/openlane_careers",
-    "page": "https://kar.wd1.myworkdayjobs.com/wday/cxs/kar/openlane_careers/jobs",
-    "urls": []
-  },
-  {
     "name": "kastle",
     "ats": "ashby",
     "identifier": "kastle",
@@ -27481,12 +27467,14 @@
     "urls": []
   },
   {
-    "name": "liveramp",
-    "ats": "workday",
-    "identifier": "liveramp-liverampcareers",
-    "domain": "https://liveramp.wd5.myworkdayjobs.com/liverampcareers",
-    "page": "https://liveramp.wd5.myworkdayjobs.com/wday/cxs/liveramp/liverampcareers/jobs",
-    "urls": []
+    "name": "liveramp-inc",
+    "ats": "ashby",
+    "identifier": "liveramp-inc",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/liveramp-inc",
+    "urls": [
+      "https://jobs.ashbyhq.com/liveramp-inc/d204d154-4be5-46df-b212-a792af3abd73?jr_id=6ad7d67f52aa6152bb69ffaf"
+    ]
   },
   {
     "name": "lkqcorp",
@@ -44018,6 +44006,16 @@
       "https://job-boards.greenhouse.io/virtu/jobs/8624410002",
       "https://job-boards.greenhouse.io/virtu/jobs/8657500002",
       "https://job-boards.greenhouse.io/virtu/jobs/8885314002"
+    ]
+  },
+  {
+    "name": "virtus",
+    "ats": "workday",
+    "identifier": "virtus-kaynecareers",
+    "domain": "https://virtus.wd5.myworkdayjobs.com/KayneCareers",
+    "page": "https://virtus.wd5.myworkdayjobs.com/wday/cxs/virtus/KayneCareers/jobs",
+    "urls": [
+      "https://virtus.wd5.myworkdayjobs.com/en-US/KayneCareers/details/Investment-Advisor-Associate_R847-1"
     ]
   },
   {

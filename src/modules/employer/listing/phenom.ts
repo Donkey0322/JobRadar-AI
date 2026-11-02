@@ -731,7 +731,6 @@ export class PhenomFetcher extends Employer<PhenomJob> {
       return [];
     }
   }
-
 }
 
 export const phenomFetcher = new PhenomFetcher();

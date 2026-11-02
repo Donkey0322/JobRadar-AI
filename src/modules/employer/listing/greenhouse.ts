@@ -14,6 +14,7 @@ import {
 
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
+import { formatCompanyName } from "@/utils/string";
 import { getHostnameWithoutWww } from "@/utils/url";
 
 export const GreenhouseJobSchema = z.object({
@@ -86,7 +87,7 @@ export class GreenhouseFetcher extends Employer<GreenhouseJob> {
 
   protected normalizeJob(job: GreenhouseJob, company: Company): Job {
     return {
-      company: job.company_name ?? company.name,
+      company: formatCompanyName(job.company_name ?? company.name),
       role: job.title,
       link: this.getJobLink(job, company),
       location: job.location?.name ?? "",
