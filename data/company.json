@@ -5780,6 +5780,8 @@
       "https://aspentech.wd5.myworkdayjobs.com/aspentech/job/Nancy/Sr-DevOps-Engineer_R9515",
       "https://aspentech.wd5.myworkdayjobs.com/aspentech/job/Nancy/Sr-DevOps-Engineer_R9539",
       "https://aspentech.wd5.myworkdayjobs.com/aspentech/job/Noida/Software-Quality-Engineer-I_R9206",
+      "https://aspentech.wd5.myworkdayjobs.com/aspentech/job/Pune-EMR/Software-Developer-I--Install-_R9576",
+      "https://aspentech.wd5.myworkdayjobs.com/aspentech/job/Pune-EMR/Software-Developer-I--Install-_R9577",
       "https://aspentech.wd5.myworkdayjobs.com/aspentech/job/Pune/Software-Quality-Engineer-I--SDET-_R9219"
     ]
   },
@@ -24187,6 +24189,7 @@
       "https://ing.wd3.myworkdayjobs.com/icsgblcor/job/Bucharest---Dacia-One/Software-Developer--ING-Hubs-Romania_REQ-10119052-1",
       "https://ing.wd3.myworkdayjobs.com/icsgblcor/job/Expo-Business-Park/Pricing-Data-Scientist---Retail-Banking---ING-Bank-Romania_REQ-10110687",
       "https://ing.wd3.myworkdayjobs.com/icsgblcor/job/HBP-Amsterdam---Haarlerbergpark/INTERNSHIP-SOFTWARE-ENGINEER---ING-MORTGAGES_REQ-10123832",
+      "https://ing.wd3.myworkdayjobs.com/icsgblcor/job/HBP-Amsterdam---Haarlerbergpark/Internship-Software-Development---Java---AI_REQ-10124124",
       "https://ing.wd3.myworkdayjobs.com/icsgblcor/job/Istanbul-VADI-ISTANBUL-PARK/Agentic-AI-Data-Scientist--Wholesale-Banking-_REQ-10112451",
       "https://ing.wd3.myworkdayjobs.com/icsgblcor/job/Istanbul-VADI-ISTANBUL-PARK/Backend-Engineer-with-Security-knowhow_REQ-10121530",
       "https://ing.wd3.myworkdayjobs.com/icsgblcor/job/Istanbul-VADI-ISTANBUL-PARK/Backend-Engineer_REQ-10121529",
@@ -27809,6 +27812,7 @@
       "https://lockheedmartin.eightfold.ai/careers/job/996477447345?domain=lockheedmartin.com&8fold_id=996477447345",
       "https://lockheedmartin.eightfold.ai/careers/job/996477447898?domain=lockheedmartin.com&8fold_id=996477447898",
       "https://lockheedmartin.eightfold.ai/careers/job/996477453558?domain=lockheedmartin.com&8fold_id=996477453558",
+      "https://lockheedmartin.eightfold.ai/careers/job/996477471447?domain=lockheedmartin.com&8fold_id=996477471447",
       "https://lockheedmartin.eightfold.ai/careers/job/996477472018",
       "https://lockheedmartin.eightfold.ai/careers/job/996477476118?domain=lockheedmartin.com&8fold_id=996477476118",
       "https://lockheedmartin.eightfold.ai/careers/job/996477500849?domain=lockheedmartin.com&8fold_id=996477500849",
@@ -33987,11 +33991,13 @@
   },
   {
     "name": "plexus",
-    "ats": "workday",
-    "identifier": "plexus-plexus_careers",
-    "domain": "https://plexus.wd5.myworkdayjobs.com/plexus_careers",
-    "page": "https://plexus.wd5.myworkdayjobs.com/wday/cxs/plexus/plexus_careers/jobs",
-    "urls": []
+    "ats": "eightfold",
+    "identifier": "plexus",
+    "domain": "plexus.com",
+    "page": "https://plexus.eightfold.ai/api/pcsx/search?domain=plexus.com",
+    "urls": [
+      "https://plexus.eightfold.ai/careers?domain=plexus.com&triggerGoButton=false&triggerGoButton=true&start=0&pid=1099555568637&sort_by=hot"
+    ]
   },
   {
     "name": "plugpower",
@@ -40333,7 +40339,8 @@
     "urls": [
       "https://synchronyfinancial.wd5.myworkdayjobs.com/careers/job/Central-Region-Engagement-Hub-IN/AVP--Security-Tools-Engineering_2602408",
       "https://synchronyfinancial.wd5.myworkdayjobs.com/careers/job/Hyderabad-IN/AVP---Cloud-Database-Automation-Engineer_2602366",
-      "https://synchronyfinancial.wd5.myworkdayjobs.com/careers/job/Hyderabad-IN/AVP--Endpoint-Information-Security-Engineer_2602509-1"
+      "https://synchronyfinancial.wd5.myworkdayjobs.com/careers/job/Hyderabad-IN/AVP--Endpoint-Information-Security-Engineer_2602509-1",
+      "https://synchronyfinancial.wd5.myworkdayjobs.com/careers/job/Hyderabad-IN/Analyst--HPA-Monitoring-Analyst--Information-Security--L9-_2602748"
     ]
   },
   {
