@@ -1904,7 +1904,7 @@
       <td width="120" align="left" valign="top">Oct 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Paccar</td>
+      <td width="180" align="left" valign="top">PACCAR</td>
       <td width="420" align="left" valign="top">Field Service Data Analyst Intern</td>
       <td width="180" align="left" valign="top">Kirkland, WA</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.paccar.com/job/Kirkland-Summer-2027-Field-Service-Data-Analyst-Intern-WA-98033/1449526633/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -2051,7 +2051,7 @@
       <td width="120" align="left" valign="top">Oct 19</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Paccar</td>
+      <td width="180" align="left" valign="top">PACCAR</td>
       <td width="420" align="left" valign="top">Warranty Data Analyst Intern</td>
       <td width="180" align="left" valign="top">Renton, WA</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.paccar.com/job/Kirkland-Summer-2027-Warranty-Data-Analyst-Intern-WA-98033/1449176033/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -2119,4 +2119,4 @@
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-02T13:40:19.630Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-02T14:45:04.865Z</code></sub>

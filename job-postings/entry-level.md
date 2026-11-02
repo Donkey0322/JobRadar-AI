@@ -63,7 +63,7 @@
       <td width="120" align="left" valign="top">Nov 2</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Careers.huntingtoningalls.com</td>
+      <td width="180" align="left" valign="top">Huntington Ingalls</td>
       <td width="420" align="left" valign="top">Software Engineer 1 🇺🇸<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Newport News, VA</td>
       <td width="120" align="left" valign="top"><a href="https://careers.huntingtoningalls.com/job/Newport-News-ENGINEER-SOFTWARE-1-Virg/1446380900/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -2120,4 +2120,4 @@ Machine Learning for Monetization (PhD)<br /><img height="18" alt="reopen" src="
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-02T13:40:19.630Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-02T14:45:04.865Z</code></sub>
