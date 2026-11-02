@@ -403,3 +403,15 @@
 2026-11-02T11:08:24.332Z Eightfold: mlp - 403 - FORBIDDEN
 2026-11-02T11:08:45.462Z Eightfold: mlp - 403 - FORBIDDEN
 2026-11-02T11:27:48.189Z Workday: osv-rubicon - 422 - Unprocessable Entity
+2026-11-02T11:42:51.359Z Workday: acehardware - 500 - Internal Server Error
+2026-11-02T11:43:25.831Z Workday: dell - 422 - Unprocessable Entity
+2026-11-02T11:43:28.945Z Workday: elkay - 500 - Internal Server Error
+2026-11-02T11:43:29.902Z Greenhouse: equipmentshare - 404 - Not Found
+2026-11-02T11:43:35.367Z Workday: geico - 500 - Internal Server Error
+2026-11-02T11:43:40.807Z Greenhouse: hubspot - 404 - Not Found
+2026-11-02T11:43:58.993Z Workday: nordstrom - 500 - Internal Server Error
+2026-11-02T11:44:00.477Z Workday: otis - 422 - Unprocessable Entity
+2026-11-02T11:44:02.677Z Workday: plexus - 422 - Unprocessable Entity
+2026-11-02T11:44:08.102Z Workday: regions - 500 - Internal Server Error
+2026-11-02T11:44:16.982Z Workday: signetjewelers - 500 - Internal Server Error
+2026-11-02T11:44:34.340Z Workday: truist - 500 - Internal Server Error
