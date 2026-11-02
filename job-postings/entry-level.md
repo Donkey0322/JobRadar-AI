@@ -112,7 +112,7 @@
       <td width="120" align="left" valign="top">Nov 1</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">SuperApp</td>
+      <td width="180" align="left" valign="top">Superapp</td>
       <td width="420" align="left" valign="top">New Grad 2027: Software Engineer</td>
       <td width="180" align="left" valign="top">San Francisco, CA</td>
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/superapp/jobs/8813982002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -126,7 +126,7 @@
       <td width="120" align="left" valign="top">Oct 31</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">LiveFlow</td>
+      <td width="180" align="left" valign="top">Liveflow</td>
       <td width="420" align="left" valign="top">Graduate Engineer - AI Agents</td>
       <td width="180" align="left" valign="top">San Francisco, CA</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/liveflow/93a4d132-b68c-42d7-ace0-7975661130ba"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -343,7 +343,7 @@
       <td width="120" align="left" valign="top">Oct 30</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">BodySpec</td>
+      <td width="180" align="left" valign="top">Bodyspec.applytojob.com</td>
       <td width="420" align="left" valign="top">Junior Software Engineer</td>
       <td width="180" align="left" valign="top">Austin, TX</td>
       <td width="120" align="left" valign="top"><a href="https://bodyspec.applytojob.com/apply/YsrsS9yEg7/Junior-Developer"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -406,7 +406,7 @@
       <td width="120" align="left" valign="top">Oct 29</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Northwoodspace</td>
+      <td width="180" align="left" valign="top">NorthwoodSpace</td>
       <td width="420" align="left" valign="top">Software Engineer, Platform (Early Career)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Torrance, CA</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/NorthwoodSpace/f7b9e8d5-7368-4a54-b445-ff647f12b1b6"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -434,7 +434,7 @@
       <td width="120" align="left" valign="top">Oct 29</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Llnl</td>
+      <td width="180" align="left" valign="top">LLNL</td>
       <td width="420" align="left" valign="top">Geographic Information System Software Developer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Livermore, CA</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/LLNL/3743990016514176"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -504,7 +504,7 @@
       <td width="120" align="left" valign="top">Oct 29</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Llnl</td>
+      <td width="180" align="left" valign="top">LLNL</td>
       <td width="420" align="left" valign="top">Geographic Information System Software Developer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Livermore, CA</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/LLNL/3743990016508806"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -630,7 +630,7 @@
       <td width="120" align="left" valign="top">Oct 29</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">TSC</td>
+      <td width="180" align="left" valign="top">Tsc</td>
       <td width="420" align="left" valign="top">Software Engineer 1<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Plymouth, MA</td>
       <td width="120" align="left" valign="top"><a href="https://tsc.wd12.myworkdayjobs.com/en-US/TSC-Careers/job/Plymouth-MA/Software-Engineer-I_JR2890"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -952,7 +952,7 @@
       <td width="120" align="left" valign="top">Oct 28</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">StarTree</td>
+      <td width="180" align="left" valign="top">Startree</td>
       <td width="420" align="left" valign="top">Software Engineer 1</td>
       <td width="180" align="left" valign="top">Remote in USA</td>
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/startree/jobs/6235909004"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -1372,7 +1372,7 @@
       <td width="120" align="left" valign="top">Oct 26</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Llnl</td>
+      <td width="180" align="left" valign="top">LLNL</td>
       <td width="420" align="left" valign="top">Data Visualization Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Livermore, CA</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/LLNL/3743990016422126"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -1512,7 +1512,7 @@
       <td width="120" align="left" valign="top">Oct 26</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">RTX</td>
+      <td width="180" align="left" valign="top">Rtx</td>
       <td width="420" align="left" valign="top">Engineer 1 - Software Engineer - Test Engineering<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Cedar Rapids, IA</td>
       <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
@@ -1856,7 +1856,7 @@ Machine Learning for Monetization (PhD)<br /><img height="18" alt="reopen" src="
       <td width="120" align="left" valign="top">Oct 23</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Servicenow</td>
+      <td width="180" align="left" valign="top">ServiceNow</td>
       <td width="420" align="left" valign="top">Associate Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Santa Clara, CA</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/ServiceNow/744000157571919"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -2120,4 +2120,4 @@ Machine Learning for Monetization (PhD)<br /><img height="18" alt="reopen" src="
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-02T10:57:53.582Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-02T11:20:09.502Z</code></sub>

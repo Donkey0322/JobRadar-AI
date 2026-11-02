@@ -287,7 +287,7 @@
       <td width="120" align="left" valign="top">Oct 29</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">CareSource</td>
+      <td width="180" align="left" valign="top">Caresource</td>
       <td width="420" align="left" valign="top">Full Stack AI Development Intern</td>
       <td width="180" align="left" valign="top">Remote in USA</td>
       <td width="120" align="left" valign="top"><a href="https://caresource.wd1.myworkdayjobs.com/caresource/job/Remote/XMLNAME-2027-Summer-Internship-Program---Full-Stack-AI-Development-Intern-1_R14181"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -448,7 +448,7 @@
       <td width="120" align="left" valign="top">Oct 28</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">USAFacts</td>
+      <td width="180" align="left" valign="top">Usafacts</td>
       <td width="420" align="left" valign="top">AI &amp; Software Engineering Intern</td>
       <td width="180" align="left" valign="top">Bellevue, WA</td>
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/usafacts/jobs/4472154009"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -1617,7 +1617,7 @@
       <td width="120" align="left" valign="top">Oct 22</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Llnl</td>
+      <td width="180" align="left" valign="top">LLNL</td>
       <td width="420" align="left" valign="top">Business Systems Analyst Undergraduate Intern - 2027<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Livermore, CA</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/LLNL/3743990016356816"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -1659,7 +1659,7 @@
       <td width="120" align="left" valign="top">Oct 22</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Llnl</td>
+      <td width="180" align="left" valign="top">LLNL</td>
       <td width="420" align="left" valign="top">Business Systems Analyst Undergraduate Intern - Summer 2027<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Livermore, CA</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/LLNL/3743990016347916"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -1918,7 +1918,7 @@
       <td width="120" align="left" valign="top">Oct 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">DriveWealth</td>
+      <td width="180" align="left" valign="top">Drivewealth</td>
       <td width="420" align="left" valign="top">AI Consulting Associate Program (AI CAP) Engineering Intern - Summer 2027<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">New York, NY</td>
       <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/drivewealth/jobs/8039350003?gh_jid=8039350003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -2119,4 +2119,4 @@
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-02T10:57:53.582Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-02T11:20:09.502Z</code></sub>
