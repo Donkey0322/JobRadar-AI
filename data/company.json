@@ -29612,7 +29612,7 @@
     "ats": "eightfold",
     "identifier": "mlp",
     "domain": "mlp.com",
-    "page": "https://mlp.eightfold.ai/api/pcsx/search?domain=mlp.com",
+    "page": "https://mlp.eightfold.ai/api/apply/v2/jobs?domain=mlp.com",
     "urls": [
       "https://mlp.eightfold.ai/careers/job/755957583465?domain=mlp.com&8fold_id=755957583465",
       "https://mlp.eightfold.ai/careers/job/755957624284?domain=mlp.com&8fold_id=755957624284",

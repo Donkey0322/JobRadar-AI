@@ -19,8 +19,9 @@ import { toJobKeySet } from "@/utils/job-key";
 
 const mockFetch = vi.fn<typeof fetch>();
 
-function jsonResponse(data: unknown): Response {
+function jsonResponse(data: unknown, status = 200): Response {
   return new Response(JSON.stringify(data), {
+    status,
     headers: { "content-type": "application/json" },
   });
 }
@@ -185,6 +186,58 @@ describe("Company adapters", () => {
       page: "https://acme.eightfold.ai/api/apply/v2/jobs?domain=jobs.acme.com",
       urls: [],
     });
+  });
+
+  it("switches Eightfold company formation when PCSX returns 403", async () => {
+    mockFetch.mockResolvedValueOnce(
+      jsonResponse({ message: "PCSX is not enabled for this user." }, 403)
+    );
+
+    const company = await eightfoldFetcher.formCompany(
+      new URL("https://mlp.eightfold.ai/careers/job/1?domain=mlp.com")
+    );
+
+    expect(company.page).toBe("https://mlp.eightfold.ai/api/apply/v2/jobs?domain=mlp.com");
+  });
+
+  it("retries the Eightfold Apply API when a stored PCSX page returns 403", async () => {
+    const company: Company = {
+      name: "mlp",
+      ats: "eightfold",
+      identifier: "mlp",
+      domain: "mlp.com",
+      page: "https://mlp.eightfold.ai/api/pcsx/search?domain=mlp.com",
+      urls: [],
+    };
+
+    mockFetch
+      .mockResolvedValueOnce(jsonResponse({ message: "PCSX is not enabled for this user." }, 403))
+      .mockResolvedValueOnce(
+        jsonResponse({
+          positions: [
+            {
+              id: 42,
+              name: "Software Engineer",
+              locations: ["New York"],
+              t_create: Date.now(),
+              canonicalPositionUrl: "https://mlp.eightfold.ai/careers/job/42",
+            },
+          ],
+        })
+      );
+
+    const jobs = await eightfoldFetcher.fetch(company, new Set(), AbortSignal.timeout(1000));
+
+    expect(jobs).toEqual([
+      {
+        company: "Mlp",
+        role: "Software Engineer",
+        link: "https://mlp.eightfold.ai/careers/job/42?domain=mlp.com&8fold_id=42",
+        location: "New York",
+      },
+    ]);
+    expect(String(mockFetch.mock.calls[1]?.[0])).toContain("/api/apply/v2/jobs");
+    expect(mockFetch).toHaveBeenCalledTimes(2);
   });
 
   it("normalizes the Eightfold Apply format and stops on a short page", async () => {
