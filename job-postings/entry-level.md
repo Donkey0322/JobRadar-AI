@@ -2120,4 +2120,4 @@ Machine Learning for Monetization (PhD)<br /><img height="18" alt="reopen" src="
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-02T17:14:45.505Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-02T22:33:32.239Z</code></sub>
