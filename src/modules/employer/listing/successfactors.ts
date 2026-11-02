@@ -28,6 +28,12 @@ async function fetchFeed(url: string, signal: AbortSignal): Promise<Response> {
   return fetch(url, { signal, headers: FEED_HEADERS });
 }
 
+/** Self-hosted career domains often die (expired TLS, DNS); report those in one line. */
+function connectionErrorMessage(error: unknown): string | null {
+  if (!(error instanceof TypeError) || !(error.cause instanceof Error)) return null;
+  return error.cause.message;
+}
+
 async function fetchFeedCompanyName(feedUrl: string): Promise<string | null> {
   try {
     const res = await fetchFeed(feedUrl, AbortSignal.timeout(15_000));
@@ -110,6 +116,12 @@ export class SuccessFactorsFetcher extends Employer<SuccessFactorsJob> {
         )
         .map((posting) => posting.toJob());
     } catch (error) {
+      const connectionError = connectionErrorMessage(error);
+      if (connectionError) {
+        await appendErrorLog(`SuccessFactors: ${company.name} - ${connectionError}`);
+        return [];
+      }
+
       logger.error(
         {
           err: isAbortError(error) ? error.name : error,

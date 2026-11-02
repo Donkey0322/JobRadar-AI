@@ -7,7 +7,8 @@ vi.mock("@/modules/posting/titles", async (importOriginal) => {
   return { ...actual, isTarget: vi.fn(() => true), withinDays: vi.fn(() => true) };
 });
 
-vi.mock("@/utils/data", () => ({ appendErrorLog: vi.fn() }));
+const { appendErrorLog } = vi.hoisted(() => ({ appendErrorLog: vi.fn() }));
+vi.mock("@/utils/data", () => ({ appendErrorLog }));
 
 import type { Company } from "@/types";
 
@@ -115,6 +116,19 @@ describe("SuccessFactors fetcher", () => {
     await expect(
       successFactorsFetcher.listJobKeys(company, AbortSignal.timeout(1000))
     ).resolves.toEqual(new Set(["successfactors:aramarkcareers.com:1440000000"]));
+  });
+
+  it("logs a dead career domain in one line instead of throwing", async () => {
+    mockFetch.mockRejectedValueOnce(
+      new TypeError("fetch failed", { cause: new Error("certificate has expired") })
+    );
+
+    await expect(
+      successFactorsFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
+    ).resolves.toEqual([]);
+    expect(appendErrorLog).toHaveBeenCalledWith(
+      "SuccessFactors: Aramark - certificate has expired"
+    );
   });
 
   it("returns nothing when the feed request fails", async () => {
