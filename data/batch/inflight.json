@@ -1,1 +1,415 @@
-[]
+[
+  {
+    "name": "batches/nyzhwj4agaddihfxzmk519ecxngriyfbud58",
+    "submittedAt": "2026-11-02T11:48:36.017Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Abb",
+        "role": "Data Engineer, Snowflake & Data Platforms",
+        "link": "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Helsinki-Uusimaa-Finland/Data-Engineer--Snowflake---Data-Platforms_JR00045124",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Amazon",
+        "role": "BIM Systems Engineer, Design Services (DS)",
+        "link": "https://amazon.jobs/en/jobs/10591959",
+        "location": "US, TX, Austin",
+        "country": "USA"
+      },
+      {
+        "company": "Amazon",
+        "role": "Software Development Engineer, Ads AI Core Infra (ACI)",
+        "link": "https://amazon.jobs/en/jobs/10594100",
+        "location": "US, WA, Seattle",
+        "country": "USA"
+      },
+      {
+        "company": "American Express",
+        "role": "Software Engineer I - Java, Python , GCP , NoSQL - GMNST",
+        "link": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011275",
+        "location": "Phoenix, AZ, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Anduril Industries",
+        "role": "GNC Software Engineer",
+        "link": "https://boards.greenhouse.io/andurilindustries/jobs/5281208007?gh_jid=5281208007",
+        "location": "Waltham, Massachusetts, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Anduril Industries",
+        "role": "Software Engineer, Battlespace Awareness ",
+        "link": "https://boards.greenhouse.io/andurilindustries/jobs/5281215007?gh_jid=5281215007",
+        "location": "Waltham, Massachusetts, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Anduril Industries",
+        "role": "Software Engineer, Battlespace Awareness ",
+        "link": "https://boards.greenhouse.io/andurilindustries/jobs/5281214007?gh_jid=5281214007",
+        "location": "Broomfield, Colorado, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Anduril Industries",
+        "role": "Software Engineer- Infrastructure ",
+        "link": "https://boards.greenhouse.io/andurilindustries/jobs/5281224007?gh_jid=5281224007",
+        "location": "Broomfield, Colorado, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Anduril Industries",
+        "role": "Software Engineer- Machine Learning",
+        "link": "https://boards.greenhouse.io/andurilindustries/jobs/5281225007?gh_jid=5281225007",
+        "location": "Broomfield, Colorado, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Anduril Industries",
+        "role": "Software Engineer, Robotics Tracking and Fusion",
+        "link": "https://boards.greenhouse.io/andurilindustries/jobs/5281221007?gh_jid=5281221007",
+        "location": "Waltham, Massachusetts, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Anduril Industries",
+        "role": "Software Engineer, Robotics Tracking and Fusion",
+        "link": "https://boards.greenhouse.io/andurilindustries/jobs/5281222007?gh_jid=5281222007",
+        "location": "Washington, District of Columbia, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Anduril Industries",
+        "role": "Software Engineer, Rust ",
+        "link": "https://boards.greenhouse.io/andurilindustries/jobs/5281217007?gh_jid=5281217007",
+        "location": "Waltham, Massachusetts, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Anduril Industries",
+        "role": "Software Engineer, Rust ",
+        "link": "https://boards.greenhouse.io/andurilindustries/jobs/5281216007?gh_jid=5281216007",
+        "location": "Broomfield, Colorado, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Armadin",
+        "role": "Forward Deployed Engineer",
+        "link": "https://jobs.ashbyhq.com/armadin/a9a8c8e2-3b1b-43fc-811a-e54a2a5a8c2b",
+        "location": "Palo Alto",
+        "country": "USA"
+      },
+      {
+        "company": "Boeing",
+        "role": "Data Exploitation Engineer",
+        "link": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Bristol-UK/Data-Exploitation-Engineer_JR2026523353-2",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Boseallaboutme",
+        "role": "Research Engineer — Agentic Audio ML Workflows",
+        "link": "https://boseallaboutme.wd503.myworkdayjobs.com/bose_careers/job/US-MA---Framingham/Research-Engineer---Agentic-Audio-ML-Workflows_R29334",
+        "location": "16 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Software Engineer - Stack (AWS, Java, JavaScript, TypeScript)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Software-Engineer---Stack--AWS--Java--JavaScript--TypeScript-_R1004484-1",
+        "location": "McLean, VA",
+        "country": "USA"
+      },
+      {
+        "company": "Cisco",
+        "role": "Information Security Engineer Hybrid",
+        "link": "https://careers.cisco.com/global/en/job/2018972?ph_id=2018972",
+        "location": "Alpharetta, Georgia, United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "U.S. Bank",
+        "role": "Software Engineer (Multiple openings) in Irving, TX.",
+        "link": "https://careers.usbank.com/global/en/job/2026-0034197?ph_id=2026-0034197",
+        "location": "Irving, TX, United States",
+        "country": "USA"
+      },
+      {
+        "company": "U.S. Bank",
+        "role": "Full Stack Developer (Agile AI/ML Software Developer) (multiple positions) in Chicago, IL.",
+        "link": "https://careers.usbank.com/global/en/job/2026-0033976?ph_id=2026-0033976",
+        "location": "Chicago, IL, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Charles River Associates",
+        "role": "Systems Engineer/Dell Compute, Everpure Storage, Windows Server & VMware vSphere (IT Services)",
+        "link": "https://job-boards.greenhouse.io/charlesriverassociates/jobs/7899272",
+        "location": "Boston, MA, United States; Chicago, IL, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Citi",
+        "role": "Java Full Stack Developer with Angular",
+        "link": "https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Java-Full-Stack-Developer-with-Angular_261003825-1",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Citi",
+        "role": "Java React Full stack Developer",
+        "link": "https://citi.wd5.myworkdayjobs.com/2/job/1124-SHIVAJI-GARDENS-MOONLI/Java-React-Full-stack-Developer_261002577",
+        "location": "1/124, SHIVAJI GARDENS, MOONLI",
+        "country": "Unsure"
+      },
+      {
+        "company": "Citi",
+        "role": "Java Full Stack Developer with Angular",
+        "link": "https://jobs.citi.com/job/pune/java-full-stack-developer-with-angular/287/102756314960",
+        "location": "Multiple Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Cloudflare",
+        "role": "Systems Engineer, WARP",
+        "link": "https://boards.greenhouse.io/cloudflare/jobs/8336674?gh_jid=8336674",
+        "location": "Hybrid",
+        "country": "Unsure"
+      },
+      {
+        "company": "Google",
+        "role": "Cloud Workforce Planning Analyst",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/79174462544454342-cloud-workforce-planning-analyst?sort_by=date&page=3",
+        "location": "Sunnyvale, CA, USA; Chicago, IL, USA; +2 more; +1 more",
+        "country": "USA"
+      },
+      {
+        "company": "Google",
+        "role": "Silicon Validation Product Engineer, Google Cloud",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/114649105703019206-silicon-validation-product-engineer-google-cloud?sort_by=date&page=3",
+        "location": "Sunnyvale, CA, USA",
+        "country": "USA"
+      },
+      {
+        "company": "Google",
+        "role": "Financial Analyst, Compute Infrastructure Business",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/141408469944017606-financial-analyst-compute-infrastructure-business?sort_by=date&page=4",
+        "location": "Sunnyvale, CA, USA; Kirkland, WA, USA",
+        "country": "USA"
+      },
+      {
+        "company": "Hiscox",
+        "role": "Data Engineer",
+        "link": "https://hiscox.wd3.myworkdayjobs.com/hiscox_external_site/job/Lisbon/Data-Engineer_R0020479",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Hpe",
+        "role": "Software Consulting Engineer",
+        "link": "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Chennai-Tamil-Nadu-India/Software-Consulting-Engineer_1217793-2",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Hpe",
+        "role": "Software Consulting Engineer",
+        "link": "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Chennai-Tamil-Nadu-India/Software-Consulting-Engineer_1217812-2",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Ing",
+        "role": "Expert DevOps Engineer (Kotlin)",
+        "link": "https://ing.wd3.myworkdayjobs.com/icsgblcor/job/PB_Cen_Katowice-ul-Sokolska-34/Expert-DevOps-Engineer--Kotlin-_REQ-10123869",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "BAE Systems",
+        "role": "Systems Engineer",
+        "link": "https://jobs.baesystems.com/global/en/job/132233BR?ph_id=132233BR",
+        "location": "Hudson, New Hampshire, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Lockheedmartin",
+        "role": "Software Engineer - Early Career",
+        "link": "https://lockheedmartin.eightfold.ai/careers/job/996477286175?domain=lockheedmartin.com&8fold_id=996477286175",
+        "location": "Huntsville, AL",
+        "country": "USA"
+      },
+      {
+        "company": "Lockheedmartin",
+        "role": "Software Engineer - Early Career",
+        "link": "https://lockheedmartin.eightfold.ai/careers/job/996477384815?domain=lockheedmartin.com&8fold_id=996477384815",
+        "location": "Littleton, CO",
+        "country": "USA"
+      },
+      {
+        "company": "Lockheedmartin",
+        "role": "Software Engineer - Intern",
+        "link": "https://lockheedmartin.eightfold.ai/careers/job/996477643928?domain=lockheedmartin.com&8fold_id=996477643928",
+        "location": "Fort Worth, TX",
+        "country": "USA"
+      },
+      {
+        "company": "Lockheedmartin",
+        "role": "Systems Engineering Asc Mgr - L4",
+        "link": "https://lockheedmartin.eightfold.ai/careers/job/996477453558?domain=lockheedmartin.com&8fold_id=996477453558",
+        "location": "Littleton, CO",
+        "country": "USA"
+      },
+      {
+        "company": "Microsoft",
+        "role": "Software Engineering IC6",
+        "link": "https://apply.careers.microsoft.com/careers/job/1970393557044624?domain=microsoft.com&8fold_id=1970393557044624",
+        "location": "United States, Multiple Locations, Multiple Locations, United States, Washington, Redmond, United States, California, Mountain View, United States, Texas, Austin, United States, Texas, Houston, United States, Illinois, Chicago, United States, New York, New York, United States, Georgia, Atlanta",
+        "country": "USA"
+      },
+      {
+        "company": "Nationwide",
+        "role": "Consultant, Software Engineer — Forward Deployed Engineering",
+        "link": "https://nationwide.wd1.myworkdayjobs.com/nationwide_career/job/Ohio---Columbus-Three-Nationwide-Plaza/Consultant--Software-Engineer---Forward-Deployed-Engineering_100909",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Nationwide",
+        "role": "Consultant, Software Engineer - Platform Engineering",
+        "link": "https://nationwide.wd1.myworkdayjobs.com/nationwide_career/job/Ohio---Columbus-Three-Nationwide-Plaza/Consultant--Software-Engineer---Platform-Engineering_100906",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Nationwide",
+        "role": "Sr Consultant, Software Engineering   — Forward Deployed Engineering",
+        "link": "https://nationwide.wd1.myworkdayjobs.com/nationwide_career/job/Ohio---Columbus-Three-Nationwide-Plaza/Sr-Consultant--Software-Engineering-----Forward-Deployed-Engineering_100910",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Ngc",
+        "role": "System Safety Engineer",
+        "link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/Australia-Fortitude-Valley/System-Safety-Engineer_R10254832",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Ngc",
+        "role": "Associate Software Configuration Analyst/Software Configuration Analyst",
+        "link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/Associate-Software-Configuration-Analyst-Software-Configuration-Analyst_R10257158-1",
+        "location": "United States-Florida-Melbourne",
+        "country": "USA"
+      },
+      {
+        "company": "Openai",
+        "role": "Data Center Controls Engineer (BMS / EPMS)",
+        "link": "https://jobs.ashbyhq.com/openai/a46ffc60-39c6-4b1e-bd0f-9c33a8b06703",
+        "location": "San Francisco",
+        "country": "USA"
+      },
+      {
+        "company": "Parsons",
+        "role": "Planning Engineer (Infrastructure)",
+        "link": "https://parsons.wd5.myworkdayjobs.com/search/job/AE---Abu-Dhabi/Planning-Engineer--Infrastructure-_R188099-1",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Parsons",
+        "role": "Planning Engineer (Infrastructure)",
+        "link": "https://parsons.wd5.myworkdayjobs.com/search/job/AE---Abu-Dhabi/Planning-Engineer--Infrastructure-_R188098",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Rtx",
+        "role": "Embedded Security Software Engineer I (Onsite)",
+        "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Embedded-Security-Software-Engineer-I--Onsite-_01881440",
+        "location": "US-MA-TEWKSBURY-TB1 ~ 50 Apple Hill Dr ~ ASSABET BLDG",
+        "country": "USA"
+      },
+      {
+        "company": "Salesforce",
+        "role": "Software Engineering, SMTS/MTS (Backend + Kubernetes/Docker/Helm)",
+        "link": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Software-Engineering-MTS_JR338172-1",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Salesforce",
+        "role": "Software Engineering LMTS - Backend Distributed Systems",
+        "link": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Software-Engineering-LMTS_JR338174",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Synchronyfinancial",
+        "role": "AVP, Security Tools Engineering",
+        "link": "https://synchronyfinancial.wd5.myworkdayjobs.com/careers/job/Central-Region-Engagement-Hub-IN/AVP--Security-Tools-Engineering_2602408",
+        "location": "5 Locations",
+        "country": "Unsure"
+      }
+    ]
+  },
+  {
+    "name": "batches/x23vhkbyjpdhj189ubt93ewfkdhohev4b84q",
+    "submittedAt": "2026-11-02T11:48:40.597Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Texas Instruments",
+        "role": "Software Development Engineer",
+        "link": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017680",
+        "location": "Dallas, TX, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Thomsonreuters",
+        "role": "Software Engineer I",
+        "link": "https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/India-Hyderabad-Telangana/Software-Engineer-I_JREQ204719",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Thomsonreuters",
+        "role": "Associate Software Engineer",
+        "link": "https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/India-Hyderabad-Telangana/Associate-Software-Engineer_JREQ204720",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Usbank",
+        "role": "Full Stack Developer (Agile AI/ML Software Developer) (multiple positions) in Chicago, IL.",
+        "link": "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Chicago-IL/Full-Stack-Developer--Agile-AI-ML-Software-Developer---multiple-positions--in-Chicago--IL_2026-0033976",
+        "location": "Chicago, IL",
+        "country": "USA"
+      },
+      {
+        "company": "Usbank",
+        "role": "Software Engineer (Multiple openings) in Irving, TX.",
+        "link": "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Irving-TX/Software-Engineer--Multiple-openings--in-Irving--TX_2026-0034197",
+        "location": "Irving, TX",
+        "country": "USA"
+      },
+      {
+        "company": "Verizon",
+        "role": "Sr Engr Cslt-Data Science",
+        "link": "https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Chennai-India/Sr-Engr-Cslt-Data-Science_R-1102904",
+        "location": "3 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Verizon",
+        "role": "Engr IV-Security Engrg",
+        "link": "https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Chennai-India/Engr-IV-Security-Engrg_R-1101357-1",
+        "location": "3 Locations",
+        "country": "Unsure"
+      }
+    ]
+  }
+]
