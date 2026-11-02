@@ -24,13 +24,10 @@ export const postingJDFetchers = {
   lever: fetchCustomJD,
   phenom: fetchCustomJD,
   radancy: fetchCustomJD,
+  successfactors: fetchCustomJD,
   custom: fetchCustomJD,
 } satisfies Record<ATS, PostingJDFetcher>;
 
-export function fetchJDByATS(
-  ats: ATS,
-  url: string,
-  signal: AbortSignal
-): Promise<JDFetchResult> {
+export function fetchJDByATS(ats: ATS, url: string, signal: AbortSignal): Promise<JDFetchResult> {
   return postingJDFetchers[ats](url, signal);
 }

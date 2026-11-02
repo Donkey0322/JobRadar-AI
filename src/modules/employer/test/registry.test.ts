@@ -32,6 +32,7 @@ import { oracleCloudFetcher } from "../listing/oraclecloud";
 import { phenomFetcher } from "../listing/phenom";
 import { radancyFetcher } from "../listing/radancy";
 import { smartRecruitersFetcher } from "../listing/smart";
+import { successFactorsFetcher } from "../listing/successfactors";
 import { workdayFetcher } from "../listing/workday";
 import { employers } from "../registry";
 
@@ -47,6 +48,7 @@ const allATS = [
   "phenom",
   "radancy",
   "smartrecruiters",
+  "successfactors",
   "workday",
   "custom",
 ] satisfies ATS[];
@@ -70,6 +72,7 @@ describe("ATS fetcher registry", () => {
       phenom: phenomFetcher,
       radancy: radancyFetcher,
       smartrecruiters: smartRecruitersFetcher,
+      successfactors: successFactorsFetcher,
       workday: workdayFetcher,
       custom: customFetcher,
     });
@@ -213,5 +216,4 @@ describe("ATS fetcher registry", () => {
       ])
     );
   });
-
 });

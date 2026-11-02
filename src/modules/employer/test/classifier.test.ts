@@ -18,6 +18,20 @@ describe("classifyATS", () => {
     ["https://careers.arm.com/job/bengaluru/ip-verification-engineer/33099/99500560928", "radancy"],
     ["https://careers.arm.com/search-jobs", "radancy"],
     ["https://careers.cargill.com/en/search-jobs/resultspost", "radancy"],
+    [
+      "https://aramarkcareers.com/UnitedStates/job/West-Allis-Food-Service-Worker-WI-53227/1441993400/",
+      "successfactors",
+    ],
+    [
+      "https://careers.qorvo.com/job/Richardson-Software-Engineer-TX-75080/1435014200/",
+      "successfactors",
+    ],
+    [
+      "https://careers.dovercorporation.com/job/Keene-Software-Engineer-NH-03431/1404722033",
+      "successfactors",
+    ],
+    ["https://assaabloy.jobs2web.com/search/?q=engineer", "successfactors"],
+    ["https://careers.example.com/careers/jobs/123456?ats=successfactors", "successfactors"],
   ])("classifies the host suffix in %s", (url, ats) => {
     expect(classifyATS(new URL(url))).toBe(ats);
   });

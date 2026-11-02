@@ -1,6 +1,8 @@
 import { getLastPathNumber } from "./url";
 
 import { parseCustomCompanyIdentifier } from "@/modules/employer/shared/custom-identifier";
+import { getSuccessFactorsJobId } from "@/modules/employer/shared/successfactors";
+import { getHostnameWithoutWww } from "@/utils/url";
 
 function toATSKey(vendor: string, id: string | null | undefined): string | null {
   return id ? `${vendor}:${id}` : null;
@@ -100,6 +102,12 @@ export function getPhenomKey(pathname: string): string | null {
 export function getRadancyKey(pathname: string): string | null {
   const match = pathname.match(/\/job\/[^/]+\/[^/]+\/\d+\/(\d+)(?:\/|$)/i);
   return toATSKey("radancy", match?.[1]);
+}
+
+export function getSuccessFactorsKey(url: URL): string | null {
+  const id = getSuccessFactorsJobId(url.pathname);
+  // Job IDs are only guaranteed unique within one career site.
+  return toATSKey("successfactors", id ? `${getHostnameWithoutWww(url)}:${id}` : null);
 }
 
 export function getIcimsKey(pathname: string): string | null {

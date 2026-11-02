@@ -8,5 +8,6 @@ export type ATS =
   | "phenom"
   | "radancy"
   | "smartrecruiters"
+  | "successfactors"
   | "workday"
   | "custom";

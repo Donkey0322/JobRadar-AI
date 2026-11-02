@@ -10,6 +10,7 @@ import {
   getOracleKey,
   getRadancyKey,
   getSmartRecruitersKey,
+  getSuccessFactorsKey,
   getWorkdayKey,
 } from "../ats";
 
@@ -388,6 +389,31 @@ describe("getRadancyKey", () => {
 
   it("returns null when the path is not a Radancy job URL", () => {
     expect(getRadancyKey("/job/123456/software-engineer")).toBeNull();
+  });
+});
+
+describe("getSuccessFactorsKey", () => {
+  it("scopes the Career Site Builder job id to its host", () => {
+    const url = new URL(
+      "https://aramarkcareers.com/UnitedStates/job/Rockville-Jr_-Data-Engineer-MD-20850/1426145000/?ats=successfactors"
+    );
+
+    expect(getSuccessFactorsKey(url)).toBe("successfactors:aramarkcareers.com:1426145000");
+  });
+
+  it("matches the same posting with or without the trailing slash and query", () => {
+    const a = new URL(
+      "https://careers.dovercorporation.com/job/Keene-Software-Engineer-Intern-NH-03431/1404722033"
+    );
+    const b = new URL(
+      "https://careers.dovercorporation.com/job/Keene-Software-Engineer-Intern-NH-03431/1404722033/?ats=successfactors"
+    );
+
+    expect(getSuccessFactorsKey(a)).toBe(getSuccessFactorsKey(b));
+  });
+
+  it("returns null when the path is not a job page", () => {
+    expect(getSuccessFactorsKey(new URL("https://assaabloy.jobs2web.com/search/"))).toBeNull();
   });
 });
 

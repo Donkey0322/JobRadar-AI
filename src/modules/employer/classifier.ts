@@ -1,6 +1,7 @@
 import type { ATS } from "./type";
 
 import { isRadancyUrl } from "./shared/radancy";
+import { isSuccessFactorsUrl } from "./shared/successfactors";
 
 import { getHostnameWithoutWww } from "@/utils/url";
 
@@ -43,6 +44,7 @@ export function classifyATS(url: URL): ATS {
   if (url.searchParams.get("ashby_jid")) return "ashby";
   if (url.searchParams.get("gh_jid")) return "greenhouse";
   if (isRadancyUrl(url)) return "radancy";
+  if (isSuccessFactorsUrl(url)) return "successfactors";
 
   return "custom";
 }

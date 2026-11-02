@@ -12,6 +12,7 @@ import { oracleCloudFetcher } from "./listing/oraclecloud";
 import { phenomFetcher } from "./listing/phenom";
 import { radancyFetcher } from "./listing/radancy";
 import { smartRecruitersFetcher } from "./listing/smart";
+import { successFactorsFetcher } from "./listing/successfactors";
 import { workdayFetcher } from "./listing/workday";
 
 export const employers = {
@@ -24,6 +25,7 @@ export const employers = {
   phenom: phenomFetcher,
   radancy: radancyFetcher,
   smartrecruiters: smartRecruitersFetcher,
+  successfactors: successFactorsFetcher,
   workday: workdayFetcher,
   custom: customFetcher,
 } satisfies Record<ATS, Employer<unknown>>;

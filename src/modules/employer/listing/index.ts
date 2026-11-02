@@ -64,4 +64,9 @@ export {
   SmartRecruitersResponseSchema,
   type SmartRecruitersJob,
 } from "./smart";
+export {
+  SuccessFactorsFetcher,
+  successFactorsFetcher,
+  type SuccessFactorsJob,
+} from "./successfactors";
 export { WorkdayFetcher, workdayFetcher, WorkdayJobSchema, type WorkdayJob } from "./workday";

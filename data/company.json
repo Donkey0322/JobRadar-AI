@@ -1108,6 +1108,17 @@
     ]
   },
   {
+    "name": "Aflac, Incorporated",
+    "ats": "successfactors",
+    "identifier": "careers.aflac.com",
+    "domain": "https://careers.aflac.com",
+    "page": "https://careers.aflac.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://careers.aflac.com/job/2026-Summer-Aflac-Corporate-Intern-GA/1320690100/?ats=successfactors",
+      "https://careers.aflac.com/job/Software-Engineer-I-GA-31999/1323022100/?ats=successfactors"
+    ]
+  },
+  {
     "name": "ag",
     "ats": "workday",
     "identifier": "ag-airbus",
@@ -1207,6 +1218,16 @@
       "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/System-Safety-Engineer--m-f-_JR10445356-1",
       "https://ag.wd3.myworkdayjobs.com/Airbus/job/Ulm-Area/Software-Engineer-IV-V---Agentic-AI---Complex-Systems-IV-V--d-m-w-_JR10443842-1",
       "https://ag.wd3.myworkdayjobs.com/Airbus/job/Waterloo/SKYWISE-AI-Automation-Developer_JR10451232"
+    ]
+  },
+  {
+    "name": "AGCO",
+    "ats": "successfactors",
+    "identifier": "careers.agcocorp.com",
+    "domain": "https://careers.agcocorp.com",
+    "page": "https://careers.agcocorp.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://careers.agcocorp.com/job/Hesston-Embedded-Software-Engineering-Intern-Summer-2027-KS-67062/1440993300/?ats=successfactors"
     ]
   },
   {
@@ -5262,16 +5283,6 @@
     "urls": []
   },
   {
-    "name": "apply.edisoncareers.com",
-    "ats": "custom",
-    "identifier": "apply.edisoncareers.com",
-    "domain": "https://apply.edisoncareers.com",
-    "page": "",
-    "urls": [
-      "https://apply.edisoncareers.com/job/Chino-2027-Summer-Internship-SoftwareData-Engineering-(Chino)-CA-91710/1424663800/?ats=successfactors"
-    ]
-  },
-  {
     "name": "apptronik",
     "ats": "greenhouse",
     "identifier": "apptronik",
@@ -5360,11 +5371,11 @@
     ]
   },
   {
-    "name": "aramarkcareers.com",
-    "ats": "custom",
+    "name": "Aramark",
+    "ats": "successfactors",
     "identifier": "aramarkcareers.com",
     "domain": "https://aramarkcareers.com",
-    "page": "",
+    "page": "https://aramarkcareers.com/services/rss/job/?locale=en_US",
     "urls": [
       "https://aramarkcareers.com/UnitedStates/job/Rockville-Jr_-Data-Engineer-MD-20850/1426145000/?ats=successfactors"
     ]
@@ -5614,6 +5625,17 @@
     ]
   },
   {
+    "name": "Arthrex",
+    "ats": "successfactors",
+    "identifier": "careers.arthrex.com",
+    "domain": "https://careers.arthrex.com",
+    "page": "https://careers.arthrex.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://careers.arthrex.com/NorthAmerica/job/Naples-Custom-Dev-_NET-Intern-FL-34108/1335818300/",
+      "https://careers.arthrex.com/NorthAmerica/job/Naples-SAP-Global-Release-Management-Intern-FL-34108/1335816400/"
+    ]
+  },
+  {
     "name": "artisanpartners",
     "ats": "greenhouse",
     "identifier": "artisanpartners",
@@ -5772,11 +5794,11 @@
     "urls": []
   },
   {
-    "name": "assaabloy.jobs2web.com",
-    "ats": "custom",
+    "name": "ASSA ABLOY",
+    "ats": "successfactors",
     "identifier": "assaabloy.jobs2web.com",
     "domain": "https://assaabloy.jobs2web.com",
-    "page": "",
+    "page": "https://assaabloy.jobs2web.com/services/rss/job/?locale=en_US",
     "urls": [
       "https://assaabloy.jobs2web.com/job/Lake-Forest-Mobile-Developer-Intern-CA-92610/1293009401/?ats=successfactors",
       "https://assaabloy.jobs2web.com/job/New-Haven-Software-Developer-Intern-CT-06511/1370661333/?ats=successfactors"
@@ -7631,6 +7653,18 @@
       "https://jobs.ashbyhq.com/bedrock-robotics/c51d682e-58ee-44de-886f-4cfacb56d2e1/application?embed=true",
       "https://jobs.ashbyhq.com/bedrock-robotics/cbcf15d7-6f14-4270-b726-3bfa90242fc5",
       "https://jobs.ashbyhq.com/bedrock-robotics/d7da851b-55c2-45d4-bf8b-aa879282f25c"
+    ]
+  },
+  {
+    "name": "Belden Inc",
+    "ats": "successfactors",
+    "identifier": "careers.belden.com",
+    "domain": "https://careers.belden.com",
+    "page": "https://careers.belden.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://careers.belden.com/job/Rochester-Software-Engineering-Coop-NY-14623/1380960800/?ats=successfactors",
+      "https://careers.belden.com/job/Rochester-Software-Engineering-Coop-NY-14623/1380965600/?ats=successfactors",
+      "https://careers.belden.com/job/Rochester-Software-Engineering-Coop-NY-14623/1380970600/?ats=successfactors"
     ]
   },
   {
@@ -10830,6 +10864,16 @@
     ]
   },
   {
+    "name": "Capgemini",
+    "ats": "successfactors",
+    "identifier": "careers.capgemini.com",
+    "domain": "https://careers.capgemini.com",
+    "page": "https://careers.capgemini.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://careers.capgemini.com/job/Telford-Graduate-Software-Engineering-Programme-2027-1/1443172033/?ats=successfactors"
+    ]
+  },
+  {
     "name": "capitalone",
     "ats": "workday",
     "identifier": "capitalone-capital_one",
@@ -11881,16 +11925,6 @@
     "urls": []
   },
   {
-    "name": "careerprofile.epiroc.com",
-    "ats": "custom",
-    "identifier": "careerprofile.epiroc.com",
-    "domain": "https://www.careerprofile.epiroc.com",
-    "page": "",
-    "urls": [
-      "https://www.careerprofile.epiroc.com/job/Broomfield-Intern-Data-Analyst-CO-80020/1435969833/?ats=successfactors"
-    ]
-  },
-  {
     "name": "Careers at Atlantic Health System",
     "ats": "oraclecloud",
     "identifier": "erqh.fa.us2.oraclecloud.com",
@@ -11944,27 +11978,6 @@
     "urls": []
   },
   {
-    "name": "careers.aflac.com",
-    "ats": "custom",
-    "identifier": "careers.aflac.com",
-    "domain": "https://careers.aflac.com",
-    "page": "",
-    "urls": [
-      "https://careers.aflac.com/job/2026-Summer-Aflac-Corporate-Intern-GA/1320690100/?ats=successfactors",
-      "https://careers.aflac.com/job/Software-Engineer-I-GA-31999/1323022100/?ats=successfactors"
-    ]
-  },
-  {
-    "name": "careers.agcocorp.com",
-    "ats": "custom",
-    "identifier": "careers.agcocorp.com",
-    "domain": "https://careers.agcocorp.com",
-    "page": "",
-    "urls": [
-      "https://careers.agcocorp.com/job/Hesston-Embedded-Software-Engineering-Intern-Summer-2027-KS-67062/1440993300/?ats=successfactors"
-    ]
-  },
-  {
     "name": "careers.akima.com",
     "ats": "custom",
     "identifier": "careers.akima.com",
@@ -11987,17 +12000,6 @@
     "domain": "https://careers.arcfield.com",
     "page": "",
     "urls": []
-  },
-  {
-    "name": "careers.arthrex.com",
-    "ats": "custom",
-    "identifier": "careers.arthrex.com",
-    "domain": "https://careers.arthrex.com",
-    "page": "",
-    "urls": [
-      "https://careers.arthrex.com/NorthAmerica/job/Naples-Custom-Dev-_NET-Intern-FL-34108/1335818300/",
-      "https://careers.arthrex.com/NorthAmerica/job/Naples-SAP-Global-Release-Management-Intern-FL-34108/1335816400/"
-    ]
   },
   {
     "name": "careers.astrion.us",
@@ -12028,18 +12030,6 @@
     ]
   },
   {
-    "name": "careers.belden.com",
-    "ats": "custom",
-    "identifier": "careers.belden.com",
-    "domain": "https://careers.belden.com",
-    "page": "",
-    "urls": [
-      "https://careers.belden.com/job/Rochester-Software-Engineering-Coop-NY-14623/1380960800/?ats=successfactors",
-      "https://careers.belden.com/job/Rochester-Software-Engineering-Coop-NY-14623/1380965600/?ats=successfactors",
-      "https://careers.belden.com/job/Rochester-Software-Engineering-Coop-NY-14623/1380970600/?ats=successfactors"
-    ]
-  },
-  {
     "name": "careers.blizzard.com",
     "ats": "phenom",
     "identifier": "careers.blizzard.com",
@@ -12047,16 +12037,6 @@
     "page": "https://careers.blizzard.com",
     "urls": [
       "https://careers.blizzard.com/global/en/job/R028084?ph_id=R028084"
-    ]
-  },
-  {
-    "name": "careers.capgemini.com",
-    "ats": "custom",
-    "identifier": "careers.capgemini.com",
-    "domain": "https://careers.capgemini.com",
-    "page": "",
-    "urls": [
-      "https://careers.capgemini.com/job/Telford-Graduate-Software-Engineering-Programme-2027-1/1443172033/?ats=successfactors"
     ]
   },
   {
@@ -12093,19 +12073,6 @@
     "page": "",
     "urls": [
       "https://careers.certara.com/jobs/2609?icims=1"
-    ]
-  },
-  {
-    "name": "careers.chsinc.com",
-    "ats": "custom",
-    "identifier": "careers.chsinc.com",
-    "domain": "https://careers.chsinc.com",
-    "page": "",
-    "urls": [
-      "https://careers.chsinc.com/job/Inver-Grove-Heights-Data-Analyst-Intern-MN-55077-1721/1433568700/?ats=successfactors",
-      "https://careers.chsinc.com/job/Inver-Grove-Heights-Data-Analyst-Intern-MN-55077-1721/1439313500/?ats=successfactors",
-      "https://careers.chsinc.com/job/Inver-Grove-Heights-Data-Engineer-Intern-MN-55077-1721/1443597100/?ats=successfactors",
-      "https://careers.chsinc.com/job/Inver-Grove-Heights-Data-Engineer-Intern-MN-55077-1721/1443601900/?ats=successfactors"
     ]
   },
   {
@@ -12492,16 +12459,6 @@
     "urls": []
   },
   {
-    "name": "careers.consumersenergy.com",
-    "ats": "custom",
-    "identifier": "careers.consumersenergy.com",
-    "domain": "https://careers.consumersenergy.com",
-    "page": "",
-    "urls": [
-      "https://careers.consumersenergy.com/job/JACKSON-InternCo-Op-Applications-&-Analytics-1-MI/1324380700/?ats=successfactors"
-    ]
-  },
-  {
     "name": "careers.crowe.com",
     "ats": "phenom",
     "identifier": "careers.crowe.com",
@@ -12536,17 +12493,6 @@
     "urls": [
       "https://careers.dexcom.com/careers/job/37990370",
       "https://careers.dexcom.com/careers/job/38039370"
-    ]
-  },
-  {
-    "name": "careers.dominionenergy.com",
-    "ats": "custom",
-    "identifier": "careers.dominionenergy.com",
-    "domain": "https://careers.dominionenergy.com",
-    "page": "",
-    "urls": [
-      "https://careers.dominionenergy.com/job/CAYCE-Intern-GIS-SC-29033/1432505500/?ats=successfactors",
-      "https://careers.dominionenergy.com/job/RICHMOND-Intern-IT-Microsoft-Center-of-Excellence-(Richmond,-VA-Cayce,-SC)-VA-23219/1348906400/?ats=successfactors"
     ]
   },
   {
@@ -12651,16 +12597,6 @@
     "domain": "https://careers.hellofresh.com",
     "page": "",
     "urls": []
-  },
-  {
-    "name": "careers.hfsinclair.com",
-    "ats": "custom",
-    "identifier": "careers.hfsinclair.com",
-    "domain": "https://careers.hfsinclair.com",
-    "page": "",
-    "urls": [
-      "https://careers.hfsinclair.com/job/Dallas-Intern,-IT-Data-Analytics-TX-75201/1336209800/?ats=successfactors"
-    ]
   },
   {
     "name": "careers.homedepot.com",
@@ -12876,23 +12812,6 @@
     ]
   },
   {
-    "name": "careers.huntingtoningalls.com",
-    "ats": "custom",
-    "identifier": "careers.huntingtoningalls.com",
-    "domain": "https://careers.huntingtoningalls.com",
-    "page": "",
-    "urls": [
-      "https://careers.huntingtoningalls.com/job/Newport-News-ENGINEER-SOFTWARE-1-Virg/1425126300/?ats=successfactors",
-      "https://careers.huntingtoningalls.com/job/Newport-News-ENGINEER-SOFTWARE-1-Virg/1425127900/?ats=successfactors",
-      "https://careers.huntingtoningalls.com/job/Newport-News-ENGINEER-SOFTWARE-1-Virg/1440925100/?ats=successfactors",
-      "https://careers.huntingtoningalls.com/job/Newport-News-ENGINEER-SOFTWARE-1-Virg/1440976000/?ats=successfactors",
-      "https://careers.huntingtoningalls.com/job/Newport-News-ENGINEER-SOFTWARE-1-Virg/1440992800/?ats=successfactors",
-      "https://careers.huntingtoningalls.com/job/Newport-News-ENGINEER-SOFTWARE-1-Virg/1446380900/?ats=successfactors",
-      "https://careers.huntingtoningalls.com/job/Newport-News-SOFTWARE-ENGINEER-1-Virg/1408046100/?ats=successfactors",
-      "https://careers.huntingtoningalls.com/job/Newport-News-SOFTWARE-ENGINEER-1-Virg/1412050700/?ats=successfactors"
-    ]
-  },
-  {
     "name": "careers.ice.com",
     "ats": "custom",
     "identifier": "careers.ice.com",
@@ -13038,43 +12957,12 @@
     ]
   },
   {
-    "name": "careers.kodak.com",
-    "ats": "custom",
-    "identifier": "careers.kodak.com",
-    "domain": "https://careers.kodak.com",
-    "page": "",
-    "urls": [
-      "https://careers.kodak.com/job/Dayton-Software-Engineer-Intern-OH-45420/1364524600/?ats=successfactors",
-      "https://careers.kodak.com/job/USA-Web-Developer-Intern-CA/1320436300/"
-    ]
-  },
-  {
     "name": "careers.kpmg.ca",
     "ats": "custom",
     "identifier": "careers.kpmg.ca",
     "domain": "https://careers.kpmg.ca",
     "page": "",
     "urls": []
-  },
-  {
-    "name": "careers.leggett.com",
-    "ats": "custom",
-    "identifier": "careers.leggett.com",
-    "domain": "https://careers.leggett.com",
-    "page": "",
-    "urls": [
-      "https://careers.leggett.com/job/Detroit-Software-Engineer-Intern-MI/1385086400/?ats=successfactors"
-    ]
-  },
-  {
-    "name": "careers.leonardodrs.com",
-    "ats": "custom",
-    "identifier": "careers.leonardodrs.com",
-    "domain": "https://careers.leonardodrs.com",
-    "page": "",
-    "urls": [
-      "https://careers.leonardodrs.com/job/Bridgeton-Embedded-Software-Engineer-Intern-MO-63044/1311812900/?jobPipeline=Indeed"
-    ]
   },
   {
     "name": "careers.loreal.com",
@@ -13091,17 +12979,6 @@
     "domain": "https://careers.lutron.com",
     "page": "",
     "urls": []
-  },
-  {
-    "name": "careers.mediaocean.com",
-    "ats": "custom",
-    "identifier": "careers.mediaocean.com",
-    "domain": "https://careers.mediaocean.com",
-    "page": "",
-    "urls": [
-      "https://careers.mediaocean.com/job/New-York-Prisma-Core-Systems-Engineering-Intern-NY-10271/1376615500/?ats=successfactors",
-      "https://careers.mediaocean.com/job/New-York-Prisma-Software-Engineering-Intern-NY-10271/1376614500/?ats=successfactors"
-    ]
   },
   {
     "name": "careers.medpace.com",
@@ -13243,18 +13120,6 @@
     "urls": []
   },
   {
-    "name": "careers.nrgenergy.com",
-    "ats": "custom",
-    "identifier": "careers.nrgenergy.com",
-    "domain": "https://careers.nrgenergy.com",
-    "page": "",
-    "urls": [
-      "https://careers.nrgenergy.com/SMARTHOMES/job/Boston-Software-Engineer-Intern,-Mobile-Apps-MA-02109/1345133100/?ats=successfactors",
-      "https://careers.nrgenergy.com/SMARTHOMES/job/Salesforce-Developer-Intern-UT-84043/1358225200/?ats=successfactors",
-      "https://careers.nrgenergy.com/nrg/job/Houston-Data-Science-Analyst-Agentic-AI-Developer-TX-77010/1441481900/?ats=successfactors"
-    ]
-  },
-  {
     "name": "careers.oracle.com",
     "ats": "custom",
     "identifier": "careers.oracle.com",
@@ -13281,45 +13146,12 @@
     ]
   },
   {
-    "name": "careers.owenscorning.com",
-    "ats": "custom",
-    "identifier": "careers.owenscorning.com",
-    "domain": "https://careers.owenscorning.com",
-    "page": "",
-    "urls": [
-      "https://careers.owenscorning.com/job/Toledo-Global-Information-Services-Internship-(2026)-OH-43659-0001/1323918100/?ats=successfactors"
-    ]
-  },
-  {
-    "name": "careers.paramount.com",
-    "ats": "custom",
-    "identifier": "careers.paramount.com",
-    "domain": "https://careers.paramount.com",
-    "page": "",
-    "urls": [
-      "https://careers.paramount.com/job/Burbank-Paramount-Streaming-Engineering-Intern,-Front-End-(Summer-2026-In-Person-LA)-CA-91505/1375918300/?ats=successfactors",
-      "https://careers.paramount.com/job/Los-Angeles-Junior-Game-Engineer-Intern-(Summer-2026-In-Person-LANY)-CA-90038/1371206300/?ats=successfactors",
-      "https://careers.paramount.com/job/New-York-247Sports-Software-Engineering-Intern-(Summer-2026-In-Person-LANY-or-Nashville)-NY-10036/1375918900/?ats=successfactors",
-      "https://careers.paramount.com/job/New-York-Software-Engineering-Internships-(Summer-2026,-In-Person-NYC)-NY-10036/1351981200/?ats=successfactors"
-    ]
-  },
-  {
     "name": "careers.peak6.com",
     "ats": "custom",
     "identifier": "careers.peak6.com",
     "domain": "https://careers.peak6.com",
     "page": "",
     "urls": []
-  },
-  {
-    "name": "careers.phillips66.com",
-    "ats": "custom",
-    "identifier": "careers.phillips66.com",
-    "domain": "https://careers.phillips66.com",
-    "page": "",
-    "urls": [
-      "https://careers.phillips66.com/job/South-Killingholme-Digital-&-AI-Analyst-Placement/1437746600/?ats=successfactors"
-    ]
   },
   {
     "name": "careers.planview.com",
@@ -13388,37 +13220,6 @@
     ]
   },
   {
-    "name": "careers.qorvo.com",
-    "ats": "custom",
-    "identifier": "careers.qorvo.com",
-    "domain": "https://careers.qorvo.com",
-    "page": "",
-    "urls": [
-      "https://careers.qorvo.com/job/Apopka-Software-Engineering-Intern,-SWR-FL-32703/1423577900/?ats=successfactors",
-      "https://careers.qorvo.com/job/Bend-Software-Engineer-Intern-OR-97703/1421474800/?ats=successfactors",
-      "https://careers.qorvo.com/job/Greensboro-Database-Administrator-Intern-NC-27409/1325292500",
-      "https://careers.qorvo.com/job/Greensboro-Software-Characterization-Eng-Intern-NC-27409/1420018600/?ats=successfactors",
-      "https://careers.qorvo.com/job/Greensboro-Software-Characterization-Engineering-Intern-NC-27409/1318261400/?ats=successfactors",
-      "https://careers.qorvo.com/job/Greensboro-Software-Developer-Intern-NC-27409/1320964700/?ats=successfactors",
-      "https://careers.qorvo.com/job/Greensboro-Software-Engineer-Intern-NC-27409/1321603900/?ats=successfactors",
-      "https://careers.qorvo.com/job/Greensboro-Software-Engineer-Intern-NC-27409/1421952100/?ats=successfactors",
-      "https://careers.qorvo.com/job/Greensboro-Software-Engineering-Intern,-SWR-NC-27409/1421982000/?ats=successfactors",
-      "https://careers.qorvo.com/job/Greensboro-Software-Engineering-Intern-NC-27409/1323405000/?ats=successfactors",
-      "https://careers.qorvo.com/job/Greensboro-Software-Engineering-Intern-NC-27409/1421981000/?ats=successfactors",
-      "https://careers.qorvo.com/job/Hillsboro-Software-Engineer-Intern-OR-97124/1322876900/?ats=successfactors",
-      "https://careers.qorvo.com/job/Hillsboro-Software-Engineer-Intern-OR-97124/1323406200/?ats=successfactors",
-      "https://careers.qorvo.com/job/Richardson-Data-Engineering-Intern-TX-75081/1333265100/?ats=successfactors",
-      "https://careers.qorvo.com/job/Richardson-Full-Stack-Web-Developer-Intern-TX-75080/1424716200/?ats=successfactors",
-      "https://careers.qorvo.com/job/Richardson-Software-Engineer-Intern-TX-75080/1421453600/?ats=successfactors",
-      "https://careers.qorvo.com/job/Richardson-Software-Engineer-Intern-TX-75080/1421457600/?ats=successfactors",
-      "https://careers.qorvo.com/job/Richardson-Software-Engineer-Intern-TX-75081/1324617700/?ats=successfactors",
-      "https://careers.qorvo.com/job/Richardson-Software-Engineering-Intern-TX-75080/1424729800/?ats=successfactors",
-      "https://careers.qorvo.com/job/Richardson-Software-Engineering-Intern-TX-75081/1321539500/?ats=successfactors",
-      "https://careers.qorvo.com/job/Richardson-Software-Firmware-Engineering-Intern-TX-75081/1424727700/?ats=successfactors",
-      "https://careers.qorvo.com/job/Salem-Data-Engineering-Intern-OR-97302/1431485300/?ats=successfactors"
-    ]
-  },
-  {
     "name": "careers.qualcomm.com",
     "ats": "custom",
     "identifier": "careers.qualcomm.com",
@@ -13430,10 +13231,10 @@
   },
   {
     "name": "careers.qualitestgroup.com",
-    "ats": "custom",
+    "ats": "successfactors",
     "identifier": "careers.qualitestgroup.com",
     "domain": "https://careers.qualitestgroup.com",
-    "page": "",
+    "page": "https://careers.qualitestgroup.com/services/rss/job/?locale=en_US",
     "urls": [
       "https://careers.qualitestgroup.com/job/Santa-Clara-Digital-Engineering-CoE-Intern-CA-95054/54914944/?ats=successfactors"
     ]
@@ -13461,16 +13262,6 @@
     "domain": "https://careers.roblox.com",
     "page": "",
     "urls": []
-  },
-  {
-    "name": "careers.safran-dsi.com",
-    "ats": "custom",
-    "identifier": "careers.safran-dsi.com",
-    "domain": "https://careers.safran-dsi.com",
-    "page": "",
-    "urls": [
-      "https://careers.safran-dsi.com/job/Bedford-Software-Engineering-Internship-NH-03110/1440599100/?ats=successfactors"
-    ]
   },
   {
     "name": "careers.sig.com",
@@ -13594,16 +13385,6 @@
     "urls": []
   },
   {
-    "name": "careers.underarmour.com",
-    "ats": "custom",
-    "identifier": "careers.underarmour.com",
-    "domain": "https://careers.underarmour.com",
-    "page": "",
-    "urls": [
-      "https://careers.underarmour.com/job/Remote-Summer-2026-Internship%2C-Engineering/1330072600/?feedId=347800&jobPipeline=Indeed"
-    ]
-  },
-  {
     "name": "careers.usbank.com",
     "ats": "phenom",
     "identifier": "careers.usbank.com",
@@ -13671,29 +13452,6 @@
     "page": "",
     "urls": [
       "https://careers.vtgdefense.com/jobs/9669?icims=1"
-    ]
-  },
-  {
-    "name": "careers.westinghousenuclear.com",
-    "ats": "custom",
-    "identifier": "careers.westinghousenuclear.com",
-    "domain": "https://careers.westinghousenuclear.com",
-    "page": "",
-    "urls": [
-      "https://careers.westinghousenuclear.com/job/Cranberry-Township-Application-Development-Intern-Summer-2026-NC/1380751200/?ats=successfactors",
-      "https://careers.westinghousenuclear.com/job/Cranberry-Township-Enovia-PLM-Developer-Intern-Summer-2026-NC/1338026700/?ats=successfactors",
-      "https://careers.westinghousenuclear.com/job/Cranberry-Township-Software-Development-Intern-Summer-2026-NC/1335431600/?ats=successfactors",
-      "https://careers.westinghousenuclear.com/job/Cranberry-Township-Software-and-Automation-Intern-Summer-2026-NC/1336532600/?ats=successfactors",
-      "https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Computer-Engineering-Software-Engineering-NC/1422595200/?ats=successfactors",
-      "https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Fuel-Engineering-Data-Analyst-NC/1438463700/?ats=successfactors",
-      "https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Software-Development-NC/1441279500/?ats=successfactors",
-      "https://careers.westinghousenuclear.com/job/Rock-Hill-Summer-Intern-Computer-Engineering-Software-Engineering-SC-29730/1425163200/?ats=successfactors",
-      "https://careers.westinghousenuclear.com/job/Shoreview-Software-Engineering-Intern-Summer-2026-MN-55126/1348239000/?ats=successfactors",
-      "https://careers.westinghousenuclear.com/job/Shoreview-Software-Engineering-Intern-Summer-2026-MN-55126/1348239000/?codes=IND",
-      "https://careers.westinghousenuclear.com/job/Warrendale-Safety-SW-I&C-Engineer-HMI-Systems-OR/1411189300/?ats=successfactors",
-      "https://careers.westinghousenuclear.com/job/Warrendale-Software-Development-Intern-Summer-2026-OR/1364828400/?ats=successfactors",
-      "https://careers.westinghousenuclear.com/job/Warrendale-Summer-Intern-Software-Engineering-OR/1442826200/?ats=successfactors",
-      "https://careers.westinghousenuclear.com/job/Warrendale-Summer-Intern-Tools-&-Apps-OR/1434869300/?ats=successfactors"
     ]
   },
   {
@@ -14384,6 +14142,19 @@
     "page": "https://chrobinson.wd5.myworkdayjobs.com/wday/cxs/chrobinson/chrobinson/jobs",
     "urls": [
       "https://chrobinson.wd5.myworkdayjobs.com/chrobinson/job/Eden-Prairie-MN-United-States-of-America/Software-Engineering-Internship-2027_R49323"
+    ]
+  },
+  {
+    "name": "CHS, Inc.",
+    "ats": "successfactors",
+    "identifier": "careers.chsinc.com",
+    "domain": "https://careers.chsinc.com",
+    "page": "https://careers.chsinc.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://careers.chsinc.com/job/Inver-Grove-Heights-Data-Analyst-Intern-MN-55077-1721/1433568700/?ats=successfactors",
+      "https://careers.chsinc.com/job/Inver-Grove-Heights-Data-Analyst-Intern-MN-55077-1721/1439313500/?ats=successfactors",
+      "https://careers.chsinc.com/job/Inver-Grove-Heights-Data-Engineer-Intern-MN-55077-1721/1443597100/?ats=successfactors",
+      "https://careers.chsinc.com/job/Inver-Grove-Heights-Data-Engineer-Intern-MN-55077-1721/1443601900/?ats=successfactors"
     ]
   },
   {
@@ -15379,6 +15150,19 @@
     ]
   },
   {
+    "name": "CommScope Inc.",
+    "ats": "successfactors",
+    "identifier": "jobs.commscope.com",
+    "domain": "https://jobs.commscope.com",
+    "page": "https://jobs.commscope.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://jobs.commscope.com/job/Catawba-Intern,-IMS-Software-Engineering-Nort/1347995900/?ats=successfactors",
+      "https://jobs.commscope.com/job/Catawba-Intern-Field-Application-Engineering-Nort/1352606600/?ats=successfactors",
+      "https://jobs.commscope.com/job/Shakopee-Intern,-Software-Developer-Minn/1348768800/?ats=successfactors",
+      "https://jobs.commscope.com/job/Shakopee-Intern-Software-Engineer-Minn/1346617800/?ats=successfactors"
+    ]
+  },
+  {
     "name": "Commure",
     "ats": "ashby",
     "identifier": "Commure",
@@ -15501,6 +15285,16 @@
     "urls": []
   },
   {
+    "name": "Consumers Energy",
+    "ats": "successfactors",
+    "identifier": "careers.consumersenergy.com",
+    "domain": "https://careers.consumersenergy.com",
+    "page": "https://careers.consumersenergy.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://careers.consumersenergy.com/job/JACKSON-InternCo-Op-Applications-&-Analytics-1-MI/1324380700/?ats=successfactors"
+    ]
+  },
+  {
     "name": "context",
     "ats": "ashby",
     "identifier": "context",
@@ -15602,11 +15396,11 @@
     ]
   },
   {
-    "name": "corningjobs.corning.com",
-    "ats": "custom",
+    "name": "Corning",
+    "ats": "successfactors",
     "identifier": "corningjobs.corning.com",
     "domain": "https://corningjobs.corning.com",
-    "page": "",
+    "page": "https://corningjobs.corning.com/services/rss/job/?locale=en_US",
     "urls": [
       "https://corningjobs.corning.com/job/Charlotte-Digital-&-IT-Intern,-Analyst,-Enterprise-Data-Management-Summer-2027-NC-28216/1425715900/?ats=successfactors",
       "https://corningjobs.corning.com/job/Charlotte-Digital-&-IT-Intern,-Analyst,-Machine-Learning-Summer-2027-NC-28216/1425580100/?ats=successfactors",
@@ -17100,6 +16894,17 @@
     "urls": []
   },
   {
+    "name": "Dominion Energy",
+    "ats": "successfactors",
+    "identifier": "careers.dominionenergy.com",
+    "domain": "https://careers.dominionenergy.com",
+    "page": "https://careers.dominionenergy.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://careers.dominionenergy.com/job/CAYCE-Intern-GIS-SC-29033/1432505500/?ats=successfactors",
+      "https://careers.dominionenergy.com/job/RICHMOND-Intern-IT-Microsoft-Center-of-Excellence-(Richmond,-VA-Cayce,-SC)-VA-23219/1348906400/?ats=successfactors"
+    ]
+  },
+  {
     "name": "dominodatalab",
     "ats": "greenhouse",
     "identifier": "dominodatalab",
@@ -18189,6 +17994,17 @@
     ]
   },
   {
+    "name": "Entergy",
+    "ats": "successfactors",
+    "identifier": "jobs.entergy.com",
+    "domain": "https://jobs.entergy.com",
+    "page": "https://jobs.entergy.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://jobs.entergy.com/job/New-Orleans-Student-Intern-AI-Developer-Spring-2027-Loui/1430299700/?ats=successfactors",
+      "https://jobs.entergy.com/job/New-Orleans-Student-Intern-AI-Summer-2027-Loui/1430182400/?ats=successfactors"
+    ]
+  },
+  {
     "name": "entrust",
     "ats": "workday",
     "identifier": "entrust-entrustcareers",
@@ -18270,6 +18086,16 @@
       "https://epicorsoftware.wd5.myworkdayjobs.com/epicorjobs/job/Malaysia-Kuala-Lumpur/Cloud-R-Analyst_JR105135",
       "https://epicorsoftware.wd5.myworkdayjobs.com/epicorjobs/job/Mexico-Monterrey/Cloud-R-Analyst_JR104826",
       "https://epicorsoftware.wd5.myworkdayjobs.com/epicorjobs/job/US-Bensalem/IT-Security-Analyst_JR105369"
+    ]
+  },
+  {
+    "name": "Epiroc Careers",
+    "ats": "successfactors",
+    "identifier": "careerprofile.epiroc.com",
+    "domain": "https://www.careerprofile.epiroc.com",
+    "page": "https://www.careerprofile.epiroc.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://www.careerprofile.epiroc.com/job/Broomfield-Intern-Data-Analyst-CO-80020/1435969833/?ats=successfactors"
     ]
   },
   {
@@ -22028,6 +21854,16 @@
     "urls": []
   },
   {
+    "name": "Grainger Businesses",
+    "ats": "successfactors",
+    "identifier": "jobs.grainger.com",
+    "domain": "https://jobs.grainger.com",
+    "page": "https://jobs.grainger.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://jobs.grainger.com/job/CHICAGO-GTG-Intern-Software-Engineer-IL-60661-4555/1419930800/?ats=successfactors"
+    ]
+  },
+  {
     "name": "granite",
     "ats": "workday",
     "identifier": "granite-careers",
@@ -22330,6 +22166,16 @@
       "https://haier.wd3.myworkdayjobs.com/ge_appliances/job/IND-Bangalore-KA/Commerce-Platform-Developer_REQ-26985",
       "https://haier.wd3.myworkdayjobs.com/ge_appliances/job/USA-Louisville-KY/Software-Engineering-Co-op-Fall-2027_REQ-26592",
       "https://haier.wd3.myworkdayjobs.com/ge_appliances/job/USA-Louisville-KY/Software-Engineering-Co-op-Spring-2027_REQ-24832"
+    ]
+  },
+  {
+    "name": "Halliburton",
+    "ats": "successfactors",
+    "identifier": "jobs.halliburton.com",
+    "domain": "https://jobs.halliburton.com",
+    "page": "https://jobs.halliburton.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://jobs.halliburton.com/job/Houston-a_-Software-Engineer-Early-Career-Landmark-TX-77032/1392092600/?ats=successfactors"
     ]
   },
   {
@@ -22770,6 +22616,16 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/heygen/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/heygen/jobs/4540716007"
+    ]
+  },
+  {
+    "name": "HF Sinclair",
+    "ats": "successfactors",
+    "identifier": "careers.hfsinclair.com",
+    "domain": "https://careers.hfsinclair.com",
+    "page": "https://careers.hfsinclair.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://careers.hfsinclair.com/job/Dallas-Intern,-IT-Data-Analytics-TX-75201/1336209800/?ats=successfactors"
     ]
   },
   {
@@ -23627,6 +23483,23 @@
     "urls": [
       "https://fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1081",
       "https://fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1091"
+    ]
+  },
+  {
+    "name": "Huntington Ingalls",
+    "ats": "successfactors",
+    "identifier": "careers.huntingtoningalls.com",
+    "domain": "https://careers.huntingtoningalls.com",
+    "page": "https://careers.huntingtoningalls.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://careers.huntingtoningalls.com/job/Newport-News-ENGINEER-SOFTWARE-1-Virg/1425126300/?ats=successfactors",
+      "https://careers.huntingtoningalls.com/job/Newport-News-ENGINEER-SOFTWARE-1-Virg/1425127900/?ats=successfactors",
+      "https://careers.huntingtoningalls.com/job/Newport-News-ENGINEER-SOFTWARE-1-Virg/1440925100/?ats=successfactors",
+      "https://careers.huntingtoningalls.com/job/Newport-News-ENGINEER-SOFTWARE-1-Virg/1440976000/?ats=successfactors",
+      "https://careers.huntingtoningalls.com/job/Newport-News-ENGINEER-SOFTWARE-1-Virg/1440992800/?ats=successfactors",
+      "https://careers.huntingtoningalls.com/job/Newport-News-ENGINEER-SOFTWARE-1-Virg/1446380900/?ats=successfactors",
+      "https://careers.huntingtoningalls.com/job/Newport-News-SOFTWARE-ENGINEER-1-Virg/1408046100/?ats=successfactors",
+      "https://careers.huntingtoningalls.com/job/Newport-News-SOFTWARE-ENGINEER-1-Virg/1412050700/?ats=successfactors"
     ]
   },
   {
@@ -24530,22 +24403,6 @@
     ]
   },
   {
-    "name": "internaljobs.centurylink.com",
-    "ats": "custom",
-    "identifier": "internaljobs.centurylink.com",
-    "domain": "https://internaljobs.centurylink.com",
-    "page": "",
-    "urls": [
-      "https://internaljobs.centurylink.com/job/Remote-Intern-Back-End-Developer-Summer-2026/1332365000/?ats=successfactors",
-      "https://internaljobs.centurylink.com/job/Remote-Intern-Engineer-Summer-2026/1340113700/",
-      "https://internaljobs.centurylink.com/job/Remote-Intern-Engineer-Summer-2026/1340113700/?ats=successfactors",
-      "https://internaljobs.centurylink.com/job/Remote-Intern-Software-Developer-Summer-2026/1332268100/?ats=successfactors",
-      "https://internaljobs.centurylink.com/job/Remote-Intern-Software-Developer-Summer-2026/1333501200/?ats=successfactors",
-      "https://internaljobs.centurylink.com/job/Remote-Intern-Software-Development-Engineer-Summer-2026/1332369700/?ats=successfactors",
-      "https://internaljobs.centurylink.com/job/Remote-Intern-Software-Engineer-Summer-2026/1332412600/?ats=successfactors"
-    ]
-  },
-  {
     "name": "internshiplist2000",
     "ats": "greenhouse",
     "identifier": "internshiplist2000",
@@ -25161,17 +25018,6 @@
     ]
   },
   {
-    "name": "jobdetails.nestle.com",
-    "ats": "custom",
-    "identifier": "jobdetails.nestle.com",
-    "domain": "https://jobdetails.nestle.com",
-    "page": "",
-    "urls": [
-      "https://jobdetails.nestle.com/job/New-York-Nespresso-Web-Development-Intern-(AI-Engineering)-NY-10001/1269204701/?ats=successfactors",
-      "https://jobdetails.nestle.com/job/North-York-Applications-Web-Developer-Intern-ON/1258794601/?ats=successfactors"
-    ]
-  },
-  {
     "name": "Jobs @ Carmeuse",
     "ats": "oraclecloud",
     "identifier": "ekiz.fa.em2.oraclecloud.com",
@@ -25386,19 +25232,6 @@
     "urls": []
   },
   {
-    "name": "jobs.commscope.com",
-    "ats": "custom",
-    "identifier": "jobs.commscope.com",
-    "domain": "https://jobs.commscope.com",
-    "page": "",
-    "urls": [
-      "https://jobs.commscope.com/job/Catawba-Intern,-IMS-Software-Engineering-Nort/1347995900/?ats=successfactors",
-      "https://jobs.commscope.com/job/Catawba-Intern-Field-Application-Engineering-Nort/1352606600/?ats=successfactors",
-      "https://jobs.commscope.com/job/Shakopee-Intern,-Software-Developer-Minn/1348768800/?ats=successfactors",
-      "https://jobs.commscope.com/job/Shakopee-Intern-Software-Engineer-Minn/1346617800/?ats=successfactors"
-    ]
-  },
-  {
     "name": "jobs.constellationenergy.com",
     "ats": "custom",
     "identifier": "jobs.constellationenergy.com",
@@ -25513,17 +25346,6 @@
     ]
   },
   {
-    "name": "jobs.entergy.com",
-    "ats": "custom",
-    "identifier": "jobs.entergy.com",
-    "domain": "https://jobs.entergy.com",
-    "page": "",
-    "urls": [
-      "https://jobs.entergy.com/job/New-Orleans-Student-Intern-AI-Developer-Spring-2027-Loui/1430299700/?ats=successfactors",
-      "https://jobs.entergy.com/job/New-Orleans-Student-Intern-AI-Summer-2027-Loui/1430182400/?ats=successfactors"
-    ]
-  },
-  {
     "name": "jobs.ericsson.com",
     "ats": "custom",
     "identifier": "jobs.ericsson.com",
@@ -25531,26 +25353,6 @@
     "page": "",
     "urls": [
       "https://jobs.ericsson.com/careers/job/563121777363423"
-    ]
-  },
-  {
-    "name": "jobs.grainger.com",
-    "ats": "custom",
-    "identifier": "jobs.grainger.com",
-    "domain": "https://jobs.grainger.com",
-    "page": "",
-    "urls": [
-      "https://jobs.grainger.com/job/CHICAGO-GTG-Intern-Software-Engineer-IL-60661-4555/1419930800/?ats=successfactors"
-    ]
-  },
-  {
-    "name": "jobs.halliburton.com",
-    "ats": "custom",
-    "identifier": "jobs.halliburton.com",
-    "domain": "https://jobs.halliburton.com",
-    "page": "",
-    "urls": [
-      "https://jobs.halliburton.com/job/Houston-a_-Software-Engineer-Early-Career-Landmark-TX-77032/1392092600/?ats=successfactors"
     ]
   },
   {
@@ -25605,103 +25407,6 @@
     "urls": []
   },
   {
-    "name": "jobs.l3harris.com",
-    "ats": "custom",
-    "identifier": "jobs.l3harris.com",
-    "domain": "https://jobs.l3harris.com",
-    "page": "",
-    "urls": [
-      "https://jobs.l3harris.com/job/Bristol-Software-Engineering-Intern-PA-19007/1428452600/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Carlsbad-Software-Engineering-Intern-(Carlsbad,-CA)-CA-92009/1444689600/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Carlsbad-Software-Engineering-Intern-CA-92009/1428454700/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Carlsbad-Software-Engineering-Intern-CA-92009/1435250500/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Clifton-Intern,-Software-Engineer-NJ-07014/1428512900/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Clifton-Intern,-Software-Engineer-NJ-07014/1428513900/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Clifton-Intern,-Software-Engineer-NJ-07014/1434802800/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Clifton-Intern,-Software-Engineer-NJ-07014/1435263500/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Clifton-Intern,-Software-Engineer-NJ-07014/1435263700/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Clifton-Intern,-Software-Engineer-NJ-07014/1435264000/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Colorado-Springs-Associate,-Software-Engineer-CO-80916/1441835200/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Colorado-Springs-Intern,-Software-Engineer-CO-80916/1422839500/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Colorado-Springs-Intern-C,-Software-Engineer-CO-80916/1423742600/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Colorado-Springs-Intern-C,-Software-Engineer-CO-80916/1423787000/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Columbia-Software-Engineer-Intern-MD-21046/1425456300/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Farnborough-Software-Engineering-Intern-(Sept-2026)-HAM-GU14-6FF/1334006800/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Fort-Wayne-Intern,-Software-Engineer-IN-46818/1422837600/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Fort-Wayne-Intern,-Software-Engineer-IN-46818/1422837800/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Fort-Wayne-Intern,-Software-Engineer-IN-46818/1422838400/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Fort-Wayne-Intern-D,-Software-Engineer-IN-46818/1422797900/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Herndon-Intern,-Security-Research-Engineer-VA-20171/1422834800/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Herndon-Software-Engineer-Intern-VA-20171/1413343400/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Lynchburg-Software-Engineer-Intern-VA-24501-6952/1428447300/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Lynchburg-Software-Engineer-Intern-VA-24501-6952/1428447700/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Melbourne-Associate,-Software-Engineer-1-FL-32934/1422829700/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Melbourne-Intern,-Software-Engineer-FL-32904/1433003500/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Melbourne-Intern-C,-Software-Engineer-FL-32919/1422807400/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Melbourne-Software-Engineering-Intern-(Melbourne,-FL)-FL-32901/1428467400/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Melbourne-Software-Engineering-Intern-FL-32901/1428454500/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Niagara-on-the-Lake-Full-Stack-Developer-Co-op-ON/1319062300/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Northampton-Intern,-Software-Engineer-MA-01060/1423745000/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Northampton-Intern,-Software-Engineer-MA-01060/1423747400/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1422837400/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1422837500/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1423100800/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1423102100/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1423103100/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1423104500/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1423104800/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1423105900/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Palm-Bay-Intern-D,-Software-Engineer-FL-32905/1422806300/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Palm-Bay-Intern-D,-Software-Engineer-FL-32905/1422837000/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Richardson-Intern,-Software-Engineer-TX-75080/1435712100/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Rochester-Software-Engineer-Intern-NY-14609/1434927900/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Rochester-Software-Engineer-Intern-NY-14610/1428440000/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Rochester-Software-Engineer-Intern-NY-14610/1428440400/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Rochester-Software-Engineer-Intern-NY-14623/1428440700/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Rochester-Software-Engineering-Intern-NY-14610-1839/1409213300/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Rochester-Software-Engineering-Intern-NY-14610-1839/1409318800/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Rochester-Software-Engineering-Intern-NY-14610-1839/1415275000/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Rochester-Software-Engineering-Intern-NY-14610-1839/1416677000/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Rochester-Software-Engineering-Intern-NY-14610/1428444000/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Rochester-Software-Engineering-Intern-NY-14610/1428444200/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Rochester-Software-Engineering-Intern-NY-14623/1428446200/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Rochester-Systems-Engineering-Intern-NY-14610-1839/1413277600/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Rockwall-Intern,-Software-Engineer-TX-75032/1443682400/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Salt-Lake-City-Assoc,-Software-Engineer-(New-Grad-Salt-Lake-City,-UT)-1-1-1-UT-84117/1424142200/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Salt-Lake-City-Intern,-Software-Engineer-(Salt-Lake-City,-UT)-UT-84116/1415358400/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Salt-Lake-City-Intern,-Software-Engineer-(Salt-Lake-City,-UT)-UT-84116/1418569700/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Salt-Lake-City-Intern,-Software-Engineer-(Salt-Lake-City,-UT)-UT-84116/1428480900/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Salt-Lake-City-Intern,-Software-Engineer-(Salt-Lake-City,-UT)-UT-84116/1435262400/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1413797100/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428456300/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428456400/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428456900/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428457000/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428457700/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428458100/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428458500/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428458700/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428458800/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428459300/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428459800/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428460400/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428460500/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Salt-Lake-City-Sr-Associate,-Software-Engineer-UT-84116/1425107000/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Salt-Lake-City-Sr-Associate,-Software-Engineer-UT-84116/1429205900/?ats=successfactors",
-      "https://jobs.l3harris.com/job/San-Diego-Software-Engineering-Intern-CA-92123/1428452400/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Sunrise-Software-Engineer-Intern-FL-33323/1428446900/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Sunrise-Software-Engineering-Intern-FL-33323/1435085400/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Tulsa-Software-Engineer-Intern-(Tulsa,-OK)-OK-74115-1000/1324520600/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Waterdown-Software-Engineering-Co-Op-(Waterdown,-CAN)-ON-L9H-0C5/1430128900/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Waterdown-Software-Engineering-Co-Op-(Waterdown,-CAN)-ON-L9H-0C5/1430129400/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Waterdown-Software-Engineering-Co-Op-(Waterdown,-CAN)-ON-L9H-0C5/1430130200/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Waterdown-Software-Engineering-Co-Op-(Waterdown,-CAN)-ON-L9H-0C5/1432400300/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Waterdown-Systems-Engineering-Test-Co-Op-(Waterdown,-CAN)-ON-L9H-0C5/1434804100/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Wilmington-Intern,-Software-Engineer-MA-01887/1425515000/?ats=successfactors",
-      "https://jobs.l3harris.com/job/Wilmington-Intern-D,-Software-Engineer-MA-01887/1422529400/?ats=successfactors"
-    ]
-  },
-  {
     "name": "jobs.lenovo.com",
     "ats": "custom",
     "identifier": "jobs.lenovo.com",
@@ -25718,38 +25423,6 @@
     "urls": []
   },
   {
-    "name": "jobs.mcdonalds.com",
-    "ats": "custom",
-    "identifier": "jobs.mcdonalds.com",
-    "domain": "https://jobs.mcdonalds.com",
-    "page": "",
-    "urls": [
-      "https://jobs.mcdonalds.com/job/Chicago-2026-Global-Technology-GTIO-Intern-IL-60607/1329553100",
-      "https://jobs.mcdonalds.com/job/Chicago-Software-Engineer-I-IL-60607/1329771000/?ats=successfactors",
-      "https://jobs.mcdonalds.com/job/Chicago-Software-Engineer-I-iOS-IL-60607/1322170500/"
-    ]
-  },
-  {
-    "name": "jobs.nexteraenergy.com",
-    "ats": "custom",
-    "identifier": "jobs.nexteraenergy.com",
-    "domain": "https://jobs.nexteraenergy.com",
-    "page": "",
-    "urls": [
-      "https://jobs.nexteraenergy.com/job/Juno-Beach-Software-Engineering-Intern-Measurement-and-Control-FL-33408/1332910400/?ats=successfactors"
-    ]
-  },
-  {
-    "name": "jobs.nucor.com",
-    "ats": "custom",
-    "identifier": "jobs.nucor.com",
-    "domain": "https://jobs.nucor.com",
-    "page": "",
-    "urls": [
-      "https://jobs.nucor.com/job/Portland-UX-UI-Designer-Full-Stack-Intern-TN-37148/1378401000/?ats=successfactors"
-    ]
-  },
-  {
     "name": "jobs.nvidia.com",
     "ats": "custom",
     "identifier": "jobs.nvidia.com",
@@ -25763,42 +25436,12 @@
     ]
   },
   {
-    "name": "jobs.paccar.com",
-    "ats": "custom",
-    "identifier": "jobs.paccar.com",
-    "domain": "https://jobs.paccar.com",
-    "page": "",
-    "urls": [
-      "https://jobs.paccar.com/job/Bellevue-PFC-IT-Summer-Internship-Summer-Internship-2026-WA-98004/1387605533/?ats=successfactors",
-      "https://jobs.paccar.com/job/Kirkland-Summer-2026-Intern-Application-Developer-%28OH%29-WA-98033/1260990901/",
-      "https://jobs.paccar.com/job/Kirkland-Summer-2027-AfterSales-Data-Analyst-Intern-WA-98033/1450518033/?ats=successfactors",
-      "https://jobs.paccar.com/job/Kirkland-Summer-2027-Data-Engineer-Intern-(OH)-WA-98033/1451916833/?ats=successfactors",
-      "https://jobs.paccar.com/job/Kirkland-Summer-2027-Field-Service-Data-Analyst-Intern-WA-98033/1449526633/?ats=successfactors",
-      "https://jobs.paccar.com/job/Kirkland-Summer-2027-Warranty-Data-Analyst-Intern-WA-98033/1449176033/?ats=successfactors",
-      "https://jobs.paccar.com/job/Mount-Vernon-Software-Engineering-Intern-Powertrain-Development-WA-98273-9671/1290590101/?ats=successfactors",
-      "https://jobs.paccar.com/job/Renton-2027-Winter-Internship-Software-Developer-Intern-WA-98057/1435928733/?ats=successfactors",
-      "https://jobs.paccar.com/job/Renton-Summer-Internship-IT-Applications-WA-98055/1256156801/?ats=successfactors",
-      "https://jobs.paccar.com/job/Renton-Summer-Internship-IT-Applications-WA-98055/1389651133/?ats=successfactors",
-      "https://jobs.paccar.com/job/Sunnyvale-2026-Summer-Internship-Advanced-Mobility-Tech-Engineering-CA-94089/1292877901/?ats=successfactors"
-    ]
-  },
-  {
     "name": "jobs.postholdings.com",
     "ats": "custom",
     "identifier": "jobs.postholdings.com",
     "domain": "https://jobs.postholdings.com",
     "page": "",
     "urls": []
-  },
-  {
-    "name": "jobs.royalcaribbeangroup.com",
-    "ats": "custom",
-    "identifier": "jobs.royalcaribbeangroup.com",
-    "domain": "https://jobs.royalcaribbeangroup.com",
-    "page": "",
-    "urls": [
-      "https://jobs.royalcaribbeangroup.com/job/Miami-2026-SACC-Internship-Developer-Intern-FL-33132/1365663600/?ats=successfactors"
-    ]
   },
   {
     "name": "jobs.sap.com",
@@ -25835,16 +25478,6 @@
     "urls": []
   },
   {
-    "name": "jobs.supermicro.com",
-    "ats": "custom",
-    "identifier": "jobs.supermicro.com",
-    "domain": "https://jobs.supermicro.com",
-    "page": "",
-    "urls": [
-      "https://jobs.supermicro.com/job/San-Jose-Generative-AI-Software-Engineer-Co-Op-Cali/1364254900/?ats=successfactors"
-    ]
-  },
-  {
     "name": "jobs.ubs.com",
     "ats": "custom",
     "identifier": "jobs.ubs.com",
@@ -25859,21 +25492,6 @@
     "domain": "https://jobs.uhsinc.com",
     "page": "",
     "urls": []
-  },
-  {
-    "name": "jobs.ulalaunch.com",
-    "ats": "custom",
-    "identifier": "jobs.ulalaunch.com",
-    "domain": "https://jobs.ulalaunch.com",
-    "page": "",
-    "urls": [
-      "https://jobs.ulalaunch.com/job/Centennial-CICD-Infrastructure-Software-Engineer-1-CO-80112/1402696200/?ats=successfactors",
-      "https://jobs.ulalaunch.com/job/Centennial-Embedded-Flight-Software-Engineer-1-CO-80112/1423541600/?ats=successfactors",
-      "https://jobs.ulalaunch.com/job/Centennial-Embedded-Flight-Software-Engineer-1-CO-80112/1436016400/?ats=successfactors",
-      "https://jobs.ulalaunch.com/job/Centennial-Ground-Software-Engineer-1-CO-80112/1404920100/?ats=successfactors",
-      "https://jobs.ulalaunch.com/job/Centennial-Software-Engineering-Internship-Summer-2027-CO-80112/1427398300/?ats=successfactors",
-      "https://jobs.ulalaunch.com/job/Centennial-Trajectory-Simulation-Software-Engineer-1-CO-80112/1406055600/?ats=successfactors"
-    ]
   },
   {
     "name": "jobs.universalparks.com",
@@ -26679,6 +26297,17 @@
     "urls": []
   },
   {
+    "name": "Kodak",
+    "ats": "successfactors",
+    "identifier": "careers.kodak.com",
+    "domain": "https://careers.kodak.com",
+    "page": "https://careers.kodak.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://careers.kodak.com/job/Dayton-Software-Engineer-Intern-OH-45420/1364524600/?ats=successfactors",
+      "https://careers.kodak.com/job/USA-Web-Developer-Intern-CA/1320436300/"
+    ]
+  },
+  {
     "name": "kodiak",
     "ats": "greenhouse",
     "identifier": "kodiak",
@@ -26994,6 +26623,103 @@
     ]
   },
   {
+    "name": "L3Harris",
+    "ats": "successfactors",
+    "identifier": "jobs.l3harris.com",
+    "domain": "https://jobs.l3harris.com",
+    "page": "https://jobs.l3harris.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://jobs.l3harris.com/job/Bristol-Software-Engineering-Intern-PA-19007/1428452600/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Carlsbad-Software-Engineering-Intern-(Carlsbad,-CA)-CA-92009/1444689600/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Carlsbad-Software-Engineering-Intern-CA-92009/1428454700/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Carlsbad-Software-Engineering-Intern-CA-92009/1435250500/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Clifton-Intern,-Software-Engineer-NJ-07014/1428512900/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Clifton-Intern,-Software-Engineer-NJ-07014/1428513900/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Clifton-Intern,-Software-Engineer-NJ-07014/1434802800/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Clifton-Intern,-Software-Engineer-NJ-07014/1435263500/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Clifton-Intern,-Software-Engineer-NJ-07014/1435263700/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Clifton-Intern,-Software-Engineer-NJ-07014/1435264000/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Colorado-Springs-Associate,-Software-Engineer-CO-80916/1441835200/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Colorado-Springs-Intern,-Software-Engineer-CO-80916/1422839500/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Colorado-Springs-Intern-C,-Software-Engineer-CO-80916/1423742600/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Colorado-Springs-Intern-C,-Software-Engineer-CO-80916/1423787000/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Columbia-Software-Engineer-Intern-MD-21046/1425456300/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Farnborough-Software-Engineering-Intern-(Sept-2026)-HAM-GU14-6FF/1334006800/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Fort-Wayne-Intern,-Software-Engineer-IN-46818/1422837600/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Fort-Wayne-Intern,-Software-Engineer-IN-46818/1422837800/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Fort-Wayne-Intern,-Software-Engineer-IN-46818/1422838400/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Fort-Wayne-Intern-D,-Software-Engineer-IN-46818/1422797900/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Herndon-Intern,-Security-Research-Engineer-VA-20171/1422834800/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Herndon-Software-Engineer-Intern-VA-20171/1413343400/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Lynchburg-Software-Engineer-Intern-VA-24501-6952/1428447300/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Lynchburg-Software-Engineer-Intern-VA-24501-6952/1428447700/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Melbourne-Associate,-Software-Engineer-1-FL-32934/1422829700/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Melbourne-Intern,-Software-Engineer-FL-32904/1433003500/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Melbourne-Intern-C,-Software-Engineer-FL-32919/1422807400/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Melbourne-Software-Engineering-Intern-(Melbourne,-FL)-FL-32901/1428467400/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Melbourne-Software-Engineering-Intern-FL-32901/1428454500/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Niagara-on-the-Lake-Full-Stack-Developer-Co-op-ON/1319062300/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Northampton-Intern,-Software-Engineer-MA-01060/1423745000/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Northampton-Intern,-Software-Engineer-MA-01060/1423747400/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1422837400/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1422837500/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1423100800/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1423102100/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1423103100/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1423104500/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1423104800/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1423105900/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Palm-Bay-Intern-D,-Software-Engineer-FL-32905/1422806300/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Palm-Bay-Intern-D,-Software-Engineer-FL-32905/1422837000/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Richardson-Intern,-Software-Engineer-TX-75080/1435712100/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Rochester-Software-Engineer-Intern-NY-14609/1434927900/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Rochester-Software-Engineer-Intern-NY-14610/1428440000/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Rochester-Software-Engineer-Intern-NY-14610/1428440400/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Rochester-Software-Engineer-Intern-NY-14623/1428440700/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Rochester-Software-Engineering-Intern-NY-14610-1839/1409213300/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Rochester-Software-Engineering-Intern-NY-14610-1839/1409318800/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Rochester-Software-Engineering-Intern-NY-14610-1839/1415275000/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Rochester-Software-Engineering-Intern-NY-14610-1839/1416677000/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Rochester-Software-Engineering-Intern-NY-14610/1428444000/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Rochester-Software-Engineering-Intern-NY-14610/1428444200/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Rochester-Software-Engineering-Intern-NY-14623/1428446200/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Rochester-Systems-Engineering-Intern-NY-14610-1839/1413277600/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Rockwall-Intern,-Software-Engineer-TX-75032/1443682400/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Salt-Lake-City-Assoc,-Software-Engineer-(New-Grad-Salt-Lake-City,-UT)-1-1-1-UT-84117/1424142200/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Salt-Lake-City-Intern,-Software-Engineer-(Salt-Lake-City,-UT)-UT-84116/1415358400/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Salt-Lake-City-Intern,-Software-Engineer-(Salt-Lake-City,-UT)-UT-84116/1418569700/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Salt-Lake-City-Intern,-Software-Engineer-(Salt-Lake-City,-UT)-UT-84116/1428480900/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Salt-Lake-City-Intern,-Software-Engineer-(Salt-Lake-City,-UT)-UT-84116/1435262400/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1413797100/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428456300/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428456400/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428456900/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428457000/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428457700/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428458100/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428458500/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428458700/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428458800/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428459300/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428459800/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428460400/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Salt-Lake-City-Software-Engineering-Intern-UT-84116/1428460500/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Salt-Lake-City-Sr-Associate,-Software-Engineer-UT-84116/1425107000/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Salt-Lake-City-Sr-Associate,-Software-Engineer-UT-84116/1429205900/?ats=successfactors",
+      "https://jobs.l3harris.com/job/San-Diego-Software-Engineering-Intern-CA-92123/1428452400/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Sunrise-Software-Engineer-Intern-FL-33323/1428446900/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Sunrise-Software-Engineering-Intern-FL-33323/1435085400/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Tulsa-Software-Engineer-Intern-(Tulsa,-OK)-OK-74115-1000/1324520600/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Waterdown-Software-Engineering-Co-Op-(Waterdown,-CAN)-ON-L9H-0C5/1430128900/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Waterdown-Software-Engineering-Co-Op-(Waterdown,-CAN)-ON-L9H-0C5/1430129400/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Waterdown-Software-Engineering-Co-Op-(Waterdown,-CAN)-ON-L9H-0C5/1430130200/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Waterdown-Software-Engineering-Co-Op-(Waterdown,-CAN)-ON-L9H-0C5/1432400300/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Waterdown-Systems-Engineering-Test-Co-Op-(Waterdown,-CAN)-ON-L9H-0C5/1434804100/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Wilmington-Intern,-Software-Engineer-MA-01887/1425515000/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Wilmington-Intern-D,-Software-Engineer-MA-01887/1422529400/?ats=successfactors"
+    ]
+  },
+  {
     "name": "labcorp",
     "ats": "workday",
     "identifier": "labcorp-external",
@@ -27189,6 +26915,16 @@
     ]
   },
   {
+    "name": "Leggett & Platt",
+    "ats": "successfactors",
+    "identifier": "careers.leggett.com",
+    "domain": "https://careers.leggett.com",
+    "page": "https://careers.leggett.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://careers.leggett.com/job/Detroit-Software-Engineer-Intern-MI/1385086400/?ats=successfactors"
+    ]
+  },
+  {
     "name": "leidos",
     "ats": "workday",
     "identifier": "leidos-external",
@@ -27256,6 +26992,16 @@
     "domain": "https://uscareers-lennox.icims.com",
     "page": "https://api.icims.com/v1/companies/lennox/jobs",
     "urls": []
+  },
+  {
+    "name": "Leonardo DRS, Inc.",
+    "ats": "successfactors",
+    "identifier": "careers.leonardodrs.com",
+    "domain": "https://careers.leonardodrs.com",
+    "page": "https://careers.leonardodrs.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://careers.leonardodrs.com/job/Bridgeton-Embedded-Software-Engineer-Intern-MO-63044/1311812900/?jobPipeline=Indeed"
+    ]
   },
   {
     "name": "leonardocompany",
@@ -27964,6 +27710,22 @@
     "urls": [
       "https://www.lumafield.com/careers/job?id=f4301925-6a92-458c-961e-f9560f058df8",
       "https://www.lumafield.com/careers/job?id=fcef5035-421a-4c2e-a79a-b687401a1efe"
+    ]
+  },
+  {
+    "name": "Lumen Technologies",
+    "ats": "successfactors",
+    "identifier": "internaljobs.centurylink.com",
+    "domain": "https://internaljobs.centurylink.com",
+    "page": "https://internaljobs.centurylink.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://internaljobs.centurylink.com/job/Remote-Intern-Back-End-Developer-Summer-2026/1332365000/?ats=successfactors",
+      "https://internaljobs.centurylink.com/job/Remote-Intern-Engineer-Summer-2026/1340113700/",
+      "https://internaljobs.centurylink.com/job/Remote-Intern-Engineer-Summer-2026/1340113700/?ats=successfactors",
+      "https://internaljobs.centurylink.com/job/Remote-Intern-Software-Developer-Summer-2026/1332268100/?ats=successfactors",
+      "https://internaljobs.centurylink.com/job/Remote-Intern-Software-Developer-Summer-2026/1333501200/?ats=successfactors",
+      "https://internaljobs.centurylink.com/job/Remote-Intern-Software-Development-Engineer-Summer-2026/1332369700/?ats=successfactors",
+      "https://internaljobs.centurylink.com/job/Remote-Intern-Software-Engineer-Summer-2026/1332412600/?ats=successfactors"
     ]
   },
   {
@@ -28676,6 +28438,18 @@
     "urls": []
   },
   {
+    "name": "McDonald's Corporation",
+    "ats": "successfactors",
+    "identifier": "jobs.mcdonalds.com",
+    "domain": "https://jobs.mcdonalds.com",
+    "page": "https://jobs.mcdonalds.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://jobs.mcdonalds.com/job/Chicago-2026-Global-Technology-GTIO-Intern-IL-60607/1329553100",
+      "https://jobs.mcdonalds.com/job/Chicago-Software-Engineer-I-IL-60607/1329771000/?ats=successfactors",
+      "https://jobs.mcdonalds.com/job/Chicago-Software-Engineer-I-iOS-IL-60607/1322170500/"
+    ]
+  },
+  {
     "name": "mcghealth",
     "ats": "greenhouse",
     "identifier": "mcghealth",
@@ -28749,6 +28523,17 @@
     "page": "",
     "urls": [
       "https://www.mechanize.work/apply/software-engineer/?role=intern"
+    ]
+  },
+  {
+    "name": "Mediaocean",
+    "ats": "successfactors",
+    "identifier": "careers.mediaocean.com",
+    "domain": "https://careers.mediaocean.com",
+    "page": "https://careers.mediaocean.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://careers.mediaocean.com/job/New-York-Prisma-Core-Systems-Engineering-Intern-NY-10271/1376615500/?ats=successfactors",
+      "https://careers.mediaocean.com/job/New-York-Prisma-Software-Engineering-Intern-NY-10271/1376614500/?ats=successfactors"
     ]
   },
   {
@@ -29363,19 +29148,6 @@
     ]
   },
   {
-    "name": "mhicareers.com",
-    "ats": "custom",
-    "identifier": "mhicareers.com",
-    "domain": "https://mhicareers.com",
-    "page": "",
-    "urls": [
-      "https://mhicareers.com/job/Lake-Mary-Engineering-Integration-Associate-Internship-FL-32746/1375175033/?ats=successfactors",
-      "https://mhicareers.com/job/Mississauga-Full-Stack-Developer-Intern-ON-L4V-1J4/1367354333/?ats=successfactors",
-      "https://mhicareers.com/job/Orlando-Digital-Support-Associate-Summer-Internship-FL-32809/1377541633/?ats=successfactors",
-      "https://mhicareers.com/job/Orlando-Generator-Application-Engineer-Associate-Internship-FL-32809/1403541233/?ats=successfactors"
-    ]
-  },
-  {
     "name": "michaels",
     "ats": "workday",
     "identifier": "michaels-external",
@@ -29703,6 +29475,19 @@
     "urls": [
       "https://job-boards.greenhouse.io/mitratech/jobs/8180269",
       "https://job-boards.greenhouse.io/mitratech/jobs/8301932"
+    ]
+  },
+  {
+    "name": "Mitsubishi Heavy Industries, Ltd.",
+    "ats": "successfactors",
+    "identifier": "mhicareers.com",
+    "domain": "https://mhicareers.com",
+    "page": "https://mhicareers.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://mhicareers.com/job/Lake-Mary-Engineering-Integration-Associate-Internship-FL-32746/1375175033/?ats=successfactors",
+      "https://mhicareers.com/job/Mississauga-Full-Stack-Developer-Intern-ON-L4V-1J4/1367354333/?ats=successfactors",
+      "https://mhicareers.com/job/Orlando-Digital-Support-Associate-Summer-Internship-FL-32809/1377541633/?ats=successfactors",
+      "https://mhicareers.com/job/Orlando-Generator-Application-Engineer-Associate-Internship-FL-32809/1403541233/?ats=successfactors"
     ]
   },
   {
@@ -30812,6 +30597,17 @@
     ]
   },
   {
+    "name": "Nestle Operational Services Worldwide SA",
+    "ats": "successfactors",
+    "identifier": "jobdetails.nestle.com",
+    "domain": "https://jobdetails.nestle.com",
+    "page": "https://jobdetails.nestle.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://jobdetails.nestle.com/job/New-York-Nespresso-Web-Development-Intern-(AI-Engineering)-NY-10001/1269204701/?ats=successfactors",
+      "https://jobdetails.nestle.com/job/North-York-Applications-Web-Developer-Intern-ON/1258794601/?ats=successfactors"
+    ]
+  },
+  {
     "name": "Netcompany1",
     "ats": "smartrecruiters",
     "identifier": "Netcompany1",
@@ -31153,6 +30949,16 @@
       "https://jobs.lever.co/nextech/6a898635-d814-497d-b891-59cc0e3616fa/apply",
       "https://jobs.lever.co/nextech/89d21768-992e-4ba5-ad26-eeea7aa27029/apply",
       "https://jobs.lever.co/nextech/e1d4f898-5cae-47c5-9618-020188201371/apply"
+    ]
+  },
+  {
+    "name": "NextEra Energy",
+    "ats": "successfactors",
+    "identifier": "jobs.nexteraenergy.com",
+    "domain": "https://jobs.nexteraenergy.com",
+    "page": "https://jobs.nexteraenergy.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://jobs.nexteraenergy.com/job/Juno-Beach-Software-Engineering-Intern-Measurement-and-Control-FL-33408/1332910400/?ats=successfactors"
     ]
   },
   {
@@ -31787,6 +31593,18 @@
     ]
   },
   {
+    "name": "NRG",
+    "ats": "successfactors",
+    "identifier": "careers.nrgenergy.com",
+    "domain": "https://careers.nrgenergy.com",
+    "page": "https://careers.nrgenergy.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://careers.nrgenergy.com/SMARTHOMES/job/Boston-Software-Engineer-Intern,-Mobile-Apps-MA-02109/1345133100/?ats=successfactors",
+      "https://careers.nrgenergy.com/SMARTHOMES/job/Salesforce-Developer-Intern-UT-84043/1358225200/?ats=successfactors",
+      "https://careers.nrgenergy.com/nrg/job/Houston-Data-Science-Analyst-Agentic-AI-Developer-TX-77010/1441481900/?ats=successfactors"
+    ]
+  },
+  {
     "name": "ntconcepts",
     "ats": "greenhouse",
     "identifier": "ntconcepts",
@@ -31823,6 +31641,16 @@
       "https://ntst.wd1.myworkdayjobs.com/careers/job/Overland-Park-KS/Software-Engineer----Dec26-May-27-Grads-_R015658",
       "https://ntst.wd1.myworkdayjobs.com/careers/job/Overland-Park-KS/Software-Engineer--NET-Expereince-Onsite-Overland-Park--KS-_R015836",
       "https://ntst.wd1.myworkdayjobs.com/careers/job/Overland-Park-KS/Software-Engineer-Intern--Summer-2027-Internship-_R015667"
+    ]
+  },
+  {
+    "name": "Nucor",
+    "ats": "successfactors",
+    "identifier": "jobs.nucor.com",
+    "domain": "https://jobs.nucor.com",
+    "page": "https://jobs.nucor.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://jobs.nucor.com/job/Portland-UX-UI-Designer-Full-Stack-Intern-TN-37148/1378401000/?ats=successfactors"
     ]
   },
   {
@@ -32647,11 +32475,11 @@
     "urls": []
   },
   {
-    "name": "optimumcareers.com",
-    "ats": "custom",
+    "name": "Optimum",
+    "ats": "successfactors",
     "identifier": "optimumcareers.com",
     "domain": "https://www.optimumcareers.com",
-    "page": "",
+    "page": "https://www.optimumcareers.com/services/rss/job/?locale=en_US",
     "urls": [
       "https://www.optimumcareers.com/job/Plano-Software-Dev-Engineer-I-TX-75024/1404515000/?ats=successfactors"
     ]
@@ -32853,6 +32681,36 @@
     "domain": "https://ovintiv.wd3.myworkdayjobs.com/ovintivcareers",
     "page": "https://ovintiv.wd3.myworkdayjobs.com/wday/cxs/ovintiv/ovintivcareers/jobs",
     "urls": []
+  },
+  {
+    "name": "Owens Corning",
+    "ats": "successfactors",
+    "identifier": "careers.owenscorning.com",
+    "domain": "https://careers.owenscorning.com",
+    "page": "https://careers.owenscorning.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://careers.owenscorning.com/job/Toledo-Global-Information-Services-Internship-(2026)-OH-43659-0001/1323918100/?ats=successfactors"
+    ]
+  },
+  {
+    "name": "PACCAR",
+    "ats": "successfactors",
+    "identifier": "jobs.paccar.com",
+    "domain": "https://jobs.paccar.com",
+    "page": "https://jobs.paccar.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://jobs.paccar.com/job/Bellevue-PFC-IT-Summer-Internship-Summer-Internship-2026-WA-98004/1387605533/?ats=successfactors",
+      "https://jobs.paccar.com/job/Kirkland-Summer-2026-Intern-Application-Developer-%28OH%29-WA-98033/1260990901/",
+      "https://jobs.paccar.com/job/Kirkland-Summer-2027-AfterSales-Data-Analyst-Intern-WA-98033/1450518033/?ats=successfactors",
+      "https://jobs.paccar.com/job/Kirkland-Summer-2027-Data-Engineer-Intern-(OH)-WA-98033/1451916833/?ats=successfactors",
+      "https://jobs.paccar.com/job/Kirkland-Summer-2027-Field-Service-Data-Analyst-Intern-WA-98033/1449526633/?ats=successfactors",
+      "https://jobs.paccar.com/job/Kirkland-Summer-2027-Warranty-Data-Analyst-Intern-WA-98033/1449176033/?ats=successfactors",
+      "https://jobs.paccar.com/job/Mount-Vernon-Software-Engineering-Intern-Powertrain-Development-WA-98273-9671/1290590101/?ats=successfactors",
+      "https://jobs.paccar.com/job/Renton-2027-Winter-Internship-Software-Developer-Intern-WA-98057/1435928733/?ats=successfactors",
+      "https://jobs.paccar.com/job/Renton-Summer-Internship-IT-Applications-WA-98055/1256156801/?ats=successfactors",
+      "https://jobs.paccar.com/job/Renton-Summer-Internship-IT-Applications-WA-98055/1389651133/?ats=successfactors",
+      "https://jobs.paccar.com/job/Sunnyvale-2026-Summer-Internship-Advanced-Mobility-Tech-Engineering-CA-94089/1292877901/?ats=successfactors"
+    ]
   },
   {
     "name": "pacificfusion",
@@ -33125,6 +32983,19 @@
     "page": "https://api.lever.co/v0/postings/parallelwireless?mode=json",
     "urls": [
       "https://jobs.lever.co/parallelwireless/d30be600-d1cd-4579-9875-ac70c72a4426/apply"
+    ]
+  },
+  {
+    "name": "Paramount",
+    "ats": "successfactors",
+    "identifier": "careers.paramount.com",
+    "domain": "https://careers.paramount.com",
+    "page": "https://careers.paramount.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://careers.paramount.com/job/Burbank-Paramount-Streaming-Engineering-Intern,-Front-End-(Summer-2026-In-Person-LA)-CA-91505/1375918300/?ats=successfactors",
+      "https://careers.paramount.com/job/Los-Angeles-Junior-Game-Engineer-Intern-(Summer-2026-In-Person-LANY)-CA-90038/1371206300/?ats=successfactors",
+      "https://careers.paramount.com/job/New-York-247Sports-Software-Engineering-Intern-(Summer-2026-In-Person-LANY-or-Nashville)-NY-10036/1375918900/?ats=successfactors",
+      "https://careers.paramount.com/job/New-York-Software-Engineering-Internships-(Summer-2026,-In-Person-NYC)-NY-10036/1351981200/?ats=successfactors"
     ]
   },
   {
@@ -33780,6 +33651,16 @@
       "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Taipei/Intern-Data-Scientist_592526",
       "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/United-States-of-America---Remote-Based-United-States/AI-Clinical-Solutions-Engineer---Azurion-Eye_588764-1",
       "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/United-States-of-America---Remote-Based-United-States/Field-Service-Engineer---Imaging-Systems--Field--Rapid-City--SD-_593118"
+    ]
+  },
+  {
+    "name": "Phillips 66",
+    "ats": "successfactors",
+    "identifier": "careers.phillips66.com",
+    "domain": "https://careers.phillips66.com",
+    "page": "https://careers.phillips66.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://careers.phillips66.com/job/South-Killingholme-Digital-&-AI-Analyst-Placement/1437746600/?ats=successfactors"
     ]
   },
   {
@@ -34587,6 +34468,37 @@
       "https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12794",
       "https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Machine-Learning-Engineer_REQ-12800",
       "https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Cary-North-Carolina/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12798"
+    ]
+  },
+  {
+    "name": "Qorvo",
+    "ats": "successfactors",
+    "identifier": "careers.qorvo.com",
+    "domain": "https://careers.qorvo.com",
+    "page": "https://careers.qorvo.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://careers.qorvo.com/job/Apopka-Software-Engineering-Intern,-SWR-FL-32703/1423577900/?ats=successfactors",
+      "https://careers.qorvo.com/job/Bend-Software-Engineer-Intern-OR-97703/1421474800/?ats=successfactors",
+      "https://careers.qorvo.com/job/Greensboro-Database-Administrator-Intern-NC-27409/1325292500",
+      "https://careers.qorvo.com/job/Greensboro-Software-Characterization-Eng-Intern-NC-27409/1420018600/?ats=successfactors",
+      "https://careers.qorvo.com/job/Greensboro-Software-Characterization-Engineering-Intern-NC-27409/1318261400/?ats=successfactors",
+      "https://careers.qorvo.com/job/Greensboro-Software-Developer-Intern-NC-27409/1320964700/?ats=successfactors",
+      "https://careers.qorvo.com/job/Greensboro-Software-Engineer-Intern-NC-27409/1321603900/?ats=successfactors",
+      "https://careers.qorvo.com/job/Greensboro-Software-Engineer-Intern-NC-27409/1421952100/?ats=successfactors",
+      "https://careers.qorvo.com/job/Greensboro-Software-Engineering-Intern,-SWR-NC-27409/1421982000/?ats=successfactors",
+      "https://careers.qorvo.com/job/Greensboro-Software-Engineering-Intern-NC-27409/1323405000/?ats=successfactors",
+      "https://careers.qorvo.com/job/Greensboro-Software-Engineering-Intern-NC-27409/1421981000/?ats=successfactors",
+      "https://careers.qorvo.com/job/Hillsboro-Software-Engineer-Intern-OR-97124/1322876900/?ats=successfactors",
+      "https://careers.qorvo.com/job/Hillsboro-Software-Engineer-Intern-OR-97124/1323406200/?ats=successfactors",
+      "https://careers.qorvo.com/job/Richardson-Data-Engineering-Intern-TX-75081/1333265100/?ats=successfactors",
+      "https://careers.qorvo.com/job/Richardson-Full-Stack-Web-Developer-Intern-TX-75080/1424716200/?ats=successfactors",
+      "https://careers.qorvo.com/job/Richardson-Software-Engineer-Intern-TX-75080/1421453600/?ats=successfactors",
+      "https://careers.qorvo.com/job/Richardson-Software-Engineer-Intern-TX-75080/1421457600/?ats=successfactors",
+      "https://careers.qorvo.com/job/Richardson-Software-Engineer-Intern-TX-75081/1324617700/?ats=successfactors",
+      "https://careers.qorvo.com/job/Richardson-Software-Engineering-Intern-TX-75080/1424729800/?ats=successfactors",
+      "https://careers.qorvo.com/job/Richardson-Software-Engineering-Intern-TX-75081/1321539500/?ats=successfactors",
+      "https://careers.qorvo.com/job/Richardson-Software-Firmware-Engineering-Intern-TX-75081/1424727700/?ats=successfactors",
+      "https://careers.qorvo.com/job/Salem-Data-Engineering-Intern-OR-97302/1431485300/?ats=successfactors"
     ]
   },
   {
@@ -36281,6 +36193,16 @@
     ]
   },
   {
+    "name": "Royal Caribbean Cruises Ltd",
+    "ats": "successfactors",
+    "identifier": "jobs.royalcaribbeangroup.com",
+    "domain": "https://jobs.royalcaribbeangroup.com",
+    "page": "https://jobs.royalcaribbeangroup.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://jobs.royalcaribbeangroup.com/job/Miami-2026-SACC-Internship-Developer-Intern-FL-33132/1365663600/?ats=successfactors"
+    ]
+  },
+  {
     "name": "RRDonnelley",
     "ats": "smartrecruiters",
     "identifier": "RRDonnelley",
@@ -36722,6 +36644,16 @@
       "https://saabusa.wd1.myworkdayjobs.com/saab_careers/job/East-Syracuse-NY-Collamer/Data-Informatics-Analyst_R-03381-1",
       "https://saabusa.wd1.myworkdayjobs.com/saab_careers/job/East-Syracuse-NY-Collamer/Software-Engineer_R-03210-1",
       "https://saabusa.wd1.myworkdayjobs.com/saab_careers/job/East-Syracuse-NY-Collamer/Systems-Engineer_R-03059-1"
+    ]
+  },
+  {
+    "name": "Safran DSI",
+    "ats": "successfactors",
+    "identifier": "careers.safran-dsi.com",
+    "domain": "https://careers.safran-dsi.com",
+    "page": "https://careers.safran-dsi.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://careers.safran-dsi.com/job/Bedford-Software-Engineering-Internship-NH-03110/1440599100/?ats=successfactors"
     ]
   },
   {
@@ -37408,11 +37340,11 @@
     ]
   },
   {
-    "name": "seagatecareers.com",
-    "ats": "custom",
+    "name": "Seagate Technology",
+    "ats": "successfactors",
     "identifier": "seagatecareers.com",
     "domain": "https://seagatecareers.com",
-    "page": "",
+    "page": "https://seagatecareers.com/services/rss/job/?locale=en_US",
     "urls": [
       "https://seagatecareers.com/job/Longmont-Firmware-Development-Engineering-Intern-Summer-2026-CO-80501/1348189200/?feedId=325900"
     ]
@@ -38790,6 +38722,16 @@
     ]
   },
   {
+    "name": "Southern California Edison",
+    "ats": "successfactors",
+    "identifier": "apply.edisoncareers.com",
+    "domain": "https://apply.edisoncareers.com",
+    "page": "https://apply.edisoncareers.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://apply.edisoncareers.com/job/Chino-2027-Summer-Internship-SoftwareData-Engineering-(Chino)-CA-91710/1424663800/?ats=successfactors"
+    ]
+  },
+  {
     "name": "spacedynamicslaboratory.applytojob.com",
     "ats": "custom",
     "identifier": "spacedynamicslaboratory.applytojob.com",
@@ -40158,6 +40100,16 @@
       "https://jobs.ashbyhq.com/suno/dba162e0-97f1-4efe-b4ff-c7d671a01b11",
       "https://jobs.ashbyhq.com/suno/e94b6a03-6315-45c2-a439-51630af15f05",
       "https://jobs.ashbyhq.com/suno/f19de1aa-0965-43db-acbe-b6917e268ff0"
+    ]
+  },
+  {
+    "name": "Super Micro Computer",
+    "ats": "successfactors",
+    "identifier": "jobs.supermicro.com",
+    "domain": "https://jobs.supermicro.com",
+    "page": "https://jobs.supermicro.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://jobs.supermicro.com/job/San-Jose-Generative-AI-Software-Engineer-Co-Op-Cali/1364254900/?ats=successfactors"
     ]
   },
   {
@@ -43248,6 +43200,16 @@
     ]
   },
   {
+    "name": "Under Armour",
+    "ats": "successfactors",
+    "identifier": "careers.underarmour.com",
+    "domain": "https://careers.underarmour.com",
+    "page": "https://careers.underarmour.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://careers.underarmour.com/job/Remote-Summer-2026-Internship%2C-Engineering/1330072600/?feedId=347800&jobPipeline=Indeed"
+    ]
+  },
+  {
     "name": "uneekor.bamboohr.com",
     "ats": "custom",
     "identifier": "uneekor.bamboohr.com",
@@ -43316,6 +43278,21 @@
       "https://unisys.wd5.myworkdayjobs.com/external/job/USA-Remote/Sr-Cloud-Engineer--OCI-and-DevOps-_REQ575003",
       "https://unisys.wd5.myworkdayjobs.com/external/job/Wabern-Bern-Switzerland/XMLNAME-NET--Angular-Fullstack-Software-Engineer--all-genders-_REQ573110",
       "https://unisys.wd5.myworkdayjobs.com/external/job/Warren-OH-United-States-of-America/Onsite-Service-Engineer---Data-Center_REQ575342-1"
+    ]
+  },
+  {
+    "name": "United Launch Alliance",
+    "ats": "successfactors",
+    "identifier": "jobs.ulalaunch.com",
+    "domain": "https://jobs.ulalaunch.com",
+    "page": "https://jobs.ulalaunch.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://jobs.ulalaunch.com/job/Centennial-CICD-Infrastructure-Software-Engineer-1-CO-80112/1402696200/?ats=successfactors",
+      "https://jobs.ulalaunch.com/job/Centennial-Embedded-Flight-Software-Engineer-1-CO-80112/1423541600/?ats=successfactors",
+      "https://jobs.ulalaunch.com/job/Centennial-Embedded-Flight-Software-Engineer-1-CO-80112/1436016400/?ats=successfactors",
+      "https://jobs.ulalaunch.com/job/Centennial-Ground-Software-Engineer-1-CO-80112/1404920100/?ats=successfactors",
+      "https://jobs.ulalaunch.com/job/Centennial-Software-Engineering-Internship-Summer-2027-CO-80112/1427398300/?ats=successfactors",
+      "https://jobs.ulalaunch.com/job/Centennial-Trajectory-Simulation-Software-Engineer-1-CO-80112/1406055600/?ats=successfactors"
     ]
   },
   {
@@ -45045,6 +45022,29 @@
     "page": "https://westernunion.wd5.myworkdayjobs.com/wday/cxs/westernunion/westernunionjobs/jobs",
     "urls": [
       "https://westernunion.wd5.myworkdayjobs.com/westernunionjobs/job/USA-TX---Austin---11902-Burnet-Rd/Software-Engineer--AI---Cloud-Applications_JR0131525"
+    ]
+  },
+  {
+    "name": "Westinghouse Electric Company, LLC",
+    "ats": "successfactors",
+    "identifier": "careers.westinghousenuclear.com",
+    "domain": "https://careers.westinghousenuclear.com",
+    "page": "https://careers.westinghousenuclear.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://careers.westinghousenuclear.com/job/Cranberry-Township-Application-Development-Intern-Summer-2026-NC/1380751200/?ats=successfactors",
+      "https://careers.westinghousenuclear.com/job/Cranberry-Township-Enovia-PLM-Developer-Intern-Summer-2026-NC/1338026700/?ats=successfactors",
+      "https://careers.westinghousenuclear.com/job/Cranberry-Township-Software-Development-Intern-Summer-2026-NC/1335431600/?ats=successfactors",
+      "https://careers.westinghousenuclear.com/job/Cranberry-Township-Software-and-Automation-Intern-Summer-2026-NC/1336532600/?ats=successfactors",
+      "https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Computer-Engineering-Software-Engineering-NC/1422595200/?ats=successfactors",
+      "https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Fuel-Engineering-Data-Analyst-NC/1438463700/?ats=successfactors",
+      "https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Software-Development-NC/1441279500/?ats=successfactors",
+      "https://careers.westinghousenuclear.com/job/Rock-Hill-Summer-Intern-Computer-Engineering-Software-Engineering-SC-29730/1425163200/?ats=successfactors",
+      "https://careers.westinghousenuclear.com/job/Shoreview-Software-Engineering-Intern-Summer-2026-MN-55126/1348239000/?ats=successfactors",
+      "https://careers.westinghousenuclear.com/job/Shoreview-Software-Engineering-Intern-Summer-2026-MN-55126/1348239000/?codes=IND",
+      "https://careers.westinghousenuclear.com/job/Warrendale-Safety-SW-I&C-Engineer-HMI-Systems-OR/1411189300/?ats=successfactors",
+      "https://careers.westinghousenuclear.com/job/Warrendale-Software-Development-Intern-Summer-2026-OR/1364828400/?ats=successfactors",
+      "https://careers.westinghousenuclear.com/job/Warrendale-Summer-Intern-Software-Engineering-OR/1442826200/?ats=successfactors",
+      "https://careers.westinghousenuclear.com/job/Warrendale-Summer-Intern-Tools-&-Apps-OR/1434869300/?ats=successfactors"
     ]
   },
   {

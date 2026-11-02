@@ -9,6 +9,7 @@ import {
   getPhenomKey,
   getRadancyKey,
   getSmartRecruitersKey,
+  getSuccessFactorsKey,
   getWorkdayKey,
 } from "./ats";
 import { normalizeUrl } from "./url";
@@ -47,6 +48,9 @@ export function getJobKey(url: string) {
 
       case "smartrecruiters":
         return getSmartRecruitersKey(u.pathname) ?? `smartrecruiters:${normalizeUrl(url)}`;
+
+      case "successfactors":
+        return getSuccessFactorsKey(u) ?? `successfactors:${normalizeUrl(url)}`;
 
       case "workday":
         return getWorkdayKey(url) ?? `workday:${normalizeUrl(url)}`;
