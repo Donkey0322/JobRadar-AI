@@ -5272,14 +5272,6 @@
     ]
   },
   {
-    "name": "apply.workable.com",
-    "ats": "custom",
-    "identifier": "apply.workable.com",
-    "domain": "https://apply.workable.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "apptronik",
     "ats": "greenhouse",
     "identifier": "apptronik",
