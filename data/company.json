@@ -6089,12 +6089,14 @@
     ]
   },
   {
-    "name": "aurora.tech",
-    "ats": "custom",
-    "identifier": "aurora.tech",
-    "domain": "https://aurora.tech",
-    "page": "",
-    "urls": []
+    "name": "aurora-operations-inc",
+    "ats": "ashby",
+    "identifier": "aurora-operations-inc",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/aurora-operations-inc",
+    "urls": [
+      "https://jobs.ashbyhq.com/aurora-operations-inc/184a9c82-e6a2-4f8a-b288-f82ab2a53d2a"
+    ]
   },
   {
     "name": "authenticinsurance",
@@ -6474,16 +6476,6 @@
       "https://badgermeter.wd5.myworkdayjobs.com/us_careersite/job/Los-Gatos-CA/Sr-Software-Engineer_4480",
       "https://badgermeter.wd5.myworkdayjobs.com/us_careersite/job/US----CA---Escondido-Facility/Software-Engineering-Intern_4645",
       "https://badgermeter.wd5.myworkdayjobs.com/us_careersite/job/US---WI---Milwaukee-HQ/Systems-Integration---Engineering-Intern_4641"
-    ]
-  },
-  {
-    "name": "baesystems.taleo.net",
-    "ats": "custom",
-    "identifier": "baesystems.taleo.net",
-    "domain": "https://baesystems.taleo.net",
-    "page": "",
-    "urls": [
-      "https://baesystems.taleo.net/careersection/2/jobdetail.ftl?job=00136162"
     ]
   },
   {
