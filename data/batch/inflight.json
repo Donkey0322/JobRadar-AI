@@ -1,1 +1,149 @@
-[]
+[
+  {
+    "name": "batches/7dv9zj4t62486r9gmshq9chzmcypb56atbaa",
+    "submittedAt": "2026-11-02T15:22:18.289Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Bah",
+        "role": "Data Scientist",
+        "link": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Arlington-VA/Data-Scientist_R0252758",
+        "location": "Arlington, VA",
+        "country": "USA"
+      },
+      {
+        "company": "Citi",
+        "role": "Full Stack Java Developer",
+        "link": "https://citi.wd5.myworkdayjobs.com/2/job/Irving-Texas-United-States/Full-Stack-Java-Developer_26992907",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Draper",
+        "role": "DevSecOps Engineer",
+        "link": "https://draper.wd5.myworkdayjobs.com/draper_careers/job/Cambridge-MA/Senior-DevSecOps-Engineer_JR002421",
+        "location": "Cambridge, MA",
+        "country": "USA"
+      },
+      {
+        "company": "Generalmotors",
+        "role": "Design Release Engineer - Hard Trim & Overhead Systems",
+        "link": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/Design-Release-Engineer---Hard-Trim---Overhead-Systems_JR-202619267",
+        "location": "Warren, Michigan, United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "Google",
+        "role": "Photonic Engineer, Platforms Infrastructure",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/125657003803452102-photonic-engineer-platforms-infrastructure?sort_by=date&page=1",
+        "location": "Sunnyvale, CA, USA",
+        "country": "USA"
+      },
+      {
+        "company": "BAE Systems",
+        "role": "Software Integrator / Developer - Weapons Direction Systems",
+        "link": "https://jobs.baesystems.com/global/en/job/132194BR?ph_id=132194BR",
+        "location": "Rockville, Maryland, United States",
+        "country": "USA"
+      },
+      {
+        "company": "BAE Systems",
+        "role": "Systems Test Solutions Engineer",
+        "link": "https://jobs.baesystems.com/global/en/job/131371BR?ph_id=131371BR",
+        "location": "Nashua, New Hampshire, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Lockheedmartin",
+        "role": "Software Engineer - Intern",
+        "link": "https://lockheedmartin.eightfold.ai/careers/job/996477643944?domain=lockheedmartin.com&8fold_id=996477643944",
+        "location": "Fort Worth, TX",
+        "country": "USA"
+      },
+      {
+        "company": "Lockheedmartin",
+        "role": "Software Engineer Asc - Early Career",
+        "link": "https://lockheedmartin.eightfold.ai/careers/job/996477639010?domain=lockheedmartin.com&8fold_id=996477639010",
+        "location": "Aguadilla, PR",
+        "country": "USA"
+      },
+      {
+        "company": "Lockheedmartin",
+        "role": "Software Engineer Asc - Early Career",
+        "link": "https://lockheedmartin.eightfold.ai/careers/job/996477639078?domain=lockheedmartin.com&8fold_id=996477639078",
+        "location": "Aguadilla, PR",
+        "country": "USA"
+      },
+      {
+        "company": "Msd",
+        "role": "Specialist, Semantic Data Engineer",
+        "link": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/CZE---Central-Bohemian---Prague-Five/Specialist--Semantic-Data-Engineer_R423934-1",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Nationwide",
+        "role": "Consultant, Software Engineer",
+        "link": "https://nationwide.wd1.myworkdayjobs.com/nationwide_career/job/Ohio---Columbus-Three-Nationwide-Plaza/Consultant--Software-Engineer_101190",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Nationwide",
+        "role": "Specialist, Software Engineer",
+        "link": "https://nationwide.wd1.myworkdayjobs.com/nationwide_career/job/Ohio---Columbus-Three-Nationwide-Plaza/Specialist--Software-Engineer_101189",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Nationwide",
+        "role": "Consultant, Data Engineer",
+        "link": "https://nationwide.wd1.myworkdayjobs.com/nationwide_career/job/Ohio---Columbus-Three-Nationwide-Plaza/Consultant--Data-Engineer_101187",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Philips",
+        "role": "Associate Data & AI Engineer - Medical Imaging (Bedford, MA)",
+        "link": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bedford-Massachusetts-United-States/Associate-Data---AI-Engineer---Medical-Imaging--Bedford--MA-_594180",
+        "location": "Bedford, Massachusetts, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Plexus",
+        "role": "Intern - Software Engineer (Summer 2027)",
+        "link": "https://plexus.eightfold.ai/careers/job/1099551218197?domain=plexus.com&8fold_id=1099551218197",
+        "location": "Neenah, WI",
+        "country": "USA"
+      },
+      {
+        "company": "Psu",
+        "role": "AI/ML Computer Science Research and Development Engineer",
+        "link": "https://psu.wd1.myworkdayjobs.com/PSU_Staff/job/Penn-State-University-Park/AI-ML-Computer-Science-Research-and-Development-Engineer_REQ_0000083630-2",
+        "location": "Penn State University Park",
+        "country": "USA"
+      },
+      {
+        "company": "Psu",
+        "role": "Software Engineer",
+        "link": "https://psu.wd1.myworkdayjobs.com/PSU_Staff/job/Reston-VA/Software-Engineer_REQ_0000083537-2",
+        "location": "Reston, VA",
+        "country": "USA"
+      },
+      {
+        "company": "Thales",
+        "role": "AI Platform Engineer",
+        "link": "https://thales.wd3.myworkdayjobs.com/careers/job/Hengelo/AI-Platform-Engineer_R0340705-1",
+        "location": "Hengelo",
+        "country": "Unsure"
+      },
+      {
+        "company": "Thales",
+        "role": "AI Platform Engineer",
+        "link": "https://thales.wd3.myworkdayjobs.com/careers/job/Hengelo/AI-Platform-Engineer_R0341102-1",
+        "location": "Hengelo",
+        "country": "Unsure"
+      }
+    ]
+  }
+]
