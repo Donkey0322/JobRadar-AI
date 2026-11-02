@@ -25793,17 +25793,6 @@
     ]
   },
   {
-    "name": "jobs.plexus.com",
-    "ats": "custom",
-    "identifier": "jobs.plexus.com",
-    "domain": "https://jobs.plexus.com",
-    "page": "",
-    "urls": [
-      "https://jobs.plexus.com/careers/job/1099542501274",
-      "https://jobs.plexus.com/careers/job/1099542548181"
-    ]
-  },
-  {
     "name": "jobs.postholdings.com",
     "ats": "custom",
     "identifier": "jobs.postholdings.com",
