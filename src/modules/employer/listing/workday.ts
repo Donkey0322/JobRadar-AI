@@ -20,6 +20,11 @@ const identifierMap = {
   globalhr: "rtx",
 } satisfies Record<string, string>;
 
+/** Career hosts replace `_` with `-`. The CXS path still wants the tenant underscore. */
+function workdayTenant(name: string): string {
+  return name.replaceAll("-", "_");
+}
+
 export const WorkdayJobSchema = z.object({
   title: z.string(),
   postedOn: z.string().optional(),
@@ -49,7 +54,7 @@ export class WorkdayFetcher extends Employer<WorkdayJob> {
       ats: this.ats,
       identifier: `${companyName}-${careerPage.toLowerCase()}`,
       domain,
-      page: `${url.origin}/wday/cxs/${name}/${careerPage}/jobs`,
+      page: `${url.origin}/wday/cxs/${workdayTenant(name)}/${careerPage}/jobs`,
       urls: [],
     };
   }

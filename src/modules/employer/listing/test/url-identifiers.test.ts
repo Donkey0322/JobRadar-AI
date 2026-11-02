@@ -150,4 +150,17 @@ describe("ATS URL hostname normalization", () => {
     expect(company.name).toBe("rtx");
     expect(company.identifier).toBe("rtx-rec_rtx_ext_gateway");
   });
+
+  it("uses underscores in the Workday jobs API tenant", () => {
+    const company = workdayFetcher.formCompany(
+      new URL(
+        "https://osv-rubicon.wd5.myworkdayjobs.com/en-US/MagniteCareers/job/United-Kingdom---Belfast/Software-Engineer_R-01418"
+      )
+    );
+
+    expect(company.identifier).toBe("osv-rubicon-magnitecareers");
+    expect(company.page).toBe(
+      "https://osv-rubicon.wd5.myworkdayjobs.com/wday/cxs/osv_rubicon/MagniteCareers/jobs"
+    );
+  });
 });

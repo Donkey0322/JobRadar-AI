@@ -31334,12 +31334,14 @@
     "urls": []
   },
   {
-    "name": "nio",
-    "ats": "workday",
-    "identifier": "nio-nio_careers",
-    "domain": "https://nio.wd3.myworkdayjobs.com/NIO_Careers",
-    "page": "https://nio.wd3.myworkdayjobs.com/wday/cxs/nio/NIO_Careers/jobs",
-    "urls": []
+    "name": "nio-usa",
+    "ats": "lever",
+    "identifier": "nio-usa",
+    "domain": "https://jobs.lever.co",
+    "page": "https://api.lever.co/v0/postings/nio-usa?mode=json",
+    "urls": [
+      "https://jobs.lever.co/nio-usa/aeb18492-fd65-481d-88a3-00dcceb55840?jr_id=6a44e5ba824ecd73beef1a2a"
+    ]
   },
   {
     "name": "nisc",
@@ -31466,7 +31468,9 @@
     "identifier": "nordstrom-nordstrom_careers",
     "domain": "https://nordstrom.wd501.myworkdayjobs.com/nordstrom_careers",
     "page": "https://nordstrom.wd501.myworkdayjobs.com/wday/cxs/nordstrom/nordstrom_careers/jobs",
-    "urls": []
+    "urls": [
+      "https://nordstrom.wd501.myworkdayjobs.com/nordstrom_careers/job/New-York-NY/Full-Service-Server---Wolf---NYC-Flagship_R-894154?source=career_site&jr_id=6ae6282977c09cb3bd4b539f"
+    ]
   },
   {
     "name": "northmarq",
@@ -32651,10 +32655,11 @@
     "ats": "workday",
     "identifier": "osv-rubicon-magnitecareers",
     "domain": "https://osv-rubicon.wd5.myworkdayjobs.com/MagniteCareers",
-    "page": "https://osv-rubicon.wd5.myworkdayjobs.com/wday/cxs/osv-rubicon/MagniteCareers/jobs",
+    "page": "https://osv-rubicon.wd5.myworkdayjobs.com/wday/cxs/osv_rubicon/MagniteCareers/jobs",
     "urls": [
       "https://osv-rubicon.wd5.myworkdayjobs.com/en-US/MagniteCareers/job/United-Kingdom---Belfast/Software-Engineer---Student-Placement--Queens-University-Only-_R-01418",
-      "https://osv-rubicon.wd5.myworkdayjobs.com/en-US/MagniteCareers/job/United-Kingdom---Belfast/Software-Engineer---Student-Placement_R-01417-1"
+      "https://osv-rubicon.wd5.myworkdayjobs.com/en-US/MagniteCareers/job/United-Kingdom---Belfast/Software-Engineer---Student-Placement_R-01417-1",
+      "https://osv-rubicon.wd5.myworkdayjobs.com/en-US/MagniteCareers/details/Product-Marketing-Manager_R-01434"
     ]
   },
   {
@@ -32662,7 +32667,7 @@
     "ats": "workday",
     "identifier": "osv-tifec-fanthreesixty",
     "domain": "https://osv-tifec.wd5.myworkdayjobs.com/fanthreesixty",
-    "page": "https://osv-tifec.wd5.myworkdayjobs.com/wday/cxs/osv-tifec/fanthreesixty/jobs",
+    "page": "https://osv-tifec.wd5.myworkdayjobs.com/wday/cxs/osv_tifec/fanthreesixty/jobs",
     "urls": []
   },
   {
@@ -36780,7 +36785,7 @@
     "ats": "workday",
     "identifier": "sallie-mae-careers",
     "domain": "https://sallie-mae.wd5.myworkdayjobs.com/Careers",
-    "page": "https://sallie-mae.wd5.myworkdayjobs.com/wday/cxs/sallie-mae/Careers/jobs",
+    "page": "https://sallie-mae.wd5.myworkdayjobs.com/wday/cxs/sallie_mae/Careers/jobs",
     "urls": [
       "https://sallie-mae.wd5.myworkdayjobs.com/Careers/job/Newark-DE/Data-Science---Engineering-Intern_R26_000659"
     ]
@@ -43933,7 +43938,7 @@
     "ats": "workday",
     "identifier": "vhr-genband-ribboncareers",
     "domain": "https://vhr-genband.wd1.myworkdayjobs.com/ribboncareers",
-    "page": "https://vhr-genband.wd1.myworkdayjobs.com/wday/cxs/vhr-genband/ribboncareers/jobs",
+    "page": "https://vhr-genband.wd1.myworkdayjobs.com/wday/cxs/vhr_genband/ribboncareers/jobs",
     "urls": []
   },
   {
@@ -43941,7 +43946,7 @@
     "ats": "workday",
     "identifier": "vhr-otsuka-external",
     "domain": "https://vhr-otsuka.wd1.myworkdayjobs.com/external",
-    "page": "https://vhr-otsuka.wd1.myworkdayjobs.com/wday/cxs/vhr-otsuka/external/jobs",
+    "page": "https://vhr-otsuka.wd1.myworkdayjobs.com/wday/cxs/vhr_otsuka/external/jobs",
     "urls": []
   },
   {
