@@ -10796,6 +10796,16 @@
     ]
   },
   {
+    "name": "cambridgeconsultantslimited",
+    "ats": "greenhouse",
+    "identifier": "cambridgeconsultantslimited",
+    "domain": "https://job-boards.eu.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/cambridgeconsultantslimited/jobs",
+    "urls": [
+      "https://job-boards.eu.greenhouse.io/cambridgeconsultantslimited/jobs/4995820101"
+    ]
+  },
+  {
     "name": "campaignmonitor",
     "ats": "workday",
     "identifier": "campaignmonitor-marigold",
@@ -13334,7 +13344,10 @@
     "identifier": "careers.pnnl.gov",
     "domain": "https://careers.pnnl.gov",
     "page": "",
-    "urls": []
+    "urls": [
+      "https://careers.pnnl.gov/jobs/12898?icims=1",
+      "https://careers.pnnl.gov/jobs/12899?icims=1"
+    ]
   },
   {
     "name": "careers.point72.com",
@@ -13608,6 +13621,16 @@
     "domain": "https://careers.zebra.com",
     "page": "",
     "urls": []
+  },
+  {
+    "name": "careers.zimmerbiomet.com",
+    "ats": "custom",
+    "identifier": "careers.zimmerbiomet.com",
+    "domain": "https://careers.zimmerbiomet.com",
+    "page": "",
+    "urls": [
+      "https://careers.zimmerbiomet.com/us/en/job/13309"
+    ]
   },
   {
     "name": "careers.zurich.com",
@@ -19177,6 +19200,16 @@
       "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32645",
       "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32743",
       "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/33120"
+    ]
+  },
+  {
+    "name": "fa-exhh-saasfaprod1.fa.ocs.oraclecloud.com",
+    "ats": "oraclecloud",
+    "identifier": "fa-exhh-saasfaprod1.fa.ocs.oraclecloud.com",
+    "domain": "https://fa-exhh-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/StaplesInc/job",
+    "page": "https://fa-exhh-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DStaplesInc%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://fa-exhh-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/StaplesInc/job/77076"
     ]
   },
   {
@@ -29621,6 +29654,7 @@
       "https://micron.wd1.myworkdayjobs.com/External/job/Taoyuan---Fab-11-Taiwan/Sr-Data-Scientist_JR112231",
       "https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---ID1/US-FE-Expansion-Planning-Engineer_JR95856",
       "https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/Gas-Systems-Engineer---O-M_JR109693",
+      "https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/Intern---System-Engineer--HBM_JR113469",
       "https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/Product-Development-Engineer_JR103405",
       "https://micron.wd1.myworkdayjobs.com/external/job/Fab-10A-Singapore/AI-Engineer--SMAI_JR111136",
       "https://micron.wd1.myworkdayjobs.com/external/job/Fab-10A-Singapore/AI-Engineer--SMAI_JR111138",
@@ -34020,6 +34054,17 @@
     ]
   },
   {
+    "name": "phf.tbe.taleo.net",
+    "ats": "custom",
+    "identifier": "phf.tbe.taleo.net",
+    "domain": "https://phf.tbe.taleo.net",
+    "page": "",
+    "urls": [
+      "https://phf.tbe.taleo.net/phf02/ats/careers/v2/viewRequisition?org=COSTCO&cws=41&rid=10993",
+      "https://phf.tbe.taleo.net/phf02/ats/careers/v2/viewRequisition?org=COSTCO&cws=41&rid=11013"
+    ]
+  },
+  {
     "name": "phg.tbe.taleo.net",
     "ats": "custom",
     "identifier": "phg.tbe.taleo.net",
@@ -35535,6 +35580,16 @@
   {
     "name": "rbc",
     "ats": "workday",
+    "identifier": "rbc-externalprivatepostingstudents",
+    "domain": "https://rbc.wd3.myworkdayjobs.com/ExternalPrivatePostingStudents",
+    "page": "https://rbc.wd3.myworkdayjobs.com/wday/cxs/rbc/ExternalPrivatePostingStudents/jobs",
+    "urls": [
+      "https://rbc.wd3.myworkdayjobs.com/ExternalPrivatePostingStudents/job/TORONTO-Ontario-Canada/Machine-Learning-Software-Engineer--Winter-2027-Co-op--4-Months-_R-0000191740"
+    ]
+  },
+  {
+    "name": "rbc",
+    "ats": "workday",
     "identifier": "rbc-rbcearlytalent1",
     "domain": "https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1",
     "page": "https://rbc.wd3.myworkdayjobs.com/wday/cxs/rbc/RBCEARLYTALENT1/jobs",
@@ -35554,16 +35609,6 @@
       "https://rbc.wd3.myworkdayjobs.com/rbcglobal1/job/CALGARY-Alberta-Canada/Data-Engineer--RBC-Amplify-2027--Calgary_R-0000191201-2",
       "https://rbc.wd3.myworkdayjobs.com/rbcglobal1/job/MONTRAL-Quebec-Canada/Software-Developer_R-0000185999-1",
       "https://rbc.wd3.myworkdayjobs.com/rbcglobal1/job/PERSIARAN-IRC-2-IOI-RESORT-CITY-IOI-CITY-TOWER-ONEPUTRAJAYA/Data-Analyst---Client-Intelligence_R-0000183804"
-    ]
-  },
-  {
-    "name": "rbc",
-    "ats": "workday",
-    "identifier": "rbc-externalprivatepostingstudents",
-    "domain": "https://rbc.wd3.myworkdayjobs.com/ExternalPrivatePostingStudents",
-    "page": "https://rbc.wd3.myworkdayjobs.com/wday/cxs/rbc/ExternalPrivatePostingStudents/jobs",
-    "urls": [
-      "https://rbc.wd3.myworkdayjobs.com/ExternalPrivatePostingStudents/job/TORONTO-Ontario-Canada/Machine-Learning-Software-Engineer--Winter-2027-Co-op--4-Months-_R-0000191740"
     ]
   },
   {
@@ -36032,6 +36077,16 @@
       "https://jobs.lever.co/reply/0dd15e42-8f9e-4baf-a149-964b48898035",
       "https://jobs.lever.co/reply/18fd9715-a8ce-4808-a87c-3058ba712a0c",
       "https://jobs.lever.co/reply/790c1fc7-d76c-4603-b879-922e61fc7a90"
+    ]
+  },
+  {
+    "name": "Resideo",
+    "ats": "oraclecloud",
+    "identifier": "ehtl.fa.us6.oraclecloud.com",
+    "domain": "https://ehtl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job",
+    "page": "https://ehtl.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://ehtl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19816"
     ]
   },
   {
@@ -38334,6 +38389,16 @@
       "https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/jobs/job/2621324",
       "https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/jobs/job/2624433",
       "https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/jobs/job/2627162"
+    ]
+  },
+  {
+    "name": "shield",
+    "ats": "ashby",
+    "identifier": "shield",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/shield",
+    "urls": [
+      "https://jobs.ashbyhq.com/shield/db04c516-d21a-449c-8bfd-1cf830eafb5a"
     ]
   },
   {
@@ -41272,7 +41337,64 @@
     "domain": "https://www.tesla.com",
     "page": "",
     "urls": [
-      "https://www.tesla.com/careers/search/job/249570"
+      "https://www.tesla.com/careers/search/job/249570",
+      "https://www.tesla.com/careers/search/job/277009",
+      "https://www.tesla.com/careers/search/job/277843",
+      "https://www.tesla.com/careers/search/job/278578",
+      "https://www.tesla.com/careers/search/job/279763",
+      "https://www.tesla.com/careers/search/job/279766",
+      "https://www.tesla.com/careers/search/job/280820",
+      "https://www.tesla.com/careers/search/job/280960",
+      "https://www.tesla.com/careers/search/job/281099",
+      "https://www.tesla.com/careers/search/job/281271",
+      "https://www.tesla.com/careers/search/job/281462",
+      "https://www.tesla.com/careers/search/job/281467",
+      "https://www.tesla.com/careers/search/job/281473",
+      "https://www.tesla.com/careers/search/job/281482",
+      "https://www.tesla.com/careers/search/job/281623",
+      "https://www.tesla.com/careers/search/job/281921",
+      "https://www.tesla.com/careers/search/job/281951",
+      "https://www.tesla.com/careers/search/job/282227",
+      "https://www.tesla.com/careers/search/job/282241",
+      "https://www.tesla.com/careers/search/job/282242",
+      "https://www.tesla.com/careers/search/job/282246",
+      "https://www.tesla.com/careers/search/job/282248",
+      "https://www.tesla.com/careers/search/job/282250",
+      "https://www.tesla.com/careers/search/job/282258",
+      "https://www.tesla.com/careers/search/job/282291",
+      "https://www.tesla.com/careers/search/job/282292",
+      "https://www.tesla.com/careers/search/job/282331",
+      "https://www.tesla.com/careers/search/job/282340",
+      "https://www.tesla.com/careers/search/job/282342",
+      "https://www.tesla.com/careers/search/job/282598",
+      "https://www.tesla.com/careers/search/job/282825",
+      "https://www.tesla.com/careers/search/job/282916",
+      "https://www.tesla.com/careers/search/job/283117",
+      "https://www.tesla.com/careers/search/job/283138",
+      "https://www.tesla.com/careers/search/job/283274",
+      "https://www.tesla.com/careers/search/job/283950",
+      "https://www.tesla.com/careers/search/job/283994",
+      "https://www.tesla.com/careers/search/job/284003",
+      "https://www.tesla.com/careers/search/job/284004",
+      "https://www.tesla.com/careers/search/job/284275",
+      "https://www.tesla.com/careers/search/job/284286",
+      "https://www.tesla.com/careers/search/job/284448",
+      "https://www.tesla.com/careers/search/job/284776",
+      "https://www.tesla.com/careers/search/job/284924",
+      "https://www.tesla.com/careers/search/job/284925",
+      "https://www.tesla.com/careers/search/job/285076",
+      "https://www.tesla.com/careers/search/job/285084",
+      "https://www.tesla.com/careers/search/job/285085",
+      "https://www.tesla.com/careers/search/job/285153",
+      "https://www.tesla.com/careers/search/job/285179",
+      "https://www.tesla.com/careers/search/job/285202",
+      "https://www.tesla.com/careers/search/job/285291",
+      "https://www.tesla.com/careers/search/job/285508",
+      "https://www.tesla.com/careers/search/job/285801",
+      "https://www.tesla.com/careers/search/job/286085",
+      "https://www.tesla.com/careers/search/job/286127",
+      "https://www.tesla.com/careers/search/job/286261",
+      "https://www.tesla.com/careers/search/job/287982"
     ]
   },
   {
