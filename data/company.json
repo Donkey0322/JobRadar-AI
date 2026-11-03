@@ -1425,6 +1425,14 @@
     ]
   },
   {
+    "name": "Akima",
+    "ats": "icims",
+    "identifier": "careers.akima.com",
+    "domain": "https://careers.akima.com",
+    "page": "https://careers.akima.com/api/jobs",
+    "urls": []
+  },
+  {
     "name": "akunacapital",
     "ats": "greenhouse",
     "identifier": "akunacapital",
@@ -6199,6 +6207,14 @@
     "identifier": "att-attcollegespecialinvite",
     "domain": "https://att.wd1.myworkdayjobs.com/attcollegespecialinvite",
     "page": "https://att.wd1.myworkdayjobs.com/wday/cxs/att/attcollegespecialinvite/jobs",
+    "urls": []
+  },
+  {
+    "name": "att",
+    "ats": "workday",
+    "identifier": "att-attgeneral",
+    "domain": "https://att.wd1.myworkdayjobs.com/ATTGeneral",
+    "page": "https://att.wd1.myworkdayjobs.com/wday/cxs/att/ATTGeneral/jobs",
     "urls": []
   },
   {
@@ -21316,7 +21332,7 @@
     ]
   },
   {
-    "name": "GitHub, Inc.",
+    "name": "GitHub",
     "ats": "icims",
     "identifier": "githubinc.jibeapply.com",
     "domain": "https://githubinc.jibeapply.com",

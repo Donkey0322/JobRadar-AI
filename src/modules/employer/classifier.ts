@@ -16,6 +16,7 @@ const hostToATS: Record<string, ATS> = {
   "deere.com": "greenhouse",
   "hudsonrivertrading.com": "greenhouse",
   "careers.duolingo.com": "greenhouse",
+  "careers.nintendo.com": "greenhouse",
   "careers.roblox.com": "greenhouse",
   "databricks.com": "greenhouse",
   "epicgames.com": "greenhouse",
@@ -27,6 +28,7 @@ const hostToATS: Record<string, ATS> = {
   "riotgames.com": "greenhouse",
   "samsara.com": "greenhouse",
   "squarepoint-capital.com": "greenhouse",
+  "xantium.com": "greenhouse",
   "apply.careers.microsoft.com": "eightfold",
   "career.mlp.com": "eightfold",
   "careers.lumen.com": "eightfold",
@@ -43,6 +45,10 @@ const hostToATS: Record<string, ATS> = {
   "careers.varsitybrands.com": "phenom",
   "careers.zimmerbiomet.com": "phenom",
   "jobs.ascension.org": "phenom",
+  "careers.skyworksinc.com": "successfactors",
+  "careers.zurich.com": "successfactors",
+  "jobs.bmwgroup.com": "successfactors",
+  "jobs.sick.com": "successfactors",
 };
 
 export function classifyATS(url: URL): ATS {

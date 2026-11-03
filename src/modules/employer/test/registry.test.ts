@@ -267,6 +267,20 @@ describe("ATS fetcher registry", () => {
       await expect(buildCompanyList([])).resolves.toEqual([homeDepot]);
     });
 
+    it("keeps a stored none row for an aliased site until its board is stored", async () => {
+      const site: Company = {
+        name: "careers.homedepot.com",
+        ats: "none",
+        identifier: "careers.homedepot.com",
+        domain: "https://careers.homedepot.com",
+        page: "",
+        urls: [],
+      };
+      dataMocks.loadCompanies.mockResolvedValue([site]);
+
+      await expect(buildCompanyList([])).resolves.toEqual([site]);
+    });
+
     it("files new site URLs under the tracked board instead of a none row", async () => {
       dataMocks.loadCompanies.mockResolvedValue([homeDepot]);
       const noneForm = vi.spyOn(noneFetcher, "formCompany");

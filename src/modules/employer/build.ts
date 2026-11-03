@@ -200,9 +200,15 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
   // Re-resolve keys so identifier remaps replace stale rows instead of duplicating them.
   const existingCompanies = await loadCompanies();
   const resolvedExisting = await Promise.all(existingCompanies.map(resolveExistingCompany));
+  const aliasedRows: Array<{ key: string; company: Company }> = [];
 
   for (const { key, company } of resolvedExisting) {
-    if (!company.name || isAliasedSiteRow(company)) {
+    if (!company.name) {
+      continue;
+    }
+
+    if (isAliasedSiteRow(company)) {
+      aliasedRows.push({ key, company });
       continue;
     }
 
@@ -217,6 +223,13 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
       ...company,
       urls: [],
     });
+  }
+
+  // An aliased site row only goes away once the board it points to is stored.
+  for (const { key, company } of aliasedRows) {
+    if (!map.has(careerSiteAlias(company.domain)!) && !map.has(key)) {
+      map.set(key, { ...company, urls: [] });
+    }
   }
 
   for (const [groupKey, groupUrls] of aliasedGroups) {

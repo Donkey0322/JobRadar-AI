@@ -88,6 +88,16 @@ describe("classifyATS", () => {
     expect(classifyATS(new URL(url))).toBe(ats);
   });
 
+  it.each([
+    ["https://careers.nintendo.com", "greenhouse:nintendo"],
+    ["https://www.xantium.com", "greenhouse:xantium"],
+    ["https://www.careers.zurich.com", "successfactors:careers.zurich.com"],
+    ["https://jobs.bmwgroup.com", "successfactors:jobs.bmwgroup.com"],
+  ])("files the career site home %s under its board", (siteUrl, companyKey) => {
+    const url = new URL(siteUrl);
+    expect(employers[classifyATS(url)].companyKeyFromUrl(url)).toBe(companyKey);
+  });
+
   it("keeps custom for sites with their own fetcher and none for the rest", () => {
     expect(classifyATS(new URL("https://www.amazon.jobs/en/jobs/10372635"))).toBe("custom");
     expect(classifyATS(new URL("https://careers.example.com/job/1"))).toBe("none");
