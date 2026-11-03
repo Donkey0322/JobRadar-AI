@@ -15,6 +15,7 @@ import {
   getSuccessFactorsKey,
   getWorkdayKey,
 } from "../ats";
+import { getJobKey } from "..";
 
 import { CUSTOM_COMPANY_DOMAINS, parseCustomCompanyIdentifier } from "@/modules/employer/listing";
 
@@ -454,25 +455,56 @@ describe("getSuccessFactorsKey", () => {
 });
 
 describe("getIcimsKey", () => {
-  it("extracts icims job id from /jobs/:id", () => {
+  it("extracts icims job id from /jobs/:id scoped to the portal", () => {
     // Arrange
-    const pathname = "/jobs/123456/software-engineer-intern/job";
-    const expected = "icims:123456";
+    const url = new URL("https://careers-acme.icims.com/jobs/123456/software-engineer-intern/job");
+    const expected = "icims:careers-acme.icims.com:123456";
 
     // Act
-    const result = getIcimsKey(pathname);
+    const result = getIcimsKey(url);
 
     // Assert
     expect(result).toBe(expected);
   });
 
-  it("is case insensitive for /jobs", () => {
+  it("keeps the same job id distinct across customers", () => {
     // Arrange
-    const pathname = "/JOBS/123456/software-engineer-intern/job";
-    const expected = "icims:123456";
+    const axway = new URL("https://careers-axway.icims.com/jobs/8657/engineer/job");
+    const idemia = new URL("https://uscareers-idemia.icims.com/jobs/8657/analyst/job");
+
+    // Act / Assert
+    expect(getIcimsKey(axway)).not.toBe(getIcimsKey(idemia));
+  });
+
+  it("scopes Jibe job pages to the Jibe site", () => {
+    // Arrange
+    const url = new URL("https://www.careers.acme.com/jobs/18475?icims=1");
+    const expected = "icims:careers.acme.com:18475";
 
     // Act
-    const result = getIcimsKey(pathname);
+    const result = getIcimsKey(url);
+
+    // Assert
+    expect(result).toBe(expected);
+  });
+
+  it("matches Jibe links with and without ?icims=1", () => {
+    // Arrange
+    const bare = "https://careers.jhuapl.edu/jobs/60115";
+    const tagged = "https://careers.jhuapl.edu/jobs/60115?icims=1";
+
+    // Act / Assert
+    expect(getJobKey(bare)).toBe("icims:careers.jhuapl.edu:60115");
+    expect(getJobKey(tagged)).toBe(getJobKey(bare));
+  });
+
+  it("is case insensitive for /jobs", () => {
+    // Arrange
+    const url = new URL("https://careers-acme.icims.com/JOBS/123456/software-engineer-intern/job");
+    const expected = "icims:careers-acme.icims.com:123456";
+
+    // Act
+    const result = getIcimsKey(url);
 
     // Assert
     expect(result).toBe(expected);
@@ -480,11 +512,11 @@ describe("getIcimsKey", () => {
 
   it("returns null when /jobs/:id does not exist", () => {
     // Arrange
-    const pathname = "/job/123456/software-engineer-intern";
+    const url = new URL("https://careers-acme.icims.com/job/123456/software-engineer-intern");
     const expected = null;
 
     // Act
-    const result = getIcimsKey(pathname);
+    const result = getIcimsKey(url);
 
     // Assert
     expect(result).toBe(expected);

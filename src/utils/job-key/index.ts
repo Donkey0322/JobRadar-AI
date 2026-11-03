@@ -34,7 +34,7 @@ export function getJobKey(url: string) {
         return getGreenhouseKey(u) ?? `greenhouse:${normalizeUrl(url)}`;
 
       case "icims":
-        return getIcimsKey(u.pathname) ?? `icims:${normalizeUrl(url)}`;
+        return getIcimsKey(u) ?? `icims:${normalizeUrl(url)}`;
 
       case "jazzhr":
         return getJazzHRKey(u) ?? `jazzhr:${normalizeUrl(url)}`;

@@ -68,6 +68,8 @@ async function resolveIcimsJobPage(
   signal: AbortSignal
 ): Promise<{
   url: string | null;
+  /** Set when `url` itself is the job page, e.g. a Jibe site embedding JSON-LD. */
+  html?: string;
   error: JDFetchResult["error"];
 }> {
   const pageUrl = new URL(url);
@@ -88,7 +90,7 @@ async function resolveIcimsJobPage(
   const iframeSrc = findIcimsIframeSrc(html, url, "job");
 
   if (!iframeSrc) {
-    return { url: null, error: JD_FETCH_ERROR.noData() };
+    return { url, html, error: JD_FETCH_OK };
   }
 
   return {
@@ -298,7 +300,9 @@ export async function fetchIcimsJD(
     };
   }
 
-  const { html, error } = await fetchHtml(resolved.url, signal);
+  const { html, error } = resolved.html
+    ? { html: resolved.html, error: JD_FETCH_OK }
+    : await fetchHtml(resolved.url, signal);
 
   if (!html) {
     return {

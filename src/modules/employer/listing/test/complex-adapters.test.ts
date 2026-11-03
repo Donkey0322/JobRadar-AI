@@ -149,7 +149,150 @@ describe("complex ATS adapters", () => {
         location: "US-CA-San Francisco",
       },
     ]);
-    expect([...knownKeys]).toEqual(["icims:1"]);
+    expect([...knownKeys]).toEqual(["icims:careers-acme.icims.com:1"]);
+  });
+
+  function jibeJob(id: number, postedDate: string, title = `Software Engineer ${id}`) {
+    return {
+      data: {
+        req_id: String(id),
+        title,
+        full_location: "Herndon, Virginia",
+        posted_date: postedDate,
+        apply_url: `https://careers-acme.icims.com/jobs/${id}/login`,
+      },
+    };
+  }
+
+  it("follows a retired iCIMS portal to its Jibe listing API", async () => {
+    const company: Company = {
+      name: "acme",
+      ats: "icims",
+      identifier: "acme",
+      domain: "https://careers-acme.icims.com",
+      page: "https://careers-acme.icims.com/jobs/search",
+      urls: [],
+    };
+    const redirect = "<script>location.href = 'https:\\/\\/careers.acme.com\\/jobs'</script>";
+    const jobs = Array.from({ length: 3 }, (_, index) => jibeJob(index + 1, "2020-01-01"));
+
+    mockFetch
+      .mockResolvedValueOnce(response(redirect, `${company.page}?pr=0`))
+      .mockResolvedValueOnce(jsonResponse({ jobs }, "https://careers.acme.com/api/jobs"));
+
+    const keys = await icimsFetcher.listJobKeys(company, AbortSignal.timeout(1000));
+
+    expect(keys).toEqual(
+      new Set([
+        "icims:careers.acme.com:1",
+        "icims:careers.acme.com:2",
+        "icims:careers.acme.com:3",
+      ])
+    );
+    expect(String(mockFetch.mock.calls[1][0])).toMatch(/^https:\/\/careers\.acme\.com\/api\/jobs\?/);
+  });
+
+  it("reads Jibe rows directly and stops at the first stale page", async () => {
+    const company: Company = {
+      name: "Acme Corp",
+      ats: "icims",
+      identifier: "careers.acme.com",
+      domain: "https://careers.acme.com",
+      page: "https://careers.acme.com/api/jobs",
+      urls: [],
+    };
+    const today = new Date().toISOString();
+    const firstPage = [
+      ...Array.from({ length: 99 }, (_, index) => jibeJob(index + 1, today)),
+      jibeJob(100, "2020-01-01"),
+    ];
+
+    mockFetch.mockResolvedValueOnce(jsonResponse({ jobs: firstPage }, company.page));
+
+    const jobs = await icimsFetcher.fetch(
+      company,
+      toJobKeySet(["https://careers.acme.com/jobs/1?icims=1"]),
+      AbortSignal.timeout(1000)
+    );
+
+    expect(mockFetch).toHaveBeenCalledTimes(1);
+    expect(jobs).toHaveLength(98);
+    expect(jobs[0]).toEqual({
+      company: "Acme Corp",
+      role: "Software Engineer 2",
+      link: "https://careers.acme.com/jobs/2?icims=1",
+      location: "Herndon, Virginia",
+    });
+  });
+
+  it("keeps an empty listing when an iCIMS portal redirects to a non-Jibe site", async () => {
+    const company: Company = {
+      name: "americas",
+      ats: "icims",
+      identifier: "americas",
+      domain: "https://careers-americas.icims.com",
+      page: "https://careers-americas.icims.com/jobs/search",
+      urls: [],
+    };
+    const redirect = "<script>location.href = 'https:\\/\\/www.example.com\\/careers'</script>";
+
+    mockFetch
+      .mockResolvedValueOnce(response(redirect, `${company.page}?pr=0`))
+      .mockResolvedValueOnce(new Response("Not Found", { status: 404 }));
+
+    expect(await icimsFetcher.listJobKeys(company, AbortSignal.timeout(1000))).toEqual(new Set());
+  });
+
+  it("forms a Jibe row from a listing URL without ?icims=1", async () => {
+    mockFetch.mockResolvedValueOnce(
+      jsonResponse(
+        { jobs: [{ data: { req_id: "1", title: "Engineer", hiring_organization: "Akima, LLC" } }] },
+        "https://careers.akima.com/api/jobs"
+      )
+    );
+
+    const company = await icimsFetcher.formCompany(
+      new URL("https://careers.akima.com/jobs?keywords=&page=1")
+    );
+
+    expect(company).toEqual({
+      name: "Akima, LLC",
+      ats: "icims",
+      identifier: "careers.akima.com",
+      domain: "https://careers.akima.com",
+      page: "https://careers.akima.com/api/jobs",
+      urls: [],
+    });
+  });
+
+  it("reports a failed Jibe row as unknown rather than empty", async () => {
+    const company: Company = {
+      name: "Acme Corp",
+      ats: "icims",
+      identifier: "careers.acme.com",
+      domain: "https://careers.acme.com",
+      page: "https://careers.acme.com/api/jobs",
+      urls: [],
+    };
+
+    mockFetch.mockResolvedValueOnce(new Response("", { status: 503 }));
+
+    expect(await icimsFetcher.listJobKeys(company, AbortSignal.timeout(1000))).toBeNull();
+  });
+
+  it("reports a failed iCIMS page as unknown rather than empty", async () => {
+    const company: Company = {
+      name: "acme",
+      ats: "icims",
+      identifier: "acme",
+      domain: "https://careers-acme.icims.com",
+      page: "https://careers-acme.icims.com/jobs/search",
+      urls: [],
+    };
+
+    mockFetch.mockResolvedValueOnce(new Response("", { status: 503 }));
+
+    expect(await icimsFetcher.listJobKeys(company, AbortSignal.timeout(1000))).toBeNull();
   });
 
   it("isolates concurrent Phenom sessions, cookies, CSRF tokens, and links", async () => {

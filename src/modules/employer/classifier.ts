@@ -1,6 +1,7 @@
 import type { ATS } from "./type";
 
 import { isJazzHRUrl } from "./shared/jazzhr";
+import { isJibeUrl } from "./shared/jibe";
 import { isRadancyUrl } from "./shared/radancy";
 import { isRipplingHost } from "./shared/rippling";
 import { isSuccessFactorsUrl } from "./shared/successfactors";
@@ -12,6 +13,8 @@ const hostToATS: Record<string, ATS> = {
   "deere.com": "greenhouse",
   "hudsonrivertrading.com": "greenhouse",
   "apply.careers.microsoft.com": "eightfold",
+  // AMD is a Jibe site but keeps its own custom fetcher.
+  "careers.amd.com": "custom",
 };
 
 export function classifyATS(url: URL): ATS {
@@ -50,6 +53,7 @@ export function classifyATS(url: URL): ATS {
   if (isRadancyUrl(url)) return "radancy";
   if (isSuccessFactorsUrl(url)) return "successfactors";
   if (isJazzHRUrl(url)) return "jazzhr";
+  if (isJibeUrl(url)) return "icims";
 
   return "custom";
 }

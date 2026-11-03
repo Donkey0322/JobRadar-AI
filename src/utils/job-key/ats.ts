@@ -121,8 +121,10 @@ export function getSuccessFactorsKey(url: URL): string | null {
   return toATSKey("successfactors", id ? `${getHostnameWithoutWww(url)}:${id}` : null);
 }
 
-export function getIcimsKey(pathname: string): string | null {
-  return getNumericRouteKey(pathname, "icims", "jobs");
+export function getIcimsKey(url: URL): string | null {
+  const id = url.pathname.match(/\/jobs\/(\d+)(?:\/|$)/i)?.[1];
+  // Job IDs are only unique within one iCIMS customer, so scope them to the portal or Jibe site.
+  return toATSKey("icims", id ? `${getHostnameWithoutWww(url)}:${id}` : null);
 }
 
 export function getCustomKey(url: string): string {

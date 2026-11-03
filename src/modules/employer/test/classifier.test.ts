@@ -66,6 +66,16 @@ describe("classifyATS", () => {
     expect(classifyATS(new URL(url))).toBe(ats);
   });
 
+  it.each<[string, ATS]>([
+    ["https://careers.garmin.com/jobs/18475?icims=1", "icims"],
+    ["https://i3-corps.jibeapply.com/jobs/5420?lang=en-us", "icims"],
+    ["https://careers.akima.com/jobs?keywords=&page=1", "icims"],
+    ["https://careers.jhuapl.edu/jobs/60115", "icims"],
+    ["https://careers.amd.com/jobs/90305?icims=1", "custom"],
+  ])("routes iCIMS Jibe sites in %s", (url, ats) => {
+    expect(classifyATS(new URL(url))).toBe(ats);
+  });
+
   it("falls back to custom", () => {
     expect(classifyATS(new URL("https://careers.example.com/job/1"))).toBe("custom");
     expect(
