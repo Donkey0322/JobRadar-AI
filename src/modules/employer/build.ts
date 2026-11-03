@@ -47,7 +47,7 @@ async function resolveExistingCompany(stored: Company): Promise<{ key: string; c
 
   try {
     const fetcher = employers[classifyATS(url)];
-    const resolvedKey = fetcher.companyKeyFromUrl(url);
+    const resolvedKey = careerSiteAlias(url.href) ?? fetcher.companyKeyFromUrl(url);
 
     if (resolvedKey === existingKey) {
       return { key: existingKey, company: existing };
@@ -201,7 +201,14 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
   const resolvedExisting = await Promise.all(existingCompanies.map(resolveExistingCompany));
 
   for (const { key, company } of resolvedExisting) {
-    if (!company.name || map.has(key) || isAliasedCustomRow(company)) {
+    if (!company.name || isAliasedCustomRow(company)) {
+      continue;
+    }
+
+    // A stored name may be hand-edited, and a fetched one falls back to a slug when the lookup fails.
+    const formed = map.get(key);
+    if (formed) {
+      formed.name = company.name;
       continue;
     }
 
@@ -225,7 +232,9 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
 
   const result = Array.from(map.values())
     .map((company) => ({ ...company, urls: [...company.urls].sort() }))
-    .sort((a, b) => a.name.localeCompare(b.name));
+    .sort(
+      (a, b) => a.name.localeCompare(b.name) || getCompanyKey(a).localeCompare(getCompanyKey(b))
+    );
 
   await saveCompanies(result);
 

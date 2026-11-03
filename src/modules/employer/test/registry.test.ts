@@ -151,6 +151,26 @@ describe("ATS fetcher registry", () => {
     expect(formCompany).toHaveBeenCalledWith(new URL(urls[0]));
   });
 
+  it("keeps the stored name of a company it reforms from job URLs", async () => {
+    const url = "https://job-boards.greenhouse.io/imc/jobs/4940448101";
+    const stored: Company = {
+      name: "IMC",
+      ats: "greenhouse",
+      identifier: "imc",
+      domain: "https://job-boards.greenhouse.io",
+      page: "https://boards-api.greenhouse.io/v1/boards/imc/jobs",
+      urls: [url],
+    };
+    dataMocks.loadCompanies.mockResolvedValue([stored]);
+    vi.spyOn(greenhouseFetcher, "formCompany").mockResolvedValue({
+      ...stored,
+      name: "imc",
+      urls: [],
+    });
+
+    await expect(buildCompanyList([url])).resolves.toEqual([stored]);
+  });
+
   it("replaces stale Workday identifiers when the tenant is remapped", async () => {
     const stale: Company = {
       name: "globalhr",
@@ -246,6 +266,16 @@ describe("ATS fetcher registry", () => {
 
     it("files new site URLs under the tracked board instead of a custom row", async () => {
       dataMocks.loadCompanies.mockResolvedValue([homeDepot]);
+      const customForm = vi.spyOn(customFetcher, "formCompany");
+
+      await expect(buildCompanyList([siteUrl])).resolves.toEqual([
+        { ...homeDepot, urls: [siteUrl] },
+      ]);
+      expect(customForm).not.toHaveBeenCalled();
+    });
+
+    it("keeps a tracked board whose only stored URLs are site URLs", async () => {
+      dataMocks.loadCompanies.mockResolvedValue([{ ...homeDepot, urls: [siteUrl] }]);
       const customForm = vi.spyOn(customFetcher, "formCompany");
 
       await expect(buildCompanyList([siteUrl])).resolves.toEqual([
