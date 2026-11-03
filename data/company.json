@@ -3444,6 +3444,7 @@
       "https://amazon.jobs/en/jobs/3203794",
       "https://amazon.jobs/en/jobs/3205224",
       "https://amazon.jobs/en/jobs/3206077",
+      "https://www.amazon.jobs/en/jobs/10595839/software-development-engineer-embedded-systems-early-career-2027-us",
       "https://www.amazon.jobs/en/jobs/3101249/software-development-engineer-internship-winter-2026-us"
     ]
   },
@@ -5481,6 +5482,19 @@
     "urls": []
   },
   {
+    "name": "apply.workable.com",
+    "ats": "none",
+    "identifier": "apply.workable.com",
+    "domain": "https://apply.workable.com",
+    "page": "",
+    "urls": [
+      "https://apply.workable.com/amax-1/j/C8FD3B365F",
+      "https://apply.workable.com/botpress/j/16C68A50A7/apply",
+      "https://apply.workable.com/botpress/j/9B3CB646E8/apply",
+      "https://apply.workable.com/j/9B3CB646E8"
+    ]
+  },
+  {
     "name": "apptronik",
     "ats": "greenhouse",
     "identifier": "apptronik",
@@ -5826,9 +5840,11 @@
     "name": "arrowstreetcapital",
     "ats": "workday",
     "identifier": "arrowstreetcapital-campus_careers",
-    "domain": "https://arrowstreetcapital.wd5.myworkdayjobs.com/campus_careers",
-    "page": "https://arrowstreetcapital.wd5.myworkdayjobs.com/wday/cxs/arrowstreetcapital/campus_careers/jobs",
-    "urls": []
+    "domain": "https://arrowstreetcapital.wd5.myworkdayjobs.com/Campus_Careers",
+    "page": "https://arrowstreetcapital.wd5.myworkdayjobs.com/wday/cxs/arrowstreetcapital/Campus_Careers/jobs",
+    "urls": [
+      "https://arrowstreetcapital.wd5.myworkdayjobs.com/Campus_Careers/job/Boston/Software-Engineer-Intern--Summer-2027_R1561"
+    ]
   },
   {
     "name": "artera",
@@ -13901,6 +13917,7 @@
     "urls": [
       "https://jobs.lever.co/cfsenergy/32e62a79-eff5-4a58-83fd-51a60eb57707",
       "https://jobs.lever.co/cfsenergy/912d6878-25dd-4bdc-8df8-8f7002999619",
+      "https://jobs.lever.co/cfsenergy/f71bb176-75b9-4a30-8b2a-e3078b45505d",
       "https://jobs.lever.co/cfsenergy/fa87d365-ac8a-44c3-8fda-c9dec3ea8878/apply"
     ]
   },
@@ -23466,6 +23483,17 @@
   {
     "name": "hp",
     "ats": "workday",
+    "identifier": "hp-externalcareersite",
+    "domain": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite",
+    "page": "https://hp.wd5.myworkdayjobs.com/wday/cxs/hp/ExternalCareerSite/jobs",
+    "urls": [
+      "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern--AIML-Platform---HP-IQ_UNI4800-1",
+      "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/San-Francisco-California-United-States-of-America/Software-Quality-Assurance-Intern_UNI4803-1"
+    ]
+  },
+  {
+    "name": "hp",
+    "ats": "workday",
     "identifier": "hp-exteu-ac-careersite",
     "domain": "https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite",
     "page": "https://hp.wd5.myworkdayjobs.com/wday/cxs/hp/exteu-ac-careersite/jobs",
@@ -29706,6 +29734,16 @@
   },
   {
     "name": "micron",
+    "ats": "eightfold",
+    "identifier": "micron",
+    "domain": "micron.com",
+    "page": "https://micron.eightfold.ai/api/pcsx/search?domain=micron.com",
+    "urls": [
+      "https://micron.eightfold.ai/careers/job/45284309"
+    ]
+  },
+  {
+    "name": "micron",
     "ats": "workday",
     "identifier": "micron-external",
     "domain": "https://micron.wd1.myworkdayjobs.com/External",
@@ -29972,6 +30010,7 @@
       "https://apply.careers.microsoft.com/careers/job/1970393557022912?domain=microsoft.com&8fold_id=1970393557022912",
       "https://apply.careers.microsoft.com/careers/job/1970393557026831?domain=microsoft.com&8fold_id=1970393557026831",
       "https://apply.careers.microsoft.com/careers/job/1970393557037550?domain=microsoft.com&8fold_id=1970393557037550",
+      "https://apply.careers.microsoft.com/careers/job/1970393557037859",
       "https://apply.careers.microsoft.com/careers/job/1970393557039411?domain=microsoft.com&8fold_id=1970393557039411",
       "https://apply.careers.microsoft.com/careers/job/1970393557040326?domain=microsoft.com&8fold_id=1970393557040326",
       "https://apply.careers.microsoft.com/careers/job/1970393557041198?domain=microsoft.com&8fold_id=1970393557041198",
@@ -31640,6 +31679,7 @@
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Azusa/Systems-Engineer---Level-4_R10249237-1",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Azusa/Systems-Engineer---Level-5_R10249244",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-El-Segundo/Mission-Autonomy-Software-Developer_R10236655",
+      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Manhattan-Beach/XMLNAME-2027-Flight-Software-Engineer-Intern---Redondo-Beach-CA_R10259032",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Northridge/Aerodynamics-Systems-Engineer-4--AHT-_R10243556",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Northridge/Consultant-Engineer-Embedded-Software-T7--AHT-_R10252440",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Northridge/Embedded-DevOps-Engineer-Level-4--AHT-_R10249670",
@@ -31663,6 +31703,7 @@
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Redondo-Beach/Systems-Engineer---Level-6_R10244170",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Redondo-Beach/Systems-Engineer-Level-4---COAST-Ground-SEIT_R10255658",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Redondo-Beach/Systems-Engineer-Prin-Systems-Engineer---Integration---Test--AHT-_R10244521",
+      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Redondo-Beach/XMLNAME-2027-Ground-Software-Engineer-Intern---Redondo-Beach-CA_R10259057",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/Cyber-Systems-Engineer_R10257152",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/Embedded-Software-Engineer--San-Diego-_R10233098",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/Engineer-Embedded-Software_R10247331",
@@ -31722,6 +31763,7 @@
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Industrial-Security-Analyst_R10239576",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Integration---Test-Systems-Engineer_R10252842",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Systems-Engineer---Air-to-Ground_R10246472",
+      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/XMLNAME-2027-Electrical-Engineer-Intern---Field-Engineering---Baltimore-MD_R10258965",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Hollywood/Associate-Software-Engineer---Hollywood--MD-_R10258018",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Hollywood/Software-Engineer---Principal-Software-Engineer_R10254398",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910",
@@ -33388,6 +33430,7 @@
       "https://jobs.paccar.com/job/Bellevue-PFC-IT-Summer-Internship-Summer-Internship-2026-WA-98004/1387605533/?ats=successfactors",
       "https://jobs.paccar.com/job/Bellevue-Software-Engineer-Embedded-Systems-WA-98004/1453554333/",
       "https://jobs.paccar.com/job/Denton-2027-Summer-Internship-Design-Engineer-Autonomous-Vehicle-Platform-TX-76205-7864/1453611233/",
+      "https://jobs.paccar.com/job/Denton-2027-Summer-Internship-Software-Developer-TX-76205-7864/1453615433/?ats=successfactors",
       "https://jobs.paccar.com/job/Kirkland-Summer-2026-Intern-Application-Developer-%28OH%29-WA-98033/1260990901/",
       "https://jobs.paccar.com/job/Kirkland-Summer-2027-AfterSales-Data-Analyst-Intern-WA-98033/1450518033/?ats=successfactors",
       "https://jobs.paccar.com/job/Kirkland-Summer-2027-Data-Engineer-Intern-(OH)-WA-98033/1451916833/?ats=successfactors",
@@ -36520,9 +36563,11 @@
     "name": "rgare",
     "ats": "workday",
     "identifier": "rgare-careers",
-    "domain": "https://rgare.wd1.myworkdayjobs.com/careers",
-    "page": "https://rgare.wd1.myworkdayjobs.com/wday/cxs/rgare/careers/jobs",
-    "urls": []
+    "domain": "https://rgare.wd1.myworkdayjobs.com/Careers",
+    "page": "https://rgare.wd1.myworkdayjobs.com/wday/cxs/rgare/Careers/jobs",
+    "urls": [
+      "https://rgare.wd1.myworkdayjobs.com/Careers/job/United-States-Chesterfield-MO-RGA-HQ/Summer-Intern---Data-Analyst_J29309"
+    ]
   },
   {
     "name": "Rheem",
@@ -37029,6 +37074,16 @@
     ]
   },
   {
+    "name": "rotheramarketsllc",
+    "ats": "greenhouse",
+    "identifier": "rotheramarketsllc",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/rotheramarketsllc/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/rotheramarketsllc/jobs/4401091009"
+    ]
+  },
+  {
     "name": "rothesaygraduates",
     "ats": "greenhouse",
     "identifier": "rothesaygraduates",
@@ -37402,6 +37457,7 @@
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-REMOTE/Snowflake-Data-Lake-Support-Technical-Analyst_01877224",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C07--1707-Cityline-Dr--CITYLINE-C07/Financial-System-Analyst--Hybrid-_01878253",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineer-Co-op--Remote-_01883545",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-UT-WEST-VALLEY-CITY-338--1127--1128-w-2400-S--BLDG-338/Software-Engineering-Intern--Summer-2027-_01886446",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-VA-DULLES-710--22110-Pacific-Blvd--BLDG-10/Sr-Software-Engineer--Modeling-and-Simulation-Onsite_01885260-1",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-VA-REMOTE/Application-Engineer---DevOps---Engineering-Tools_01885527-1",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-VA-STERLING-291--22640-Davis-Dr--DAVIS/Software-Engineering-Intern--Summer-2027-_01885169",
@@ -38748,6 +38804,8 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/shield",
     "urls": [
+      "https://jobs.ashbyhq.com/shield/986a26e9-0597-4402-85ee-0f05a6012902",
+      "https://jobs.ashbyhq.com/shield/c0735824-2b3c-46a2-a888-99e7376a9606",
       "https://jobs.ashbyhq.com/shield/db04c516-d21a-449c-8bfd-1cf830eafb5a"
     ]
   },
@@ -43823,6 +43881,7 @@
       "https://trimble.wd1.myworkdayjobs.com/trimblecareers/job/UK---Newcastle/Agentic-AI-Software-Engineer_R57812",
       "https://trimble.wd1.myworkdayjobs.com/trimblecareers/job/US---CA-Sunnyvale/Software-Engineer_R53329",
       "https://trimble.wd1.myworkdayjobs.com/trimblecareers/job/US---CA-Sunnyvale/Software-Engineer_R53360",
+      "https://trimble.wd1.myworkdayjobs.com/trimblecareers/job/US---CO-Westminster/AI-Developer-Intern_R58194",
       "https://trimble.wd1.myworkdayjobs.com/trimblecareers/job/US---CO-Westminster/Control-System-Engineer_R57646",
       "https://trimble.wd1.myworkdayjobs.com/trimblecareers/job/US---CO-Westminster/People-Development-AI---Digital-Learning-Intern_R57819",
       "https://trimble.wd1.myworkdayjobs.com/trimblecareers/job/US---CO-Westminster/Site-Reliability-Engineer_R57303",
