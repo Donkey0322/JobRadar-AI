@@ -21,6 +21,7 @@ export const postingJDFetchers = {
   smartrecruiters: fetchSmartRecruitersJD,
   workday: fetchWorkdayJD,
 
+  jazzhr: fetchCustomJD,
   lever: fetchCustomJD,
   phenom: fetchCustomJD,
   radancy: fetchCustomJD,

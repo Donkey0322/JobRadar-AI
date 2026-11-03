@@ -1,6 +1,7 @@
 import { getLastPathNumber } from "./url";
 
 import { parseCustomCompanyIdentifier } from "@/modules/employer/shared/custom-identifier";
+import { getJazzHRJobId } from "@/modules/employer/shared/jazzhr";
 import { getRipplingJobId } from "@/modules/employer/shared/rippling";
 import { getSuccessFactorsJobId } from "@/modules/employer/shared/successfactors";
 import { getHostnameWithoutWww } from "@/utils/url";
@@ -103,6 +104,11 @@ export function getPhenomKey(pathname: string): string | null {
 export function getRadancyKey(pathname: string): string | null {
   const match = pathname.match(/\/job\/[^/]+\/[^/]+\/\d+\/(\d+)(?:\/|$)/i);
   return toATSKey("radancy", match?.[1]);
+}
+
+export function getJazzHRKey(url: URL): string | null {
+  const id = getJazzHRJobId(url.pathname);
+  return toATSKey("jazzhr", id ? `${getHostnameWithoutWww(url)}:${id}` : null);
 }
 
 export function getRipplingKey(url: URL): string | null {

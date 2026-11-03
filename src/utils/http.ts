@@ -42,3 +42,9 @@ export function getSetCookieHeader(response: Response): string {
 export function isAbortError(error: unknown): error is Error {
   return error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError");
 }
+
+/** Underlying reason when `fetch` could not connect (expired TLS, DNS, refused). */
+export function connectionErrorMessage(error: unknown): string | null {
+  if (!(error instanceof TypeError) || !(error.cause instanceof Error)) return null;
+  return error.cause.message;
+}

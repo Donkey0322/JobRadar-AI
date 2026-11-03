@@ -1,5 +1,6 @@
 import type { ATS } from "./type";
 
+import { isJazzHRUrl } from "./shared/jazzhr";
 import { isRadancyUrl } from "./shared/radancy";
 import { isRipplingHost } from "./shared/rippling";
 import { isSuccessFactorsUrl } from "./shared/successfactors";
@@ -48,6 +49,7 @@ export function classifyATS(url: URL): ATS {
   if (url.searchParams.get("gh_jid")) return "greenhouse";
   if (isRadancyUrl(url)) return "radancy";
   if (isSuccessFactorsUrl(url)) return "successfactors";
+  if (isJazzHRUrl(url)) return "jazzhr";
 
   return "custom";
 }

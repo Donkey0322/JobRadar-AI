@@ -29,6 +29,7 @@ export {
   type GreenhouseJob,
 } from "./greenhouse";
 export { IcimsFetcher, icimsFetcher, IcimsJobSchema, type IcimsJob } from "./icims";
+export { JazzHRFetcher, jazzHRFetcher, type JazzHRJob } from "./jazzhr";
 export {
   LeverFetcher,
   leverFetcher,

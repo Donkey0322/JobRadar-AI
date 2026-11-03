@@ -3,6 +3,7 @@ export type ATS =
   | "eightfold"
   | "greenhouse"
   | "icims"
+  | "jazzhr"
   | "lever"
   | "oraclecloud"
   | "phenom"

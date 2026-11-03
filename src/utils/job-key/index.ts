@@ -4,6 +4,7 @@ import {
   getEightfoldKey,
   getGreenhouseKey,
   getIcimsKey,
+  getJazzHRKey,
   getLeverKey,
   getOracleKey,
   getPhenomKey,
@@ -34,6 +35,9 @@ export function getJobKey(url: string) {
 
       case "icims":
         return getIcimsKey(u.pathname) ?? `icims:${normalizeUrl(url)}`;
+
+      case "jazzhr":
+        return getJazzHRKey(u) ?? `jazzhr:${normalizeUrl(url)}`;
 
       case "lever":
         return getLeverKey(u) ?? `lever:${normalizeUrl(url)}`;

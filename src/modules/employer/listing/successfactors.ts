@@ -12,7 +12,7 @@ import {
   type SuccessFactorsJob,
 } from "@/modules/employer/shared/successfactors";
 import { appendErrorLog } from "@/utils/data";
-import { isAbortError } from "@/utils/http";
+import { connectionErrorMessage, isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
 import { getHostnameWithoutWww } from "@/utils/url";
@@ -26,12 +26,6 @@ const FEED_HEADERS: HeadersInit = {
 
 async function fetchFeed(url: string, signal: AbortSignal): Promise<Response> {
   return fetch(url, { signal, headers: FEED_HEADERS });
-}
-
-/** Self-hosted career domains often die (expired TLS, DNS); report those in one line. */
-function connectionErrorMessage(error: unknown): string | null {
-  if (!(error instanceof TypeError) || !(error.cause instanceof Error)) return null;
-  return error.cause.message;
 }
 
 async function fetchFeedCompanyName(feedUrl: string): Promise<string | null> {

@@ -23,6 +23,7 @@ describe("posting JD registry", () => {
       oraclecloud: fetchOracleJD,
       smartrecruiters: fetchSmartRecruitersJD,
       workday: fetchWorkdayJD,
+      jazzhr: fetchCustomJD,
       lever: fetchCustomJD,
       phenom: fetchCustomJD,
       radancy: fetchCustomJD,

@@ -6,6 +6,7 @@ import {
   getEightfoldKey,
   getGreenhouseKey,
   getIcimsKey,
+  getJazzHRKey,
   getLeverKey,
   getOracleKey,
   getRadancyKey,
@@ -390,6 +391,22 @@ describe("getRadancyKey", () => {
 
   it("returns null when the path is not a Radancy job URL", () => {
     expect(getRadancyKey("/job/123456/software-engineer")).toBeNull();
+  });
+});
+
+describe("getJazzHRKey", () => {
+  it("matches the job page and the board details link for the same posting", () => {
+    const page = new URL(
+      "https://career.innovativesystems.com/apply/jA6qmBJarn/Application-Support-Analyst-EMEA"
+    );
+    const details = new URL("https://career.innovativesystems.com/apply/jobs/details/jA6qmBJarn?&");
+
+    expect(getJazzHRKey(page)).toBe("jazzhr:career.innovativesystems.com:jA6qmBJarn");
+    expect(getJazzHRKey(details)).toBe(getJazzHRKey(page));
+  });
+
+  it("returns null for the board page", () => {
+    expect(getJazzHRKey(new URL("https://neboagency.applytojob.com/apply/jobs"))).toBeNull();
   });
 });
 

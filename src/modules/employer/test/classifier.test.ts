@@ -15,6 +15,11 @@ describe("classifyATS", () => {
     ["https://jobs.smartrecruiters.com/acme/1", "smartrecruiters"],
     ["https://careers-acme.icims.com/jobs/1", "icims"],
     ["https://acme.eightfold.ai/careers/job/1", "eightfold"],
+    ["https://neboagency.applytojob.com/apply/AFMqe9Jb7b/Web-Development-Intern", "jazzhr"],
+    [
+      "https://career.innovativesystems.com/apply/jA6qmBJarn/Application-Support-Analyst-EMEA",
+      "jazzhr",
+    ],
     [
       "https://ats.rippling.com/collieraerospace/jobs/4981b0ba-5b6f-4ebe-95c0-9d1cda036b77",
       "rippling",

@@ -7,6 +7,7 @@ import { customFetcher } from "./listing/custom";
 import { eightfoldFetcher } from "./listing/eightfold";
 import { greenhouseFetcher } from "./listing/greenhouse";
 import { icimsFetcher } from "./listing/icims";
+import { jazzHRFetcher } from "./listing/jazzhr";
 import { leverFetcher } from "./listing/lever";
 import { oracleCloudFetcher } from "./listing/oraclecloud";
 import { phenomFetcher } from "./listing/phenom";
@@ -21,6 +22,7 @@ export const employers = {
   eightfold: eightfoldFetcher,
   greenhouse: greenhouseFetcher,
   icims: icimsFetcher,
+  jazzhr: jazzHRFetcher,
   lever: leverFetcher,
   oraclecloud: oracleCloudFetcher,
   phenom: phenomFetcher,
