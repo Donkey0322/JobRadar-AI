@@ -337,6 +337,16 @@
     "urls": []
   },
   {
+    "name": "abglobal",
+    "ats": "workday",
+    "identifier": "abglobal-abcampuscareers",
+    "domain": "https://abglobal.wd1.myworkdayjobs.com/abcampuscareers",
+    "page": "https://abglobal.wd1.myworkdayjobs.com/wday/cxs/abglobal/abcampuscareers/jobs",
+    "urls": [
+      "https://abglobal.wd1.myworkdayjobs.com/abcampuscareers/job/Nashville-Tennessee/Software-Development-Summer-Intern_R0019771"
+    ]
+  },
+  {
     "name": "abridge",
     "ats": "ashby",
     "identifier": "abridge",
@@ -9360,7 +9370,8 @@
     "domain": "https://bracco.wd103.myworkdayjobs.com/braccocareers",
     "page": "https://bracco.wd103.myworkdayjobs.com/wday/cxs/bracco/braccocareers/jobs",
     "urls": [
-      "https://bracco.wd103.myworkdayjobs.com/braccocareers/job/USA-Eden-Prairie-Minnesota-55344/Product-Security-Engineering-Intern_JR100318"
+      "https://bracco.wd103.myworkdayjobs.com/braccocareers/job/USA-Eden-Prairie-Minnesota-55344/Product-Security-Engineering-Intern_JR100318",
+      "https://bracco.wd103.myworkdayjobs.com/braccocareers/job/USA-Eden-Prairie-Minnesota-55344/Software-Engineering-Intern_JR100328"
     ]
   },
   {
@@ -10724,6 +10735,7 @@
     "domain": "https://cai.wd5.myworkdayjobs.com/computer_aid",
     "page": "https://cai.wd5.myworkdayjobs.com/wday/cxs/cai/computer_aid/jobs",
     "urls": [
+      "https://cai.wd5.myworkdayjobs.com/computer_aid/job/California/Cybersecurity-Analyst-Intern_R8488",
       "https://cai.wd5.myworkdayjobs.com/computer_aid/job/DE-CLIENT-STATE/Network-Engineer_R8753",
       "https://cai.wd5.myworkdayjobs.com/computer_aid/job/FL-CLIENT-STATE/Business-Intelligence---Data-Analyst_R8795",
       "https://cai.wd5.myworkdayjobs.com/computer_aid/job/IN-CLIENT-STATE/Data-Analyst_R8887",
@@ -14459,6 +14471,17 @@
     ]
   },
   {
+    "name": "cir",
+    "ats": "workday",
+    "identifier": "cir-cir_external_career_site",
+    "domain": "https://cir.wd108.myworkdayjobs.com/CIR_External_Career_Site",
+    "page": "https://cir.wd108.myworkdayjobs.com/wday/cxs/cir/CIR_External_Career_Site/jobs",
+    "urls": [
+      "https://cir.wd108.myworkdayjobs.com/CIR_External_Career_Site/job/Fairfield-IA/Software-Engineering-Intern_R-2025-219",
+      "https://cir.wd108.myworkdayjobs.com/CIR_External_Career_Site/job/Phoenix-AZ/Data-Engineering-Intern_R-2025-221"
+    ]
+  },
+  {
     "name": "circle",
     "ats": "workday",
     "identifier": "circle-circle",
@@ -14952,6 +14975,16 @@
     "page": "https://cliftonlarsonallen.wd115.myworkdayjobs.com/wday/cxs/cliftonlarsonallen/CLA/jobs",
     "urls": [
       "https://cliftonlarsonallen.wd115.myworkdayjobs.com/en-US/CLA/details/Seasonal-Client-Services-Coordinator---Tax_R18389"
+    ]
+  },
+  {
+    "name": "clio",
+    "ats": "workday",
+    "identifier": "clio-cliocareersite",
+    "domain": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite",
+    "page": "https://clio.wd3.myworkdayjobs.com/wday/cxs/clio/ClioCareerSite/jobs",
+    "urls": [
+      "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Software-Developer--Co-op_REQ-1577"
     ]
   },
   {
