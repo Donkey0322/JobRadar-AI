@@ -9,6 +9,7 @@ import {
   getLeverKey,
   getOracleKey,
   getRadancyKey,
+  getRipplingKey,
   getSmartRecruitersKey,
   getSuccessFactorsKey,
   getWorkdayKey,
@@ -389,6 +390,24 @@ describe("getRadancyKey", () => {
 
   it("returns null when the path is not a Radancy job URL", () => {
     expect(getRadancyKey("/job/123456/software-engineer")).toBeNull();
+  });
+});
+
+describe("getRipplingKey", () => {
+  it("uses the posting uuid regardless of locale prefix", () => {
+    const plain = new URL(
+      "https://ats.rippling.com/moon/jobs/8B81BCA7-1A64-4377-8EA8-869AAC03080B"
+    );
+    const localized = new URL(
+      "https://ats.rippling.com/en-GB/moon/jobs/8b81bca7-1a64-4377-8ea8-869aac03080b"
+    );
+
+    expect(getRipplingKey(plain)).toBe("rippling:8b81bca7-1a64-4377-8ea8-869aac03080b");
+    expect(getRipplingKey(localized)).toBe(getRipplingKey(plain));
+  });
+
+  it("returns null without a job uuid", () => {
+    expect(getRipplingKey(new URL("https://ats.rippling.com/moon/jobs"))).toBeNull();
   });
 });
 

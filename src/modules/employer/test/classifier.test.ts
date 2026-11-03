@@ -15,6 +15,11 @@ describe("classifyATS", () => {
     ["https://jobs.smartrecruiters.com/acme/1", "smartrecruiters"],
     ["https://careers-acme.icims.com/jobs/1", "icims"],
     ["https://acme.eightfold.ai/careers/job/1", "eightfold"],
+    [
+      "https://ats.rippling.com/collieraerospace/jobs/4981b0ba-5b6f-4ebe-95c0-9d1cda036b77",
+      "rippling",
+    ],
+    ["https://ats.rippling.com/en-GB/moon/jobs/8b81bca7-1a64-4377-8ea8-869aac03080b", "rippling"],
     ["https://careers.arm.com/job/bengaluru/ip-verification-engineer/33099/99500560928", "radancy"],
     ["https://careers.arm.com/search-jobs", "radancy"],
     ["https://careers.cargill.com/en/search-jobs/resultspost", "radancy"],

@@ -7,6 +7,7 @@ export type ATS =
   | "oraclecloud"
   | "phenom"
   | "radancy"
+  | "rippling"
   | "smartrecruiters"
   | "successfactors"
   | "workday"

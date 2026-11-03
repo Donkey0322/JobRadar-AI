@@ -26,6 +26,7 @@ describe("posting JD registry", () => {
       lever: fetchCustomJD,
       phenom: fetchCustomJD,
       radancy: fetchCustomJD,
+      rippling: fetchCustomJD,
       successfactors: fetchCustomJD,
       custom: fetchCustomJD,
     });

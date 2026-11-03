@@ -8,6 +8,7 @@ import {
   getOracleKey,
   getPhenomKey,
   getRadancyKey,
+  getRipplingKey,
   getSmartRecruitersKey,
   getSuccessFactorsKey,
   getWorkdayKey,
@@ -45,6 +46,9 @@ export function getJobKey(url: string) {
 
       case "radancy":
         return getRadancyKey(u.pathname) ?? `radancy:${normalizeUrl(url)}`;
+
+      case "rippling":
+        return getRipplingKey(u) ?? `rippling:${normalizeUrl(url)}`;
 
       case "smartrecruiters":
         return getSmartRecruitersKey(u.pathname) ?? `smartrecruiters:${normalizeUrl(url)}`;

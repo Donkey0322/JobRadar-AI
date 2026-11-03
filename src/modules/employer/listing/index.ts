@@ -58,6 +58,13 @@ export {
   type RadancyJob,
 } from "./radancy";
 export {
+  RipplingFetcher,
+  ripplingFetcher,
+  RipplingJobSchema,
+  RipplingResponseSchema,
+  type RipplingJob,
+} from "./rippling";
+export {
   SmartRecruitersFetcher,
   smartRecruitersFetcher,
   SmartRecruitersJobSchema,

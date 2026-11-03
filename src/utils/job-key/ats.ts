@@ -1,6 +1,7 @@
 import { getLastPathNumber } from "./url";
 
 import { parseCustomCompanyIdentifier } from "@/modules/employer/shared/custom-identifier";
+import { getRipplingJobId } from "@/modules/employer/shared/rippling";
 import { getSuccessFactorsJobId } from "@/modules/employer/shared/successfactors";
 import { getHostnameWithoutWww } from "@/utils/url";
 
@@ -102,6 +103,10 @@ export function getPhenomKey(pathname: string): string | null {
 export function getRadancyKey(pathname: string): string | null {
   const match = pathname.match(/\/job\/[^/]+\/[^/]+\/\d+\/(\d+)(?:\/|$)/i);
   return toATSKey("radancy", match?.[1]);
+}
+
+export function getRipplingKey(url: URL): string | null {
+  return toATSKey("rippling", getRipplingJobId(url));
 }
 
 export function getSuccessFactorsKey(url: URL): string | null {

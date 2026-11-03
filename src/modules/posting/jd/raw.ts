@@ -17,7 +17,14 @@ function finishRawJD(result: JDFetchResult): JDFetchResult {
   return { jd, error: JD_FETCH_OK };
 }
 
-const HTML_JD_SOURCES = new Set<ATS>(["custom", "lever", "phenom", "radancy", "successfactors"]);
+const HTML_JD_SOURCES = new Set<ATS>([
+  "custom",
+  "lever",
+  "phenom",
+  "radancy",
+  "rippling",
+  "successfactors",
+]);
 
 export async function fetchPostingJD(url: string, signal: AbortSignal): Promise<JDFetchResult> {
   try {

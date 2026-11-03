@@ -1,6 +1,7 @@
 import type { ATS } from "./type";
 
 import { isRadancyUrl } from "./shared/radancy";
+import { isRipplingHost } from "./shared/rippling";
 import { isSuccessFactorsUrl } from "./shared/successfactors";
 
 import { getHostnameWithoutWww } from "@/utils/url";
@@ -37,6 +38,8 @@ export function classifyATS(url: URL): ATS {
     return "icims";
   } else if (host.endsWith("eightfold.ai")) {
     return "eightfold";
+  } else if (isRipplingHost(url)) {
+    return "rippling";
   }
 
   if (url.searchParams.get("8fold_id")) return "eightfold";

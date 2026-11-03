@@ -24,6 +24,7 @@ export const postingJDFetchers = {
   lever: fetchCustomJD,
   phenom: fetchCustomJD,
   radancy: fetchCustomJD,
+  rippling: fetchCustomJD,
   successfactors: fetchCustomJD,
   custom: fetchCustomJD,
 } satisfies Record<ATS, PostingJDFetcher>;
