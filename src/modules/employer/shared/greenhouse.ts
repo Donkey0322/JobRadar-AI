@@ -19,9 +19,13 @@ const identifierMap: Record<string, string> = {
   "equipmentshare.com": "equipmentsharecom",
   "getfiber.ai": "clerkie",
   "hubspot.com": "hubspotjobs",
+  "imc.com": "imc",
+  "janestreet.com": "janestreet",
   "konrad.com": "konradgroup",
   "mlb.com": "majorleaguebaseball",
   "mongodb.com": "mongodb",
+  "nintendo.com": "nintendo",
+  "optiver.com": "optiverus",
   "pinterestcareers.com": "pinterest",
   "precisely.com": "preciselyusjobs",
   "quantbot.com": "quantbot-technologies",
@@ -119,11 +123,11 @@ function greenhouseBoardFromHtml(html: string): string | null {
   return boardFromJsTemplate(html);
 }
 
-/** Long requisition id at the end of a career slug, such as `...-start-6865704002`. */
+/** Long requisition id ending a career path, such as `...-start-6865704002` or `/position/5869205002/`. */
 function slugJobId(pageUrl: string): string | null {
   try {
     const slug = new URL(pageUrl).pathname.split("/").filter(Boolean).at(-1);
-    return slug?.match(/-(\d{7,})$/)?.[1] ?? null;
+    return slug?.match(/(?:^|-)(\d{7,})$/)?.[1] ?? null;
   } catch {
     return null;
   }

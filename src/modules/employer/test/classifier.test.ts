@@ -136,6 +136,31 @@ describe("career sites in the host map", () => {
       "phenom:jobs.ascension.org",
     ],
     [
+      "https://www.janestreet.com/join-jane-street/position/5869205002/",
+      "https://job-boards.greenhouse.io/janestreet/jobs/5869205002",
+      "greenhouse:janestreet",
+    ],
+    [
+      "https://www.imc.com/us/careers/jobs/4823924101",
+      "https://job-boards.eu.greenhouse.io/imc/jobs/4823924101",
+      "greenhouse:imc",
+    ],
+    [
+      "https://careers.newyorklife.com/careers/job/44633206",
+      "https://newyorklife.eightfold.ai/careers/job/44633206",
+      "eightfold:newyorklife",
+    ],
+    [
+      "https://careers.lumen.com/careers/job/1133916066733",
+      "https://lumen.eightfold.ai/careers/job/1133916066733",
+      "eightfold:lumen",
+    ],
+    [
+      "https://jobs.aligntech.com/en/postings/ae3e0699-444b-4266-b52f-51a2586ae69c",
+      "https://jobs-aligntech.pinpointhq.com/en/postings/ae3e0699-444b-4266-b52f-51a2586ae69c",
+      "pinpoint:jobs-aligntech",
+    ],
+    [
       "https://jobs.statefarm.com/jobs/45123",
       "https://jobs.statefarm.com/jobs/45123?icims=1",
       "icims:jobs.statefarm.com",

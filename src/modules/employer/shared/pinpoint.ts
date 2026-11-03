@@ -23,8 +23,14 @@ export const PinpointResponseSchema = z.object({
 
 export type PinpointPosting = z.infer<typeof PinpointPostingSchema>;
 
+/** Custom careers domains that front a Pinpoint tenant. */
+const CUSTOM_DOMAIN_TENANTS: Record<string, string> = {
+  "jobs.aligntech.com": "jobs-aligntech",
+};
+
 export function isPinpointHost(url: URL): boolean {
   const host = url.hostname.toLowerCase();
+  if (CUSTOM_DOMAIN_TENANTS[host]) return true;
   if (!host.endsWith(PINPOINT_DOMAIN)) return false;
 
   const tenant = host.slice(0, -PINPOINT_DOMAIN.length);
@@ -33,7 +39,8 @@ export function isPinpointHost(url: URL): boolean {
 
 /** `idtus.pinpointhq.com` → `idtus`. */
 export function getPinpointSlug(url: URL): string {
-  return url.hostname.toLowerCase().split(".")[0];
+  const host = url.hostname.toLowerCase();
+  return CUSTOM_DOMAIN_TENANTS[host] ?? host.split(".")[0];
 }
 
 /** Posting UUIDs are unique across every Pinpoint tenant. */

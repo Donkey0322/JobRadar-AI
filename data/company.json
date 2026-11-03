@@ -4299,14 +4299,6 @@
     ]
   },
   {
-    "name": "app.ripplematch.com",
-    "ats": "custom",
-    "identifier": "app.ripplematch.com",
-    "domain": "https://app.ripplematch.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "appian",
     "ats": "greenhouse",
     "identifier": "appian",
@@ -12679,11 +12671,11 @@
     "urls": []
   },
   {
-    "name": "careers.homeofindustrialideas.com",
-    "ats": "custom",
-    "identifier": "careers.homeofindustrialideas.com",
-    "domain": "https://www.careers.homeofindustrialideas.com",
-    "page": "",
+    "name": "Atlas Copco Group",
+    "ats": "successfactors",
+    "identifier": "jobs.atlascopcogroup.com",
+    "domain": "https://www.jobs.atlascopcogroup.com",
+    "page": "https://www.jobs.atlascopcogroup.com/services/rss/job/?locale=en_US",
     "urls": []
   },
   {
@@ -13065,22 +13057,22 @@
     "urls": []
   },
   {
-    "name": "careers.newyorklife.com",
-    "ats": "custom",
-    "identifier": "careers.newyorklife.com",
-    "domain": "https://careers.newyorklife.com",
-    "page": "",
+    "name": "newyorklife",
+    "ats": "eightfold",
+    "identifier": "newyorklife",
+    "domain": "newyorklife.com",
+    "page": "https://careers.newyorklife.com/api/apply/v2/jobs?domain=newyorklife.com",
     "urls": [
       "https://careers.newyorklife.com/careers?location=New+York%2C+New+York%2C+US&pid=30591072&domain=newyorklife.com&sort_by=relevance",
       "https://careers.newyorklife.com/careers?query=%23Techcampus&location=any&pid=30149944&domain=newyorklife.com&sort_by=relevance"
     ]
   },
   {
-    "name": "careers.nintendo.com",
-    "ats": "custom",
-    "identifier": "careers.nintendo.com",
-    "domain": "https://careers.nintendo.com",
-    "page": "",
+    "name": "nintendo",
+    "ats": "greenhouse",
+    "identifier": "nintendo",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/nintendo/jobs",
     "urls": []
   },
   {
@@ -13102,11 +13094,11 @@
     ]
   },
   {
-    "name": "careers.peak6.com",
-    "ats": "custom",
-    "identifier": "careers.peak6.com",
-    "domain": "https://careers.peak6.com",
-    "page": "",
+    "name": "peak6",
+    "ats": "workday",
+    "identifier": "peak6group-peak6",
+    "domain": "https://peak6group.wd1.myworkdayjobs.com/PEAK6",
+    "page": "https://peak6group.wd1.myworkdayjobs.com/wday/cxs/peak6group/PEAK6/jobs",
     "urls": []
   },
   {
@@ -13163,11 +13155,11 @@
     ]
   },
   {
-    "name": "careers.skyworksinc.com",
-    "ats": "custom",
+    "name": "Skyworks",
+    "ats": "successfactors",
     "identifier": "careers.skyworksinc.com",
     "domain": "https://careers.skyworksinc.com",
-    "page": "",
+    "page": "https://careers.skyworksinc.com/services/rss/job/?locale=en_US",
     "urls": [
       "https://careers.skyworksinc.com/job/Irvine-Analog-IC-Design-SummerFall-Co-Op-(June-&apos;26-Dec-&apos;26)-CA-92602/76295-en_US/?feedId=177100"
     ]
@@ -13290,11 +13282,11 @@
     ]
   },
   {
-    "name": "careers.zurich.com",
-    "ats": "custom",
+    "name": "Zurich Insurance Company Ltd.",
+    "ats": "successfactors",
     "identifier": "careers.zurich.com",
     "domain": "https://www.careers.zurich.com",
-    "page": "",
+    "page": "https://www.careers.zurich.com/services/rss/job/?locale=en_US",
     "urls": []
   },
   {
@@ -22117,14 +22109,6 @@
     ]
   },
   {
-    "name": "grnh.se",
-    "ats": "custom",
-    "identifier": "grnh.se",
-    "domain": "https://grnh.se",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "group.bnpparibas",
     "ats": "custom",
     "identifier": "group.bnpparibas",
@@ -24046,16 +24030,7 @@
       "https://job-boards.eu.greenhouse.io/imc/jobs/5004989101",
       "https://job-boards.eu.greenhouse.io/imc/jobs/5006975101",
       "https://job-boards.eu.greenhouse.io/imc/jobs/5012854101",
-      "https://job-boards.eu.greenhouse.io/imc/jobs/5013526101"
-    ]
-  },
-  {
-    "name": "imc.com",
-    "ats": "custom",
-    "identifier": "imc.com",
-    "domain": "https://www.imc.com",
-    "page": "",
-    "urls": [
+      "https://job-boards.eu.greenhouse.io/imc/jobs/5013526101",
       "https://www.imc.com/us/careers/jobs/4823924101"
     ]
   },
@@ -25094,11 +25069,11 @@
     ]
   },
   {
-    "name": "janestreet.com",
-    "ats": "custom",
-    "identifier": "janestreet.com",
-    "domain": "https://www.janestreet.com",
-    "page": "",
+    "name": "janestreet",
+    "ats": "greenhouse",
+    "identifier": "janestreet",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/janestreet/jobs",
     "urls": [
       "https://www.janestreet.com/join-jane-street/position/5869205002/",
       "https://www.janestreet.com/join-jane-street/position/8384490002/",
@@ -25283,11 +25258,11 @@
     "urls": []
   },
   {
-    "name": "jobs.aligntech.com",
-    "ats": "custom",
-    "identifier": "jobs.aligntech.com",
-    "domain": "https://jobs.aligntech.com",
-    "page": "",
+    "name": "Align Technology",
+    "ats": "pinpoint",
+    "identifier": "jobs-aligntech",
+    "domain": "https://jobs-aligntech.pinpointhq.com",
+    "page": "https://jobs-aligntech.pinpointhq.com/postings.json",
     "urls": []
   },
   {
@@ -25462,11 +25437,11 @@
     ]
   },
   {
-    "name": "jobs.bmwgroup.com",
-    "ats": "custom",
+    "name": "BMW Group",
+    "ats": "successfactors",
     "identifier": "jobs.bmwgroup.com",
     "domain": "https://jobs.bmwgroup.com",
-    "page": "",
+    "page": "https://jobs.bmwgroup.com/services/rss/job/?locale=en_US",
     "urls": []
   },
   {
@@ -25504,14 +25479,6 @@
       "https://jobs.danaher.com/global/en/job/R1320726?ph_id=R1320726",
       "https://jobs.danaher.com/global/en/job/R1321955?ph_id=R1321955"
     ]
-  },
-  {
-    "name": "jobs.dayforcehcm.com",
-    "ats": "custom",
-    "identifier": "jobs.dayforcehcm.com",
-    "domain": "https://jobs.dayforcehcm.com",
-    "page": "",
-    "urls": []
   },
   {
     "name": "jobs.ea.com",
@@ -25593,11 +25560,11 @@
     "urls": []
   },
   {
-    "name": "jobs.lumen.com",
-    "ats": "custom",
-    "identifier": "jobs.lumen.com",
-    "domain": "https://jobs.lumen.com",
-    "page": "",
+    "name": "lumen",
+    "ats": "eightfold",
+    "identifier": "lumen",
+    "domain": "lumen.com",
+    "page": "https://careers.lumen.com/api/pcsx/search?domain=lumen.com",
     "urls": []
   },
   {
@@ -25609,11 +25576,11 @@
     "urls": []
   },
   {
-    "name": "jobs.sick.com",
-    "ats": "custom",
+    "name": "SICK",
+    "ats": "successfactors",
     "identifier": "jobs.sick.com",
     "domain": "https://jobs.sick.com",
-    "page": "",
+    "page": "https://jobs.sick.com/services/rss/job/?locale=en_US",
     "urls": [
       "https://jobs.sick.com/usa/job/Canton-Software-Engineering-Internship-(AIML)-MA-02021/37406-en_US/"
     ]
@@ -30535,14 +30502,6 @@
     ]
   },
   {
-    "name": "myjobs.adp.com",
-    "ats": "custom",
-    "identifier": "myjobs.adp.com",
-    "domain": "https://myjobs.adp.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "myview",
     "ats": "workday",
     "identifier": "myview-paradox_careers",
@@ -32849,11 +32808,11 @@
     ]
   },
   {
-    "name": "optiver.com",
-    "ats": "custom",
-    "identifier": "optiver.com",
-    "domain": "https://optiver.com",
-    "page": "",
+    "name": "optiver",
+    "ats": "greenhouse",
+    "identifier": "optiverus",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/optiverus/jobs",
     "urls": []
   },
   {
@@ -33599,14 +33558,6 @@
       "https://jobs.lever.co/pattern/48945dce-b5ef-43cd-9d85-f8b26ce5b43e/apply",
       "https://jobs.lever.co/pattern/5c0c1963-87c5-48d7-8da9-0c79121fe443/apply"
     ]
-  },
-  {
-    "name": "paycomonline.net",
-    "ats": "custom",
-    "identifier": "paycomonline.net",
-    "domain": "https://www.paycomonline.net",
-    "page": "",
-    "urls": []
   },
   {
     "name": "paypal",
@@ -38708,14 +38659,6 @@
       "https://jobs.ashbyhq.com/simple-ai/652b88c5-199e-41d1-86f6-c367d737a84e",
       "https://jobs.ashbyhq.com/simple-ai/9a5f5694-e066-4087-9a13-b1a62d8d8025"
     ]
-  },
-  {
-    "name": "simplify.jobs",
-    "ats": "custom",
-    "identifier": "simplify.jobs",
-    "domain": "https://simplify.jobs",
-    "page": "",
-    "urls": []
   },
   {
     "name": "simplisafe",
@@ -46080,14 +46023,6 @@
     "urls": []
   },
   {
-    "name": "workatastartup.com",
-    "ats": "custom",
-    "identifier": "workatastartup.com",
-    "domain": "https://www.workatastartup.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "workday",
     "ats": "workday",
     "identifier": "workday-workday_early_career",
@@ -46353,11 +46288,11 @@
     ]
   },
   {
-    "name": "xantium.com",
-    "ats": "custom",
-    "identifier": "xantium.com",
-    "domain": "https://www.xantium.com",
-    "page": "",
+    "name": "xantium",
+    "ats": "greenhouse",
+    "identifier": "xantium",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/xantium/jobs",
     "urls": []
   },
   {
