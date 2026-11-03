@@ -24446,12 +24446,14 @@
     ]
   },
   {
-    "name": "independentsoftware.applytojob.com",
-    "ats": "custom",
+    "name": "Independent Software",
+    "ats": "jazzhr",
     "identifier": "independentsoftware.applytojob.com",
     "domain": "https://independentsoftware.applytojob.com",
-    "page": "",
-    "urls": []
+    "page": "https://independentsoftware.applytojob.com/apply/jobs",
+    "urls": [
+      "https://independentsoftware.applytojob.com/apply/omj1OSmRUI/Azure-Cloud-Engineer-Junior-Level"
+    ]
   },
   {
     "name": "inductive-automation-llc",
@@ -24581,14 +24583,6 @@
     "urls": [
       "https://career.innovativesystems.com/apply/nPMqeNSQOo/InternCoop-Summer-2027-Software-Engineering"
     ]
-  },
-  {
-    "name": "innovativesystems.applytojob.com",
-    "ats": "custom",
-    "identifier": "innovativesystems.applytojob.com",
-    "domain": "http://innovativesystems.applytojob.com",
-    "page": "",
-    "urls": []
   },
   {
     "name": "instalilyai",
