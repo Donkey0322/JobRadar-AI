@@ -20,8 +20,9 @@ import {
   type JibeJob,
   parseJibeJobs,
 } from "@/modules/employer/shared/jibe";
+import { appendErrorLog } from "@/utils/data";
 import { decodeHtmlEntities } from "@/utils/html";
-import { fetchHtmlResponse } from "@/utils/http";
+import { connectionErrorMessage, fetchHtmlResponse, isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
 import { cleanText, formatCompanyName } from "@/utils/string";
 import { getHostnameWithoutWww } from "@/utils/url";
@@ -96,11 +97,52 @@ async function fetchHtml(url: string, signal: AbortSignal): Promise<string | nul
   return html;
 }
 
+/** A listing page answered with an error status, as opposed to a crash or abort. */
+class IcimsListingError extends Error {}
+
+async function fetchListingHtml(url: string, signal: AbortSignal): Promise<string> {
+  const { response, html } = await fetchHtmlResponse(url, {
+    signal,
+    headers: {
+      "User-Agent": "Mozilla/5.0",
+      Accept: "text/html",
+    },
+  });
+
+  if (!response.ok) {
+    throw new IcimsListingError(`${response.status} - ${response.statusText} (${url})`);
+  }
+
+  return html;
+}
+
+/**
+ * Portal search page for a row whose `page` is an iCIMS URL other than search:
+ * an expired job page (410) or the retired api.icims.com feed (404).
+ */
+function getPortalSearchPage(company: Company): string | null {
+  try {
+    const page = new URL(company.page);
+    if (!page.hostname.endsWith(".icims.com") || isIcimsUrl(page, "search")) return null;
+
+    const domain = new URL(company.domain);
+    const origin = domain.hostname.endsWith(".icims.com") ? domain.origin : page.origin;
+    return `${origin}/jobs/search`;
+  } catch {
+    return null;
+  }
+}
+
 async function resolveSearchPage(company: Company, signal: AbortSignal): Promise<string> {
   const url = new URL(company.page);
 
   if (isIcimsUrl(url, "search")) {
     return normalizeIcimsUrl(url.toString(), "search");
+  }
+
+  const portal = getPortalSearchPage(company);
+  if (portal) {
+    return normalizeIcimsUrl(portal, "search");
   }
 
   const html = await fetchHtml(company.page, signal);
@@ -201,12 +243,10 @@ async function* listJibePages(
 
     if (!jobs) {
       if (probe && page === 1) return;
-      throw new Error(`Jibe listing failed: ${origin} page ${page}`);
+      throw new IcimsListingError(`Jibe listing failed (${origin} page ${page})`);
     }
 
-    yield jobs
-      .map((job) => toIcimsJob(origin, job))
-      .filter((job): job is IcimsJob => job !== null);
+    yield jobs.map((job) => toIcimsJob(origin, job)).filter((job): job is IcimsJob => job !== null);
 
     if (jobs.length < JIBE_PAGE_SIZE) return;
   }
@@ -227,8 +267,7 @@ async function* listIcimsPages(company: Company, signal: AbortSignal): AsyncGene
     const pageUrl = new URL(searchPage);
     pageUrl.searchParams.set("pr", String(pr));
 
-    const html = await fetchHtml(pageUrl.toString(), signal);
-    if (html === null) throw new Error(`iCIMS listing failed: ${pageUrl}`);
+    const html = await fetchListingHtml(pageUrl.toString(), signal);
 
     const jobs = getIcimsJobsFromPage(html, pageUrl);
 
@@ -263,6 +302,11 @@ export class IcimsFetcher extends Employer<IcimsJob> {
     return this.companyKey(getIcimsCompanyIdentifier(url));
   }
 
+  repairCompany(company: Company): Company {
+    const page = getPortalSearchPage(company);
+    return page ? { ...company, page } : company;
+  }
+
   async formCompany(url: URL): Promise<Company> {
     const identifier = getIcimsCompanyIdentifier(url);
 
@@ -281,7 +325,7 @@ export class IcimsFetcher extends Employer<IcimsJob> {
 
     if (isIcimsUrl(url, "search")) {
       page = normalizeIcimsUrl(url.toString(), "search");
-    } else if (url.hostname.endsWith(".icims.com") && url.hostname.startsWith("careers-")) {
+    } else if (url.hostname.endsWith(".icims.com")) {
       page = `${url.origin}/jobs/search`;
     } else {
       page = url.toString();
@@ -375,8 +419,19 @@ export class IcimsFetcher extends Employer<IcimsJob> {
 
         if (reachedOldJob) break;
       }
-    } catch {
-      logger.error({ url: company.page }, `${RED_CROSS} Error fetching icims jobs`);
+    } catch (error) {
+      const message =
+        error instanceof IcimsListingError ? error.message : connectionErrorMessage(error);
+
+      if (message) {
+        await appendErrorLog(`iCIMS: ${company.name} - ${message}`);
+        return [];
+      }
+
+      logger.error(
+        { err: isAbortError(error) ? error.name : error, url: company.page },
+        `${RED_CROSS} Error fetching icims jobs`
+      );
       return [];
     }
 

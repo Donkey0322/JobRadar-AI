@@ -90,6 +90,11 @@ export abstract class Employer<TJob = unknown> {
 
   abstract formCompany(url: URL): MaybePromise<CompanyResult>;
 
+  /** Fix a stored row whose `page` is no longer a listing this board can read. */
+  repairCompany(company: Company): Company {
+    return company;
+  }
+
   protected abstract getJobsFromResponse(data: unknown): TJob[];
 
   protected abstract getJobLink(job: TJob, company: Company): string;

@@ -7,6 +7,8 @@ vi.mock("@/modules/posting/titles", async (importOriginal) => {
   return { ...actual, isTarget: vi.fn(() => true) };
 });
 
+vi.mock("@/utils/data", () => ({ appendErrorLog: vi.fn() }));
+
 import type { Company } from "@/types";
 
 import { Employer } from "../../employer";
@@ -15,6 +17,7 @@ import { phenomFetcher } from "../phenom";
 import { radancyFetcher } from "../radancy";
 import { workdayFetcher } from "../workday";
 
+import { appendErrorLog } from "@/utils/data";
 import { toJobKeySet } from "@/utils/job-key";
 
 const mockFetch = vi.fn<typeof fetch>();
@@ -183,13 +186,11 @@ describe("complex ATS adapters", () => {
     const keys = await icimsFetcher.listJobKeys(company, AbortSignal.timeout(1000));
 
     expect(keys).toEqual(
-      new Set([
-        "icims:careers.acme.com:1",
-        "icims:careers.acme.com:2",
-        "icims:careers.acme.com:3",
-      ])
+      new Set(["icims:careers.acme.com:1", "icims:careers.acme.com:2", "icims:careers.acme.com:3"])
     );
-    expect(String(mockFetch.mock.calls[1][0])).toMatch(/^https:\/\/careers\.acme\.com\/api\/jobs\?/);
+    expect(String(mockFetch.mock.calls[1][0])).toMatch(
+      /^https:\/\/careers\.acme\.com\/api\/jobs\?/
+    );
   });
 
   it("reads Jibe rows directly and stops at the first stale page", async () => {
@@ -241,6 +242,81 @@ describe("complex ATS adapters", () => {
       .mockResolvedValueOnce(new Response("Not Found", { status: 404 }));
 
     expect(await icimsFetcher.listJobKeys(company, AbortSignal.timeout(1000))).toEqual(new Set());
+  });
+
+  it.each([
+    "https://careers-acme.icims.com/jobs/261797/job?mobile=true&needsRedirect=false",
+    "https://api.icims.com/v1/companies/acme/jobs",
+  ])("lists the portal search page when the stored page is %s", async (page) => {
+    const company: Company = {
+      name: "acme",
+      ats: "icims",
+      identifier: "acme",
+      domain: "https://careers-acme.icims.com",
+      page,
+      urls: [],
+    };
+    mockFetch.mockResolvedValueOnce(response("<html></html>", page));
+
+    await icimsFetcher.listJobKeys(company, AbortSignal.timeout(1000));
+
+    expect(String(mockFetch.mock.calls[0][0])).toBe(
+      "https://careers-acme.icims.com/jobs/search?in_iframe=1&pr=0"
+    );
+  });
+
+  it.each([
+    [
+      "https://api.icims.com/v1/companies/acme/jobs",
+      "https://careers-acme.icims.com",
+      "https://careers-acme.icims.com/jobs/search",
+    ],
+    [
+      "https://campus-acme.icims.com/jobs/261797/job?mobile=true&needsRedirect=false",
+      "https://campus-acme.icims.com",
+      "https://campus-acme.icims.com/jobs/search",
+    ],
+    [
+      "https://careers-acme.icims.com/jobs/search",
+      "https://careers-acme.icims.com",
+      "https://careers-acme.icims.com/jobs/search",
+    ],
+    [
+      "https://careers.acme.com/api/jobs",
+      "https://careers.acme.com",
+      "https://careers.acme.com/api/jobs",
+    ],
+  ])("repairs the stored page %s", (page, domain, expected) => {
+    const company: Company = {
+      name: "acme",
+      ats: "icims",
+      identifier: "acme",
+      domain,
+      page,
+      urls: [],
+    };
+
+    expect(icimsFetcher.repairCompany(company).page).toBe(expected);
+  });
+
+  it("writes a failed iCIMS listing to the error log", async () => {
+    const company: Company = {
+      name: "acme",
+      ats: "icims",
+      identifier: "acme",
+      domain: "https://careers-acme.icims.com",
+      page: "https://careers-acme.icims.com/jobs/search",
+      urls: [],
+    };
+    vi.mocked(appendErrorLog).mockClear();
+    mockFetch.mockResolvedValueOnce(new Response("Gone", { status: 410, statusText: "Gone" }));
+
+    await expect(
+      icimsFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
+    ).resolves.toEqual([]);
+    expect(appendErrorLog).toHaveBeenCalledWith(
+      "iCIMS: acme - 410 - Gone (https://careers-acme.icims.com/jobs/search?in_iframe=1&pr=0)"
+    );
   });
 
   it("forms a Jibe row from a listing URL without ?icims=1", async () => {

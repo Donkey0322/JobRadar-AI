@@ -230,6 +230,22 @@ describe("ATS fetcher registry", () => {
     expect(formCompany).not.toHaveBeenCalled();
   });
 
+  it("repairs a stored iCIMS row that points at the retired api.icims.com feed", async () => {
+    const stale: Company = {
+      name: "atlassian",
+      ats: "icims",
+      identifier: "atlassian",
+      domain: "https://campus-globalcareers-atlassian.icims.com",
+      page: "https://api.icims.com/v1/companies/atlassian/jobs",
+      urls: [],
+    };
+    dataMocks.loadCompanies.mockResolvedValue([stale]);
+
+    await expect(buildCompanyList([])).resolves.toEqual([
+      { ...stale, page: "https://campus-globalcareers-atlassian.icims.com/jobs/search" },
+    ]);
+  });
+
   it("keeps distinct company keys as separate formCompany calls", async () => {
     const acme: Company = {
       name: "acme",

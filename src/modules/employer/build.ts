@@ -36,8 +36,9 @@ function representativeUrl(existing: Company): URL | null {
 }
 
 async function resolveExistingCompany(
-  existing: Company
+  stored: Company
 ): Promise<{ key: string; company: Company }> {
+  const existing = employers[stored.ats]?.repairCompany(stored) ?? stored;
   const existingKey = getCompanyKey(existing);
   const url = representativeUrl(existing);
 
