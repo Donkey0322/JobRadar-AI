@@ -1430,7 +1430,9 @@
     "identifier": "careers.akima.com",
     "domain": "https://careers.akima.com",
     "page": "https://careers.akima.com/api/jobs",
-    "urls": []
+    "urls": [
+      "https://careers.akima.com/jobs/26420?icims=1"
+    ]
   },
   {
     "name": "akunacapital",
@@ -3391,6 +3393,8 @@
       "https://amazon.jobs/en/jobs/10595059",
       "https://amazon.jobs/en/jobs/10595205",
       "https://amazon.jobs/en/jobs/10595236",
+      "https://amazon.jobs/en/jobs/10595285",
+      "https://amazon.jobs/en/jobs/10595290",
       "https://amazon.jobs/en/jobs/3038930",
       "https://amazon.jobs/en/jobs/3062273",
       "https://amazon.jobs/en/jobs/3110595",
@@ -5609,7 +5613,8 @@
       "https://careers.arcfield.com/jobs/8469?icims=1",
       "https://careers.arcfield.com/jobs/8859?icims=1",
       "https://careers.arcfield.com/jobs/8861?icims=1",
-      "https://careers.arcfield.com/jobs/8868?icims=1"
+      "https://careers.arcfield.com/jobs/8868?icims=1",
+      "https://careers.arcfield.com/jobs/8869?icims=1"
     ]
   },
   {
@@ -10541,6 +10546,8 @@
       "https://caci.wd1.myworkdayjobs.com/external/job/Bethesda-MD-US/Software-Developer_334243",
       "https://caci.wd1.myworkdayjobs.com/external/job/Bethesda-MD-US/UI-UX-Web-Developer_332552",
       "https://caci.wd1.myworkdayjobs.com/external/job/Bolling-AFB-DC-US/Data-Scientist_329271",
+      "https://caci.wd1.myworkdayjobs.com/external/job/Chantilly-VA-US/AI-Developer-T5_334509",
+      "https://caci.wd1.myworkdayjobs.com/external/job/Chantilly-VA-US/AI-Web-Developer-T4_334507",
       "https://caci.wd1.myworkdayjobs.com/external/job/Chantilly-VA-US/Cloud-Engineer_327326",
       "https://caci.wd1.myworkdayjobs.com/external/job/Chantilly-VA-US/Computer-Systems-Analyst_331927",
       "https://caci.wd1.myworkdayjobs.com/external/job/Chantilly-VA-US/Cyber-Security-Analyst_329222",
@@ -13172,7 +13179,8 @@
     "domain": "https://careers.publicisgroupe.com",
     "page": "https://careers.publicisgroupe.com/api/jobs",
     "urls": [
-      "https://careers.publicisgroupe.com/jobs/172577?icims=1"
+      "https://careers.publicisgroupe.com/jobs/172577?icims=1",
+      "https://careers.publicisgroupe.com/jobs/180789?icims=1"
     ]
   },
   {
@@ -13449,6 +13457,7 @@
       "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Bangalore-Karnataka/IT-Analyst-Applications--Python-Developer---Automation---AI-_R0000396868",
       "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Bangalore-Karnataka/Software-Engineer---Data-Engineering_R0000402291",
       "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Bangalore-Karnataka/Software-Engineer--Business-System-Analyst-_R0000373344",
+      "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Bangalore-Karnataka/Software-Engineer--Net-Developer-with-Azure_R0000375296",
       "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Bangalore-Karnataka/Software-Engineer_R0000376181",
       "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Chennai-Lakshmi-Tech-Park/Control-Systems-Engineer_R0000403284",
       "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Chennai-Tamil-Nadu/AI-Engineer_R0000400735",
@@ -19469,9 +19478,11 @@
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Mexico-City-Mexico/AI-Engineering-Specialist_R-10401536",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Noida-India/Advisor--Infrastructure-Engineering_R-10404002",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Noida-India/Software-Development-Engineering---Tech-Lead_R-10396745",
+      "https://fiserv.wd5.myworkdayjobs.com/ext/job/Noida-India/Specialist--Software-Development-Engineering_R-10405663",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Omaha-Nebraska/Software-Development-Engineering---Advisor-I_R-10374511",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Pune---Trion-Business-Park-India/Java---Sr-Product-Developer_R-10403221",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Pune---Trion-Business-Park-India/Specialist--Software-Development-Engineering_R-10401175",
+      "https://fiserv.wd5.myworkdayjobs.com/ext/job/Pune---Trion-Business-Park-India/Specialist--Software-Development-Engineering_R-10405667",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Pune---Trion-Business-Park-India/Tech-Lead--Software-Development-Engineering_R-10400966",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Sunnyvale-California/Android-AOSP-Device-Software-Engineer_R-10403880",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Sunnyvale-California/Android-AOSP-Device-Software-Engineer_R-10403888",
@@ -22987,7 +22998,8 @@
       "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Vienna-Vienna-Austria/Product-Owner-and-DevOps-Engineer--w-m-d-_R1013138-1",
       "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Vienna-Vienna-Austria/Software-Developer---Cybersecurity--f-m-d-_R0138225-1",
       "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Vienna-Vienna-Austria/Software-Engineer-for-Dependable-Systems--f-m-d-_R1012212-1",
-      "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Vienna-Vienna-Austria/System-Test-Engineer--w-m-d-_R0148010"
+      "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Vienna-Vienna-Austria/System-Test-Engineer--w-m-d-_R0148010",
+      "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Warszawa-Masovian-Poland/Inynier-ds-Rozwoju-Oprogramowania--Software-Engineer---f-m-x-_R0150471"
     ]
   },
   {
@@ -25295,7 +25307,9 @@
     "identifier": "jobs-woodcons",
     "domain": "https://jobs-woodcons.icims.com",
     "page": "https://jobs-woodcons.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://jobs-woodcons.icims.com/jobs/15018/system-engineer-level-1/job"
+    ]
   },
   {
     "name": "jobs.ascension.org",
@@ -28823,9 +28837,12 @@
     "domain": "https://careers.medpace.com",
     "page": "https://careers.medpace.com/api/jobs",
     "urls": [
+      "https://careers.medpace.com/jobs/12116?icims=1",
       "https://careers.medpace.com/jobs/12276?icims=1",
       "https://careers.medpace.com/jobs/12281?icims=1",
       "https://careers.medpace.com/jobs/12282?icims=1",
+      "https://careers.medpace.com/jobs/12284?icims=1",
+      "https://careers.medpace.com/jobs/12287?icims=1",
       "https://careers.medpace.com/jobs/12385?icims=1",
       "https://careers.medpace.com/jobs/12452?icims=1",
       "https://careers.medpace.com/jobs/12454?icims=1",
@@ -28833,7 +28850,9 @@
       "https://careers.medpace.com/jobs/12564?icims=1",
       "https://careers.medpace.com/jobs/12661?icims=1",
       "https://careers.medpace.com/jobs/12762?icims=1",
-      "https://careers.medpace.com/jobs/12922?icims=1"
+      "https://careers.medpace.com/jobs/12922?icims=1",
+      "https://careers.medpace.com/jobs/12953?icims=1",
+      "https://careers.medpace.com/jobs/13002?icims=1"
     ]
   },
   {
@@ -30418,6 +30437,7 @@
       "https://msd.wd5.myworkdayjobs.com/searchjobs/job/IND---Telangana---Hyderabad-Hitec-City-Raidurg/Specialist--AI-Engineering_R407904-2",
       "https://msd.wd5.myworkdayjobs.com/searchjobs/job/IND---Telangana---Hyderabad-Hitec-City-Raidurg/Specialist--Cloud-Data-Engineering_R420381-1",
       "https://msd.wd5.myworkdayjobs.com/searchjobs/job/IND---Telangana---Hyderabad-Hitec-City-Raidurg/Specialist--Data-Engineering_R423514-1",
+      "https://msd.wd5.myworkdayjobs.com/searchjobs/job/IND---Telangana---Hyderabad-Hitec-City-Raidurg/Specialist--Process-Data-Engineering_R416425-1",
       "https://msd.wd5.myworkdayjobs.com/searchjobs/job/IND---Telangana---Hyderabad-Hitec-City-Raidurg/Specialist--Software-Engineering_R423528-1",
       "https://msd.wd5.myworkdayjobs.com/searchjobs/job/IND---Telangana---Hyderabad-Hitec-City-Raidurg/Specialist-Software-Engineering--Full-Stack_R407905-1",
       "https://msd.wd5.myworkdayjobs.com/searchjobs/job/SGP---Singapore---Singapore-50-Tuas-West-Dr/Intern--Quality-Associate-Lab-and-Data-Analyst_R418775",
@@ -31866,7 +31886,9 @@
       "https://egay.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4001/job/44964",
       "https://egay.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4001/job/44972",
       "https://egay.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4001/job/44976",
-      "https://egay.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4001/job/45159"
+      "https://egay.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4001/job/45159",
+      "https://egay.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4001/job/45543",
+      "https://egay.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4001/job/45600"
     ]
   },
   {
@@ -33362,7 +33384,9 @@
     "identifier": "careers.na.panasonic.com",
     "domain": "https://careers.na.panasonic.com",
     "page": "https://careers.na.panasonic.com/api/jobs",
-    "urls": []
+    "urls": [
+      "https://careers.na.panasonic.com/jobs/44867?icims=1"
+    ]
   },
   {
     "name": "PAR%20Technology",
@@ -33533,6 +33557,7 @@
       "https://parsons.wd5.myworkdayjobs.com/search/job/US---Remote-Any-Location/Frontend-Software-Engineer---Secret_R187649",
       "https://parsons.wd5.myworkdayjobs.com/search/job/US---Remote-Any-Location/Full-Stack-Software-Engineer---Secret_R187011",
       "https://parsons.wd5.myworkdayjobs.com/search/job/US---Remote-Any-Location/Linux-Systems-Security-Engineer---TS-SCI_R186738",
+      "https://parsons.wd5.myworkdayjobs.com/search/job/US---Remote-Any-Location/Software-Engineer-I---Top-Secret_R188151",
       "https://parsons.wd5.myworkdayjobs.com/search/job/US---Remote-Any-Location/Software-Engineer-Intern--Fall-2026-_R188147",
       "https://parsons.wd5.myworkdayjobs.com/search/job/US---TX-San-Antonio/Information-Systems-Security-Engineer---TS-SCI_R186957",
       "https://parsons.wd5.myworkdayjobs.com/search/job/US---VA-Arlington/AI-ML-Engineer---TS-SCI_R187858",
@@ -33916,6 +33941,7 @@
       "https://careers-peraton.icims.com/jobs/172986/cobol-software-developer/job",
       "https://careers-peraton.icims.com/jobs/172987/ui-ux-solutions-developer/job",
       "https://careers-peraton.icims.com/jobs/173017/program-analyst-%e2%80%93-program-reporting%2c-radar-system-replacement-%28rsr%29/job",
+      "https://careers-peraton.icims.com/jobs/173024/junior-software-engineer-%28aws-cloud-services%29/job",
       "https://careers-peraton.icims.com/jobs/173027/junior-devsecops---ci-cd-engineer/job",
       "https://careers-peraton.icims.com/jobs/173028/devsecops---ci-cd-engineer/job",
       "https://careers-peraton.icims.com/jobs/173057/cyber-systems-engineer%2c-ts-sci-w-poly/job",
@@ -36457,7 +36483,8 @@
       "https://boards.greenhouse.io/robinhood/jobs/8202874?t=gh_src=&gh_jid=8202874",
       "https://boards.greenhouse.io/robinhood/jobs/8220757?t=gh_src=&gh_jid=8220757",
       "https://boards.greenhouse.io/robinhood/jobs/8258305?t=gh_src=&gh_jid=8258305",
-      "https://boards.greenhouse.io/robinhood/jobs/8258307?t=gh_src=&gh_jid=8258307"
+      "https://boards.greenhouse.io/robinhood/jobs/8258307?t=gh_src=&gh_jid=8258307",
+      "https://boards.greenhouse.io/robinhood/jobs/8346031?t=gh_src=&gh_jid=8346031"
     ]
   },
   {
