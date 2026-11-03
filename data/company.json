@@ -21673,7 +21673,7 @@
     ]
   },
   {
-    "name": "GliaCell Technologies",
+    "name": "gliacelltechnologies",
     "ats": "jazzhr",
     "identifier": "gliacelltechnologies.applytojob.com",
     "domain": "https://gliacelltechnologies.applytojob.com",
@@ -24812,12 +24812,14 @@
     ]
   },
   {
-    "name": "intelligenesis.applytojob.com",
-    "ats": "custom",
+    "name": "IntelliGenesis",
+    "ats": "jazzhr",
     "identifier": "intelligenesis.applytojob.com",
-    "domain": "http://intelligenesis.applytojob.com",
-    "page": "",
-    "urls": []
+    "domain": "https://intelligenesis.applytojob.com",
+    "page": "https://intelligenesis.applytojob.com/apply/jobs",
+    "urls": [
+      "https://intelligenesis.applytojob.com/apply/synY3toJUH/Applied-Data-Scientist-Internship-DoW-SkillBridge"
+    ]
   },
   {
     "name": "interac",
