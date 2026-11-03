@@ -12633,27 +12633,11 @@
     ]
   },
   {
-    "name": "CoBank",
-    "ats": "icims",
-    "identifier": "careers.cobank.com",
-    "domain": "https://careers.cobank.com",
-    "page": "https://careers.cobank.com/api/jobs",
-    "urls": []
-  },
-  {
     "name": "careers.crowe.com",
     "ats": "phenom",
     "identifier": "careers.crowe.com",
     "domain": "https://careers.crowe.com",
     "page": "https://careers.crowe.com",
-    "urls": []
-  },
-  {
-    "name": "Computer Task Group",
-    "ats": "icims",
-    "identifier": "careers.ctg.com",
-    "domain": "https://careers.ctg.com",
-    "page": "https://careers.ctg.com/api/jobs",
     "urls": []
   },
   {
@@ -12668,14 +12652,6 @@
     ]
   },
   {
-    "name": "Fast Enterprises",
-    "ats": "icims",
-    "identifier": "careers.fastenterprises.com",
-    "domain": "https://careers.fastenterprises.com",
-    "page": "https://careers.fastenterprises.com/api/jobs",
-    "urls": []
-  },
-  {
     "name": "careers.freddiemac.com",
     "ats": "phenom",
     "identifier": "careers.freddiemac.com",
@@ -12687,27 +12663,11 @@
     ]
   },
   {
-    "name": "V2X",
-    "ats": "icims",
-    "identifier": "careers.gov2x.com",
-    "domain": "https://careers.gov2x.com",
-    "page": "https://careers.gov2x.com/api/jobs",
-    "urls": []
-  },
-  {
     "name": "careers.gulfstream.com",
     "ats": "custom",
     "identifier": "careers.gulfstream.com",
     "domain": "https://careers.gulfstream.com",
     "page": "",
-    "urls": []
-  },
-  {
-    "name": "HEB",
-    "ats": "icims",
-    "identifier": "careers.heb.com",
-    "domain": "https://careers.heb.com",
-    "page": "https://careers.heb.com/api/jobs",
     "urls": []
   },
   {
@@ -12927,14 +12887,6 @@
     ]
   },
   {
-    "name": "Intercontinental Exchange",
-    "ats": "icims",
-    "identifier": "careers.ice.com",
-    "domain": "https://careers.ice.com",
-    "page": "https://careers.ice.com/api/jobs",
-    "urls": []
-  },
-  {
     "name": "careers.icf.com",
     "ats": "phenom",
     "identifier": "careers.icf.com",
@@ -13032,27 +12984,11 @@
     ]
   },
   {
-    "name": "KPMG",
-    "ats": "icims",
-    "identifier": "careers.kpmg.ca",
-    "domain": "https://careers.kpmg.ca",
-    "page": "https://careers.kpmg.ca/api/jobs",
-    "urls": []
-  },
-  {
     "name": "careers.loreal.com",
     "ats": "custom",
     "identifier": "careers.loreal.com",
     "domain": "https://careers.loreal.com",
     "page": "",
-    "urls": []
-  },
-  {
-    "name": "Lutron",
-    "ats": "icims",
-    "identifier": "careers.lutron.com",
-    "domain": "https://careers.lutron.com",
-    "page": "https://careers.lutron.com/api/jobs",
     "urls": []
   },
   {
@@ -13129,14 +13065,6 @@
     "urls": []
   },
   {
-    "name": "Panasonic",
-    "ats": "icims",
-    "identifier": "careers.na.panasonic.com",
-    "domain": "https://careers.na.panasonic.com",
-    "page": "https://careers.na.panasonic.com/api/jobs",
-    "urls": []
-  },
-  {
     "name": "careers.newyorklife.com",
     "ats": "custom",
     "identifier": "careers.newyorklife.com",
@@ -13153,14 +13081,6 @@
     "identifier": "careers.nintendo.com",
     "domain": "https://careers.nintendo.com",
     "page": "",
-    "urls": []
-  },
-  {
-    "name": "Noblis",
-    "ats": "icims",
-    "identifier": "careers.noblis.org",
-    "domain": "https://careers.noblis.org",
-    "page": "https://careers.noblis.org/api/jobs",
     "urls": []
   },
   {
@@ -13187,14 +13107,6 @@
     "identifier": "careers.peak6.com",
     "domain": "https://careers.peak6.com",
     "page": "",
-    "urls": []
-  },
-  {
-    "name": "Planview",
-    "ats": "icims",
-    "identifier": "careers.planview.com",
-    "domain": "https://careers.planview.com",
-    "page": "https://careers.planview.com/api/jobs",
     "urls": []
   },
   {
@@ -13231,14 +13143,6 @@
     ]
   },
   {
-    "name": "Principal",
-    "ats": "icims",
-    "identifier": "careers.principal.com",
-    "domain": "https://careers.principal.com",
-    "page": "https://careers.principal.com/api/jobs",
-    "urls": []
-  },
-  {
     "name": "careers.publicisgroupe.com",
     "ats": "icims",
     "identifier": "careers.publicisgroupe.com",
@@ -13257,22 +13161,6 @@
     "urls": [
       "https://careers.qualitestgroup.com/job/Santa-Clara-Digital-Engineering-CoE-Intern-CA-95054/54914944/?ats=successfactors"
     ]
-  },
-  {
-    "name": "Reliance",
-    "ats": "icims",
-    "identifier": "careers.reliance.com",
-    "domain": "https://careers.reliance.com",
-    "page": "https://careers.reliance.com/api/jobs",
-    "urls": []
-  },
-  {
-    "name": "Rivian",
-    "ats": "icims",
-    "identifier": "careers.rivian.com",
-    "domain": "https://careers.rivian.com",
-    "page": "https://careers.rivian.com/api/jobs",
-    "urls": []
   },
   {
     "name": "careers.skyworksinc.com",
@@ -13319,14 +13207,6 @@
       "https://careers.snowflake.com/us/en/job/da8486eb-72ea-4649-9e76-3d42fddb6091?ph_id=da8486eb-72ea-4649-9e76-3d42fddb6091",
       "https://careers.snowflake.com/us/en/job/f7de0ace-454b-4992-aee8-d2db1b232226?ph_id=f7de0ace-454b-4992-aee8-d2db1b232226"
     ]
-  },
-  {
-    "name": "Spirit AeroSystems",
-    "ats": "icims",
-    "identifier": "careers.spiritaero.com",
-    "domain": "https://careers.spiritaero.com",
-    "page": "https://careers.spiritaero.com/api/jobs",
-    "urls": []
   },
   {
     "name": "careers.thredup.com",
@@ -13389,14 +13269,6 @@
     ]
   },
   {
-    "name": "The US Oncology Network",
-    "ats": "icims",
-    "identifier": "careers.usoncology.com",
-    "domain": "https://careers.usoncology.com",
-    "page": "https://careers.usoncology.com/api/jobs",
-    "urls": []
-  },
-  {
     "name": "careers.varsitybrands.com",
     "ats": "phenom",
     "identifier": "careers.varsitybrands.com",
@@ -13406,14 +13278,6 @@
       "https://careers.varsitybrands.com/us/en/job/JR113366?ph_id=JR113366",
       "https://careers.varsitybrands.com/us/en/job/JR114562?ph_id=JR114562"
     ]
-  },
-  {
-    "name": "Viasat",
-    "ats": "icims",
-    "identifier": "careers.viasat.com",
-    "domain": "https://careers.viasat.com",
-    "page": "https://careers.viasat.com/api/jobs",
-    "urls": []
   },
   {
     "name": "careers.zimmerbiomet.com",
@@ -14963,6 +14827,14 @@
     "urls": []
   },
   {
+    "name": "CoBank",
+    "ats": "icims",
+    "identifier": "careers.cobank.com",
+    "domain": "https://careers.cobank.com",
+    "page": "https://careers.cobank.com/api/jobs",
+    "urls": []
+  },
+  {
     "name": "cobot",
     "ats": "ashby",
     "identifier": "cobot",
@@ -15276,6 +15148,14 @@
     ]
   },
   {
+    "name": "Computer Task Group",
+    "ats": "icims",
+    "identifier": "careers.ctg.com",
+    "domain": "https://careers.ctg.com",
+    "page": "https://careers.ctg.com/api/jobs",
+    "urls": []
+  },
+  {
     "name": "Conduent",
     "ats": "oraclecloud",
     "identifier": "egua.fa.us2.oraclecloud.com",
@@ -15324,6 +15204,14 @@
     "urls": [
       "https://job-boards.greenhouse.io/constantcontact/jobs/8212432"
     ]
+  },
+  {
+    "name": "Constellation Energy Generation",
+    "ats": "icims",
+    "identifier": "jobs.constellationenergy.com",
+    "domain": "https://jobs.constellationenergy.com",
+    "page": "https://jobs.constellationenergy.com/api/jobs",
+    "urls": []
   },
   {
     "name": "constructionresources",
@@ -18266,7 +18154,7 @@
     ]
   },
   {
-    "name": "equipmentshare",
+    "name": "equipmentsharecom",
     "ats": "greenhouse",
     "identifier": "equipmentsharecom",
     "domain": "https://www.equipmentshare.com",
@@ -18301,6 +18189,16 @@
     "domain": "https://erickson.wd108.myworkdayjobs.com/external",
     "page": "https://erickson.wd108.myworkdayjobs.com/wday/cxs/erickson/external/jobs",
     "urls": []
+  },
+  {
+    "name": "ericsson",
+    "ats": "eightfold",
+    "identifier": "jobs.ericsson.com",
+    "domain": "ericsson.com",
+    "page": "https://jobs.ericsson.com/api/pcsx/search?domain=ericsson.com",
+    "urls": [
+      "https://jobs.ericsson.com/careers/job/563121777363423"
+    ]
   },
   {
     "name": "espace",
@@ -19182,6 +19080,14 @@
     "urls": [
       "https://jobs.ashbyhq.com/farsight/88ac24f3-abb1-444c-8b4f-89de3a47b2d6"
     ]
+  },
+  {
+    "name": "Fast Enterprises",
+    "ats": "icims",
+    "identifier": "careers.fastenterprises.com",
+    "domain": "https://careers.fastenterprises.com",
+    "page": "https://careers.fastenterprises.com/api/jobs",
+    "urls": []
   },
   {
     "name": "fastly",
@@ -22714,6 +22620,14 @@
     "urls": []
   },
   {
+    "name": "HEB",
+    "ats": "icims",
+    "identifier": "careers.heb.com",
+    "domain": "https://careers.heb.com",
+    "page": "https://careers.heb.com/api/jobs",
+    "urls": []
+  },
+  {
     "name": "heliux",
     "ats": "ashby",
     "identifier": "heliux",
@@ -24003,35 +23917,6 @@
     ]
   },
   {
-    "name": "Innovative Defense Technologies",
-    "ats": "pinpoint",
-    "identifier": "idtus",
-    "domain": "https://idtus.pinpointhq.com",
-    "page": "https://idtus.pinpointhq.com/postings.json",
-    "urls": [
-      "https://idtus.pinpointhq.com/en/postings/1b7cfa64-36f0-45f7-8c53-7889aac425a4",
-      "https://idtus.pinpointhq.com/en/postings/2e5dba8e-2428-403b-9a13-9af1e1ddb28d",
-      "https://idtus.pinpointhq.com/en/postings/3ffe3459-d01a-4ccc-8005-c6d00f2ce6cc",
-      "https://idtus.pinpointhq.com/en/postings/54b8d7c2-b726-4114-8f26-e8d8a5d96d2a",
-      "https://idtus.pinpointhq.com/en/postings/5f1743ef-c7d6-4a67-9951-60917bb1db46",
-      "https://idtus.pinpointhq.com/en/postings/73bd372e-d73d-460b-a645-4535ef45e517",
-      "https://idtus.pinpointhq.com/en/postings/76e6a518-b747-459e-b3c5-221aacb5be1f",
-      "https://idtus.pinpointhq.com/en/postings/7f0d1270-7754-4346-9c73-1fe45e086258",
-      "https://idtus.pinpointhq.com/en/postings/882a011a-dd44-487a-a54b-11bb7afef866",
-      "https://idtus.pinpointhq.com/en/postings/892f764b-ac12-4918-9250-c636b382ee0b",
-      "https://idtus.pinpointhq.com/en/postings/ad705548-ecaf-44a6-b968-2513c9a3df67",
-      "https://idtus.pinpointhq.com/en/postings/aff26b09-b170-4ce6-8dbb-a046589c0481",
-      "https://idtus.pinpointhq.com/en/postings/b0ef7877-f9fd-4d79-ab02-bc53b9f3f7f4",
-      "https://idtus.pinpointhq.com/en/postings/b542c38e-8f15-4abc-b9c8-302d09b8a21d",
-      "https://idtus.pinpointhq.com/en/postings/b97b5659-6968-4e94-9e74-78dd8f1e269c",
-      "https://idtus.pinpointhq.com/en/postings/bb42cc49-8e78-4ead-b8a8-ab05622cbfee",
-      "https://idtus.pinpointhq.com/en/postings/cd69d5eb-22ff-4906-8039-f55ce9d78b8e",
-      "https://idtus.pinpointhq.com/en/postings/e6cc0887-3696-404a-8295-ac95d776dfb8",
-      "https://idtus.pinpointhq.com/en/postings/ed1a2fe2-8ab7-43c1-864a-07eda2bd0bb2",
-      "https://idtus.pinpointhq.com/en/postings/fe670886-2819-491e-91ee-1f1ab39eda18"
-    ]
-  },
-  {
     "name": "ignitedigital",
     "ats": "greenhouse",
     "identifier": "ignitedigital",
@@ -24415,6 +24300,35 @@
     ]
   },
   {
+    "name": "Innovative Defense Technologies",
+    "ats": "pinpoint",
+    "identifier": "idtus",
+    "domain": "https://idtus.pinpointhq.com",
+    "page": "https://idtus.pinpointhq.com/postings.json",
+    "urls": [
+      "https://idtus.pinpointhq.com/en/postings/1b7cfa64-36f0-45f7-8c53-7889aac425a4",
+      "https://idtus.pinpointhq.com/en/postings/2e5dba8e-2428-403b-9a13-9af1e1ddb28d",
+      "https://idtus.pinpointhq.com/en/postings/3ffe3459-d01a-4ccc-8005-c6d00f2ce6cc",
+      "https://idtus.pinpointhq.com/en/postings/54b8d7c2-b726-4114-8f26-e8d8a5d96d2a",
+      "https://idtus.pinpointhq.com/en/postings/5f1743ef-c7d6-4a67-9951-60917bb1db46",
+      "https://idtus.pinpointhq.com/en/postings/73bd372e-d73d-460b-a645-4535ef45e517",
+      "https://idtus.pinpointhq.com/en/postings/76e6a518-b747-459e-b3c5-221aacb5be1f",
+      "https://idtus.pinpointhq.com/en/postings/7f0d1270-7754-4346-9c73-1fe45e086258",
+      "https://idtus.pinpointhq.com/en/postings/882a011a-dd44-487a-a54b-11bb7afef866",
+      "https://idtus.pinpointhq.com/en/postings/892f764b-ac12-4918-9250-c636b382ee0b",
+      "https://idtus.pinpointhq.com/en/postings/ad705548-ecaf-44a6-b968-2513c9a3df67",
+      "https://idtus.pinpointhq.com/en/postings/aff26b09-b170-4ce6-8dbb-a046589c0481",
+      "https://idtus.pinpointhq.com/en/postings/b0ef7877-f9fd-4d79-ab02-bc53b9f3f7f4",
+      "https://idtus.pinpointhq.com/en/postings/b542c38e-8f15-4abc-b9c8-302d09b8a21d",
+      "https://idtus.pinpointhq.com/en/postings/b97b5659-6968-4e94-9e74-78dd8f1e269c",
+      "https://idtus.pinpointhq.com/en/postings/bb42cc49-8e78-4ead-b8a8-ab05622cbfee",
+      "https://idtus.pinpointhq.com/en/postings/cd69d5eb-22ff-4906-8039-f55ce9d78b8e",
+      "https://idtus.pinpointhq.com/en/postings/e6cc0887-3696-404a-8295-ac95d776dfb8",
+      "https://idtus.pinpointhq.com/en/postings/ed1a2fe2-8ab7-43c1-864a-07eda2bd0bb2",
+      "https://idtus.pinpointhq.com/en/postings/fe670886-2819-491e-91ee-1f1ab39eda18"
+    ]
+  },
+  {
     "name": "Innovative Systems",
     "ats": "jazzhr",
     "identifier": "career.innovativesystems.com",
@@ -24705,6 +24619,14 @@
       "https://jobs.smartrecruiters.com/Interco/744000158581114",
       "https://jobs.smartrecruiters.com/Interco/744000158582219"
     ]
+  },
+  {
+    "name": "Intercontinental Exchange",
+    "ats": "icims",
+    "identifier": "careers.ice.com",
+    "domain": "https://careers.ice.com",
+    "page": "https://careers.ice.com/api/jobs",
+    "urls": []
   },
   {
     "name": "internshiplist2000",
@@ -25548,14 +25470,6 @@
     "urls": []
   },
   {
-    "name": "Constellation Energy Generation",
-    "ats": "icims",
-    "identifier": "jobs.constellationenergy.com",
-    "domain": "https://jobs.constellationenergy.com",
-    "page": "https://jobs.constellationenergy.com/api/jobs",
-    "urls": []
-  },
-  {
     "name": "jobs.coxenterprises.com",
     "ats": "custom",
     "identifier": "jobs.coxenterprises.com",
@@ -25654,16 +25568,6 @@
     ]
   },
   {
-    "name": "ericsson",
-    "ats": "eightfold",
-    "identifier": "jobs.ericsson.com",
-    "domain": "ericsson.com",
-    "page": "https://jobs.ericsson.com/api/pcsx/search?domain=ericsson.com",
-    "urls": [
-      "https://jobs.ericsson.com/careers/job/563121777363423"
-    ]
-  },
-  {
     "name": "jobs.jobvite.com",
     "ats": "custom",
     "identifier": "jobs.jobvite.com",
@@ -25681,14 +25585,6 @@
     ]
   },
   {
-    "name": "Keysight Technologies",
-    "ats": "icims",
-    "identifier": "jobs.keysight.com",
-    "domain": "https://jobs.keysight.com",
-    "page": "https://jobs.keysight.com/api/jobs",
-    "urls": []
-  },
-  {
     "name": "jobs.lenovo.com",
     "ats": "custom",
     "identifier": "jobs.lenovo.com",
@@ -25702,14 +25598,6 @@
     "identifier": "jobs.lumen.com",
     "domain": "https://jobs.lumen.com",
     "page": "",
-    "urls": []
-  },
-  {
-    "name": "Post Holdings",
-    "ats": "icims",
-    "identifier": "jobs.postholdings.com",
-    "domain": "https://jobs.postholdings.com",
-    "page": "https://jobs.postholdings.com/api/jobs",
     "urls": []
   },
   {
@@ -25739,27 +25627,11 @@
     "urls": []
   },
   {
-    "name": "State Farm",
-    "ats": "icims",
-    "identifier": "jobs.statefarm.com",
-    "domain": "https://jobs.statefarm.com",
-    "page": "https://jobs.statefarm.com/api/jobs",
-    "urls": []
-  },
-  {
     "name": "jobs.ubs.com",
     "ats": "custom",
     "identifier": "jobs.ubs.com",
     "domain": "https://jobs.ubs.com",
     "page": "",
-    "urls": []
-  },
-  {
-    "name": "Universal Health Services",
-    "ats": "icims",
-    "identifier": "jobs.uhsinc.com",
-    "domain": "https://jobs.uhsinc.com",
-    "page": "https://jobs.uhsinc.com/api/jobs",
     "urls": []
   },
   {
@@ -25839,18 +25711,6 @@
       "https://careers.jhuapl.edu/jobs/60771?icims=1",
       "https://careers.jhuapl.edu/jobs/60773?icims=1",
       "https://careers.jhuapl.edu/jobs/60816?icims=1"
-    ]
-  },
-  {
-    "name": "sephora",
-    "ats": "eightfold",
-    "identifier": "join.sephora.com",
-    "domain": "sephora.com",
-    "page": "https://join.sephora.com/api/pcsx/search?domain=sephora.com",
-    "urls": [
-      "https://join.sephora.com/careers/job/790312030968",
-      "https://join.sephora.com/careers/job/790312030985",
-      "https://join.sephora.com/careers/job/790312348148"
     ]
   },
   {
@@ -26352,6 +26212,14 @@
     ]
   },
   {
+    "name": "Keysight Technologies",
+    "ats": "icims",
+    "identifier": "jobs.keysight.com",
+    "domain": "https://jobs.keysight.com",
+    "page": "https://jobs.keysight.com/api/jobs",
+    "urls": []
+  },
+  {
     "name": "khanacademy",
     "ats": "greenhouse",
     "identifier": "khanacademy",
@@ -26692,6 +26560,14 @@
     "urls": [
       "https://kp.taleo.net/careersection/external/jobdetail.ftl?job=1411792"
     ]
+  },
+  {
+    "name": "KPMG",
+    "ats": "icims",
+    "identifier": "careers.kpmg.ca",
+    "domain": "https://careers.kpmg.ca",
+    "page": "https://careers.kpmg.ca/api/jobs",
+    "urls": []
   },
   {
     "name": "ksmcpa",
@@ -28131,6 +28007,14 @@
       "https://jobs.ashbyhq.com/Lunon/0fb9cef2-3554-4118-bb73-f3a70c4ea634",
       "https://jobs.ashbyhq.com/Lunon/706c16cf-f3ec-4a64-aad1-923ad1ce4131"
     ]
+  },
+  {
+    "name": "Lutron",
+    "ats": "icims",
+    "identifier": "careers.lutron.com",
+    "domain": "https://careers.lutron.com",
+    "page": "https://careers.lutron.com/api/jobs",
+    "urls": []
   },
   {
     "name": "LuxeMediaLLC",
@@ -29912,7 +29796,7 @@
     "ats": "eightfold",
     "identifier": "mlp",
     "domain": "mlp.com",
-    "page": "https://mlp.eightfold.ai/api/apply/v2/jobs?domain=mlp.com",
+    "page": "https://career.mlp.com/api/apply/v2/jobs?domain=mlp.com",
     "urls": [
       "https://career.mlp.com/careers/job/755957778821",
       "https://career.mlp.com/careers/job/755957778848",
@@ -31749,6 +31633,14 @@
     ]
   },
   {
+    "name": "Noblis",
+    "ats": "icims",
+    "identifier": "careers.noblis.org",
+    "domain": "https://careers.noblis.org",
+    "page": "https://careers.noblis.org/api/jobs",
+    "urls": []
+  },
+  {
     "name": "noda-1720000970.teamtailor.com",
     "ats": "custom",
     "identifier": "noda-1720000970.teamtailor.com",
@@ -33447,6 +33339,14 @@
     ]
   },
   {
+    "name": "Panasonic",
+    "ats": "icims",
+    "identifier": "careers.na.panasonic.com",
+    "domain": "https://careers.na.panasonic.com",
+    "page": "https://careers.na.panasonic.com/api/jobs",
+    "urls": []
+  },
+  {
     "name": "PAR%20Technology",
     "ats": "ashby",
     "identifier": "PAR%20Technology",
@@ -34378,6 +34278,14 @@
     ]
   },
   {
+    "name": "Planview",
+    "ats": "icims",
+    "identifier": "careers.planview.com",
+    "domain": "https://careers.planview.com",
+    "page": "https://careers.planview.com/api/jobs",
+    "urls": []
+  },
+  {
     "name": "plastipak",
     "ats": "workday",
     "identifier": "plastipak-plastipak",
@@ -34553,6 +34461,14 @@
     "urls": []
   },
   {
+    "name": "Post Holdings",
+    "ats": "icims",
+    "identifier": "jobs.postholdings.com",
+    "domain": "https://jobs.postholdings.com",
+    "page": "https://jobs.postholdings.com/api/jobs",
+    "urls": []
+  },
+  {
     "name": "postman",
     "ats": "workday",
     "identifier": "postman-careers",
@@ -34678,6 +34594,14 @@
     "urls": [
       "https://primient.wd1.myworkdayjobs.com/External_Careers/job/Loudon-TN-USA/Corporate-EHS-Systems-Management-Analyst_JREQ6171"
     ]
+  },
+  {
+    "name": "Principal",
+    "ats": "icims",
+    "identifier": "careers.principal.com",
+    "domain": "https://careers.principal.com",
+    "page": "https://careers.principal.com/api/jobs",
+    "urls": []
   },
   {
     "name": "priscorp.applicantpro.com",
@@ -35079,7 +35003,7 @@
     "ats": "eightfold",
     "identifier": "qualcomm",
     "domain": "qualcomm.com",
-    "page": "https://qualcomm.eightfold.ai/api/pcsx/search?domain=qualcomm.com",
+    "page": "https://careers.qualcomm.com/api/pcsx/search?domain=qualcomm.com",
     "urls": [
       "https://careers.qualcomm.com/careers?query=software&start=0&pid=446716309588&sort_by=relevance",
       "https://qualcomm.eightfold.ai/careers/job/446704270279?domain=qualcomm.com&8fold_id=446704270279",
@@ -35908,6 +35832,14 @@
     ]
   },
   {
+    "name": "Reliance",
+    "ats": "icims",
+    "identifier": "careers.reliance.com",
+    "domain": "https://careers.reliance.com",
+    "page": "https://careers.reliance.com/api/jobs",
+    "urls": []
+  },
+  {
     "name": "relling",
     "ats": "ashby",
     "identifier": "relling",
@@ -36430,6 +36362,14 @@
     ]
   },
   {
+    "name": "Rivian",
+    "ats": "icims",
+    "identifier": "careers.rivian.com",
+    "domain": "https://careers.rivian.com",
+    "page": "https://careers.rivian.com/api/jobs",
+    "urls": []
+  },
+  {
     "name": "rivianvw.tech",
     "ats": "ashby",
     "identifier": "rivianvw.tech",
@@ -36722,6 +36662,16 @@
     "domain": "https://rodanenergysolutionsinc.applytojob.com",
     "page": "https://rodanenergysolutionsinc.applytojob.com/apply/jobs",
     "urls": []
+  },
+  {
+    "name": "roku",
+    "ats": "greenhouse",
+    "identifier": "roku",
+    "domain": "https://www.weareroku.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/roku/jobs",
+    "urls": [
+      "https://www.weareroku.com/jobs/8258241?gh_jid=8258241"
+    ]
   },
   {
     "name": "rollsroyce",
@@ -38136,6 +38086,18 @@
     "page": "https://api.lever.co/v0/postings/sep?mode=json",
     "urls": [
       "https://jobs.lever.co/sep/4efbdbce-a753-41b5-8ed7-0661cd193178/apply"
+    ]
+  },
+  {
+    "name": "sephora",
+    "ats": "eightfold",
+    "identifier": "join.sephora.com",
+    "domain": "sephora.com",
+    "page": "https://join.sephora.com/api/pcsx/search?domain=sephora.com",
+    "urls": [
+      "https://join.sephora.com/careers/job/790312030968",
+      "https://join.sephora.com/careers/job/790312030985",
+      "https://join.sephora.com/careers/job/790312348148"
     ]
   },
   {
@@ -39878,6 +39840,14 @@
     "urls": []
   },
   {
+    "name": "Spirit AeroSystems",
+    "ats": "icims",
+    "identifier": "careers.spiritaero.com",
+    "domain": "https://careers.spiritaero.com",
+    "page": "https://careers.spiritaero.com/api/jobs",
+    "urls": []
+  },
+  {
     "name": "spotandtango",
     "ats": "greenhouse",
     "identifier": "spotandtango",
@@ -40220,6 +40190,14 @@
     "identifier": "stashinvest",
     "domain": "https://ats.comparably.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/stashinvest/jobs",
+    "urls": []
+  },
+  {
+    "name": "State Farm",
+    "ats": "icims",
+    "identifier": "jobs.statefarm.com",
+    "domain": "https://jobs.statefarm.com",
+    "page": "https://jobs.statefarm.com/api/jobs",
     "urls": []
   },
   {
@@ -41789,6 +41767,14 @@
       "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/21095",
       "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/21363"
     ]
+  },
+  {
+    "name": "The US Oncology Network",
+    "ats": "icims",
+    "identifier": "careers.usoncology.com",
+    "domain": "https://careers.usoncology.com",
+    "page": "https://careers.usoncology.com/api/jobs",
+    "urls": []
   },
   {
     "name": "the-exploration-company",
@@ -44081,6 +44067,14 @@
     ]
   },
   {
+    "name": "Universal Health Services",
+    "ats": "icims",
+    "identifier": "jobs.uhsinc.com",
+    "domain": "https://jobs.uhsinc.com",
+    "page": "https://jobs.uhsinc.com/api/jobs",
+    "urls": []
+  },
+  {
     "name": "unlikelyai",
     "ats": "ashby",
     "identifier": "unlikelyai",
@@ -44268,6 +44262,14 @@
     "identifier": "uwmcareers",
     "domain": "https://careers-uwmcareers.icims.com",
     "page": "https://careers-uwmcareers.icims.com/jobs/search",
+    "urls": []
+  },
+  {
+    "name": "V2X",
+    "ats": "icims",
+    "identifier": "careers.gov2x.com",
+    "domain": "https://careers.gov2x.com",
+    "page": "https://careers.gov2x.com/api/jobs",
     "urls": []
   },
   {
@@ -44924,6 +44926,14 @@
     ]
   },
   {
+    "name": "Viasat",
+    "ats": "icims",
+    "identifier": "careers.viasat.com",
+    "domain": "https://careers.viasat.com",
+    "page": "https://careers.viasat.com/api/jobs",
+    "urls": []
+  },
+  {
     "name": "viavisolutions",
     "ats": "workday",
     "identifier": "viavisolutions-careers",
@@ -45574,16 +45584,6 @@
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/wealthsimple?mode=json",
     "urls": []
-  },
-  {
-    "name": "roku",
-    "ats": "greenhouse",
-    "identifier": "roku",
-    "domain": "https://www.weareroku.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/roku/jobs",
-    "urls": [
-      "https://www.weareroku.com/jobs/8258241?gh_jid=8258241"
-    ]
   },
   {
     "name": "weave",
