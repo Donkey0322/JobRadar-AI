@@ -5,6 +5,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
+import { logListingFailure, logListingStatus } from "@/modules/employer/shared/fetch-log";
 import { Posting } from "@/modules/posting/posting";
 import { logger } from "@/utils/logger";
 
@@ -118,6 +119,7 @@ async function fetchAllByteDanceJobs(
     });
 
     if (!res.ok) {
+      await logListingStatus("ByteDance", company, res, `page ${page + 1}`);
       break;
     }
 
@@ -153,6 +155,8 @@ export async function fetchByteDance(
       .filter((posting) => posting.isTarget() && !posting.isKnown(knownKeys))
       .map((posting) => posting.toJob());
   } catch (error) {
+    if (await logListingFailure("ByteDance", company, error)) return [];
+
     if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
       logger.error(
         { err: error.name, company: company.name, url: company.page },

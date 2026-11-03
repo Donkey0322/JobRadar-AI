@@ -15,6 +15,7 @@ import {
   getBambooHRSlug,
   isBambooHRTenantResponse,
 } from "@/modules/employer/shared/bamboohr";
+import { logListingFailure } from "@/modules/employer/shared/fetch-log";
 import { appendErrorLog } from "@/utils/data";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
@@ -141,6 +142,8 @@ export class BambooHRFetcher extends Employer<BambooHRJob> {
         )
         .map((posting) => posting.toJob());
     } catch (error) {
+      if (await logListingFailure("BambooHR", company, error)) return [];
+
       logger.error(
         {
           err: isAbortError(error) ? error.name : error,
@@ -182,6 +185,12 @@ export class BambooHRFetcher extends Employer<BambooHRJob> {
         })
       )
     );
+
+    if (dates.size < pending.length) {
+      await appendErrorLog(
+        `BambooHR: ${company.name} - no posting date for ${pending.length - dates.size}/${pending.length} jobs`
+      );
+    }
 
     return jobs.map((job) => {
       const datePosted = dates.get(job.id);

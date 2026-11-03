@@ -6,6 +6,7 @@ import type { Company, Job } from "@/types";
 
 import { Employer } from "../employer";
 
+import { logListingFailure } from "@/modules/employer/shared/fetch-log";
 import {
   getRadancyCompanyName,
   getRadancyResultsPostUrl,
@@ -237,6 +238,8 @@ export class RadancyFetcher extends Employer<RadancyJob> {
 
       return jobs;
     } catch (error) {
+      if (await logListingFailure("Radancy", company, error)) return [];
+
       logger.error(
         {
           err: isAbortError(error) ? error.name : error,

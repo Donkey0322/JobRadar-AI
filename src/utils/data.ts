@@ -182,7 +182,9 @@ export async function saveCompanies(companies: Company[]) {
 }
 
 export async function appendErrorLog(message: string) {
+  // CI runs have no local log file to read, so surface the line in the job output.
   if (!process.stdout.isTTY) {
+    logger.warn(message);
     return;
   }
   const timestamp = new Date().toISOString();

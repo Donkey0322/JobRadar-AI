@@ -7,6 +7,7 @@ import type { Company, Job } from "@/types";
 
 import { Employer } from "../employer";
 
+import { logListingFailure } from "@/modules/employer/shared/fetch-log";
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
@@ -105,6 +106,8 @@ export class SmartRecruitersFetcher extends Employer<SmartRecruitersJob> {
 
       return opportunities;
     } catch (error) {
+      if (await logListingFailure("Smart Recruiters", company, error)) return [];
+
       if (
         error instanceof Error &&
         (error.name === "TimeoutError" || error.name === "AbortError")

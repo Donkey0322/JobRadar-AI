@@ -15,6 +15,7 @@ import { fetchNetflix, NetflixCompany } from "./netflix";
 import { fetchTikTok, TikTokCompany } from "./tiktok";
 
 import { parseCustomCompanyIdentifier } from "@/modules/employer/shared/custom-identifier";
+import { logListingFailure } from "@/modules/employer/shared/fetch-log";
 import { logger } from "@/utils/logger";
 
 export {
@@ -133,6 +134,8 @@ export class CustomFetcher extends Employer<Job> {
           return [];
       }
     } catch (error) {
+      if (await logListingFailure("Custom", company, error)) return [];
+
       logger.error(
         { err: error, company: company.name },
         `${RED_CROSS} Error fetching custom jobs`
@@ -140,7 +143,6 @@ export class CustomFetcher extends Employer<Job> {
       return [];
     }
   }
-
 }
 
 export const customFetcher = new CustomFetcher();

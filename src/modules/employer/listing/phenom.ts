@@ -5,6 +5,7 @@ import { RED_CROSS } from "@/constants/log";
 import type { Company, Job } from "@/types";
 
 import { Employer } from "@/modules/employer/employer";
+import { ListingHttpError, logListingFailure } from "@/modules/employer/shared/fetch-log";
 import { decodeHtmlEntities } from "@/utils/html";
 import { fetchHtmlResponse, getSetCookieHeader, isAbortError, isHtmlResponse } from "@/utils/http";
 import { logger } from "@/utils/logger";
@@ -475,9 +476,7 @@ async function getPhenomSession(pageUrl: string, signal: AbortSignal): Promise<P
   });
 
   if (!response.ok || !html) {
-    throw new Error(
-      `Failed to fetch Phenom careers page: ` + `${response.status} ${response.statusText}`
-    );
+    throw ListingHttpError.from(response, `careers page ${pageUrl}`);
   }
 
   const csrfToken = extractPhenomCsrfToken(html);
@@ -571,22 +570,19 @@ async function fetchPhenomPage(
   const raw = await response.text();
 
   if (response.status >= 300 && response.status < 400) {
-    throw new Error(
-      `Phenom widgets redirected on page ${page + 1}: ` +
-        `${response.status} ${response.statusText} ` +
-        `endpoint=${session.widgetsUrl} ` +
-        `location=${response.headers.get("location") ?? ""}`
+    throw ListingHttpError.from(
+      response,
+      `widgets page ${page + 1} redirected to ${response.headers.get("location") ?? ""}`
     );
   }
 
-  if (!response.ok || isHtmlResponse(raw)) {
-    throw new Error(
-      `Phenom widgets failed on page ${page + 1}: ` +
-        `${response.status} ${response.statusText} ` +
-        `endpoint=${session.widgetsUrl} ` +
-        `baseUrl=${session.baseUrl} ` +
-        `pageUrl=${session.pageUrl} ` +
-        raw.slice(0, 300)
+  if (!response.ok) {
+    throw ListingHttpError.from(response, `widgets page ${page + 1} ${session.widgetsUrl}`);
+  }
+
+  if (isHtmlResponse(raw)) {
+    throw new ListingHttpError(
+      `widgets page ${page + 1} returned HTML instead of JSON (${session.widgetsUrl})`
     );
   }
 
@@ -719,6 +715,8 @@ export class PhenomFetcher extends Employer<PhenomJob> {
 
       return jobs;
     } catch (error) {
+      if (await logListingFailure("Phenom", company, error)) return [];
+
       logger.error(
         {
           err: isAbortError(error) ? error.name : error,

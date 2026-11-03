@@ -6,6 +6,7 @@ import type { Company, Job } from "@/types";
 
 import { Employer } from "../employer";
 
+import { logListingFailure } from "@/modules/employer/shared/fetch-log";
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
@@ -109,6 +110,8 @@ export class LeverFetcher extends Employer<LeverJob> {
 
       return opportunities;
     } catch (error) {
+      if (await logListingFailure("Lever", company, error)) return [];
+
       if (
         error instanceof Error &&
         (error.name === "TimeoutError" || error.name === "AbortError")

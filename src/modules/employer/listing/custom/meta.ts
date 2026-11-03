@@ -5,6 +5,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
+import { ListingHttpError, logListingFailure } from "@/modules/employer/shared/fetch-log";
 import { Posting } from "@/modules/posting/posting";
 import { fetchHtmlResponse, getSetCookieHeader, isAbortError, isHtmlResponse } from "@/utils/http";
 import { logger } from "@/utils/logger";
@@ -198,8 +199,12 @@ export async function fetchMeta(
 
     const raw = await res.text();
 
-    if (!res.ok || isHtmlResponse(raw)) {
-      throw new Error(`Meta GraphQL failed: ${res.status} ${raw.slice(0, 300)}`);
+    if (!res.ok) {
+      throw ListingHttpError.from(res, "GraphQL");
+    }
+
+    if (isHtmlResponse(raw)) {
+      throw new ListingHttpError("GraphQL returned HTML instead of JSON");
     }
 
     const rawJobs = getMetaJobsFromResponse(JSON.parse(cleanMetaJson(raw)));
@@ -212,6 +217,8 @@ export async function fetchMeta(
 
     return opportunities;
   } catch (error) {
+    if (await logListingFailure("Meta", company, error)) return [];
+
     if (isAbortError(error)) {
       logger.error(
         { err: error.name, company: company.name, url: company.page },

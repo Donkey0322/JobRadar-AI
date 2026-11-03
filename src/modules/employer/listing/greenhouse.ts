@@ -12,6 +12,7 @@ import {
   resolveGreenhouseIdentifier,
 } from "../shared/greenhouse";
 
+import { logListingFailure } from "@/modules/employer/shared/fetch-log";
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
@@ -116,6 +117,8 @@ export class GreenhouseFetcher extends Employer<GreenhouseJob> {
         )
         .map((posting) => posting.toJob());
     } catch (error) {
+      if (await logListingFailure("Greenhouse", company, error)) return [];
+
       if (
         error instanceof Error &&
         (error.name === "TimeoutError" || error.name === "AbortError")
@@ -152,7 +155,6 @@ export class GreenhouseFetcher extends Employer<GreenhouseJob> {
       urls: [],
     };
   }
-
 }
 
 export const greenhouseFetcher = new GreenhouseFetcher();

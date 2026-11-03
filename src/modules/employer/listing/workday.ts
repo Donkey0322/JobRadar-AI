@@ -6,6 +6,7 @@ import type { Company, Job } from "@/types";
 
 import { Employer } from "../employer";
 
+import { logListingFailure } from "@/modules/employer/shared/fetch-log";
 import { isWorkdayLocaleSegment } from "@/modules/employer/shared/workday";
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
@@ -284,6 +285,10 @@ export class WorkdayFetcher extends Employer<WorkdayJob> {
 
       return results;
     } catch (error) {
+      if (await logListingFailure("Workday", company, error)) {
+        return recentOnly ? null : results.length > 0 ? results : null;
+      }
+
       if (
         error instanceof Error &&
         (error.name === "TimeoutError" || error.name === "AbortError")

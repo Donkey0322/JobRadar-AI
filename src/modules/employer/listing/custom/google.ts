@@ -5,6 +5,7 @@ import { createJDFetchSignal } from "@/constants";
 
 import type { Company, Job } from "@/types";
 
+import { logListingStatus } from "@/modules/employer/shared/fetch-log";
 import { Posting } from "@/modules/posting/posting";
 
 const GOOGLE_CAREERS_URL = "https://www.google.com/about/careers/applications";
@@ -98,6 +99,7 @@ export async function fetchGoogle(
     });
 
     if (!res.ok) {
+      await logListingStatus("Google", company, res, `page ${page}`);
       break;
     }
 

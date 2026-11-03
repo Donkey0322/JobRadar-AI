@@ -5,6 +5,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
+import { logListingFailure, logListingStatus } from "@/modules/employer/shared/fetch-log";
 import { Posting } from "@/modules/posting/posting";
 import { logger } from "@/utils/logger";
 
@@ -84,6 +85,7 @@ export async function fetchNetflix(
       });
 
       if (!res.ok) {
+        await logListingStatus("Netflix", company, res, `page ${page + 1}`);
         break;
       }
 
@@ -105,6 +107,8 @@ export async function fetchNetflix(
 
     return jobs;
   } catch (error) {
+    if (await logListingFailure("Netflix", company, error)) return [];
+
     if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
       logger.error(
         { err: error.name, company: company.name, url: company.page },

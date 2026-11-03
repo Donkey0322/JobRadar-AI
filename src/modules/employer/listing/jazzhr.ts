@@ -4,6 +4,7 @@ import type { Company, Job } from "@/types";
 
 import { Employer } from "../employer";
 
+import { logListingFailure } from "@/modules/employer/shared/fetch-log";
 import {
   jazzHRHostName,
   type JazzHRJob,
@@ -13,7 +14,7 @@ import {
   parseJazzHRListing,
 } from "@/modules/employer/shared/jazzhr";
 import { appendErrorLog } from "@/utils/data";
-import { connectionErrorMessage, isAbortError } from "@/utils/http";
+import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
 import { getHostnameWithoutWww } from "@/utils/url";
@@ -108,11 +109,7 @@ export class JazzHRFetcher extends Employer<JazzHRJob> {
         )
         .map((posting) => posting.toJob());
     } catch (error) {
-      const connectionError = connectionErrorMessage(error);
-      if (connectionError) {
-        await appendErrorLog(`JazzHR: ${company.name} - ${connectionError}`);
-        return [];
-      }
+      if (await logListingFailure("JazzHR", company, error)) return [];
 
       logger.error(
         {

@@ -7,6 +7,7 @@ import type { Company, Job } from "@/types";
 
 import { Employer } from "../employer";
 
+import { ListingHttpError, logListingFailure } from "@/modules/employer/shared/fetch-log";
 import { findIcimsIframeSrc, isIcimsUrl, normalizeIcimsUrl } from "@/modules/employer/shared/icims";
 import {
   findJibeRedirect,
@@ -20,9 +21,8 @@ import {
   type JibeJob,
   parseJibeJobs,
 } from "@/modules/employer/shared/jibe";
-import { appendErrorLog } from "@/utils/data";
 import { decodeHtmlEntities } from "@/utils/html";
-import { connectionErrorMessage, fetchHtmlResponse, isAbortError } from "@/utils/http";
+import { fetchHtmlResponse, isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
 import { cleanText, formatCompanyName } from "@/utils/string";
 import { getHostnameWithoutWww } from "@/utils/url";
@@ -97,9 +97,6 @@ async function fetchHtml(url: string, signal: AbortSignal): Promise<string | nul
   return html;
 }
 
-/** A listing page answered with an error status, as opposed to a crash or abort. */
-class IcimsListingError extends Error {}
-
 async function fetchListingHtml(url: string, signal: AbortSignal): Promise<string> {
   const { response, html } = await fetchHtmlResponse(url, {
     signal,
@@ -110,7 +107,7 @@ async function fetchListingHtml(url: string, signal: AbortSignal): Promise<strin
   });
 
   if (!response.ok) {
-    throw new IcimsListingError(`${response.status} - ${response.statusText} (${url})`);
+    throw ListingHttpError.from(response, url);
   }
 
   return html;
@@ -243,7 +240,7 @@ async function* listJibePages(
 
     if (!jobs) {
       if (probe && page === 1) return;
-      throw new IcimsListingError(`Jibe listing failed (${origin} page ${page})`);
+      throw new ListingHttpError(`Jibe listing failed (${origin} page ${page})`);
     }
 
     yield jobs.map((job) => toIcimsJob(origin, job)).filter((job): job is IcimsJob => job !== null);
@@ -420,13 +417,7 @@ export class IcimsFetcher extends Employer<IcimsJob> {
         if (reachedOldJob) break;
       }
     } catch (error) {
-      const message =
-        error instanceof IcimsListingError ? error.message : connectionErrorMessage(error);
-
-      if (message) {
-        await appendErrorLog(`iCIMS: ${company.name} - ${message}`);
-        return [];
-      }
+      if (await logListingFailure("iCIMS", company, error)) return [];
 
       logger.error(
         { err: isAbortError(error) ? error.name : error, url: company.page },

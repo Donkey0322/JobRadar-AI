@@ -5,6 +5,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
+import { logListingFailure, logListingStatus } from "@/modules/employer/shared/fetch-log";
 import { Posting } from "@/modules/posting/posting";
 import { logger } from "@/utils/logger";
 
@@ -79,6 +80,11 @@ export async function fetchAmazon(
       signal,
     });
 
+    if (!res.ok) {
+      await logListingStatus("Amazon", company, res);
+      return [];
+    }
+
     const rawJobs = getAmazonJobsFromResponse(await res.json());
 
     const opportunities = rawJobs
@@ -90,6 +96,8 @@ export async function fetchAmazon(
 
     return opportunities;
   } catch (error) {
+    if (await logListingFailure("Amazon", company, error)) return [];
+
     if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
       logger.error(
         { err: error.name, company: company.name, url: company.page },

@@ -17,6 +17,7 @@ import {
   resolveAshbyIdentifier,
 } from "../shared/ashby";
 
+import { logListingFailure } from "@/modules/employer/shared/fetch-log";
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
@@ -156,6 +157,8 @@ export class AshbyFetcher extends Employer<AshbyJob> {
         )
         .map((posting) => posting.toJob());
     } catch (error) {
+      if (await logListingFailure("Ashby", company, error)) return [];
+
       if (
         error instanceof Error &&
         (error.name === "TimeoutError" || error.name === "AbortError")

@@ -6,6 +6,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
+import { logListingFailure, logListingStatus } from "@/modules/employer/shared/fetch-log";
 import { Posting } from "@/modules/posting/posting";
 import { logger } from "@/utils/logger";
 import { cleanText } from "@/utils/string";
@@ -82,8 +83,8 @@ function readAppleLocation(card: AppleCard): string | null {
   );
 }
 
-async function fetchAppleHtml(urlStr: string, page: number = 1, signal: AbortSignal) {
-  const url = new URL(urlStr);
+async function fetchAppleHtml(company: Company, page: number = 1, signal: AbortSignal) {
+  const url = new URL(company.page);
   url.searchParams.set("sort", "newest");
   url.searchParams.set("page", String(page));
 
@@ -97,10 +98,7 @@ async function fetchAppleHtml(urlStr: string, page: number = 1, signal: AbortSig
   });
 
   if (!res.ok) {
-    logger.error(
-      { company: "Apple", url: url.toString() },
-      `${RED_CROSS} Apple jobs fetch failed: ${res.status} ${res.statusText}`
-    );
+    await logListingStatus("Apple", company, res, `page ${page}`);
     return "";
   }
 
@@ -125,7 +123,7 @@ export async function fetchApple(
     const jobs: Job[] = [];
 
     for (let page = 1; page <= MAX_PAGES; page++) {
-      const html = await fetchAppleHtml(company.page, page, signal);
+      const html = await fetchAppleHtml(company, page, signal);
 
       if (html === "") {
         break;
@@ -154,6 +152,8 @@ export async function fetchApple(
 
     return jobs;
   } catch (error) {
+    if (await logListingFailure("Apple", company, error)) return [];
+
     if (error instanceof Error && error.name === "TimeoutError") {
       logger.error(
         { err: "TimeoutError", company: company.name, url: company.page },

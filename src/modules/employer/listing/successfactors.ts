@@ -4,6 +4,7 @@ import type { Company, Job } from "@/types";
 
 import { Employer } from "../employer";
 
+import { logListingFailure } from "@/modules/employer/shared/fetch-log";
 import {
   getSuccessFactorsFeedCompanyName,
   getSuccessFactorsFeedUrl,
@@ -12,7 +13,7 @@ import {
   type SuccessFactorsJob,
 } from "@/modules/employer/shared/successfactors";
 import { appendErrorLog } from "@/utils/data";
-import { connectionErrorMessage, isAbortError } from "@/utils/http";
+import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
 import { getHostnameWithoutWww } from "@/utils/url";
@@ -110,11 +111,7 @@ export class SuccessFactorsFetcher extends Employer<SuccessFactorsJob> {
         )
         .map((posting) => posting.toJob());
     } catch (error) {
-      const connectionError = connectionErrorMessage(error);
-      if (connectionError) {
-        await appendErrorLog(`SuccessFactors: ${company.name} - ${connectionError}`);
-        return [];
-      }
+      if (await logListingFailure("SuccessFactors", company, error)) return [];
 
       logger.error(
         {

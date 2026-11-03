@@ -7,6 +7,7 @@ import type { Company, Job } from "@/types";
 
 import { Employer } from "../employer";
 
+import { logListingFailure } from "@/modules/employer/shared/fetch-log";
 import {
   fetchRipplingBoardTitle,
   fetchRipplingCreatedOn,
@@ -122,6 +123,8 @@ export class RipplingFetcher extends Employer<RipplingJob> {
         )
         .map((posting) => posting.toJob());
     } catch (error) {
+      if (await logListingFailure("Rippling", company, error)) return [];
+
       logger.error(
         {
           err: isAbortError(error) ? error.name : error,
@@ -163,6 +166,12 @@ export class RipplingFetcher extends Employer<RipplingJob> {
         })
       )
     );
+
+    if (dates.size < pending.length) {
+      await appendErrorLog(
+        `Rippling: ${company.name} - no posting date for ${pending.length - dates.size}/${pending.length} jobs`
+      );
+    }
 
     return jobs.map((job) => {
       const createdOn = dates.get(job.uuid);
