@@ -18463,9 +18463,9 @@
   {
     "name": "equipmentshare",
     "ats": "greenhouse",
-    "identifier": "equipmentshare",
+    "identifier": "equipmentsharecom",
     "domain": "https://www.equipmentshare.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/equipmentshare/jobs",
+    "page": "https://boards-api.greenhouse.io/v1/boards/equipmentsharecom/jobs",
     "urls": [
       "https://www.equipmentshare.com/careers/openings/?gh_jid=8071715",
       "https://www.equipmentshare.com/careers/openings/?gh_jid=8188474",
@@ -23860,9 +23860,9 @@
   {
     "name": "hubspot",
     "ats": "greenhouse",
-    "identifier": "hubspot",
+    "identifier": "hubspotjobs",
     "domain": "https://www.hubspot.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/hubspot/jobs",
+    "page": "https://boards-api.greenhouse.io/v1/boards/hubspotjobs/jobs",
     "urls": []
   },
   {
@@ -45826,11 +45826,11 @@
     "urls": []
   },
   {
-    "name": "weareroku",
+    "name": "roku",
     "ats": "greenhouse",
-    "identifier": "weareroku",
+    "identifier": "roku",
     "domain": "https://www.weareroku.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/weareroku/jobs",
+    "page": "https://boards-api.greenhouse.io/v1/boards/roku/jobs",
     "urls": [
       "https://www.weareroku.com/jobs/8258241?gh_jid=8258241"
     ]
