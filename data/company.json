@@ -7808,6 +7808,14 @@
     ]
   },
   {
+    "name": "bcore",
+    "ats": "icims",
+    "identifier": "bcore",
+    "domain": "https://careers-bcore.icims.com",
+    "page": "https://careers-bcore.icims.com/jobs/search",
+    "urls": []
+  },
+  {
     "name": "bdo",
     "ats": "workday",
     "identifier": "bdo-bdo",
@@ -9680,6 +9688,14 @@
     "urls": []
   },
   {
+    "name": "Brivo",
+    "ats": "pinpoint",
+    "identifier": "brivo",
+    "domain": "https://brivo.pinpointhq.com",
+    "page": "https://brivo.pinpointhq.com/postings.json",
+    "urls": []
+  },
+  {
     "name": "broadridge",
     "ats": "workday",
     "identifier": "broadridge-careers",
@@ -10951,6 +10967,14 @@
     "identifier": "calix-external",
     "domain": "https://calix.wd1.myworkdayjobs.com/external",
     "page": "https://calix.wd1.myworkdayjobs.com/wday/cxs/calix/external/jobs",
+    "urls": []
+  },
+  {
+    "name": "cambiahealth",
+    "ats": "workday",
+    "identifier": "cambiahealth-external",
+    "domain": "https://cambiahealth.wd504.myworkdayjobs.com/External",
+    "page": "https://cambiahealth.wd504.myworkdayjobs.com/wday/cxs/cambiahealth/External/jobs",
     "urls": []
   },
   {
@@ -13192,6 +13216,14 @@
     "urls": [
       "https://careers.qualitestgroup.com/job/Santa-Clara-Digital-Engineering-CoE-Intern-CA-95054/54914944/?ats=successfactors"
     ]
+  },
+  {
+    "name": "careers.serco-na.com",
+    "ats": "phenom",
+    "identifier": "careers.serco-na.com",
+    "domain": "https://careers.serco-na.com",
+    "page": "https://careers.serco-na.com",
+    "urls": []
   },
   {
     "name": "careers.snowflake.com",
@@ -16655,6 +16687,14 @@
     ]
   },
   {
+    "name": "discernis",
+    "ats": "ashby",
+    "identifier": "discernis",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/discernis",
+    "urls": []
+  },
+  {
     "name": "Discount Tire",
     "ats": "icims",
     "identifier": "discounttire.jibeapply.com",
@@ -17537,6 +17577,14 @@
       "https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/USA---Texas---Plano/Automation-Engineer_R00297189",
       "https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/USA---Washington---Tacoma/Systems-Engineer_R00307957"
     ]
+  },
+  {
+    "name": "econify.com",
+    "ats": "none",
+    "identifier": "econify.com",
+    "domain": "https://www.econify.com",
+    "page": "",
+    "urls": []
   },
   {
     "name": "economicmodeling",
@@ -19245,6 +19293,14 @@
       "https://jobs.lever.co/field-ai/e3b7bac7-5410-44bb-964c-02815fbd0c97",
       "https://jobs.lever.co/field-ai/f41fb1ac-d266-4e2c-8879-2d88d6f890d4"
     ]
+  },
+  {
+    "name": "fieldguide",
+    "ats": "ashby",
+    "identifier": "fieldguide",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/fieldguide",
+    "urls": []
   },
   {
     "name": "Fife Council Jobs and Careers",
@@ -27507,6 +27563,14 @@
     ]
   },
   {
+    "name": "Liveswitch, Inc.",
+    "ats": "rippling",
+    "identifier": "liveswitch",
+    "domain": "https://ats.rippling.com",
+    "page": "https://api.rippling.com/platform/api/ats/v1/board/liveswitch/jobs",
+    "urls": []
+  },
+  {
     "name": "lkqcorp",
     "ats": "workday",
     "identifier": "lkqcorp-externalcareersite-lkq",
@@ -27810,6 +27874,14 @@
     "urls": [
       "https://job-boards.greenhouse.io/locusrobotics/jobs/5268347007"
     ]
+  },
+  {
+    "name": "lodestarspace",
+    "ats": "greenhouse",
+    "identifier": "lodestarspace",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/lodestarspace/jobs",
+    "urls": []
   },
   {
     "name": "logicgate",
@@ -29758,6 +29830,14 @@
       "https://mimecast.wd5.myworkdayjobs.com/Mimecast-Careers/job/India---Bengaluru/Threat-Response-Analyst-I-3_R6420",
       "https://mimecast.wd5.myworkdayjobs.com/mimecast-careers/job/Great-Britain---London/Software-Engineer-I_R6688-1"
     ]
+  },
+  {
+    "name": "mintive",
+    "ats": "ashby",
+    "identifier": "mintive",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/mintive",
+    "urls": []
   },
   {
     "name": "mitel",
@@ -39198,6 +39278,14 @@
     "urls": []
   },
   {
+    "name": "sola",
+    "ats": "ashby",
+    "identifier": "sola",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/sola",
+    "urls": []
+  },
+  {
     "name": "solace",
     "ats": "ashby",
     "identifier": "solace",
@@ -43539,6 +43627,14 @@
     ]
   },
   {
+    "name": "trinzic",
+    "ats": "workday",
+    "identifier": "trinzic-trinzic_careers",
+    "domain": "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers",
+    "page": "https://trinzic.wd115.myworkdayjobs.com/wday/cxs/trinzic/Trinzic_Careers/jobs",
+    "urls": []
+  },
+  {
     "name": "tripadvisor",
     "ats": "greenhouse",
     "identifier": "tripadvisor",
@@ -44125,6 +44221,14 @@
       "https://jobs.ulalaunch.com/job/Centennial-Software-Engineering-Internship-Summer-2027-CO-80112/1427398300/?ats=successfactors",
       "https://jobs.ulalaunch.com/job/Centennial-Trajectory-Simulation-Software-Engineer-1-CO-80112/1406055600/?ats=successfactors"
     ]
+  },
+  {
+    "name": "unitedhealthgroup",
+    "ats": "radancy",
+    "identifier": "careers.unitedhealthgroup.com",
+    "domain": "https://careers.unitedhealthgroup.com",
+    "page": "https://careers.unitedhealthgroup.com/search-jobs/resultspost",
+    "urls": []
   },
   {
     "name": "Universal Health Services",
@@ -46595,6 +46699,14 @@
       "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Mississauga-Canada/Advanced-Data-Platform-Engineer_JR103851",
       "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Mississauga-Canada/Cloud-Security-Engineer---Advanced_JR102753"
     ]
+  },
+  {
+    "name": "zefr",
+    "ats": "ashby",
+    "identifier": "zefr",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/zefr",
+    "urls": []
   },
   {
     "name": "zeissgroup",
