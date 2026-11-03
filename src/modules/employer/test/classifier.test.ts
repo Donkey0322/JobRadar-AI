@@ -3,6 +3,9 @@ import { describe, expect, it } from "vitest";
 import type { ATS } from "../type";
 
 import { classifyATS } from "../classifier";
+import { employers } from "../registry";
+
+import { getJobKey } from "@/utils/job-key";
 
 describe("classifyATS", () => {
   it.each<[string, ATS]>([
@@ -94,5 +97,35 @@ describe("classifyATS", () => {
         )
       )
     ).toBe("custom");
+  });
+});
+
+describe("career sites in the host map", () => {
+  it.each([
+    [
+      "https://careers.roblox.com/jobs/8242621",
+      "https://careers.roblox.com/jobs/8242621?gh_jid=8242621",
+      "greenhouse:roblox",
+    ],
+    [
+      "https://www.riotgames.com/en/work-with-us/job/8282210",
+      "https://www.riotgames.com/en/work-with-us/job/8282210?gh_jid=8282210",
+      "greenhouse:riotgames",
+    ],
+    [
+      "https://careers.cisco.com/global/en/job/1443405",
+      "https://careers.cisco.com/global/en/job/1443405?ph_id=1443405",
+      "phenom:careers.cisco.com",
+    ],
+    [
+      "https://careers.zebra.com/careers/job/343621947586",
+      "https://zebra.eightfold.ai/careers/job/343621947586?domain=zebra.com&8fold_id=343621947586",
+      "eightfold:zebra",
+    ],
+  ])("files %s with the board's own links", (siteUrl, boardUrl, companyKey) => {
+    const url = new URL(siteUrl);
+
+    expect(getJobKey(siteUrl)).toBe(getJobKey(boardUrl));
+    expect(employers[classifyATS(url)].companyKeyFromUrl(url)).toBe(companyKey);
   });
 });

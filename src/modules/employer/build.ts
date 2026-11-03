@@ -3,6 +3,7 @@ import { URL } from "url";
 
 import type { Company } from "@/types";
 
+import { aliasedCompanyKey } from "./aliases";
 import { classifyATS } from "./classifier";
 import { identityKey } from "./employer";
 import { employers } from "./registry";
@@ -35,9 +36,7 @@ function representativeUrl(existing: Company): URL | null {
   }
 }
 
-async function resolveExistingCompany(
-  stored: Company
-): Promise<{ key: string; company: Company }> {
+async function resolveExistingCompany(stored: Company): Promise<{ key: string; company: Company }> {
   const existing = employers[stored.ats]?.repairCompany(stored) ?? stored;
   const existingKey = getCompanyKey(existing);
   const url = representativeUrl(existing);
@@ -66,6 +65,20 @@ async function resolveExistingCompany(
   }
 }
 
+/** Company key of the ATS row a custom career-site URL belongs to, if it is aliased. */
+function careerSiteAlias(urlStr: string): string | null {
+  try {
+    const url = new URL(urlStr);
+    return classifyATS(url) === "custom" ? aliasedCompanyKey(url) : null;
+  } catch {
+    return null;
+  }
+}
+
+function isAliasedCustomRow(company: Company): boolean {
+  return company.ats === "custom" && Boolean(company.domain && careerSiteAlias(company.domain));
+}
+
 export function groupUrlsByCompanyKey(urls: string[]): Map<string, string[]> {
   const groups = new Map<string, string[]>();
 
@@ -75,7 +88,7 @@ export function groupUrlsByCompanyKey(urls: string[]): Map<string, string[]> {
     try {
       const url = new URL(urlStr);
       const ats = classifyATS(url);
-      key = employers[ats].companyKeyFromUrl(url);
+      key = careerSiteAlias(urlStr) ?? employers[ats].companyKeyFromUrl(url);
     } catch (err) {
       logger.warn({ url: urlStr, err }, "Failed to derive company key from URL");
       key = `unkeyed:${urlStr}`;
@@ -133,6 +146,20 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
   const map = new Map<string, Company>();
 
   const groups = groupUrlsByCompanyKey(Array.from(urls));
+  const aliasedGroups = new Map<string, string[]>();
+
+  for (const [groupKey, groupUrls] of groups) {
+    const boardUrls = groupUrls.filter((url) => !careerSiteAlias(url));
+
+    if (boardUrls.length === 0) {
+      aliasedGroups.set(groupKey, groupUrls);
+      groups.delete(groupKey);
+    } else {
+      // formCompanyFromGroup forms from the first URL, which must be the board's own.
+      groups.set(groupKey, [...boardUrls, ...groupUrls.filter((url) => careerSiteAlias(url))]);
+    }
+  }
+
   const total = groups.size;
   let completed = 0;
 
@@ -174,7 +201,7 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
   const resolvedExisting = await Promise.all(existingCompanies.map(resolveExistingCompany));
 
   for (const { key, company } of resolvedExisting) {
-    if (!company.name || map.has(key)) {
+    if (!company.name || map.has(key) || isAliasedCustomRow(company)) {
       continue;
     }
 
@@ -182,6 +209,18 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
       ...company,
       urls: [],
     });
+  }
+
+  for (const [groupKey, groupUrls] of aliasedGroups) {
+    const target = map.get(groupKey);
+
+    if (target) {
+      target.urls.push(...groupUrls);
+      continue;
+    }
+
+    const { company } = await formCompanyFromGroup(groupKey, groupUrls);
+    if (company?.name) map.set(getCompanyKey(company), company);
   }
 
   const result = Array.from(map.values())

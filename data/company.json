@@ -12641,26 +12641,10 @@
     ]
   },
   {
-    "name": "careers.cisco.com",
-    "ats": "custom",
-    "identifier": "careers.cisco.com",
-    "domain": "https://careers.cisco.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "careers.cobank.com",
     "ats": "custom",
     "identifier": "careers.cobank.com",
     "domain": "https://careers.cobank.com",
-    "page": "",
-    "urls": []
-  },
-  {
-    "name": "careers.confluent.io",
-    "ats": "custom",
-    "identifier": "careers.confluent.io",
-    "domain": "https://careers.confluent.io",
     "page": "",
     "urls": []
   },
@@ -12707,14 +12691,6 @@
     "ats": "custom",
     "identifier": "careers.dovercorporation.com",
     "domain": "https://careers.dovercorporation.com",
-    "page": "",
-    "urls": []
-  },
-  {
-    "name": "careers.duolingo.com",
-    "ats": "custom",
-    "identifier": "careers.duolingo.com",
-    "domain": "https://careers.duolingo.com",
     "page": "",
     "urls": []
   },
@@ -12766,14 +12742,6 @@
     "ats": "custom",
     "identifier": "careers.hellofresh.com",
     "domain": "https://careers.hellofresh.com",
-    "page": "",
-    "urls": []
-  },
-  {
-    "name": "careers.homedepot.com",
-    "ats": "custom",
-    "identifier": "careers.homedepot.com",
-    "domain": "https://careers.homedepot.com",
     "page": "",
     "urls": []
   },
@@ -13066,14 +13034,6 @@
     "urls": []
   },
   {
-    "name": "careers.intuitive.com",
-    "ats": "custom",
-    "identifier": "careers.intuitive.com",
-    "domain": "https://careers.intuitive.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "careers.itw.com",
     "ats": "phenom",
     "identifier": "careers.itw.com",
@@ -13097,14 +13057,6 @@
       "https://careers.itw.com/us/en/job/JR9697?ph_id=JR9697",
       "https://careers.itw.com/us/en/job/JR9815?ph_id=JR9815"
     ]
-  },
-  {
-    "name": "careers.itw.com",
-    "ats": "custom",
-    "identifier": "careers.itw.com",
-    "domain": "https://careers.itw.com",
-    "page": "",
-    "urls": []
   },
   {
     "name": "careers.kpmg.ca",
@@ -13251,14 +13203,6 @@
     "urls": []
   },
   {
-    "name": "careers.oracle.com",
-    "ats": "custom",
-    "identifier": "careers.oracle.com",
-    "domain": "https://careers.oracle.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "careers.oshkoshcorp.com",
     "ats": "phenom",
     "identifier": "careers.oshkoshcorp.com",
@@ -13380,14 +13324,6 @@
     "urls": []
   },
   {
-    "name": "careers.roblox.com",
-    "ats": "custom",
-    "identifier": "careers.roblox.com",
-    "domain": "https://careers.roblox.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "careers.sig.com",
     "ats": "custom",
     "identifier": "careers.sig.com",
@@ -13460,14 +13396,6 @@
     "urls": []
   },
   {
-    "name": "careers.thrivent.com",
-    "ats": "custom",
-    "identifier": "careers.thrivent.com",
-    "domain": "https://careers.thrivent.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "careers.tranetechnologies.com",
     "ats": "phenom",
     "identifier": "careers.tranetechnologies.com",
@@ -13476,14 +13404,6 @@
     "urls": [
       "https://careers.tranetechnologies.com/global/en/job/JR-13898?ph_id=JR-13898"
     ]
-  },
-  {
-    "name": "careers.tranetechnologies.com",
-    "ats": "custom",
-    "identifier": "careers.tranetechnologies.com",
-    "domain": "https://careers.tranetechnologies.com",
-    "page": "",
-    "urls": []
   },
   {
     "name": "careers.tsmc.com",
@@ -13547,26 +13467,10 @@
     ]
   },
   {
-    "name": "careers.varsitybrands.com",
-    "ats": "custom",
-    "identifier": "careers.varsitybrands.com",
-    "domain": "https://careers.varsitybrands.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "careers.viasat.com",
     "ats": "custom",
     "identifier": "careers.viasat.com",
     "domain": "https://careers.viasat.com",
-    "page": "",
-    "urls": []
-  },
-  {
-    "name": "careers.zebra.com",
-    "ats": "custom",
-    "identifier": "careers.zebra.com",
-    "domain": "https://careers.zebra.com",
     "page": "",
     "urls": []
   },
@@ -17270,14 +17174,6 @@
     "urls": []
   },
   {
-    "name": "dowjones.jobs",
-    "ats": "custom",
-    "identifier": "dowjones.jobs",
-    "domain": "https://dowjones.jobs",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "DPDGroupUK1",
     "ats": "smartrecruiters",
     "identifier": "DPDGroupUK1",
@@ -18237,14 +18133,6 @@
     ]
   },
   {
-    "name": "ensono.com",
-    "ats": "custom",
-    "identifier": "ensono.com",
-    "domain": "https://www.ensono.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "entegris",
     "ats": "workday",
     "identifier": "entegris-entegriscareers",
@@ -18331,14 +18219,6 @@
       "https://epicgames.com/careers/jobs/6174265004?gh_jid=6174265004",
       "https://epicgames.com/careers/jobs/6183401004?gh_jid=6183401004"
     ]
-  },
-  {
-    "name": "epicgames.com",
-    "ats": "custom",
-    "identifier": "epicgames.com",
-    "domain": "https://www.epicgames.com",
-    "page": "",
-    "urls": []
   },
   {
     "name": "epicorsoftware",
@@ -25787,14 +25667,6 @@
     "urls": []
   },
   {
-    "name": "jobs.disneycareers.com",
-    "ats": "custom",
-    "identifier": "jobs.disneycareers.com",
-    "domain": "https://jobs.disneycareers.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "jobs.ea.com",
     "ats": "custom",
     "identifier": "jobs.ea.com",
@@ -25857,14 +25729,6 @@
     "urls": [
       "https://jobs.ericsson.com/careers/job/563121777363423"
     ]
-  },
-  {
-    "name": "jobs.hilton.com",
-    "ats": "custom",
-    "identifier": "jobs.hilton.com",
-    "domain": "https://jobs.hilton.com",
-    "page": "",
-    "urls": []
   },
   {
     "name": "jobs.jobvite.com",
@@ -30290,14 +30154,6 @@
     ]
   },
   {
-    "name": "mongodb.com",
-    "ats": "custom",
-    "identifier": "mongodb.com",
-    "domain": "https://www.mongodb.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "monogram",
     "ats": "ashby",
     "identifier": "monogram",
@@ -34563,14 +34419,6 @@
     ]
   },
   {
-    "name": "pinterestcareers.com",
-    "ats": "custom",
-    "identifier": "pinterestcareers.com",
-    "domain": "https://www.pinterestcareers.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "pipersandler",
     "ats": "workday",
     "identifier": "pipersandler-piper_sandler_careers",
@@ -36432,14 +36280,6 @@
     ]
   },
   {
-    "name": "retailcareers.staples.com",
-    "ats": "custom",
-    "identifier": "retailcareers.staples.com",
-    "domain": "https://retailcareers.staples.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "retell-ai",
     "ats": "ashby",
     "identifier": "retell-ai",
@@ -36612,14 +36452,6 @@
       "https://www.riotgames.com/en/work-with-us/job/8055923?gh_jid=8055923",
       "https://www.riotgames.com/en/work-with-us/job/8222014?gh_jid=8222014"
     ]
-  },
-  {
-    "name": "riotgames.com",
-    "ats": "custom",
-    "identifier": "riotgames.com",
-    "domain": "https://www.riotgames.com",
-    "page": "",
-    "urls": []
   },
   {
     "name": "riotgamesup",
@@ -37760,14 +37592,6 @@
     ]
   },
   {
-    "name": "samsara.com",
-    "ats": "custom",
-    "identifier": "samsara.com",
-    "domain": "https://www.samsara.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "samsungresearchamericainternship",
     "ats": "greenhouse",
     "identifier": "samsungresearchamericainternship",
@@ -37938,14 +37762,6 @@
       "https://sartorius.wd3.myworkdayjobs.com/sartoriuscareers/job/Royston/Full-Stack-Software-Engineer_R42226",
       "https://sartorius.wd3.myworkdayjobs.com/sartoriuscareers/job/Umea/Software-Engineering-Intern_R42696"
     ]
-  },
-  {
-    "name": "sartorius.com",
-    "ats": "custom",
-    "identifier": "sartorius.com",
-    "domain": "https://www.sartorius.com",
-    "page": "",
-    "urls": []
   },
   {
     "name": "sas",
@@ -44216,14 +44032,6 @@
       "https://uline.wd1.myworkdayjobs.com/uline_careers/job/Waukegan-IL/Software-Developer---Java_R267319-1",
       "https://uline.wd1.myworkdayjobs.com/uline_careers/job/Waukegan-IL/Software-Developer---Java_R268293-1"
     ]
-  },
-  {
-    "name": "uline.jobs",
-    "ats": "custom",
-    "identifier": "uline.jobs",
-    "domain": "https://www.uline.jobs",
-    "page": "",
-    "urls": []
   },
   {
     "name": "ultra",

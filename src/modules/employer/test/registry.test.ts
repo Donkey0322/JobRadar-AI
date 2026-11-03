@@ -217,6 +217,52 @@ describe("ATS fetcher registry", () => {
     expect(formCompany).toHaveBeenCalledWith(new URL(legacy.domain));
   });
 
+  describe("aliased career sites", () => {
+    const homeDepot: Company = {
+      name: "homedepot",
+      ats: "workday",
+      identifier: "homedepot-careerdepot",
+      domain: "https://homedepot.wd5.myworkdayjobs.com/CareerDepot",
+      page: "https://homedepot.wd5.myworkdayjobs.com/wday/cxs/homedepot/CareerDepot/jobs",
+      urls: [],
+    };
+    const siteUrl = "https://careers.homedepot.com/job/22712345/software-engineer";
+
+    it("drops a stored custom row for a site whose board is tracked elsewhere", async () => {
+      dataMocks.loadCompanies.mockResolvedValue([
+        homeDepot,
+        {
+          name: "careers.homedepot.com",
+          ats: "custom",
+          identifier: "careers.homedepot.com",
+          domain: "https://careers.homedepot.com",
+          page: "",
+          urls: [],
+        },
+      ]);
+
+      await expect(buildCompanyList([])).resolves.toEqual([homeDepot]);
+    });
+
+    it("files new site URLs under the tracked board instead of a custom row", async () => {
+      dataMocks.loadCompanies.mockResolvedValue([homeDepot]);
+      const customForm = vi.spyOn(customFetcher, "formCompany");
+
+      await expect(buildCompanyList([siteUrl])).resolves.toEqual([
+        { ...homeDepot, urls: [siteUrl] },
+      ]);
+      expect(customForm).not.toHaveBeenCalled();
+    });
+
+    it("still forms a custom row when the tracked board is gone", async () => {
+      dataMocks.loadCompanies.mockResolvedValue([]);
+
+      const [company] = await buildCompanyList([siteUrl]);
+
+      expect(company).toMatchObject({ ats: "custom", urls: [siteUrl] });
+    });
+  });
+
   it("keeps url-less custom rows whose domain is still custom", async () => {
     const custom: Company = {
       name: "Acme",

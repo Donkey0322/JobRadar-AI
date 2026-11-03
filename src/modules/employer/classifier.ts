@@ -14,11 +14,23 @@ const hostToATS: Record<string, ATS> = {
   "stripe.com": "greenhouse",
   "deere.com": "greenhouse",
   "hudsonrivertrading.com": "greenhouse",
+  "careers.duolingo.com": "greenhouse",
+  "careers.roblox.com": "greenhouse",
+  "epicgames.com": "greenhouse",
+  "mongodb.com": "greenhouse",
+  "pinterestcareers.com": "greenhouse",
+  "riotgames.com": "greenhouse",
+  "samsara.com": "greenhouse",
   "apply.careers.microsoft.com": "eightfold",
   "career.mlp.com": "eightfold",
+  "careers.zebra.com": "eightfold",
   "jobs.ericsson.com": "eightfold",
   "join.sephora.com": "eightfold",
   "careers.bcg.com": "phenom",
+  "careers.cisco.com": "phenom",
+  "careers.itw.com": "phenom",
+  "careers.tranetechnologies.com": "phenom",
+  "careers.varsitybrands.com": "phenom",
 };
 
 export function classifyATS(url: URL): ATS {
