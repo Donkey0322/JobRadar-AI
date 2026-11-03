@@ -21673,7 +21673,7 @@
     ]
   },
   {
-    "name": "gliacelltechnologies",
+    "name": "GliaCell Technologies",
     "ats": "jazzhr",
     "identifier": "gliacelltechnologies.applytojob.com",
     "domain": "https://gliacelltechnologies.applytojob.com",
@@ -24832,12 +24832,14 @@
     ]
   },
   {
-    "name": "interactsoftware.pinpointhq.com",
-    "ats": "custom",
-    "identifier": "interactsoftware.pinpointhq.com",
-    "domain": "https://interactsoftware.pinpointhq.com",
-    "page": "",
-    "urls": []
+    "name": "interactsoftware",
+    "ats": "workday",
+    "identifier": "interactsoftware-external",
+    "domain": "https://interactsoftware.wd502.myworkdayjobs.com/External",
+    "page": "https://interactsoftware.wd502.myworkdayjobs.com/wday/cxs/interactsoftware/External/jobs",
+    "urls": [
+      "https://interactsoftware.wd502.myworkdayjobs.com/en-US/External/job/Philippines---Manila-Office/Senior-Software-Engineer_/apply/applyManually"
+    ]
   },
   {
     "name": "Interco",
