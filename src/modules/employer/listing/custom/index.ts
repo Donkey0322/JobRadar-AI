@@ -7,7 +7,6 @@ import type { Company, Job } from "@/types";
 import { Employer } from "../../employer";
 
 import { AmazonCompany, fetchAmazon } from "./amazon";
-import { AMDCompany, fetchAMD } from "./amd";
 import { AppleCompany, fetchApple } from "./apple";
 import { ByteDanceCompany, fetchByteDance } from "./bytedance";
 import { fetchGoogle, GoogleCompany } from "./google";
@@ -49,8 +48,6 @@ export class CustomFetcher extends Employer<Job> {
         return TikTokCompany;
       case "bytedance":
         return ByteDanceCompany;
-      case "amd":
-        return AMDCompany;
       default: {
         identifier satisfies null;
         const fallback = this.getIdentifier(url);
@@ -130,9 +127,6 @@ export class CustomFetcher extends Employer<Job> {
         }
         case "bytedance": {
           return await fetchByteDance(company, knownKeys, signal);
-        }
-        case "amd": {
-          return await fetchAMD(company, knownKeys, signal);
         }
         default:
           identifier satisfies null;

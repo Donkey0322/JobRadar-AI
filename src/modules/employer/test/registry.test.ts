@@ -23,6 +23,7 @@ import type { Company } from "@/types";
 
 import { Employer } from "../employer";
 import { ashbyFetcher } from "../listing/ashby";
+import { bambooHRFetcher } from "../listing/bamboohr";
 import { customFetcher } from "../listing/custom";
 import { eightfoldFetcher } from "../listing/eightfold";
 import { greenhouseFetcher } from "../listing/greenhouse";
@@ -42,6 +43,7 @@ import { buildCompanyList } from "@/modules/employer/build";
 
 const allATS = [
   "ashby",
+  "bamboohr",
   "eightfold",
   "greenhouse",
   "icims",
@@ -68,6 +70,7 @@ describe("ATS fetcher registry", () => {
     expect(Object.keys(employers).sort()).toEqual([...allATS].sort());
     expect(employers).toEqual({
       ashby: ashbyFetcher,
+      bamboohr: bambooHRFetcher,
       eightfold: eightfoldFetcher,
       greenhouse: greenhouseFetcher,
       icims: icimsFetcher,

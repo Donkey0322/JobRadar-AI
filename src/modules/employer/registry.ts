@@ -3,6 +3,7 @@ import type { ATS } from "./type";
 import type { Company } from "@/types";
 
 import { ashbyFetcher } from "./listing/ashby";
+import { bambooHRFetcher } from "./listing/bamboohr";
 import { customFetcher } from "./listing/custom";
 import { eightfoldFetcher } from "./listing/eightfold";
 import { greenhouseFetcher } from "./listing/greenhouse";
@@ -19,6 +20,7 @@ import { workdayFetcher } from "./listing/workday";
 
 export const employers = {
   ashby: ashbyFetcher,
+  bamboohr: bambooHRFetcher,
   eightfold: eightfoldFetcher,
   greenhouse: greenhouseFetcher,
   icims: icimsFetcher,

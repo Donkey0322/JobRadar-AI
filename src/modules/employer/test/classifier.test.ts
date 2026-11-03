@@ -25,6 +25,9 @@ describe("classifyATS", () => {
       "rippling",
     ],
     ["https://ats.rippling.com/en-GB/moon/jobs/8b81bca7-1a64-4377-8ea8-869aac03080b", "rippling"],
+    ["https://mujin.bamboohr.com/careers/126", "bamboohr"],
+    ["https://nexthopai.bamboohr.com/careers/list", "bamboohr"],
+    ["https://www.bamboohr.com/careers/", "custom"],
     ["https://careers.arm.com/job/bengaluru/ip-verification-engineer/33099/99500560928", "radancy"],
     ["https://careers.arm.com/search-jobs", "radancy"],
     ["https://careers.cargill.com/en/search-jobs/resultspost", "radancy"],
@@ -71,7 +74,8 @@ describe("classifyATS", () => {
     ["https://i3-corps.jibeapply.com/jobs/5420?lang=en-us", "icims"],
     ["https://careers.akima.com/jobs?keywords=&page=1", "icims"],
     ["https://careers.jhuapl.edu/jobs/60115", "icims"],
-    ["https://careers.amd.com/jobs/90305?icims=1", "custom"],
+    ["https://careers.amd.com/jobs/90305?icims=1", "icims"],
+    ["https://careers.amd.com/careers-home/jobs", "icims"],
   ])("routes iCIMS Jibe sites in %s", (url, ats) => {
     expect(classifyATS(new URL(url))).toBe(ats);
   });

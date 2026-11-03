@@ -1,5 +1,6 @@
 import {
   getAshbyKey,
+  getBambooHRKey,
   getCustomKey,
   getEightfoldKey,
   getGreenhouseKey,
@@ -26,6 +27,9 @@ export function getJobKey(url: string) {
     switch (ats) {
       case "ashby":
         return getAshbyKey(u) ?? `ashby:${normalizeUrl(url)}`;
+
+      case "bamboohr":
+        return getBambooHRKey(u) ?? `bamboohr:${normalizeUrl(url)}`;
 
       case "eightfold":
         return getEightfoldKey(u) ?? `eightfold:${normalizeUrl(url)}`;

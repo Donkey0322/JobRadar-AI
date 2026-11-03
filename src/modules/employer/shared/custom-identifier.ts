@@ -5,8 +5,7 @@ export type CustomCompanyIdentifier =
   | "apple"
   | "netflix"
   | "tiktok"
-  | "bytedance"
-  | "amd";
+  | "bytedance";
 
 export const CUSTOM_COMPANY_DOMAINS = {
   amazon: "amazon.jobs",
@@ -16,7 +15,6 @@ export const CUSTOM_COMPANY_DOMAINS = {
   netflix: "netflix.net",
   tiktok: "tiktok.com",
   bytedance: "bytedance.com",
-  amd: "amd.com",
 } satisfies Record<CustomCompanyIdentifier, string>;
 
 export function parseCustomCompanyIdentifier(url: URL): CustomCompanyIdentifier | null {

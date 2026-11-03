@@ -13,7 +13,6 @@ import { describe, expect, it } from "vitest";
 import type { ZodType } from "zod";
 
 import { AmazonCompany, AmazonResponseSchema } from "../amazon";
-import { AMDCompany, AMDResponseSchema } from "../amd";
 import { AppleCompany, parseAppleJobs } from "../apple";
 import { ByteDanceCompany, ByteDanceResponseSchema } from "../bytedance";
 import { GoogleCompany, GoogleJobSchema } from "../google";
@@ -84,31 +83,6 @@ describe("Netflix", () => {
       expect(data.positions.length, "expected at least one position in response").toBeGreaterThan(
         0
       );
-    },
-    TIMEOUT
-  );
-});
-
-// ---------------------------------------------------------------------------
-// AMD
-// ---------------------------------------------------------------------------
-
-describe("AMD", () => {
-  it(
-    "response matches AMDResponseSchema",
-    async () => {
-      const url = new URL(AMDCompany.page);
-      url.pathname = "/api/jobs";
-      url.searchParams.set("sortBy", "posted_date");
-      url.searchParams.set("descending", "true");
-      url.searchParams.set("page", "1");
-      url.searchParams.set("internal", "false");
-
-      const data = await fetchJsonContract(url, AMDResponseSchema, {
-        headers: { Accept: "application/json" },
-      });
-
-      expect(data.jobs.length, "expected at least one job in response").toBeGreaterThan(0);
     },
     TIMEOUT
   );

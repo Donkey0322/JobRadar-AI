@@ -1,5 +1,6 @@
 import type { ATS } from "./type";
 
+import { isBambooHRHost } from "./shared/bamboohr";
 import { isJazzHRUrl } from "./shared/jazzhr";
 import { isJibeUrl } from "./shared/jibe";
 import { isRadancyUrl } from "./shared/radancy";
@@ -13,8 +14,6 @@ const hostToATS: Record<string, ATS> = {
   "deere.com": "greenhouse",
   "hudsonrivertrading.com": "greenhouse",
   "apply.careers.microsoft.com": "eightfold",
-  // AMD is a Jibe site but keeps its own custom fetcher.
-  "careers.amd.com": "custom",
 };
 
 export function classifyATS(url: URL): ATS {
@@ -44,6 +43,8 @@ export function classifyATS(url: URL): ATS {
     return "eightfold";
   } else if (isRipplingHost(url)) {
     return "rippling";
+  } else if (isBambooHRHost(url)) {
+    return "bamboohr";
   }
 
   if (url.searchParams.get("8fold_id")) return "eightfold";

@@ -6,6 +6,13 @@ export {
   type AshbyJob,
 } from "./ashby";
 export {
+  BambooHRFetcher,
+  bambooHRFetcher,
+  BambooHRJobSchema,
+  BambooHRResponseSchema,
+  type BambooHRJob,
+} from "./bamboohr";
+export {
   CustomFetcher,
   customFetcher,
   CUSTOM_COMPANY_DOMAINS,

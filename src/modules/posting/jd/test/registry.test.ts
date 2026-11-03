@@ -3,6 +3,7 @@ import { describe, expect, it, vi } from "vitest";
 import type { ATS } from "@/modules/employer/type";
 
 import { fetchAshbyJD } from "../ashby";
+import { fetchBambooHRJD } from "../bamboohr";
 import { fetchCustomJD } from "../custom";
 import { fetchEightfoldJD } from "../eightfold";
 import { JD_FETCH_OK } from "../fetch";
@@ -17,6 +18,7 @@ describe("posting JD registry", () => {
   it("dispatches every ATS to its fetcher", () => {
     expect(postingJDFetchers).toEqual({
       ashby: fetchAshbyJD,
+      bamboohr: fetchBambooHRJD,
       eightfold: fetchEightfoldJD,
       greenhouse: fetchGreenhouseJD,
       icims: fetchIcimsJD,

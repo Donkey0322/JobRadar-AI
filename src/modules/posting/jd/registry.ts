@@ -2,6 +2,7 @@ import type { JDFetchResult } from "./fetch";
 import type { ATS } from "@/modules/employer/type";
 
 import { fetchAshbyJD } from "./ashby";
+import { fetchBambooHRJD } from "./bamboohr";
 import { fetchCustomJD } from "./custom";
 import { fetchEightfoldJD } from "./eightfold";
 import { fetchGreenhouseJD } from "./greenhouse";
@@ -14,6 +15,7 @@ export type PostingJDFetcher = (url: string, signal: AbortSignal) => Promise<JDF
 
 export const postingJDFetchers = {
   ashby: fetchAshbyJD,
+  bamboohr: fetchBambooHRJD,
   eightfold: fetchEightfoldJD,
   greenhouse: fetchGreenhouseJD,
   icims: fetchIcimsJD,

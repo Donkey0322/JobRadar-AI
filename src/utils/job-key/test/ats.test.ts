@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 
 import {
   getAshbyKey,
+  getBambooHRKey,
   getCustomKey,
   getEightfoldKey,
   getGreenhouseKey,
@@ -392,6 +393,23 @@ describe("getRadancyKey", () => {
 
   it("returns null when the path is not a Radancy job URL", () => {
     expect(getRadancyKey("/job/123456/software-engineer")).toBeNull();
+  });
+});
+
+describe("getBambooHRKey", () => {
+  it("scopes the per-company job id by tenant", () => {
+    const page = new URL("https://mujin.bamboohr.com/careers/126");
+    const detail = new URL("https://Mujin.bamboohr.com/careers/126/detail");
+
+    expect(getBambooHRKey(page)).toBe("bamboohr:mujin:126");
+    expect(getBambooHRKey(detail)).toBe(getBambooHRKey(page));
+    expect(getBambooHRKey(new URL("https://lexical.bamboohr.com/careers/126"))).toBe(
+      "bamboohr:lexical:126"
+    );
+  });
+
+  it("returns null for the board page", () => {
+    expect(getBambooHRKey(new URL("https://mujin.bamboohr.com/careers"))).toBeNull();
   });
 });
 

@@ -1,5 +1,6 @@
 import { getLastPathNumber } from "./url";
 
+import { getBambooHRJobId, getBambooHRSlug } from "@/modules/employer/shared/bamboohr";
 import { parseCustomCompanyIdentifier } from "@/modules/employer/shared/custom-identifier";
 import { getJazzHRJobId } from "@/modules/employer/shared/jazzhr";
 import { getRipplingJobId } from "@/modules/employer/shared/rippling";
@@ -104,6 +105,12 @@ export function getPhenomKey(pathname: string): string | null {
 export function getRadancyKey(pathname: string): string | null {
   const match = pathname.match(/\/job\/[^/]+\/[^/]+\/\d+\/(\d+)(?:\/|$)/i);
   return toATSKey("radancy", match?.[1]);
+}
+
+export function getBambooHRKey(url: URL): string | null {
+  const id = getBambooHRJobId(url.pathname);
+  // Job IDs are per-company counters (24, 119, …).
+  return toATSKey("bamboohr", id ? `${getBambooHRSlug(url)}:${id}` : null);
 }
 
 export function getJazzHRKey(url: URL): string | null {

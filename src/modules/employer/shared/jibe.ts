@@ -28,7 +28,12 @@ const JibeResponseSchema = z.object({
 });
 
 /** Jibe sites whose job links show up without `?icims=1`. */
-const JIBE_HOSTS = new Set(["careers.akima.com", "careers.arcfield.com", "careers.jhuapl.edu"]);
+const JIBE_HOSTS = new Set([
+  "careers.akima.com",
+  "careers.amd.com",
+  "careers.arcfield.com",
+  "careers.jhuapl.edu",
+]);
 
 export function isJibeUrl(url: URL): boolean {
   return (

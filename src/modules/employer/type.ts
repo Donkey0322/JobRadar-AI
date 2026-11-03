@@ -1,5 +1,6 @@
 export type ATS =
   | "ashby"
+  | "bamboohr"
   | "eightfold"
   | "greenhouse"
   | "icims"
