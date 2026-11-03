@@ -58,6 +58,7 @@ export {
   TRACKING_PARAM as PHENOM_TRACKING_PARAM,
   type PhenomJob,
 } from "./phenom";
+export { PinpointFetcher, pinpointFetcher, type PinpointJob } from "./pinpoint";
 export {
   RadancyFetcher,
   radancyFetcher,

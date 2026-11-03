@@ -27,6 +27,8 @@ describe("classifyATS", () => {
     ["https://ats.rippling.com/en-GB/moon/jobs/8b81bca7-1a64-4377-8ea8-869aac03080b", "rippling"],
     ["https://mujin.bamboohr.com/careers/126", "bamboohr"],
     ["https://nexthopai.bamboohr.com/careers/list", "bamboohr"],
+    ["https://idtus.pinpointhq.com/en/postings/bca05641-f7af-494f-8b1e-dea500ca25e0", "pinpoint"],
+    ["https://www.pinpointhq.com/", "custom"],
     ["https://www.bamboohr.com/careers/", "custom"],
     ["https://careers.arm.com/job/bengaluru/ip-verification-engineer/33099/99500560928", "radancy"],
     ["https://careers.arm.com/search-jobs", "radancy"],

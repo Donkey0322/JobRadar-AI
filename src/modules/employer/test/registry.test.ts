@@ -32,6 +32,7 @@ import { jazzHRFetcher } from "../listing/jazzhr";
 import { leverFetcher } from "../listing/lever";
 import { oracleCloudFetcher } from "../listing/oraclecloud";
 import { phenomFetcher } from "../listing/phenom";
+import { pinpointFetcher } from "../listing/pinpoint";
 import { radancyFetcher } from "../listing/radancy";
 import { ripplingFetcher } from "../listing/rippling";
 import { smartRecruitersFetcher } from "../listing/smart";
@@ -51,6 +52,7 @@ const allATS = [
   "lever",
   "oraclecloud",
   "phenom",
+  "pinpoint",
   "radancy",
   "rippling",
   "smartrecruiters",
@@ -78,6 +80,7 @@ describe("ATS fetcher registry", () => {
       lever: leverFetcher,
       oraclecloud: oracleCloudFetcher,
       phenom: phenomFetcher,
+      pinpoint: pinpointFetcher,
       radancy: radancyFetcher,
       rippling: ripplingFetcher,
       smartrecruiters: smartRecruitersFetcher,

@@ -8,6 +8,7 @@ export type ATS =
   | "lever"
   | "oraclecloud"
   | "phenom"
+  | "pinpoint"
   | "radancy"
   | "rippling"
   | "smartrecruiters"

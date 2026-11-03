@@ -3,6 +3,7 @@ import { getLastPathNumber } from "./url";
 import { getBambooHRJobId, getBambooHRSlug } from "@/modules/employer/shared/bamboohr";
 import { parseCustomCompanyIdentifier } from "@/modules/employer/shared/custom-identifier";
 import { getJazzHRJobId } from "@/modules/employer/shared/jazzhr";
+import { getPinpointPostingId } from "@/modules/employer/shared/pinpoint";
 import { getRipplingJobId } from "@/modules/employer/shared/rippling";
 import { getSuccessFactorsJobId } from "@/modules/employer/shared/successfactors";
 import { getHostnameWithoutWww } from "@/utils/url";
@@ -102,6 +103,10 @@ export function getPhenomKey(url: URL): string | null {
   const id = url.searchParams.get("ph_id") ?? url.pathname.match(/\/job\/([^/]+)/i)?.[1];
   // Job IDs (e.g. R160198) are only unique within one Phenom site, and the locale path varies.
   return toATSKey("phenom", id ? `${getHostnameWithoutWww(url)}:${id.toLowerCase()}` : null);
+}
+
+export function getPinpointKey(url: URL): string | null {
+  return toATSKey("pinpoint", getPinpointPostingId(url.pathname));
 }
 
 export function getRadancyKey(pathname: string): string | null {

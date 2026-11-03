@@ -8,6 +8,7 @@ import { fetchEightfoldJD } from "./eightfold";
 import { fetchGreenhouseJD } from "./greenhouse";
 import { fetchIcimsJD } from "./icims";
 import { fetchOracleJD } from "./oraclecloud";
+import { fetchPinpointJD } from "./pinpoint";
 import { fetchSmartRecruitersJD } from "./smart";
 import { fetchWorkdayJD } from "./workday";
 
@@ -20,6 +21,7 @@ export const postingJDFetchers = {
   greenhouse: fetchGreenhouseJD,
   icims: fetchIcimsJD,
   oraclecloud: fetchOracleJD,
+  pinpoint: fetchPinpointJD,
   smartrecruiters: fetchSmartRecruitersJD,
   workday: fetchWorkdayJD,
 

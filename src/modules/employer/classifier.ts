@@ -3,6 +3,7 @@ import type { ATS } from "./type";
 import { isBambooHRHost } from "./shared/bamboohr";
 import { isJazzHRUrl } from "./shared/jazzhr";
 import { isJibeUrl } from "./shared/jibe";
+import { isPinpointHost } from "./shared/pinpoint";
 import { isRadancyUrl } from "./shared/radancy";
 import { isRipplingHost } from "./shared/rippling";
 import { isSuccessFactorsUrl } from "./shared/successfactors";
@@ -49,6 +50,8 @@ export function classifyATS(url: URL): ATS {
     return "rippling";
   } else if (isBambooHRHost(url)) {
     return "bamboohr";
+  } else if (isPinpointHost(url)) {
+    return "pinpoint";
   }
 
   if (url.searchParams.get("8fold_id")) return "eightfold";

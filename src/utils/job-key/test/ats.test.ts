@@ -11,6 +11,7 @@ import {
   getLeverKey,
   getOracleKey,
   getPhenomKey,
+  getPinpointKey,
   getRadancyKey,
   getRipplingKey,
   getSmartRecruitersKey,
@@ -566,6 +567,23 @@ describe("getPhenomKey", () => {
 
   it("returns null without a job id", () => {
     expect(getPhenomKey(new URL("https://careers.adobe.com/us/en/search-results"))).toBeNull();
+  });
+});
+
+describe("getPinpointKey", () => {
+  it("keys a posting by its UUID, ignoring locale and tracking params", () => {
+    const id = "bca05641-f7af-494f-8b1e-dea500ca25e0";
+
+    expect(getPinpointKey(new URL(`https://idtus.pinpointhq.com/en/postings/${id}`))).toBe(
+      `pinpoint:${id}`
+    );
+    expect(getJobKey(`https://idtus.pinpointhq.com/en/postings/${id}?ats=pinpointhq`)).toBe(
+      getJobKey(`https://idtus.pinpointhq.com/postings/${id.toUpperCase()}`)
+    );
+  });
+
+  it("returns null without a posting UUID", () => {
+    expect(getPinpointKey(new URL("https://idtus.pinpointhq.com/en/postings"))).toBeNull();
   });
 });
 

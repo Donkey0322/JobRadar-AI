@@ -9,6 +9,7 @@ import {
   getLeverKey,
   getOracleKey,
   getPhenomKey,
+  getPinpointKey,
   getRadancyKey,
   getRipplingKey,
   getSmartRecruitersKey,
@@ -51,6 +52,9 @@ export function getJobKey(url: string) {
 
       case "phenom":
         return getPhenomKey(u) ?? `phenom:${normalizeUrl(url)}`;
+
+      case "pinpoint":
+        return getPinpointKey(u) ?? `pinpoint:${normalizeUrl(url)}`;
 
       case "radancy":
         return getRadancyKey(u.pathname) ?? `radancy:${normalizeUrl(url)}`;
