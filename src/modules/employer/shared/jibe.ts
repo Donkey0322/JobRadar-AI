@@ -33,12 +33,42 @@ const JIBE_HOSTS = new Set([
   "careers.akima.com",
   "careers.amd.com",
   "careers.arcfield.com",
+  "careers.cobank.com",
+  "careers.ctg.com",
+  "careers.fastenterprises.com",
+  "careers.gov2x.com",
+  "careers.heb.com",
+  "careers.ice.com",
   "careers.jhuapl.edu",
+  "careers.kpmg.ca",
+  "careers.lutron.com",
+  "careers.na.panasonic.com",
+  "careers.noblis.org",
+  "careers.planview.com",
+  "careers.principal.com",
+  "careers.reliance.com",
+  "careers.rivian.com",
+  "careers.spiritaero.com",
+  "careers.usoncology.com",
+  "careers.viasat.com",
+  "jobs.constellationenergy.com",
+  "jobs.keysight.com",
+  "jobs.postholdings.com",
+  "jobs.statefarm.com",
+  "jobs.uhsinc.com",
+  "osfcareers.org",
 ]);
 
 /** Names that differ from the site's `hiring_organization`. */
 const COMPANY_NAMES: Record<string, string> = {
   "careers.amd.com": "AMD",
+  "careers.ice.com": "Intercontinental Exchange",
+  "careers.lutron.com": "Lutron",
+  "careers.planview.com": "Planview",
+  "careers.principal.com": "Principal",
+  "careers.reliance.com": "Reliance",
+  "jobs.postholdings.com": "Post Holdings",
+  "jobs.uhsinc.com": "Universal Health Services",
 };
 
 export function jibeCompanyName(hiringOrganization: string | null, url: URL): string | null {

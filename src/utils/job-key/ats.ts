@@ -2,6 +2,7 @@ import { getLastPathNumber } from "./url";
 
 import { getBambooHRJobId, getBambooHRSlug } from "@/modules/employer/shared/bamboohr";
 import { parseCustomCompanyIdentifier } from "@/modules/employer/shared/custom-identifier";
+import { greenhouseCareerSiteJobId } from "@/modules/employer/shared/greenhouse";
 import { getJazzHRJobId } from "@/modules/employer/shared/jazzhr";
 import { getPinpointPostingId } from "@/modules/employer/shared/pinpoint";
 import { getRipplingJobId } from "@/modules/employer/shared/rippling";
@@ -33,7 +34,7 @@ export function getGreenhouseKey(u: URL): string | null {
   const token = u.searchParams.get("token");
   if (token) return toATSKey("greenhouse", token);
 
-  return null;
+  return toATSKey("greenhouse", greenhouseCareerSiteJobId(u));
 }
 
 export function getWorkdayKey(url: string): string | null {

@@ -90,13 +90,6 @@ describe("classifyATS", () => {
 
   it("falls back to custom", () => {
     expect(classifyATS(new URL("https://careers.example.com/job/1"))).toBe("custom");
-    expect(
-      classifyATS(
-        new URL(
-          "https://www.databricks.com/company/careers/university-recruiting---engineering/software-engineer---new-grad-distributed-data-systems-2027-start-6865704002"
-        )
-      )
-    ).toBe("custom");
   });
 });
 
@@ -121,6 +114,31 @@ describe("career sites in the host map", () => {
       "https://careers.zebra.com/careers/job/343621947586",
       "https://zebra.eightfold.ai/careers/job/343621947586?domain=zebra.com&8fold_id=343621947586",
       "eightfold:zebra",
+    ],
+    [
+      "https://careers.qualcomm.com/careers?query=software&start=0&pid=446716309588&sort_by=relevance",
+      "https://qualcomm.eightfold.ai/careers/job/446716309588",
+      "eightfold:qualcomm",
+    ],
+    [
+      "https://www.databricks.com/company/careers/university-recruiting---engineering/software-engineer---new-grad-distributed-data-systems-2027-start-6865704002",
+      "https://job-boards.greenhouse.io/databricks/jobs/6865704002",
+      "greenhouse:databricks",
+    ],
+    [
+      "https://www.squarepoint-capital.com/open-opportunities?id=243853",
+      "https://job-boards.greenhouse.io/squarepointcapital/jobs/243853",
+      "greenhouse:squarepointcapital",
+    ],
+    [
+      "https://jobs.ascension.org/us/en/job/R123456",
+      "https://jobs.ascension.org/us/en/job/R123456?ph_id=R123456",
+      "phenom:jobs.ascension.org",
+    ],
+    [
+      "https://jobs.statefarm.com/jobs/45123",
+      "https://jobs.statefarm.com/jobs/45123?icims=1",
+      "icims:jobs.statefarm.com",
     ],
   ])("files %s with the board's own links", (siteUrl, boardUrl, companyKey) => {
     const url = new URL(siteUrl);

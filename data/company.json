@@ -12209,14 +12209,6 @@
     "urls": []
   },
   {
-    "name": "careers.bankofamerica.com",
-    "ats": "custom",
-    "identifier": "careers.bankofamerica.com",
-    "domain": "https://careers.bankofamerica.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "careers.bcg.com",
     "ats": "phenom",
     "identifier": "careers.bcg.com",
@@ -12641,11 +12633,11 @@
     ]
   },
   {
-    "name": "careers.cobank.com",
-    "ats": "custom",
+    "name": "CoBank",
+    "ats": "icims",
     "identifier": "careers.cobank.com",
     "domain": "https://careers.cobank.com",
-    "page": "",
+    "page": "https://careers.cobank.com/api/jobs",
     "urls": []
   },
   {
@@ -12657,23 +12649,12 @@
     "urls": []
   },
   {
-    "name": "careers.ctg.com",
-    "ats": "custom",
+    "name": "Computer Task Group",
+    "ats": "icims",
     "identifier": "careers.ctg.com",
     "domain": "https://careers.ctg.com",
-    "page": "",
+    "page": "https://careers.ctg.com/api/jobs",
     "urls": []
-  },
-  {
-    "name": "careers.dexcom.com",
-    "ats": "custom",
-    "identifier": "careers.dexcom.com",
-    "domain": "https://careers.dexcom.com",
-    "page": "",
-    "urls": [
-      "https://careers.dexcom.com/careers/job/37990370",
-      "https://careers.dexcom.com/careers/job/38039370"
-    ]
   },
   {
     "name": "careers.docusign.com",
@@ -12687,19 +12668,11 @@
     ]
   },
   {
-    "name": "careers.dovercorporation.com",
-    "ats": "custom",
-    "identifier": "careers.dovercorporation.com",
-    "domain": "https://careers.dovercorporation.com",
-    "page": "",
-    "urls": []
-  },
-  {
-    "name": "careers.fastenterprises.com",
-    "ats": "custom",
+    "name": "Fast Enterprises",
+    "ats": "icims",
     "identifier": "careers.fastenterprises.com",
     "domain": "https://careers.fastenterprises.com",
-    "page": "",
+    "page": "https://careers.fastenterprises.com/api/jobs",
     "urls": []
   },
   {
@@ -12714,11 +12687,11 @@
     ]
   },
   {
-    "name": "careers.gov2x.com",
-    "ats": "custom",
+    "name": "V2X",
+    "ats": "icims",
     "identifier": "careers.gov2x.com",
     "domain": "https://careers.gov2x.com",
-    "page": "",
+    "page": "https://careers.gov2x.com/api/jobs",
     "urls": []
   },
   {
@@ -12730,19 +12703,19 @@
     "urls": []
   },
   {
-    "name": "careers.heb.com",
-    "ats": "custom",
+    "name": "HEB",
+    "ats": "icims",
     "identifier": "careers.heb.com",
     "domain": "https://careers.heb.com",
-    "page": "",
+    "page": "https://careers.heb.com/api/jobs",
     "urls": []
   },
   {
     "name": "careers.hellofresh.com",
-    "ats": "custom",
+    "ats": "phenom",
     "identifier": "careers.hellofresh.com",
     "domain": "https://careers.hellofresh.com",
-    "page": "",
+    "page": "https://careers.hellofresh.com",
     "urls": []
   },
   {
@@ -12954,11 +12927,11 @@
     ]
   },
   {
-    "name": "careers.ice.com",
-    "ats": "custom",
+    "name": "Intercontinental Exchange",
+    "ats": "icims",
     "identifier": "careers.ice.com",
     "domain": "https://careers.ice.com",
-    "page": "",
+    "page": "https://careers.ice.com/api/jobs",
     "urls": []
   },
   {
@@ -13059,11 +13032,11 @@
     ]
   },
   {
-    "name": "careers.kpmg.ca",
-    "ats": "custom",
+    "name": "KPMG",
+    "ats": "icims",
     "identifier": "careers.kpmg.ca",
     "domain": "https://careers.kpmg.ca",
-    "page": "",
+    "page": "https://careers.kpmg.ca/api/jobs",
     "urls": []
   },
   {
@@ -13075,11 +13048,11 @@
     "urls": []
   },
   {
-    "name": "careers.lutron.com",
-    "ats": "custom",
+    "name": "Lutron",
+    "ats": "icims",
     "identifier": "careers.lutron.com",
     "domain": "https://careers.lutron.com",
-    "page": "",
+    "page": "https://careers.lutron.com/api/jobs",
     "urls": []
   },
   {
@@ -13089,18 +13062,6 @@
     "domain": "https://careers.merzaesthetics.com",
     "page": "https://careers.merzaesthetics.com",
     "urls": []
-  },
-  {
-    "name": "careers.micron.com",
-    "ats": "custom",
-    "identifier": "careers.micron.com",
-    "domain": "https://careers.micron.com",
-    "page": "",
-    "urls": [
-      "https://careers.micron.com/careers/job/38038147",
-      "https://careers.micron.com/careers/job/38429491",
-      "https://careers.micron.com/careers/job/39424002?domain=micron.com"
-    ]
   },
   {
     "name": "careers.mitre.org",
@@ -13168,11 +13129,11 @@
     "urls": []
   },
   {
-    "name": "careers.na.panasonic.com",
-    "ats": "custom",
+    "name": "Panasonic",
+    "ats": "icims",
     "identifier": "careers.na.panasonic.com",
     "domain": "https://careers.na.panasonic.com",
-    "page": "",
+    "page": "https://careers.na.panasonic.com/api/jobs",
     "urls": []
   },
   {
@@ -13195,11 +13156,11 @@
     "urls": []
   },
   {
-    "name": "careers.noblis.org",
-    "ats": "custom",
+    "name": "Noblis",
+    "ats": "icims",
     "identifier": "careers.noblis.org",
     "domain": "https://careers.noblis.org",
-    "page": "",
+    "page": "https://careers.noblis.org/api/jobs",
     "urls": []
   },
   {
@@ -13229,11 +13190,11 @@
     "urls": []
   },
   {
-    "name": "careers.planview.com",
-    "ats": "custom",
+    "name": "Planview",
+    "ats": "icims",
     "identifier": "careers.planview.com",
     "domain": "https://careers.planview.com",
-    "page": "",
+    "page": "https://careers.planview.com/api/jobs",
     "urls": []
   },
   {
@@ -13270,11 +13231,11 @@
     ]
   },
   {
-    "name": "careers.principal.com",
-    "ats": "custom",
+    "name": "Principal",
+    "ats": "icims",
     "identifier": "careers.principal.com",
     "domain": "https://careers.principal.com",
-    "page": "",
+    "page": "https://careers.principal.com/api/jobs",
     "urls": []
   },
   {
@@ -13288,16 +13249,6 @@
     ]
   },
   {
-    "name": "careers.qualcomm.com",
-    "ats": "custom",
-    "identifier": "careers.qualcomm.com",
-    "domain": "https://careers.qualcomm.com",
-    "page": "",
-    "urls": [
-      "https://careers.qualcomm.com/careers?query=software&start=0&pid=446716309588&sort_by=relevance"
-    ]
-  },
-  {
     "name": "careers.qualitestgroup.com",
     "ats": "successfactors",
     "identifier": "careers.qualitestgroup.com",
@@ -13308,30 +13259,20 @@
     ]
   },
   {
-    "name": "careers.reliance.com",
-    "ats": "custom",
+    "name": "Reliance",
+    "ats": "icims",
     "identifier": "careers.reliance.com",
     "domain": "https://careers.reliance.com",
-    "page": "",
+    "page": "https://careers.reliance.com/api/jobs",
     "urls": []
   },
   {
-    "name": "careers.rivian.com",
-    "ats": "custom",
+    "name": "Rivian",
+    "ats": "icims",
     "identifier": "careers.rivian.com",
     "domain": "https://careers.rivian.com",
-    "page": "",
+    "page": "https://careers.rivian.com/api/jobs",
     "urls": []
-  },
-  {
-    "name": "careers.sig.com",
-    "ats": "custom",
-    "identifier": "careers.sig.com",
-    "domain": "https://careers.sig.com",
-    "page": "",
-    "urls": [
-      "https://careers.sig.com/jobs/10837?lang=en-us&mode=apply&iis=LinkedIn&jr_id=69f3d11158b23a2329da8088"
-    ]
   },
   {
     "name": "careers.skyworksinc.com",
@@ -13380,11 +13321,11 @@
     ]
   },
   {
-    "name": "careers.spiritaero.com",
-    "ats": "custom",
+    "name": "Spirit AeroSystems",
+    "ats": "icims",
     "identifier": "careers.spiritaero.com",
     "domain": "https://careers.spiritaero.com",
-    "page": "",
+    "page": "https://careers.spiritaero.com/api/jobs",
     "urls": []
   },
   {
@@ -13448,11 +13389,11 @@
     ]
   },
   {
-    "name": "careers.usoncology.com",
-    "ats": "custom",
+    "name": "The US Oncology Network",
+    "ats": "icims",
     "identifier": "careers.usoncology.com",
     "domain": "https://careers.usoncology.com",
-    "page": "",
+    "page": "https://careers.usoncology.com/api/jobs",
     "urls": []
   },
   {
@@ -13467,19 +13408,19 @@
     ]
   },
   {
-    "name": "careers.viasat.com",
-    "ats": "custom",
+    "name": "Viasat",
+    "ats": "icims",
     "identifier": "careers.viasat.com",
     "domain": "https://careers.viasat.com",
-    "page": "",
+    "page": "https://careers.viasat.com/api/jobs",
     "urls": []
   },
   {
     "name": "careers.zimmerbiomet.com",
-    "ats": "custom",
+    "ats": "phenom",
     "identifier": "careers.zimmerbiomet.com",
     "domain": "https://careers.zimmerbiomet.com",
-    "page": "",
+    "page": "https://careers.zimmerbiomet.com",
     "urls": [
       "https://careers.zimmerbiomet.com/us/en/job/13309"
     ]
@@ -16386,16 +16327,7 @@
       "https://databricks.com/company/careers/open-positions/job?gh_jid=8847738002",
       "https://databricks.com/company/careers/open-positions/job?gh_jid=8847747002",
       "https://databricks.com/company/careers/open-positions/job?gh_jid=8878946002",
-      "https://databricks.com/company/careers/open-positions/job?gh_jid=8921476002"
-    ]
-  },
-  {
-    "name": "databricks.com",
-    "ats": "custom",
-    "identifier": "databricks.com",
-    "domain": "https://www.databricks.com",
-    "page": "",
-    "urls": [
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8921476002",
       "https://www.databricks.com/company/careers/university-recruiting---engineering/software-engineer---new-grad-distributed-data-systems-2027-start-6865704002"
     ]
   },
@@ -16707,6 +16639,8 @@
     "domain": "https://dexcom.wd1.myworkdayjobs.com/dexcom",
     "page": "https://dexcom.wd1.myworkdayjobs.com/wday/cxs/dexcom/dexcom/jobs",
     "urls": [
+      "https://careers.dexcom.com/careers/job/37990370",
+      "https://careers.dexcom.com/careers/job/38039370",
       "https://dexcom.wd1.myworkdayjobs.com/dexcom/job/Bengaluru-India/SW-Development-Engineer-1---Android_JR117890",
       "https://dexcom.wd1.myworkdayjobs.com/dexcom/job/Bengaluru-India/Software-QA-Engineer-1_JR119756",
       "https://dexcom.wd1.myworkdayjobs.com/dexcom/job/Bengaluru-India/Sr-SW-Development-Engineer---Android_JR121104",
@@ -17272,17 +17206,6 @@
     ]
   },
   {
-    "name": "drw.com",
-    "ats": "custom",
-    "identifier": "drw.com",
-    "domain": "https://www.drw.com",
-    "page": "",
-    "urls": [
-      "https://www.drw.com/work-at-drw/listings/software-developer-intern-3466687",
-      "https://www.drw.com/work-at-drw/listings/software-developer-intern-3467328"
-    ]
-  },
-  {
     "name": "drweng",
     "ats": "greenhouse",
     "identifier": "drweng",
@@ -17343,7 +17266,9 @@
       "https://job-boards.greenhouse.io/drweng/jobs/8324747",
       "https://job-boards.greenhouse.io/drweng/jobs/8325351",
       "https://job-boards.greenhouse.io/drweng/jobs/8329685",
-      "https://job-boards.greenhouse.io/drweng/jobs/8336514"
+      "https://job-boards.greenhouse.io/drweng/jobs/8336514",
+      "https://www.drw.com/work-at-drw/listings/software-developer-intern-3466687",
+      "https://www.drw.com/work-at-drw/listings/software-developer-intern-3467328"
     ]
   },
   {
@@ -21436,6 +21361,14 @@
     ]
   },
   {
+    "name": "ghr",
+    "ats": "workday",
+    "identifier": "ghr-lateral-us",
+    "domain": "https://ghr.wd1.myworkdayjobs.com/Lateral-US",
+    "page": "https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/Lateral-US/jobs",
+    "urls": []
+  },
+  {
     "name": "gimlet",
     "ats": "ashby",
     "identifier": "gimlet",
@@ -25437,10 +25370,10 @@
   },
   {
     "name": "jobs.ascension.org",
-    "ats": "custom",
+    "ats": "phenom",
     "identifier": "jobs.ascension.org",
     "domain": "https://jobs.ascension.org",
-    "page": "",
+    "page": "https://jobs.ascension.org",
     "urls": []
   },
   {
@@ -25615,11 +25548,11 @@
     "urls": []
   },
   {
-    "name": "jobs.constellationenergy.com",
-    "ats": "custom",
+    "name": "Constellation Energy Generation",
+    "ats": "icims",
     "identifier": "jobs.constellationenergy.com",
     "domain": "https://jobs.constellationenergy.com",
-    "page": "",
+    "page": "https://jobs.constellationenergy.com/api/jobs",
     "urls": []
   },
   {
@@ -25748,19 +25681,11 @@
     ]
   },
   {
-    "name": "jobs.johnsoncontrols.com",
-    "ats": "custom",
-    "identifier": "jobs.johnsoncontrols.com",
-    "domain": "https://jobs.johnsoncontrols.com",
-    "page": "",
-    "urls": []
-  },
-  {
-    "name": "jobs.keysight.com",
-    "ats": "custom",
+    "name": "Keysight Technologies",
+    "ats": "icims",
     "identifier": "jobs.keysight.com",
     "domain": "https://jobs.keysight.com",
-    "page": "",
+    "page": "https://jobs.keysight.com/api/jobs",
     "urls": []
   },
   {
@@ -25780,11 +25705,11 @@
     "urls": []
   },
   {
-    "name": "jobs.postholdings.com",
-    "ats": "custom",
+    "name": "Post Holdings",
+    "ats": "icims",
     "identifier": "jobs.postholdings.com",
     "domain": "https://jobs.postholdings.com",
-    "page": "",
+    "page": "https://jobs.postholdings.com/api/jobs",
     "urls": []
   },
   {
@@ -25814,11 +25739,11 @@
     "urls": []
   },
   {
-    "name": "jobs.statefarm.com",
-    "ats": "custom",
+    "name": "State Farm",
+    "ats": "icims",
     "identifier": "jobs.statefarm.com",
     "domain": "https://jobs.statefarm.com",
-    "page": "",
+    "page": "https://jobs.statefarm.com/api/jobs",
     "urls": []
   },
   {
@@ -25830,11 +25755,11 @@
     "urls": []
   },
   {
-    "name": "jobs.uhsinc.com",
-    "ats": "custom",
+    "name": "Universal Health Services",
+    "ats": "icims",
     "identifier": "jobs.uhsinc.com",
     "domain": "https://jobs.uhsinc.com",
-    "page": "",
+    "page": "https://jobs.uhsinc.com/api/jobs",
     "urls": []
   },
   {
@@ -28960,16 +28885,7 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/mechanize",
     "urls": [
-      "https://jobs.ashbyhq.com/mechanize/d148d54f-6db7-4c28-9699-0304596f554e"
-    ]
-  },
-  {
-    "name": "mechanize.work",
-    "ats": "custom",
-    "identifier": "mechanize.work",
-    "domain": "https://www.mechanize.work",
-    "page": "",
-    "urls": [
+      "https://jobs.ashbyhq.com/mechanize/d148d54f-6db7-4c28-9699-0304596f554e",
       "https://www.mechanize.work/apply/software-engineer/?role=intern"
     ]
   },
@@ -29639,6 +29555,9 @@
     "domain": "https://micron.wd1.myworkdayjobs.com/External",
     "page": "https://micron.wd1.myworkdayjobs.com/wday/cxs/micron/External/jobs",
     "urls": [
+      "https://careers.micron.com/careers/job/38038147",
+      "https://careers.micron.com/careers/job/38429491",
+      "https://careers.micron.com/careers/job/39424002?domain=micron.com",
       "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/AI-Engineer_JR111826-1",
       "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/AI-Full-Stack-Engineer_JR113489",
       "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/AI-Full-Stack-Engineer_JR113490",
@@ -33139,11 +33058,11 @@
     "urls": []
   },
   {
-    "name": "osfcareers.org",
-    "ats": "custom",
+    "name": "OSF HealthCare",
+    "ats": "icims",
     "identifier": "osfcareers.org",
     "domain": "https://www.osfcareers.org",
-    "page": "",
+    "page": "https://www.osfcareers.org/api/jobs",
     "urls": []
   },
   {
@@ -35162,6 +35081,7 @@
     "domain": "qualcomm.com",
     "page": "https://qualcomm.eightfold.ai/api/pcsx/search?domain=qualcomm.com",
     "urls": [
+      "https://careers.qualcomm.com/careers?query=software&start=0&pid=446716309588&sort_by=relevance",
       "https://qualcomm.eightfold.ai/careers/job/446704270279?domain=qualcomm.com&8fold_id=446704270279",
       "https://qualcomm.eightfold.ai/careers/job/446714842012?domain=qualcomm.com&8fold_id=446714842012",
       "https://qualcomm.eightfold.ai/careers/job/446714958588?domain=qualcomm.com&8fold_id=446714958588",
@@ -38726,7 +38646,8 @@
       "https://careers-sig.icims.com/jobs/10900/application-%26-data-support-analyst---sql%7c-experienced-hire/job",
       "https://careers-sig.icims.com/jobs/11349/job?mobile=true&needsRedirect=false",
       "https://careers-sig.icims.com/jobs/11555/job?mobile=true&needsRedirect=false",
-      "https://careers-sig.icims.com/jobs/9407/associate-linux-window-engineer-%7c-platform-services-%7c-experienced-hire/job"
+      "https://careers-sig.icims.com/jobs/9407/associate-linux-window-engineer-%7c-platform-services-%7c-experienced-hire/job",
+      "https://careers.sig.com/jobs/10837?lang=en-us&mode=apply&iis=LinkedIn&jr_id=69f3d11158b23a2329da8088"
     ]
   },
   {
@@ -40044,16 +39965,6 @@
     "urls": []
   },
   {
-    "name": "squarepoint-capital.com",
-    "ats": "custom",
-    "identifier": "squarepoint-capital.com",
-    "domain": "https://www.squarepoint-capital.com",
-    "page": "",
-    "urls": [
-      "https://www.squarepoint-capital.com/open-opportunities?id=243853"
-    ]
-  },
-  {
     "name": "squarepointcapital",
     "ats": "greenhouse",
     "identifier": "squarepointcapital",
@@ -40061,6 +39972,7 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/squarepointcapital/jobs",
     "urls": [
       "https://www.squarepoint-capital.com/open-opportunities?id=1468761&gh_jid=1468761",
+      "https://www.squarepoint-capital.com/open-opportunities?id=243853",
       "https://www.squarepoint-capital.com/open-opportunities?id=271708&gh_jid=271708",
       "https://www.squarepoint-capital.com/open-opportunities?id=4346989&gh_jid=4346989",
       "https://www.squarepoint-capital.com/open-opportunities?id=4906785&gh_jid=4906785",

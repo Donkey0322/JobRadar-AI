@@ -11,6 +11,7 @@ const identifierMap: Record<string, string> = {
   "careers.dat.com": "datsolutions",
   "corporate.trustpilot.com": "trustpilot",
   "cra.com": "charlesriveranalytics90",
+  "databricks.com": "databricks",
   "digitalocean.com": "digitalocean98",
   "dltrading.io": "confidentialsportstradingfirm",
   "duolingo.com": "duolingo",
@@ -126,6 +127,13 @@ function slugJobId(pageUrl: string): string | null {
   } catch {
     return null;
   }
+}
+
+/** Job id a mapped career site puts outside the board path, e.g. `?id=243853` or `...-start-6865704002`. */
+export function greenhouseCareerSiteJobId(url: URL): string | null {
+  const id = url.searchParams.get("id");
+  if (id && /^\d+$/.test(id)) return id;
+  return slugJobId(url.href);
 }
 
 /**

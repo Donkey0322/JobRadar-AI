@@ -5,11 +5,13 @@ const domainMap: Record<string, string> = {
   "jobs.ericsson.com": "ericsson.com",
   "career.mlp.com": "mlp.com",
   "careers.zebra.com": "zebra.com",
+  "careers.qualcomm.com": "qualcomm.com",
 };
 
 /** Custom career hosts that front a tenant already stored under its *.eightfold.ai slug. */
 const tenantMap: Record<string, string> = {
   "career.mlp.com": "mlp",
+  "careers.qualcomm.com": "qualcomm",
   "careers.zebra.com": "zebra",
 };
 

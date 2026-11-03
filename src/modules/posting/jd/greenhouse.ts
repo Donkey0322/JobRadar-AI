@@ -7,7 +7,10 @@ import type { JDFetchResult } from "./fetch";
 
 import { fetchJD, JD_FETCH_ERROR } from "./fetch";
 
-import { resolveGreenhouseIdentifier } from "@/modules/employer/shared/greenhouse";
+import {
+  greenhouseCareerSiteJobId,
+  resolveGreenhouseIdentifier,
+} from "@/modules/employer/shared/greenhouse";
 
 const BoardJobSchema = z.object({
   jobs: z.array(z.object({ id: z.number(), title: z.string() })),
@@ -65,6 +68,11 @@ export async function parseGreenhouse(url: string, signal?: AbortSignal) {
       company,
       jobId: parts[2],
     };
+  }
+
+  const careerSiteJobId = greenhouseCareerSiteJobId(u);
+  if (careerSiteJobId) {
+    return { company, jobId: careerSiteJobId };
   }
 
   const slug = parts.at(-1);
