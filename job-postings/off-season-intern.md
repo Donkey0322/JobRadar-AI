@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Bracco</td>
+      <td width="420" align="left" valign="top">Software Engineering Intern</td>
+      <td width="180" align="left" valign="top">Eden Prairie, MN</td>
+      <td width="120" align="left" valign="top"><a href="https://bracco.wd103.myworkdayjobs.com/braccocareers/job/USA-Eden-Prairie-Minnesota-55344/Software-Engineering-Intern_JR100328"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 2</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Pacific Northwest National Laboratory</td>
       <td width="420" align="left" valign="top">NSIP Master&#39;s Intern - Artificial Intelligence &amp; Data Analytics - SWE Conference 🎓<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Richland, WA</td>
@@ -2106,17 +2113,10 @@
       <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 15</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Cirrus</td>
-      <td width="420" align="left" valign="top">2027 Internship - Systems Engineering - Power &amp; Control<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Austin, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.eu.lever.co/cirrus/76f89050-2cda-4c96-b796-94346c98f896"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 15</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,736 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,737 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-03T05:21:25.532Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-03T05:28:03.670Z</code></sub>
