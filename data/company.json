@@ -1068,11 +1068,11 @@
     ]
   },
   {
-    "name": "aerotech.applytojob.com",
-    "ats": "custom",
+    "name": "Aerotech, Inc.",
+    "ats": "jazzhr",
     "identifier": "aerotech.applytojob.com",
     "domain": "https://aerotech.applytojob.com",
-    "page": "",
+    "page": "https://aerotech.applytojob.com/apply/jobs",
     "urls": [
       "https://aerotech.applytojob.com/apply/OFIYSpO0HW/Software-Engineering-Internship-Or-Coop-2027"
     ]
@@ -7966,22 +7966,22 @@
     "urls": []
   },
   {
+    "name": "Black Cape",
+    "ats": "jazzhr",
+    "identifier": "blackcape.applytojob.com",
+    "domain": "https://blackcape.applytojob.com",
+    "page": "https://blackcape.applytojob.com/apply/jobs",
+    "urls": [
+      "https://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA"
+    ]
+  },
+  {
     "name": "blackbird-labs-inc",
     "ats": "ashby",
     "identifier": "blackbird-labs-inc",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/blackbird-labs-inc",
     "urls": []
-  },
-  {
-    "name": "blackcape.applytojob.com",
-    "ats": "custom",
-    "identifier": "blackcape.applytojob.com",
-    "domain": "https://blackcape.applytojob.com",
-    "page": "",
-    "urls": [
-      "https://blackcape.applytojob.com/apply/7o6mmAYryt/US-Military-Skillbridge-Internship-Software-EngineerArlington-VA"
-    ]
   },
   {
     "name": "blackrock.tal.net",
@@ -8248,11 +8248,11 @@
     ]
   },
   {
-    "name": "bodyspec.applytojob.com",
-    "ats": "custom",
+    "name": "BodySpec",
+    "ats": "jazzhr",
     "identifier": "bodyspec.applytojob.com",
     "domain": "https://bodyspec.applytojob.com",
-    "page": "",
+    "page": "https://bodyspec.applytojob.com/apply/jobs",
     "urls": [
       "https://bodyspec.applytojob.com/apply/YsrsS9yEg7/Junior-Developer"
     ]
@@ -17760,11 +17760,11 @@
     "urls": []
   },
   {
-    "name": "eaiti.applytojob.com",
-    "ats": "custom",
+    "name": "EAi Technologies",
+    "ats": "jazzhr",
     "identifier": "eaiti.applytojob.com",
     "domain": "https://eaiti.applytojob.com",
-    "page": "",
+    "page": "https://eaiti.applytojob.com/apply/jobs",
     "urls": [
       "https://eaiti.applytojob.com/apply/9RStfnAuq4/Entry-Level-NET-Software-Developer",
       "https://eaiti.applytojob.com/apply/Y16NUsHVnd/Entry-Level-Software-Developer"
@@ -18054,11 +18054,11 @@
     "urls": []
   },
   {
-    "name": "elucid.applytojob.com",
-    "ats": "custom",
+    "name": "Elucid",
+    "ats": "jazzhr",
     "identifier": "elucid.applytojob.com",
     "domain": "https://elucid.applytojob.com",
-    "page": "",
+    "page": "https://elucid.applytojob.com/apply/jobs",
     "urls": [
       "https://elucid.applytojob.com/apply/6VSEqF73l9/Software-Engineering-Intern-Spring-2027"
     ]
@@ -21673,11 +21673,11 @@
     ]
   },
   {
-    "name": "gliacelltechnologies.applytojob.com",
-    "ats": "custom",
+    "name": "GliaCell Technologies",
+    "ats": "jazzhr",
     "identifier": "gliacelltechnologies.applytojob.com",
     "domain": "https://gliacelltechnologies.applytojob.com",
-    "page": "",
+    "page": "https://gliacelltechnologies.applytojob.com/apply/jobs",
     "urls": [
       "https://gliacelltechnologies.applytojob.com/apply/5LJjRwD5B9/Junior-Java-Software-Engineer",
       "https://gliacelltechnologies.applytojob.com/apply/Zet89PpNoU/Junior-Software-Engineer"
@@ -22337,11 +22337,11 @@
     ]
   },
   {
-    "name": "grassvalley.applytojob.com",
-    "ats": "custom",
+    "name": "Grass Valley",
+    "ats": "jazzhr",
     "identifier": "grassvalley.applytojob.com",
     "domain": "https://grassvalley.applytojob.com",
-    "page": "",
+    "page": "https://grassvalley.applytojob.com/apply/jobs",
     "urls": [
       "https://grassvalley.applytojob.com/apply/r0V942NWEh/Stagiaire-Dveloppement-De-Logiciel-C-Intern-Software-Development-C"
     ]
@@ -22690,11 +22690,11 @@
     ]
   },
   {
-    "name": "harmonytech.applytojob.com",
-    "ats": "custom",
+    "name": "HarmonyTech",
+    "ats": "jazzhr",
     "identifier": "harmonytech.applytojob.com",
     "domain": "https://harmonytech.applytojob.com",
-    "page": "",
+    "page": "https://harmonytech.applytojob.com/apply/jobs",
     "urls": [
       "https://harmonytech.applytojob.com/apply/uhDb8hMR9P/Junior-Software-Developer-NET"
     ]
@@ -22886,11 +22886,11 @@
     ]
   },
   {
-    "name": "healthpeak.applytojob.com",
-    "ats": "custom",
+    "name": "Healthpeak Properties, Inc.",
+    "ats": "jazzhr",
     "identifier": "healthpeak.applytojob.com",
     "domain": "https://healthpeak.applytojob.com",
-    "page": "",
+    "page": "https://healthpeak.applytojob.com/apply/jobs",
     "urls": [
       "https://healthpeak.applytojob.com/apply/RTf9TfJE4h/Forward-Deployed-Software-Engineer-Internship",
       "https://healthpeak.applytojob.com/apply/ss4v1Qi95q/Forward-Deployed-Software-Engineer-Internship"
@@ -24798,11 +24798,11 @@
     ]
   },
   {
-    "name": "intelliforceitsolutionsgroup.applytojob.com",
-    "ats": "custom",
+    "name": "Intelliforce-IT Solutions Group",
+    "ats": "jazzhr",
     "identifier": "intelliforceitsolutionsgroup.applytojob.com",
     "domain": "https://intelliforceitsolutionsgroup.applytojob.com",
-    "page": "",
+    "page": "https://intelliforceitsolutionsgroup.applytojob.com/apply/jobs",
     "urls": [
       "https://intelliforceitsolutionsgroup.applytojob.com/apply/vrH8MYXO9u/Junior-Software-Engineer-Prime"
     ]
@@ -31076,11 +31076,11 @@
     ]
   },
   {
-    "name": "neboagency.applytojob.com",
-    "ats": "custom",
+    "name": "Nebo",
+    "ats": "jazzhr",
     "identifier": "neboagency.applytojob.com",
     "domain": "https://neboagency.applytojob.com",
-    "page": "",
+    "page": "https://neboagency.applytojob.com/apply/jobs",
     "urls": [
       "https://neboagency.applytojob.com/apply/AFMqe9Jb7b/Web-Development-Intern",
       "https://neboagency.applytojob.com/apply/TtGKnP4ODV/FrontEnd-Engineering-Intern",
@@ -32127,6 +32127,16 @@
     ]
   },
   {
+    "name": "Nova-Tech Engineering",
+    "ats": "jazzhr",
+    "identifier": "novatechengineering.applytojob.com",
+    "domain": "https://novatechengineering.applytojob.com",
+    "page": "https://novatechengineering.applytojob.com/apply/jobs",
+    "urls": [
+      "https://novatechengineering.applytojob.com/apply/prjzDfwzEE/Software-Development-CoOp-Located-Onsite-In-Willmar-MN"
+    ]
+  },
+  {
     "name": "novanta",
     "ats": "workday",
     "identifier": "novanta-novanta-careers",
@@ -32140,16 +32150,6 @@
       "https://novanta.wd5.myworkdayjobs.com/Novanta-Careers/job/Barcelona-Spain/Systems-Engineer_R009633",
       "https://novanta.wd5.myworkdayjobs.com/Novanta-Careers/job/Barcelona-Spain/Test-Engineer_R009602",
       "https://novanta.wd5.myworkdayjobs.com/Novanta-Careers/job/Bedford-MA/Manufacturing-Software-Engineer_R009717"
-    ]
-  },
-  {
-    "name": "novatechengineering.applytojob.com",
-    "ats": "custom",
-    "identifier": "novatechengineering.applytojob.com",
-    "domain": "https://novatechengineering.applytojob.com",
-    "page": "",
-    "urls": [
-      "https://novatechengineering.applytojob.com/apply/prjzDfwzEE/Software-Development-CoOp-Located-Onsite-In-Willmar-MN"
     ]
   },
   {
@@ -34203,11 +34203,11 @@
     "urls": []
   },
   {
-    "name": "petersontechnologies.applytojob.com",
-    "ats": "custom",
+    "name": "Peterson Technologies",
+    "ats": "jazzhr",
     "identifier": "petersontechnologies.applytojob.com",
     "domain": "https://petersontechnologies.applytojob.com",
-    "page": "",
+    "page": "https://petersontechnologies.applytojob.com/apply/jobs",
     "urls": [
       "https://petersontechnologies.applytojob.com/apply/ma86Yof82u/Junior-Software-Engineer"
     ]
@@ -34905,11 +34905,11 @@
     "urls": []
   },
   {
-    "name": "prospectequities.applytojob.com",
-    "ats": "custom",
+    "name": "Prospect Equities",
+    "ats": "jazzhr",
     "identifier": "prospectequities.applytojob.com",
     "domain": "https://prospectequities.applytojob.com",
-    "page": "",
+    "page": "https://prospectequities.applytojob.com/apply/jobs",
     "urls": [
       "https://prospectequities.applytojob.com/apply/XTbzSAcNtg/Backend-Frontend-Developer-Intern"
     ]
@@ -35502,11 +35502,11 @@
     ]
   },
   {
-    "name": "quantumsignalai.applytojob.com",
-    "ats": "custom",
+    "name": "Quantum Signal AI",
+    "ats": "jazzhr",
     "identifier": "quantumsignalai.applytojob.com",
     "domain": "https://quantumsignalai.applytojob.com",
-    "page": "",
+    "page": "https://quantumsignalai.applytojob.com/apply/jobs",
     "urls": [
       "https://quantumsignalai.applytojob.com/apply/MWrhQD8Hn9/Software-Engineering-Intern-Tools-And-Prototypes"
     ]
@@ -39546,11 +39546,11 @@
     ]
   },
   {
-    "name": "spacedynamicslaboratory.applytojob.com",
-    "ats": "custom",
+    "name": "Space Dynamics Laboratory",
+    "ats": "jazzhr",
     "identifier": "spacedynamicslaboratory.applytojob.com",
     "domain": "https://spacedynamicslaboratory.applytojob.com",
-    "page": "",
+    "page": "https://spacedynamicslaboratory.applytojob.com/apply/jobs",
     "urls": [
       "https://spacedynamicslaboratory.applytojob.com/apply/Xb4whC202X/Student-Software-Engineer"
     ]
@@ -40520,11 +40520,11 @@
     ]
   },
   {
-    "name": "stellarscience.applytojob.com",
-    "ats": "custom",
+    "name": "Stellar Science",
+    "ats": "jazzhr",
     "identifier": "stellarscience.applytojob.com",
     "domain": "https://stellarscience.applytojob.com",
-    "page": "",
+    "page": "https://stellarscience.applytojob.com/apply/jobs",
     "urls": [
       "https://stellarscience.applytojob.com/apply/my4AC4VXHI/Scientific-Software-Developer-Paid-CoopInternship"
     ]
@@ -41379,11 +41379,11 @@
     ]
   },
   {
-    "name": "techinsights.applytojob.com",
-    "ats": "custom",
+    "name": "TechInsights",
+    "ats": "jazzhr",
     "identifier": "techinsights.applytojob.com",
     "domain": "https://techinsights.applytojob.com",
-    "page": "",
+    "page": "https://techinsights.applytojob.com/apply/jobs",
     "urls": [
       "https://techinsights.applytojob.com/apply/3yhis78252/Software-Development-Coop-Student-Winter-2026"
     ]
