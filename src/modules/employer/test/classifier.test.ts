@@ -31,8 +31,8 @@ describe("classifyATS", () => {
     ["https://mujin.bamboohr.com/careers/126", "bamboohr"],
     ["https://nexthopai.bamboohr.com/careers/list", "bamboohr"],
     ["https://idtus.pinpointhq.com/en/postings/bca05641-f7af-494f-8b1e-dea500ca25e0", "pinpoint"],
-    ["https://www.pinpointhq.com/", "custom"],
-    ["https://www.bamboohr.com/careers/", "custom"],
+    ["https://www.pinpointhq.com/", "none"],
+    ["https://www.bamboohr.com/careers/", "none"],
     ["https://careers.arm.com/job/bengaluru/ip-verification-engineer/33099/99500560928", "radancy"],
     ["https://careers.arm.com/search-jobs", "radancy"],
     ["https://careers.cargill.com/en/search-jobs/resultspost", "radancy"],
@@ -88,8 +88,9 @@ describe("classifyATS", () => {
     expect(classifyATS(new URL(url))).toBe(ats);
   });
 
-  it("falls back to custom", () => {
-    expect(classifyATS(new URL("https://careers.example.com/job/1"))).toBe("custom");
+  it("keeps custom for sites with their own fetcher and none for the rest", () => {
+    expect(classifyATS(new URL("https://www.amazon.jobs/en/jobs/10372635"))).toBe("custom");
+    expect(classifyATS(new URL("https://careers.example.com/job/1"))).toBe("none");
   });
 });
 

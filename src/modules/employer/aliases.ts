@@ -3,7 +3,7 @@ import { getHostnameWithoutWww } from "@/utils/url";
 /**
  * Career sites fronting a board already stored under another ATS, where the URL alone
  * cannot name that board (e.g. a Workday tenant and site). Their URLs join that company
- * instead of forming a custom row. Sites whose URL does identify the board belong in
+ * instead of forming a `none` row. Sites whose URL does identify the board belong in
  * the classifier's host map instead, so their job keys match the board's.
  */
 const careerSiteAliases: Record<string, string> = {
@@ -32,7 +32,7 @@ const careerSiteAliases: Record<string, string> = {
   "uline.jobs": "workday:uline-uline_careers",
 };
 
-/** Company key of the board behind a custom career site, or null when it has none. */
+/** Company key of the board behind an unread career site, or null when it has none. */
 export function aliasedCompanyKey(url: URL): string | null {
   return careerSiteAliases[getHostnameWithoutWww(url)] ?? null;
 }

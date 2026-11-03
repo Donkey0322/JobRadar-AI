@@ -21,16 +21,17 @@ export function getCompanyKey(company: Company): string {
 /**
  * Bare domain/page URLs often omit the company slug (e.g. https://jobs.lever.co),
  * which would form a company with an undefined name, so re-key from a job URL.
- * The exception is a url-less custom row whose domain is itself a tenant board
- * (e.g. https://mujin.bamboohr.com) of an ATS added after the row was built.
+ * The exception is a url-less custom or none row whose domain now classifies
+ * differently, e.g. a tenant board (https://mujin.bamboohr.com) of an ATS added
+ * after the row was built.
  */
 function representativeUrl(existing: Company): URL | null {
   try {
     if (existing.urls[0]) return new URL(existing.urls[0]);
-    if (existing.ats !== "custom" || !existing.domain) return null;
+    if ((existing.ats !== "custom" && existing.ats !== "none") || !existing.domain) return null;
 
     const domain = new URL(existing.domain);
-    return classifyATS(domain) === "custom" ? null : domain;
+    return classifyATS(domain) === existing.ats ? null : domain;
   } catch {
     return null;
   }
@@ -65,18 +66,18 @@ async function resolveExistingCompany(stored: Company): Promise<{ key: string; c
   }
 }
 
-/** Company key of the ATS row a custom career-site URL belongs to, if it is aliased. */
+/** Company key of the ATS row an unread career-site URL belongs to, if it is aliased. */
 function careerSiteAlias(urlStr: string): string | null {
   try {
     const url = new URL(urlStr);
-    return classifyATS(url) === "custom" ? aliasedCompanyKey(url) : null;
+    return classifyATS(url) === "none" ? aliasedCompanyKey(url) : null;
   } catch {
     return null;
   }
 }
 
-function isAliasedCustomRow(company: Company): boolean {
-  return company.ats === "custom" && Boolean(company.domain && careerSiteAlias(company.domain));
+function isAliasedSiteRow(company: Company): boolean {
+  return company.ats === "none" && Boolean(company.domain && careerSiteAlias(company.domain));
 }
 
 export function groupUrlsByCompanyKey(urls: string[]): Map<string, string[]> {
@@ -201,7 +202,7 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
   const resolvedExisting = await Promise.all(existingCompanies.map(resolveExistingCompany));
 
   for (const { key, company } of resolvedExisting) {
-    if (!company.name || isAliasedCustomRow(company)) {
+    if (!company.name || isAliasedSiteRow(company)) {
       continue;
     }
 

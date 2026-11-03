@@ -14,4 +14,7 @@ export type ATS =
   | "smartrecruiters"
   | "successfactors"
   | "workday"
-  | "custom";
+  /** A career site with its own fetcher in `listing/custom`. */
+  | "custom"
+  /** A career site no fetcher reads yet. */
+  | "none";

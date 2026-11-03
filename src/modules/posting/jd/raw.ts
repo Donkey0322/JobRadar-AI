@@ -19,6 +19,7 @@ function finishRawJD(result: JDFetchResult): JDFetchResult {
 
 const HTML_JD_SOURCES = new Set<ATS>([
   "custom",
+  "none",
   "jazzhr",
   "lever",
   "phenom",

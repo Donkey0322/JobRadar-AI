@@ -30,6 +30,7 @@ import { greenhouseFetcher } from "../listing/greenhouse";
 import { icimsFetcher } from "../listing/icims";
 import { jazzHRFetcher } from "../listing/jazzhr";
 import { leverFetcher } from "../listing/lever";
+import { noneFetcher } from "../listing/none";
 import { oracleCloudFetcher } from "../listing/oraclecloud";
 import { phenomFetcher } from "../listing/phenom";
 import { pinpointFetcher } from "../listing/pinpoint";
@@ -59,6 +60,7 @@ const allATS = [
   "successfactors",
   "workday",
   "custom",
+  "none",
 ] satisfies ATS[];
 
 describe("ATS fetcher registry", () => {
@@ -87,6 +89,7 @@ describe("ATS fetcher registry", () => {
       successfactors: successFactorsFetcher,
       workday: workdayFetcher,
       custom: customFetcher,
+      none: noneFetcher,
     });
 
     for (const ats of allATS) {
@@ -107,13 +110,13 @@ describe("ATS fetcher registry", () => {
   it("dispatches company formation through the classified adapter", async () => {
     const company: Company = {
       name: "example.com",
-      ats: "custom",
+      ats: "none",
       identifier: "example.com",
       domain: "https://example.com",
       page: "",
       urls: [],
     };
-    const formCompany = vi.spyOn(customFetcher, "formCompany").mockReturnValue(company);
+    const formCompany = vi.spyOn(noneFetcher, "formCompany").mockReturnValue(company);
 
     await expect(buildCompanyList(["https://example.com/jobs/1"])).resolves.toEqual([
       {
@@ -248,12 +251,12 @@ describe("ATS fetcher registry", () => {
     };
     const siteUrl = "https://careers.homedepot.com/job/22712345/software-engineer";
 
-    it("drops a stored custom row for a site whose board is tracked elsewhere", async () => {
+    it("drops a stored none row for a site whose board is tracked elsewhere", async () => {
       dataMocks.loadCompanies.mockResolvedValue([
         homeDepot,
         {
           name: "careers.homedepot.com",
-          ats: "custom",
+          ats: "none",
           identifier: "careers.homedepot.com",
           domain: "https://careers.homedepot.com",
           page: "",
@@ -264,48 +267,48 @@ describe("ATS fetcher registry", () => {
       await expect(buildCompanyList([])).resolves.toEqual([homeDepot]);
     });
 
-    it("files new site URLs under the tracked board instead of a custom row", async () => {
+    it("files new site URLs under the tracked board instead of a none row", async () => {
       dataMocks.loadCompanies.mockResolvedValue([homeDepot]);
-      const customForm = vi.spyOn(customFetcher, "formCompany");
+      const noneForm = vi.spyOn(noneFetcher, "formCompany");
 
       await expect(buildCompanyList([siteUrl])).resolves.toEqual([
         { ...homeDepot, urls: [siteUrl] },
       ]);
-      expect(customForm).not.toHaveBeenCalled();
+      expect(noneForm).not.toHaveBeenCalled();
     });
 
     it("keeps a tracked board whose only stored URLs are site URLs", async () => {
       dataMocks.loadCompanies.mockResolvedValue([{ ...homeDepot, urls: [siteUrl] }]);
-      const customForm = vi.spyOn(customFetcher, "formCompany");
+      const noneForm = vi.spyOn(noneFetcher, "formCompany");
 
       await expect(buildCompanyList([siteUrl])).resolves.toEqual([
         { ...homeDepot, urls: [siteUrl] },
       ]);
-      expect(customForm).not.toHaveBeenCalled();
+      expect(noneForm).not.toHaveBeenCalled();
     });
 
-    it("still forms a custom row when the tracked board is gone", async () => {
+    it("still forms a none row when the tracked board is gone", async () => {
       dataMocks.loadCompanies.mockResolvedValue([]);
 
       const [company] = await buildCompanyList([siteUrl]);
 
-      expect(company).toMatchObject({ ats: "custom", urls: [siteUrl] });
+      expect(company).toMatchObject({ ats: "none", urls: [siteUrl] });
     });
   });
 
-  it("keeps url-less custom rows whose domain is still custom", async () => {
-    const custom: Company = {
+  it("keeps url-less none rows whose domain is still unread", async () => {
+    const unread: Company = {
       name: "Acme",
-      ats: "custom",
+      ats: "none",
       identifier: "careers.acme.com",
       domain: "https://careers.acme.com",
       page: "",
       urls: [],
     };
-    dataMocks.loadCompanies.mockResolvedValue([custom]);
-    const formCompany = vi.spyOn(customFetcher, "formCompany");
+    dataMocks.loadCompanies.mockResolvedValue([unread]);
+    const formCompany = vi.spyOn(noneFetcher, "formCompany");
 
-    await expect(buildCompanyList([])).resolves.toEqual([custom]);
+    await expect(buildCompanyList([])).resolves.toEqual([unread]);
     expect(formCompany).not.toHaveBeenCalled();
   });
 

@@ -10,6 +10,7 @@ import { greenhouseFetcher } from "./listing/greenhouse";
 import { icimsFetcher } from "./listing/icims";
 import { jazzHRFetcher } from "./listing/jazzhr";
 import { leverFetcher } from "./listing/lever";
+import { noneFetcher } from "./listing/none";
 import { oracleCloudFetcher } from "./listing/oraclecloud";
 import { phenomFetcher } from "./listing/phenom";
 import { pinpointFetcher } from "./listing/pinpoint";
@@ -36,6 +37,7 @@ export const employers = {
   successfactors: successFactorsFetcher,
   workday: workdayFetcher,
   custom: customFetcher,
+  none: noneFetcher,
 } satisfies Record<ATS, Employer<unknown>>;
 
 export function asEmployer(company: Company): Employer {

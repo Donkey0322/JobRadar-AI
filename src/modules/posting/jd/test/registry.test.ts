@@ -34,6 +34,7 @@ describe("posting JD registry", () => {
       rippling: fetchCustomJD,
       successfactors: fetchCustomJD,
       custom: fetchCustomJD,
+      none: fetchCustomJD,
     });
   });
 

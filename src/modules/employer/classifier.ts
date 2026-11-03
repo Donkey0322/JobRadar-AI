@@ -1,6 +1,7 @@
 import type { ATS } from "./type";
 
 import { isBambooHRHost } from "./shared/bamboohr";
+import { parseCustomCompanyIdentifier } from "./shared/custom-identifier";
 import { isJazzHRUrl } from "./shared/jazzhr";
 import { isJibeUrl } from "./shared/jibe";
 import { isPinpointHost } from "./shared/pinpoint";
@@ -86,5 +87,5 @@ export function classifyATS(url: URL): ATS {
   if (isJazzHRUrl(url)) return "jazzhr";
   if (isJibeUrl(url)) return "icims";
 
-  return "custom";
+  return parseCustomCompanyIdentifier(url) ? "custom" : "none";
 }

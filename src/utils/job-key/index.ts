@@ -72,6 +72,7 @@ export function getJobKey(url: string) {
         return getWorkdayKey(url) ?? `workday:${normalizeUrl(url)}`;
 
       case "custom":
+      case "none":
         return getCustomKey(url);
 
       default:

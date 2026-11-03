@@ -32,6 +32,7 @@ export const postingJDFetchers = {
   rippling: fetchCustomJD,
   successfactors: fetchCustomJD,
   custom: fetchCustomJD,
+  none: fetchCustomJD,
 } satisfies Record<ATS, PostingJDFetcher>;
 
 export function fetchJDByATS(ats: ATS, url: string, signal: AbortSignal): Promise<JDFetchResult> {

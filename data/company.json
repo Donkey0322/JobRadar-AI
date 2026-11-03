@@ -1755,7 +1755,7 @@
   },
   {
     "name": "alticeusacareers.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "alticeusacareers.com",
     "domain": "https://www.alticeusacareers.com",
     "page": "",
@@ -5437,7 +5437,7 @@
   },
   {
     "name": "apply.deloitte.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "apply.deloitte.com",
     "domain": "https://apply.deloitte.com",
     "page": "",
@@ -7416,7 +7416,7 @@
   },
   {
     "name": "bambusdev.my.site.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "bambusdev.my.site.com",
     "domain": "https://bambusdev.my.site.com",
     "page": "",
@@ -8076,7 +8076,7 @@
   },
   {
     "name": "blackrock.tal.net",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "blackrock.tal.net",
     "domain": "https://blackrock.tal.net",
     "page": "",
@@ -8313,7 +8313,7 @@
   },
   {
     "name": "bnc.avature.net",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "bnc.avature.net",
     "domain": "https://bnc.avature.net",
     "page": "",
@@ -12242,7 +12242,7 @@
   },
   {
     "name": "careers.amperecomputing.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "careers.amperecomputing.com",
     "domain": "https://careers.amperecomputing.com",
     "page": "",
@@ -12706,7 +12706,7 @@
   },
   {
     "name": "careers.gulfstream.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "careers.gulfstream.com",
     "domain": "https://careers.gulfstream.com",
     "page": "",
@@ -12978,7 +12978,7 @@
   },
   {
     "name": "careers.inogen.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "careers.inogen.com",
     "domain": "https://careers.inogen.com",
     "page": "",
@@ -12986,7 +12986,7 @@
   },
   {
     "name": "careers.inspirebrands.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "careers.inspirebrands.com",
     "domain": "https://careers.inspirebrands.com",
     "page": "",
@@ -13019,7 +13019,7 @@
   },
   {
     "name": "careers.loreal.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "careers.loreal.com",
     "domain": "https://careers.loreal.com",
     "page": "",
@@ -13092,7 +13092,7 @@
   },
   {
     "name": "careers.moodys.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "careers.moodys.com",
     "domain": "https://careers.moodys.com",
     "page": "",
@@ -13141,7 +13141,7 @@
   },
   {
     "name": "careers.point72.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "careers.point72.com",
     "domain": "https://careers.point72.com",
     "page": "",
@@ -13225,7 +13225,7 @@
   },
   {
     "name": "careers.tsmc.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "careers.tsmc.com",
     "domain": "https://careers.tsmc.com",
     "page": "",
@@ -13233,7 +13233,7 @@
   },
   {
     "name": "careers.twosigma.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "careers.twosigma.com",
     "domain": "https://careers.twosigma.com",
     "page": "",
@@ -13566,7 +13566,7 @@
   },
   {
     "name": "cdcn.avature.net",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "cdcn.avature.net",
     "domain": "https://cdcn.avature.net",
     "page": "",
@@ -13798,7 +13798,7 @@
   },
   {
     "name": "cgi.njoyn.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "cgi.njoyn.com",
     "domain": "https://cgi.njoyn.com",
     "page": "",
@@ -14238,7 +14238,7 @@
   },
   {
     "name": "citadel.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "citadel.com",
     "domain": "https://www.citadel.com",
     "page": "",
@@ -14246,7 +14246,7 @@
   },
   {
     "name": "citadelsecurities.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "citadelsecurities.com",
     "domain": "https://www.citadelsecurities.com",
     "page": "",
@@ -16281,7 +16281,7 @@
   },
   {
     "name": "db.recsolu.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "db.recsolu.com",
     "domain": "https://db.recsolu.com",
     "page": "",
@@ -16456,7 +16456,7 @@
   },
   {
     "name": "delta.avature.net",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "delta.avature.net",
     "domain": "https://delta.avature.net",
     "page": "",
@@ -16472,7 +16472,7 @@
   },
   {
     "name": "deshaw.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "deshaw.com",
     "domain": "https://www.deshaw.com",
     "page": "",
@@ -17537,7 +17537,7 @@
   },
   {
     "name": "eduarcline.us",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "eduarcline.us",
     "domain": "https://www.eduarcline.us",
     "page": "",
@@ -18890,7 +18890,7 @@
   },
   {
     "name": "eyglobal.yello.co",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "eyglobal.yello.co",
     "domain": "https://eyglobal.yello.co",
     "page": "",
@@ -22129,7 +22129,7 @@
   },
   {
     "name": "group.bnpparibas",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "group.bnpparibas",
     "domain": "http://group.bnpparibas",
     "page": "",
@@ -22781,7 +22781,7 @@
   },
   {
     "name": "higher.gs.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "higher.gs.com",
     "domain": "https://higher.gs.com",
     "page": "",
@@ -23750,7 +23750,7 @@
   },
   {
     "name": "ibmglobal.avature.net",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "ibmglobal.avature.net",
     "domain": "https://ibmglobal.avature.net",
     "page": "",
@@ -25070,7 +25070,7 @@
   },
   {
     "name": "jacobs.taleo.net",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "jacobs.taleo.net",
     "domain": "https://jacobs.taleo.net",
     "page": "",
@@ -25456,7 +25456,7 @@
   },
   {
     "name": "jobs.coxenterprises.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "jobs.coxenterprises.com",
     "domain": "https://jobs.coxenterprises.com",
     "page": "",
@@ -25492,7 +25492,7 @@
   },
   {
     "name": "jobs.ea.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "jobs.ea.com",
     "domain": "https://jobs.ea.com",
     "page": "",
@@ -25546,7 +25546,7 @@
   },
   {
     "name": "jobs.jobvite.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "jobs.jobvite.com",
     "domain": "https://jobs.jobvite.com",
     "page": "",
@@ -25563,7 +25563,7 @@
   },
   {
     "name": "jobs.lenovo.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "jobs.lenovo.com",
     "domain": "https://jobs.lenovo.com",
     "page": "",
@@ -25571,7 +25571,7 @@
   },
   {
     "name": "jobs.sap.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "jobs.sap.com",
     "domain": "https://jobs.sap.com",
     "page": "",
@@ -25579,7 +25579,7 @@
   },
   {
     "name": "jobs.siemens.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "jobs.siemens.com",
     "domain": "https://jobs.siemens.com",
     "page": "",
@@ -25587,7 +25587,7 @@
   },
   {
     "name": "jobs.ubs.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "jobs.ubs.com",
     "domain": "https://jobs.ubs.com",
     "page": "",
@@ -25595,7 +25595,7 @@
   },
   {
     "name": "jobs.universalparks.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "jobs.universalparks.com",
     "domain": "https://jobs.universalparks.com",
     "page": "",
@@ -25682,7 +25682,7 @@
   },
   {
     "name": "jolera.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "jolera.com",
     "domain": "https://www.jolera.com",
     "page": "",
@@ -26426,7 +26426,7 @@
   },
   {
     "name": "koch.avature.net",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "koch.avature.net",
     "domain": "https://koch.avature.net",
     "page": "",
@@ -26517,7 +26517,7 @@
   },
   {
     "name": "kp.taleo.net",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "kp.taleo.net",
     "domain": "https://kp.taleo.net",
     "page": "",
@@ -27010,7 +27010,7 @@
   },
   {
     "name": "lazard-careers.tal.net",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "lazard-careers.tal.net",
     "domain": "https://lazard-careers.tal.net",
     "page": "",
@@ -28223,7 +28223,7 @@
   },
   {
     "name": "mantech.avature.net",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "mantech.avature.net",
     "domain": "https://mantech.avature.net",
     "page": "",
@@ -28518,7 +28518,7 @@
   },
   {
     "name": "massanf.taleo.net",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "massanf.taleo.net",
     "domain": "https://massanf.taleo.net",
     "page": "",
@@ -28591,7 +28591,7 @@
   },
   {
     "name": "mathworks.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "mathworks.com",
     "domain": "https://www.mathworks.com",
     "page": "",
@@ -30028,7 +30028,7 @@
   },
   {
     "name": "morganstanley.tal.net",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "morganstanley.tal.net",
     "domain": "https://morganstanley.tal.net",
     "page": "",
@@ -31642,7 +31642,7 @@
   },
   {
     "name": "noda-1720000970.teamtailor.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "noda-1720000970.teamtailor.com",
     "domain": "https://noda-1720000970.teamtailor.com",
     "page": "",
@@ -33033,7 +33033,7 @@
   },
   {
     "name": "otto-engineering-inc.breezy.hr",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "otto-engineering-inc.breezy.hr",
     "domain": "https://otto-engineering-inc.breezy.hr",
     "page": "",
@@ -34003,7 +34003,7 @@
   },
   {
     "name": "phf.tbe.taleo.net",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "phf.tbe.taleo.net",
     "domain": "https://phf.tbe.taleo.net",
     "page": "",
@@ -34014,7 +34014,7 @@
   },
   {
     "name": "phg.tbe.taleo.net",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "phg.tbe.taleo.net",
     "domain": "https://phg.tbe.taleo.net",
     "page": "",
@@ -34022,7 +34022,7 @@
   },
   {
     "name": "phh.tbe.taleo.net",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "phh.tbe.taleo.net",
     "domain": "https://phh.tbe.taleo.net",
     "page": "",
@@ -34190,7 +34190,7 @@
   },
   {
     "name": "physicalreasoning.ai",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "physicalreasoning.ai",
     "domain": "https://physicalreasoning.ai",
     "page": "",
@@ -34456,7 +34456,7 @@
   },
   {
     "name": "pomerleau.avature.net",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "pomerleau.avature.net",
     "domain": "https://pomerleau.avature.net",
     "page": "",
@@ -34607,7 +34607,7 @@
   },
   {
     "name": "priscorp.applicantpro.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "priscorp.applicantpro.com",
     "domain": "https://priscorp.applicantpro.com",
     "page": "",
@@ -35601,7 +35601,7 @@
   },
   {
     "name": "recruiting.paylocity.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "recruiting.paylocity.com",
     "domain": "https://recruiting.paylocity.com",
     "page": "",
@@ -35616,7 +35616,7 @@
   },
   {
     "name": "recruiting.ultipro.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "recruiting.ultipro.com",
     "domain": "https://recruiting.ultipro.com",
     "page": "",
@@ -35627,7 +35627,7 @@
   },
   {
     "name": "recruiting2.ultipro.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "recruiting2.ultipro.com",
     "domain": "https://recruiting2.ultipro.com",
     "page": "",
@@ -35637,7 +35637,7 @@
   },
   {
     "name": "recruitingbypaycor.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "recruitingbypaycor.com",
     "domain": "https://recruitingbypaycor.com",
     "page": "",
@@ -37483,7 +37483,7 @@
   },
   {
     "name": "sandhills.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "sandhills.com",
     "domain": "https://www.sandhills.com",
     "page": "",
@@ -38449,7 +38449,7 @@
   },
   {
     "name": "shopify.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "shopify.com",
     "domain": "https://www.shopify.com",
     "page": "",
@@ -38487,7 +38487,7 @@
   },
   {
     "name": "siemens.avature.net",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "siemens.avature.net",
     "domain": "https://siemens.avature.net",
     "page": "",
@@ -38774,7 +38774,7 @@
   },
   {
     "name": "sjobs.brassring.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "sjobs.brassring.com",
     "domain": "https://sjobs.brassring.com",
     "page": "",
@@ -41387,7 +41387,7 @@
   },
   {
     "name": "tesla.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "tesla.com",
     "domain": "https://www.tesla.com",
     "page": "",
@@ -41484,7 +41484,7 @@
   },
   {
     "name": "tetramem.hrmdirect.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "tetramem.hrmdirect.com",
     "domain": "https://tetramem.hrmdirect.com",
     "page": "",
@@ -41555,7 +41555,7 @@
   },
   {
     "name": "textron.taleo.net",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "textron.taleo.net",
     "domain": "https://textron.taleo.net",
     "page": "",
@@ -43168,7 +43168,7 @@
   },
   {
     "name": "touchdown-labs.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "touchdown-labs.com",
     "domain": "https://touchdown-labs.com",
     "page": "",
@@ -43762,7 +43762,7 @@
   },
   {
     "name": "twosigma.avature.net",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "twosigma.avature.net",
     "domain": "https://twosigma.avature.net",
     "page": "",
@@ -43825,7 +43825,7 @@
   },
   {
     "name": "uber.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "uber.com",
     "domain": "https://www.uber.com",
     "page": "",
@@ -44908,7 +44908,7 @@
   },
   {
     "name": "vetsez.breezy.hr",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "vetsez.breezy.hr",
     "domain": "https://vetsez.breezy.hr",
     "page": "",
@@ -45173,7 +45173,7 @@
   },
   {
     "name": "voloridge-health.hiringthing.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "voloridge-health.hiringthing.com",
     "domain": "https://voloridge-health.hiringthing.com",
     "page": "",
@@ -45181,7 +45181,7 @@
   },
   {
     "name": "voloridge-investment-management.hiringthing.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "voloridge-investment-management.hiringthing.com",
     "domain": "https://voloridge-investment-management.hiringthing.com",
     "page": "",
@@ -45214,7 +45214,7 @@
   },
   {
     "name": "vrad.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "vrad.com",
     "domain": "https://www.vrad.com",
     "page": "",
@@ -45277,7 +45277,7 @@
   },
   {
     "name": "vulcanmat.taleo.net",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "vulcanmat.taleo.net",
     "domain": "https://vulcanmat.taleo.net",
     "page": "",
@@ -45558,7 +45558,7 @@
   },
   {
     "name": "wavetronix.breezy.hr",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "wavetronix.breezy.hr",
     "domain": "https://wavetronix.breezy.hr",
     "page": "",
@@ -46115,7 +46115,7 @@
   },
   {
     "name": "workforcenow.adp.com",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "workforcenow.adp.com",
     "domain": "https://workforcenow.adp.com",
     "page": "",
@@ -46625,7 +46625,7 @@
   },
   {
     "name": "zionsbancorp.taleo.net",
-    "ats": "custom",
+    "ats": "none",
     "identifier": "zionsbancorp.taleo.net",
     "domain": "https://zionsbancorp.taleo.net",
     "page": "",
