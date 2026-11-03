@@ -72,6 +72,19 @@ describe("parseJibeJobs", () => {
     expect(parseJibeJobs({ jobPostings: [] })).toBeNull();
     expect(parseJibeJobs({ jobs: [{ data: { req_id: "1", title: "Engineer" } }] })).toHaveLength(1);
   });
+
+  it("skips a malformed row instead of rejecting the page", () => {
+    const jobs = parseJibeJobs({
+      jobs: [
+        { data: { slug: "6977", req_id: null, title: "Psychiatrist", posted_date: null } },
+        { data: { req_id: "2" } },
+      ],
+    });
+
+    expect(jobs).toEqual([
+      { slug: "6977", req_id: null, title: "Psychiatrist", posted_date: null },
+    ]);
+  });
 });
 
 describe("getJibeJobLink", () => {
@@ -83,6 +96,17 @@ describe("getJibeJobLink", () => {
         apply_url: "https://emeacareers-certara.icims.com/jobs/2640/login",
       })
     ).toBe("https://careers.certara.com/jobs/2640?icims=1");
+  });
+
+  it("links by slug when the job has no req_id", () => {
+    expect(
+      getJibeJobLink("https://jobs.uhsinc.com", {
+        slug: "6977",
+        req_id: null,
+        title: "Psychiatrist",
+        apply_url: "https://careers2-universalhealthservices.icims.com/jobs/6977/job/login",
+      })
+    ).toBe("https://jobs.uhsinc.com/jobs/6977?icims=1");
   });
 
   it("skips jobs not backed by iCIMS", () => {

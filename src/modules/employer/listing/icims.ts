@@ -201,7 +201,7 @@ function toIcimsJob(origin: string, job: JibeJob): IcimsJob | null {
     title: cleanText(job.title),
     link,
     location: getJibeLocation(job),
-    postedDate: job.posted_date,
+    postedDate: job.posted_date ?? undefined,
   };
 }
 
@@ -217,13 +217,17 @@ async function fetchJibeJobs(
     headers: { Accept: "application/json" },
   });
 
-  if (!res.ok) return null;
+  if (!res.ok) throw ListingHttpError.from(res, `${origin} page ${page}`);
 
+  let data: unknown;
   try {
-    return parseJibeJobs(await res.json());
-  } catch {
+    data = await res.json();
+  } catch (error) {
+    if (isAbortError(error)) throw error;
     return null;
   }
+
+  return parseJibeJobs(data);
 }
 
 /**
@@ -236,11 +240,17 @@ async function* listJibePages(
   probe = false
 ): AsyncGenerator<IcimsJob[]> {
   for (let page = 1; page <= MAX_JIBE_PAGES; page++) {
-    const jobs = await fetchJibeJobs(origin, page, signal);
+    let jobs: JibeJob[] | null;
+    try {
+      jobs = await fetchJibeJobs(origin, page, signal);
+    } catch (error) {
+      if (probe && page === 1 && error instanceof ListingHttpError) return;
+      throw error;
+    }
 
     if (!jobs) {
       if (probe && page === 1) return;
-      throw new ListingHttpError(`Jibe listing failed (${origin} page ${page})`);
+      throw new ListingHttpError(`Not a Jibe listing (${origin} page ${page})`);
     }
 
     yield jobs.map((job) => toIcimsJob(origin, job)).filter((job): job is IcimsJob => job !== null);

@@ -36143,14 +36143,6 @@
     ]
   },
   {
-    "name": "revolutioncompany",
-    "ats": "icims",
-    "identifier": "revolutioncompany",
-    "domain": "https://careers-revolutioncompany.icims.com",
-    "page": "https://careers-revolutioncompany.icims.com/jobs/search",
-    "urls": []
-  },
-  {
     "name": "revvity",
     "ats": "workday",
     "identifier": "revvity-external",
@@ -38360,11 +38352,11 @@
     ]
   },
   {
-    "name": "sharpusa",
-    "ats": "icims",
-    "identifier": "sharpusa",
-    "domain": "https://careers-sharpusa.icims.com",
-    "page": "https://careers-sharpusa.icims.com/jobs/search",
+    "name": "sharpelectronics",
+    "ats": "greenhouse",
+    "identifier": "sharpelectronics",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/sharpelectronics/jobs",
     "urls": []
   },
   {
@@ -39930,10 +39922,10 @@
   },
   {
     "name": "spscommerce",
-    "ats": "icims",
-    "identifier": "spscommerce",
-    "domain": "https://careers-spscommerce.icims.com",
-    "page": "https://careers-spscommerce.icims.com/jobs/search",
+    "ats": "workday",
+    "identifier": "spscommerce-sps",
+    "domain": "https://spscommerce.wd108.myworkdayjobs.com/SPS",
+    "page": "https://spscommerce.wd108.myworkdayjobs.com/wday/cxs/spscommerce/SPS/jobs",
     "urls": []
   },
   {
