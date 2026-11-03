@@ -28,7 +28,7 @@ Sensitive information includes:
 - Private job preferences
 - Workflow logs that expose credentials or internal configuration
 
-If you find a vulnerability, please contact the maintainer privately.
+If you find a vulnerability, report it privately through [GitHub private vulnerability reporting](https://github.com/Donkey0322/JobRadar-AI/security/advisories/new).
 
 Recommended report contents:
 
@@ -65,11 +65,16 @@ If a secret is accidentally exposed, rotate it immediately.
 
 ## GitHub Token Permissions
 
-Use the minimum permissions required for your workflow.
+JobRadar AI requires a personal access token stored as `PAT`. Commits pushed with the built-in `GITHUB_TOKEN` do not trigger other workflows, so data commits are pushed with the PAT to start notification, README, and batch workflows.
 
-Avoid using broad personal access tokens unless necessary. When possible, prefer the built-in `GITHUB_TOKEN` with limited workflow permissions.
+Limit what that token can do:
 
-If a personal access token is required, use a fine-grained token and only grant the permissions needed by your setup.
+- Use a fine-grained token, not a classic token.
+- Scope it to this one repository.
+- Grant only **Contents: Read and write**. Issue comments use the built-in `GITHUB_TOKEN`.
+- Set an expiration date and rotate it when it expires.
+
+Workflow-level `permissions:` blocks still limit the built-in `GITHUB_TOKEN` for each job.
 
 ## Workflow Security
 
@@ -83,6 +88,20 @@ Before enabling workflows in a public repository, review:
 - Scripts that call external APIs
 
 Be careful with workflows triggered by issues, pull requests, or external contributors. Treat issue and pull request content as untrusted input.
+
+### Issue-triggered workflows in public repositories
+
+Anyone who can open issues or comment on a public repository can trigger these workflows:
+
+- **Add Job From Issue** (`add-job-from-issue.yml`) runs on any issue titled `Add Job…` or labeled `add-job`. It fetches the submitted URL from the runner, sends the page to your AI provider using your `AI_API_KEY`, and commits the result with your `PAT`. A stranger can use it to spend your AI credits or add unwanted data.
+- **Check Setup** (`check-setup.yml`) runs on any comment containing `/check-setup` on a setup issue. It validates your SMTP login and AI key each time.
+- **Setup from Issue** (`setup-from-issue.yml`) regenerates and commits `config.json` when a setup issue is opened or edited.
+
+For a public repository, consider one or more of:
+
+- Disable **Add Job From Issue** in the Actions tab if you do not need public submissions.
+- Restrict issue creation to collaborators, or add an `if:` condition that checks `github.event.issue.author_association`.
+- Close the setup issue after setup, and review any new setup issues before they run.
 
 ## AI Provider Security
 
@@ -106,7 +125,7 @@ If your JobRadar AI repository is public, the following may be visible to others
 - README job board output
 - Workflow run history
 - Workflow logs
-- Non-secret configuration values
+- Non-secret configuration values, including sender and receiver email addresses in `config.json`
 - Open issues and issue form submissions
 
 Do not put private information in public configuration files or issue forms.
@@ -120,6 +139,7 @@ This project uses Node.js and pnpm. To reduce dependency risk:
 - Run dependency audits when appropriate
 - Avoid installing untrusted packages
 - Review third-party GitHub Actions before using them
+- Consider pinning third-party actions such as `pnpm/action-setup` and `actions/*` to a full commit SHA instead of a version tag. Workflows currently reference version tags, which the action owner can move.
 
 ## Maintainer Notes
 

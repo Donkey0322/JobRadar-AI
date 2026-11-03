@@ -75,14 +75,15 @@ PAT=<your GitHub Personal Access Token>
 
 ### PAT permissions
 
-For a fine-grained token, use the target repository and grant at least:
+Use a fine-grained token scoped to this repository only, and grant:
 
 - **Contents: Read and write**
-- **Issues: Read and write**
 
-If your workflows later need to trigger downstream workflows from workflow-generated commits, using a PAT is useful because commits pushed with the default `GITHUB_TOKEN` may not trigger the same downstream workflow behavior.
+Issue comments and issue closing use the built-in `GITHUB_TOKEN`, so the PAT does not need Issues permission.
 
-> Current repository note: `.github/workflows/setup-from-issue.yml` checks out the repository using `secrets.PAT`, so `PAT` should be added before opening the setup issue.
+The PAT is required, not optional. Commits pushed with the default `GITHUB_TOKEN` do not trigger other workflows, so data commits must be pushed with the PAT for **Notify Latest Jobs**, **Update README**, and **Batch Analysis Pipeline** to run.
+
+> Every workflow checks out the repository with `secrets.PAT`, including `.github/workflows/setup-from-issue.yml`, so add `PAT` before opening the setup issue.
 
 ---
 
@@ -293,8 +294,9 @@ Add:
 ```text
 SMTP_PASS=<your SMTP password or Gmail App Password>
 AI_API_KEY=<your AI provider API key, only required if AI is enabled>
-PAT=<your GitHub Personal Access Token>
 ```
+
+`PAT` should already exist from step 3.
 
 ### Gmail App Password
 
@@ -421,7 +423,13 @@ This runs:
 pnpm jobctl batch
 ```
 
-It submits queued job descriptions to the provider Batch API (about 50% of real-time cost), checkpoints `data/batch/inflight.json` immediately, then waits in the same run (polling every 20 seconds) until those jobs finish. Notify still follows `config.json`. In the default hybrid setup, this queue is unspecified-level titles. Notify titles stay on the real-time path.
+The workflow runs it in three steps:
+
+1. `pnpm jobctl batch --submit-only` submits queued job descriptions to the provider Batch API (about 50% of real-time cost).
+2. The workflow commits `data/batch/inflight.json` as a checkpoint with `[skip ci]`.
+3. `pnpm jobctl batch` polls the provider every 20 seconds until those jobs finish or the 20-minute soft deadline is hit, then commits the collected results.
+
+Notify still follows `config.json`. In the default hybrid setup, this queue is unspecified-level titles. Notify titles stay on the real-time path.
 
 ### Notify Latest Jobs
 
@@ -453,20 +461,56 @@ Workflow file:
 .github/workflows/readme-update.yml
 ```
 
-This workflow runs when:
+This workflow runs when any of these change:
 
 ```text
 config.json
 data/opportunities.ndjson
+data/archive/opportunities-*.ndjson
+scripts/readme.ts
 ```
 
-changes. It runs:
+You can also run it manually. It runs:
 
 ```bash
 pnpm update-readme
 ```
 
-and commits README updates if needed.
+and commits changes to `README.md`, `job-postings/`, and `assets/featured-badges/` if needed.
+
+### Add Job From Issue
+
+Workflow file:
+
+```text
+.github/workflows/add-job-from-issue.yml
+```
+
+This workflow runs when an issue is opened or edited with the `add-job` label, or with a title that starts with `Add Job`. Use the **Add Job** issue form to submit one posting by company, role, link, and location.
+
+It runs:
+
+```bash
+pnpm tsx scripts/add-job-from-issue.ts
+```
+
+It fetches the job description, analyzes it with your AI key, commits the job data, then comments on and closes the issue.
+
+### Clean Outdated URL
+
+Workflow file:
+
+```text
+.github/workflows/clean-outdated-url.yml
+```
+
+It runs:
+
+```bash
+pnpm clean-url
+```
+
+It checks every stored posting URL, removes postings that are gone from `data/urls.json`, and refreshes expiry in the opportunity data. Expired rows last seen more than 90 days ago are removed.
 
 ---
 
@@ -487,10 +531,10 @@ Current schedule:
 ```yaml
 schedule:
   - cron: "*/20 14-23 * * *"
-  - cron: "*/20 0-4 * * *"
+  - cron: "*/20 0-7 * * *"
 ```
 
-This means the community sync runs every 20 minutes during those UTC hour windows.
+These windows cover 07:00–23:40 California time in both PST and PDT. The first step checks the hour in `America/Los_Angeles` and skips runs outside that window, so the community sync runs every 20 minutes during the California day. Manual runs skip this check.
 
 To reduce cost or email frequency, change this to something slower.
 
@@ -522,12 +566,16 @@ Current schedule:
 
 ```yaml
 schedule:
-  - cron: "17 * * * *"
+  - cron: "10 7-23 * * 1"
+  - cron: "10 8-23 * * 2-5"
+  - cron: "10 0-7 * * 2-6"
 ```
 
-This runs once per hour at minute 17.
+This runs once per hour at minute 10, between the community sync runs at :00, :20, and :40. The three lines cover every California weekday hour in both PST and PDT. The first step skips runs that land on a California weekend.
 
-To run twice per day:
+Discovery looks back 2 days by default. The Monday 00:00 California run looks back 3 days to catch weekend postings. The workflow passes this to the scan as `DISCOVERY_LOOKBACK_DAYS`.
+
+To run twice per day, replace the schedule and keep the weekday check:
 
 ```yaml
 schedule:
@@ -592,9 +640,33 @@ on:
     paths:
       - "config.json"
       - "data/opportunities.ndjson"
+      - "data/archive/opportunities-*.ndjson"
+      - "scripts/readme.ts"
+  workflow_dispatch: {}
 ```
 
-It regenerates the README job board when config or opportunity data changes.
+It regenerates the README job board when config, opportunity data, or the README generator changes.
+
+### Clean Outdated URL
+
+File:
+
+```text
+.github/workflows/clean-outdated-url.yml
+```
+
+Current schedule:
+
+```yaml
+schedule:
+  - cron: "0 0 */14 * *"
+```
+
+This runs at 00:00 UTC on days 1, 15, and 29 of each month. It can take up to 120 minutes because it checks every stored URL.
+
+### No-change runs show as Cancelled
+
+When Community Sync or ATS Discovery finds no new data, the workflow cancels itself with `gh run cancel`. Those runs appear as **Cancelled** in the Actions tab. This is expected and does not mean the run failed.
 
 ---
 
@@ -638,7 +710,9 @@ The default model in the issue form is:
 gemini-2.5-flash
 ```
 
-Google's pricing page currently lists Gemini 2.5 Flash Standard text/image/video pricing at:
+Prices and model availability change. Check the provider pricing page before relying on these numbers, and confirm the default model is still offered.
+
+At the time of writing, Google's pricing page listed Gemini 2.5 Flash Standard text/image/video pricing at:
 
 ```text
 Input:  $0.30 / 1M tokens
@@ -803,7 +877,7 @@ Check:
 Check:
 
 - You commented on the setup issue, not a pull request.
-- The comment contains exactly:
+- The comment contains:
 
 ```text
 /check-setup
@@ -862,6 +936,16 @@ Possible reasons:
 - Your filters are too strict.
 - The sync workflow did not produce changes in `data/`.
 - `mail-notify.yml` did not trigger because the expected data path did not change.
+- The data commit was pushed without the `PAT`, so downstream workflows did not start.
+- `dashboard.notify` is set to `false` in `config.json`.
+
+### Workflow runs show as Cancelled
+
+Community Sync and ATS Discovery cancel themselves when they find no new data. This is expected.
+
+### Workflows skip outside certain hours
+
+Community Sync only runs 07:00–23:40 California time, and ATS Discovery only runs on California weekdays. Use **Run workflow** to run either one at any time.
 
 ### AI cost is higher than expected
 
@@ -879,11 +963,26 @@ Try:
 
 ## 14. Local commands
 
+Prerequisites:
+
+- Node.js 22 (`.nvmrc` pins `22.22.3`)
+- pnpm 11.7.0
+
 Install dependencies:
 
 ```bash
 pnpm install
 ```
+
+Create a `.env` file in the repository root. It is gitignored.
+
+```text
+SMTP_PASS=<your SMTP password or Gmail App Password>
+AI_API_KEY=<your AI provider API key>
+PAT=<your GitHub Personal Access Token>
+```
+
+`sync`, `scan`, and `batch` run the config check first and exit if any required value is missing.
 
 Check config locally:
 
@@ -915,6 +1014,20 @@ Collect and submit batch analysis:
 pnpm jobctl batch
 ```
 
+Submit queued jobs without waiting for results:
+
+```bash
+pnpm jobctl batch --submit-only
+```
+
+Send notifications:
+
+```bash
+pnpm jobctl notify latest
+pnpm jobctl notify commit <commit-sha>
+pnpm jobctl notify range <from-sha> <to-sha>
+```
+
 Update README:
 
 ```bash
@@ -925,6 +1038,23 @@ Preview email:
 
 ```bash
 pnpm preview-email
+```
+
+Maintain job data:
+
+```bash
+pnpm add-job            # add one posting interactively
+pnpm delete-url         # remove a posting URL
+pnpm clean-url          # remove dead posting URLs
+pnpm dedup              # deduplicate opportunities and URLs
+pnpm refresh-companies  # rewrite stored company names after identifier remaps
+```
+
+Test and typecheck:
+
+```bash
+pnpm test
+pnpm typecheck
 ```
 
 ---
@@ -944,3 +1074,4 @@ pnpm preview-email
 - [ ] Manually ran ATS Discovery once
 - [ ] Manually ran Batch Analysis once
 - [ ] Confirmed notification email works
+- [ ] Decided whether to keep **Add Job From Issue** enabled (see `SECURITY.md` for public repositories)

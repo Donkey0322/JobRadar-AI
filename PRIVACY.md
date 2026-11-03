@@ -9,8 +9,15 @@ Depending on your configuration, JobRadar AI may process:
 - Company career page URLs and ATS job board URLs
 - Public job postings and job descriptions
 - Parsed job signals such as role category, location, season, sponsorship, citizenship requirements, and qualifications
-- Your `config.json` settings, such as target countries, role categories, schedule preferences, and email notification settings
+- Your `config.json` settings, such as target countries, role categories, keywords, AI provider, and email notification settings
 - Email notification metadata needed to send alerts through your configured SMTP provider
+- Job submissions from the **Add Job** issue form: company, role, posting link, and location
+
+## Email Addresses in `config.json`
+
+The sender address, SMTP username, and receiver addresses are stored in plain text in `config.json`. They also appear in the setup issue that generated the config.
+
+If your repository is public, anyone can read these addresses. Use a dedicated sender account, and consider keeping the repository private if you do not want your receiver addresses exposed.
 
 ## GitHub Secrets
 
@@ -27,9 +34,9 @@ Do not commit secrets directly into the repository.
 
 ## AI Provider Usage
 
-If AI parsing is enabled, JobRadar AI may send public job description text and related job metadata to the AI provider you configure.
+If AI parsing is enabled, JobRadar AI may send public job description text and related job metadata to the AI provider you configure. This includes postings submitted through the **Add Job** issue form.
 
-The project may support providers such as OpenAI, Google Gemini, Anthropic, or other compatible APIs depending on your configuration.
+Supported providers are OpenAI, Google Gemini, and Anthropic. Some jobs are sent through the provider's Batch API instead of real-time requests; the same job data is sent either way.
 
 You are responsible for reviewing the privacy policy and data usage terms of the AI provider you choose.
 
@@ -51,7 +58,8 @@ If you use JobRadar AI in a public repository, generated job data, configuration
 
 Before making your repository public, review:
 
-- `config.json`
+- `config.json`, especially sender and receiver email addresses
+- The setup issue and any **Add Job** issues
 - Generated job data files
 - GitHub Actions logs
 - README output
@@ -62,9 +70,12 @@ Before making your repository public, review:
 JobRadar AI may interact with third-party services depending on your setup, including:
 
 - GitHub Actions
+- Community-maintained job lists on GitHub, such as SimplifyJobs and vanshb03, fetched from `raw.githubusercontent.com`
 - Company ATS APIs and career pages
 - AI model providers
 - SMTP or email providers
+
+These requests fetch public job data. They do not include your configuration, email addresses, or secrets.
 
 Each third-party service has its own privacy practices and terms.
 
@@ -78,4 +89,4 @@ Each third-party service has its own privacy practices and terms.
 
 ## Contact
 
-If you find a privacy or security issue, please do not open a public issue containing sensitive information. Instead, contact the repository maintainer privately or follow the instructions in `SECURITY.md` if available.
+If you find a privacy or security issue, please do not open a public issue containing sensitive information. Report it privately through [GitHub private vulnerability reporting](https://github.com/Donkey0322/JobRadar-AI/security/advisories/new). See `SECURITY.md` for what to include.
