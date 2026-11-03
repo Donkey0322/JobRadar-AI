@@ -63,6 +63,9 @@ describe("classifyATS", () => {
   it.each<[string, ATS]>([
     ["https://careers.example.com/job/1?8fold_id=1", "eightfold"],
     ["https://careers.example.com/job/1?ph_id=1", "phenom"],
+    ["https://careers.bcg.com/global/en/job/59702", "phenom"],
+    ["https://join.sephora.com/careers/job/790312030968", "eightfold"],
+    ["https://career.mlp.com/careers/job/755957778821", "eightfold"],
     ["https://careers.example.com/job/1?ashby_jid=1", "ashby"],
     ["https://careers.example.com/job/1?gh_jid=1", "greenhouse"],
   ])("uses the tracking-parameter fallback in %s", (url, ats) => {

@@ -50,7 +50,7 @@ export function getJobKey(url: string) {
         return getOracleKey(u.pathname) ?? `oraclecloud:${normalizeUrl(url)}`;
 
       case "phenom":
-        return getPhenomKey(u.pathname) ?? `phenom:${normalizeUrl(url)}`;
+        return getPhenomKey(u) ?? `phenom:${normalizeUrl(url)}`;
 
       case "radancy":
         return getRadancyKey(u.pathname) ?? `radancy:${normalizeUrl(url)}`;

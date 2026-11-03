@@ -98,8 +98,10 @@ export function getEightfoldKey(url: URL): string | null {
   return toATSKey("eightfold", id);
 }
 
-export function getPhenomKey(pathname: string): string | null {
-  return getNumericRouteKey(pathname, "phenom", "job");
+export function getPhenomKey(url: URL): string | null {
+  const id = url.searchParams.get("ph_id") ?? url.pathname.match(/\/job\/([^/]+)/i)?.[1];
+  // Job IDs (e.g. R160198) are only unique within one Phenom site, and the locale path varies.
+  return toATSKey("phenom", id ? `${getHostnameWithoutWww(url)}:${id.toLowerCase()}` : null);
 }
 
 export function getRadancyKey(pathname: string): string | null {

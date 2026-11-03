@@ -15,6 +15,7 @@ export const TRACKING_PARAM = "ph_id";
 
 const PAGE_SIZE = 100;
 const MAX_PAGES = 5;
+const MAX_LIST_PAGES = 30;
 const RECENT_DAYS = 2;
 
 const PHENOM_USER_AGENT =
@@ -652,6 +653,27 @@ export class PhenomFetcher extends Employer<PhenomJob> {
       link: this.getJobLink(job, company),
       location: getPhenomJobLocation(job),
     };
+  }
+
+  protected async collectListingJobs(
+    company: Company,
+    signal: AbortSignal
+  ): Promise<PhenomJob[] | null> {
+    const session = await getPhenomSession(company.page, signal);
+    const jobs: PhenomJob[] = [];
+
+    for (let page = 0; page < MAX_LIST_PAGES; page++) {
+      const rawJobs = await fetchPhenomPage(page, session, signal, (data) =>
+        this.getJobsFromResponse(data, company)
+      );
+      jobs.push(...rawJobs);
+
+      if (rawJobs.length < PAGE_SIZE) {
+        break;
+      }
+    }
+
+    return jobs;
   }
 
   async fetch(

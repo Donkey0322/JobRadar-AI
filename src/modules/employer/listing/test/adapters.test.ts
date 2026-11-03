@@ -169,6 +169,29 @@ describe("Company adapters", () => {
     ).toBe("eightfold:apply.careers.microsoft.com");
   });
 
+  it("forms custom Eightfold hosts without a domain query", async () => {
+    mockFetch.mockResolvedValueOnce(jsonResponse({ data: { positions: [] } }));
+
+    await expect(
+      eightfoldFetcher.formCompany(new URL("https://join.sephora.com/careers/job/790312030968"))
+    ).resolves.toMatchObject({
+      name: "sephora",
+      identifier: "join.sephora.com",
+      domain: "sephora.com",
+      page: "https://join.sephora.com/api/pcsx/search?domain=sephora.com",
+    });
+  });
+
+  it("files a custom host under its existing *.eightfold.ai tenant", () => {
+    expect(
+      eightfoldFetcher.companyKeyFromUrl(new URL("https://career.mlp.com/careers/job/755957778821"))
+    ).toBe(
+      eightfoldFetcher.companyKeyFromUrl(
+        new URL("https://mlp.eightfold.ai/careers/job/755957583465?domain=mlp.com&8fold_id=1")
+      )
+    );
+  });
+
   it("keeps Eightfold company formation compatible with Apply fallback", async () => {
     mockFetch.mockResolvedValueOnce(
       jsonResponse({ message: "PCSX is not enabled for this user." })

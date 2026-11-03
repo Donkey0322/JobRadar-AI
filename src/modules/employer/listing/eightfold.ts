@@ -5,7 +5,7 @@ import { RED_CROSS } from "@/constants/log";
 import type { Company, Job } from "@/types";
 
 import { Employer } from "../employer";
-import { eightfoldDomain } from "../shared/eightfold";
+import { eightfoldDomain, eightfoldIdentifier } from "../shared/eightfold";
 
 import { logListingFailure } from "@/modules/employer/shared/fetch-log";
 import { appendErrorLog } from "@/utils/data";
@@ -128,7 +128,7 @@ export class EightfoldFetcher extends Employer<EightfoldJob> {
   }
 
   private getIdentifier(url: URL): string {
-    return url.hostname.replace(".eightfold.ai", "");
+    return eightfoldIdentifier(url);
   }
 
   protected getJobsFromResponse(data: unknown): EightfoldJob[] {

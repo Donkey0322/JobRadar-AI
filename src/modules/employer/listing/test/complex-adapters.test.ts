@@ -18,7 +18,7 @@ import { radancyFetcher } from "../radancy";
 import { workdayFetcher } from "../workday";
 
 import { appendErrorLog } from "@/utils/data";
-import { toJobKeySet } from "@/utils/job-key";
+import { getJobKey, toJobKeySet } from "@/utils/job-key";
 
 const mockFetch = vi.fn<typeof fetch>();
 
@@ -369,6 +369,46 @@ describe("complex ATS adapters", () => {
     mockFetch.mockResolvedValueOnce(new Response("", { status: 503 }));
 
     expect(await icimsFetcher.listJobKeys(company, AbortSignal.timeout(1000))).toBeNull();
+  });
+
+  it("lists every Phenom page regardless of age for job keys", async () => {
+    const company: Company = {
+      name: "acme",
+      ats: "phenom",
+      identifier: "careers.acme.com",
+      domain: "https://careers.acme.com",
+      page: "https://careers.acme.com",
+      urls: [],
+    };
+    const pages = [Array.from({ length: 100 }, (_, index) => `R${index}`), ["R100"]];
+    const froms: number[] = [];
+
+    mockFetch.mockImplementation(async (input, init) => {
+      const url = String(input);
+
+      if (!url.endsWith("/widgets")) {
+        return response(
+          `<script>{"csrfToken":"token"}</script>`,
+          "https://careers.acme.com/us/en/"
+        );
+      }
+
+      const { from } = JSON.parse(String(init?.body)) as { from: number };
+      froms.push(from);
+      const jobs = (pages[from / 100] ?? []).map((jobId) => ({
+        jobId,
+        title: "Accountant",
+        postedDate: "2020-01-01T00:00:00Z",
+      }));
+
+      return jsonResponse({ refineSearch: { data: { jobs } } }, url);
+    });
+
+    const keys = await phenomFetcher.listJobKeys(company, AbortSignal.timeout(1000));
+
+    expect(froms).toEqual([0, 100]);
+    expect(keys?.size).toBe(101);
+    expect(keys?.has(getJobKey("https://careers.acme.com/us/en/job/R100?ph_id=R100"))).toBe(true);
   });
 
   it("isolates concurrent Phenom sessions, cookies, CSRF tokens, and links", async () => {

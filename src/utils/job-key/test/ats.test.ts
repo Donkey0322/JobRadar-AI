@@ -10,6 +10,7 @@ import {
   getJazzHRKey,
   getLeverKey,
   getOracleKey,
+  getPhenomKey,
   getRadancyKey,
   getRipplingKey,
   getSmartRecruitersKey,
@@ -538,6 +539,33 @@ describe("getIcimsKey", () => {
 
     // Assert
     expect(result).toBe(expected);
+  });
+});
+
+describe("getPhenomKey", () => {
+  it.each([
+    [
+      "https://careers.adobe.com/us/en/job/R160198?ph_id=R160198",
+      "phenom:careers.adobe.com:r160198",
+    ],
+    ["https://careers.adobe.com/job/R160198", "phenom:careers.adobe.com:r160198"],
+    [
+      "https://careers.idexx.com/us/en/job/R-1234/Software-Engineer?ph_id=R-1234",
+      "phenom:careers.idexx.com:r-1234",
+    ],
+    ["https://careers.bcg.com/global/en/job/59702", "phenom:careers.bcg.com:59702"],
+  ])("keys %s by site and job id", (url, expected) => {
+    expect(getPhenomKey(new URL(url))).toBe(expected);
+  });
+
+  it("keeps the same job id on different sites apart", () => {
+    expect(getJobKey("https://careers.bcg.com/global/en/job/59702")).not.toBe(
+      getJobKey("https://careers.cisco.com/global/en/job/59702?ph_id=59702")
+    );
+  });
+
+  it("returns null without a job id", () => {
+    expect(getPhenomKey(new URL("https://careers.adobe.com/us/en/search-results"))).toBeNull();
   });
 });
 

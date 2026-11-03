@@ -12156,25 +12156,6 @@
     ]
   },
   {
-    "name": "career.innovativesystems.com",
-    "ats": "custom",
-    "identifier": "career.innovativesystems.com",
-    "domain": "https://career.innovativesystems.com",
-    "page": "",
-    "urls": []
-  },
-  {
-    "name": "career.mlp.com",
-    "ats": "custom",
-    "identifier": "career.mlp.com",
-    "domain": "https://career.mlp.com",
-    "page": "",
-    "urls": [
-      "https://career.mlp.com/careers/job/755957778821",
-      "https://career.mlp.com/careers/job/755957778848"
-    ]
-  },
-  {
     "name": "Careers at Atlantic Health System",
     "ats": "oraclecloud",
     "identifier": "erqh.fa.us2.oraclecloud.com",
@@ -12237,10 +12218,10 @@
   },
   {
     "name": "careers.bcg.com",
-    "ats": "custom",
+    "ats": "phenom",
     "identifier": "careers.bcg.com",
     "domain": "https://careers.bcg.com",
-    "page": "",
+    "page": "https://careers.bcg.com",
     "urls": [
       "https://careers.bcg.com/global/en/job/59702"
     ]
@@ -25838,11 +25819,11 @@
     ]
   },
   {
-    "name": "jobs.ericsson.com",
-    "ats": "custom",
+    "name": "ericsson",
+    "ats": "eightfold",
     "identifier": "jobs.ericsson.com",
-    "domain": "https://jobs.ericsson.com",
-    "page": "",
+    "domain": "ericsson.com",
+    "page": "https://jobs.ericsson.com/api/pcsx/search?domain=ericsson.com",
     "urls": [
       "https://jobs.ericsson.com/careers/job/563121777363423"
     ]
@@ -25903,19 +25884,6 @@
     "domain": "https://jobs.lumen.com",
     "page": "",
     "urls": []
-  },
-  {
-    "name": "jobs.nvidia.com",
-    "ats": "custom",
-    "identifier": "jobs.nvidia.com",
-    "domain": "https://jobs.nvidia.com",
-    "page": "",
-    "urls": [
-      "https://jobs.nvidia.com/careers/job/893397026205",
-      "https://jobs.nvidia.com/careers/job/893397529283",
-      "https://jobs.nvidia.com/careers/job/893398073452",
-      "https://jobs.nvidia.com/careers/job/893398311676"
-    ]
   },
   {
     "name": "jobs.postholdings.com",
@@ -26055,11 +26023,11 @@
     ]
   },
   {
-    "name": "join.sephora.com",
-    "ats": "custom",
+    "name": "sephora",
+    "ats": "eightfold",
     "identifier": "join.sephora.com",
-    "domain": "https://join.sephora.com",
-    "page": "",
+    "domain": "sephora.com",
+    "page": "https://join.sephora.com/api/pcsx/search?domain=sephora.com",
     "urls": [
       "https://join.sephora.com/careers/job/790312030968",
       "https://join.sephora.com/careers/job/790312030985",
@@ -30133,6 +30101,8 @@
     "domain": "mlp.com",
     "page": "https://mlp.eightfold.ai/api/apply/v2/jobs?domain=mlp.com",
     "urls": [
+      "https://career.mlp.com/careers/job/755957778821",
+      "https://career.mlp.com/careers/job/755957778848",
       "https://mlp.eightfold.ai/careers/job/755957583465?domain=mlp.com&8fold_id=755957583465",
       "https://mlp.eightfold.ai/careers/job/755957624284?domain=mlp.com&8fold_id=755957624284",
       "https://mlp.eightfold.ai/careers/job/755957630980?domain=mlp.com&8fold_id=755957630980",
