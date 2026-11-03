@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "name": "batches/i6fzgfjegzznjo9ylr7rgk6kphlv57b82uxm",
+    "submittedAt": "2026-11-03T09:57:36.620Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Innovative",
+        "role": "Intern/Co-op- Summer 2027 - Software Engineering",
+        "link": "https://career.innovativesystems.com/apply/nPMqeNSQOo/InternCoop-Summer-2027-Software-Engineering",
+        "location": "Pittsburgh, PA"
+      },
+      {
+        "company": "Independent",
+        "role": "Azure Cloud Engineer, Junior Level",
+        "link": "https://independentsoftware.applytojob.com/apply/omj1OSmRUI/Azure-Cloud-Engineer-Junior-Level",
+        "location": "Annapolis Junction, MD"
+      },
+      {
+        "company": "IntelliGenesis",
+        "role": "Applied Data Scientist Internship (DoW SkillBridge)",
+        "link": "https://intelligenesis.applytojob.com/apply/synY3toJUH/Applied-Data-Scientist-Internship-DoW-SkillBridge",
+        "location": "Columbia, MD"
+      }
+    ]
+  }
+]
