@@ -1,6 +1,28 @@
 import { describe, expect, it } from "vitest";
 
-import { findJibeRedirect, getJibeApiUrl, getJibeJobLink, isJibeUrl, parseJibeJobs } from "../jibe";
+import {
+  findJibeRedirect,
+  getJibeApiUrl,
+  getJibeJobLink,
+  isJibeUrl,
+  jibeCompanyName,
+  parseJibeJobs,
+} from "../jibe";
+
+describe("jibeCompanyName", () => {
+  it("prefers the host override", () => {
+    expect(
+      jibeCompanyName("Advanced Micro Devices, Inc", new URL("https://careers.amd.com/jobs/1"))
+    ).toBe("AMD");
+  });
+
+  it("strips the legal suffix from hiring_organization", () => {
+    expect(jibeCompanyName("GitHub, Inc.", new URL("https://githubinc.jibeapply.com/jobs/1"))).toBe(
+      "GitHub"
+    );
+    expect(jibeCompanyName(null, new URL("https://githubinc.jibeapply.com/jobs/1"))).toBeNull();
+  });
+});
 
 describe("isJibeUrl", () => {
   it.each([

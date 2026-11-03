@@ -1,5 +1,6 @@
 import z from "zod";
 
+import { stripLegalSuffix } from "@/utils/string";
 import { getHostnameWithoutWww } from "@/utils/url";
 
 /**
@@ -34,6 +35,17 @@ const JIBE_HOSTS = new Set([
   "careers.arcfield.com",
   "careers.jhuapl.edu",
 ]);
+
+/** Names that differ from the site's `hiring_organization`. */
+const COMPANY_NAMES: Record<string, string> = {
+  "careers.amd.com": "AMD",
+};
+
+export function jibeCompanyName(hiringOrganization: string | null, url: URL): string | null {
+  const override = COMPANY_NAMES[getHostnameWithoutWww(url)];
+  if (override) return override;
+  return hiringOrganization ? stripLegalSuffix(hiringOrganization) : null;
+}
 
 export function isJibeUrl(url: URL): boolean {
   return (

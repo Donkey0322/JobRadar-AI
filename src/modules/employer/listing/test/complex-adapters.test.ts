@@ -256,7 +256,7 @@ describe("complex ATS adapters", () => {
     );
 
     expect(company).toEqual({
-      name: "Akima, LLC",
+      name: "Akima",
       ats: "icims",
       identifier: "careers.akima.com",
       domain: "https://careers.akima.com",

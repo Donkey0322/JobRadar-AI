@@ -190,6 +190,46 @@ describe("ATS fetcher registry", () => {
     ]);
   });
 
+  it("upgrades a url-less custom row whose domain is now an ATS board", async () => {
+    const legacy: Company = {
+      name: "mujin.bamboohr.com",
+      ats: "custom",
+      identifier: "mujin.bamboohr.com",
+      domain: "https://mujin.bamboohr.com",
+      page: "",
+      urls: [],
+    };
+    const upgraded: Company = {
+      name: "Mujin",
+      ats: "bamboohr",
+      identifier: "mujin",
+      domain: "https://mujin.bamboohr.com",
+      page: "https://mujin.bamboohr.com/careers/list",
+      urls: [],
+    };
+    dataMocks.loadCompanies.mockResolvedValue([legacy]);
+    const formCompany = vi.spyOn(bambooHRFetcher, "formCompany").mockResolvedValue(upgraded);
+
+    await expect(buildCompanyList([])).resolves.toEqual([upgraded]);
+    expect(formCompany).toHaveBeenCalledWith(new URL(legacy.domain));
+  });
+
+  it("keeps url-less custom rows whose domain is still custom", async () => {
+    const custom: Company = {
+      name: "Acme",
+      ats: "custom",
+      identifier: "careers.acme.com",
+      domain: "https://careers.acme.com",
+      page: "",
+      urls: [],
+    };
+    dataMocks.loadCompanies.mockResolvedValue([custom]);
+    const formCompany = vi.spyOn(customFetcher, "formCompany");
+
+    await expect(buildCompanyList([])).resolves.toEqual([custom]);
+    expect(formCompany).not.toHaveBeenCalled();
+  });
+
   it("keeps distinct company keys as separate formCompany calls", async () => {
     const acme: Company = {
       name: "acme",

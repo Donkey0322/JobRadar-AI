@@ -1,6 +1,22 @@
 import { describe, expect, it } from "vitest";
 
-import { cleanText } from "../string";
+import { cleanText, stripLegalSuffix } from "../string";
+
+describe("stripLegalSuffix", () => {
+  it.each([
+    ["GitHub, Inc.", "GitHub"],
+    ["Advanced Micro Devices, Inc", "Advanced Micro Devices"],
+    ["Foundation Finance Company, LLC", "Foundation Finance Company"],
+    ["Aon Corporation", "Aon"],
+    ["Acme Ltd.", "Acme"],
+    ["Integration Innovation, Inc. (i3)", "Integration Innovation, Inc. (i3)"],
+    ["MSA, The Safety Company", "MSA, The Safety Company"],
+    ["Incyte", "Incyte"],
+    ["Inc", "Inc"],
+  ])("%s → %s", (name, expected) => {
+    expect(stripLegalSuffix(name)).toBe(expected);
+  });
+});
 
 describe("cleanText", () => {
   it("should collapse multiple spaces into a single space", () => {

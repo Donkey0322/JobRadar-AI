@@ -16,6 +16,7 @@ import {
   isJibeApiUrl,
   isJibeUrl,
   JIBE_PAGE_SIZE,
+  jibeCompanyName,
   type JibeJob,
   parseJibeJobs,
 } from "@/modules/employer/shared/jibe";
@@ -267,7 +268,7 @@ export class IcimsFetcher extends Employer<IcimsJob> {
 
     if (isJibeUrl(url) || isJibeApiUrl(url)) {
       return {
-        name: (await fetchJibeCompanyName(url.origin)) ?? identifier,
+        name: jibeCompanyName(await fetchJibeCompanyName(url.origin), url) ?? identifier,
         ats: this.ats,
         identifier,
         domain: url.origin,

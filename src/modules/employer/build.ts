@@ -17,20 +17,35 @@ export function getCompanyKey(company: Company): string {
   return identityKey(company);
 }
 
+/**
+ * Bare domain/page URLs often omit the company slug (e.g. https://jobs.lever.co),
+ * which would form a company with an undefined name, so re-key from a job URL.
+ * The exception is a url-less custom row whose domain is itself a tenant board
+ * (e.g. https://mujin.bamboohr.com) of an ATS added after the row was built.
+ */
+function representativeUrl(existing: Company): URL | null {
+  try {
+    if (existing.urls[0]) return new URL(existing.urls[0]);
+    if (existing.ats !== "custom" || !existing.domain) return null;
+
+    const domain = new URL(existing.domain);
+    return classifyATS(domain) === "custom" ? null : domain;
+  } catch {
+    return null;
+  }
+}
+
 async function resolveExistingCompany(
   existing: Company
 ): Promise<{ key: string; company: Company }> {
   const existingKey = getCompanyKey(existing);
-  const representative = existing.urls[0];
+  const url = representativeUrl(existing);
 
-  // Bare domain/page URLs often omit the company slug (e.g. https://jobs.lever.co),
-  // which would form a company with an undefined name. Only re-key from a job URL.
-  if (!representative) {
+  if (!url) {
     return { key: existingKey, company: existing };
   }
 
   try {
-    const url = new URL(representative);
     const fetcher = employers[classifyATS(url)];
     const resolvedKey = fetcher.companyKeyFromUrl(url);
 
