@@ -20702,6 +20702,16 @@
     ]
   },
   {
+    "name": "Frontgrade",
+    "ats": "oraclecloud",
+    "identifier": "exzj.fa.us8.oraclecloud.com",
+    "domain": "https://exzj.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://exzj.fa.us8.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://exzj.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/459"
+    ]
+  },
+  {
     "name": "fspco-op012325",
     "ats": "greenhouse",
     "identifier": "fspco-op012325",
@@ -24389,6 +24399,16 @@
     ]
   },
   {
+    "name": "humaninterestswe1",
+    "ats": "greenhouse",
+    "identifier": "humaninterestswe1",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/humaninterestswe1/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/humaninterestswe1/jobs/8083833"
+    ]
+  },
+  {
     "name": "humble-robotics",
     "ats": "lever",
     "identifier": "humble-robotics",
@@ -27697,9 +27717,12 @@
       "https://jobs.l3harris.com/job/Melbourne-Intern-C,-Software-Engineer-FL-32919/1422807400/?ats=successfactors",
       "https://jobs.l3harris.com/job/Melbourne-Software-Engineering-Intern-(Melbourne,-FL)-FL-32901/1428467400/?ats=successfactors",
       "https://jobs.l3harris.com/job/Melbourne-Software-Engineering-Intern-FL-32901/1428454500/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Nashville-Intern,-Software-Engineer-TN-37203/1447640200/?ats=successfactors",
       "https://jobs.l3harris.com/job/Niagara-on-the-Lake-Full-Stack-Developer-Co-op-ON/1319062300/?ats=successfactors",
       "https://jobs.l3harris.com/job/Northampton-Intern,-Software-Engineer-MA-01060/1423745000/?ats=successfactors",
       "https://jobs.l3harris.com/job/Northampton-Intern,-Software-Engineer-MA-01060/1423747400/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Palm-Bay-Associate,-Software-Engineer-FL-32905/1447658800/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Palm-Bay-Associate,-Software-Engineer-FL-32905/1447664100/?ats=successfactors",
       "https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1422837400/?ats=successfactors",
       "https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1422837500/?ats=successfactors",
       "https://jobs.l3harris.com/job/Palm-Bay-Intern,-Software-Engineer-FL-32905/1423100800/?ats=successfactors",
@@ -27979,6 +28002,7 @@
     "urls": [
       "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/AI-Engineer_R-00192454",
       "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/AWS-Solutions-Engineer_R-00188788",
+      "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Software-Engineering---AI-Intern_R-00196220",
       "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Systems-Engineer---Microsoft-365-Security---Compliance---Endpoint-Security-Engineer--GCC-_R-00190545",
       "https://leidos.wd5.myworkdayjobs.com/External/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00191713",
       "https://leidos.wd5.myworkdayjobs.com/External/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00192858",
@@ -30451,6 +30475,16 @@
     ]
   },
   {
+    "name": "microchiphr",
+    "ats": "workday",
+    "identifier": "microchiphr-external",
+    "domain": "https://microchiphr.wd5.myworkdayjobs.com/External",
+    "page": "https://microchiphr.wd5.myworkdayjobs.com/wday/cxs/microchiphr/External/jobs",
+    "urls": [
+      "https://microchiphr.wd5.myworkdayjobs.com/External/job/OR---Gresham/Intern--Data-Analyst-_R4441-26"
+    ]
+  },
+  {
     "name": "micron",
     "ats": "eightfold",
     "identifier": "micron",
@@ -32529,7 +32563,9 @@
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Hollywood/Software-Engineer---Principal-Software-Engineer_R10254398",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/XMLNAME-2027-Software-Engineer-Intern---Linthicum-Maryland_R10248910",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Patuxent-River/System-Test-Engineer_R10212036",
+      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Sykesville/XMLNAME-2027-Associate-S-W-Embedded-Engineer---Sykesville-MD_R10258626",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Sykesville/XMLNAME-2027-Associate-Systems-Engineer---Sykesville-MD_R10258617-1",
+      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Sykesville/XMLNAME-2027-S-W-Embedded-Engineering-Intern---Sykesville-MD_R10258553",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Mississippi-Iuka/Industrial-Security-Analyst_R10257429",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Mississippi-Ocean-Springs/Systems-Engineer-Level-4_R10242313",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Nebraska-Bellevue/Software-Test-Engineer_R10252662",
@@ -35498,6 +35534,17 @@
     "urls": []
   },
   {
+    "name": "plusgrade",
+    "ats": "workday",
+    "identifier": "plusgrade-plusgrade_external_site",
+    "domain": "https://plusgrade.wd10.myworkdayjobs.com/Plusgrade_External_Site",
+    "page": "https://plusgrade.wd10.myworkdayjobs.com/wday/cxs/plusgrade/Plusgrade_External_Site/jobs",
+    "urls": [
+      "https://plusgrade.wd10.myworkdayjobs.com/Plusgrade_External_Site/job/CAN---Toronto/Applied-AI-Engineer-Intern_JR100233",
+      "https://plusgrade.wd10.myworkdayjobs.com/Plusgrade_External_Site/job/CAN---Toronto/Applied-AI-Test-Engineer---Intern_JR100227"
+    ]
+  },
+  {
     "name": "pmg",
     "ats": "greenhouse",
     "identifier": "pmg",
@@ -35990,6 +36037,16 @@
       "https://ptc.wd1.myworkdayjobs.com/ptc/job/Pune-India/Security-Analyst---Corporate-Global-Security_JR112297",
       "https://ptc.wd1.myworkdayjobs.com/ptc/job/ROM-Bucharest-PO/Data-Warehouse-Engineer_JR111826",
       "https://ptc.wd1.myworkdayjobs.com/ptc/job/Remote-USA/Cloud-Service-Engineer_JR112727"
+    ]
+  },
+  {
+    "name": "Publicis Groupe Holdings B.V",
+    "ats": "icims",
+    "identifier": "publicisgroupe.jibeapply.com",
+    "domain": "https://publicisgroupe.jibeapply.com",
+    "page": "https://publicisgroupe.jibeapply.com/api/jobs",
+    "urls": [
+      "https://publicisgroupe.jibeapply.com/jobs/179413?icims=1"
     ]
   },
   {
@@ -39630,6 +39687,16 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/sevenresearch/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/sevenresearch/jobs/4452682008"
+    ]
+  },
+  {
+    "name": "ShadowDragon",
+    "ats": "rippling",
+    "identifier": "shadowdragon",
+    "domain": "https://ats.rippling.com",
+    "page": "https://api.rippling.com/platform/api/ats/v1/board/shadowdragon/jobs",
+    "urls": [
+      "https://ats.rippling.com/shadowdragon/jobs/69df1efd-5f05-4a79-9432-30925eb6db3c"
     ]
   },
   {
