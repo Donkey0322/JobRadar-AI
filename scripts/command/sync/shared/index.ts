@@ -3,6 +3,7 @@ import pLimit from "p-limit";
 import { RED_CROSS } from "@/constants/log";
 
 import type { JobOutcome, SkipKind } from "./outcome";
+import type { PostingAnalysisFailure } from "@/modules/posting";
 import type { OpportunityLedger } from "@/modules/postings/seen";
 import type { Job } from "@/types";
 import type { JD } from "@/types/jobs";
@@ -167,6 +168,32 @@ function logSkip(job: Posting, kind: SkipKind, reason: string | null) {
   );
 }
 
+function logFailure(job: Posting, failure: PostingAnalysisFailure) {
+  if (failure.stage === "ai") {
+    logger.error(
+      {
+        company: job.company,
+        role: job.role,
+        url: job.link,
+        reason: failure.reason,
+      },
+      `${RED_CROSS} AI analysis failed`
+    );
+    return;
+  }
+
+  logger.error(
+    {
+      company: job.company,
+      role: job.role,
+      url: job.link,
+      code: failure.error.code,
+      reason: failure.error.desc || "No JD returned",
+    },
+    `${RED_CROSS} Failed to fetch JD`
+  );
+}
+
 function applyOutcome(outcome: JobOutcome, state: ApplyState) {
   switch (outcome.effect) {
     case "deadline":
@@ -175,16 +202,7 @@ function applyOutcome(outcome: JobOutcome, state: ApplyState) {
 
     case "fail":
       state.failed += 1;
-      logger.error(
-        {
-          company: outcome.job.company,
-          role: outcome.job.role,
-          url: outcome.job.link,
-          code: outcome.error.code,
-          reason: outcome.error.desc || "No JD returned",
-        },
-        `${RED_CROSS} Failed to fetch JD`
-      );
+      logFailure(outcome.job, outcome.failure);
       return;
 
     case "skip":

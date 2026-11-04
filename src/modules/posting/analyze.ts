@@ -1,7 +1,7 @@
 import type { JDFetchResult, JDFetchStatus } from "./jd/fetch";
 import type { JD, Job } from "@/types/jobs";
 
-import { JD_FETCH_ERROR, JD_FETCH_OK } from "./jd/fetch";
+import { JD_FETCH_OK } from "./jd/fetch";
 import analyzeJD, { analyzeQualifications } from "./ai";
 import { parseAIJDResult, parseQualificationResult } from "./response";
 
@@ -9,11 +9,19 @@ import { logger } from "@/utils/logger";
 
 export { normalizeJD } from "./response";
 
+export type AIAnalysisFailureReason = "empty" | "invalid" | "unparseable";
+
+export type PostingAnalysisFailure =
+  | { stage: "fetch"; error: JDFetchStatus }
+  | { stage: "ai"; reason: AIAnalysisFailureReason };
+
 export interface PostingAnalysisResult {
   jd: JD | null;
   rawJD: string;
   cost: number;
+  /** Status of the JD fetch; stays OK when only the AI step fails. */
   error: JDFetchStatus;
+  failure: PostingAnalysisFailure | null;
 }
 
 export interface QualificationAnalysisResult {
@@ -44,6 +52,7 @@ export async function analyzePosting(
       rawJD: "",
       cost: 0,
       error,
+      failure: { stage: "fetch", error },
     };
   }
 
@@ -54,7 +63,8 @@ export async function analyzePosting(
       jd: null,
       rawJD,
       cost,
-      error: JD_FETCH_ERROR.noData(),
+      error: JD_FETCH_OK,
+      failure: { stage: "ai", reason: "empty" },
     };
   }
 
@@ -66,6 +76,7 @@ export async function analyzePosting(
       rawJD,
       cost,
       error: JD_FETCH_OK,
+      failure: null,
     };
   }
 
@@ -83,7 +94,8 @@ export async function analyzePosting(
       jd: null,
       rawJD,
       cost,
-      error: JD_FETCH_ERROR.noData(),
+      error: JD_FETCH_OK,
+      failure: { stage: "ai", reason: "invalid" },
     };
   }
 
@@ -99,7 +111,8 @@ export async function analyzePosting(
     jd: null,
     rawJD,
     cost,
-    error: JD_FETCH_ERROR.internal(),
+    error: JD_FETCH_OK,
+    failure: { stage: "ai", reason: "unparseable" },
   };
 }
 

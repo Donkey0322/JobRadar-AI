@@ -1,5 +1,4 @@
-import type { Posting } from "@/modules/posting";
-import type { JDFetchStatus } from "@/modules/posting/jd";
+import type { Posting, PostingAnalysisFailure } from "@/modules/posting";
 import type { Job } from "@/types";
 
 import { isAIEnabled } from "@/utils/ai/enabled";
@@ -28,7 +27,7 @@ interface BatchOutcome {
 interface FailOutcome {
   effect: "fail";
   job: Posting;
-  error: JDFetchStatus;
+  failure: PostingAnalysisFailure;
 }
 
 interface NotifyOutcome {
@@ -76,8 +75,8 @@ function batch(job: Posting): BatchOutcome {
   return { effect: "batch", job };
 }
 
-function fail(job: Posting, error: JDFetchStatus): FailOutcome {
-  return { effect: "fail", job, error };
+function fail(job: Posting, failure: PostingAnalysisFailure): FailOutcome {
+  return { effect: "fail", job, failure };
 }
 
 function notify(job: Posting, cost: number): NotifyOutcome {
@@ -140,7 +139,7 @@ export async function resolveJob(job: Posting, gates: ResolveJobGates): Promise<
   const result = await job.analyze();
 
   if (!result.jd) {
-    return Outcome.fail(job, result.error);
+    return Outcome.fail(job, result.failure ?? { stage: "fetch", error: result.error });
   }
 
   return outcomeAfterAnalysis(job, result.cost);
