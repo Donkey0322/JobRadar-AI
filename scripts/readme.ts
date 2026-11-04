@@ -1,5 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
 import { CONFIG } from "@/constants";
 import { getSeasonYears } from "@/constants/season";
@@ -77,14 +78,73 @@ const FEATURED_COMPANY_BY_ALIAS = new Map(
 /** Job keys inferred as in-place reopen (fresher postedAt than rows appended after them). */
 let reopenedJobKeys = new Set<string>();
 
-async function main() {
-  const opportunities = await loadOpportunities();
+export type BoardPage = {
+  fileName: string;
+  markdown: string;
+};
+
+export type BoardBadge = {
+  fileName: string;
+  svg: string;
+};
+
+export type BoardRender = {
+  readme: string;
+  pages: BoardPage[];
+  badges: BoardBadge[];
+};
+
+/** Render the README, category pages, and featured badges without writing them. */
+export function renderBoard(input: {
+  opportunities: Opportunity[];
+  config: Config;
+  generatedAt: Date;
+}): BoardRender {
+  const { opportunities, config, generatedAt } = input;
   reopenedJobKeys = detectReopenedKeys(opportunities);
 
-  const allowedCountries = new Set(CONFIG.target.countries.map(normalizeCountry));
-  const categoryOrder = buildTargetCategories(CONFIG);
-  const targetCategories = new Set(categoryOrder);
+  const { targetOpportunities, grouped } = selectTargetOpportunities(opportunities, config);
+
+  return {
+    readme: buildReadme({
+      config,
+      targetOpportunities,
+      grouped,
+      generatedAt,
+    }),
+    pages: [...grouped].map(([category, jobs]) => ({
+      fileName: categoryFileName(category),
+      markdown: buildCategoryPage(category, jobs, generatedAt),
+    })),
+    badges: FEATURED_COMPANIES.map((company) => ({
+      fileName: `${company.slug}.svg`,
+      svg: buildHolographicBadgeSvg(company.label),
+    })),
+  };
+}
+
+async function main() {
+  const opportunities = await loadOpportunities();
   const generatedAt = new Date();
+  const board = renderBoard({ opportunities, config: CONFIG, generatedAt });
+  const included = selectTargetOpportunities(opportunities, CONFIG).targetOpportunities.length;
+
+  await writeFeaturedCompanyBadges(board.badges);
+  await writeCategoryPages(board.pages);
+  await fs.writeFile(README_PATH, board.readme, "utf-8");
+
+  console.log(`README generated: ${README_PATH}`);
+  console.log(`Category pages generated: ${board.pages.length}`);
+  console.log(`Target opportunities included: ${included}`);
+}
+
+function selectTargetOpportunities(
+  opportunities: Opportunity[],
+  config: Config
+): { targetOpportunities: Opportunity[]; grouped: Map<string, Opportunity[]> } {
+  const allowedCountries = new Set(config.target.countries.map(normalizeCountry));
+  const categoryOrder = buildTargetCategories(config);
+  const targetCategories = new Set(categoryOrder);
 
   const targetOpportunities = opportunities
     .filter((job) => isRenderableOpportunity(job))
@@ -95,22 +155,10 @@ async function main() {
     .filter((job) => targetCategories.has(getDisplayCategory(job)))
     .sort(comparePostedAtDesc);
 
-  const grouped = groupByCategory(targetOpportunities, categoryOrder);
-
-  const markdown = buildReadme({
-    config: CONFIG,
+  return {
     targetOpportunities,
-    grouped,
-    generatedAt,
-  });
-
-  await writeFeaturedCompanyBadges();
-  await writeCategoryPages(grouped, generatedAt);
-  await fs.writeFile(README_PATH, markdown, "utf-8");
-
-  console.log(`README generated: ${README_PATH}`);
-  console.log(`Category pages generated: ${grouped.size}`);
-  console.log(`Target opportunities included: ${targetOpportunities.length}`);
+    grouped: groupByCategory(targetOpportunities, categoryOrder),
+  };
 }
 
 function buildTargetCategories(config: Config): string[] {
@@ -333,10 +381,7 @@ function buildCategoryPageLinks(grouped: Map<string, Opportunity[]>): string[] {
   );
 }
 
-async function writeCategoryPages(
-  grouped: Map<string, Opportunity[]>,
-  generatedAt: Date
-): Promise<void> {
+async function writeCategoryPages(pages: BoardPage[]): Promise<void> {
   await fs.mkdir(JOB_POSTINGS_DIR, { recursive: true });
 
   const existingFiles = await fs.readdir(JOB_POSTINGS_DIR);
@@ -347,12 +392,9 @@ async function writeCategoryPages(
   );
 
   await Promise.all(
-    [...grouped].map(([category, jobs]) => {
-      const pagePath = path.join(JOB_POSTINGS_DIR, categoryFileName(category));
-      const markdown = buildCategoryPage(category, jobs, generatedAt);
-
-      return fs.writeFile(pagePath, markdown, "utf-8");
-    })
+    pages.map((page) =>
+      fs.writeFile(path.join(JOB_POSTINGS_DIR, page.fileName), page.markdown, "utf-8")
+    )
   );
 }
 
@@ -696,16 +738,12 @@ function matchFeaturedCompany(company: string): FeaturedCompany | null {
   );
 }
 
-async function writeFeaturedCompanyBadges(): Promise<void> {
+async function writeFeaturedCompanyBadges(badges: BoardBadge[]): Promise<void> {
   await fs.mkdir(FEATURED_BADGES_DIR, { recursive: true });
 
   await Promise.all(
-    FEATURED_COMPANIES.map((company) =>
-      fs.writeFile(
-        path.join(FEATURED_BADGES_DIR, `${company.slug}.svg`),
-        buildHolographicBadgeSvg(company.label),
-        "utf-8"
-      )
+    badges.map((badge) =>
+      fs.writeFile(path.join(FEATURED_BADGES_DIR, badge.fileName), badge.svg, "utf-8")
     )
   );
 }
@@ -743,7 +781,12 @@ function unique<T>(values: T[]): T[] {
   return [...new Set(values)];
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exit(1);
-});
+const isDirectRun =
+  process.argv[1] != null && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
+
+if (isDirectRun) {
+  main().catch((error) => {
+    console.error(error);
+    process.exit(1);
+  });
+}
