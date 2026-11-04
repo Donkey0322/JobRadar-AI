@@ -1,4 +1,6 @@
-import { beforeEach, describe, expect, it, vi } from "vitest";
+import { beforeEach, describe, expect, it, onTestFinished, vi } from "vitest";
+
+import { CONFIG } from "@/constants";
 
 const callAIModelMock = vi.hoisted(() => vi.fn());
 
@@ -36,5 +38,16 @@ describe("classifyLocations", () => {
 
     const options = callAIModelMock.mock.calls[0]?.[2] as { systemInstruction: string };
     expect(options.systemInstruction).toContain(await getCountryRules());
+  });
+
+  it("returns Unsure without calling AI when AI is disabled in config", async () => {
+    const ai = CONFIG.ai;
+    CONFIG.ai = { enabled: false };
+    onTestFinished(() => {
+      CONFIG.ai = ai;
+    });
+
+    await expect(classifyLocations([job])).resolves.toEqual(["Unsure"]);
+    expect(callAIModelMock).not.toHaveBeenCalled();
   });
 });

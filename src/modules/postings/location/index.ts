@@ -6,6 +6,7 @@ import type { Country } from "@/validation/config";
 
 import { getCountryRules } from "@/modules/country";
 import callAIModel from "@/utils/ai";
+import { isAIEnabled } from "@/utils/ai/enabled";
 import { buildPrompt, readPromptFile } from "@/utils/ai/prompt";
 import { logger } from "@/utils/logger";
 
@@ -77,7 +78,7 @@ function parseLocationResult(result: string | null, expectedLength: number): Cou
 }
 
 async function classifyBatch(jobs: Job[]): Promise<{ result: Country[]; cost: number }> {
-  if (process.env.AI_MODE === "DOWN") {
+  if (!isAIEnabled()) {
     return { result: Array(jobs.length).fill("Unsure"), cost: 0 };
   }
   try {

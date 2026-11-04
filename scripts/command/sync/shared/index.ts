@@ -132,6 +132,18 @@ function logSkip(job: Posting, kind: SkipKind, reason: string | null) {
     return;
   }
 
+  if (kind === "ai-disabled") {
+    logger.info(
+      {
+        company: job.company,
+        role: job.role,
+        url: job.link,
+      },
+      "⏭️ AI is disabled; skipping analysis"
+    );
+    return;
+  }
+
   if (kind === "ineligible") {
     logger.info(
       {

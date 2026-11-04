@@ -1,5 +1,7 @@
 import path from "node:path";
-import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+import { afterEach, beforeEach, describe, expect, it, onTestFinished, vi } from "vitest";
+
+import { CONFIG } from "@/constants";
 
 import type { Job } from "@/types";
 import type { JD } from "@/types/jobs";
@@ -282,6 +284,24 @@ describe("batch-queue", () => {
 
     expect(result).toEqual({ submitted: 0, analyzed: [] });
     expect(getRawJDMock).not.toHaveBeenCalled();
+    expect(writeFileMock).not.toHaveBeenCalled();
+  });
+
+  it("leaves the queue untouched when AI is disabled in config, even without AI_MODE", async () => {
+    const ai = CONFIG.ai;
+    CONFIG.ai = { enabled: false };
+    onTestFinished(() => {
+      CONFIG.ai = ai;
+    });
+    vi.stubEnv("AI_MODE", undefined);
+    readNdjsonFileIfExistsMock.mockResolvedValue([makeJob()]);
+
+    const result = await submitQueuedJobs();
+
+    expect(result).toEqual({ submitted: 0, analyzed: [] });
+    expect(getAIProviderMock).not.toHaveBeenCalled();
+    expect(getRawJDMock).not.toHaveBeenCalled();
+    expect(analyzeJDMock).not.toHaveBeenCalled();
     expect(writeFileMock).not.toHaveBeenCalled();
   });
 

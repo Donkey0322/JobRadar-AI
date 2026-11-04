@@ -8,7 +8,9 @@ import { analyzePosting, extractQualifications } from "./analyze";
 import { fetchPostingJD } from "./jd";
 import { isNotifyCandidate, isTarget, shouldBatchAnalyze, withinDays } from "./titles";
 
+import { isAIEnabled } from "@/utils/ai/enabled";
 import { getJobKey, isKnownJob } from "@/utils/job-key";
+import { logger } from "@/utils/logger";
 
 export type PostingDate = string | number | null | undefined;
 
@@ -211,6 +213,11 @@ export interface PostingAnalyzeOptions {
 }
 
 export async function analyzeLink(link: string): Promise<JD | null> {
+  if (!isAIEnabled()) {
+    logger.info({ url: link }, "⏭️ AI is disabled; skipping link analysis");
+    return null;
+  }
+
   const posting = Posting.from({
     company: "",
     role: "",

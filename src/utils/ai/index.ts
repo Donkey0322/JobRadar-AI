@@ -6,15 +6,20 @@ import type { AIProvider, AIResponse, GenerateOptions, Schema } from "./provider
 import { AnthropicProvider } from "./provider/anthropic";
 import { GoogleProvider } from "./provider/google";
 import { OpenAIProvider } from "./provider/openai";
+import { isAIEnabled } from "./enabled";
 
 import { logger } from "@/utils/logger";
 
-const AI_PROVIDER = CONFIG.ai.enabled ? CONFIG.ai.provider : "openai";
+const AI_PROVIDER = CONFIG.ai.enabled ? CONFIG.ai.provider : null;
 const DEFAULT_MODEL = CONFIG.ai.enabled ? CONFIG.ai.model : "gpt-4o";
 export const AI_API_KEY = process.env.AI_API_KEY ?? "";
 export const AI_DEFAULT_MODEL = DEFAULT_MODEL;
 
 export function getProvider(apiKey: string): AIProvider | null {
+  if (!AI_PROVIDER) {
+    return null;
+  }
+
   switch (AI_PROVIDER) {
     case "google":
       return new GoogleProvider(apiKey);
@@ -39,7 +44,7 @@ export default async function callAIModel(
 ): Promise<AIResponse> {
   const model = options?.model ?? DEFAULT_MODEL;
 
-  if (process.env.AI_MODE === "DOWN") {
+  if (!isAIEnabled()) {
     return { result: null, cost: 0 };
   }
 
@@ -58,7 +63,7 @@ export default async function callAIModel(
 }
 
 export function getAIProvider(): AIProvider | null {
-  if (process.env.AI_MODE === "DOWN") {
+  if (!isAIEnabled()) {
     return null;
   }
 

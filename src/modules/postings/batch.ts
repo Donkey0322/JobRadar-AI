@@ -24,6 +24,7 @@ import {
   parseQualificationResult,
 } from "@/modules/posting/response";
 import { AI_DEFAULT_MODEL, getAIProvider } from "@/utils/ai";
+import { isAIEnabled } from "@/utils/ai/enabled";
 import { readJsonFile } from "@/utils/data";
 import { getJobKey } from "@/utils/job-key";
 import { logger } from "@/utils/logger";
@@ -505,8 +506,8 @@ export async function submitQueuedJobs(limit = Number.POSITIVE_INFINITY): Promis
     return { submitted: 0, analyzed: [] };
   }
 
-  if (process.env.AI_MODE === "DOWN") {
-    logger.info("📦 AI_MODE is DOWN; leaving batch queue untouched");
+  if (!isAIEnabled()) {
+    logger.info("📦 AI is disabled; leaving batch queue untouched");
     return { submitted: 0, analyzed: [] };
   }
 

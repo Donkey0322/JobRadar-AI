@@ -2,7 +2,9 @@ import type { Posting } from "@/modules/posting";
 import type { JDFetchStatus } from "@/modules/posting/jd";
 import type { Job } from "@/types";
 
-export type SkipKind = "idempotent" | "filter" | "ineligible" | "dashboard";
+import { isAIEnabled } from "@/utils/ai/enabled";
+
+export type SkipKind = "idempotent" | "filter" | "ai-disabled" | "ineligible" | "dashboard";
 
 interface DeadlineOutcome {
   effect: "deadline";
@@ -47,7 +49,7 @@ function deadline(job: Posting): DeadlineOutcome {
   return { effect: "deadline", job };
 }
 
-function skip(job: Posting, kind: "idempotent" | "filter"): SkipOutcome;
+function skip(job: Posting, kind: "idempotent" | "filter" | "ai-disabled"): SkipOutcome;
 function skip(job: Posting, kind: "dashboard", extra: { cost: number }): SkipOutcome;
 function skip(
   job: Posting,
@@ -62,7 +64,8 @@ function skip(
   return {
     effect: "skip",
     job,
-    record: kind !== "idempotent",
+    // Jobs skipped while AI is disabled stay unseen so they are analyzed once AI is enabled.
+    record: kind !== "idempotent" && kind !== "ai-disabled",
     kind,
     reason: extra?.reason ?? null,
     cost: extra?.cost ?? 0,
@@ -128,6 +131,10 @@ export async function resolveJob(job: Posting, gates: ResolveJobGates): Promise<
 
   if (job.shouldBatchAnalyze()) {
     return Outcome.batch(job);
+  }
+
+  if (!isAIEnabled()) {
+    return Outcome.skip(job, "ai-disabled");
   }
 
   const result = await job.analyze();

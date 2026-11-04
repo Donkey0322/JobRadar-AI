@@ -10,6 +10,7 @@ import { jdResponseSpilled } from "../response";
 
 import { getCountryRules } from "@/modules/country";
 import callAIModel from "@/utils/ai";
+import { isAIEnabled } from "@/utils/ai/enabled";
 import { buildPrompt, readPromptFile, toBulletList } from "@/utils/ai/prompt";
 import { logger } from "@/utils/logger";
 
@@ -119,7 +120,7 @@ async function requestAnalysis(
   prompt: string,
   loadConfig: () => Promise<{ schema: Schema; systemInstruction: string }>
 ): Promise<AIResponse> {
-  if (process.env.AI_MODE === "DOWN") {
+  if (!isAIEnabled()) {
     return { result: null, cost: 0 };
   }
 
