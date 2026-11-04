@@ -6,9 +6,9 @@ import { SEASON_VALUES } from "@/constants/season";
 import type { JD } from "@/types";
 import type { AIResponse, Schema } from "@/utils/ai/provider/utils";
 
+import { getCountryRules } from "../country";
 import { jdResponseSpilled } from "../response";
 
-import { getCountryRules } from "@/modules/country";
 import callAIModel from "@/utils/ai";
 import { isAIEnabled } from "@/utils/ai/enabled";
 import { buildPrompt, readPromptFile, toBulletList } from "@/utils/ai/prompt";

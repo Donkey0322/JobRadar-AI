@@ -100,7 +100,7 @@ import {
   loadInflightBatches,
   saveBatchQueue,
   submitQueuedJobs,
-} from "@/modules/postings/batch";
+} from "@/modules/posting/batch";
 
 const fetchMock = vi.fn<typeof fetch>();
 

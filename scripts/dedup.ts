@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 import { GREEN_CHECKMARK, RED_CROSS } from "@/constants/log";
 
 import { deduplicate, groupUrlsByKey } from "@/modules/ats/job-key";
-import { deduplicateOpportunities, syncExpiredFlags } from "@/modules/postings/dedup";
+import { deduplicateOpportunities, syncExpiredFlags } from "@/modules/opportunity/dedup";
 import { loadOpportunities, loadUrls, saveOpportunities, saveUrls } from "@/utils/data";
 import { logger } from "@/utils/logger";
 

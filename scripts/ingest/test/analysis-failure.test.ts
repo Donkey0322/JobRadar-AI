@@ -21,7 +21,7 @@ const loggerMocks = vi.hoisted(() => ({
   error: vi.fn(),
 }));
 
-vi.mock("@/modules/posting/ai", () => ({
+vi.mock("@/modules/posting/analysis/ai", () => ({
   default: analyzeJDMock,
   analyzeQualifications: vi.fn(),
 }));
@@ -31,7 +31,7 @@ vi.mock("@/utils/data", async (importOriginal) => {
   return { ...actual, ...dataMocks };
 });
 
-vi.mock("@/modules/postings/batch", () => ({
+vi.mock("@/modules/posting/batch", () => ({
   enqueueBatchJobs: enqueueBatchJobsMock,
 }));
 

@@ -107,7 +107,7 @@ import {
   loadBatchQueue,
   loadInflightBatches,
   saveInflightBatches,
-} from "@/modules/postings/batch";
+} from "@/modules/posting/batch";
 import * as data from "@/utils/data";
 import { JobCategory } from "@/validation/config";
 

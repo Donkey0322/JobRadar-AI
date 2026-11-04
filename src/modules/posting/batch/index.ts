@@ -15,15 +15,15 @@ import analyzeJD, {
   formatQualificationPrompt,
   getAnalyzeJDConfig,
   getQualificationConfig,
-} from "@/modules/posting/ai";
-import { extractQualifications } from "@/modules/posting/analyze";
-import { isRetryableJDFetch, JD_FETCH_OK } from "@/modules/posting/jd";
-import { Posting } from "@/modules/posting/posting";
+} from "@/modules/posting/analysis/ai";
+import { extractQualifications } from "@/modules/posting/analysis/analyze";
 import {
   jdResponseSpilled,
   parseAIJDResult,
   parseQualificationResult,
-} from "@/modules/posting/response";
+} from "@/modules/posting/analysis/response";
+import { isRetryableJDFetch, JD_FETCH_OK } from "@/modules/posting/jd";
+import { Posting } from "@/modules/posting/posting";
 import { AI_DEFAULT_MODEL, getAIProvider } from "@/utils/ai";
 import { isAIEnabled } from "@/utils/ai/enabled";
 import { readJsonFile } from "@/utils/data";

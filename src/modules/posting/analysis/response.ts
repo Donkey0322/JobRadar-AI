@@ -1,10 +1,11 @@
 import { z } from "zod";
 
+import type { JDResponse } from "./validation/ai";
 import type { JD } from "@/types/jobs";
-import type { JDResponse } from "@/validation/ai";
+
+import { JDResponseSchema } from "./validation/ai";
 
 import { cleanText } from "@/utils/string";
-import { JDResponseSchema } from "@/validation/ai";
 
 const QualificationResponseSchema = z.object({
   qualifications: z.array(z.string()),

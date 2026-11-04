@@ -17,8 +17,7 @@ import analyzeJD, {
   getAnalyzeJDConfig,
   getQualificationConfig,
 } from "../ai";
-
-import { getCountryRules } from "@/modules/country";
+import { getCountryRules } from "../country";
 
 const screen = {
   citizenship: false,

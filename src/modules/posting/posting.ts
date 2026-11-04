@@ -1,10 +1,10 @@
 import { ALLOWED_COUNTRIES, CONFIG, createJDFetchSignal } from "@/constants";
 
-import type { PostingAnalysisResult } from "./analyze";
+import type { PostingAnalysisResult } from "./analysis/analyze";
 import type { JDFetchResult } from "./jd";
 import type { JD, Job } from "@/types";
 
-import { analyzePosting, extractQualifications } from "./analyze";
+import { analyzePosting, extractQualifications } from "./analysis/analyze";
 import { fetchPostingJD } from "./jd";
 import { isNotifyCandidate, isTarget, shouldBatchAnalyze, withinDays } from "./titles";
 

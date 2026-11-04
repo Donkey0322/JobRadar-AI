@@ -12,9 +12,9 @@ import { classifyATS } from "@/modules/ats/classify";
 import { groupUrlsByKey } from "@/modules/ats/job-key";
 import { buildCompanyList, getCompanyKey, groupUrlsByCompanyKey } from "@/modules/employer/build";
 import { checkUrlsAgainstListing } from "@/modules/employer/liveness";
+import { dropStaleExpiredOpportunities, syncExpiredFlags } from "@/modules/opportunity/dedup";
 import { Posting } from "@/modules/posting";
 import { HttpStatusCode, isRetryableJDFetch, NETWORK_ERROR_CODE } from "@/modules/posting/jd";
-import { dropStaleExpiredOpportunities, syncExpiredFlags } from "@/modules/postings/dedup";
 import {
   loadCompanies,
   loadOpportunities,

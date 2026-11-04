@@ -78,7 +78,7 @@ vi.mock("@/utils/data", async (importOriginal) => {
   return { ...actual, ...dataMocks };
 });
 
-vi.mock("@/modules/postings/batch", () => ({
+vi.mock("@/modules/posting/batch", () => ({
   enqueueBatchJobs: enqueueBatchJobsMock,
 }));
 

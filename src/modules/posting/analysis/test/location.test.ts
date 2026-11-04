@@ -14,9 +14,8 @@ vi.mock("@/utils/logger", () => ({
 
 import type { Job } from "@/types";
 
+import { getCountryRules } from "../country";
 import { classifyLocations } from "../location";
-
-import { getCountryRules } from "@/modules/country";
 
 const job: Job = {
   company: "Acme",

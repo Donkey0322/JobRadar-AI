@@ -1,7 +1,8 @@
-import type { JDFetchResult, JDFetchStatus } from "./jd/fetch";
+import type { JDFetchResult, JDFetchStatus } from "../jd/fetch";
 import type { JD, Job } from "@/types/jobs";
 
-import { JD_FETCH_OK } from "./jd/fetch";
+import { JD_FETCH_OK } from "../jd/fetch";
+
 import analyzeJD, { analyzeQualifications } from "./ai";
 import { parseAIJDResult, parseQualificationResult } from "./response";
 

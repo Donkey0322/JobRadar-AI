@@ -6,7 +6,7 @@ export {
   type PostingAnalysisFailure,
   type PostingAnalysisResult,
   type QualificationAnalysisResult,
-} from "./analyze";
-export { default } from "./analyze";
+} from "./analysis/analyze";
+export { default } from "./analysis/analyze";
 export * from "./posting";
 export * from "./titles";

@@ -4,7 +4,8 @@ import { RED_CROSS } from "@/constants/log";
 import type { Job } from "@/types";
 import type { Country } from "@/validation/config";
 
-import { getCountryRules } from "@/modules/country";
+import { getCountryRules } from "../country";
+
 import callAIModel from "@/utils/ai";
 import { isAIEnabled } from "@/utils/ai/enabled";
 import { buildPrompt, readPromptFile } from "@/utils/ai/prompt";

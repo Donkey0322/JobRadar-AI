@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
-import { JD_EVAL_CASES } from "./eval-cases";
+import { JDResponseSchema } from "../validation/ai";
 
-import { JDResponseSchema } from "@/validation/ai";
+import { JD_EVAL_CASES } from "./eval-cases";
 
 const expectedSchema = JDResponseSchema.pick({
   citizenship: true,

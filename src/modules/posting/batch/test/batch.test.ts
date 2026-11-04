@@ -67,7 +67,7 @@ vi.mock("@/utils/ai", async (importOriginal) => {
   };
 });
 
-vi.mock("@/modules/posting/ai", () => ({
+vi.mock("@/modules/posting/analysis/ai", () => ({
   default: analyzeJDMock,
   analyzeQualifications: analyzeQualificationsMock,
   formatJDPrompt: (rawJD: string, listingLocation?: string | null) => {
@@ -84,7 +84,7 @@ vi.mock("@/utils/logger", () => ({
   logger: { info: vi.fn(), warn: vi.fn(), error: vi.fn() },
 }));
 
-import { collectInflightBatches, enqueueBatchJobs, submitQueuedJobs } from "../batch";
+import { collectInflightBatches, enqueueBatchJobs, submitQueuedJobs } from "..";
 
 import { getJobKey } from "@/modules/ats/job-key";
 

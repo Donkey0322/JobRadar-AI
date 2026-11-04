@@ -2,7 +2,7 @@ import { beforeEach, describe, expect, it, vi } from "vitest";
 
 const analyzeJDMock = vi.hoisted(() => vi.fn());
 
-vi.mock("@/modules/posting/ai", () => ({
+vi.mock("@/modules/posting/analysis/ai", () => ({
   default: analyzeJDMock,
   analyzeQualifications: vi.fn(),
 }));
@@ -14,7 +14,8 @@ vi.mock("@/utils/logger", () => ({
 import type { Job } from "@/types";
 
 import { analyzePosting } from "../analyze";
-import { HttpStatusCode, JD_FETCH_ERROR, JD_FETCH_OK } from "../jd";
+
+import { HttpStatusCode, JD_FETCH_ERROR, JD_FETCH_OK } from "@/modules/posting/jd";
 
 const job: Job = {
   company: "Acme",

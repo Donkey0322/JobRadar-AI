@@ -65,7 +65,7 @@ export function boundaryRule(from: string, to: string, kind: EdgeKind): string |
     return "constants must not import validation";
   if (from.startsWith("src/validation/") && to.startsWith("src/constants/"))
     return "validation must not import constants";
-  // `posting/` does not match `postings/`. employer → posting stays allowed.
+  // employer → posting stays allowed.
   if (from.startsWith("src/modules/posting/") && to.startsWith("src/modules/employer/"))
     return "posting must not import employer";
 

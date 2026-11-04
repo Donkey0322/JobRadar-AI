@@ -5,7 +5,7 @@ import { createSyncContext, processJobs } from "../ingest";
 
 import { fetchEmployerJobs } from "@/modules/employer/discover";
 import { asEmployer } from "@/modules/employer/registry";
-import { classifyLocations } from "@/modules/postings/location";
+import { classifyLocations } from "@/modules/posting/analysis/location";
 import { loadCompanies } from "@/utils/data";
 import { renderProgress, startProgress } from "@/utils/dev";
 import { logger } from "@/utils/logger";

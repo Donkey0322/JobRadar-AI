@@ -3,8 +3,8 @@ import pLimit from "p-limit";
 import { RED_CROSS } from "@/constants/log";
 
 import type { JobOutcome, SkipKind } from "./outcome";
+import type { OpportunityLedger } from "@/modules/opportunity/seen";
 import type { PostingAnalysisFailure } from "@/modules/posting";
-import type { OpportunityLedger } from "@/modules/postings/seen";
 import type { Job } from "@/types";
 import type { JD } from "@/types/jobs";
 
@@ -12,13 +12,13 @@ import { outcomeAfterAnalysis, resolveJob } from "./outcome";
 
 import { deduplicateJobs, groupUrlsByKey } from "@/modules/ats/job-key";
 import { buildCompanyList } from "@/modules/employer/build";
-import { Posting } from "@/modules/posting";
-import { enqueueBatchJobs } from "@/modules/postings/batch";
 import {
   createOpportunityLedger,
   recordSeenOpportunity,
   seenOpportunitiesToWrite,
-} from "@/modules/postings/seen";
+} from "@/modules/opportunity/seen";
+import { Posting } from "@/modules/posting";
+import { enqueueBatchJobs } from "@/modules/posting/batch";
 import {
   loadJobs,
   loadOpportunities,

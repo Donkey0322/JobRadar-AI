@@ -11,7 +11,7 @@ const analyzePostingMock = vi.hoisted(() => vi.fn());
 const extractQualificationsMock = vi.hoisted(() => vi.fn());
 const fetchPostingJDMock = vi.hoisted(() => vi.fn());
 
-vi.mock("../analyze", () => ({
+vi.mock("../analysis/analyze", () => ({
   analyzePosting: analyzePostingMock,
   extractQualifications: extractQualificationsMock,
 }));
