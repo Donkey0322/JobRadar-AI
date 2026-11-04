@@ -30,14 +30,6 @@ export function isRadancyUrl(url: URL): boolean {
   return isRadancyJobUrl(url) || isRadancySearchUrl(url);
 }
 
-export function isRadancyHtml(html: string): boolean {
-  return (
-    /tbcdn\.talentbrew\.com/i.test(html) ||
-    /search-jobs\/resultspost/i.test(html) ||
-    (/data-ajax-post-url=/i.test(html) && /search-jobs/i.test(html))
-  );
-}
-
 export function getRadancyLocalePrefix(url: URL): string {
   const match = url.pathname.match(RADANCY_JOB_PATH) ?? url.pathname.match(RADANCY_SEARCH_PATH);
   const locale = match?.[1];

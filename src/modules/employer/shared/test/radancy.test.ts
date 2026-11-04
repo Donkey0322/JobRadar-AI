@@ -5,7 +5,6 @@ import {
   getRadancyJobId,
   getRadancyLocalePrefix,
   getRadancyResultsPostUrl,
-  isRadancyHtml,
   isRadancyUrl,
   parseRadancyJobs,
 } from "../radancy";
@@ -77,14 +76,6 @@ describe("Radancy URL helpers", () => {
 });
 
 describe("Radancy HTML parsing", () => {
-  it("detects TalentBrew fingerprints", () => {
-    expect(isRadancyHtml('<script src="https://tbcdn.talentbrew.com/js/client/search.js">')).toBe(
-      true
-    );
-    expect(isRadancyHtml('<section data-ajax-post-url="/search-jobs/resultspost">')).toBe(true);
-    expect(isRadancyHtml("<main>Careers</main>")).toBe(false);
-  });
-
   it("parses Arm job cards including the verification posting", () => {
     const html = `
       <ul id="search-results-jobs">

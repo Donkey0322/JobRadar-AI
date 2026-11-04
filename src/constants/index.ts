@@ -18,7 +18,6 @@ export const OPPORTUNITIES_PATH = path.join(DATA_PATH, "opportunities.ndjson");
 export const ARCHIVE_PATH = path.join(DATA_PATH, "archive");
 export const JOB_ARCHIVE_CHUNK = 1000;
 export const OPPORTUNITY_ARCHIVE_CHUNK = 5000;
-export const JD_PATH = path.join(DATA_PATH, "jd");
 export const COMPANY_PATH = path.join(DATA_PATH, "company.json");
 export const ERROR_LOG_PATH = path.join(DATA_PATH, "discover-errors.log");
 export const BATCH_PATH = path.join(DATA_PATH, "batch");

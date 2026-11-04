@@ -1,11 +1,9 @@
 import { promises as fs } from "fs";
-import path from "path";
 
 import {
   ARCHIVE_PATH,
   COMPANY_PATH,
   ERROR_LOG_PATH,
-  JD_PATH,
   JOB_ARCHIVE_CHUNK,
   JOB_PATH,
   OPPORTUNITIES_PATH,
@@ -90,44 +88,6 @@ export async function saveJob(jobs: Job[], overwrite: boolean = false) {
   }
 
   await appendNdjsonPartitions(JOB_PATH, ARCHIVE_PATH, "jobs", jobs, JOB_ARCHIVE_CHUNK);
-}
-
-export async function readJD(id: number): Promise<string | null> {
-  try {
-    const content = await fs.readFile(path.join(JD_PATH, `${id}.txt`), "utf-8");
-    return content;
-  } catch {
-    return null;
-  }
-}
-
-function parseJSON(input: string): JSON | null {
-  try {
-    return JSON.parse(input);
-  } catch {
-    return null;
-  }
-}
-
-export async function saveJD(jd: string, job: Job) {
-  if (!job.id) {
-    logger.error(`${RED_CROSS} Job ID is required`);
-    return;
-  }
-
-  try {
-    const parsed = parseJSON(jd);
-
-    if (parsed) {
-      const filename = `${job.id}.json`;
-      await fs.writeFile(path.join(JD_PATH, filename), JSON.stringify(parsed, null, 2), "utf-8");
-    } else {
-      const filename = `${job.id}.txt`;
-      await fs.writeFile(path.join(JD_PATH, filename), jd, "utf-8");
-    }
-  } catch (error) {
-    logger.error({ err: error, jobId: job.id }, `${RED_CROSS} Error saving JD`);
-  }
 }
 
 export async function loadOpportunities(): Promise<Opportunity[]> {

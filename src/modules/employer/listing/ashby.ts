@@ -13,7 +13,6 @@ import {
   ashbySyncIdentifier,
   fetchAshbyBoardPostings,
   fetchAshbyPublishedDate,
-  isAshbyJobBoardHost,
   resolveAshbyIdentifier,
 } from "../shared/ashby";
 
@@ -32,14 +31,6 @@ function buildCompany(url: URL, identifier: string, name = identifier): Company 
     page: `${ASHBY_API_URL}/${identifier}`,
     urls: [],
   };
-}
-
-export function isAshbyUrl(url: URL): boolean {
-  const host = getHostnameWithoutWww(url);
-
-  return (
-    isAshbyJobBoardHost(host) || host.includes("ashbyhq.com") || url.searchParams.has("ashby_jid")
-  );
 }
 
 export const AshbyJobSchema = z.object({
