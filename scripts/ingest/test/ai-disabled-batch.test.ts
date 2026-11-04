@@ -2,7 +2,7 @@ import { promises as fs } from "node:fs";
 import path from "node:path";
 import { afterAll, beforeEach, describe, expect, it, vi } from "vitest";
 
-import type * as Constants from "@/constants";
+import type * as ConfigModule from "@/config";
 import type { Job } from "@/types";
 
 const env = vi.hoisted(() => {
@@ -55,8 +55,8 @@ const dataMocks = vi.hoisted(() => ({
 
 const buildCompanyListMock = vi.hoisted(() => vi.fn());
 
-vi.mock("@/constants", async (importOriginal) => {
-  const actual = await importOriginal<typeof Constants>();
+vi.mock("@/config", async (importOriginal) => {
+  const actual = await importOriginal<typeof ConfigModule>();
   return {
     ...actual,
     CONFIG: {

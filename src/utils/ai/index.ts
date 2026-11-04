@@ -1,4 +1,3 @@
-import { CONFIG } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
 import type { AIProvider, AIResponse, GenerateOptions, Schema } from "./provider/utils";
@@ -8,6 +7,7 @@ import { GoogleProvider } from "./provider/google";
 import { OpenAIProvider } from "./provider/openai";
 import { isAIEnabled } from "./enabled";
 
+import { CONFIG } from "@/config";
 import { logger } from "@/utils/logger";
 
 const AI_PROVIDER = CONFIG.ai.enabled ? CONFIG.ai.provider : null;

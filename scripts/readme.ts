@@ -2,12 +2,11 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
-import { CONFIG } from "@/constants";
 import { getSeasonYears } from "@/constants/season";
 
 import type { JD, Opportunity } from "@/types/jobs";
-import type { Config } from "@/validation/config";
 
+import { CONFIG, type Config } from "@/config";
 import { getJobKey } from "@/modules/ats/job-key";
 import { detectReopenedKeys } from "@/modules/opportunity/reopen";
 import * as store from "@/store";

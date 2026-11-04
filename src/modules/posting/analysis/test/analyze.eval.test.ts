@@ -7,13 +7,12 @@
 
 import { afterAll, beforeAll, describe, expect, it } from "vitest";
 
-import { CONFIG } from "@/constants";
-
 import analyzeJD from "../ai";
 import { parseAIJDResult } from "../response";
 
 import { JD_EVAL_CASES } from "./eval-cases";
 
+import { CONFIG } from "@/config";
 import { logger } from "@/utils/logger";
 
 beforeAll(() => {

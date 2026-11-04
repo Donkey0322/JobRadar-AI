@@ -1,9 +1,8 @@
-import { CONFIG } from "@/constants";
-
 import { createSMTPTransport } from "../../utils/mail";
 
 import { getNewJobsFromDiff } from "./git";
 
+import { CONFIG } from "@/config";
 import { sendEmail } from "@/modules/notifier";
 import { logger } from "@/utils/logger";
 

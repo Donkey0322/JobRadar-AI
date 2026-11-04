@@ -17,7 +17,7 @@ function chain(url) {
 }
 
 function tracksConfig(url) {
-  return url.endsWith("/config.json") || url.endsWith("/src/constants/index.ts");
+  return url.endsWith("/config.json") || url.endsWith("/src/config/index.ts");
 }
 
 registerHooks({

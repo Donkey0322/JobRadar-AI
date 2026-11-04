@@ -1,8 +1,7 @@
-import { createJDFetchSignal } from "@/constants";
-
 import type { JDFetchResult } from "./fetch";
 
 import { fetchJD, JD_FETCH_ERROR } from "./fetch";
+import { createJDFetchSignal } from "./signal";
 
 import {
   getPinpointPostingId,

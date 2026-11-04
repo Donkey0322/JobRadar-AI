@@ -165,14 +165,13 @@ describe("architecture boundaries", () => {
         rule: null,
       },
     ]);
-    expect(scan.unrecognized.filter((item) => item.rule)).toEqual([
-      {
-        kind: "vi.mock",
-        file: "src/utils/ai/test/enabled.test.ts",
-        detail: "@/constants",
-        rule: "utils must not import constants",
-      },
-    ]);
+    expect(scan.unrecognized.filter((item) => item.rule)).toEqual([]);
+    expect(scan.unrecognized).toContainEqual({
+      kind: "vi.mock",
+      file: "src/utils/ai/test/enabled.test.ts",
+      detail: "@/config",
+      rule: null,
+    });
 
     expect(
       added({

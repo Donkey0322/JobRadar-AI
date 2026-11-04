@@ -4,6 +4,9 @@ import { COUNTRIES } from "@/constants/country";
 import { JOB_CATEGORIES } from "@/constants/job-category";
 import { SEASONS } from "@/constants/season";
 
+export const SeasonSchema = z.enum(SEASONS);
+export type Season = z.infer<typeof SeasonSchema>;
+
 export const JDResponseSchema = z.object({
   citizenship: z.boolean().nullable(),
   sponsorship: z.boolean().nullable(),
@@ -11,7 +14,7 @@ export const JDResponseSchema = z.object({
   location: z.string().nullable(),
   qualifications: z.array(z.string()).nullish(),
   category: z.enum(JOB_CATEGORIES),
-  season: z.enum(SEASONS),
+  season: SeasonSchema,
 });
 
 export type JDResponse = z.infer<typeof JDResponseSchema>;

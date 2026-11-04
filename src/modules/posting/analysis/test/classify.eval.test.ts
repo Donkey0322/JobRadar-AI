@@ -7,12 +7,12 @@
 
 import { beforeAll, describe, expect, it } from "vitest";
 
-import { CONFIG } from "@/constants";
-
 import type { Country } from "@/constants/country";
 import type { Job } from "@/types";
 
 import { classifyLocations } from "../location";
+
+import { CONFIG } from "@/config";
 
 const LOCATION_EVAL_CASES: Array<{
   role: string;

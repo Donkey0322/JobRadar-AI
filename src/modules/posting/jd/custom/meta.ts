@@ -1,6 +1,5 @@
 import z from "zod";
 
-import { createJDFetchSignal } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
 import {
@@ -10,6 +9,7 @@ import {
   type JDFetchResult,
   type JDFetchStatus,
 } from "../fetch";
+import { createJDFetchSignal } from "../signal";
 
 import {
   cleanMetaJson,

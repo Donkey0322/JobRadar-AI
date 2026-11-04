@@ -1,11 +1,11 @@
 import * as cheerio from "cheerio";
 
-import { createJDFetchSignal } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
 import type { JDFetchResult } from "../fetch";
 
 import { JD_FETCH_ERROR, JD_FETCH_OK, jdFetchErrorFromResponse } from "../fetch";
+import { createJDFetchSignal } from "../signal";
 import {
   extractJobPostingFromJsonLd,
   extractRelevantJDWindow,

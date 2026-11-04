@@ -1,8 +1,8 @@
 import fs from "node:fs/promises";
 
+import type { Config } from "@/config";
 import type { Country } from "@/constants/country";
 import type { JobCategory } from "@/constants/job-category";
-import type { Config } from "@/validation/config";
 
 import { createIssueSectionParser } from "../../utils/github-issue";
 

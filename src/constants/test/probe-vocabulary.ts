@@ -1,6 +1,6 @@
 import { COUNTRIES } from "@/constants/country";
 import { JOB_CATEGORIES, JobCategory } from "@/constants/job-category";
-import { getSeasonYears,SEASON_VALUES, SEASONS } from "@/constants/season";
+import { getSeasonYears, SEASON_VALUES, SEASONS } from "@/constants/season";
 
 if (COUNTRIES[0] !== "USA" || COUNTRIES.at(-1) !== "Other") {
   throw new Error("country order changed");

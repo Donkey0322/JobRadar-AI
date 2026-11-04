@@ -32,7 +32,7 @@ vi.mock("@/utils/logger", () => ({
   logger: { info: vi.fn(), warn: vi.fn(), error: vi.fn(), fatal: vi.fn() },
 }));
 
-import { CONFIG } from "@/constants";
+import { CONFIG } from "@/config";
 
 describe("jobctl setup check-config", () => {
   const previousArgv = process.argv.slice();

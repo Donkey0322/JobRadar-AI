@@ -1,6 +1,5 @@
 import z from "zod";
 
-import { createJDFetchSignal } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
@@ -13,6 +12,7 @@ import {
   postMetaGraphql,
 } from "@/modules/ats/custom/meta";
 import { ListingHttpError, logListingFailure } from "@/modules/employer/failure";
+import { createJDFetchSignal } from "@/modules/posting/jd/signal";
 import { Posting } from "@/modules/posting/posting";
 import { fetchHtmlResponse, getSetCookieHeader, isAbortError, isHtmlResponse } from "@/utils/http";
 import { logger } from "@/utils/logger";

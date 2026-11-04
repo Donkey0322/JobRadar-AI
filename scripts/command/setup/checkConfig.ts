@@ -1,9 +1,9 @@
 import "dotenv/config";
-import { CONFIG } from "@/constants";
 import { GREEN_CHECKMARK, RED_CROSS } from "@/constants/log";
 
 import { createSMTPTransport } from "../../utils/mail";
 
+import { CONFIG } from "@/config";
 import { getProvider } from "@/utils/ai";
 import { logger } from "@/utils/logger";
 

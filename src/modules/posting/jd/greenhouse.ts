@@ -1,11 +1,11 @@
 import z from "zod";
 
-import { createJDFetchSignal } from "@/constants";
 import { GREENHOUSE_API_URL } from "@/constants/ats";
 
 import type { JDFetchResult } from "./fetch";
 
 import { fetchJD, JD_FETCH_ERROR } from "./fetch";
+import { createJDFetchSignal } from "./signal";
 
 import {
   greenhouseCareerSiteJobId,

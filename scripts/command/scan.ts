@@ -1,8 +1,8 @@
 import "dotenv/config";
-import { ALLOWED_COUNTRIES } from "@/constants";
 
 import { createSyncContext, processJobs } from "../ingest";
 
+import { ALLOWED_COUNTRIES } from "@/config";
 import { fetchEmployerJobs } from "@/modules/employer/discover";
 import { asEmployer } from "@/modules/employer/registry";
 import { classifyLocations } from "@/modules/posting/analysis/location";

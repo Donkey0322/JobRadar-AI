@@ -1,13 +1,13 @@
-import { ALLOWED_COUNTRIES, CONFIG, createJDFetchSignal } from "@/constants";
-
 import type { PostingAnalysisResult } from "./analysis/analyze";
 import type { JDFetchResult } from "./jd";
 import type { JD, Job } from "@/types";
 
 import { analyzePosting, extractQualifications } from "./analysis/analyze";
+import { createJDFetchSignal } from "./jd/signal";
 import { fetchPostingJD } from "./jd";
 import { isNotifyCandidate, isTarget, shouldBatchAnalyze, withinDays } from "./titles";
 
+import { ALLOWED_COUNTRIES, CONFIG } from "@/config";
 import { getJobKey, isKnownJob } from "@/modules/ats/job-key";
 import { isAIEnabled } from "@/utils/ai/enabled";
 import { logger } from "@/utils/logger";

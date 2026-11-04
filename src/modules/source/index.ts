@@ -7,6 +7,8 @@ import parseMarkdown from "./markdown";
 
 import { logger } from "@/utils/logger";
 
+export { SOURCES } from "./sources";
+
 export async function getSource(url: string): Promise<string> {
   // use fetch instead of axios
   const resp = await fetch(url, {

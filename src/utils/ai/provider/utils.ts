@@ -1,7 +1,6 @@
 import { ApiError } from "@google/genai";
 
-import { CONFIG } from "@/constants";
-
+import { CONFIG } from "@/config";
 import { logger } from "@/utils/logger";
 
 const AI_PROVIDER = CONFIG.ai.enabled ? CONFIG.ai.provider : "openai";

@@ -1,12 +1,12 @@
 import path from "node:path";
 import { afterEach, beforeEach, describe, expect, it, onTestFinished, vi } from "vitest";
 
-import { CONFIG } from "@/constants";
 import { JobCategory } from "@/constants/job-category";
 
 import type { Job } from "@/types";
 import type { JD } from "@/types/jobs";
 
+import { CONFIG } from "@/config";
 import { HttpStatusCode, JD_FETCH_ERROR, JD_FETCH_OK } from "@/modules/posting/jd";
 import { Posting } from "@/modules/posting/posting";
 

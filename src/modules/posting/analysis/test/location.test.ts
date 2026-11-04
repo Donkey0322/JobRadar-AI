@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, it, onTestFinished, vi } from "vitest";
 
-import { CONFIG } from "@/constants";
+import { CONFIG } from "@/config";
 
 const callAIModelMock = vi.hoisted(() => vi.fn());
 

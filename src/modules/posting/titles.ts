@@ -1,6 +1,6 @@
-import { CONFIG } from "@/constants";
 import { JobCategory } from "@/constants/job-category";
 
+import { CONFIG } from "@/config";
 import { escapeRegExp } from "@/utils/url";
 
 const ENGINEERING_WORDS = [

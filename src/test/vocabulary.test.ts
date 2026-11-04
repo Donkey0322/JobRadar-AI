@@ -7,9 +7,12 @@ import { SEASON_VALUES } from "@/constants/season";
 import type { Country as VocabularyCountry } from "@/constants/country";
 import type { Season as VocabularySeason } from "@/constants/season";
 
-import { ConfigSchema, type Country as SchemaCountry } from "@/validation/config";
-import { type Season as SchemaSeason, SeasonSchema } from "@/validation/season";
-import { createValidConfig } from "@/validation/test/config.test-utils";
+import { ConfigSchema, type Country as SchemaCountry } from "@/config/schema";
+import { createValidConfig } from "@/config/test/config.test-utils";
+import {
+  type Season as SchemaSeason,
+  SeasonSchema,
+} from "@/modules/posting/analysis/validation/ai";
 
 type Equal<A, B> =
   (<T>() => T extends A ? 1 : 2) extends <T>() => T extends B ? 1 : 2 ? true : false;

@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { ConfigSchema } from "../config";
+import { ConfigSchema } from "../schema";
 
 import { createValidConfig } from "./config.test-utils";
 

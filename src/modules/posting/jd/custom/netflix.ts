@@ -1,6 +1,5 @@
-import { createJDFetchSignal } from "@/constants";
-
 import { JD_FETCH_ERROR, JD_FETCH_OK, type JDFetchResult } from "../fetch";
+import { createJDFetchSignal } from "../signal";
 
 import { NETFLIX_API_URL } from "@/modules/ats/custom/netflix";
 import { getLastPathNumber } from "@/modules/ats/job-key/url";

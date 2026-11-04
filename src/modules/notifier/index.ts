@@ -1,10 +1,9 @@
-import { CONFIG } from "@/constants";
-
 import type { Job } from "@/types";
 import type { Transporter } from "nodemailer";
 
 import { generateEmailContent } from "./generate";
 
+import { CONFIG } from "@/config";
 import { logger } from "@/utils/logger";
 
 export async function sendEmail(job: Job, mailer: Transporter) {

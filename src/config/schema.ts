@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-// do not use import from "@/constants" to avoid circular dependency
+// The loader imports this schema, so this file must not import the loader.
 import { COUNTRIES } from "@/constants/country";
 
 const CountrySchema = z.enum(COUNTRIES);

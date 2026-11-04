@@ -1,6 +1,5 @@
-import { createJDFetchSignal } from "@/constants";
-
 import { JD_FETCH_ERROR, JD_FETCH_OK, type JDFetchResult } from "../fetch";
+import { createJDFetchSignal } from "../signal";
 
 import { landedOnSameJob } from "./landed";
 

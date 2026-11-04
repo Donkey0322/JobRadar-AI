@@ -1,4 +1,4 @@
-import { type Config } from "../config";
+import type { Config } from "../schema";
 
 export function createValidConfig(overrides: Partial<Config> = {}): Config {
   return {

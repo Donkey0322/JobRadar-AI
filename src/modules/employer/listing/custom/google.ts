@@ -1,11 +1,10 @@
 import * as cheerio from "cheerio";
 import z from "zod";
 
-import { createJDFetchSignal } from "@/constants";
-
 import type { Company, Job } from "@/types";
 
 import { logListingStatus } from "@/modules/employer/failure";
+import { createJDFetchSignal } from "@/modules/posting/jd/signal";
 import { Posting } from "@/modules/posting/posting";
 
 const GOOGLE_CAREERS_URL = "https://www.google.com/about/careers/applications";

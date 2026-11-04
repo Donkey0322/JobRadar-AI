@@ -69,11 +69,19 @@ describe("vocabulary modules", () => {
     expect(result.stdout).toContain("types-ok");
     expect(result.status).toBe(0);
   });
-  it("detects a config load from the constants barrel", () => {
+  it("does not load config from the constants barrel", () => {
+    const result = runProbe("src/constants/test/probe-constants.ts");
+
+    expect(result.stderr).not.toContain("config load");
+    expect(result.stdout).toContain("constants-ok");
+    expect(result.status).toBe(0);
+  });
+
+  it("detects a config load from the config entry", () => {
     const result = runProbe("src/constants/test/probe-config.ts");
 
     expect(result.status).not.toBe(0);
     expect(result.stderr).toContain("config load");
-    expect(result.stderr).toMatch(/config\.json|src\/constants\/index\.ts/);
+    expect(result.stderr).toMatch(/config\.json|src\/config\/index\.ts/);
   });
 });

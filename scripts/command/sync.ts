@@ -1,7 +1,5 @@
 import pLimit from "p-limit";
 
-import { SOURCES } from "@/constants";
-
 import type { Job } from "@/types";
 
 import { createSyncContext, processJobs } from "../ingest";
@@ -11,7 +9,7 @@ import { getCompanyKey } from "@/modules/employer/build";
 import { knownEmployerName } from "@/modules/employer/remap";
 import { Posting } from "@/modules/posting";
 import { canonicalizeApplyLink } from "@/modules/posting/apply-link";
-import fetchSource from "@/modules/source";
+import fetchSource, { SOURCES } from "@/modules/source";
 import * as store from "@/store";
 import { logger } from "@/utils/logger";
 

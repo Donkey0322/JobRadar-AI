@@ -1,9 +1,8 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
-import type * as Constants from "@/constants";
-import type { Config } from "@/validation/config";
+import type * as ConfigModule from "@/config";
 
-type AIConfig = Config["ai"];
+type AIConfig = ConfigModule.Config["ai"];
 
 const FAKE_API_KEY = "test-fake-ai-key";
 
@@ -26,8 +25,8 @@ const ai = vi.hoisted(() => {
   return { created, generate, config, fakeProvider };
 });
 
-vi.mock("@/constants", async (importOriginal) => {
-  const actual = await importOriginal<typeof Constants>();
+vi.mock("@/config", async (importOriginal) => {
+  const actual = await importOriginal<typeof ConfigModule>();
   return {
     ...actual,
     CONFIG: {

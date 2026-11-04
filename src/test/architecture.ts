@@ -57,14 +57,8 @@ export function boundaryRule(from: string, to: string, kind: EdgeKind): string |
     return "types must not import modules";
   if (from.startsWith("src/constants/") && to.startsWith("src/modules/"))
     return "constants must not import modules";
-  if (from.startsWith("src/validation/") && to.startsWith("src/modules/"))
-    return "validation must not import modules";
   if (from.startsWith("src/utils/") && to.startsWith("src/constants/"))
     return "utils must not import constants";
-  if (from.startsWith("src/constants/") && to.startsWith("src/validation/"))
-    return "constants must not import validation";
-  if (from.startsWith("src/validation/") && to.startsWith("src/constants/"))
-    return "validation must not import constants";
   // employer → posting stays allowed.
   if (from.startsWith("src/modules/posting/") && to.startsWith("src/modules/employer/"))
     return "posting must not import employer";

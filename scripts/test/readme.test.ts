@@ -5,9 +5,8 @@ import { beforeAll, describe, expect, it, vi } from "vitest";
 import { JobCategory } from "@/constants/job-category";
 import { getSeasonYears } from "@/constants/season";
 
+import type { Config } from "@/config";
 import type { JD, Opportunity } from "@/types/jobs";
-
-import { type Config } from "@/validation/config";
 
 const writeFile = vi.spyOn(fs, "writeFile").mockResolvedValue(undefined);
 const mkdir = vi.spyOn(fs, "mkdir").mockResolvedValue(undefined);
