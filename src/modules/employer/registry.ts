@@ -1,5 +1,5 @@
 import type { Employer } from "./employer";
-import type { ATS } from "./type";
+import type { ATS } from "@/modules/ats/types";
 import type { Company } from "@/types";
 
 import { ashbyFetcher } from "./listing/ashby";

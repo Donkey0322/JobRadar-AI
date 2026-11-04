@@ -4,7 +4,7 @@ vi.mock("@/utils/data", () => ({ appendErrorLog: vi.fn() }));
 
 import type { Company } from "@/types";
 
-import { ListingHttpError, logListingFailure, logListingStatus } from "../fetch-log";
+import { ListingHttpError, logListingFailure, logListingStatus } from "../failure";
 
 import { appendErrorLog } from "@/utils/data";
 

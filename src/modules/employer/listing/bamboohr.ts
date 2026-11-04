@@ -14,8 +14,8 @@ import {
   fetchBambooHRDatePosted,
   getBambooHRSlug,
   isBambooHRTenantResponse,
-} from "@/modules/employer/shared/bamboohr";
-import { logListingFailure } from "@/modules/employer/shared/fetch-log";
+} from "@/modules/ats/bamboohr";
+import { logListingFailure } from "@/modules/employer/failure";
 import { appendErrorLog } from "@/utils/data";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";

@@ -1,12 +1,12 @@
 import { RED_CROSS } from "@/constants/log";
 
-import type { ATS } from "@/modules/employer/type";
+import type { ATS } from "@/modules/ats/types";
 
 import { fetchCustomJD } from "./custom";
 import { isRetryableJDFetch, JD_FETCH_ERROR, JD_FETCH_OK, type JDFetchResult } from "./fetch";
 import { fetchJDByATS } from "./registry";
 
-import { classifyATS } from "@/modules/employer/classifier";
+import { classifyATS } from "@/modules/ats/classify";
 import { logger } from "@/utils/logger";
 import { normalizeRawText } from "@/utils/string";
 

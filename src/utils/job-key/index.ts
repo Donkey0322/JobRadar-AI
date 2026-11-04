@@ -18,7 +18,7 @@ import {
 } from "./ats";
 import { normalizeUrl } from "./url";
 
-import { classifyATS } from "@/modules/employer/classifier";
+import { classifyATS } from "@/modules/ats/classify";
 
 export function getJobKey(url: string) {
   try {

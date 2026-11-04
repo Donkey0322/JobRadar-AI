@@ -7,8 +7,7 @@ import type { Company, Job } from "@/types";
 
 import { Employer } from "../employer";
 
-import { ListingHttpError, logListingFailure } from "@/modules/employer/shared/fetch-log";
-import { findIcimsIframeSrc, isIcimsUrl, normalizeIcimsUrl } from "@/modules/employer/shared/icims";
+import { findIcimsIframeSrc, isIcimsUrl, normalizeIcimsUrl } from "@/modules/ats/icims";
 import {
   findJibeRedirect,
   getJibeApiUrl,
@@ -20,7 +19,8 @@ import {
   jibeCompanyName,
   type JibeJob,
   parseJibeJobs,
-} from "@/modules/employer/shared/jibe";
+} from "@/modules/ats/jibe";
+import { ListingHttpError, logListingFailure } from "@/modules/employer/failure";
 import { decodeHtmlEntities } from "@/utils/html";
 import { fetchHtmlResponse, isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";

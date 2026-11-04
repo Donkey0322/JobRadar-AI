@@ -1,10 +1,10 @@
 import { describe, expect, it } from "vitest";
 
-import type { ATS } from "../type";
+import type { ATS } from "@/modules/ats/types";
 
-import { classifyATS } from "../classifier";
-import { employers } from "../registry";
+import { classifyATS } from "../classify";
 
+import { employers } from "@/modules/employer/registry";
 import { getJobKey } from "@/utils/job-key";
 
 describe("classifyATS", () => {

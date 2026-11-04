@@ -5,7 +5,7 @@ import path from "node:path";
 import { DATA_PATH, URLS_PATH } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
-import { classifyATS } from "@/modules/employer/classifier";
+import { classifyATS } from "@/modules/ats/classify";
 import { readJsonFile } from "@/utils/data";
 import { getJobKey } from "@/utils/job-key";
 import { logger } from "@/utils/logger";

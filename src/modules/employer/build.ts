@@ -3,11 +3,11 @@ import { URL } from "url";
 
 import type { Company } from "@/types";
 
-import { classifyATS } from "./classifier";
 import { identityKey } from "./employer";
 import { careerSiteAlias, companyKeyFromUrl } from "./keys";
 import { employers } from "./registry";
 
+import { classifyATS } from "@/modules/ats/classify";
 import { loadCompanies, saveCompanies } from "@/utils/data";
 import { renderProgress, startProgress } from "@/utils/dev";
 import { logger } from "@/utils/logger";

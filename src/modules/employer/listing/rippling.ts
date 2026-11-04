@@ -7,14 +7,14 @@ import type { Company, Job } from "@/types";
 
 import { Employer } from "../employer";
 
-import { logListingFailure } from "@/modules/employer/shared/fetch-log";
 import {
   fetchRipplingBoardTitle,
   fetchRipplingCreatedOn,
   getRipplingSlug,
   ripplingJobUrl,
   ripplingListingUrl,
-} from "@/modules/employer/shared/rippling";
+} from "@/modules/ats/rippling";
+import { logListingFailure } from "@/modules/employer/failure";
 import { appendErrorLog } from "@/utils/data";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";

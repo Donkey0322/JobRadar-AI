@@ -5,7 +5,7 @@ import { createJDFetchSignal } from "@/constants";
 
 import type { Company, Job } from "@/types";
 
-import { logListingStatus } from "@/modules/employer/shared/fetch-log";
+import { logListingStatus } from "@/modules/employer/failure";
 import { Posting } from "@/modules/posting/posting";
 
 const GOOGLE_CAREERS_URL = "https://www.google.com/about/careers/applications";

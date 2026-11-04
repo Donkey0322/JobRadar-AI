@@ -6,12 +6,12 @@ import type { Company, Job } from "@/types";
 
 import { Employer } from "../employer";
 
-import { logListingFailure } from "@/modules/employer/shared/fetch-log";
 import {
   getRadancyCompanyName,
   getRadancyResultsPostUrl,
   parseRadancyJobs,
-} from "@/modules/employer/shared/radancy";
+} from "@/modules/ats/radancy";
+import { logListingFailure } from "@/modules/employer/failure";
 import { appendErrorLog } from "@/utils/data";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";

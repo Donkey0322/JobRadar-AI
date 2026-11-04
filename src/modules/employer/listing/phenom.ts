@@ -5,7 +5,7 @@ import { RED_CROSS } from "@/constants/log";
 import type { Company, Job } from "@/types";
 
 import { Employer } from "@/modules/employer/employer";
-import { ListingHttpError, logListingFailure } from "@/modules/employer/shared/fetch-log";
+import { ListingHttpError, logListingFailure } from "@/modules/employer/failure";
 import { decodeHtmlEntities } from "@/utils/html";
 import { fetchHtmlResponse, getSetCookieHeader, isAbortError, isHtmlResponse } from "@/utils/http";
 import { logger } from "@/utils/logger";

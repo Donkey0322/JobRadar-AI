@@ -1,12 +1,12 @@
 import { getLastPathNumber } from "./url";
 
-import { getBambooHRJobId, getBambooHRSlug } from "@/modules/employer/shared/bamboohr";
-import { parseCustomCompanyIdentifier } from "@/modules/employer/shared/custom-identifier";
-import { greenhouseCareerSiteJobId } from "@/modules/employer/shared/greenhouse";
-import { getJazzHRJobId } from "@/modules/employer/shared/jazzhr";
-import { getPinpointPostingId } from "@/modules/employer/shared/pinpoint";
-import { getRipplingJobId } from "@/modules/employer/shared/rippling";
-import { getSuccessFactorsJobId } from "@/modules/employer/shared/successfactors";
+import { getBambooHRJobId, getBambooHRSlug } from "@/modules/ats/bamboohr";
+import { parseCustomCompanyIdentifier } from "@/modules/ats/custom";
+import { greenhouseCareerSiteJobId } from "@/modules/ats/greenhouse";
+import { getJazzHRJobId } from "@/modules/ats/jazzhr";
+import { getPinpointPostingId } from "@/modules/ats/pinpoint";
+import { getRipplingJobId } from "@/modules/ats/rippling";
+import { getSuccessFactorsJobId } from "@/modules/ats/successfactors";
 import { getHostnameWithoutWww } from "@/utils/url";
 
 function toATSKey(vendor: string, id: string | null | undefined): string | null {

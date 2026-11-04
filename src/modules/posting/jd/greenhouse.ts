@@ -10,7 +10,7 @@ import { fetchJD, JD_FETCH_ERROR } from "./fetch";
 import {
   greenhouseCareerSiteJobId,
   resolveGreenhouseIdentifier,
-} from "@/modules/employer/shared/greenhouse";
+} from "@/modules/ats/greenhouse";
 
 const BoardJobSchema = z.object({
   jobs: z.array(z.object({ id: z.number(), title: z.string() })),

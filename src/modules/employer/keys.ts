@@ -1,6 +1,7 @@
 import { aliasedCompanyKey } from "./aliases";
-import { classifyATS } from "./classifier";
 import { employers } from "./registry";
+
+import { classifyATS } from "@/modules/ats/classify";
 
 /** Company key of the ATS row an unread career-site URL belongs to, if it is aliased. */
 export function careerSiteAlias(urlStr: string): string | null {

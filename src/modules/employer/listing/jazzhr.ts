@@ -4,7 +4,6 @@ import type { Company, Job } from "@/types";
 
 import { Employer } from "../employer";
 
-import { logListingFailure } from "@/modules/employer/shared/fetch-log";
 import {
   jazzHRHostName,
   type JazzHRJob,
@@ -12,14 +11,15 @@ import {
   jazzHRListingUrl,
   parseJazzHRCompanyName,
   parseJazzHRListing,
-} from "@/modules/employer/shared/jazzhr";
+} from "@/modules/ats/jazzhr";
+import { logListingFailure } from "@/modules/employer/failure";
 import { appendErrorLog } from "@/utils/data";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
 import { getHostnameWithoutWww } from "@/utils/url";
 
-export type { JazzHRJob } from "@/modules/employer/shared/jazzhr";
+export type { JazzHRJob } from "@/modules/ats/jazzhr";
 
 const PAGE_HEADERS: HeadersInit = {
   "user-agent": "Mozilla/5.0 (JobRadar)",

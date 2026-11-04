@@ -4,7 +4,7 @@ import type { JDFetchResult } from "./fetch";
 
 import { fetchJD } from "./fetch";
 
-import { eightfoldDomain } from "@/modules/employer/shared/eightfold";
+import { eightfoldDomain } from "@/modules/ats/eightfold";
 import { getLastPathNumber } from "@/utils/job-key/url";
 
 export async function fetchEightfoldJD(

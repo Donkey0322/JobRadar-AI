@@ -6,8 +6,8 @@ import type { Company, Job } from "@/types";
 
 import { Employer } from "../employer";
 
-import { logListingFailure } from "@/modules/employer/shared/fetch-log";
-import { isWorkdayLocaleSegment } from "@/modules/employer/shared/workday";
+import { isWorkdayLocaleSegment } from "@/modules/ats/workday";
+import { logListingFailure } from "@/modules/employer/failure";
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";

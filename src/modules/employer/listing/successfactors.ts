@@ -4,21 +4,21 @@ import type { Company, Job } from "@/types";
 
 import { Employer } from "../employer";
 
-import { logListingFailure } from "@/modules/employer/shared/fetch-log";
 import {
   getSuccessFactorsFeedCompanyName,
   getSuccessFactorsFeedUrl,
   parseSuccessFactorsFeed,
   successFactorsCompanyName,
   type SuccessFactorsJob,
-} from "@/modules/employer/shared/successfactors";
+} from "@/modules/ats/successfactors";
+import { logListingFailure } from "@/modules/employer/failure";
 import { appendErrorLog } from "@/utils/data";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
 import { getHostnameWithoutWww } from "@/utils/url";
 
-export type { SuccessFactorsJob } from "@/modules/employer/shared/successfactors";
+export type { SuccessFactorsJob } from "@/modules/ats/successfactors";
 
 const FEED_HEADERS: HeadersInit = {
   accept: "application/rss+xml, application/xml;q=0.9, */*;q=0.8",

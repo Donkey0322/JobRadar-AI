@@ -4,7 +4,6 @@ import type { Company, Job } from "@/types";
 
 import { Employer } from "../employer";
 
-import { logListingFailure } from "@/modules/employer/shared/fetch-log";
 import {
   fetchPinpointCompanyName,
   getPinpointSlug,
@@ -12,7 +11,8 @@ import {
   pinpointListingUrl,
   type PinpointPosting,
   PinpointResponseSchema,
-} from "@/modules/employer/shared/pinpoint";
+} from "@/modules/ats/pinpoint";
+import { logListingFailure } from "@/modules/employer/failure";
 import { appendErrorLog } from "@/utils/data";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";

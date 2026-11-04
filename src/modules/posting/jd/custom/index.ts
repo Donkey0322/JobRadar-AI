@@ -19,8 +19,8 @@ import { fetchMetaJD } from "./meta";
 import { fetchNetflixJD } from "./netflix";
 import { fetchRadancyJobDocument } from "./radancy";
 
-import { parseCustomCompanyIdentifier } from "@/modules/employer/shared/custom-identifier";
-import { isRadancyJobUrl } from "@/modules/employer/shared/radancy";
+import { parseCustomCompanyIdentifier } from "@/modules/ats/custom";
+import { isRadancyJobUrl } from "@/modules/ats/radancy";
 import { logger } from "@/utils/logger";
 import { normalizeRawText } from "@/utils/string";
 

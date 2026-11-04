@@ -1,4 +1,4 @@
-import { getRadancyJobId } from "@/modules/employer/shared/radancy";
+import { getRadancyJobId } from "@/modules/ats/radancy";
 
 const MAX_REDIRECTS = 5;
 

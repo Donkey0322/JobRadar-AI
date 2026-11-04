@@ -9,7 +9,7 @@ import {
   getBambooHRJobId,
   getBambooHRSlug,
   isBambooHRHost,
-} from "@/modules/employer/shared/bamboohr";
+} from "@/modules/ats/bamboohr";
 
 export async function fetchBambooHRJD(
   url: string,

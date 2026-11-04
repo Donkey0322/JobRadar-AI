@@ -14,15 +14,15 @@ import { fetchMeta, MetaCompany } from "./meta";
 import { fetchNetflix, NetflixCompany } from "./netflix";
 import { fetchTikTok, TikTokCompany } from "./tiktok";
 
-import { parseCustomCompanyIdentifier } from "@/modules/employer/shared/custom-identifier";
-import { logListingFailure } from "@/modules/employer/shared/fetch-log";
+import { parseCustomCompanyIdentifier } from "@/modules/ats/custom";
+import { logListingFailure } from "@/modules/employer/failure";
 import { logger } from "@/utils/logger";
 
 export {
   CUSTOM_COMPANY_DOMAINS,
   parseCustomCompanyIdentifier,
   type CustomCompanyIdentifier,
-} from "@/modules/employer/shared/custom-identifier";
+} from "@/modules/ats/custom";
 
 export class CustomFetcher extends Employer<Job> {
   readonly ats = "custom" as const;

@@ -1,4 +1,4 @@
-import type { ATS } from "./type";
+import type { ATS } from "@/modules/ats/types";
 import type { Company, Job } from "@/types";
 
 import { Posting, type PostingDate } from "@/modules/posting/posting";

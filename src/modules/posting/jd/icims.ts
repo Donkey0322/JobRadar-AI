@@ -13,7 +13,7 @@ import {
   limitJDText,
 } from "./text";
 
-import { findIcimsIframeSrc, isIcimsUrl, normalizeIcimsUrl } from "@/modules/employer/shared/icims";
+import { findIcimsIframeSrc, isIcimsUrl, normalizeIcimsUrl } from "@/modules/ats/icims";
 import { fetchHtmlResponse } from "@/utils/http";
 import { logger } from "@/utils/logger";
 import { cleanText, normalizeRawText } from "@/utils/string";

@@ -10,7 +10,7 @@ import {
   isPinpointHost,
   pinpointListingUrl,
   PinpointResponseSchema,
-} from "@/modules/employer/shared/pinpoint";
+} from "@/modules/ats/pinpoint";
 import { htmlToText } from "@/utils/string";
 
 /** Pinpoint has no per-posting API; the JD comes from the tenant's postings feed. */

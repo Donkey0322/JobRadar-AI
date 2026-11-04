@@ -8,8 +8,8 @@ import type { Company, Opportunity } from "@/types";
 
 import deduplicate from "./dedup";
 
+import { classifyATS } from "@/modules/ats/classify";
 import { buildCompanyList, getCompanyKey, groupUrlsByCompanyKey } from "@/modules/employer/build";
-import { classifyATS } from "@/modules/employer/classifier";
 import { checkUrlsAgainstListing } from "@/modules/employer/liveness";
 import { Posting } from "@/modules/posting";
 import { HttpStatusCode, isRetryableJDFetch, NETWORK_ERROR_CODE } from "@/modules/posting/jd";

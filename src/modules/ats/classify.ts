@@ -1,13 +1,13 @@
-import type { ATS } from "./type";
+import type { ATS } from "./types";
 
-import { isBambooHRHost } from "./shared/bamboohr";
-import { parseCustomCompanyIdentifier } from "./shared/custom-identifier";
-import { isJazzHRUrl } from "./shared/jazzhr";
-import { isJibeUrl } from "./shared/jibe";
-import { isPinpointHost } from "./shared/pinpoint";
-import { isRadancyUrl } from "./shared/radancy";
-import { isRipplingHost } from "./shared/rippling";
-import { isSuccessFactorsUrl } from "./shared/successfactors";
+import { isBambooHRHost } from "./bamboohr";
+import { parseCustomCompanyIdentifier } from "./custom";
+import { isJazzHRUrl } from "./jazzhr";
+import { isJibeUrl } from "./jibe";
+import { isPinpointHost } from "./pinpoint";
+import { isRadancyUrl } from "./radancy";
+import { isRipplingHost } from "./rippling";
+import { isSuccessFactorsUrl } from "./successfactors";
 
 import { getHostnameWithoutWww } from "@/utils/url";
 

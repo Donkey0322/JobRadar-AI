@@ -15,7 +15,7 @@ describe("architecture boundaries", () => {
     expect(scan.violations).toEqual(architectureExceptions);
   });
 
-  it("allows a downward runtime edge and a type-only import of employer", () => {
+  it("allows a downward runtime edge and a type-only import", () => {
     expect(scan.edges).toContainEqual({
       from: "src/modules/employer/listing/custom/amazon.ts",
       to: "src/modules/posting/posting.ts",
@@ -23,12 +23,12 @@ describe("architecture boundaries", () => {
     });
     expect(scan.edges).toContainEqual({
       from: "src/types/company.ts",
-      to: "src/modules/employer/type.ts",
+      to: "src/modules/ats/types.ts",
       kind: "type",
     });
     expect(scan.edges).toContainEqual({
       from: "src/modules/posting/jd/registry.ts",
-      to: "src/modules/employer/type.ts",
+      to: "src/modules/ats/types.ts",
       kind: "type",
     });
     expect(scan.violations.some((item) => item.kind === "type")).toBe(false);
@@ -38,9 +38,9 @@ describe("architecture boundaries", () => {
         "src/modules/employer/__architecture_probe.ts":
           'import { Posting } from "@/modules/posting/posting";\nimport { cleanText } from "@/utils/string";\n',
         "src/types/__architecture_probe.ts":
-          'import type { ATS } from "@/modules/employer/type";\n',
+          'import type { ATS } from "@/modules/ats/types";\n',
         "src/modules/posting/__architecture_probe.ts":
-          'import type { ATS } from "@/modules/employer/type";\n',
+          'import type { ATS } from "@/modules/ats/types";\n',
       })
     ).toEqual([]);
   });
@@ -49,8 +49,8 @@ describe("architecture boundaries", () => {
     expect(
       added({
         "src/utils/__architecture_probe.ts": [
-          'import type { ATS } from "@/modules/employer/type";',
-          'import { classifyATS } from "@/modules/employer/classifier";',
+          'import type { ATS } from "@/modules/ats/types";',
+          'import { classifyATS } from "@/modules/ats/classify";',
           "",
         ].join("\n"),
       })
@@ -58,7 +58,7 @@ describe("architecture boundaries", () => {
       {
         rule: "utils must not import modules",
         from: "src/utils/__architecture_probe.ts",
-        to: "src/modules/employer/classifier.ts",
+        to: "src/modules/ats/classify.ts",
         kind: "runtime",
       },
     ]);
@@ -66,13 +66,13 @@ describe("architecture boundaries", () => {
     expect(
       added({
         "src/utils/__architecture_probe.ts":
-          'import { classifyATS } from "../modules/employer/classifier";\n',
+          'import { classifyATS } from "../modules/ats/classify";\n',
       })
     ).toEqual([
       {
         rule: "utils must not import modules",
         from: "src/utils/__architecture_probe.ts",
-        to: "src/modules/employer/classifier.ts",
+        to: "src/modules/ats/classify.ts",
         kind: "runtime",
       },
     ]);
@@ -108,13 +108,13 @@ describe("architecture boundaries", () => {
           'import { CUSTOM_COMPANY_DOMAINS } from "@/modules/employer/listing";\n',
       }).map((item) => item.to)
     ).toEqual([
+      "src/modules/ats/custom/index.ts",
       "src/modules/employer/listing/index.ts",
-      "src/modules/employer/shared/custom-identifier.ts",
     ]);
 
     const barrel = added({
       "src/utils/__architecture_barrel.ts":
-        'export { classifyATS } from "@/modules/employer/classifier";\n',
+        'export { classifyATS } from "@/modules/ats/classify";\n',
       "src/utils/__architecture_consumer.ts":
         'import { classifyATS } from "./__architecture_barrel";\n',
     });
@@ -122,13 +122,13 @@ describe("architecture boundaries", () => {
       {
         rule: "utils must not import modules",
         from: "src/utils/__architecture_barrel.ts",
-        to: "src/modules/employer/classifier.ts",
+        to: "src/modules/ats/classify.ts",
         kind: "runtime",
       },
       {
         rule: "utils must not import modules",
         from: "src/utils/__architecture_consumer.ts",
-        to: "src/modules/employer/classifier.ts",
+        to: "src/modules/ats/classify.ts",
         kind: "runtime",
       },
     ]);
@@ -176,7 +176,7 @@ describe("architecture boundaries", () => {
     expect(
       added({
         "src/utils/__architecture_probe.ts":
-          'vi.mock("@/modules/employer/classifier");\nexport async function load(name: string) {\n  return import(name);\n}\n',
+          'vi.mock("@/modules/ats/classify");\nexport async function load(name: string) {\n  return import(name);\n}\n',
       })
     ).toEqual([]);
   });

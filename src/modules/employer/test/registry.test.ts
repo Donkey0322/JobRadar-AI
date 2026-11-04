@@ -18,7 +18,7 @@ vi.mock("@/utils/logger", () => ({
   },
 }));
 
-import type { ATS } from "../type";
+import type { ATS } from "@/modules/ats/types";
 import type { Company } from "@/types";
 
 import { Employer } from "../employer";

@@ -1,4 +1,4 @@
-import type { ATS } from "@/modules/employer/type";
+import type { ATS } from "@/modules/ats/types";
 
 export interface Company {
   name: string;

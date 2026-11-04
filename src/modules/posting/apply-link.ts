@@ -1,7 +1,7 @@
 import {
   canonicalGreenhouseJobUrl,
   greenhousePostingFromHtml,
-} from "@/modules/employer/shared/greenhouse";
+} from "@/modules/ats/greenhouse";
 import { getJobKey } from "@/utils/job-key";
 import { logger } from "@/utils/logger";
 import { getHostnameWithoutWww } from "@/utils/url";

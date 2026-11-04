@@ -5,9 +5,9 @@ import { RED_CROSS } from "@/constants/log";
 import type { Company, Job } from "@/types";
 
 import { Employer } from "../employer";
-import { eightfoldDomain, eightfoldIdentifier } from "../shared/eightfold";
 
-import { logListingFailure } from "@/modules/employer/shared/fetch-log";
+import { eightfoldDomain, eightfoldIdentifier } from "@/modules/ats/eightfold";
+import { logListingFailure } from "@/modules/employer/failure";
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";

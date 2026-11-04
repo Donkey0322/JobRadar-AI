@@ -6,13 +6,13 @@ import { RED_CROSS } from "@/constants/log";
 import type { Company, Job } from "@/types";
 
 import { Employer } from "../employer";
+
 import {
   greenhouseSyncIdentifier,
   isGreenhouseJobBoardHost,
   resolveGreenhouseIdentifier,
-} from "../shared/greenhouse";
-
-import { logListingFailure } from "@/modules/employer/shared/fetch-log";
+} from "@/modules/ats/greenhouse";
+import { logListingFailure } from "@/modules/employer/failure";
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";

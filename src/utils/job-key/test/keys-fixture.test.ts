@@ -4,8 +4,8 @@ import { describe, expect, it } from "vitest";
 
 import { getJobKey } from "..";
 
+import { classifyATS } from "@/modules/ats/classify";
 import { aliasedCompanyKey } from "@/modules/employer/aliases";
-import { classifyATS } from "@/modules/employer/classifier";
 import { employers } from "@/modules/employer/registry";
 
 interface FixtureRow {

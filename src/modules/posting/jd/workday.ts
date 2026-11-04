@@ -4,7 +4,7 @@ import type { JDFetchResult } from "./fetch";
 
 import { fetchJD, JD_FETCH_ERROR } from "./fetch";
 
-import { isWorkdayLocaleSegment } from "@/modules/employer/shared/workday";
+import { isWorkdayLocaleSegment } from "@/modules/ats/workday";
 
 /** CXS tenant and site: `recruiting/<tenant>/<site>` on myworkdaysite, else host and first path segment. */
 function getCxsBoard(u: URL, parts: string[]): { tenant: string; site: string } {

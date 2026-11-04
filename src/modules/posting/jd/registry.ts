@@ -1,5 +1,5 @@
 import type { JDFetchResult } from "./fetch";
-import type { ATS } from "@/modules/employer/type";
+import type { ATS } from "@/modules/ats/types";
 
 import { fetchAshbyJD } from "./ashby";
 import { fetchBambooHRJD } from "./bamboohr";

@@ -5,10 +5,11 @@ import { describe, expect, it } from "vitest";
 import type { Company } from "@/types";
 
 import { getCompanyKey, groupUrlsByCompanyKey } from "../build";
-import { classifyATS } from "../classifier";
 import { careerSiteAlias, companyKeyFromUrl } from "../keys";
 import { employers } from "../registry";
 import { knownEmployerName, remapStoredCompany } from "../remap";
+
+import { classifyATS } from "@/modules/ats/classify";
 
 const DEXCOM_URL = "https://careers.dexcom.com/careers/job/37990370";
 

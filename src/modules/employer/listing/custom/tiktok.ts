@@ -5,7 +5,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { logListingFailure, logListingStatus } from "@/modules/employer/shared/fetch-log";
+import { logListingFailure, logListingStatus } from "@/modules/employer/failure";
 import { Posting } from "@/modules/posting/posting";
 import { logger } from "@/utils/logger";
 

@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { canonicalGreenhouseJobUrl, greenhousePostingFromHtml } from "../shared/greenhouse";
+import { canonicalGreenhouseJobUrl, greenhousePostingFromHtml } from "@/modules/ats/greenhouse";
 
 const PAGE =
   "https://www.example.com/careers/software-engineer---new-grad-distributed-data-systems-2027-start-6865704002";
