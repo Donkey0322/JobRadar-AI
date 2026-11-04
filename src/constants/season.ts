@@ -53,4 +53,6 @@ export const SEASON_VALUES = [
   SEASONS.none,
 ] as const;
 
+export type Season = (typeof SEASON_VALUES)[number];
+
 export default SEASONS;

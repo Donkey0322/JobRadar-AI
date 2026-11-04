@@ -1,7 +1,8 @@
 import { z } from "zod";
 
-import { JOB_CATEGORIES, SEASONS } from "@/constants";
 import { COUNTRIES } from "@/constants/country";
+import { JOB_CATEGORIES } from "@/constants/job-category";
+import { SEASONS } from "@/constants/season";
 
 export const JDResponseSchema = z.object({
   citizenship: z.boolean().nullable(),

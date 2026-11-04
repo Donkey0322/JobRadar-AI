@@ -1,8 +1,7 @@
+import { JobCategory } from "@/constants/job-category";
 import { getSeasonYears, SEASONS } from "@/constants/season";
 
 import type { JD } from "@/types";
-
-import { JobCategory } from "@/validation/config";
 
 export interface JdEvalCase {
   name: string;

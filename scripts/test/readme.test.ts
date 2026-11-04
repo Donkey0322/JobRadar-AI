@@ -2,11 +2,12 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { beforeAll, describe, expect, it, vi } from "vitest";
 
+import { JobCategory } from "@/constants/job-category";
 import { getSeasonYears } from "@/constants/season";
 
 import type { JD, Opportunity } from "@/types/jobs";
 
-import { type Config, JobCategory } from "@/validation/config";
+import { type Config } from "@/validation/config";
 
 const writeFile = vi.spyOn(fs, "writeFile").mockResolvedValue(undefined);
 const mkdir = vi.spyOn(fs, "mkdir").mockResolvedValue(undefined);

@@ -1,8 +1,8 @@
-import { COUNTRIES } from "@/constants";
+import { COUNTRIES } from "@/constants/country";
 import { RED_CROSS } from "@/constants/log";
 
+import type { Country } from "@/constants/country";
 import type { Job } from "@/types";
-import type { Country } from "@/validation/config";
 
 import { getCountryRules } from "../country";
 

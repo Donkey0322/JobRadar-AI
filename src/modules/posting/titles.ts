@@ -1,7 +1,7 @@
 import { CONFIG } from "@/constants";
+import { JobCategory } from "@/constants/job-category";
 
 import { escapeRegExp } from "@/utils/url";
-import { JobCategory } from "@/validation/config";
 
 const ENGINEERING_WORDS = [
   "dev",

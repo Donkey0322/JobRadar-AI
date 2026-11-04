@@ -1,4 +1,4 @@
-import type { JobCategory } from "@/validation/config";
+import type { JobCategory } from "@/constants/job-category";
 
 interface Source {
   name: string;

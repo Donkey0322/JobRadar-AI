@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-import { SEASONS } from "@/constants";
+import { SEASONS } from "@/constants/season";
 
 export const SeasonSchema = z.enum(SEASONS);
 

@@ -1,4 +1,4 @@
-import { COUNTRIES } from "@/constants";
+import { COUNTRIES } from "@/constants/country";
 
 import { buildPrompt, readPromptFile, toBulletList } from "@/utils/ai/prompt";
 

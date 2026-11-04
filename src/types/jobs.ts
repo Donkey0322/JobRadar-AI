@@ -1,6 +1,6 @@
-import type { COUNTRIES } from "@/constants";
-import type { JobCategory } from "@/validation/config";
-import type { Season } from "@/validation/season";
+import type { COUNTRIES } from "@/constants/country";
+import type { JobCategory } from "@/constants/job-category";
+import type { Season } from "@/constants/season";
 
 /** Parsed by AI from the job description. */
 export interface JD {

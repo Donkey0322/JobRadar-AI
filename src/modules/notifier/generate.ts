@@ -1,12 +1,11 @@
-import { SEASONS } from "@/constants/season";
+import { type Country } from "@/constants/country";
+import { JobCategory } from "@/constants/job-category";
+import { type Season,SEASONS } from "@/constants/season";
 
 import type { Job } from "@/types";
-import type { Country } from "@/validation/config";
-import type { Season } from "@/validation/season";
 
 import { escapeHtml } from "@/utils/html";
 import { getToday } from "@/utils/string";
-import { JobCategory } from "@/validation/config";
 
 function locationIcon(location: Country) {
   switch (location) {

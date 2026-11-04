@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { ConfigSchema, JobCategory } from "../config";
+import { ConfigSchema } from "../config";
 
 import { createValidConfig } from "./config.test-utils";
 
@@ -9,7 +9,7 @@ describe("ConfigSchema", () => {
     const config = createValidConfig();
     config.target = {
       ...config.target,
-      "full-time": [JobCategory.ENTRY_LEVEL],
+      "full-time": ["entry level"],
       filter: {
         USA: {
           allow_citizenship_required: false,
@@ -26,7 +26,7 @@ describe("ConfigSchema", () => {
   it("should fail if filter countries does not exist in target.countries", () => {
     const config = createValidConfig();
     config.target = {
-      intern: [JobCategory.SUMMER_INTERN],
+      intern: ["summer intern"],
       countries: ["Canada"],
       filter: {
         USA: {
@@ -113,7 +113,7 @@ describe("ConfigSchema", () => {
     const result = ConfigSchema.safeParse(
       createValidConfig({
         target: {
-          intern: [JobCategory.SUMMER_INTERN],
+          intern: ["summer intern"],
           countries: ["USA"],
           priorityKeywords: ["software", "swe"],
         },
@@ -127,7 +127,7 @@ describe("ConfigSchema", () => {
     const result = ConfigSchema.safeParse(
       createValidConfig({
         target: {
-          intern: [JobCategory.SUMMER_INTERN],
+          intern: ["summer intern"],
           countries: ["USA"],
           excludeKeywords: ["hardware", "firmware"],
         },

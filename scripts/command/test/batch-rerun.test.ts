@@ -96,6 +96,8 @@ vi.mock("@/utils/logger", () => ({
   logger: { info: vi.fn(), warn: vi.fn(), error: vi.fn() },
 }));
 
+import { JobCategory } from "@/constants/job-category";
+
 import { persistAnalyzedJobs } from "../../ingest";
 import { processBatchQueue } from "../batch";
 
@@ -108,7 +110,6 @@ import {
 } from "@/modules/posting/batch";
 import * as store from "@/store";
 import { BATCH_INFLIGHT_PATH, JOB_PATH, OPPORTUNITIES_PATH } from "@/store/paths";
-import { JobCategory } from "@/validation/config";
 
 const fetchMock = vi.fn<typeof fetch>();
 

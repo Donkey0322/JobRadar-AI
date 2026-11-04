@@ -3,15 +3,6 @@ import { z } from "zod";
 // do not use import from "@/constants" to avoid circular dependency
 import { COUNTRIES } from "@/constants/country";
 
-export enum JobCategory {
-  SUMMER_INTERN = "summer intern",
-  OFF_SEASON_INTERN = "off-season intern",
-
-  ENTRY_LEVEL = "entry level",
-  MID_LEVEL = "mid level",
-  SENIOR_LEVEL = "senior level",
-}
-
 const CountrySchema = z.enum(COUNTRIES);
 export type Country = z.infer<typeof CountrySchema>;
 
@@ -23,12 +14,12 @@ const CountryFilterSchema = z.object({
 export const TargetSchema = z
   .object({
     intern: z
-      .array(z.enum([JobCategory.SUMMER_INTERN, JobCategory.OFF_SEASON_INTERN]))
+      .array(z.enum(["summer intern", "off-season intern"]))
       .min(1, "intern has to be at least one of the following: summer intern, off-season intern")
       .optional(),
 
     "full-time": z
-      .array(z.enum([JobCategory.ENTRY_LEVEL, JobCategory.MID_LEVEL, JobCategory.SENIOR_LEVEL]))
+      .array(z.enum(["entry level", "mid level", "senior level"]))
       .min(
         1,
         "full-time has to be at least one of the following: entry level, mid level, senior level"

@@ -1,14 +1,17 @@
 import "dotenv/config";
 
+import type { Country } from "./country";
 import type Source from "@/types/source";
-import type { Country } from "@/validation/config";
 
 import config from "../../config.json";
 
-import { type Config, ConfigSchema, JobCategory } from "@/validation/config";
+import { JobCategory } from "./job-category";
+
+import { type Config, ConfigSchema } from "@/validation/config";
 
 const parsedConfig = ConfigSchema.parse(config);
 
+export { JOB_CATEGORIES } from "./job-category";
 export { default as SEASONS } from "./season";
 export { default as COUNTRIES } from "./country";
 
@@ -30,14 +33,6 @@ export const ALLOWED_COUNTRIES =
   CONFIG.target.countries.length > 0
     ? new Set<Country>([...CONFIG.target.countries, "Unsure"])
     : new Set<Country>([]);
-
-export const JOB_CATEGORIES = [
-  JobCategory.SUMMER_INTERN,
-  JobCategory.OFF_SEASON_INTERN,
-  JobCategory.ENTRY_LEVEL,
-  JobCategory.MID_LEVEL,
-  JobCategory.SENIOR_LEVEL,
-] as const;
 
 export const SOURCES: Source[] = [
   {

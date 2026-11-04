@@ -1,12 +1,13 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 
+import { JobCategory } from "@/constants/job-category";
+
 import type * as PostingTitles from "@/modules/posting/titles";
 import type { Job } from "@/types";
 import type { JD } from "@/types/jobs";
 
 import { HttpStatusCode, JD_FETCH_ERROR, JD_FETCH_OK } from "@/modules/posting/jd";
 import { Posting } from "@/modules/posting/posting";
-import { JobCategory } from "@/validation/config";
 
 const dataMocks = vi.hoisted(() => ({
   urls: {

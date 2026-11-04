@@ -1,6 +1,7 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
 
 import { CONFIG } from "@/constants";
+import { JobCategory } from "@/constants/job-category";
 
 import {
   isNotifyCandidate,
@@ -14,8 +15,6 @@ import {
   shouldBatchAnalyze,
   withinDays,
 } from "../titles";
-
-import { JobCategory } from "@/validation/config";
 
 afterEach(() => {
   vi.unstubAllEnvs();

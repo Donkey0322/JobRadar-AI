@@ -1,10 +1,10 @@
 import { describe, expect, it } from "vitest";
 
+import { JobCategory } from "@/constants/job-category";
+
 import type { JD } from "@/types";
 
 import { Posting } from "../posting";
-
-import { JobCategory } from "@/validation/config";
 
 const baseJd = {
   sponsorship: null,

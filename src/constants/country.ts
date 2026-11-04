@@ -28,4 +28,6 @@ export const COUNTRIES = [
   "Other",
 ] as const;
 
+export type Country = (typeof COUNTRIES)[number];
+
 export default COUNTRIES;

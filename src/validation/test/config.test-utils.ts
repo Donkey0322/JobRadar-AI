@@ -1,9 +1,9 @@
-import { type Config, JobCategory } from "../config";
+import { type Config } from "../config";
 
 export function createValidConfig(overrides: Partial<Config> = {}): Config {
   return {
     target: {
-      intern: [JobCategory.SUMMER_INTERN],
+      intern: ["summer intern"],
       countries: ["USA"],
     },
     ai: {

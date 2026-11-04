@@ -1,9 +1,9 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
+import { JobCategory } from "@/constants/job-category";
+
 import type * as Constants from "@/constants";
 import type { Config } from "@/validation/config";
-
-import { JobCategory } from "@/validation/config";
 
 type AIConfig = Config["ai"];
 

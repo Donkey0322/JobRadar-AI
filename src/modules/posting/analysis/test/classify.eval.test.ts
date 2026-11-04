@@ -9,8 +9,8 @@ import { beforeAll, describe, expect, it } from "vitest";
 
 import { CONFIG } from "@/constants";
 
+import type { Country } from "@/constants/country";
 import type { Job } from "@/types";
-import type { Country } from "@/validation/config";
 
 import { classifyLocations } from "../location";
 

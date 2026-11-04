@@ -1,5 +1,5 @@
-import { JOB_CATEGORIES } from "@/constants";
-import { COUNTRIES } from "@/constants";
+import { COUNTRIES } from "@/constants/country";
+import { JOB_CATEGORIES } from "@/constants/job-category";
 import { RED_CROSS } from "@/constants/log";
 import { SEASON_VALUES } from "@/constants/season";
 

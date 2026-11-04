@@ -1,11 +1,11 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 
 import { DEFAULT_JD_FETCH_TIMEOUT_MS } from "@/constants";
+import { JobCategory } from "@/constants/job-category";
 
 import type { JD, Job } from "@/types";
 
 import { JD_FETCH_ERROR, JD_FETCH_OK } from "@/modules/posting/jd/fetch";
-import { JobCategory } from "@/validation/config";
 
 const analyzePostingMock = vi.hoisted(() => vi.fn());
 const extractQualificationsMock = vi.hoisted(() => vi.fn());

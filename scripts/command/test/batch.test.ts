@@ -1,9 +1,9 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 
+import { JobCategory } from "@/constants/job-category";
+
 import type { Job } from "@/types";
 import type { JD } from "@/types/jobs";
-
-import { JobCategory } from "@/validation/config";
 
 const collectInflightBatchesMock = vi.hoisted(() => vi.fn());
 const loadBatchQueueMock = vi.hoisted(() => vi.fn());
