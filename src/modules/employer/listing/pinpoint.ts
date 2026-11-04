@@ -12,8 +12,7 @@ import {
   type PinpointPosting,
   PinpointResponseSchema,
 } from "@/modules/ats/pinpoint";
-import { logListingFailure } from "@/modules/employer/failure";
-import { errorLog } from "@/store";
+import { logListingFailure, logListingStatus } from "@/modules/employer/failure";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
@@ -81,14 +80,14 @@ export class PinpointFetcher extends Employer<PinpointJob> {
       const res = await fetch(company.page, { signal, headers: { accept: "application/json" } });
 
       if (!res.ok) {
-        await errorLog.append(`Pinpoint: ${company.name} - ${res.status} - ${res.statusText}`);
+        await logListingStatus("Pinpoint", company, res);
         return [];
       }
 
-      return this.getJobsFromResponse(await res.json())
-        .map((job) => this.posting(job, company))
-        .filter((posting) => posting.isTarget() && !posting.isKnown(knownKeys))
-        .map((posting) => posting.toJob());
+      return this.screen(
+        this.getJobsFromResponse(await res.json()).map((job) => this.posting(job, company)),
+        knownKeys
+      ).map((posting) => posting.toJob());
     } catch (error) {
       if (await logListingFailure("Pinpoint", company, error)) return [];
 

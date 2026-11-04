@@ -1,8 +1,13 @@
+import { RED_CROSS } from "@/constants/log";
+
 import type { ATS } from "@/modules/ats/types";
 import type { Company, Job } from "@/types";
 
 import { getJobKey, isKnownJob, toJobKeySet } from "@/modules/ats/job-key";
+import { logListingFailure } from "@/modules/employer/failure";
 import { Posting, type PostingDate } from "@/modules/posting/posting";
+import { isAbortError } from "@/utils/http";
+import { logger } from "@/utils/logger";
 
 export type CompanyResult = Company | null;
 export type MaybePromise<T> = T | Promise<T>;
@@ -76,9 +81,7 @@ export abstract class Employer<TJob = unknown> {
     const knownKeys = toJobKeySet(this.urls ?? []);
     const timeout = this.ats === "lever" ? LEVER_TIMEOUT : FETCH_TIMEOUT;
     const signal = AbortSignal.timeout(timeout);
-    const jobs = await this.fetch(this, knownKeys, signal);
-
-    return jobs.filter((job) => !isKnownJob(job.link, knownKeys));
+    return this.fetch(this, knownKeys, signal);
   }
 
   /** Job keys currently on this company's board, unfiltered. */
@@ -111,6 +114,47 @@ export abstract class Employer<TJob = unknown> {
 
   protected isKnownJob(link: string, knownKeys: ReadonlySet<string>) {
     return isKnownJob(link, knownKeys);
+  }
+
+  /**
+   * Discover filter. Order is target, then known key, then recency when requested.
+   * Each `fetch()` applies this to the link it returns. `getJobs()` does not filter again.
+   */
+  protected screen(
+    postings: readonly Posting[],
+    knownKeys: ReadonlySet<string>,
+    options: { recent?: boolean } = {}
+  ): Posting[] {
+    return postings.filter(
+      (posting) =>
+        posting.isTarget() && !posting.isKnown(knownKeys) && (!options.recent || posting.isRecent())
+    );
+  }
+
+  /** Listing failure, abort, and any other exception all return no jobs. */
+  protected async failSoft(label: string, company: Company, error: unknown): Promise<Job[]> {
+    if (await logListingFailure(label, company, error)) return [];
+
+    if (isAbortError(error)) {
+      logger.warn(
+        {
+          company: company.name,
+          url: company.page,
+        },
+        `⚠️ ${label} request aborted`
+      );
+      return [];
+    }
+
+    logger.error(
+      {
+        error,
+        company: company.name,
+        url: company.page,
+      },
+      `${RED_CROSS} Error fetching ${label.toLowerCase()} jobs`
+    );
+    return [];
   }
 
   /** Build `${ats}:${identifier}` keys used by company list grouping. */

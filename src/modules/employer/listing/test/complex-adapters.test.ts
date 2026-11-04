@@ -18,6 +18,7 @@ import { radancyFetcher } from "../radancy";
 import { workdayFetcher } from "../workday";
 
 import { getJobKey, toJobKeySet } from "@/modules/ats/job-key";
+import { isTarget } from "@/modules/posting/titles";
 import { errorLog } from "@/store";
 
 const mockFetch = vi.fn<typeof fetch>();
@@ -35,6 +36,8 @@ function jsonResponse(data: unknown, url: string): Response {
 describe("complex ATS adapters", () => {
   beforeEach(() => {
     mockFetch.mockReset();
+    vi.mocked(errorLog.append).mockReset();
+    vi.mocked(isTarget).mockReset().mockReturnValue(true);
     vi.stubGlobal("fetch", mockFetch);
   });
 
@@ -121,6 +124,110 @@ describe("complex ATS adapters", () => {
     });
   });
 
+  it("drops Workday jobs already fetched when a later discover page fails", async () => {
+    const company: Company = {
+      name: "acme",
+      ats: "workday",
+      identifier: "acme-external",
+      domain: "https://acme.wd1.myworkdayjobs.com/en-US/external",
+      page: "https://acme.wd1.myworkdayjobs.com/wday/cxs/acme/external/jobs",
+      urls: [],
+    };
+    const today = Array.from({ length: 20 }, (_, index) => ({
+      title: `Software Engineer ${index}`,
+      postedOn: "Posted Today",
+      locationsText: "Remote",
+      externalPath: `/job/${index}`,
+    }));
+
+    mockFetch
+      .mockResolvedValueOnce(jsonResponse({ jobPostings: today }, company.page))
+      .mockResolvedValueOnce(new Response("", { status: 500, statusText: "Unavailable" }));
+
+    await expect(workdayFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))).resolves.toEqual(
+      []
+    );
+    expect(mockFetch).toHaveBeenCalledTimes(2);
+    expect(errorLog.append).toHaveBeenCalledWith("Workday: acme - 500 - Unavailable");
+  });
+
+  it("keeps listed Workday jobs when a later page fails", async () => {
+    const company: Company = {
+      name: "acme",
+      ats: "workday",
+      identifier: "acme-external",
+      domain: "https://acme.wd1.myworkdayjobs.com/en-US/external",
+      page: "https://acme.wd1.myworkdayjobs.com/wday/cxs/acme/external/jobs",
+      urls: [],
+    };
+    const today = Array.from({ length: 20 }, (_, index) => ({
+      title: `Software Engineer ${index}`,
+      postedOn: "Posted Today",
+      locationsText: "Remote",
+      externalPath: `/job/Engineer_R${1000 + index}`,
+    }));
+
+    mockFetch
+      .mockResolvedValueOnce(jsonResponse({ jobPostings: today }, company.page))
+      .mockResolvedValueOnce(new Response("", { status: 500, statusText: "Unavailable" }));
+
+    const keys = await workdayFetcher.listJobKeys(company, AbortSignal.timeout(1000));
+
+    expect(keys?.size).toBe(20);
+    expect(keys?.has("workday:acme:R1000")).toBe(true);
+    expect(mockFetch).toHaveBeenCalledTimes(2);
+    expect(errorLog.append).toHaveBeenCalledWith("Workday: acme - 500 - Unavailable");
+  });
+
+  it("drops a known Workday job and stops when the page is short", async () => {
+    const company: Company = {
+      name: "acme",
+      ats: "workday",
+      identifier: "acme-external",
+      domain: "https://acme.wd1.myworkdayjobs.com/en-US/external",
+      page: "https://acme.wd1.myworkdayjobs.com/wday/cxs/acme/external/jobs",
+      urls: [],
+    };
+    const known = `${company.domain}/job/Engineer_R1000`;
+
+    mockFetch.mockResolvedValueOnce(
+      jsonResponse(
+        {
+          jobPostings: [
+            {
+              title: "Platform Engineer",
+              postedOn: "Posted Today",
+              locationsText: "Remote",
+              externalPath: "/job/Engineer_R2000",
+            },
+            {
+              title: "Known Engineer",
+              postedOn: "Posted Today",
+              locationsText: "NYC",
+              externalPath: "/job/Engineer_R1000",
+            },
+            {
+              title: "Quant Engineer",
+              postedOn: "Posted Yesterday",
+              locationsText: "SF",
+              externalPath: "/job/Engineer_R3000",
+            },
+          ],
+        },
+        company.page
+      )
+    );
+
+    const jobs = await workdayFetcher.fetch(
+      company,
+      toJobKeySet([`${known}?src=1`]),
+      AbortSignal.timeout(1000)
+    );
+
+    expect(jobs.map((job) => job.link)).toEqual([`${company.domain}/job/Engineer_R2000`]);
+    expect(mockFetch).toHaveBeenCalledOnce();
+  });
+
   it("parses iCIMS HTML without mutating the caller's key set", async () => {
     const company: Company = {
       name: "acme",
@@ -153,6 +260,49 @@ describe("complex ATS adapters", () => {
       },
     ]);
     expect([...knownKeys]).toEqual(["icims:careers-acme.icims.com:1"]);
+  });
+
+  it("drops a known iCIMS job after tracking parameters are removed", async () => {
+    const company: Company = {
+      name: "acme",
+      ats: "icims",
+      identifier: "acme",
+      domain: "https://careers-acme.icims.com",
+      page: "https://careers-acme.icims.com/jobs/search",
+      urls: [],
+    };
+    const html = `
+      <div class="iCIMS_JobsTable">
+        <a href="/jobs/1/known-engineer/job?in_iframe=1&mobile=true">
+          <h3>Software Engineer</h3>
+          <span>US-CA-San Francisco</span>
+        </a>
+      </div>
+      <div class="iCIMS_JobsTable">
+        <a href="/jobs/2/platform-engineer/job?mobile=true">
+          <h3>Platform Engineer</h3>
+          <span>US-NY-New York</span>
+        </a>
+      </div>
+    `;
+
+    mockFetch.mockResolvedValueOnce(response(html, `${company.page}?pr=0`));
+
+    const jobs = await icimsFetcher.fetch(
+      company,
+      toJobKeySet(["https://careers-acme.icims.com/jobs/1/known-engineer/job?in_iframe=1"]),
+      AbortSignal.timeout(1000)
+    );
+
+    expect(jobs).toEqual([
+      {
+        company: "Acme",
+        role: "Platform Engineer",
+        link: "https://careers-acme.icims.com/jobs/2/platform-engineer/job",
+        location: "US-NY-New York",
+      },
+    ]);
+    expect(mockFetch).toHaveBeenCalledOnce();
   });
 
   function jibeJob(id: number, postedDate: string, title = `Software Engineer ${id}`) {
@@ -409,6 +559,106 @@ describe("complex ATS adapters", () => {
     expect(froms).toEqual([0, 100]);
     expect(keys?.size).toBe(101);
     expect(keys?.has(getJobKey("https://careers.acme.com/us/en/job/R100?ph_id=R100"))).toBe(true);
+  });
+
+  it("stops Phenom at the first old job and does not request the next page", async () => {
+    vi.mocked(isTarget).mockImplementation((title: string) => /engineer/i.test(title));
+    const company: Company = {
+      name: "acme",
+      ats: "phenom",
+      identifier: "careers.acme.com",
+      domain: "https://careers.acme.com",
+      page: "https://careers.acme.com",
+      urls: [],
+    };
+    const recent = new Date().toISOString();
+    const jobs = [
+      { jobId: "R1", title: "Software Engineer", postedDate: recent },
+      { jobId: "R2", title: "Accountant", postedDate: recent },
+      { jobId: "R3", title: "Platform Engineer", postedDate: "2020-01-01T00:00:00Z" },
+      ...Array.from({ length: 97 }, (_, index) => ({
+        jobId: `R${index + 4}`,
+        title: "Software Engineer",
+        postedDate: recent,
+      })),
+    ];
+    const froms: number[] = [];
+
+    mockFetch.mockImplementation(async (input, init) => {
+      const url = String(input);
+      if (!url.endsWith("/widgets")) {
+        return response(`<script>{"csrfToken":"token"}</script>`, "https://careers.acme.com/us/en/");
+      }
+      const { from } = JSON.parse(String(init?.body)) as { from: number };
+      froms.push(from);
+      return jsonResponse({ refineSearch: { data: { jobs } } }, url);
+    });
+
+    await expect(phenomFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))).resolves.toEqual(
+      [
+        {
+          company: "acme",
+          role: "Software Engineer",
+          link: "https://careers.acme.com/us/en/job/R1?ph_id=R1",
+          location: "",
+        },
+      ]
+    );
+    expect(froms).toEqual([0]);
+  });
+
+  it("drops a known Phenom job after the tracking parameter is added", async () => {
+    vi.mocked(isTarget).mockImplementation((title: string) => /engineer/i.test(title));
+    const company: Company = {
+      name: "cisco",
+      ats: "phenom",
+      identifier: "careers.cisco.com",
+      domain: "https://careers.cisco.com",
+      page: "https://careers.cisco.com",
+      urls: [],
+    };
+    const recent = new Date().toISOString();
+    const froms: number[] = [];
+
+    mockFetch.mockImplementation(async (input, init) => {
+      const url = String(input);
+      if (!url.endsWith("/widgets")) {
+        return response(
+          `<script>{"csrfToken":"token"}</script>`,
+          "https://careers.cisco.com/global/en/"
+        );
+      }
+      const { from } = JSON.parse(String(init?.body)) as { from: number };
+      froms.push(from);
+      return jsonResponse(
+        {
+          refineSearch: {
+            data: {
+              jobs: [
+                { jobId: "R1", title: "Platform Engineer", postedDate: recent, location: "Remote" },
+                { jobId: "R2", title: "Accountant", postedDate: recent, location: "NYC" },
+                { jobId: "R3", title: "Known Engineer", postedDate: recent, location: "SF" },
+                { jobId: "R4", title: "Quant Engineer", postedDate: recent, location: "Austin" },
+              ],
+            },
+          },
+        },
+        url
+      );
+    });
+
+    const jobs = await phenomFetcher.fetch(
+      company,
+      toJobKeySet(["https://careers.cisco.com/global/en/job/R3"]),
+      AbortSignal.timeout(1000)
+    );
+
+    expect(jobs.map((job) => job.link)).toEqual([
+      "https://careers.cisco.com/global/en/job/R1?ph_id=R1",
+      "https://careers.cisco.com/global/en/job/R4?ph_id=R4",
+    ]);
+    expect(froms).toEqual([0]);
+    expect(mockFetch).toHaveBeenCalledTimes(2);
   });
 
   it("isolates concurrent Phenom sessions, cookies, CSRF tokens, and links", async () => {

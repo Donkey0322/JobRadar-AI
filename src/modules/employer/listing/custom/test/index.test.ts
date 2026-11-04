@@ -80,4 +80,19 @@ describe("CustomFetcher", () => {
     ).resolves.toEqual([]);
     expect(fetchAmazonMock).not.toHaveBeenCalled();
   });
+
+  it("returns nothing for an unknown custom page without requesting it", async () => {
+    const fetchMock = vi.fn();
+    vi.stubGlobal("fetch", fetchMock);
+    const company = {
+      ...customFetcher.formCompany(new URL("https://www.example.com/careers")),
+      page: "https://www.example.com/careers",
+    };
+
+    await expect(customFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))).resolves.toEqual(
+      []
+    );
+    expect(fetchMock).not.toHaveBeenCalled();
+    expect(fetchAmazonMock).not.toHaveBeenCalled();
+  });
 });

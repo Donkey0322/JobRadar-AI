@@ -1,6 +1,10 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 
+import { RED_CROSS } from "@/constants/log";
+
 import type { Company } from "@/types";
+
+import { logger } from "@/utils/logger";
 
 const appendErrorLog = vi.hoisted(() => vi.fn(async () => {}));
 
@@ -138,6 +142,78 @@ describe("Ashby hosted board fallback", () => {
     expect(appendErrorLog).not.toHaveBeenCalled();
   });
 
+  it("skips the publish-date request for a known hosted-board job", async () => {
+    const published = new Date().toISOString().slice(0, 10);
+    const freshId = "33333333-3333-4333-8333-333333333333";
+    const dated = new Set<string>();
+
+    mockFetch.mockImplementation(async (input, init) => {
+      const url = requestUrl(input);
+
+      if (url.includes("/posting-api/")) {
+        return new Response(null, { status: 404, statusText: "Not Found" });
+      }
+
+      const operation = await operationName(init);
+
+      if (operation === "ApiJobBoardWithTeams") {
+        return Response.json({
+          data: {
+            jobBoard: {
+              jobPostings: [
+                {
+                  id: RECENT_ID,
+                  title: "Software Engineer Intern (Summer 2027)",
+                  locationName: "San Francisco, CA",
+                  secondaryLocations: [],
+                },
+                {
+                  id: SALES_ID,
+                  title: "Account Executive",
+                  locationName: "London, UK",
+                  secondaryLocations: [],
+                },
+                {
+                  id: freshId,
+                  title: "Platform Engineer Intern",
+                  locationName: "New York, NY",
+                  secondaryLocations: [],
+                },
+              ],
+            },
+          },
+        });
+      }
+
+      if (operation === "ApiJobPosting") {
+        const variables = JSON.parse(String(init?.body)) as {
+          variables: { jobPostingId: string };
+        };
+        dated.add(variables.variables.jobPostingId);
+        return Response.json({ data: { jobPosting: { publishedDate: published } } });
+      }
+
+      throw new Error(`unexpected fetch ${url}`);
+    });
+
+    const jobs = await ashbyFetcher.fetch(
+      COMPANY,
+      new Set([`ashby:${RECENT_ID}`]),
+      AbortSignal.timeout(1000)
+    );
+
+    expect(dated).toEqual(new Set([freshId]));
+    expect(jobs).toEqual([
+      {
+        company: "Whatnot",
+        role: "Platform Engineer Intern",
+        link: `https://jobs.ashbyhq.com/whatnot/${freshId}`,
+        location: "New York, NY",
+      },
+    ]);
+    expect(mockFetch).toHaveBeenCalledTimes(3);
+  });
+
   it("logs when the posting API and the hosted board are both missing", async () => {
     mockFetch.mockImplementation(async (input) => {
       const url = requestUrl(input);
@@ -186,5 +262,41 @@ describe("Ashby hosted board fallback", () => {
     const keys = await new AshbyFetcher(COMPANY).listedKeys(AbortSignal.timeout(1000));
 
     expect(keys).toEqual(new Set([`ashby:${RECENT_ID}`]));
+  });
+
+  it("returns nothing when the posting API aborts before the hosted board", async () => {
+    const warn = vi.spyOn(logger, "warn").mockImplementation(() => {});
+    const error = vi.spyOn(logger, "error").mockImplementation(() => {});
+    mockFetch.mockRejectedValueOnce(new DOMException("timed out", "TimeoutError"));
+
+    await expect(ashbyFetcher.fetch(COMPANY, new Set(), AbortSignal.timeout(1000))).resolves.toEqual(
+      []
+    );
+    expect(mockFetch).toHaveBeenCalledOnce();
+    expect(warn).toHaveBeenCalledWith(
+      { company: "whatnot", url: COMPANY.page },
+      "⚠️ Ashby request aborted"
+    );
+    expect(error).not.toHaveBeenCalled();
+    expect(appendErrorLog).not.toHaveBeenCalled();
+
+    warn.mockRestore();
+    error.mockRestore();
+  });
+
+  it("logs an unexpected posting API failure and returns nothing", async () => {
+    const crash = new Error("boom");
+    const error = vi.spyOn(logger, "error").mockImplementation(() => {});
+    mockFetch.mockRejectedValueOnce(crash);
+
+    await expect(ashbyFetcher.fetch(COMPANY, new Set(), AbortSignal.timeout(1000))).resolves.toEqual(
+      []
+    );
+    expect(error).toHaveBeenCalledWith(
+      { error: crash, company: "whatnot", url: COMPANY.page },
+      `${RED_CROSS} Error fetching ashby jobs`
+    );
+
+    error.mockRestore();
   });
 });

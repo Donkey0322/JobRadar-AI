@@ -123,4 +123,13 @@ describe("JazzHR fetcher", () => {
       "JazzHR: Innovative Systems - getaddrinfo ENOTFOUND"
     );
   });
+
+  it("logs an HTTP failure and returns nothing", async () => {
+    mockFetch.mockResolvedValueOnce(new Response("", { status: 404, statusText: "Not Found" }));
+
+    await expect(
+      jazzHRFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
+    ).resolves.toEqual([]);
+    expect(appendErrorLog).toHaveBeenCalledWith("JazzHR: Innovative Systems - 404 - Not Found");
+  });
 });

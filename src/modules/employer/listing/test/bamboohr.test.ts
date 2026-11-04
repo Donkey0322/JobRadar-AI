@@ -137,4 +137,39 @@ describe("BambooHR fetcher", () => {
     ).resolves.toEqual([]);
     expect(errorLog.append).toHaveBeenCalledWith("BambooHR: Mujin - board no longer exists");
   });
+
+  it("logs an HTTP failure and returns nothing", async () => {
+    mockFetch.mockResolvedValueOnce(new Response("", { status: 500, statusText: "Server Error" }));
+
+    await expect(
+      bambooHRFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
+    ).resolves.toEqual([]);
+    expect(errorLog.append).toHaveBeenCalledWith("BambooHR: Mujin - 500 - Server Error");
+  });
+
+  it("keeps dated jobs when another posting date is missing", async () => {
+    mockFetch.mockImplementation(async (input) => {
+      const url = String(input);
+      if (url === company.page) {
+        return Response.json({
+          result: [row("1", "Robotics Software Engineer"), row("2", "Software Engineer II")],
+        });
+      }
+      if (url.endsWith("/careers/1/detail")) return detail("2026-11-02");
+      if (url.endsWith("/careers/2/detail")) return new Response("", { status: 404 });
+      throw new Error(`unexpected fetch ${url}`);
+    });
+
+    await expect(
+      bambooHRFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
+    ).resolves.toEqual([
+      {
+        company: "Mujin",
+        role: "Robotics Software Engineer",
+        link: "https://mujin.bamboohr.com/careers/1",
+        location: "Atlanta, Georgia",
+      },
+    ]);
+    expect(errorLog.append).toHaveBeenCalledWith("BambooHR: Mujin - no posting date for 1/2 jobs");
+  });
 });

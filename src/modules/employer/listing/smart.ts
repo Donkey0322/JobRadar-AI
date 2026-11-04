@@ -7,8 +7,7 @@ import type { Company, Job } from "@/types";
 
 import { Employer } from "../employer";
 
-import { logListingFailure } from "@/modules/employer/failure";
-import { errorLog } from "@/store";
+import { logListingStatus } from "@/modules/employer/failure";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
 
@@ -89,49 +88,19 @@ export class SmartRecruitersFetcher extends Employer<SmartRecruitersJob> {
       });
 
       if (!res.ok) {
-        await errorLog.append(
-          `Smart Recruiters: ${company.name} - ${res.status} - ${res.statusText}`
-        );
+        await logListingStatus("Smart Recruiters", company, res);
         return [];
       }
 
       const rawJobs = this.getJobsFromResponse(await res.json());
 
-      const opportunities = rawJobs
-        .map((job) => this.posting(job, company, job.releasedDate))
-        .filter(
-          (posting) => posting.isTarget() && !posting.isKnown(knownKeys) && posting.isRecent()
-        )
-        .map((posting) => posting.toJob());
-
-      return opportunities;
+      return this.screen(
+        rawJobs.map((job) => this.posting(job, company, job.releasedDate)),
+        knownKeys,
+        { recent: true }
+      ).map((posting) => posting.toJob());
     } catch (error) {
-      if (await logListingFailure("Smart Recruiters", company, error)) return [];
-
-      if (
-        error instanceof Error &&
-        (error.name === "TimeoutError" || error.name === "AbortError")
-      ) {
-        logger.warn(
-          {
-            company: company.name,
-            url: company.page,
-          },
-          "⚠️ SmartRecruiters request aborted"
-        );
-
-        return [];
-      }
-
-      logger.error(
-        {
-          error,
-          company: company.name,
-        },
-        `${RED_CROSS} Error fetching smart recruiters jobs`
-      );
-
-      return [];
+      return this.failSoft("Smart Recruiters", company, error);
     }
   }
 }

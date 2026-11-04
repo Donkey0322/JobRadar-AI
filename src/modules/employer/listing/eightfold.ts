@@ -7,8 +7,7 @@ import type { Company, Job } from "@/types";
 import { Employer } from "../employer";
 
 import { eightfoldDomain, eightfoldIdentifier } from "@/modules/ats/eightfold";
-import { logListingFailure } from "@/modules/employer/failure";
-import { errorLog } from "@/store";
+import { logListingStatus } from "@/modules/employer/failure";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
 
@@ -271,9 +270,7 @@ export class EightfoldFetcher extends Employer<EightfoldJob> {
         page = result.page;
 
         if (!result.response.ok) {
-          await errorLog.append(
-            `Eightfold: ${company.name} - ${result.response.status} - ${result.response.statusText}`
-          );
+          await logListingStatus("Eightfold", company, result.response);
           break;
         }
 
@@ -281,52 +278,26 @@ export class EightfoldFetcher extends Employer<EightfoldJob> {
         if (rawJobs.length === 0) break;
 
         let reachedOldJob = false;
-        const opportunities = rawJobs
-          .map((job) => ({
-            posting: this.posting(job, company, job.postedTs),
-            hasPostedAt: Boolean(job.postedTs),
-          }))
-          .filter(({ posting, hasPostedAt }) => {
-            if (hasPostedAt && !posting.isRecent()) {
-              reachedOldJob = true;
-              return false;
-            }
+        const candidates = [];
 
-            return posting.isTarget() && !posting.isKnown(knownKeys);
-          })
-          .map(({ posting }) => posting.toJob());
+        for (const job of rawJobs) {
+          const posting = this.posting(job, company, job.postedTs);
 
-        allJobs.push(...opportunities);
+          if (job.postedTs && !posting.isRecent()) {
+            reachedOldJob = true;
+            continue;
+          }
+
+          candidates.push(posting);
+        }
+
+        allJobs.push(...this.screen(candidates, knownKeys).map((posting) => posting.toJob()));
         if (rawJobs.length < PAGE_SIZE || reachedOldJob) break;
       }
 
       return allJobs;
     } catch (error) {
-      if (await logListingFailure("Eightfold", company, error)) return [];
-
-      if (
-        error instanceof Error &&
-        (error.name === "TimeoutError" || error.name === "AbortError")
-      ) {
-        logger.warn(
-          {
-            company: company.name,
-            url: company.page,
-          },
-          "⚠️ Eightfold request aborted"
-        );
-        return [];
-      }
-
-      logger.error(
-        {
-          error,
-          company: company.name,
-          url: company.page,
-        },
-        `${RED_CROSS} Error fetching eightfold jobs`
-      );
-      return [];
+      return this.failSoft("Eightfold", company, error);
     }
   }
 }

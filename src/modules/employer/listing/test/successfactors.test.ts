@@ -16,6 +16,7 @@ import { Employer } from "../../employer";
 import { successFactorsFetcher } from "../successfactors";
 
 import { toJobKeySet } from "@/modules/ats/job-key";
+import { withinDays } from "@/modules/posting/titles";
 
 const mockFetch = vi.fn<typeof fetch>();
 
@@ -48,6 +49,8 @@ const company: Company = {
 describe("SuccessFactors fetcher", () => {
   beforeEach(() => {
     mockFetch.mockReset();
+    appendErrorLog.mockReset();
+    vi.mocked(withinDays).mockReset().mockReturnValue(true);
     vi.stubGlobal("fetch", mockFetch);
   });
 
@@ -132,7 +135,24 @@ describe("SuccessFactors fetcher", () => {
   });
 
   it("returns nothing when the feed request fails", async () => {
-    mockFetch.mockResolvedValueOnce(new Response("", { status: 503 }));
+    mockFetch.mockResolvedValueOnce(new Response("", { status: 503, statusText: "Unavailable" }));
+
+    await expect(
+      successFactorsFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
+    ).resolves.toEqual([]);
+    expect(appendErrorLog).toHaveBeenCalledWith("SuccessFactors: Aramark - 503 - Unavailable");
+  });
+
+  it("drops feed postings that are not recent", async () => {
+    vi.mocked(withinDays).mockReturnValue(false);
+    mockFetch.mockResolvedValueOnce(
+      feed(
+        item(
+          "Software Engineer (Philadelphia, PA, US, 19107)",
+          "/UnitedStates/job/Philadelphia-Software-Engineer-PA-19107/1446000000/"
+        )
+      )
+    );
 
     await expect(
       successFactorsFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))

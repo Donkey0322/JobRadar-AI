@@ -16,8 +16,7 @@ import {
   fetchAshbyPublishedDate,
   resolveAshbyIdentifier,
 } from "@/modules/ats/ashby";
-import { logListingFailure } from "@/modules/employer/failure";
-import { errorLog } from "@/store";
+import { logListingStatus } from "@/modules/employer/failure";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
 import { getHostnameWithoutWww } from "@/utils/url";
@@ -126,7 +125,7 @@ export class AshbyFetcher extends Employer<AshbyJob> {
       }));
     }
 
-    await errorLog.append(`Ashby: ${company.name} - ${res.status} - ${res.statusText}`);
+    await logListingStatus("Ashby", company, res);
     return null;
   }
 
@@ -141,40 +140,13 @@ export class AshbyFetcher extends Employer<AshbyJob> {
 
       const jobs = await this.attachPublishedDates(rawJobs, company, knownKeys, signal);
 
-      return jobs
-        .map((job) => this.posting(job, company, job.publishedAt))
-        .filter(
-          (posting) => posting.isTarget() && !posting.isKnown(knownKeys) && posting.isRecent()
-        )
-        .map((posting) => posting.toJob());
+      return this.screen(
+        jobs.map((job) => this.posting(job, company, job.publishedAt)),
+        knownKeys,
+        { recent: true }
+      ).map((posting) => posting.toJob());
     } catch (error) {
-      if (await logListingFailure("Ashby", company, error)) return [];
-
-      if (
-        error instanceof Error &&
-        (error.name === "TimeoutError" || error.name === "AbortError")
-      ) {
-        logger.warn(
-          {
-            company: company.name,
-            url: company.page,
-          },
-          "⚠️ Ashby request aborted"
-        );
-
-        return [];
-      }
-
-      logger.error(
-        {
-          error,
-          company: company.name,
-          url: company.page,
-        },
-        `${RED_CROSS} Error fetching ashby jobs`
-      );
-
-      return [];
+      return this.failSoft("Ashby", company, error);
     }
   }
 

@@ -7,8 +7,7 @@ import type { Company, Job } from "@/types";
 import { Employer } from "../employer";
 
 import { isWorkdayLocaleSegment } from "@/modules/ats/workday";
-import { logListingFailure } from "@/modules/employer/failure";
-import { errorLog } from "@/store";
+import { logListingFailure, logListingStatus } from "@/modules/employer/failure";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
 
@@ -171,10 +170,10 @@ export class WorkdayFetcher extends Employer<WorkdayJob> {
       return [];
     }
 
-    return results
-      .map((job) => this.posting(job, company))
-      .filter((posting) => posting.isTarget() && !posting.isKnown(knownKeys))
-      .map((posting) => posting.toJob());
+    return this.screen(
+      results.map((job) => this.posting(job, company)),
+      knownKeys
+    ).map((posting) => posting.toJob());
   }
 
   private async paginateJobPostings(
@@ -216,7 +215,7 @@ export class WorkdayFetcher extends Employer<WorkdayJob> {
         });
 
         if (!res.ok) {
-          await errorLog.append(`Workday: ${company.name} - ${res.status} - ${res.statusText}`);
+          await logListingStatus("Workday", company, res);
           if (!recentOnly && results.length > 0) {
             return results;
           }

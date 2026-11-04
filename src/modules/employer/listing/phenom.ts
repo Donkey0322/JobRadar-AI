@@ -714,6 +714,7 @@ export class PhenomFetcher extends Employer<PhenomJob> {
         }
 
         let reachedOldJob = false;
+        const fresh = [];
 
         for (const rawJob of rawJobs) {
           const posting = this.posting(rawJob, resolvedCompany, rawJob.postedDate);
@@ -723,12 +724,10 @@ export class PhenomFetcher extends Employer<PhenomJob> {
             break;
           }
 
-          if (!posting.isTarget() || posting.isKnown(knownKeys)) {
-            continue;
-          }
-
-          jobs.push(posting.toJob());
+          fresh.push(posting);
         }
+
+        jobs.push(...this.screen(fresh, knownKeys).map((posting) => posting.toJob()));
 
         if (reachedOldJob || rawJobs.length < PAGE_SIZE) {
           break;

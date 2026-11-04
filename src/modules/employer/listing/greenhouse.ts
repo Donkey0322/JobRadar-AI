@@ -12,8 +12,7 @@ import {
   isGreenhouseJobBoardHost,
   resolveGreenhouseIdentifier,
 } from "@/modules/ats/greenhouse";
-import { logListingFailure } from "@/modules/employer/failure";
-import { errorLog } from "@/store";
+import { logListingStatus } from "@/modules/employer/failure";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
 import { getHostnameWithoutWww } from "@/utils/url";
@@ -104,44 +103,19 @@ export class GreenhouseFetcher extends Employer<GreenhouseJob> {
       const response = await fetch(company.page, { signal });
 
       if (!response.ok) {
-        await errorLog.append(
-          `Greenhouse: ${company.name} - ${response.status} - ${response.statusText}`
-        );
+        await logListingStatus("Greenhouse", company, response);
         return [];
       }
 
-      return this.getJobsFromResponse(await response.json())
-        .map((job) => this.posting(job, company, [job.first_published, job.updated_at]))
-        .filter(
-          (posting) => posting.isTarget() && !posting.isKnown(knownKeys) && posting.isRecent()
-        )
-        .map((posting) => posting.toJob());
+      return this.screen(
+        this.getJobsFromResponse(await response.json()).map((job) =>
+          this.posting(job, company, [job.first_published, job.updated_at])
+        ),
+        knownKeys,
+        { recent: true }
+      ).map((posting) => posting.toJob());
     } catch (error) {
-      if (await logListingFailure("Greenhouse", company, error)) return [];
-
-      if (
-        error instanceof Error &&
-        (error.name === "TimeoutError" || error.name === "AbortError")
-      ) {
-        logger.warn(
-          {
-            company: company.name,
-            url: company.page,
-          },
-          "⚠️ Greenhouse request aborted"
-        );
-        return [];
-      }
-
-      logger.error(
-        {
-          error,
-          company: company.name,
-          url: company.page,
-        },
-        `${RED_CROSS} Error fetching greenhouse jobs`
-      );
-      return [];
+      return this.failSoft("Greenhouse", company, error);
     }
   }
 

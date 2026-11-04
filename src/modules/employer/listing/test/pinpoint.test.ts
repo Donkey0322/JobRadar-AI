@@ -12,6 +12,8 @@ vi.mock("@/modules/posting/titles", async (importOriginal) => {
 
 vi.mock("@/store", () => ({ errorLog: { append: vi.fn() } }));
 
+import { RED_CROSS } from "@/constants/log";
+
 import type { Company } from "@/types";
 
 import { Employer } from "../../employer";
@@ -19,6 +21,7 @@ import { pinpointFetcher } from "../pinpoint";
 
 import { toJobKeySet } from "@/modules/ats/job-key";
 import { errorLog } from "@/store";
+import { logger } from "@/utils/logger";
 
 const mockFetch = vi.fn<typeof fetch>();
 
@@ -118,5 +121,24 @@ describe("Pinpoint fetcher", () => {
       pinpointFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
     ).resolves.toEqual([]);
     expect(errorLog.append).toHaveBeenCalledWith("Pinpoint: Wolverine - 404 - Not Found");
+  });
+
+  it("returns nothing and keeps abort at error level", async () => {
+    const aborted = new DOMException("timed out", "TimeoutError");
+    const warn = vi.spyOn(logger, "warn").mockImplementation(() => {});
+    const error = vi.spyOn(logger, "error").mockImplementation(() => {});
+    mockFetch.mockRejectedValueOnce(aborted);
+
+    await expect(
+      pinpointFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
+    ).resolves.toEqual([]);
+    expect(error).toHaveBeenCalledWith(
+      { err: "TimeoutError", company: company.name, url: company.page },
+      `${RED_CROSS} Error fetching Pinpoint jobs`
+    );
+    expect(warn).not.toHaveBeenCalled();
+
+    warn.mockRestore();
+    error.mockRestore();
   });
 });

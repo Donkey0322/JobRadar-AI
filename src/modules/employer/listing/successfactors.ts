@@ -11,8 +11,7 @@ import {
   successFactorsCompanyName,
   type SuccessFactorsJob,
 } from "@/modules/ats/successfactors";
-import { logListingFailure } from "@/modules/employer/failure";
-import { errorLog } from "@/store";
+import { logListingFailure, logListingStatus } from "@/modules/employer/failure";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
@@ -100,18 +99,17 @@ export class SuccessFactorsFetcher extends Employer<SuccessFactorsJob> {
       const res = await fetchFeed(company.page, signal);
 
       if (!res.ok) {
-        await errorLog.append(
-          `SuccessFactors: ${company.name} - ${res.status} - ${res.statusText}`
-        );
+        await logListingStatus("SuccessFactors", company, res);
         return [];
       }
 
-      return this.getJobsFromResponse(await res.text())
-        .map((job) => this.posting(job, company, job.postedDate))
-        .filter(
-          (posting) => posting.isTarget() && !posting.isKnown(knownKeys) && posting.isRecent()
-        )
-        .map((posting) => posting.toJob());
+      return this.screen(
+        this.getJobsFromResponse(await res.text()).map((job) =>
+          this.posting(job, company, job.postedDate)
+        ),
+        knownKeys,
+        { recent: true }
+      ).map((posting) => posting.toJob());
     } catch (error) {
       if (await logListingFailure("SuccessFactors", company, error)) return [];
 

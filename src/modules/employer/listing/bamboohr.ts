@@ -15,7 +15,7 @@ import {
   getBambooHRSlug,
   isBambooHRTenantResponse,
 } from "@/modules/ats/bamboohr";
-import { logListingFailure } from "@/modules/employer/failure";
+import { logListingFailure, logListingStatus } from "@/modules/employer/failure";
 import { errorLog } from "@/store";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
@@ -123,7 +123,7 @@ export class BambooHRFetcher extends Employer<BambooHRJob> {
       const res = await fetch(company.page, { signal, headers: { accept: "application/json" } });
 
       if (!res.ok) {
-        await errorLog.append(`BambooHR: ${company.name} - ${res.status} - ${res.statusText}`);
+        await logListingStatus("BambooHR", company, res);
         return [];
       }
 
@@ -135,12 +135,11 @@ export class BambooHRFetcher extends Employer<BambooHRJob> {
       const rawJobs = this.getJobsFromResponse(await res.json());
       const jobs = await this.attachDatePosted(rawJobs, company, knownKeys, signal);
 
-      return jobs
-        .map((job) => this.posting(job, company, job.datePosted))
-        .filter(
-          (posting) => posting.isTarget() && !posting.isKnown(knownKeys) && posting.isRecent()
-        )
-        .map((posting) => posting.toJob());
+      return this.screen(
+        jobs.map((job) => this.posting(job, company, job.datePosted)),
+        knownKeys,
+        { recent: true }
+      ).map((posting) => posting.toJob());
     } catch (error) {
       if (await logListingFailure("BambooHR", company, error)) return [];
 

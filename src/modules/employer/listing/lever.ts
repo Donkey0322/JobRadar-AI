@@ -6,8 +6,7 @@ import type { Company, Job } from "@/types";
 
 import { Employer } from "../employer";
 
-import { logListingFailure } from "@/modules/employer/failure";
-import { errorLog } from "@/store";
+import { logListingStatus } from "@/modules/employer/failure";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
 
@@ -94,49 +93,19 @@ export class LeverFetcher extends Employer<LeverJob> {
       });
 
       if (!res.ok) {
-        await errorLog.append(`Lever: ${company.name} - ${res.status} - ${res.statusText}`);
-
+        await logListingStatus("Lever", company, res);
         return [];
       }
 
       const rawJobs = this.getJobsFromResponse(await res.json());
 
-      const opportunities = rawJobs
-        .map((job) => this.posting(job, company, job.createdAt))
-        .filter(
-          (posting) => posting.isTarget() && !posting.isKnown(knownKeys) && posting.isRecent()
-        )
-        .map((posting) => posting.toJob());
-
-      return opportunities;
+      return this.screen(
+        rawJobs.map((job) => this.posting(job, company, job.createdAt)),
+        knownKeys,
+        { recent: true }
+      ).map((posting) => posting.toJob());
     } catch (error) {
-      if (await logListingFailure("Lever", company, error)) return [];
-
-      if (
-        error instanceof Error &&
-        (error.name === "TimeoutError" || error.name === "AbortError")
-      ) {
-        logger.warn(
-          {
-            company: company.name,
-            url: company.page,
-          },
-          "⚠️ Lever request aborted"
-        );
-
-        return [];
-      }
-
-      logger.error(
-        {
-          error,
-          company: company.name,
-          url: company.page,
-        },
-        `${RED_CROSS} Error fetching lever jobs`
-      );
-
-      return [];
+      return this.failSoft("Lever", company, error);
     }
   }
 }

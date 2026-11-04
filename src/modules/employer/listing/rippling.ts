@@ -14,7 +14,7 @@ import {
   ripplingJobUrl,
   ripplingListingUrl,
 } from "@/modules/ats/rippling";
-import { logListingFailure } from "@/modules/employer/failure";
+import { logListingFailure, logListingStatus } from "@/modules/employer/failure";
 import { errorLog } from "@/store";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
@@ -109,19 +109,18 @@ export class RipplingFetcher extends Employer<RipplingJob> {
       const res = await fetch(company.page, { signal });
 
       if (!res.ok) {
-        await errorLog.append(`Rippling: ${company.name} - ${res.status} - ${res.statusText}`);
+        await logListingStatus("Rippling", company, res);
         return [];
       }
 
       const rawJobs = this.getJobsFromResponse(await res.json());
       const jobs = await this.attachCreatedOn(rawJobs, company, knownKeys, signal);
 
-      return jobs
-        .map((job) => this.posting(job, company, job.createdOn))
-        .filter(
-          (posting) => posting.isTarget() && !posting.isKnown(knownKeys) && posting.isRecent()
-        )
-        .map((posting) => posting.toJob());
+      return this.screen(
+        jobs.map((job) => this.posting(job, company, job.createdOn)),
+        knownKeys,
+        { recent: true }
+      ).map((posting) => posting.toJob());
     } catch (error) {
       if (await logListingFailure("Rippling", company, error)) return [];
 

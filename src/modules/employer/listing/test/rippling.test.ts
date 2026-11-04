@@ -19,6 +19,7 @@ import { Employer } from "../../employer";
 import { ripplingFetcher } from "../rippling";
 
 import { toJobKeySet } from "@/modules/ats/job-key";
+import { errorLog } from "@/store";
 
 const mockFetch = vi.fn<typeof fetch>();
 
@@ -55,6 +56,7 @@ function row(uuid: string, name: string, location: string) {
 describe("Rippling fetcher", () => {
   beforeEach(() => {
     mockFetch.mockReset();
+    vi.mocked(errorLog.append).mockReset();
     vi.stubGlobal("fetch", mockFetch);
   });
 
@@ -128,10 +130,40 @@ describe("Rippling fetcher", () => {
   });
 
   it("returns nothing when the board is missing", async () => {
-    mockFetch.mockResolvedValueOnce(new Response("", { status: 404 }));
+    mockFetch.mockResolvedValueOnce(new Response("", { status: 404, statusText: "Not Found" }));
 
     await expect(
       ripplingFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
     ).resolves.toEqual([]);
+    expect(errorLog.append).toHaveBeenCalledWith("Rippling: Collier Aerospace - 404 - Not Found");
+  });
+
+  it("keeps the dated job when another posting date is missing", async () => {
+    mockFetch.mockImplementation(async (input) => {
+      const url = String(input);
+      if (url === company.page) {
+        return Response.json([
+          row(NEW_ID, "Software Engineer Intern", "Raleigh, NC"),
+          row(OLD_ID, "Software Engineer", "Raleigh, NC"),
+        ]);
+      }
+      if (url.endsWith(NEW_ID)) return jobPage("2026-11-02T10:00:00-07:00");
+      if (url.endsWith(OLD_ID)) return new Response("missing", { status: 404 });
+      throw new Error(`unexpected fetch ${url}`);
+    });
+
+    await expect(
+      ripplingFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
+    ).resolves.toEqual([
+      {
+        company: "Collier Aerospace",
+        role: "Software Engineer Intern",
+        link: `https://ats.rippling.com/collieraerospace/jobs/${NEW_ID}`,
+        location: "Raleigh, NC",
+      },
+    ]);
+    expect(errorLog.append).toHaveBeenCalledWith(
+      "Rippling: Collier Aerospace - no posting date for 1/2 jobs"
+    );
   });
 });

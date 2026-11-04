@@ -12,8 +12,7 @@ import {
   parseJazzHRCompanyName,
   parseJazzHRListing,
 } from "@/modules/ats/jazzhr";
-import { logListingFailure } from "@/modules/employer/failure";
-import { errorLog } from "@/store";
+import { logListingFailure, logListingStatus } from "@/modules/employer/failure";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
@@ -98,16 +97,17 @@ export class JazzHRFetcher extends Employer<JazzHRJob> {
       const res = await fetchListing(company.page, signal);
 
       if (!res.ok) {
-        await errorLog.append(`JazzHR: ${company.name} - ${res.status} - ${res.statusText}`);
+        await logListingStatus("JazzHR", company, res);
         return [];
       }
 
-      return this.getJobsFromResponse(await res.text())
-        .map((job) => this.posting(job, company, job.postedDate))
-        .filter(
-          (posting) => posting.isTarget() && !posting.isKnown(knownKeys) && posting.isRecent()
-        )
-        .map((posting) => posting.toJob());
+      return this.screen(
+        this.getJobsFromResponse(await res.text()).map((job) =>
+          this.posting(job, company, job.postedDate)
+        ),
+        knownKeys,
+        { recent: true }
+      ).map((posting) => posting.toJob());
     } catch (error) {
       if (await logListingFailure("JazzHR", company, error)) return [];
 
