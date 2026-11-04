@@ -3,7 +3,8 @@ import os from "node:os";
 import path from "node:path";
 import { afterEach, describe, expect, it } from "vitest";
 
-import { readJsonFile, readNdjsonFile } from "../data";
+import { readJsonFile } from "@/store/json";
+import { readNdjsonFile } from "@/utils/ndjson-archive";
 
 const tempDirectories: string[] = [];
 

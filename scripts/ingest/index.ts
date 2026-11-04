@@ -19,14 +19,7 @@ import {
 } from "@/modules/opportunity/seen";
 import { Posting } from "@/modules/posting";
 import { enqueueBatchJobs } from "@/modules/posting/batch";
-import {
-  loadJobs,
-  loadOpportunities,
-  loadUrls,
-  saveJob,
-  saveOpportunities,
-  saveUrls,
-} from "@/utils/data";
+import * as store from "@/store";
 import { renderProgress, startProgress } from "@/utils/dev";
 import { logger } from "@/utils/logger";
 
@@ -35,10 +28,10 @@ const MIN_TIME_TO_START_JOB_MS = 60 * 1000;
 const AI_CONCURRENCY = 5;
 
 export async function createSyncContext() {
-  const urls = await loadUrls();
+  const urls = await store.urls.load();
   const keys = new Set(groupUrlsByKey(Array.from(urls)).keys());
 
-  const sentJobs = await loadJobs();
+  const sentJobs = await store.jobs.load();
   const currentId = sentJobs.find((job) => job.id)?.id ?? 0;
 
   return {
@@ -107,12 +100,7 @@ async function saveSeenOpportunities(ledger: OpportunityLedger) {
     return;
   }
 
-  if (write.overwrite) {
-    await saveOpportunities(write.opportunities, true);
-    return;
-  }
-
-  await saveOpportunities(write.opportunities);
+  await store.opportunities[write.mode](write.opportunities);
 }
 
 function logSkip(job: Posting, kind: SkipKind, reason: string | null) {
@@ -259,8 +247,8 @@ async function flushProcessedJobs(input: {
     await enqueueBatchJobs(state.batchedJobs);
   }
 
-  await saveUrls(urls);
-  await saveJob(state.jobs);
+  await store.urls.save(urls);
+  await store.jobs.append(state.jobs);
   await saveSeenOpportunities(opportunities);
 
   if (newUrlAdded) {
@@ -319,7 +307,7 @@ export async function processJobs({
   }
 
   let newUrlAdded = false;
-  const opportunities = createOpportunityLedger(await loadOpportunities());
+  const opportunities = createOpportunityLedger(await store.opportunities.load());
   const state = createApplyState(currentId, (posting) => {
     recordSeenOpportunity(opportunities, posting.toJob(), "refresh");
     urls.add(posting.link);
@@ -373,7 +361,7 @@ export async function persistAnalyzedJobs(analyzed: Array<{ job: Job; jd: JD; co
   }
 
   const { currentId: startingId } = await createSyncContext();
-  const opportunities = createOpportunityLedger(await loadOpportunities());
+  const opportunities = createOpportunityLedger(await store.opportunities.load());
   const state = createApplyState(startingId, (posting) => {
     recordSeenOpportunity(opportunities, posting.toJob(), "preserve");
   });
@@ -397,7 +385,7 @@ export async function persistAnalyzedJobs(analyzed: Array<{ job: Job; jd: JD; co
     }
   }
 
-  await saveJob(state.jobs);
+  await store.jobs.append(state.jobs);
   await saveSeenOpportunities(opportunities);
 
   if (state.jobs.length > 0) {

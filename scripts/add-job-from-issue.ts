@@ -1,7 +1,7 @@
 import { createIssueSectionParser } from "./utils/github-issue";
 import { createSyncContext, processJobs } from "./ingest";
 
-import { readJsonFile } from "@/utils/data";
+import { readJsonFile } from "@/store";
 import { logger } from "@/utils/logger";
 import { isValidHttpUrl } from "@/utils/url";
 

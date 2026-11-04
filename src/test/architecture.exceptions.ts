@@ -54,18 +54,6 @@ export const architectureExceptions: readonly ArchitectureException[] = [
     kind: "runtime",
   },
   {
-    rule: "utils must not import constants",
-    from: "src/utils/data.ts",
-    to: "src/constants/index.ts",
-    kind: "runtime",
-  },
-  {
-    rule: "utils must not import constants",
-    from: "src/utils/data.ts",
-    to: "src/constants/log.ts",
-    kind: "runtime",
-  },
-  {
     rule: "validation must not import constants",
     from: "src/validation/config.ts",
     to: "src/constants/country.ts",

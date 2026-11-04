@@ -6,7 +6,7 @@ import { createSyncContext, processJobs } from "../ingest";
 import { fetchEmployerJobs } from "@/modules/employer/discover";
 import { asEmployer } from "@/modules/employer/registry";
 import { classifyLocations } from "@/modules/posting/analysis/location";
-import { loadCompanies } from "@/utils/data";
+import * as store from "@/store";
 import { renderProgress, startProgress } from "@/utils/dev";
 import { logger } from "@/utils/logger";
 
@@ -14,7 +14,7 @@ const CONCURRENCY = 10;
 const SLOW_THRESHOLD_MS = 10_000;
 
 async function discoverJobs() {
-  const companies = (await loadCompanies()).map((company) => asEmployer(company));
+  const companies = (await store.companies.load()).map((company) => asEmployer(company));
   const total = companies.length;
   let completed = 0;
 

@@ -7,7 +7,7 @@ vi.mock("@/modules/posting/titles", async (importOriginal) => {
   return { ...actual, isTarget: vi.fn(() => true) };
 });
 
-vi.mock("@/utils/data", () => ({ appendErrorLog: vi.fn() }));
+vi.mock("@/store", () => ({ errorLog: { append: vi.fn() } }));
 
 import type { Company } from "@/types";
 
@@ -18,7 +18,7 @@ import { radancyFetcher } from "../radancy";
 import { workdayFetcher } from "../workday";
 
 import { getJobKey, toJobKeySet } from "@/modules/ats/job-key";
-import { appendErrorLog } from "@/utils/data";
+import { errorLog } from "@/store";
 
 const mockFetch = vi.fn<typeof fetch>();
 
@@ -308,13 +308,13 @@ describe("complex ATS adapters", () => {
       page: "https://careers-acme.icims.com/jobs/search",
       urls: [],
     };
-    vi.mocked(appendErrorLog).mockClear();
+    vi.mocked(errorLog.append).mockClear();
     mockFetch.mockResolvedValueOnce(new Response("Gone", { status: 410, statusText: "Gone" }));
 
     await expect(
       icimsFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
     ).resolves.toEqual([]);
-    expect(appendErrorLog).toHaveBeenCalledWith(
+    expect(errorLog.append).toHaveBeenCalledWith(
       "iCIMS: acme - 410 - Gone (https://careers-acme.icims.com/jobs/search?in_iframe=1&pr=0)"
     );
   });

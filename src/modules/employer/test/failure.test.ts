@@ -1,12 +1,12 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 
-vi.mock("@/utils/data", () => ({ appendErrorLog: vi.fn() }));
+vi.mock("@/store", () => ({ errorLog: { append: vi.fn() } }));
 
 import type { Company } from "@/types";
 
 import { ListingHttpError, logListingFailure, logListingStatus } from "../failure";
 
-import { appendErrorLog } from "@/utils/data";
+import { errorLog } from "@/store";
 
 const company: Company = {
   name: "Acme",
@@ -19,7 +19,7 @@ const company: Company = {
 
 describe("listing failure log", () => {
   beforeEach(() => {
-    vi.mocked(appendErrorLog).mockReset();
+    vi.mocked(errorLog.append).mockReset();
   });
 
   it("writes an error status as one line", async () => {
@@ -27,7 +27,9 @@ describe("listing failure log", () => {
 
     await logListingStatus("Netflix", company, res, "page 2");
 
-    expect(appendErrorLog).toHaveBeenCalledWith("Netflix: Acme - 429 - Too Many Requests (page 2)");
+    expect(errorLog.append).toHaveBeenCalledWith(
+      "Netflix: Acme - 429 - Too Many Requests (page 2)"
+    );
   });
 
   it("writes thrown HTTP errors and unreachable hosts", async () => {
@@ -39,7 +41,7 @@ describe("listing failure log", () => {
     );
     await expect(logListingFailure("Lever", company, tls)).resolves.toBe(true);
 
-    expect(vi.mocked(appendErrorLog).mock.calls).toEqual([
+    expect(vi.mocked(errorLog.append).mock.calls).toEqual([
       ["Phenom: Acme - 410 - Gone"],
       ["Lever: Acme - certificate has expired"],
     ]);
@@ -51,6 +53,6 @@ describe("listing failure log", () => {
       logListingFailure("Lever", company, new DOMException("timed out", "TimeoutError"))
     ).resolves.toBe(false);
 
-    expect(appendErrorLog).not.toHaveBeenCalled();
+    expect(errorLog.append).not.toHaveBeenCalled();
   });
 });

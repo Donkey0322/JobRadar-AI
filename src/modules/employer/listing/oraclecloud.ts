@@ -7,7 +7,7 @@ import type { Company, Job } from "@/types";
 import { Employer } from "../employer";
 
 import { logListingFailure } from "@/modules/employer/failure";
-import { appendErrorLog } from "@/utils/data";
+import { errorLog } from "@/store";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
 
@@ -186,7 +186,7 @@ export class OracleCloudFetcher extends Employer<OracleCloudJob> {
       });
 
       if (!res.ok) {
-        await appendErrorLog(`Oracle Cloud: ${company.name} - ${res.status} - ${res.statusText}`);
+        await errorLog.append(`Oracle Cloud: ${company.name} - ${res.status} - ${res.statusText}`);
         return [];
       }
 

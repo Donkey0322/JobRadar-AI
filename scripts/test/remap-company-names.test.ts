@@ -1,13 +1,17 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 
 const dataMocks = vi.hoisted(() => ({
-  loadJobsInFileOrder: vi.fn().mockResolvedValue([]),
-  loadOpportunities: vi.fn().mockResolvedValue([]),
-  saveJob: vi.fn().mockResolvedValue(undefined),
-  saveOpportunities: vi.fn().mockResolvedValue(undefined),
+  jobs: {
+    loadInFileOrder: vi.fn().mockResolvedValue([]),
+    replace: vi.fn().mockResolvedValue(undefined),
+  },
+  opportunities: {
+    load: vi.fn().mockResolvedValue([]),
+    replace: vi.fn().mockResolvedValue(undefined),
+  },
 }));
 
-vi.mock("@/utils/data", () => dataMocks);
+vi.mock("@/store", () => dataMocks);
 
 import type { Company } from "@/types";
 
@@ -27,18 +31,18 @@ const rtxJob =
 
 describe("remapStoredCompanyNames", () => {
   beforeEach(() => {
-    dataMocks.loadJobsInFileOrder.mockReset().mockResolvedValue([]);
-    dataMocks.loadOpportunities.mockReset().mockResolvedValue([]);
-    dataMocks.saveJob.mockReset().mockResolvedValue(undefined);
-    dataMocks.saveOpportunities.mockReset().mockResolvedValue(undefined);
+    dataMocks.jobs.loadInFileOrder.mockReset().mockResolvedValue([]);
+    dataMocks.opportunities.load.mockReset().mockResolvedValue([]);
+    dataMocks.jobs.replace.mockReset().mockResolvedValue(undefined);
+    dataMocks.opportunities.replace.mockReset().mockResolvedValue(undefined);
   });
 
   it("rewrites tenant company names with the same capitalization as fetch", async () => {
-    dataMocks.loadJobsInFileOrder.mockResolvedValue([
+    dataMocks.jobs.loadInFileOrder.mockResolvedValue([
       { company: "globalhr", role: "Intern", link: rtxJob, location: "CT" },
       { company: "rtx", role: "Engineer", link: rtxJob, location: "CT" },
     ]);
-    dataMocks.loadOpportunities.mockResolvedValue([
+    dataMocks.opportunities.load.mockResolvedValue([
       {
         company: "Globalhr",
         role: "Engineer",
@@ -54,31 +58,25 @@ describe("remapStoredCompanyNames", () => {
       opportunities: 1,
     });
 
-    expect(dataMocks.saveJob).toHaveBeenCalledWith(
-      [
-        { company: "Rtx", role: "Intern", link: rtxJob, location: "CT" },
-        { company: "Rtx", role: "Engineer", link: rtxJob, location: "CT" },
-      ],
-      true
-    );
-    expect(dataMocks.saveOpportunities).toHaveBeenCalledWith(
-      [
-        {
-          company: "Rtx",
-          role: "Engineer",
-          link: rtxJob,
-          location: "CT",
-          postedAt: "2026-06-19T17:14:24.202Z",
-          expired: false,
-        },
-      ],
-      true
-    );
+    expect(dataMocks.jobs.replace).toHaveBeenCalledWith([
+      { company: "Rtx", role: "Intern", link: rtxJob, location: "CT" },
+      { company: "Rtx", role: "Engineer", link: rtxJob, location: "CT" },
+    ]);
+    expect(dataMocks.opportunities.replace).toHaveBeenCalledWith([
+      {
+        company: "Rtx",
+        role: "Engineer",
+        link: rtxJob,
+        location: "CT",
+        postedAt: "2026-06-19T17:14:24.202Z",
+        expired: false,
+      },
+    ]);
   });
 
   it("leaves pretty API company names and already-capitalized rows alone", async () => {
     const greenhouseJob = "https://boards.greenhouse.io/andurilindustries/jobs/1";
-    dataMocks.loadJobsInFileOrder.mockResolvedValue([
+    dataMocks.jobs.loadInFileOrder.mockResolvedValue([
       { company: "Rtx", role: "Intern", link: rtxJob, location: "CT" },
       {
         company: "Anduril Industries",
@@ -92,8 +90,8 @@ describe("remapStoredCompanyNames", () => {
       jobs: 0,
       opportunities: 0,
     });
-    expect(dataMocks.saveJob).not.toHaveBeenCalled();
-    expect(dataMocks.saveOpportunities).not.toHaveBeenCalled();
+    expect(dataMocks.jobs.replace).not.toHaveBeenCalled();
+    expect(dataMocks.opportunities.replace).not.toHaveBeenCalled();
   });
 
   it("rewrites a career-site alias hostname to the Workday company it fronts", async () => {
@@ -107,7 +105,7 @@ describe("remapStoredCompanyNames", () => {
     };
     const dexcomJob = "https://careers.dexcom.com/careers/job/37990370";
 
-    dataMocks.loadJobsInFileOrder.mockResolvedValue([
+    dataMocks.jobs.loadInFileOrder.mockResolvedValue([
       { company: "careers.dexcom.com", role: "Intern", link: dexcomJob, location: "CA" },
     ]);
 
@@ -115,10 +113,9 @@ describe("remapStoredCompanyNames", () => {
       jobs: 1,
       opportunities: 0,
     });
-    expect(dataMocks.saveJob).toHaveBeenCalledWith(
-      [{ company: "Dexcom", role: "Intern", link: dexcomJob, location: "CA" }],
-      true
-    );
+    expect(dataMocks.jobs.replace).toHaveBeenCalledWith([
+      { company: "Dexcom", role: "Intern", link: dexcomJob, location: "CA" },
+    ]);
   });
 
   it("rewrites hostname company names after a Radancy display-name remap", async () => {
@@ -133,10 +130,10 @@ describe("remapStoredCompanyNames", () => {
     const armJob =
       "https://careers.arm.com/job/cambridge/analytics-app-developer-12-month-ftc/33099/93494555328";
 
-    dataMocks.loadJobsInFileOrder.mockResolvedValue([
+    dataMocks.jobs.loadInFileOrder.mockResolvedValue([
       { company: "careers.arm.com", role: "Engineer", link: armJob, location: "Cambridge" },
     ]);
-    dataMocks.loadOpportunities.mockResolvedValue([
+    dataMocks.opportunities.load.mockResolvedValue([
       {
         company: "careers.arm.com",
         role: "Engineer",
@@ -152,22 +149,18 @@ describe("remapStoredCompanyNames", () => {
       opportunities: 1,
     });
 
-    expect(dataMocks.saveJob).toHaveBeenCalledWith(
-      [{ company: "Arm", role: "Engineer", link: armJob, location: "Cambridge" }],
-      true
-    );
-    expect(dataMocks.saveOpportunities).toHaveBeenCalledWith(
-      [
-        {
-          company: "Arm",
-          role: "Engineer",
-          link: armJob,
-          location: "Cambridge",
-          postedAt: "2026-08-20T20:13:26.154Z",
-          expired: false,
-        },
-      ],
-      true
-    );
+    expect(dataMocks.jobs.replace).toHaveBeenCalledWith([
+      { company: "Arm", role: "Engineer", link: armJob, location: "Cambridge" },
+    ]);
+    expect(dataMocks.opportunities.replace).toHaveBeenCalledWith([
+      {
+        company: "Arm",
+        role: "Engineer",
+        link: armJob,
+        location: "Cambridge",
+        postedAt: "2026-08-20T20:13:26.154Z",
+        expired: false,
+      },
+    ]);
   });
 });

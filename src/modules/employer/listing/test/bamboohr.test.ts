@@ -11,7 +11,7 @@ vi.mock("@/modules/posting/titles", async (importOriginal) => {
   };
 });
 
-vi.mock("@/utils/data", () => ({ appendErrorLog: vi.fn() }));
+vi.mock("@/store", () => ({ errorLog: { append: vi.fn() } }));
 
 import type { Company } from "@/types";
 
@@ -19,7 +19,7 @@ import { Employer } from "../../employer";
 import { bambooHRFetcher } from "../bamboohr";
 
 import { toJobKeySet } from "@/modules/ats/job-key";
-import { appendErrorLog } from "@/utils/data";
+import { errorLog } from "@/store";
 
 const mockFetch = vi.fn<typeof fetch>();
 
@@ -50,7 +50,7 @@ function row(id: string, jobOpeningName: string, extra: Record<string, unknown> 
 describe("BambooHR fetcher", () => {
   beforeEach(() => {
     mockFetch.mockReset();
-    vi.mocked(appendErrorLog).mockReset();
+    vi.mocked(errorLog.append).mockReset();
     vi.stubGlobal("fetch", mockFetch);
   });
 
@@ -135,6 +135,6 @@ describe("BambooHR fetcher", () => {
     await expect(
       bambooHRFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
     ).resolves.toEqual([]);
-    expect(appendErrorLog).toHaveBeenCalledWith("BambooHR: Mujin - board no longer exists");
+    expect(errorLog.append).toHaveBeenCalledWith("BambooHR: Mujin - board no longer exists");
   });
 });

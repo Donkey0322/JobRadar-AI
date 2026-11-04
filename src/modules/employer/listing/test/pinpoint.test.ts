@@ -10,7 +10,7 @@ vi.mock("@/modules/posting/titles", async (importOriginal) => {
   };
 });
 
-vi.mock("@/utils/data", () => ({ appendErrorLog: vi.fn() }));
+vi.mock("@/store", () => ({ errorLog: { append: vi.fn() } }));
 
 import type { Company } from "@/types";
 
@@ -18,7 +18,7 @@ import { Employer } from "../../employer";
 import { pinpointFetcher } from "../pinpoint";
 
 import { toJobKeySet } from "@/modules/ats/job-key";
-import { appendErrorLog } from "@/utils/data";
+import { errorLog } from "@/store";
 
 const mockFetch = vi.fn<typeof fetch>();
 
@@ -50,7 +50,7 @@ function posting(id: string, title: string, extra: Record<string, unknown> = {})
 describe("Pinpoint fetcher", () => {
   beforeEach(() => {
     mockFetch.mockReset();
-    vi.mocked(appendErrorLog).mockReset();
+    vi.mocked(errorLog.append).mockReset();
     vi.stubGlobal("fetch", mockFetch);
   });
 
@@ -117,6 +117,6 @@ describe("Pinpoint fetcher", () => {
     await expect(
       pinpointFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
     ).resolves.toEqual([]);
-    expect(appendErrorLog).toHaveBeenCalledWith("Pinpoint: Wolverine - 404 - Not Found");
+    expect(errorLog.append).toHaveBeenCalledWith("Pinpoint: Wolverine - 404 - Not Found");
   });
 });

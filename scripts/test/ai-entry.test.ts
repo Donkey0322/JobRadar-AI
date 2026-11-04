@@ -1,7 +1,6 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 import type * as Constants from "@/constants";
-import type * as DataUtils from "@/utils/data";
 import type { Config } from "@/validation/config";
 
 import { JobCategory } from "@/validation/config";
@@ -37,12 +36,9 @@ const ai = vi.hoisted(() => {
 
 const dataMocks = vi.hoisted(() => ({
   readJsonFile: vi.fn(),
-  loadUrls: vi.fn(),
-  loadJobs: vi.fn(),
-  loadOpportunities: vi.fn(),
-  saveUrls: vi.fn(),
-  saveJob: vi.fn(),
-  saveOpportunities: vi.fn(),
+  urls: { load: vi.fn(), save: vi.fn() },
+  jobs: { load: vi.fn(), append: vi.fn() },
+  opportunities: { load: vi.fn(), append: vi.fn(), replace: vi.fn() },
 }));
 
 const enqueueBatchJobsMock = vi.hoisted(() => vi.fn());
@@ -73,10 +69,7 @@ vi.mock("@/utils/ai/provider/anthropic", () => ({
   AnthropicProvider: ai.fakeProvider("anthropic"),
 }));
 
-vi.mock("@/utils/data", async (importOriginal) => {
-  const actual = await importOriginal<typeof DataUtils>();
-  return { ...actual, ...dataMocks };
-});
+vi.mock("@/store", () => dataMocks);
 
 vi.mock("@/modules/posting/batch", () => ({
   enqueueBatchJobs: enqueueBatchJobsMock,
@@ -154,12 +147,13 @@ describe("AI entry points", () => {
         ].join("\n\n"),
       },
     });
-    dataMocks.loadUrls.mockReset().mockResolvedValue(new Set<string>());
-    dataMocks.loadJobs.mockReset().mockResolvedValue([]);
-    dataMocks.loadOpportunities.mockReset().mockResolvedValue([]);
-    dataMocks.saveUrls.mockReset().mockResolvedValue(undefined);
-    dataMocks.saveJob.mockReset().mockResolvedValue(undefined);
-    dataMocks.saveOpportunities.mockReset().mockResolvedValue(undefined);
+    dataMocks.urls.load.mockReset().mockResolvedValue(new Set<string>());
+    dataMocks.jobs.load.mockReset().mockResolvedValue([]);
+    dataMocks.opportunities.load.mockReset().mockResolvedValue([]);
+    dataMocks.urls.save.mockReset().mockResolvedValue(undefined);
+    dataMocks.jobs.append.mockReset().mockResolvedValue(undefined);
+    dataMocks.opportunities.append.mockReset().mockResolvedValue(undefined);
+    dataMocks.opportunities.replace.mockReset().mockResolvedValue(undefined);
     enqueueBatchJobsMock.mockReset().mockResolvedValue(undefined);
     buildCompanyListMock.mockReset().mockResolvedValue(undefined);
     for (const mock of Object.values(loggerMocks)) mock.mockReset();
@@ -191,8 +185,8 @@ describe("AI entry points", () => {
       expect(loggedMessages(loggerMocks.info)).toContain("⏭️ AI is disabled; skipping analysis");
       expect(loggerMocks.error).not.toHaveBeenCalled();
       expect(enqueueBatchJobsMock).not.toHaveBeenCalled();
-      expect(dataMocks.saveUrls).toHaveBeenCalledWith(new Set());
-      expect(dataMocks.saveJob).toHaveBeenCalledWith([]);
+      expect(dataMocks.urls.save).toHaveBeenCalledWith(new Set());
+      expect(dataMocks.jobs.append).toHaveBeenCalledWith([]);
       expect(buildCompanyListMock).not.toHaveBeenCalled();
       expect(exitSpy).not.toHaveBeenCalled();
     });
@@ -210,7 +204,7 @@ describe("AI entry points", () => {
         expect(call[2]).toBe(ENABLED_CONFIG.model);
       }
       expect(enqueueBatchJobsMock).not.toHaveBeenCalled();
-      expect(dataMocks.saveUrls).toHaveBeenCalledWith(new Set([JOB_URL]));
+      expect(dataMocks.urls.save).toHaveBeenCalledWith(new Set([JOB_URL]));
       expect(exitSpy).not.toHaveBeenCalled();
     });
   });

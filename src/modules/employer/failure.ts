@@ -1,6 +1,6 @@
 import type { Company } from "@/types";
 
-import { appendErrorLog } from "@/utils/data";
+import { errorLog } from "@/store";
 import { connectionErrorMessage } from "@/utils/http";
 
 function statusMessage(res: Response, detail?: string): string {
@@ -21,7 +21,7 @@ export async function logListingStatus(
   res: Response,
   detail?: string
 ): Promise<void> {
-  await appendErrorLog(`${label}: ${company.name} - ${statusMessage(res, detail)}`);
+  await errorLog.append(`${label}: ${company.name} - ${statusMessage(res, detail)}`);
 }
 
 /**
@@ -37,6 +37,6 @@ export async function logListingFailure(
   const message = error instanceof ListingHttpError ? error.message : connectionErrorMessage(error);
   if (!message) return false;
 
-  await appendErrorLog(`${label}: ${company.name} - ${message}`);
+  await errorLog.append(`${label}: ${company.name} - ${message}`);
   return true;
 }

@@ -8,7 +8,7 @@ import { Employer } from "../employer";
 
 import { isWorkdayLocaleSegment } from "@/modules/ats/workday";
 import { logListingFailure } from "@/modules/employer/failure";
-import { appendErrorLog } from "@/utils/data";
+import { errorLog } from "@/store";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
 
@@ -216,7 +216,7 @@ export class WorkdayFetcher extends Employer<WorkdayJob> {
         });
 
         if (!res.ok) {
-          await appendErrorLog(`Workday: ${company.name} - ${res.status} - ${res.statusText}`);
+          await errorLog.append(`Workday: ${company.name} - ${res.status} - ${res.statusText}`);
           if (!recentOnly && results.length > 0) {
             return results;
           }

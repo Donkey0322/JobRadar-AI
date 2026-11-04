@@ -7,8 +7,8 @@ vi.mock("@/modules/posting/titles", async (importOriginal) => {
   return { ...actual, isTarget: vi.fn(() => true), withinDays: vi.fn(() => true) };
 });
 
-const { appendErrorLog } = vi.hoisted(() => ({ appendErrorLog: vi.fn() }));
-vi.mock("@/utils/data", () => ({ appendErrorLog }));
+const appendErrorLog = vi.hoisted(() => vi.fn());
+vi.mock("@/store", () => ({ errorLog: { append: appendErrorLog } }));
 
 import type { Company } from "@/types";
 

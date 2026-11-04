@@ -13,7 +13,7 @@ import {
   PinpointResponseSchema,
 } from "@/modules/ats/pinpoint";
 import { logListingFailure } from "@/modules/employer/failure";
-import { appendErrorLog } from "@/utils/data";
+import { errorLog } from "@/store";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
@@ -81,7 +81,7 @@ export class PinpointFetcher extends Employer<PinpointJob> {
       const res = await fetch(company.page, { signal, headers: { accept: "application/json" } });
 
       if (!res.ok) {
-        await appendErrorLog(`Pinpoint: ${company.name} - ${res.status} - ${res.statusText}`);
+        await errorLog.append(`Pinpoint: ${company.name} - ${res.status} - ${res.statusText}`);
         return [];
       }
 

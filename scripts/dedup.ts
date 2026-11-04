@@ -5,22 +5,22 @@ import { GREEN_CHECKMARK, RED_CROSS } from "@/constants/log";
 
 import { deduplicate, groupUrlsByKey } from "@/modules/ats/job-key";
 import { deduplicateOpportunities, syncExpiredFlags } from "@/modules/opportunity/dedup";
-import { loadOpportunities, loadUrls, saveOpportunities, saveUrls } from "@/utils/data";
+import * as store from "@/store";
 import { logger } from "@/utils/logger";
 
 export default async function main() {
-  const urls = await loadUrls();
+  const urls = await store.urls.load();
   const dedupedUrls = deduplicate(urls);
 
-  const opportunities = await loadOpportunities();
+  const opportunities = await store.opportunities.load();
   const dedupedOpportunities = syncExpiredFlags(
     deduplicateOpportunities(opportunities),
     groupUrlsByKey(dedupedUrls)
   );
 
   await Promise.all([
-    saveUrls(new Set(dedupedUrls)),
-    saveOpportunities(dedupedOpportunities, true),
+    store.urls.save(new Set(dedupedUrls)),
+    store.opportunities.replace(dedupedOpportunities),
   ]);
 
   logger.info(

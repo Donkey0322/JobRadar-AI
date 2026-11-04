@@ -1,13 +1,6 @@
 import { RED_CROSS } from "@/constants/log";
 
-import {
-  loadCompanies,
-  loadOpportunities,
-  loadUrls,
-  saveCompanies,
-  saveOpportunities,
-} from "@/utils/data";
-import { saveUrls } from "@/utils/data";
+import * as store from "@/store";
 import { logger } from "@/utils/logger";
 
 async function main() {
@@ -23,9 +16,9 @@ async function main() {
       i++;
     }
   }
-  const sent = await loadUrls();
-  const companies = await loadCompanies();
-  const opportunities = await loadOpportunities();
+  const sent = await store.urls.load();
+  const companies = await store.companies.load();
+  const opportunities = await store.opportunities.load();
 
   if (!link) {
     logger.fatal(`${RED_CROSS} Link is required`);
@@ -46,13 +39,13 @@ async function main() {
         updatedCompanies.push(company);
       }
     }
-    await saveCompanies(updatedCompanies);
+    await store.companies.save(updatedCompanies);
 
     const updatedOpportunities = opportunities.filter((opportunity) => opportunity.link !== link);
-    await saveOpportunities(updatedOpportunities, true);
+    await store.opportunities.replace(updatedOpportunities);
   }
 
-  await saveUrls(sent);
+  await store.urls.save(sent);
 
   return sent;
 }

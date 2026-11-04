@@ -1,17 +1,15 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 import type { Job } from "@/types";
-import type * as DataUtils from "@/utils/data";
 
 import { HttpStatusCode, JD_FETCH_ERROR, JD_FETCH_OK } from "@/modules/posting/jd";
 import { Posting } from "@/modules/posting/posting";
 
 const analyzeJDMock = vi.hoisted(() => vi.fn());
 const dataMocks = vi.hoisted(() => ({
-  loadOpportunities: vi.fn(),
-  saveOpportunities: vi.fn(),
-  saveJob: vi.fn(),
-  saveUrls: vi.fn(),
+  urls: { save: vi.fn() },
+  jobs: { append: vi.fn() },
+  opportunities: { load: vi.fn(), append: vi.fn(), replace: vi.fn() },
 }));
 const enqueueBatchJobsMock = vi.hoisted(() => vi.fn());
 const buildCompanyListMock = vi.hoisted(() => vi.fn());
@@ -26,10 +24,7 @@ vi.mock("@/modules/posting/analysis/ai", () => ({
   analyzeQualifications: vi.fn(),
 }));
 
-vi.mock("@/utils/data", async (importOriginal) => {
-  const actual = await importOriginal<typeof DataUtils>();
-  return { ...actual, ...dataMocks };
-});
+vi.mock("@/store", () => dataMocks);
 
 vi.mock("@/modules/posting/batch", () => ({
   enqueueBatchJobs: enqueueBatchJobsMock,
@@ -67,9 +62,9 @@ async function ingestTwice() {
 
 function expectUnseenFailure(result: Awaited<ReturnType<typeof processJobs>>) {
   expect(result).toMatchObject({ count: 0, failed: 1, skipped: 0, batched: 0 });
-  expect(dataMocks.saveUrls).toHaveBeenCalledWith(new Set());
-  expect(dataMocks.saveJob).toHaveBeenCalledWith([]);
-  expect(dataMocks.saveOpportunities).not.toHaveBeenCalled();
+  expect(dataMocks.urls.save).toHaveBeenCalledWith(new Set());
+  expect(dataMocks.jobs.append).toHaveBeenCalledWith([]);
+  expect(dataMocks.opportunities.append).not.toHaveBeenCalled();
   expect(buildCompanyListMock).not.toHaveBeenCalled();
   expect(enqueueBatchJobsMock).not.toHaveBeenCalled();
 }
@@ -79,10 +74,10 @@ describe("ingest analysis failures", () => {
     vi.stubEnv("AI_MODE", undefined);
     analyzeJDMock.mockReset();
     getRawJDSpy.mockReset().mockResolvedValue({ jd: "Acme is hiring.", error: JD_FETCH_OK });
-    dataMocks.loadOpportunities.mockReset().mockResolvedValue([]);
-    dataMocks.saveOpportunities.mockReset().mockResolvedValue(undefined);
-    dataMocks.saveJob.mockReset().mockResolvedValue(undefined);
-    dataMocks.saveUrls.mockReset().mockResolvedValue(undefined);
+    dataMocks.opportunities.load.mockReset().mockResolvedValue([]);
+    dataMocks.opportunities.append.mockReset().mockResolvedValue(undefined);
+    dataMocks.jobs.append.mockReset().mockResolvedValue(undefined);
+    dataMocks.urls.save.mockReset().mockResolvedValue(undefined);
     enqueueBatchJobsMock.mockReset().mockResolvedValue(undefined);
     buildCompanyListMock.mockReset().mockResolvedValue(undefined);
     for (const mock of Object.values(loggerMocks)) mock.mockReset();
@@ -98,7 +93,11 @@ describe("ingest analysis failures", () => {
 
   it.each([
     { name: "an empty AI result", result: null, reason: "empty" },
-    { name: "a wrongly shaped AI result", result: JSON.stringify({ hello: "world" }), reason: "invalid" },
+    {
+      name: "a wrongly shaped AI result",
+      result: JSON.stringify({ hello: "world" }),
+      reason: "invalid",
+    },
     { name: "an AI result that is not JSON", result: "not json at all", reason: "unparseable" },
   ])("counts $name as an AI analysis failure and retries next run", async ({ result, reason }) => {
     analyzeJDMock.mockResolvedValue({ result, cost: 0.01 });

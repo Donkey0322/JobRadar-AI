@@ -12,7 +12,7 @@ import {
   type SuccessFactorsJob,
 } from "@/modules/ats/successfactors";
 import { logListingFailure } from "@/modules/employer/failure";
-import { appendErrorLog } from "@/utils/data";
+import { errorLog } from "@/store";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
@@ -100,7 +100,9 @@ export class SuccessFactorsFetcher extends Employer<SuccessFactorsJob> {
       const res = await fetchFeed(company.page, signal);
 
       if (!res.ok) {
-        await appendErrorLog(`SuccessFactors: ${company.name} - ${res.status} - ${res.statusText}`);
+        await errorLog.append(
+          `SuccessFactors: ${company.name} - ${res.status} - ${res.statusText}`
+        );
         return [];
       }
 

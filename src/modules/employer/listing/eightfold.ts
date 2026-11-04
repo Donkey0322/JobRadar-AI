@@ -8,7 +8,7 @@ import { Employer } from "../employer";
 
 import { eightfoldDomain, eightfoldIdentifier } from "@/modules/ats/eightfold";
 import { logListingFailure } from "@/modules/employer/failure";
-import { appendErrorLog } from "@/utils/data";
+import { errorLog } from "@/store";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
 
@@ -271,7 +271,7 @@ export class EightfoldFetcher extends Employer<EightfoldJob> {
         page = result.page;
 
         if (!result.response.ok) {
-          await appendErrorLog(
+          await errorLog.append(
             `Eightfold: ${company.name} - ${result.response.status} - ${result.response.statusText}`
           );
           break;

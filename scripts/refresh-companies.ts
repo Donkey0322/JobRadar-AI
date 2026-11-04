@@ -7,13 +7,7 @@ import type { Company } from "@/types";
 
 import { buildCompanyList, getCompanyKey } from "@/modules/employer/build";
 import { remapStoredCompany } from "@/modules/employer/remap";
-import {
-  loadJobsInFileOrder,
-  loadOpportunities,
-  loadUrls,
-  saveJob,
-  saveOpportunities,
-} from "@/utils/data";
+import * as store from "@/store";
 import { logger } from "@/utils/logger";
 
 export interface RemapStoredCompanyNamesResult {
@@ -30,8 +24,8 @@ export async function remapStoredCompanyNames(
 ): Promise<RemapStoredCompanyNamesResult> {
   const companiesByKey = new Map(companies.map((company) => [getCompanyKey(company), company]));
 
-  const jobs = await loadJobsInFileOrder();
-  const opportunities = await loadOpportunities();
+  const jobs = await store.jobs.loadInFileOrder();
+  const opportunities = await store.opportunities.load();
 
   let jobsUpdated = 0;
   const nextJobs = jobs.map((job) => {
@@ -56,11 +50,11 @@ export async function remapStoredCompanyNames(
   });
 
   if (jobsUpdated > 0) {
-    await saveJob(nextJobs, true);
+    await store.jobs.replace(nextJobs);
   }
 
   if (opportunitiesUpdated > 0) {
-    await saveOpportunities(nextOpportunities, true);
+    await store.opportunities.replace(nextOpportunities);
   }
 
   return {
@@ -70,7 +64,7 @@ export async function remapStoredCompanyNames(
 }
 
 async function main() {
-  const urls = await loadUrls();
+  const urls = await store.urls.load();
   const companies = await buildCompanyList(urls);
   const remapped = await remapStoredCompanyNames(companies);
 

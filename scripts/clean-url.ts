@@ -15,13 +15,7 @@ import { checkUrlsAgainstListing } from "@/modules/employer/liveness";
 import { dropStaleExpiredOpportunities, syncExpiredFlags } from "@/modules/opportunity/dedup";
 import { Posting } from "@/modules/posting";
 import { HttpStatusCode, isRetryableJDFetch, NETWORK_ERROR_CODE } from "@/modules/posting/jd";
-import {
-  loadCompanies,
-  loadOpportunities,
-  loadUrls,
-  saveOpportunities,
-  saveUrls,
-} from "@/utils/data";
+import * as store from "@/store";
 import { renderProgress, startProgress } from "@/utils/dev";
 import { logger } from "@/utils/logger";
 
@@ -271,10 +265,10 @@ async function confirmByJobDescription(
 async function main() {
   await deduplicate();
 
-  const storedUrls = Array.from(await loadUrls());
-  const targeted = targetedOpportunities(await loadOpportunities());
+  const storedUrls = Array.from(await store.urls.load());
+  const targeted = targetedOpportunities(await store.opportunities.load());
   const companiesByKey = new Map(
-    (await loadCompanies()).map((company) => [getCompanyKey(company), company])
+    (await store.companies.load()).map((company) => [getCompanyKey(company), company])
   );
 
   const advance = trackProgress(storedUrls.length);
@@ -303,7 +297,7 @@ async function main() {
     `${GREEN_CHECKMARK} Successfully cleaned urls`
   );
 
-  await saveUrls(new Set(urlsToSave));
+  await store.urls.save(new Set(urlsToSave));
 
   const synced = syncExpiredFlags(targeted, groupUrlsByKey(urlsToSave));
   const opportunities = dropStaleExpiredOpportunities(synced);
@@ -313,7 +307,7 @@ async function main() {
     `${GREEN_CHECKMARK} Pruned stale expired opportunities`
   );
 
-  await saveOpportunities(opportunities, true);
+  await store.opportunities.replace(opportunities);
 
   return urlsToSave;
 }

@@ -4,8 +4,8 @@ import type { Company } from "@/types";
 
 const appendErrorLog = vi.hoisted(() => vi.fn(async () => {}));
 
-vi.mock("@/utils/data", () => ({
-  appendErrorLog,
+vi.mock("@/store", () => ({
+  errorLog: { append: appendErrorLog },
 }));
 
 import { AshbyFetcher, ashbyFetcher } from "../ashby";

@@ -13,7 +13,7 @@ import {
   parseJazzHRListing,
 } from "@/modules/ats/jazzhr";
 import { logListingFailure } from "@/modules/employer/failure";
-import { appendErrorLog } from "@/utils/data";
+import { errorLog } from "@/store";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
@@ -98,7 +98,7 @@ export class JazzHRFetcher extends Employer<JazzHRJob> {
       const res = await fetchListing(company.page, signal);
 
       if (!res.ok) {
-        await appendErrorLog(`JazzHR: ${company.name} - ${res.status} - ${res.statusText}`);
+        await errorLog.append(`JazzHR: ${company.name} - ${res.status} - ${res.statusText}`);
         return [];
       }
 

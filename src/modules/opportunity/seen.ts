@@ -58,9 +58,11 @@ export function recordSeenOpportunity(
   ledger.appended.push(nextOpportunity);
 }
 
+export type OpportunityWriteMode = "append" | "replace";
+
 export function seenOpportunitiesToWrite(ledger: OpportunityLedger): {
   opportunities: Opportunity[];
-  overwrite: boolean;
+  mode: OpportunityWriteMode;
 } | null {
   if (ledger.mutated) {
     const seenKeys = new Set<string>();
@@ -75,11 +77,11 @@ export function seenOpportunitiesToWrite(ledger: OpportunityLedger): {
       return true;
     });
 
-    return { opportunities: merged, overwrite: true };
+    return { opportunities: merged, mode: "replace" };
   }
 
   if (ledger.appended.length > 0) {
-    return { opportunities: ledger.appended, overwrite: false };
+    return { opportunities: ledger.appended, mode: "append" };
   }
 
   return null;

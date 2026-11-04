@@ -12,7 +12,7 @@ import { knownEmployerName } from "@/modules/employer/remap";
 import { Posting } from "@/modules/posting";
 import { canonicalizeApplyLink } from "@/modules/posting/apply-link";
 import fetchSource from "@/modules/source";
-import { loadCompanies } from "@/utils/data";
+import * as store from "@/store";
 import { logger } from "@/utils/logger";
 
 const RESOLVE_CONCURRENCY = 10;
@@ -22,7 +22,7 @@ export default async function syncCommunity() {
 
   const context = await createSyncContext();
   const companiesByKey = new Map(
-    (await loadCompanies()).map((company) => [getCompanyKey(company), company])
+    (await store.companies.load()).map((company) => [getCompanyKey(company), company])
   );
   const limit = pLimit(RESOLVE_CONCURRENCY);
 

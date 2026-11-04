@@ -2,12 +2,12 @@ import { promises as fs } from "node:fs";
 import os from "node:os";
 import path from "node:path";
 
-import { DATA_PATH, URLS_PATH } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
 import { classifyATS } from "@/modules/ats/classify";
 import { getJobKey } from "@/modules/ats/job-key";
-import { readJsonFile } from "@/utils/data";
+import { readJsonFile } from "@/store";
+import { DATA_PATH, URLS_PATH } from "@/store/paths";
 import { logger } from "@/utils/logger";
 
 /**

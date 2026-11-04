@@ -7,7 +7,7 @@ import type { Company, Job } from "@/types";
 import { Employer } from "../employer";
 
 import { logListingFailure } from "@/modules/employer/failure";
-import { appendErrorLog } from "@/utils/data";
+import { errorLog } from "@/store";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
 
@@ -94,7 +94,7 @@ export class LeverFetcher extends Employer<LeverJob> {
       });
 
       if (!res.ok) {
-        await appendErrorLog(`Lever: ${company.name} - ${res.status} - ${res.statusText}`);
+        await errorLog.append(`Lever: ${company.name} - ${res.status} - ${res.statusText}`);
 
         return [];
       }

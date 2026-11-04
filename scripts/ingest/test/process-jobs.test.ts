@@ -3,19 +3,26 @@ import { beforeEach, describe, expect, it, vi } from "vitest";
 import type * as PostingTitles from "@/modules/posting/titles";
 import type { Job } from "@/types";
 import type { JD } from "@/types/jobs";
-import type * as DataUtils from "@/utils/data";
 
 import { HttpStatusCode, JD_FETCH_ERROR, JD_FETCH_OK } from "@/modules/posting/jd";
 import { Posting } from "@/modules/posting/posting";
 import { JobCategory } from "@/validation/config";
 
 const dataMocks = vi.hoisted(() => ({
-  loadOpportunities: vi.fn().mockResolvedValue([]),
-  saveOpportunities: vi.fn().mockResolvedValue(undefined),
-  saveJob: vi.fn().mockResolvedValue(undefined),
-  saveUrls: vi.fn().mockResolvedValue(undefined),
-  loadUrls: vi.fn().mockResolvedValue(new Set<string>()),
-  loadJobs: vi.fn().mockResolvedValue([]),
+  urls: {
+    load: vi.fn().mockResolvedValue(new Set<string>()),
+    save: vi.fn().mockResolvedValue(undefined),
+  },
+  jobs: {
+    load: vi.fn().mockResolvedValue([]),
+    append: vi.fn().mockResolvedValue(undefined),
+    replace: vi.fn().mockResolvedValue(undefined),
+  },
+  opportunities: {
+    load: vi.fn().mockResolvedValue([]),
+    append: vi.fn().mockResolvedValue(undefined),
+    replace: vi.fn().mockResolvedValue(undefined),
+  },
 }));
 
 const getJDMock = vi.hoisted(() => vi.fn());
@@ -28,13 +35,7 @@ const loggerMocks = vi.hoisted(() => ({
   warn: vi.fn(),
 }));
 
-vi.mock("@/utils/data", async (importOriginal) => {
-  const actual = await importOriginal<typeof DataUtils>();
-  return {
-    ...actual,
-    ...dataMocks,
-  };
-});
+vi.mock("@/store", () => dataMocks);
 
 vi.mock("@/modules/posting/batch", () => ({
   enqueueBatchJobs: enqueueBatchJobsMock,
@@ -89,12 +90,14 @@ function emptyContext() {
 
 describe("processJobs", () => {
   beforeEach(() => {
-    dataMocks.loadOpportunities.mockReset().mockResolvedValue([]);
-    dataMocks.saveOpportunities.mockReset().mockResolvedValue(undefined);
-    dataMocks.saveJob.mockReset().mockResolvedValue(undefined);
-    dataMocks.saveUrls.mockReset().mockResolvedValue(undefined);
-    dataMocks.loadUrls.mockReset().mockResolvedValue(new Set<string>());
-    dataMocks.loadJobs.mockReset().mockResolvedValue([]);
+    dataMocks.opportunities.load.mockReset().mockResolvedValue([]);
+    dataMocks.opportunities.append.mockReset().mockResolvedValue(undefined);
+    dataMocks.opportunities.replace.mockReset().mockResolvedValue(undefined);
+    dataMocks.jobs.append.mockReset().mockResolvedValue(undefined);
+    dataMocks.jobs.replace.mockReset().mockResolvedValue(undefined);
+    dataMocks.urls.save.mockReset().mockResolvedValue(undefined);
+    dataMocks.urls.load.mockReset().mockResolvedValue(new Set<string>());
+    dataMocks.jobs.load.mockReset().mockResolvedValue([]);
     getJDMock.mockReset();
     analyzePostingSpy.mockImplementation(async function (this: Posting) {
       const result = await getJDMock(this);
@@ -127,10 +130,10 @@ describe("processJobs", () => {
       jd: usaJd,
       id: 1,
     });
-    expect(dataMocks.saveJob).toHaveBeenCalledWith([
+    expect(dataMocks.jobs.append).toHaveBeenCalledWith([
       expect.objectContaining({ link: job.link, jd: usaJd, id: 1 }),
     ]);
-    expect(dataMocks.saveOpportunities).toHaveBeenCalledWith([
+    expect(dataMocks.opportunities.append).toHaveBeenCalledWith([
       expect.objectContaining({ link: job.link, jd: usaJd, expired: false }),
     ]);
     expect(loggerMocks.error).not.toHaveBeenCalled();
@@ -151,9 +154,9 @@ describe("processJobs", () => {
     expect(result.count).toBe(0);
     expect(result.failed).toBe(1);
     expect(result.jobs).toEqual([]);
-    expect(dataMocks.saveJob).toHaveBeenCalledWith([]);
-    expect(dataMocks.saveOpportunities).not.toHaveBeenCalled();
-    expect(dataMocks.saveUrls).toHaveBeenCalledWith(new Set());
+    expect(dataMocks.jobs.append).toHaveBeenCalledWith([]);
+    expect(dataMocks.opportunities.append).not.toHaveBeenCalled();
+    expect(dataMocks.urls.save).toHaveBeenCalledWith(new Set());
     expect(buildCompanyListMock).not.toHaveBeenCalled();
     expect(loggerMocks.error).toHaveBeenCalledWith(
       expect.objectContaining({
@@ -190,8 +193,8 @@ describe("processJobs", () => {
 
     expect(result.failed).toBe(2);
     expect(result.count).toBe(0);
-    expect(dataMocks.saveOpportunities).not.toHaveBeenCalled();
-    expect(dataMocks.saveJob).toHaveBeenCalledWith([]);
+    expect(dataMocks.opportunities.append).not.toHaveBeenCalled();
+    expect(dataMocks.jobs.append).toHaveBeenCalledWith([]);
     expect(loggerMocks.error).toHaveBeenCalledTimes(2);
   });
 
@@ -209,7 +212,7 @@ describe("processJobs", () => {
     expect(getJDMock).not.toHaveBeenCalled();
     expect(result.failed).toBe(0);
     expect(result.skipped).toBe(1);
-    expect(dataMocks.saveOpportunities).toHaveBeenCalledWith([
+    expect(dataMocks.opportunities.append).toHaveBeenCalledWith([
       expect.objectContaining({
         link: job.link,
         location: "Singapore",
@@ -217,8 +220,8 @@ describe("processJobs", () => {
         expired: false,
       }),
     ]);
-    expect(dataMocks.saveOpportunities.mock.calls[0]?.[0]?.[0]).not.toHaveProperty("jd");
-    expect(dataMocks.saveJob).toHaveBeenCalledWith([]);
+    expect(dataMocks.opportunities.append.mock.calls[0]?.[0]?.[0]).not.toHaveProperty("jd");
+    expect(dataMocks.jobs.append).toHaveBeenCalledWith([]);
     expect(enqueueBatchJobsMock).not.toHaveBeenCalled();
   });
 
@@ -235,22 +238,22 @@ describe("processJobs", () => {
     expect(enqueueBatchJobsMock).toHaveBeenCalledWith([
       expect.objectContaining({ link: job.link, role: job.role }),
     ]);
-    expect(dataMocks.saveJob).toHaveBeenCalledWith([]);
-    expect(dataMocks.saveOpportunities).toHaveBeenCalledWith([
+    expect(dataMocks.jobs.append).toHaveBeenCalledWith([]);
+    expect(dataMocks.opportunities.append).toHaveBeenCalledWith([
       expect.objectContaining({ link: job.link, expired: false }),
     ]);
   });
 
   it("writes batch-analyzed jobs onto existing opportunities and notifies when eligible", async () => {
     const job = makeJob("batch-1");
-    dataMocks.loadOpportunities.mockResolvedValue([
+    dataMocks.opportunities.load.mockResolvedValue([
       {
         ...job,
         postedAt: "2026-01-01T00:00:00.000Z",
         expired: false,
       },
     ]);
-    dataMocks.loadJobs.mockResolvedValue([{ id: 7 }]);
+    dataMocks.jobs.load.mockResolvedValue([{ id: 7 }]);
 
     const result = await persistAnalyzedJobs([{ job, jd: usaJd, cost: 0.002 }]);
 
@@ -264,19 +267,16 @@ describe("processJobs", () => {
       },
       "✅ Job matches notification criteria"
     );
-    expect(dataMocks.saveJob).toHaveBeenCalledWith([
+    expect(dataMocks.jobs.append).toHaveBeenCalledWith([
       expect.objectContaining({ link: job.link, jd: usaJd, id: 8 }),
     ]);
-    expect(dataMocks.saveOpportunities).toHaveBeenCalledWith(
-      [
-        expect.objectContaining({
-          link: job.link,
-          jd: usaJd,
-          postedAt: "2026-01-01T00:00:00.000Z",
-        }),
-      ],
-      true
-    );
+    expect(dataMocks.opportunities.replace).toHaveBeenCalledWith([
+      expect.objectContaining({
+        link: job.link,
+        jd: usaJd,
+        postedAt: "2026-01-01T00:00:00.000Z",
+      }),
+    ]);
   });
 
   it("saves non-notify titles without emailing", async () => {
@@ -286,8 +286,8 @@ describe("processJobs", () => {
     const result = await persistAnalyzedJobs([{ job, jd: usaJd, cost: 0.002 }]);
 
     expect(result.count).toBe(0);
-    expect(dataMocks.saveJob).toHaveBeenCalledWith([]);
-    expect(dataMocks.saveOpportunities).toHaveBeenCalledWith([
+    expect(dataMocks.jobs.append).toHaveBeenCalledWith([]);
+    expect(dataMocks.opportunities.append).toHaveBeenCalledWith([
       expect.objectContaining({ link: job.link, jd: usaJd, role: job.role }),
     ]);
   });
@@ -299,7 +299,7 @@ describe("processJobs", () => {
     const result = await persistAnalyzedJobs([{ job, jd: usaJd, cost: 0.002 }]);
 
     expect(result.count).toBe(1);
-    expect(dataMocks.saveJob).toHaveBeenCalledWith([
+    expect(dataMocks.jobs.append).toHaveBeenCalledWith([
       expect.objectContaining({ link: job.link, role: job.role, jd: usaJd }),
     ]);
   });

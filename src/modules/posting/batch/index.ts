@@ -1,8 +1,5 @@
-import { promises as fs } from "node:fs";
-import path from "node:path";
 import pLimit from "p-limit";
 
-import { BATCH_INFLIGHT_PATH, BATCH_QUEUE_PATH } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
 import type { JD, Job } from "@/types";
@@ -23,11 +20,10 @@ import {
 } from "@/modules/posting/analysis/response";
 import { isRetryableJDFetch, JD_FETCH_OK } from "@/modules/posting/jd";
 import { Posting } from "@/modules/posting/posting";
+import { batchInflight, batchQueue } from "@/store/batch";
 import { AI_DEFAULT_MODEL, getAIProvider } from "@/utils/ai";
 import { isAIEnabled } from "@/utils/ai/enabled";
-import { readJsonFile } from "@/utils/data";
 import { logger } from "@/utils/logger";
-import { readNdjsonFileIfExists } from "@/utils/ndjson-archive";
 
 async function withQualifications(job: Job, jd: JD, rawJD: string, cost: number) {
   const posting = Posting.from(job).setJD(jd);
@@ -68,34 +64,20 @@ export interface AnalyzedBatchJob {
 const BATCH_CHUNK_SIZE = 50;
 const FETCH_CONCURRENCY = 10;
 
-function toNdjson(records: unknown[]) {
-  if (records.length === 0) {
-    return "";
-  }
-
-  return `${records.map((record) => JSON.stringify(record)).join("\n")}\n`;
-}
-
 export async function loadBatchQueue(): Promise<Job[]> {
-  return await readNdjsonFileIfExists<Job>(BATCH_QUEUE_PATH);
+  return batchQueue.load();
 }
 
 export async function saveBatchQueue(jobs: Job[]) {
-  await fs.mkdir(path.dirname(BATCH_QUEUE_PATH), { recursive: true });
-  await fs.writeFile(BATCH_QUEUE_PATH, toNdjson(jobs), "utf-8");
+  await batchQueue.save(jobs);
 }
 
 export async function loadInflightBatches(): Promise<InflightBatch[]> {
-  try {
-    return await readJsonFile<InflightBatch[]>(BATCH_INFLIGHT_PATH);
-  } catch {
-    return [];
-  }
+  return batchInflight.load<InflightBatch>();
 }
 
 export async function saveInflightBatches(batches: InflightBatch[]) {
-  await fs.mkdir(path.dirname(BATCH_INFLIGHT_PATH), { recursive: true });
-  await fs.writeFile(BATCH_INFLIGHT_PATH, `${JSON.stringify(batches, null, 2)}\n`, "utf-8");
+  await batchInflight.save(batches);
 }
 
 export async function enqueueBatchJobs(jobs: Job[]) {

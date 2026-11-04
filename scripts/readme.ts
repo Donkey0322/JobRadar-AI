@@ -10,7 +10,7 @@ import type { Config } from "@/validation/config";
 
 import { getJobKey } from "@/modules/ats/job-key";
 import { detectReopenedKeys } from "@/modules/opportunity/reopen";
-import { loadOpportunities } from "@/utils/data";
+import * as store from "@/store";
 import { escapeHtml } from "@/utils/html";
 
 type TableRow = [string, string, string, string, string];
@@ -125,7 +125,7 @@ export function renderBoard(input: {
 }
 
 async function main() {
-  const opportunities = await loadOpportunities();
+  const opportunities = await store.opportunities.load();
   const generatedAt = new Date();
   const board = renderBoard({ opportunities, config: CONFIG, generatedAt });
   const included = selectTargetOpportunities(opportunities, CONFIG).targetOpportunities.length;

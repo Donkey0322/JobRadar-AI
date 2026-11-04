@@ -16,7 +16,7 @@ import {
   isBambooHRTenantResponse,
 } from "@/modules/ats/bamboohr";
 import { logListingFailure } from "@/modules/employer/failure";
-import { appendErrorLog } from "@/utils/data";
+import { errorLog } from "@/store";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
@@ -123,12 +123,12 @@ export class BambooHRFetcher extends Employer<BambooHRJob> {
       const res = await fetch(company.page, { signal, headers: { accept: "application/json" } });
 
       if (!res.ok) {
-        await appendErrorLog(`BambooHR: ${company.name} - ${res.status} - ${res.statusText}`);
+        await errorLog.append(`BambooHR: ${company.name} - ${res.status} - ${res.statusText}`);
         return [];
       }
 
       if (!isBambooHRTenantResponse(res)) {
-        await appendErrorLog(`BambooHR: ${company.name} - board no longer exists`);
+        await errorLog.append(`BambooHR: ${company.name} - board no longer exists`);
         return [];
       }
 
@@ -187,7 +187,7 @@ export class BambooHRFetcher extends Employer<BambooHRJob> {
     );
 
     if (dates.size < pending.length) {
-      await appendErrorLog(
+      await errorLog.append(
         `BambooHR: ${company.name} - no posting date for ${pending.length - dates.size}/${pending.length} jobs`
       );
     }

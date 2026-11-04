@@ -17,7 +17,7 @@ import {
   resolveAshbyIdentifier,
 } from "@/modules/ats/ashby";
 import { logListingFailure } from "@/modules/employer/failure";
-import { appendErrorLog } from "@/utils/data";
+import { errorLog } from "@/store";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
 import { getHostnameWithoutWww } from "@/utils/url";
@@ -126,7 +126,7 @@ export class AshbyFetcher extends Employer<AshbyJob> {
       }));
     }
 
-    await appendErrorLog(`Ashby: ${company.name} - ${res.status} - ${res.statusText}`);
+    await errorLog.append(`Ashby: ${company.name} - ${res.status} - ${res.statusText}`);
     return null;
   }
 

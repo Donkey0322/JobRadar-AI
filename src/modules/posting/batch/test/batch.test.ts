@@ -51,7 +51,7 @@ vi.mock("@/utils/ndjson-archive", async (importOriginal) => {
   };
 });
 
-vi.mock("@/utils/data", async (importOriginal) => {
+vi.mock("@/store/json", async (importOriginal) => {
   const actual = (await importOriginal()) as Record<string, unknown>;
   return {
     ...actual,

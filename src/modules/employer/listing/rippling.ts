@@ -15,7 +15,7 @@ import {
   ripplingListingUrl,
 } from "@/modules/ats/rippling";
 import { logListingFailure } from "@/modules/employer/failure";
-import { appendErrorLog } from "@/utils/data";
+import { errorLog } from "@/store";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
@@ -109,7 +109,7 @@ export class RipplingFetcher extends Employer<RipplingJob> {
       const res = await fetch(company.page, { signal });
 
       if (!res.ok) {
-        await appendErrorLog(`Rippling: ${company.name} - ${res.status} - ${res.statusText}`);
+        await errorLog.append(`Rippling: ${company.name} - ${res.status} - ${res.statusText}`);
         return [];
       }
 
@@ -168,7 +168,7 @@ export class RipplingFetcher extends Employer<RipplingJob> {
     );
 
     if (dates.size < pending.length) {
-      await appendErrorLog(
+      await errorLog.append(
         `Rippling: ${company.name} - no posting date for ${pending.length - dates.size}/${pending.length} jobs`
       );
     }

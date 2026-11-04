@@ -8,7 +8,7 @@ import { careerSiteAlias, companyKeyFromUrl } from "./keys";
 import { employers } from "./registry";
 
 import { classifyATS } from "@/modules/ats/classify";
-import { loadCompanies, saveCompanies } from "@/utils/data";
+import { companies } from "@/store";
 import { renderProgress, startProgress } from "@/utils/dev";
 import { logger } from "@/utils/logger";
 
@@ -186,7 +186,7 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
 
   // Merge existing companies so companies don't disappear.
   // Re-resolve keys so identifier remaps replace stale rows instead of duplicating them.
-  const existingCompanies = await loadCompanies();
+  const existingCompanies = await companies.load();
   const resolvedExisting = await Promise.all(existingCompanies.map(resolveExistingCompany));
   const aliasedRows: Array<{ key: string; company: Company }> = [];
 
@@ -238,7 +238,7 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
       (a, b) => a.name.localeCompare(b.name) || getCompanyKey(a).localeCompare(getCompanyKey(b))
     );
 
-  await saveCompanies(result);
+  await companies.save(result);
 
   logger.info({ count: result.length }, "💰 Successfully built companies");
 

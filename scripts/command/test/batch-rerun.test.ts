@@ -3,7 +3,7 @@ import os from "node:os";
 import path from "node:path";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
-import type * as Constants from "@/constants";
+import type * as StorePaths from "@/store/paths";
 import type { Job, Opportunity } from "@/types";
 import type { JD } from "@/types/jobs";
 import type * as AI from "@/utils/ai";
@@ -39,13 +39,11 @@ const provider = vi.hoisted(() => {
   };
 });
 
-vi.mock("@/constants", async (importOriginal) => {
-  const actual = await importOriginal<typeof Constants>();
+vi.mock("@/store/paths", async () => {
   const nodePath = await import("node:path");
   const data = () => nodePath.join(paths.root, "data");
 
   return {
-    ...actual,
     get DATA_PATH() {
       return data();
     },
@@ -76,7 +74,9 @@ vi.mock("@/constants", async (importOriginal) => {
     get BATCH_INFLIGHT_PATH() {
       return nodePath.join(data(), "batch", "inflight.json");
     },
-  };
+    JOB_ARCHIVE_CHUNK: 1000,
+    OPPORTUNITY_ARCHIVE_CHUNK: 5000,
+  } satisfies Partial<typeof StorePaths> & Record<string, unknown>;
 });
 
 vi.mock("@/utils/ai", async (importOriginal) => {
@@ -96,8 +96,6 @@ vi.mock("@/utils/logger", () => ({
   logger: { info: vi.fn(), warn: vi.fn(), error: vi.fn() },
 }));
 
-import { BATCH_INFLIGHT_PATH, JOB_PATH, OPPORTUNITIES_PATH } from "@/constants";
-
 import { persistAnalyzedJobs } from "../../ingest";
 import { processBatchQueue } from "../batch";
 
@@ -108,7 +106,8 @@ import {
   loadInflightBatches,
   saveInflightBatches,
 } from "@/modules/posting/batch";
-import * as data from "@/utils/data";
+import * as store from "@/store";
+import { BATCH_INFLIGHT_PATH, JOB_PATH, OPPORTUNITIES_PATH } from "@/store/paths";
 import { JobCategory } from "@/validation/config";
 
 const fetchMock = vi.fn<typeof fetch>();
@@ -256,7 +255,7 @@ describe("batch rerun baseline", () => {
     ]);
 
     let inflightWhenJobSaveStarts: string | undefined;
-    const saveJob = vi.spyOn(data, "saveJob").mockImplementation(async () => {
+    const appendJobs = vi.spyOn(store.jobs, "append").mockImplementation(async () => {
       inflightWhenJobSaveStarts = await fs.readFile(BATCH_INFLIGHT_PATH, "utf-8");
       throw new Error("injected interrupt before analysis results are stored");
     });
@@ -268,7 +267,7 @@ describe("batch rerun baseline", () => {
     expect(inflightWhenJobSaveStarts).toBe(`${JSON.stringify([], null, 2)}\n`);
     expect(await readNdjson<Job>(JOB_PATH)).toEqual([]);
     expect(await readNdjson<Opportunity>(OPPORTUNITIES_PATH)).toEqual([]);
-    saveJob.mockRestore();
+    appendJobs.mockRestore();
 
     const restart = await processBatchQueue(0);
 

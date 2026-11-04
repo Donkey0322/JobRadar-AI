@@ -1,11 +1,13 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 
 const dataMocks = vi.hoisted(() => ({
-  loadCompanies: vi.fn().mockResolvedValue([]),
-  saveCompanies: vi.fn().mockResolvedValue(undefined),
+  companies: {
+    load: vi.fn().mockResolvedValue([]),
+    save: vi.fn().mockResolvedValue(undefined),
+  },
 }));
 
-vi.mock("@/utils/data", () => dataMocks);
+vi.mock("@/store", () => dataMocks);
 vi.mock("@/utils/dev", () => ({
   renderProgress: vi.fn(),
   startProgress: vi.fn(),
@@ -66,8 +68,8 @@ const allATS = [
 describe("ATS fetcher registry", () => {
   beforeEach(() => {
     vi.restoreAllMocks();
-    dataMocks.loadCompanies.mockResolvedValue([]);
-    dataMocks.saveCompanies.mockResolvedValue(undefined);
+    dataMocks.companies.load.mockResolvedValue([]);
+    dataMocks.companies.save.mockResolvedValue(undefined);
   });
 
   it("contains every ATS exactly once and returns its singleton", () => {
@@ -164,7 +166,7 @@ describe("ATS fetcher registry", () => {
       page: "https://boards-api.greenhouse.io/v1/boards/imc/jobs",
       urls: [url],
     };
-    dataMocks.loadCompanies.mockResolvedValue([stored]);
+    dataMocks.companies.load.mockResolvedValue([stored]);
     vi.spyOn(greenhouseFetcher, "formCompany").mockResolvedValue({
       ...stored,
       name: "imc",
@@ -183,7 +185,7 @@ describe("ATS fetcher registry", () => {
       page: "https://globalhr.wd5.myworkdayjobs.com/wday/cxs/globalhr/rec_rtx_ext_gateway/jobs",
       urls: ["https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CT/Intern_1"],
     };
-    dataMocks.loadCompanies.mockResolvedValue([stale]);
+    dataMocks.companies.load.mockResolvedValue([stale]);
 
     const result = await buildCompanyList(stale.urls);
 
@@ -206,7 +208,7 @@ describe("ATS fetcher registry", () => {
       page: "https://api.lever.co/v0/postings/acme?mode=json",
       urls: [],
     };
-    dataMocks.loadCompanies.mockResolvedValue([ghost]);
+    dataMocks.companies.load.mockResolvedValue([ghost]);
 
     await expect(buildCompanyList([])).resolves.toEqual([
       {
@@ -233,7 +235,7 @@ describe("ATS fetcher registry", () => {
       page: "https://mujin.bamboohr.com/careers/list",
       urls: [],
     };
-    dataMocks.loadCompanies.mockResolvedValue([legacy]);
+    dataMocks.companies.load.mockResolvedValue([legacy]);
     const formCompany = vi.spyOn(bambooHRFetcher, "formCompany").mockResolvedValue(upgraded);
 
     await expect(buildCompanyList([])).resolves.toEqual([upgraded]);
@@ -252,7 +254,7 @@ describe("ATS fetcher registry", () => {
     const siteUrl = "https://careers.homedepot.com/job/22712345/software-engineer";
 
     it("drops a stored none row for a site whose board is tracked elsewhere", async () => {
-      dataMocks.loadCompanies.mockResolvedValue([
+      dataMocks.companies.load.mockResolvedValue([
         homeDepot,
         {
           name: "careers.homedepot.com",
@@ -276,13 +278,13 @@ describe("ATS fetcher registry", () => {
         page: "",
         urls: [],
       };
-      dataMocks.loadCompanies.mockResolvedValue([site]);
+      dataMocks.companies.load.mockResolvedValue([site]);
 
       await expect(buildCompanyList([])).resolves.toEqual([site]);
     });
 
     it("files new site URLs under the tracked board instead of a none row", async () => {
-      dataMocks.loadCompanies.mockResolvedValue([homeDepot]);
+      dataMocks.companies.load.mockResolvedValue([homeDepot]);
       const noneForm = vi.spyOn(noneFetcher, "formCompany");
 
       await expect(buildCompanyList([siteUrl])).resolves.toEqual([
@@ -292,7 +294,7 @@ describe("ATS fetcher registry", () => {
     });
 
     it("keeps a tracked board whose only stored URLs are site URLs", async () => {
-      dataMocks.loadCompanies.mockResolvedValue([{ ...homeDepot, urls: [siteUrl] }]);
+      dataMocks.companies.load.mockResolvedValue([{ ...homeDepot, urls: [siteUrl] }]);
       const noneForm = vi.spyOn(noneFetcher, "formCompany");
 
       await expect(buildCompanyList([siteUrl])).resolves.toEqual([
@@ -302,7 +304,7 @@ describe("ATS fetcher registry", () => {
     });
 
     it("still forms a none row when the tracked board is gone", async () => {
-      dataMocks.loadCompanies.mockResolvedValue([]);
+      dataMocks.companies.load.mockResolvedValue([]);
 
       const [company] = await buildCompanyList([siteUrl]);
 
@@ -319,7 +321,7 @@ describe("ATS fetcher registry", () => {
       page: "",
       urls: [],
     };
-    dataMocks.loadCompanies.mockResolvedValue([unread]);
+    dataMocks.companies.load.mockResolvedValue([unread]);
     const formCompany = vi.spyOn(noneFetcher, "formCompany");
 
     await expect(buildCompanyList([])).resolves.toEqual([unread]);
@@ -335,7 +337,7 @@ describe("ATS fetcher registry", () => {
       page: "https://api.icims.com/v1/companies/atlassian/jobs",
       urls: [],
     };
-    dataMocks.loadCompanies.mockResolvedValue([stale]);
+    dataMocks.companies.load.mockResolvedValue([stale]);
 
     await expect(buildCompanyList([])).resolves.toEqual([
       { ...stale, page: "https://campus-globalcareers-atlassian.icims.com/jobs/search" },

@@ -1,9 +1,9 @@
 import { promises as fs } from "node:fs";
+import path from "node:path";
 import { afterAll, beforeEach, describe, expect, it, vi } from "vitest";
 
 import type * as Constants from "@/constants";
 import type { Job } from "@/types";
-import type * as DataUtils from "@/utils/data";
 
 const env = vi.hoisted(() => {
   const original = {
@@ -22,13 +22,9 @@ const tmp = await vi.hoisted(async () => {
   const os = await import("node:os");
   const path = await import("node:path");
   const { mkdtemp } = await import("node:fs/promises");
-  const dir = await mkdtemp(path.join(os.tmpdir(), "jobradar-ai-disabled-batch-"));
+  const root = await mkdtemp(path.join(os.tmpdir(), "jobradar-ai-disabled-batch-"));
 
-  return {
-    dir,
-    queuePath: path.join(dir, "batch", "queue.ndjson"),
-    inflightPath: path.join(dir, "batch", "inflight.json"),
-  };
+  return { root };
 });
 
 const ai = vi.hoisted(() => {
@@ -52,10 +48,9 @@ const ai = vi.hoisted(() => {
 });
 
 const dataMocks = vi.hoisted(() => ({
-  loadOpportunities: vi.fn(),
-  saveOpportunities: vi.fn(),
-  saveJob: vi.fn(),
-  saveUrls: vi.fn(),
+  urls: { load: vi.fn(), save: vi.fn() },
+  jobs: { load: vi.fn(), append: vi.fn() },
+  opportunities: { load: vi.fn(), append: vi.fn(), replace: vi.fn() },
 }));
 
 const buildCompanyListMock = vi.hoisted(() => vi.fn());
@@ -64,12 +59,50 @@ vi.mock("@/constants", async (importOriginal) => {
   const actual = await importOriginal<typeof Constants>();
   return {
     ...actual,
-    BATCH_QUEUE_PATH: tmp.queuePath,
-    BATCH_INFLIGHT_PATH: tmp.inflightPath,
     CONFIG: {
       ...actual.CONFIG,
       ai: { enabled: false },
     },
+  };
+});
+
+vi.mock("@/store/paths", async () => {
+  const nodePath = await import("node:path");
+  const data = () => nodePath.join(tmp.root, "data");
+
+  return {
+    get DATA_PATH() {
+      return data();
+    },
+    get URLS_PATH() {
+      return nodePath.join(data(), "urls.json");
+    },
+    get JOB_PATH() {
+      return nodePath.join(data(), "jobs.ndjson");
+    },
+    get OPPORTUNITIES_PATH() {
+      return nodePath.join(data(), "opportunities.ndjson");
+    },
+    get ARCHIVE_PATH() {
+      return nodePath.join(data(), "archive");
+    },
+    get COMPANY_PATH() {
+      return nodePath.join(data(), "company.json");
+    },
+    get ERROR_LOG_PATH() {
+      return nodePath.join(data(), "discover-errors.log");
+    },
+    get BATCH_PATH() {
+      return nodePath.join(data(), "batch");
+    },
+    get BATCH_QUEUE_PATH() {
+      return nodePath.join(data(), "batch", "queue.ndjson");
+    },
+    get BATCH_INFLIGHT_PATH() {
+      return nodePath.join(data(), "batch", "inflight.json");
+    },
+    JOB_ARCHIVE_CHUNK: 1000,
+    OPPORTUNITY_ARCHIVE_CHUNK: 5000,
   };
 });
 
@@ -79,10 +112,7 @@ vi.mock("@/utils/ai/provider/anthropic", () => ({
   AnthropicProvider: ai.fakeProvider("anthropic"),
 }));
 
-vi.mock("@/utils/data", async (importOriginal) => {
-  const actual = await importOriginal<typeof DataUtils>();
-  return { ...actual, ...dataMocks };
-});
+vi.mock("@/store", () => dataMocks);
 
 vi.mock("@/modules/employer/build", () => ({
   buildCompanyList: buildCompanyListMock,
@@ -101,6 +131,7 @@ import {
   saveBatchQueue,
   submitQueuedJobs,
 } from "@/modules/posting/batch";
+import { BATCH_INFLIGHT_PATH, BATCH_QUEUE_PATH } from "@/store/paths";
 
 const fetchMock = vi.fn<typeof fetch>();
 
@@ -120,21 +151,22 @@ const newJob: Job = {
 
 describe("batch queue while AI is disabled", () => {
   beforeEach(async () => {
-    await fs.rm(tmp.dir, { recursive: true, force: true });
+    await fs.rm(tmp.root, { recursive: true, force: true });
     ai.created.length = 0;
     ai.generate.mockReset();
     fetchMock.mockReset();
     vi.stubGlobal("fetch", fetchMock);
-    dataMocks.loadOpportunities.mockReset().mockResolvedValue([]);
-    dataMocks.saveOpportunities.mockReset().mockResolvedValue(undefined);
-    dataMocks.saveJob.mockReset().mockResolvedValue(undefined);
-    dataMocks.saveUrls.mockReset().mockResolvedValue(undefined);
+    dataMocks.opportunities.load.mockReset().mockResolvedValue([]);
+    dataMocks.opportunities.append.mockReset().mockResolvedValue(undefined);
+    dataMocks.opportunities.replace.mockReset().mockResolvedValue(undefined);
+    dataMocks.jobs.append.mockReset().mockResolvedValue(undefined);
+    dataMocks.urls.save.mockReset().mockResolvedValue(undefined);
     buildCompanyListMock.mockReset().mockResolvedValue(undefined);
   });
 
   afterAll(async () => {
     vi.unstubAllGlobals();
-    await fs.rm(tmp.dir, { recursive: true, force: true });
+    await fs.rm(tmp.root, { recursive: true, force: true });
 
     for (const [key, value] of Object.entries(env.original)) {
       if (value === undefined) delete process.env[key];
@@ -155,10 +187,13 @@ describe("batch queue while AI is disabled", () => {
     expect(ingest).toMatchObject({ batched: 1, failed: 0, skipped: 0, count: 0 });
     expect(urls).toEqual(new Set([newJob.link]));
     expect(keys).toEqual(new Set([Posting.from(newJob).key()]));
-    expect(dataMocks.saveUrls).toHaveBeenCalledWith(new Set([newJob.link]));
-    expect(dataMocks.saveOpportunities).toHaveBeenCalledWith([
+    expect(dataMocks.urls.save).toHaveBeenCalledWith(new Set([newJob.link]));
+    expect(dataMocks.opportunities.append).toHaveBeenCalledWith([
       expect.objectContaining({ link: newJob.link }),
     ]);
+    expect(BATCH_QUEUE_PATH.startsWith(tmp.root)).toBe(true);
+    expect(path.relative(process.cwd(), BATCH_QUEUE_PATH).startsWith("..")).toBe(true);
+    expect(path.relative(process.cwd(), BATCH_INFLIGHT_PATH).startsWith("..")).toBe(true);
     expect(await loadBatchQueue()).toEqual([queuedJob, newJob]);
 
     const submit = await submitQueuedJobs();

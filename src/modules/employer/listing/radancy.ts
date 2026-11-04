@@ -12,7 +12,7 @@ import {
   parseRadancyJobs,
 } from "@/modules/ats/radancy";
 import { logListingFailure } from "@/modules/employer/failure";
-import { appendErrorLog } from "@/utils/data";
+import { errorLog } from "@/store";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
@@ -210,7 +210,7 @@ export class RadancyFetcher extends Employer<RadancyJob> {
 
         if (!response.ok) {
           const location = response.headers.get("location");
-          await appendErrorLog(
+          await errorLog.append(
             `Radancy: ${company.name} - ${response.status} - ${response.statusText}${
               location ? ` - ${location}` : ""
             }`

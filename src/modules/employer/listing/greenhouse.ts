@@ -13,7 +13,7 @@ import {
   resolveGreenhouseIdentifier,
 } from "@/modules/ats/greenhouse";
 import { logListingFailure } from "@/modules/employer/failure";
-import { appendErrorLog } from "@/utils/data";
+import { errorLog } from "@/store";
 import { logger } from "@/utils/logger";
 import { formatCompanyName } from "@/utils/string";
 import { getHostnameWithoutWww } from "@/utils/url";
@@ -104,7 +104,7 @@ export class GreenhouseFetcher extends Employer<GreenhouseJob> {
       const response = await fetch(company.page, { signal });
 
       if (!response.ok) {
-        await appendErrorLog(
+        await errorLog.append(
           `Greenhouse: ${company.name} - ${response.status} - ${response.statusText}`
         );
         return [];

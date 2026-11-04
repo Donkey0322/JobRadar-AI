@@ -11,7 +11,7 @@ vi.mock("@/modules/posting/titles", async (importOriginal) => {
   };
 });
 
-vi.mock("@/utils/data", () => ({ appendErrorLog: vi.fn() }));
+vi.mock("@/store", () => ({ errorLog: { append: vi.fn() } }));
 
 import type { Company } from "@/types";
 

@@ -7,7 +7,7 @@ vi.mock("@/modules/posting/titles", async (importOriginal) => {
   return { ...actual, isTarget: vi.fn((title: string) => /engineer/i.test(title)) };
 });
 
-vi.mock("@/utils/data", () => ({ appendErrorLog: vi.fn() }));
+vi.mock("@/store", () => ({ errorLog: { append: vi.fn() } }));
 
 import { fetchMeta, MetaCompany } from "../meta";
 
