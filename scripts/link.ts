@@ -5,7 +5,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Job } from "@/types";
 
-import { createSyncContext, processJobs } from "./command/sync/shared";
+import { createSyncContext, processJobs } from "./ingest";
 
 import { analyzeLink, Posting } from "@/modules/posting";
 import { HttpStatusCode } from "@/modules/posting/jd";

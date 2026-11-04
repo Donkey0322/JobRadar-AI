@@ -98,8 +98,8 @@ vi.mock("@/utils/logger", () => ({
 
 import { BATCH_INFLIGHT_PATH, JOB_PATH, OPPORTUNITIES_PATH } from "@/constants";
 
-import processBatchQueue from "../batch";
-import { persistAnalyzedJobs } from "../index";
+import { persistAnalyzedJobs } from "../../ingest";
+import { processBatchQueue } from "../batch";
 
 import { getJobKey } from "@/modules/ats/job-key";
 import {

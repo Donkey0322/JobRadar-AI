@@ -10,7 +10,7 @@ sync.description("Sync jobs from community sources").action(async () => {
   const { default: checkConfig } = await import("./setup/checkConfig");
   await checkConfig();
 
-  const { default: syncCommunity } = await import("./sync/community");
+  const { default: syncCommunity } = await import("./sync");
   await syncCommunity();
 });
 
@@ -19,7 +19,7 @@ scan.description("Scan jobs from ATS patterns").action(async () => {
   const { default: checkConfig } = await import("./setup/checkConfig");
   await checkConfig();
 
-  const { default: syncDiscover } = await import("./sync/discover");
+  const { default: syncDiscover } = await import("./scan");
   await syncDiscover();
 });
 

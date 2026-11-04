@@ -4,7 +4,7 @@ import { SOURCES } from "@/constants";
 
 import type { Job } from "@/types";
 
-import { createSyncContext, processJobs } from "./shared";
+import { createSyncContext, processJobs } from "../ingest";
 
 import { isKnownJob } from "@/modules/ats/job-key";
 import { getCompanyKey } from "@/modules/employer/build";

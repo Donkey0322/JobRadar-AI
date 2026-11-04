@@ -1,5 +1,5 @@
-import { createSyncContext, processJobs } from "./command/sync/shared";
 import { createIssueSectionParser } from "./utils/github-issue";
+import { createSyncContext, processJobs } from "./ingest";
 
 import { readJsonFile } from "@/utils/data";
 import { logger } from "@/utils/logger";

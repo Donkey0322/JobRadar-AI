@@ -18,7 +18,7 @@ vi.mock("@/modules/postings/batch", () => ({
   submitQueuedJobs: submitQueuedJobsMock,
 }));
 
-vi.mock("../index", () => ({
+vi.mock("../../ingest", () => ({
   persistAnalyzedJobs: persistAnalyzedJobsMock,
 }));
 
@@ -26,7 +26,7 @@ vi.mock("@/utils/logger", () => ({
   logger: { info: vi.fn(), warn: vi.fn(), error: vi.fn() },
 }));
 
-import processBatchQueue from "../batch";
+import { processBatchQueue } from "../batch";
 
 const usaJd: JD = {
   citizenship: false,
