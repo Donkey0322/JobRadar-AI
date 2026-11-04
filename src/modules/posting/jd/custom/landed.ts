@@ -1,4 +1,4 @@
-import { getJobKey } from "@/utils/job-key";
+import { getJobKey } from "@/modules/ats/job-key";
 
 /**
  * A followed redirect left the posting when the landed URL is a different job.

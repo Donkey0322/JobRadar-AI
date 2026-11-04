@@ -4,7 +4,7 @@ import type { JDFetchResult } from "./fetch";
 
 import { fetchJD, JD_FETCH_ERROR } from "./fetch";
 
-import { getLastPathNumber } from "@/utils/job-key/url";
+import { getLastPathNumber } from "@/modules/ats/job-key/url";
 
 export async function fetchSmartRecruitersJD(
   url: string,

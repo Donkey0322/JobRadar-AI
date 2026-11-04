@@ -86,7 +86,7 @@ vi.mock("@/utils/logger", () => ({
 
 import { collectInflightBatches, enqueueBatchJobs, submitQueuedJobs } from "../batch";
 
-import { getJobKey } from "@/utils/job-key";
+import { getJobKey } from "@/modules/ats/job-key";
 
 const getRawJDSpy = vi.spyOn(Posting.prototype, "getRawJD");
 

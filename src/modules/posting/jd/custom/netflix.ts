@@ -2,7 +2,7 @@ import { createJDFetchSignal } from "@/constants";
 
 import { JD_FETCH_ERROR, JD_FETCH_OK, type JDFetchResult } from "../fetch";
 
-import { getLastPathNumber } from "@/utils/job-key/url";
+import { getLastPathNumber } from "@/modules/ats/job-key/url";
 
 const NETFLIX_API_URL = "https://explore.jobs.netflix.net/api/apply/v2/jobs";
 

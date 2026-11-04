@@ -11,13 +11,13 @@ import {
   type JDFetchStatus,
 } from "../fetch";
 
+import { getLastPathNumber } from "@/modules/ats/job-key/url";
 import {
   fetchHtmlResponse,
   getSetCookieHeader,
   type HtmlResponse,
   isHtmlResponse,
 } from "@/utils/http";
-import { getLastPathNumber } from "@/utils/job-key/url";
 import { logger } from "@/utils/logger";
 import { htmlToText, normalizeRawText } from "@/utils/string";
 

@@ -23,7 +23,7 @@ const dexcom: Company = {
 };
 
 const aliasUrls = readFileSync(
-  path.join(import.meta.dirname, "../../../utils/job-key/test/fixtures/keys.tsv"),
+  path.join(import.meta.dirname, "../../ats/job-key/test/fixtures/keys.tsv"),
   "utf-8"
 )
   .split("\n")

@@ -79,23 +79,24 @@ describe("architecture boundaries", () => {
   });
 
   it("rejects another edge in a directory pair that already has an exception", () => {
+    expect(architectureExceptions.some((item) => item.rule === "utils must not import modules")).toBe(
+      false
+    );
     expect(
       architectureExceptions.some(
-        (item) =>
-          item.from.startsWith("src/utils/job-key/") && item.to.startsWith("src/modules/employer/")
+        (item) => item.from.startsWith("src/utils/ai/") && item.to.startsWith("src/constants/")
       )
     ).toBe(true);
 
     expect(
       added({
-        "src/utils/job-key/__architecture_probe.ts":
-          'import { partitionUrlsByListedKeys } from "@/modules/employer/liveness";\n',
+        "src/utils/ai/__architecture_probe.ts": 'import { COUNTRIES } from "@/constants/country";\n',
       })
     ).toEqual([
       {
-        rule: "utils must not import modules",
-        from: "src/utils/job-key/__architecture_probe.ts",
-        to: "src/modules/employer/liveness.ts",
+        rule: "utils must not import constants",
+        from: "src/utils/ai/__architecture_probe.ts",
+        to: "src/constants/country.ts",
         kind: "runtime",
       },
     ]);

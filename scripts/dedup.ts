@@ -3,9 +3,9 @@ import { fileURLToPath } from "node:url";
 
 import { GREEN_CHECKMARK, RED_CROSS } from "@/constants/log";
 
+import { deduplicate, groupUrlsByKey } from "@/modules/ats/job-key";
 import { deduplicateOpportunities, syncExpiredFlags } from "@/modules/postings/dedup";
 import { loadOpportunities, loadUrls, saveOpportunities, saveUrls } from "@/utils/data";
-import { deduplicate, groupUrlsByKey } from "@/utils/job-key";
 import { logger } from "@/utils/logger";
 
 export default async function main() {

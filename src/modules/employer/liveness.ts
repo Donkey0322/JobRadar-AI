@@ -2,7 +2,7 @@ import type { Company } from "@/types";
 
 import { asEmployer } from "./registry";
 
-import { getJobKey } from "@/utils/job-key";
+import { getJobKey } from "@/modules/ats/job-key";
 
 export function partitionUrlsByListedKeys(
   urls: readonly string[],

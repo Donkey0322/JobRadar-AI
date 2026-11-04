@@ -1,6 +1,6 @@
 import type { Opportunity } from "@/types";
 
-import { getJobKey } from "@/utils/job-key";
+import { getJobKey } from "@/modules/ats/job-key";
 
 /** Drop expired rows last seen longer ago than this. `postedAt` is that sighting, not the expiry time. */
 export const STALE_EXPIRED_OPPORTUNITY_MS = 90 * 24 * 60 * 60 * 1000;

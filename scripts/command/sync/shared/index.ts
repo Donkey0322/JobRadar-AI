@@ -10,6 +10,7 @@ import type { JD } from "@/types/jobs";
 
 import { outcomeAfterAnalysis, resolveJob } from "./outcome";
 
+import { deduplicateJobs, groupUrlsByKey } from "@/modules/ats/job-key";
 import { buildCompanyList } from "@/modules/employer/build";
 import { Posting } from "@/modules/posting";
 import { enqueueBatchJobs } from "@/modules/postings/batch";
@@ -27,7 +28,6 @@ import {
   saveUrls,
 } from "@/utils/data";
 import { renderProgress, startProgress } from "@/utils/dev";
-import { deduplicateJobs, groupUrlsByKey } from "@/utils/job-key";
 import { logger } from "@/utils/logger";
 
 const DEFAULT_SOFT_DEADLINE_MS = 15 * 60 * 1000;

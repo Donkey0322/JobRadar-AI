@@ -3,7 +3,7 @@ import pLimit from "p-limit";
 import type { Employer } from "./employer";
 import type { Job } from "@/types";
 
-import { deduplicateJobs } from "@/utils/job-key";
+import { deduplicateJobs } from "@/modules/ats/job-key";
 
 export type DiscoverCompanyTiming = {
   company: string;

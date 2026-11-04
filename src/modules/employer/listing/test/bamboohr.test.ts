@@ -18,8 +18,8 @@ import type { Company } from "@/types";
 import { Employer } from "../../employer";
 import { bambooHRFetcher } from "../bamboohr";
 
+import { toJobKeySet } from "@/modules/ats/job-key";
 import { appendErrorLog } from "@/utils/data";
-import { toJobKeySet } from "@/utils/job-key";
 
 const mockFetch = vi.fn<typeof fetch>();
 

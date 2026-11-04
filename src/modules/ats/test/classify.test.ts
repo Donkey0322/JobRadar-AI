@@ -4,8 +4,8 @@ import type { ATS } from "@/modules/ats/types";
 
 import { classifyATS } from "../classify";
 
+import { getJobKey } from "@/modules/ats/job-key";
 import { employers } from "@/modules/employer/registry";
-import { getJobKey } from "@/utils/job-key";
 
 describe("classifyATS", () => {
   it.each<[string, ATS]>([

@@ -8,6 +8,7 @@ import { RED_CROSS } from "@/constants/log";
 import type { JD, Job } from "@/types";
 import type { BatchGenerateRequest } from "@/utils/ai/provider/utils";
 
+import { getJobKey } from "@/modules/ats/job-key";
 import analyzeJD, {
   analyzeQualifications,
   formatJDPrompt,
@@ -26,7 +27,6 @@ import {
 import { AI_DEFAULT_MODEL, getAIProvider } from "@/utils/ai";
 import { isAIEnabled } from "@/utils/ai/enabled";
 import { readJsonFile } from "@/utils/data";
-import { getJobKey } from "@/utils/job-key";
 import { logger } from "@/utils/logger";
 import { readNdjsonFileIfExists } from "@/utils/ndjson-archive";
 

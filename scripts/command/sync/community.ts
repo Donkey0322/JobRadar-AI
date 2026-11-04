@@ -6,13 +6,13 @@ import type { Job } from "@/types";
 
 import { createSyncContext, processJobs } from "./shared";
 
+import { isKnownJob } from "@/modules/ats/job-key";
 import { getCompanyKey } from "@/modules/employer/build";
 import { knownEmployerName } from "@/modules/employer/remap";
 import { Posting } from "@/modules/posting";
 import { canonicalizeApplyLink } from "@/modules/posting/apply-link";
 import fetchSource from "@/modules/source";
 import { loadCompanies } from "@/utils/data";
-import { isKnownJob } from "@/utils/job-key";
 import { logger } from "@/utils/logger";
 
 const RESOLVE_CONCURRENCY = 10;

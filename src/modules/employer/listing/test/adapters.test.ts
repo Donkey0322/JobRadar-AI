@@ -15,7 +15,7 @@ import { leverFetcher } from "../lever";
 import { oracleCloudFetcher } from "../oraclecloud";
 import { smartRecruitersFetcher } from "../smart";
 
-import { toJobKeySet } from "@/utils/job-key";
+import { toJobKeySet } from "@/modules/ats/job-key";
 
 const mockFetch = vi.fn<typeof fetch>();
 

@@ -1,8 +1,8 @@
 import type { ATS } from "@/modules/ats/types";
 import type { Company, Job } from "@/types";
 
+import { getJobKey, isKnownJob, toJobKeySet } from "@/modules/ats/job-key";
 import { Posting, type PostingDate } from "@/modules/posting/posting";
-import { getJobKey, isKnownJob, toJobKeySet } from "@/utils/job-key";
 
 export type CompanyResult = Company | null;
 export type MaybePromise<T> = T | Promise<T>;

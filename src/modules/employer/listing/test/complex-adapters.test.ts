@@ -17,8 +17,8 @@ import { phenomFetcher } from "../phenom";
 import { radancyFetcher } from "../radancy";
 import { workdayFetcher } from "../workday";
 
+import { getJobKey, toJobKeySet } from "@/modules/ats/job-key";
 import { appendErrorLog } from "@/utils/data";
-import { getJobKey, toJobKeySet } from "@/utils/job-key";
 
 const mockFetch = vi.fn<typeof fetch>();
 

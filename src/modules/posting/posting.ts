@@ -8,8 +8,8 @@ import { analyzePosting, extractQualifications } from "./analyze";
 import { fetchPostingJD } from "./jd";
 import { isNotifyCandidate, isTarget, shouldBatchAnalyze, withinDays } from "./titles";
 
+import { getJobKey, isKnownJob } from "@/modules/ats/job-key";
 import { isAIEnabled } from "@/utils/ai/enabled";
-import { getJobKey, isKnownJob } from "@/utils/job-key";
 import { logger } from "@/utils/logger";
 
 export type PostingDate = string | number | null | undefined;

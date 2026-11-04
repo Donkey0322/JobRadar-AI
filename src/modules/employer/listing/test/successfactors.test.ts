@@ -15,7 +15,7 @@ import type { Company } from "@/types";
 import { Employer } from "../../employer";
 import { successFactorsFetcher } from "../successfactors";
 
-import { toJobKeySet } from "@/utils/job-key";
+import { toJobKeySet } from "@/modules/ats/job-key";
 
 const mockFetch = vi.fn<typeof fetch>();
 

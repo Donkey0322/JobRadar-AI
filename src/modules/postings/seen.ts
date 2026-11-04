@@ -1,6 +1,6 @@
 import type { Job, Opportunity } from "@/types";
 
-import { getJobKey } from "@/utils/job-key";
+import { getJobKey } from "@/modules/ats/job-key";
 
 export type OpportunityLedger = {
   existing: Opportunity[];

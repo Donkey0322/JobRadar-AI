@@ -20,7 +20,7 @@ import {
 } from "../ats";
 import { getJobKey } from "..";
 
-import { CUSTOM_COMPANY_DOMAINS, parseCustomCompanyIdentifier } from "@/modules/employer/listing";
+import { CUSTOM_COMPANY_DOMAINS, parseCustomCompanyIdentifier } from "@/modules/ats/custom";
 
 describe.each(Object.entries(CUSTOM_COMPANY_DOMAINS))(
   "custom company matcher: %s",

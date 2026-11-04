@@ -9,6 +9,7 @@ import type { Company, Opportunity } from "@/types";
 import deduplicate from "./dedup";
 
 import { classifyATS } from "@/modules/ats/classify";
+import { groupUrlsByKey } from "@/modules/ats/job-key";
 import { buildCompanyList, getCompanyKey, groupUrlsByCompanyKey } from "@/modules/employer/build";
 import { checkUrlsAgainstListing } from "@/modules/employer/liveness";
 import { Posting } from "@/modules/posting";
@@ -22,7 +23,6 @@ import {
   saveUrls,
 } from "@/utils/data";
 import { renderProgress, startProgress } from "@/utils/dev";
-import { groupUrlsByKey } from "@/utils/job-key";
 import { logger } from "@/utils/logger";
 
 /**

@@ -2,11 +2,36 @@ import { readFileSync } from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
 
+import type { ATS } from "@/modules/ats/types";
+
+import { classifyATS } from "../../classify";
 import { getJobKey } from "..";
 
-import { classifyATS } from "@/modules/ats/classify";
-import { aliasedCompanyKey } from "@/modules/employer/aliases";
-import { employers } from "@/modules/employer/registry";
+function everyAts<const T extends readonly ATS[]>(
+  names: Exclude<ATS, T[number]> extends never ? T : never
+): T {
+  return names;
+}
+
+const ATS_NAMES = everyAts([
+  "ashby",
+  "bamboohr",
+  "eightfold",
+  "greenhouse",
+  "icims",
+  "jazzhr",
+  "lever",
+  "oraclecloud",
+  "phenom",
+  "pinpoint",
+  "radancy",
+  "rippling",
+  "smartrecruiters",
+  "successfactors",
+  "workday",
+  "custom",
+  "none",
+]);
 
 interface FixtureRow {
   stratum: string;
@@ -53,7 +78,7 @@ describe("job key golden fixture", () => {
   it("covers every ATS", () => {
     const covered = new Set(rows.map((row) => row.ats));
 
-    for (const ats of Object.keys(employers)) {
+    for (const ats of ATS_NAMES) {
       expect(covered, ats).toContain(ats);
     }
   });
@@ -73,9 +98,8 @@ describe("job key golden fixture", () => {
     const urls = inStratum("alias");
 
     expect(urls).toHaveLength(9);
-    for (const { url, ats } of urls) {
+    for (const { ats } of urls) {
       expect(ats).toBe("none");
-      expect(aliasedCompanyKey(new URL(url))).not.toBeNull();
     }
   });
 });

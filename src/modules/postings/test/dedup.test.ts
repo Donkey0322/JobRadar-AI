@@ -9,7 +9,7 @@ import {
   syncExpiredFlags,
 } from "../dedup";
 
-import { groupUrlsByKey } from "@/utils/job-key";
+import { groupUrlsByKey } from "@/modules/ats/job-key";
 
 function opportunity(link: string, overrides: Partial<Opportunity> = {}): Opportunity {
   return {
