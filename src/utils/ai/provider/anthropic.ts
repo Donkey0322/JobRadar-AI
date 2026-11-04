@@ -15,7 +15,7 @@ import type {
 import { withRetry } from "./utils";
 
 import { logger } from "@/utils/logger";
-import { stringifyResult } from "@/utils/string";
+import { stringifyResult } from "@/utils/text";
 
 const PRICE_IN = 3 / 1_000_000;
 const PRICE_OUT = 15 / 1_000_000;

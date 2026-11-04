@@ -1,7 +1,7 @@
 import * as cheerio from "cheerio";
 
 import { decodeHtmlEntities } from "@/utils/html";
-import { cleanText } from "@/utils/string";
+import { cleanText } from "@/utils/text";
 import { getHostnameWithoutWww } from "@/utils/url";
 
 const LOCALE_PREFIX = "^(?:/([a-z]{2}(?:-[a-z]{2})?))?";

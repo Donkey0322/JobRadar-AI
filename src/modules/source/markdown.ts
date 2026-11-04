@@ -1,6 +1,9 @@
 import type { Job } from "@/types";
 
-import { cleanLink, getToday, HREF_RE } from "@/utils/string";
+import { getToday } from "@/utils/date";
+import { cleanLink } from "@/utils/url";
+
+const HREF_RE = /href="([^"]+)"/;
 
 function normalizeText(s: string): string {
   const normalized = s.replace(/\*\*/g, "").normalize("NFKC").trim();

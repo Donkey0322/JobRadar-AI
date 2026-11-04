@@ -13,9 +13,9 @@ import {
 } from "@/modules/ats/radancy";
 import { logListingFailure } from "@/modules/employer/failure";
 import { errorLog } from "@/store";
+import { formatCompanyName } from "@/utils/company-name";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
-import { formatCompanyName } from "@/utils/string";
 import { getHostnameWithoutWww } from "@/utils/url";
 
 export const RadancyJobSchema = z.object({

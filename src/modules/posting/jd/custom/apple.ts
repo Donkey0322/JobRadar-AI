@@ -3,7 +3,7 @@ import { createJDFetchSignal } from "../signal";
 
 import { landedOnSameJob } from "./landed";
 
-import { htmlToText } from "@/utils/string";
+import { htmlToText } from "@/utils/html";
 
 const APPLE_HYDRATION_PATTERN =
   /window\.__staticRouterHydrationData\s*=\s*JSON\.parse\(\s*(["'])((?:\\.|(?!\1)[\s\S])*)\1\s*\)/;

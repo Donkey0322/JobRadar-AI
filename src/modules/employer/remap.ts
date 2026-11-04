@@ -2,7 +2,7 @@ import type { Company } from "@/types";
 
 import { companyKeyFromUrl } from "./keys";
 
-import { formatCompanyName } from "@/utils/string";
+import { formatCompanyName } from "@/utils/company-name";
 import { getHostnameWithoutWww } from "@/utils/url";
 
 function tenantHintFromUrl(url: URL): string | undefined {

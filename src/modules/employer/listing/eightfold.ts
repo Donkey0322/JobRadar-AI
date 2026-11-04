@@ -8,8 +8,8 @@ import { Employer } from "../employer";
 
 import { eightfoldDomain, eightfoldIdentifier } from "@/modules/ats/eightfold";
 import { logListingStatus } from "@/modules/employer/failure";
+import { formatCompanyName } from "@/utils/company-name";
 import { logger } from "@/utils/logger";
-import { formatCompanyName } from "@/utils/string";
 
 export const TRACKING_PARAM = "8fold_id";
 

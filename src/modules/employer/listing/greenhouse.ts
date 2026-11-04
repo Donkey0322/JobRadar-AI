@@ -13,8 +13,8 @@ import {
   resolveGreenhouseIdentifier,
 } from "@/modules/ats/greenhouse";
 import { logListingStatus } from "@/modules/employer/failure";
+import { formatCompanyName } from "@/utils/company-name";
 import { logger } from "@/utils/logger";
-import { formatCompanyName } from "@/utils/string";
 import { getHostnameWithoutWww } from "@/utils/url";
 
 export const GreenhouseJobSchema = z.object({

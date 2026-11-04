@@ -8,6 +8,8 @@ import type { PostingAnalysisFailure } from "@/modules/posting";
 import type { Job } from "@/types";
 import type { JD } from "@/types/jobs";
 
+import { renderBuildProgress, renderProgress, startProgress } from "../utils/progress";
+
 import { outcomeAfterAnalysis, resolveJob } from "./outcome";
 
 import { deduplicateJobs, groupUrlsByKey } from "@/modules/ats/job-key";
@@ -20,7 +22,6 @@ import {
 import { Posting } from "@/modules/posting";
 import { enqueueBatchJobs } from "@/modules/posting/batch";
 import * as store from "@/store";
-import { renderProgress, startProgress } from "@/utils/dev";
 import { logger } from "@/utils/logger";
 
 const DEFAULT_SOFT_DEADLINE_MS = 15 * 60 * 1000;
@@ -252,7 +253,7 @@ async function flushProcessedJobs(input: {
   await saveSeenOpportunities(opportunities);
 
   if (newUrlAdded) {
-    await buildCompanyList(urls);
+    await buildCompanyList(urls, renderBuildProgress);
   }
 
   if (state.forceStopped) {

@@ -7,8 +7,8 @@ import type { Company, Job } from "@/types";
 import { Employer } from "../employer";
 
 import { logListingStatus } from "@/modules/employer/failure";
+import { formatCompanyName } from "@/utils/company-name";
 import { logger } from "@/utils/logger";
-import { formatCompanyName } from "@/utils/string";
 
 const identifierToLeverCompany = {
   InfrastructureandCapitalProjects: "accenture",

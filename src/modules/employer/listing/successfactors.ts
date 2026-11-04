@@ -12,9 +12,9 @@ import {
   type SuccessFactorsJob,
 } from "@/modules/ats/successfactors";
 import { logListingFailure, logListingStatus } from "@/modules/employer/failure";
+import { formatCompanyName } from "@/utils/company-name";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
-import { formatCompanyName } from "@/utils/string";
 import { getHostnameWithoutWww } from "@/utils/url";
 
 export type { SuccessFactorsJob } from "@/modules/ats/successfactors";

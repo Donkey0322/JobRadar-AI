@@ -1,6 +1,6 @@
 import * as cheerio from "cheerio";
 
-import { cleanText } from "@/utils/string";
+import { cleanText } from "@/utils/text";
 import { getHostnameWithoutWww } from "@/utils/url";
 
 /**

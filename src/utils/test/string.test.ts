@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 
-import { cleanText, stripLegalSuffix } from "../string";
+import { stripLegalSuffix } from "../company-name";
+import { cleanText } from "../text";
 
 describe("stripLegalSuffix", () => {
   it.each([

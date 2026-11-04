@@ -10,7 +10,7 @@ import {
   pinpointListingUrl,
   PinpointResponseSchema,
 } from "@/modules/ats/pinpoint";
-import { htmlToText } from "@/utils/string";
+import { htmlToText } from "@/utils/html";
 
 /** Pinpoint has no per-posting API; the JD comes from the tenant's postings feed. */
 export async function fetchPinpointJD(

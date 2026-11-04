@@ -4,8 +4,8 @@ import { type Season,SEASONS } from "@/constants/season";
 
 import type { Job } from "@/types";
 
+import { getToday } from "@/utils/date";
 import { escapeHtml } from "@/utils/html";
-import { getToday } from "@/utils/string";
 
 function locationIcon(location: Country) {
   switch (location) {

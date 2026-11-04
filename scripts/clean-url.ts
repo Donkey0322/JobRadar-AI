@@ -6,6 +6,7 @@ import { GREEN_CHECKMARK, RED_CROSS } from "@/constants/log";
 import type { JDFetchResult, JDFetchStatus } from "@/modules/posting/jd";
 import type { Company, Opportunity } from "@/types";
 
+import { renderBuildProgress, renderProgress, startProgress } from "./utils/progress";
 import deduplicate from "./dedup";
 
 import { classifyATS } from "@/modules/ats/classify";
@@ -16,7 +17,6 @@ import { dropStaleExpiredOpportunities, syncExpiredFlags } from "@/modules/oppor
 import { Posting } from "@/modules/posting";
 import { HttpStatusCode, isRetryableJDFetch, NETWORK_ERROR_CODE } from "@/modules/posting/jd";
 import * as store from "@/store";
-import { renderProgress, startProgress } from "@/utils/dev";
 import { logger } from "@/utils/logger";
 
 /**
@@ -314,7 +314,7 @@ async function main() {
 
 logger.level = "silent";
 main()
-  .then((urls) => buildCompanyList(urls))
+  .then((urls) => buildCompanyList(urls, renderBuildProgress))
   .catch((err) => {
     logger.fatal({ err }, `${RED_CROSS} Fatal error`);
     process.exit(1);

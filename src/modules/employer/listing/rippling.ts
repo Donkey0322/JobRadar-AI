@@ -16,9 +16,9 @@ import {
 } from "@/modules/ats/rippling";
 import { logListingFailure, logListingStatus } from "@/modules/employer/failure";
 import { errorLog } from "@/store";
+import { formatCompanyName } from "@/utils/company-name";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
-import { formatCompanyName } from "@/utils/string";
 
 export const RipplingJobSchema = z.object({
   uuid: z.string(),

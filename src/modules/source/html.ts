@@ -2,7 +2,7 @@ import * as cheerio from "cheerio";
 
 import type { Job } from "@/types";
 
-import { cleanLink } from "@/utils/string";
+import { cleanLink } from "@/utils/url";
 
 function normalizeText(s: string): string {
   const normalized = s.normalize("NFKC").trim();

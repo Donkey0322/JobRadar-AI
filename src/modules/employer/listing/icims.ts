@@ -21,10 +21,11 @@ import {
   parseJibeJobs,
 } from "@/modules/ats/jibe";
 import { ListingHttpError, logListingFailure } from "@/modules/employer/failure";
+import { formatCompanyName } from "@/utils/company-name";
 import { decodeHtmlEntities } from "@/utils/html";
 import { fetchHtmlResponse, isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
-import { cleanText, formatCompanyName } from "@/utils/string";
+import { cleanText } from "@/utils/text";
 import { getHostnameWithoutWww } from "@/utils/url";
 
 export const IcimsJobSchema = z.object({

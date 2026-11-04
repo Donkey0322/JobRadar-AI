@@ -22,7 +22,7 @@ import { fetchRadancyJobDocument } from "./radancy";
 import { parseCustomCompanyIdentifier } from "@/modules/ats/custom";
 import { isRadancyJobUrl } from "@/modules/ats/radancy";
 import { logger } from "@/utils/logger";
-import { normalizeRawText } from "@/utils/string";
+import { normalizeRawText } from "@/utils/text";
 
 const CLOSED_JD_PHRASES = ["not found", "no longer available"];
 

@@ -9,7 +9,7 @@ import { logListingFailure, logListingStatus } from "@/modules/employer/failure"
 import { createJDFetchSignal } from "@/modules/posting/jd/signal";
 import { Posting } from "@/modules/posting/posting";
 import { logger } from "@/utils/logger";
-import { cleanText } from "@/utils/string";
+import { cleanText } from "@/utils/text";
 
 const APPLE_CAREERS_URL = "https://jobs.apple.com/en-us/search";
 

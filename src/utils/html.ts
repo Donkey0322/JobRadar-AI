@@ -1,3 +1,7 @@
+import * as cheerio from "cheerio";
+
+import { cleanText } from "./text";
+
 const HTML_ESCAPE_CHARACTERS: Record<string, string> = {
   "&": "&amp;",
   "<": "&lt;",
@@ -27,4 +31,16 @@ export function decodeHtmlEntities(value: string): string {
     .replaceAll("&#47;", "/")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+/**
+ * Convert the HTML to text by removing the HTML tags and replacing multiple spaces with one space and trimming the text.
+ * @example
+ * ```ts
+ * htmlToText("<p>Hello</p>"); // "Hello"
+ * ```
+ */
+export function htmlToText(html: string): string {
+  const $ = cheerio.load(html);
+  return cleanText($.root().text());
 }

@@ -8,10 +8,6 @@ const dataMocks = vi.hoisted(() => ({
 }));
 
 vi.mock("@/store", () => dataMocks);
-vi.mock("@/utils/dev", () => ({
-  renderProgress: vi.fn(),
-  startProgress: vi.fn(),
-}));
 vi.mock("@/utils/logger", () => ({
   logger: {
     error: vi.fn(),
@@ -127,6 +123,30 @@ describe("ATS fetcher registry", () => {
       },
     ]);
     expect(formCompany).toHaveBeenCalledWith(new URL("https://example.com/jobs/1"));
+  });
+
+  it("reports each company group from zero and still builds without a callback", async () => {
+    const onProgress = vi.fn();
+
+    const reported = await buildCompanyList(
+      ["https://example.com/jobs/1", "https://widgets.example/jobs/2"],
+      onProgress
+    );
+    const silent = await buildCompanyList([
+      "https://example.com/jobs/1",
+      "https://widgets.example/jobs/2",
+    ]);
+
+    expect(onProgress.mock.calls).toEqual([
+      [0, 2],
+      [1, 2],
+      [2, 2],
+    ]);
+    expect(silent).toEqual(reported);
+    expect(reported.map((company) => company.identifier).sort()).toEqual([
+      "example.com",
+      "widgets.example",
+    ]);
   });
 
   it("groups URLs by company key before calling formCompany", async () => {

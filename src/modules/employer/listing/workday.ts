@@ -8,8 +8,8 @@ import { Employer } from "../employer";
 
 import { isWorkdayLocaleSegment } from "@/modules/ats/workday";
 import { logListingFailure, logListingStatus } from "@/modules/employer/failure";
+import { formatCompanyName } from "@/utils/company-name";
 import { logger } from "@/utils/logger";
-import { formatCompanyName } from "@/utils/string";
 
 const PAGE_SIZE = 20;
 const MAX_PAGES = 20;

@@ -36,7 +36,7 @@ describe("architecture boundaries", () => {
     expect(
       added({
         "src/modules/employer/__architecture_probe.ts":
-          'import { Posting } from "@/modules/posting/posting";\nimport { cleanText } from "@/utils/string";\n',
+          'import { Posting } from "@/modules/posting/posting";\nimport { cleanText } from "@/utils/text";\n',
         "src/types/__architecture_probe.ts":
           'import type { ATS } from "@/modules/ats/types";\n',
         "src/modules/posting/__architecture_probe.ts":

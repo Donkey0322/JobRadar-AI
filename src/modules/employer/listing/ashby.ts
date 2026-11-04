@@ -17,8 +17,8 @@ import {
   resolveAshbyIdentifier,
 } from "@/modules/ats/ashby";
 import { logListingStatus } from "@/modules/employer/failure";
+import { formatCompanyName } from "@/utils/company-name";
 import { logger } from "@/utils/logger";
-import { formatCompanyName } from "@/utils/string";
 import { getHostnameWithoutWww } from "@/utils/url";
 
 function buildCompany(url: URL, identifier: string, name = identifier): Company {

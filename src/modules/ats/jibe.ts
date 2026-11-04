@@ -1,6 +1,6 @@
 import z from "zod";
 
-import { stripLegalSuffix } from "@/utils/string";
+import { stripLegalSuffix } from "@/utils/company-name";
 import { getHostnameWithoutWww } from "@/utils/url";
 
 /**

@@ -20,6 +20,7 @@ import {
   postMetaGraphql,
 } from "@/modules/ats/custom/meta";
 import { getLastPathNumber } from "@/modules/ats/job-key/url";
+import { htmlToText } from "@/utils/html";
 import {
   fetchHtmlResponse,
   getSetCookieHeader,
@@ -27,7 +28,7 @@ import {
   isHtmlResponse,
 } from "@/utils/http";
 import { logger } from "@/utils/logger";
-import { htmlToText, normalizeRawText } from "@/utils/string";
+import { normalizeRawText } from "@/utils/text";
 
 const META_JOB_DETAILS_DOC_ID = "27371134039243725";
 const META_JOB_DETAILS_QUERY = "CandidatePortalJobDetailsViewQuery";

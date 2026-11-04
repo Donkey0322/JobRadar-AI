@@ -9,7 +9,6 @@ import { employers } from "./registry";
 
 import { classifyATS } from "@/modules/ats/classify";
 import { companies } from "@/store";
-import { renderProgress, startProgress } from "@/utils/dev";
 import { logger } from "@/utils/logger";
 
 const CONCURRENCY = 10;
@@ -131,7 +130,13 @@ async function formCompanyFromGroup(
   }
 }
 
-export async function buildCompanyList(urls: string[] | Set<string>): Promise<Company[]> {
+/** Called with `(0, total)` before grouping work, then `(completed, total)` after each group. */
+export type BuildProgress = (current: number, total: number) => void;
+
+export async function buildCompanyList(
+  urls: string[] | Set<string>,
+  onProgress?: BuildProgress
+): Promise<Company[]> {
   const map = new Map<string, Company>();
 
   const groups = groupUrlsByCompanyKey(Array.from(urls));
@@ -154,7 +159,7 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
 
   const limit = pLimit(CONCURRENCY);
 
-  startProgress(total);
+  onProgress?.(0, total);
 
   const results = await Promise.all(
     Array.from(groups.entries()).map(([groupKey, groupUrls]) =>
@@ -162,7 +167,7 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
         const result = await formCompanyFromGroup(groupKey, groupUrls);
 
         completed++;
-        renderProgress(completed, total);
+        onProgress?.(completed, total);
 
         return result;
       })

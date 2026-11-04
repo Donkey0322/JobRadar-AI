@@ -16,7 +16,7 @@ import {
 import { findIcimsIframeSrc, isIcimsUrl, normalizeIcimsUrl } from "@/modules/ats/icims";
 import { fetchHtmlResponse } from "@/utils/http";
 import { logger } from "@/utils/logger";
-import { cleanText, normalizeRawText } from "@/utils/string";
+import { cleanText, normalizeRawText } from "@/utils/text";
 
 const MIN_JD_LENGTH = 300;
 

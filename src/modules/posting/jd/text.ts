@@ -1,4 +1,5 @@
-import { htmlToText, normalizeRawText } from "@/utils/string";
+import { htmlToText } from "@/utils/html";
+import { normalizeRawText } from "@/utils/text";
 
 export const DEFAULT_JD_MAX_CHARS = 12_000;
 

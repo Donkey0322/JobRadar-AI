@@ -179,3 +179,13 @@ export function renderProgress(current: number, total: number) {
 
   ensureTickTimer();
 }
+
+/** `buildCompanyList` reports 0 before work, then 1..total as each group finishes. */
+export function renderBuildProgress(current: number, total: number) {
+  if (current === 0) {
+    startProgress(total);
+    return;
+  }
+
+  renderProgress(current, total);
+}

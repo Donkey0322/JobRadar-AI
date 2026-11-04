@@ -8,7 +8,7 @@ import { fetchJDByATS } from "./registry";
 
 import { classifyATS } from "@/modules/ats/classify";
 import { logger } from "@/utils/logger";
-import { normalizeRawText } from "@/utils/string";
+import { normalizeRawText } from "@/utils/text";
 
 function finishRawJD(result: JDFetchResult): JDFetchResult {
   if (!result.jd) return result;

@@ -1,13 +1,13 @@
 import "dotenv/config";
 
 import { createSyncContext, processJobs } from "../ingest";
+import { renderProgress, startProgress } from "../utils/progress";
 
 import { ALLOWED_COUNTRIES } from "@/config";
 import { fetchEmployerJobs } from "@/modules/employer/discover";
 import { asEmployer } from "@/modules/employer/registry";
 import { classifyLocations } from "@/modules/posting/analysis/location";
 import * as store from "@/store";
-import { renderProgress, startProgress } from "@/utils/dev";
 import { logger } from "@/utils/logger";
 
 const CONCURRENCY = 10;

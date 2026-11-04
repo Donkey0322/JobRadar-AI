@@ -13,9 +13,9 @@ import {
   PinpointResponseSchema,
 } from "@/modules/ats/pinpoint";
 import { logListingFailure, logListingStatus } from "@/modules/employer/failure";
+import { formatCompanyName } from "@/utils/company-name";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
-import { formatCompanyName } from "@/utils/string";
 
 export type PinpointJob = PinpointPosting;
 

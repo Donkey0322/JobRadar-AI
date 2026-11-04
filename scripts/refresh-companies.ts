@@ -5,6 +5,8 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company } from "@/types";
 
+import { renderBuildProgress } from "./utils/progress";
+
 import { buildCompanyList, getCompanyKey } from "@/modules/employer/build";
 import { remapStoredCompany } from "@/modules/employer/remap";
 import * as store from "@/store";
@@ -65,7 +67,7 @@ export async function remapStoredCompanyNames(
 
 async function main() {
   const urls = await store.urls.load();
-  const companies = await buildCompanyList(urls);
+  const companies = await buildCompanyList(urls, renderBuildProgress);
   const remapped = await remapStoredCompanyNames(companies);
 
   logger.info(remapped, "🏷️ Remapped stored job company names");

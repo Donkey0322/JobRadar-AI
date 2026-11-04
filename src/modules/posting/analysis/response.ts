@@ -5,7 +5,7 @@ import type { JD } from "@/types/jobs";
 
 import { JDResponseSchema } from "./validation/ai";
 
-import { cleanText } from "@/utils/string";
+import { cleanText } from "@/utils/text";
 
 const QualificationResponseSchema = z.object({
   qualifications: z.array(z.string()),
