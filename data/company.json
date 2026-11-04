@@ -3597,7 +3597,8 @@
       "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015552",
       "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015722",
       "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015735",
-      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015813"
+      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015813",
+      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26016065"
     ]
   },
   {
@@ -5531,7 +5532,10 @@
       "https://apply.workable.com/amax-1/j/C8FD3B365F",
       "https://apply.workable.com/botpress/j/16C68A50A7/apply",
       "https://apply.workable.com/botpress/j/9B3CB646E8/apply",
-      "https://apply.workable.com/j/9B3CB646E8"
+      "https://apply.workable.com/j/739753C003",
+      "https://apply.workable.com/j/772CD136FF",
+      "https://apply.workable.com/j/9B3CB646E8",
+      "https://apply.workable.com/j/CA15908E0A"
     ]
   },
   {
@@ -7828,6 +7832,17 @@
     "page": "https://bb.wd3.myworkdayjobs.com/wday/cxs/bb/QNX/jobs",
     "urls": [
       "https://bb.wd3.myworkdayjobs.com/QNX/job/Ottawa-Ontario/QNX-Systems-Software-Developer_20260323-1"
+    ]
+  },
+  {
+    "name": "bb",
+    "ats": "workday",
+    "identifier": "bb-student",
+    "domain": "https://bb.wd3.myworkdayjobs.com/Student",
+    "page": "https://bb.wd3.myworkdayjobs.com/wday/cxs/bb/Student/jobs",
+    "urls": [
+      "https://bb.wd3.myworkdayjobs.com/Student/job/Ottawa-Ontario/Software-Developer-Student_20260342",
+      "https://bb.wd3.myworkdayjobs.com/Student/job/Ottawa-Ontario/Software-Development-Student_20260343"
     ]
   },
   {
@@ -14334,6 +14349,7 @@
       "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Test-Tools---Automation-Full-Stack-Software-Engineer_R030305",
       "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Wavelogic-Embedded-Software-Developer-Intern--Winter-2027-_R031890",
       "https://ciena.wd5.myworkdayjobs.com/Careers/job/Quebec/Intern---Software-Developer-Technician_R031983-1",
+      "https://ciena.wd5.myworkdayjobs.com/Careers/job/Quebec/Stagiaire-en-dveloppement-logiciel---Software-developer-Intern-Co-op_R032046",
       "https://ciena.wd5.myworkdayjobs.com/Careers/job/Remote-UK/Data-Scientist---Supply-Chain-Optimisation_R031077",
       "https://ciena.wd5.myworkdayjobs.com/careers/job/Ottawa/Embedded-Software-Engineer---New-Grad_R031571",
       "https://ciena.wd5.myworkdayjobs.com/careers/job/Ottawa/Embedded-software-engineer_R031266",
@@ -16296,6 +16312,16 @@
     ]
   },
   {
+    "name": "cylake-inc",
+    "ats": "ashby",
+    "identifier": "cylake-inc",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/cylake-inc",
+    "urls": [
+      "https://jobs.ashbyhq.com/cylake-inc/1d1ac42e-299c-42af-bd7c-b8c5fb07f735"
+    ]
+  },
+  {
     "name": "cypresscreekrenewables",
     "ats": "greenhouse",
     "identifier": "cypresscreekrenewables",
@@ -16358,6 +16384,16 @@
     "domain": "https://daikinapplied.wd1.myworkdayjobs.com/daikin-careers",
     "page": "https://daikinapplied.wd1.myworkdayjobs.com/wday/cxs/daikinapplied/daikin-careers/jobs",
     "urls": []
+  },
+  {
+    "name": "dairynet",
+    "ats": "workday",
+    "identifier": "dairynet-dpccareers",
+    "domain": "https://dairynet.wd1.myworkdayjobs.com/DPCcareers",
+    "page": "https://dairynet.wd1.myworkdayjobs.com/wday/cxs/dairynet/DPCcareers/jobs",
+    "urls": [
+      "https://dairynet.wd1.myworkdayjobs.com/DPCcareers/job/La-Crosse-Wisconsin/Intern--Energy-Data-Analyst_JR101052"
+    ]
   },
   {
     "name": "danaher",
@@ -16891,6 +16927,17 @@
       "https://dimensional.wd5.myworkdayjobs.com/dfa_careers/job/Remote---Austin-Metro/Full-Stack-Software-Engineer_2026-9108",
       "https://dimensional.wd5.myworkdayjobs.com/dfa_careers/job/Remote---Austin-Metro/Principle-Software-Engineer_2026-9095",
       "https://dimensional.wd5.myworkdayjobs.com/dfa_careers/job/Remote---Other/Software-Engineer--Contractor-_2026-8917"
+    ]
+  },
+  {
+    "name": "directsupply",
+    "ats": "workday",
+    "identifier": "directsupply-direct-supply-careers",
+    "domain": "https://directsupply.wd501.myworkdayjobs.com/direct-supply-careers",
+    "page": "https://directsupply.wd501.myworkdayjobs.com/wday/cxs/directsupply/direct-supply-careers/jobs",
+    "urls": [
+      "https://directsupply.wd501.myworkdayjobs.com/direct-supply-careers/job/Milwaukee-WI/AI-Engineer-Intern_REQ-2026-2553",
+      "https://directsupply.wd501.myworkdayjobs.com/direct-supply-careers/job/Milwaukee-WI/Software-Engineer-Intern_REQ-2026-2559"
     ]
   },
   {
@@ -22401,6 +22448,17 @@
     ]
   },
   {
+    "name": "greatamerica",
+    "ats": "workday",
+    "identifier": "greatamerica-greatamericacareers",
+    "domain": "https://greatamerica.wd12.myworkdayjobs.com/greatamericacareers",
+    "page": "https://greatamerica.wd12.myworkdayjobs.com/wday/cxs/greatamerica/greatamericacareers/jobs",
+    "urls": [
+      "https://greatamerica.wd12.myworkdayjobs.com/greatamericacareers/job/Cedar-Rapids-IA/Platform-Engineering-Intern_JR1240-1",
+      "https://greatamerica.wd12.myworkdayjobs.com/greatamericacareers/job/Cedar-Rapids-IA/Software-Engineer-Intern_JR1221"
+    ]
+  },
+  {
     "name": "greatquestion",
     "ats": "ashby",
     "identifier": "greatquestion",
@@ -22933,6 +22991,16 @@
     "urls": [
       "https://healthpeak.applytojob.com/apply/RTf9TfJE4h/Forward-Deployed-Software-Engineer-Internship",
       "https://healthpeak.applytojob.com/apply/ss4v1Qi95q/Forward-Deployed-Software-Engineer-Internship"
+    ]
+  },
+  {
+    "name": "hearst",
+    "ats": "greenhouse",
+    "identifier": "hearst",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/hearst/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/hearst/jobs/4473043009"
     ]
   },
   {
@@ -26196,6 +26264,16 @@
       "https://job-boards.greenhouse.io/judihealth/jobs/5418671008",
       "https://job-boards.greenhouse.io/judihealth/jobs/5422142008",
       "https://job-boards.greenhouse.io/judihealth/jobs/5437560008"
+    ]
+  },
+  {
+    "name": "julius",
+    "ats": "ashby",
+    "identifier": "julius",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/julius",
+    "urls": [
+      "https://jobs.ashbyhq.com/julius/5e0b677a-f677-44de-93c6-f7848ab5a8e6"
     ]
   },
   {
@@ -36205,6 +36283,7 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/realmalliance",
     "urls": [
+      "https://jobs.ashbyhq.com/realmalliance/56d8b433-31ad-43a2-997e-b8538f5f2c9f",
       "https://jobs.ashbyhq.com/realmalliance/a8a2f78e-1c28-4b52-a77a-c2b2ad9b7a8a/application?embed=true"
     ]
   },
@@ -37090,6 +37169,16 @@
       "https://careers.roblox.com/jobs/8283707?gh_jid=8283707",
       "https://careers.roblox.com/jobs/8304210?gh_jid=8304210",
       "https://careers.roblox.com/jobs/8325759?gh_jid=8325759"
+    ]
+  },
+  {
+    "name": "roboforce",
+    "ats": "greenhouse",
+    "identifier": "roboforce",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/roboforce/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/roboforce/jobs/5470001008"
     ]
   },
   {
@@ -43725,6 +43814,7 @@
     "domain": "https://tmobile.wd1.myworkdayjobs.com/external",
     "page": "https://tmobile.wd1.myworkdayjobs.com/wday/cxs/tmobile/external/jobs",
     "urls": [
+      "https://tmobile.wd1.myworkdayjobs.com/External/job/Atlanta-Georgia/Summer-2027-Software-Engineering-Internship_REQ380652",
       "https://tmobile.wd1.myworkdayjobs.com/external/job/Bellevue-Washington/Embedded-Software-Engineer---Broadband-CPE_REQ377384-1",
       "https://tmobile.wd1.myworkdayjobs.com/external/job/Bellevue-Washington/Engineer--Software---Core---IP-Services-Automation_REQ366778-1",
       "https://tmobile.wd1.myworkdayjobs.com/external/job/Bellevue-Washington/Sr-AI-Engineer_REQ379874",
