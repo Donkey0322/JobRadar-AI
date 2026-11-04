@@ -91,7 +91,7 @@ Each category page shows up to 300 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 1,942 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,765 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,432 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,431 opportunities
 
 ## The List 🚴‍♂️
 
@@ -776,7 +776,7 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,432 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,431 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -795,7 +795,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-04T06:20:58.332Z</code>
+      🕒 Last updated <code>2026-11-04T14:32:09.370Z</code>
     </span>
   </p>
 </div>
