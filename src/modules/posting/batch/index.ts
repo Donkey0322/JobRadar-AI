@@ -6,7 +6,7 @@ import { BATCH_INFLIGHT_PATH, BATCH_QUEUE_PATH } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
 import type { JD, Job } from "@/types";
-import type { BatchGenerateRequest } from "@/utils/ai/provider/utils";
+import type { AIResponse, BatchGenerateRequest } from "@/utils/ai/provider/utils";
 
 import { getJobKey } from "@/modules/ats/job-key";
 import analyzeJD, {
@@ -16,7 +16,6 @@ import analyzeJD, {
   getAnalyzeJDConfig,
   getQualificationConfig,
 } from "@/modules/posting/analysis/ai";
-import { extractQualifications } from "@/modules/posting/analysis/analyze";
 import {
   jdResponseSpilled,
   parseAIJDResult,
@@ -32,21 +31,24 @@ import { readNdjsonFileIfExists } from "@/utils/ndjson-archive";
 
 async function withQualifications(job: Job, jd: JD, rawJD: string, cost: number) {
   const posting = Posting.from(job).setJD(jd);
+  const added = await posting.addQualifications(rawJD);
 
-  if (!posting.needsQualifications()) {
-    return { jd, cost };
+  return { jd: posting.jd ?? jd, cost: cost + added.cost };
+}
+
+async function retrySpilled(
+  job: Job,
+  analyze: (rawJD: string) => Promise<AIResponse>
+): Promise<AIResponse | null> {
+  logger.warn({ company: job.company, url: job.link }, "⚠️ AI response spilled; retrying once");
+
+  const { jd: rawJD } = await Posting.from(job).getRawJD();
+
+  if (!rawJD) {
+    return null;
   }
 
-  const qualificationResult = await extractQualifications(rawJD);
-
-  if (qualificationResult.qualifications) {
-    posting.setJD({
-      ...jd,
-      qualifications: qualificationResult.qualifications,
-    });
-  }
-
-  return { jd: posting.jd ?? jd, cost: cost + qualificationResult.cost };
+  return analyze(rawJD);
 }
 
 export interface InflightBatch {
@@ -171,15 +173,10 @@ async function resolveAnalyzedResult(
     return parseAnalyzedResult(job, result, cost);
   }
 
-  logger.warn({ company: job.company, url: job.link }, "⚠️ AI response spilled; retrying once");
+  const retry = await retrySpilled(job, (rawJD) => analyzeJD(rawJD, false, job.location));
 
-  const { jd: rawJD } = await Posting.from(job).getRawJD();
-
-  if (rawJD) {
-    const retry = await analyzeJD(rawJD, false, job.location);
-    if (retry.result) {
-      return parseAnalyzedResult(job, retry.result, cost + retry.cost);
-    }
+  if (retry?.result) {
+    return parseAnalyzedResult(job, retry.result, cost + retry.cost);
   }
 
   return parseAnalyzedResult(job, result, cost);
@@ -202,15 +199,20 @@ async function resolveQualificationResult(
 
   if (!qualifications) {
     if (spilled) {
-      logger.warn({ company: job.company, url: job.link }, "⚠️ AI response spilled; retrying once");
-    }
+      const retry = await retrySpilled(job, (rawJD) => analyzeQualifications(rawJD, false));
 
-    const { jd: rawJD } = await Posting.from(job).getRawJD();
+      if (retry) {
+        totalCost += retry.cost;
+        qualifications = retry.result ? parseQualificationResult(retry.result) : null;
+      }
+    } else {
+      const { jd: rawJD } = await Posting.from(job).getRawJD();
 
-    if (rawJD) {
-      const retry = await analyzeQualifications(rawJD, false);
-      totalCost += retry.cost;
-      qualifications = retry.result ? parseQualificationResult(retry.result) : null;
+      if (rawJD) {
+        const retry = await analyzeQualifications(rawJD, false);
+        totalCost += retry.cost;
+        qualifications = retry.result ? parseQualificationResult(retry.result) : null;
+      }
     }
   }
 

@@ -77,15 +77,26 @@ export class Posting implements Job {
       options.fetched ?? (await this.getRawJD(options.signal ?? createJDFetchSignal()));
     const result = await analyzePosting(this.toJob(), fetched);
     this.setJD(result.jd);
+    const added = await this.addQualifications(result.rawJD);
 
+    return {
+      ...result,
+      jd: this.jd ?? null,
+      cost: result.cost + added.cost,
+    };
+  }
+
+  /**
+   * Ask for qualifications when this screened posting still needs them.
+   * A skipped call costs nothing. A failed extraction keeps the screened JD and
+   * still returns the model cost.
+   */
+  async addQualifications(rawJD: string): Promise<{ cost: number }> {
     if (!this.jd || !this.needsQualifications()) {
-      return {
-        ...result,
-        jd: this.jd ?? null,
-      };
+      return { cost: 0 };
     }
 
-    const qualificationResult = await extractQualifications(result.rawJD);
+    const qualificationResult = await extractQualifications(rawJD);
 
     if (qualificationResult.qualifications) {
       this.setJD({
@@ -94,11 +105,7 @@ export class Posting implements Job {
       });
     }
 
-    return {
-      ...result,
-      jd: this.jd ?? null,
-      cost: result.cost + qualificationResult.cost,
-    };
+    return { cost: qualificationResult.cost };
   }
 
   isEligible(): readonly [eligible: boolean, reason: string | null] {

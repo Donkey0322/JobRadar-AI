@@ -227,6 +227,7 @@ describe("batch-queue", () => {
 
     const { analyzed } = await collectInflightBatches();
 
+    expect(analyzeJDMock).toHaveBeenCalledTimes(1);
     expect(analyzeJDMock).toHaveBeenCalledWith("raw jd", false, "Austin, TX");
     expect(analyzed).toEqual([
       expect.objectContaining({
@@ -235,6 +236,76 @@ describe("batch-queue", () => {
         cost: 0.021,
       }),
     ]);
+  });
+
+  it("keeps the original batch cost when a spill retry returns nothing", async () => {
+    const job = makeJob();
+    const spilled = {
+      ...usaJd,
+      qualifications: [`Bachelor${"\n".repeat(40)}---END JD TEXT---`],
+    };
+    readJsonFileMock.mockResolvedValue([
+      {
+        name: "batches/abc",
+        submittedAt: "2026-09-01T00:00:00.000Z",
+        jobs: [job],
+      },
+    ]);
+    getRawJDMock.mockResolvedValue({ jd: "raw jd", error: JD_FETCH_OK });
+    analyzeJDMock.mockResolvedValue({ result: null, cost: 0.02 });
+    getAIProviderMock.mockReturnValue({
+      getBatch: vi.fn().mockResolvedValue({
+        state: "succeeded",
+        durationMs: 1_000,
+        results: [
+          {
+            key: getJobKey(job.link),
+            result: JSON.stringify(spilled),
+            cost: 0.001,
+          },
+        ],
+      }),
+    });
+
+    const { analyzed } = await collectInflightBatches();
+
+    expect(analyzeJDMock).toHaveBeenCalledTimes(1);
+    expect(analyzed).toEqual([
+      expect.objectContaining({
+        cost: 0.001,
+        jd: expect.objectContaining({ qualifications: ["Bachelor"] }),
+      }),
+    ]);
+  });
+
+  it("does not retry a screening result that did not spill", async () => {
+    const job = makeJob();
+    readJsonFileMock.mockResolvedValue([
+      {
+        name: "batches/abc",
+        submittedAt: "2026-09-01T00:00:00.000Z",
+        jobs: [job],
+      },
+    ]);
+    getAIProviderMock.mockReturnValue({
+      getBatch: vi.fn().mockResolvedValue({
+        state: "succeeded",
+        durationMs: 1_000,
+        results: [
+          {
+            key: getJobKey(job.link),
+            result: JSON.stringify(usaJd),
+            cost: 0.001,
+          },
+        ],
+      }),
+    });
+
+    const { analyzed } = await collectInflightBatches();
+
+    expect(analyzeJDMock).not.toHaveBeenCalled();
+    expect(getRawJDMock).not.toHaveBeenCalled();
+    expect(analyzed).toEqual([expect.objectContaining({ jd: usaJd, cost: 0.001 })]);
   });
 
   it("re-queues jobs whose succeeded batch result is empty or unparseable", async () => {
@@ -492,6 +563,8 @@ describe("batch-queue", () => {
 
     const { analyzed } = await collectInflightBatches();
 
+    expect(analyzeQualificationsMock).not.toHaveBeenCalled();
+    expect(getRawJDMock).not.toHaveBeenCalled();
     expect(analyzed).toEqual([
       expect.objectContaining({
         cost: 0.005,
@@ -499,6 +572,161 @@ describe("batch-queue", () => {
           category: JobCategory.ENTRY_LEVEL,
           qualifications: ["TypeScript"],
         }),
+      }),
+    ]);
+  });
+
+  it("retries a spilled qualification result once and adds both costs", async () => {
+    const job = makeJob();
+    const screen: JD = {
+      citizenship: false,
+      sponsorship: true,
+      qualifications: null,
+      country: "USA",
+      location: "Austin, TX",
+      category: JobCategory.ENTRY_LEVEL,
+      season: "None",
+    };
+    const spilled = {
+      qualifications: [`Bachelor${"\n".repeat(40)}---END JD TEXT---`],
+    };
+    readJsonFileMock.mockResolvedValue([
+      {
+        name: "batches/quals",
+        submittedAt: "2026-09-01T00:00:00.000Z",
+        phase: "qualifications",
+        jobs: [{ ...job, jd: screen }],
+        screenCosts: { [getJobKey(job.link)]: 0.001 },
+      },
+    ]);
+    getRawJDMock.mockResolvedValue({ jd: "raw jd", error: JD_FETCH_OK });
+    analyzeQualificationsMock.mockResolvedValue({
+      result: JSON.stringify({ qualifications: ["TypeScript"] }),
+      cost: 0.02,
+    });
+    getAIProviderMock.mockReturnValue({
+      getBatch: vi.fn().mockResolvedValue({
+        state: "succeeded",
+        durationMs: 1_000,
+        results: [
+          {
+            key: getJobKey(job.link),
+            result: JSON.stringify(spilled),
+            cost: 0.004,
+          },
+        ],
+      }),
+    });
+
+    const { analyzed } = await collectInflightBatches();
+
+    expect(analyzeQualificationsMock).toHaveBeenCalledTimes(1);
+    expect(analyzeQualificationsMock).toHaveBeenCalledWith("raw jd", false);
+    expect(analyzed).toEqual([
+      expect.objectContaining({
+        cost: 0.025,
+        jd: expect.objectContaining({ qualifications: ["TypeScript"] }),
+      }),
+    ]);
+  });
+
+  it("adds the failed qualification retry cost and keeps the screened jd", async () => {
+    const job = makeJob();
+    const screen: JD = {
+      citizenship: false,
+      sponsorship: true,
+      qualifications: null,
+      country: "USA",
+      location: "Austin, TX",
+      category: JobCategory.ENTRY_LEVEL,
+      season: "None",
+    };
+    const spilled = {
+      qualifications: [`Bachelor${"\n".repeat(40)}---END JD TEXT---`],
+    };
+    readJsonFileMock.mockResolvedValue([
+      {
+        name: "batches/quals",
+        submittedAt: "2026-09-01T00:00:00.000Z",
+        phase: "qualifications",
+        jobs: [{ ...job, jd: screen }],
+        screenCosts: { [getJobKey(job.link)]: 0.001 },
+      },
+    ]);
+    getRawJDMock.mockResolvedValue({ jd: "raw jd", error: JD_FETCH_OK });
+    analyzeQualificationsMock.mockResolvedValue({ result: null, cost: 0.02 });
+    getAIProviderMock.mockReturnValue({
+      getBatch: vi.fn().mockResolvedValue({
+        state: "succeeded",
+        durationMs: 1_000,
+        results: [
+          {
+            key: getJobKey(job.link),
+            result: JSON.stringify(spilled),
+            cost: 0.004,
+          },
+        ],
+      }),
+    });
+
+    const { analyzed } = await collectInflightBatches();
+
+    expect(analyzeQualificationsMock).toHaveBeenCalledTimes(1);
+    expect(analyzed).toEqual([
+      expect.objectContaining({
+        cost: 0.025,
+        jd: screen,
+      }),
+    ]);
+  });
+
+  it("refetches an unparsed qualification result and adds that cost", async () => {
+    const job = makeJob();
+    const screen: JD = {
+      citizenship: false,
+      sponsorship: true,
+      qualifications: null,
+      country: "USA",
+      location: "Austin, TX",
+      category: JobCategory.ENTRY_LEVEL,
+      season: "None",
+    };
+    readJsonFileMock.mockResolvedValue([
+      {
+        name: "batches/quals",
+        submittedAt: "2026-09-01T00:00:00.000Z",
+        phase: "qualifications",
+        jobs: [{ ...job, jd: screen }],
+        screenCosts: { [getJobKey(job.link)]: 0.001 },
+      },
+    ]);
+    getRawJDMock.mockResolvedValue({ jd: "raw jd", error: JD_FETCH_OK });
+    analyzeQualificationsMock.mockResolvedValue({
+      result: JSON.stringify({ qualifications: ["TypeScript"] }),
+      cost: 0.02,
+    });
+    getAIProviderMock.mockReturnValue({
+      getBatch: vi.fn().mockResolvedValue({
+        state: "succeeded",
+        durationMs: 1_000,
+        results: [
+          {
+            key: getJobKey(job.link),
+            result: "not-json",
+            cost: 0.004,
+          },
+        ],
+      }),
+    });
+
+    const { analyzed } = await collectInflightBatches();
+
+    expect(analyzeQualificationsMock).toHaveBeenCalledTimes(1);
+    expect(analyzeQualificationsMock).toHaveBeenCalledWith("raw jd", false);
+    expect(analyzed).toEqual([
+      expect.objectContaining({
+        cost: 0.025,
+        jd: expect.objectContaining({ qualifications: ["TypeScript"] }),
       }),
     ]);
   });
