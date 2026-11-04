@@ -96,6 +96,31 @@ describe("remapStoredCompanyNames", () => {
     expect(dataMocks.saveOpportunities).not.toHaveBeenCalled();
   });
 
+  it("rewrites a career-site alias hostname to the Workday company it fronts", async () => {
+    const dexcom: Company = {
+      name: "dexcom",
+      ats: "workday",
+      identifier: "dexcom-dexcom",
+      domain: "https://dexcom.wd1.myworkdayjobs.com/Dexcom",
+      page: "https://dexcom.wd1.myworkdayjobs.com/wday/cxs/dexcom/Dexcom/jobs",
+      urls: [],
+    };
+    const dexcomJob = "https://careers.dexcom.com/careers/job/37990370";
+
+    dataMocks.loadJobsInFileOrder.mockResolvedValue([
+      { company: "careers.dexcom.com", role: "Intern", link: dexcomJob, location: "CA" },
+    ]);
+
+    await expect(remapStoredCompanyNames([dexcom])).resolves.toEqual({
+      jobs: 1,
+      opportunities: 0,
+    });
+    expect(dataMocks.saveJob).toHaveBeenCalledWith(
+      [{ company: "Dexcom", role: "Intern", link: dexcomJob, location: "CA" }],
+      true
+    );
+  });
+
   it("rewrites hostname company names after a Radancy display-name remap", async () => {
     const arm: Company = {
       name: "arm",

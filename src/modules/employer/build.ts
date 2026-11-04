@@ -3,9 +3,9 @@ import { URL } from "url";
 
 import type { Company } from "@/types";
 
-import { aliasedCompanyKey } from "./aliases";
 import { classifyATS } from "./classifier";
 import { identityKey } from "./employer";
+import { careerSiteAlias, companyKeyFromUrl } from "./keys";
 import { employers } from "./registry";
 
 import { loadCompanies, saveCompanies } from "@/utils/data";
@@ -48,7 +48,7 @@ async function resolveExistingCompany(stored: Company): Promise<{ key: string; c
 
   try {
     const fetcher = employers[classifyATS(url)];
-    const resolvedKey = careerSiteAlias(url.href) ?? fetcher.companyKeyFromUrl(url);
+    const resolvedKey = companyKeyFromUrl(url);
 
     if (resolvedKey === existingKey) {
       return { key: existingKey, company: existing };
@@ -66,16 +66,6 @@ async function resolveExistingCompany(stored: Company): Promise<{ key: string; c
   }
 }
 
-/** Company key of the ATS row an unread career-site URL belongs to, if it is aliased. */
-function careerSiteAlias(urlStr: string): string | null {
-  try {
-    const url = new URL(urlStr);
-    return classifyATS(url) === "none" ? aliasedCompanyKey(url) : null;
-  } catch {
-    return null;
-  }
-}
-
 function isAliasedSiteRow(company: Company): boolean {
   return company.ats === "none" && Boolean(company.domain && careerSiteAlias(company.domain));
 }
@@ -87,9 +77,7 @@ export function groupUrlsByCompanyKey(urls: string[]): Map<string, string[]> {
     let key: string;
 
     try {
-      const url = new URL(urlStr);
-      const ats = classifyATS(url);
-      key = careerSiteAlias(urlStr) ?? employers[ats].companyKeyFromUrl(url);
+      key = companyKeyFromUrl(new URL(urlStr));
     } catch (err) {
       logger.warn({ url: urlStr, err }, "Failed to derive company key from URL");
       key = `unkeyed:${urlStr}`;
