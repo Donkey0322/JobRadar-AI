@@ -1,0 +1,66 @@
+name: CI
+run-name: ✅ CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+    # Data bots push these outputs every few minutes; they do not change code.
+    paths-ignore:
+      - "data/**"
+      - "README.md"
+      - "job-postings/**"
+      - "assets/featured-badges/**"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      # ✅ Checkout repository
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      # ✅ Setup pnpm
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          version: 11.7.0
+
+      # ✅ Setup Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: .nvmrc
+          cache: "pnpm"
+
+      # ✅ Install dependencies
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Typecheck
+        run: pnpm typecheck
+
+      - name: Test
+        run: pnpm test
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Check for changed or untracked files
+        run: |
+          changes="$(git status --porcelain --untracked-files=all)"
+
+          if [[ -n "$changes" ]]; then
+            echo "Checks left changed or untracked files:"
+            echo "$changes"
+            exit 1
+          fi

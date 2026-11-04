@@ -14,8 +14,8 @@ import {
 import {
   fetchHtmlResponse,
   getSetCookieHeader,
-  isHtmlResponse,
   type HtmlResponse,
+  isHtmlResponse,
 } from "@/utils/http";
 import { getLastPathNumber } from "@/utils/job-key/url";
 import { logger } from "@/utils/logger";

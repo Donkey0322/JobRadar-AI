@@ -11,6 +11,7 @@
     "test": "vitest run",
     "test:ai-eval": "vitest run --config vitest.eval.config.mjs",
     "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
     "refresh-companies": "tsx scripts/refresh-companies.ts",
     "dedup": "tsx scripts/dedup.ts",
     "add-job": "tsx scripts/link.ts",

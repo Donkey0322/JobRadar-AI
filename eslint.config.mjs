@@ -55,6 +55,13 @@ export default [
           fixStyle: "separate-type-imports",
         },
       ],
+
+      "@typescript-eslint/no-unused-vars": [
+        "error",
+        {
+          ignoreRestSiblings: true,
+        },
+      ],
     },
   },
 
