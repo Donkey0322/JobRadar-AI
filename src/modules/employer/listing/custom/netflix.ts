@@ -5,11 +5,10 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
+import { NETFLIX_API_URL } from "@/modules/ats/custom/netflix";
 import { logListingFailure, logListingStatus } from "@/modules/employer/failure";
 import { Posting } from "@/modules/posting/posting";
 import { logger } from "@/utils/logger";
-
-export const NETFLIX_API_URL = "https://explore.jobs.netflix.net/api/apply/v2/jobs";
 
 export const NetflixCompany = {
   name: "Netflix",

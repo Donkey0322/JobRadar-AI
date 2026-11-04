@@ -5,13 +5,18 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
+import {
+  cleanMetaJson,
+  extractLsd,
+  META_CAREERS_URL,
+  META_PAGE_HEADERS,
+  postMetaGraphql,
+} from "@/modules/ats/custom/meta";
 import { ListingHttpError, logListingFailure } from "@/modules/employer/failure";
 import { Posting } from "@/modules/posting/posting";
 import { fetchHtmlResponse, getSetCookieHeader, isAbortError, isHtmlResponse } from "@/utils/http";
 import { logger } from "@/utils/logger";
 
-const META_CAREERS_URL = "https://www.metacareers.com/jobsearch";
-const META_GRAPHQL_URL = "https://www.metacareers.com/api/graphql/";
 const META_DETAILS_URL = "https://www.metacareers.com/profile/job_details";
 const META_DOC_ID = "27506805582236862";
 const META_FRIENDLY_NAME = "CareersJobSearchResultsDataQuery";
@@ -45,40 +50,9 @@ export const MetaResponseSchema = z.object({
     .optional(),
 });
 
-function extractLsd(html: string): string | null {
-  const patterns = [
-    /\["LSD",\[\],\{"token":"([^"]+)"\}/,
-    /"LSD",\[\],\{"token":"([^"]+)"\}/,
-    /name="lsd"\s+value="([^"]+)"/,
-  ];
-
-  for (const pattern of patterns) {
-    const match = html.match(pattern);
-
-    if (match?.[1]) {
-      return match[1];
-    }
-  }
-
-  return null;
-}
-
-function buildJazoest(lsd: string): string {
-  return `2${Array.from(lsd)
-    .map((char) => char.charCodeAt(0))
-    .join("")}`;
-}
-
-function cleanMetaJson(raw: string): string {
-  return raw.replace(/^for\s*\(;;\);/, "");
-}
-
 async function getMetaSession(url: string, signal: AbortSignal) {
   const { response, html } = await fetchHtmlResponse(url, {
-    headers: {
-      "user-agent": "Mozilla/5.0",
-      accept: "text/html",
-    },
+    headers: META_PAGE_HEADERS,
     signal,
   });
 
@@ -98,8 +72,8 @@ async function getMetaSession(url: string, signal: AbortSignal) {
 
   return {
     lsd,
-    jazoest: buildJazoest(lsd),
     cookie: getSetCookieHeader(response),
+    referer: url,
   };
 }
 
@@ -138,7 +112,7 @@ export async function fetchMeta(
   signal: AbortSignal = createJDFetchSignal()
 ): Promise<Job[]> {
   try {
-    const { lsd, jazoest, cookie } = await getMetaSession(company.page, signal);
+    const session = await getMetaSession(company.page, signal);
 
     const variables = {
       search_input: {
@@ -160,42 +134,11 @@ export async function fetchMeta(
       isLoggedIn: false,
     };
 
-    const body = new URLSearchParams({
-      av: "0",
-      __user: "0",
-      __a: "1",
-      __req: "3",
-      __comet_req: "31",
-
-      lsd,
-      jazoest,
-
-      fb_api_caller_class: "RelayModern",
-      fb_api_req_friendly_name: META_FRIENDLY_NAME,
-      server_timestamps: "true",
-      variables: JSON.stringify(variables),
-      doc_id: META_DOC_ID,
-    });
-
-    const headers: Record<string, string> = {
-      "content-type": "application/x-www-form-urlencoded",
-      "user-agent": "Mozilla/5.0",
-      "x-fb-lsd": lsd,
-      "x-asbd-id": "359341",
-      origin: "https://www.metacareers.com",
-      referer: company.page,
-    };
-
-    if (cookie) {
-      headers.cookie = cookie;
-    }
-
-    const res = await fetch(META_GRAPHQL_URL, {
-      method: "POST",
-      headers,
-      body,
-      signal,
-    });
+    const res = await postMetaGraphql(
+      session,
+      { friendlyName: META_FRIENDLY_NAME, docId: META_DOC_ID, variables },
+      signal
+    );
 
     const raw = await res.text();
 

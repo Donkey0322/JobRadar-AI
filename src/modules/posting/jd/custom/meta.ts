@@ -11,6 +11,14 @@ import {
   type JDFetchStatus,
 } from "../fetch";
 
+import {
+  cleanMetaJson,
+  extractLsd,
+  META_CAREERS_URL,
+  META_PAGE_HEADERS,
+  type MetaSession,
+  postMetaGraphql,
+} from "@/modules/ats/custom/meta";
 import { getLastPathNumber } from "@/modules/ats/job-key/url";
 import {
   fetchHtmlResponse,
@@ -21,8 +29,6 @@ import {
 import { logger } from "@/utils/logger";
 import { htmlToText, normalizeRawText } from "@/utils/string";
 
-const META_CAREERS_PAGE = "https://www.metacareers.com/jobsearch";
-const META_GRAPHQL_URL = "https://www.metacareers.com/api/graphql/";
 const META_JOB_DETAILS_DOC_ID = "27371134039243725";
 const META_JOB_DETAILS_QUERY = "CandidatePortalJobDetailsViewQuery";
 
@@ -110,34 +116,6 @@ export function extractMetaJobFromHtml(html: string): MetaJobDescription | null 
   return null;
 }
 
-function extractLsd(html: string): string | null {
-  const patterns = [
-    /\["LSD",\[\],\{"token":"([^"]+)"\}/,
-    /"LSD",\[\],\{"token":"([^"]+)"\}/,
-    /name="lsd"\s+value="([^"]+)"/,
-  ];
-
-  for (const pattern of patterns) {
-    const match = html.match(pattern);
-
-    if (match?.[1]) {
-      return match[1];
-    }
-  }
-
-  return null;
-}
-
-function buildJazoest(lsd: string): string {
-  return `2${Array.from(lsd)
-    .map((char) => char.charCodeAt(0))
-    .join("")}`;
-}
-
-function cleanMetaJson(raw: string): string {
-  return raw.replace(/^for\s*\(;;\);/, "");
-}
-
 function textFromMetaHtml(value: string | null | undefined): string {
   if (!value) return "";
 
@@ -208,17 +186,15 @@ export function formatMetaJobDescription(job: MetaJobDescription): string | null
   );
 }
 
-const META_PAGE_HEADERS = {
-  "user-agent": "Mozilla/5.0",
-  accept: "text/html",
-};
-
 type MetaPage = {
   url: string;
   document?: HtmlResponse;
 };
 
-async function loadMetaSession(pages: MetaPage[], signal: AbortSignal) {
+async function loadMetaSession(
+  pages: MetaPage[],
+  signal: AbortSignal
+): Promise<MetaSession | { error: JDFetchStatus }> {
   let lastError: JDFetchStatus = JD_FETCH_ERROR.fetch("Failed to extract Meta LSD token");
 
   for (const page of pages) {
@@ -277,7 +253,7 @@ export async function fetchMetaJD(
   }
 
   const session = await loadMetaSession(
-    [{ url, document: page }, { url: META_CAREERS_PAGE }],
+    [{ url, document: page }, { url: META_CAREERS_URL }],
     signal
   );
 
@@ -288,44 +264,19 @@ export async function fetchMetaJD(
     };
   }
 
-  const body = new URLSearchParams({
-    av: "0",
-    __user: "0",
-    __a: "1",
-    __req: "3",
-    __comet_req: "31",
-    lsd: session.lsd,
-    jazoest: buildJazoest(session.lsd),
-    fb_api_caller_class: "RelayModern",
-    fb_api_req_friendly_name: META_JOB_DETAILS_QUERY,
-    server_timestamps: "true",
-    variables: JSON.stringify({
-      renderLoggedInView: false,
-      requisitionID: jobId,
-      viewasUserID: null,
-    }),
-    doc_id: META_JOB_DETAILS_DOC_ID,
-  });
-
-  const headers: Record<string, string> = {
-    "content-type": "application/x-www-form-urlencoded",
-    "user-agent": "Mozilla/5.0",
-    "x-fb-lsd": session.lsd,
-    "x-asbd-id": "359341",
-    origin: "https://www.metacareers.com",
-    referer: session.referer,
-  };
-
-  if (session.cookie) {
-    headers.cookie = session.cookie;
-  }
-
-  const res = await fetch(META_GRAPHQL_URL, {
-    method: "POST",
-    headers,
-    body,
-    signal,
-  });
+  const res = await postMetaGraphql(
+    session,
+    {
+      friendlyName: META_JOB_DETAILS_QUERY,
+      docId: META_JOB_DETAILS_DOC_ID,
+      variables: {
+        renderLoggedInView: false,
+        requisitionID: jobId,
+        viewasUserID: null,
+      },
+    },
+    signal
+  );
 
   const raw = await res.text();
 
