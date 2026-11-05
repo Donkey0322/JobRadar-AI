@@ -12,7 +12,7 @@ vi.mock("@/store", () => ({
   errorLog: { append: appendErrorLog },
 }));
 
-import { AshbyFetcher, ashbyFetcher } from "../ashby";
+import { AshbyBoard, ashbyBoard } from "../ashby";
 
 const COMPANY: Company = {
   name: "whatnot",
@@ -106,7 +106,7 @@ describe("Ashby hosted board fallback", () => {
       throw new Error(`unexpected fetch ${url}`);
     });
 
-    const jobs = await ashbyFetcher.fetch(COMPANY, new Set(), AbortSignal.timeout(1000));
+    const jobs = await ashbyBoard.fetch(COMPANY, new Set(), AbortSignal.timeout(1000));
 
     expect(dated).toEqual(new Set([RECENT_ID, OLD_ID]));
     expect(jobs).toEqual([
@@ -135,7 +135,7 @@ describe("Ashby hosted board fallback", () => {
       })
     );
 
-    const jobs = await ashbyFetcher.fetch(COMPANY, new Set(), AbortSignal.timeout(1000));
+    const jobs = await ashbyBoard.fetch(COMPANY, new Set(), AbortSignal.timeout(1000));
 
     expect(jobs).toHaveLength(1);
     expect(mockFetch).toHaveBeenCalledOnce();
@@ -196,7 +196,7 @@ describe("Ashby hosted board fallback", () => {
       throw new Error(`unexpected fetch ${url}`);
     });
 
-    const jobs = await ashbyFetcher.fetch(
+    const jobs = await ashbyBoard.fetch(
       COMPANY,
       new Set([`ashby:${RECENT_ID}`]),
       AbortSignal.timeout(1000)
@@ -225,7 +225,7 @@ describe("Ashby hosted board fallback", () => {
       return Response.json({ data: { jobBoard: null } });
     });
 
-    const jobs = await ashbyFetcher.fetch(COMPANY, new Set(), AbortSignal.timeout(1000));
+    const jobs = await ashbyBoard.fetch(COMPANY, new Set(), AbortSignal.timeout(1000));
 
     expect(jobs).toEqual([]);
     expect(appendErrorLog).toHaveBeenCalledWith("Ashby: whatnot - 404 - Not Found");
@@ -259,7 +259,7 @@ describe("Ashby hosted board fallback", () => {
       });
     });
 
-    const keys = await new AshbyFetcher(COMPANY).listedKeys(AbortSignal.timeout(1000));
+    const keys = await new AshbyBoard(COMPANY).listedKeys(AbortSignal.timeout(1000));
 
     expect(keys).toEqual(new Set([`ashby:${RECENT_ID}`]));
   });
@@ -269,7 +269,7 @@ describe("Ashby hosted board fallback", () => {
     const error = vi.spyOn(logger, "error").mockImplementation(() => {});
     mockFetch.mockRejectedValueOnce(new DOMException("timed out", "TimeoutError"));
 
-    await expect(ashbyFetcher.fetch(COMPANY, new Set(), AbortSignal.timeout(1000))).resolves.toEqual(
+    await expect(ashbyBoard.fetch(COMPANY, new Set(), AbortSignal.timeout(1000))).resolves.toEqual(
       []
     );
     expect(mockFetch).toHaveBeenCalledOnce();
@@ -289,7 +289,7 @@ describe("Ashby hosted board fallback", () => {
     const error = vi.spyOn(logger, "error").mockImplementation(() => {});
     mockFetch.mockRejectedValueOnce(crash);
 
-    await expect(ashbyFetcher.fetch(COMPANY, new Set(), AbortSignal.timeout(1000))).resolves.toEqual(
+    await expect(ashbyBoard.fetch(COMPANY, new Set(), AbortSignal.timeout(1000))).resolves.toEqual(
       []
     );
     expect(error).toHaveBeenCalledWith(

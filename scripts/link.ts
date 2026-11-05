@@ -1,5 +1,7 @@
 import { promises as fs } from "fs";
 import inquirer from "inquirer";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 
 import { RED_CROSS } from "@/constants/log";
 
@@ -86,8 +88,7 @@ export async function promptJob(): Promise<Job> {
   return job;
 }
 
-async function main() {
-  const args = process.argv.slice(2);
+export async function addJob(args = process.argv.slice(2)) {
   const context = await createSyncContext();
 
   let link: string | undefined;
@@ -180,7 +181,12 @@ async function main() {
   await processJobs({ jobs: [job], ...context });
 }
 
-main().catch((err) => {
-  logger.fatal({ err }, `${RED_CROSS} Error`);
-  process.exit(1);
-});
+const isDirectRun =
+  process.argv[1] != null && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
+
+if (isDirectRun) {
+  addJob().catch((err) => {
+    logger.fatal({ err }, `${RED_CROSS} Error`);
+    process.exit(1);
+  });
+}

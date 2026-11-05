@@ -1,5 +1,7 @@
 import { Command } from "commander";
 
+import { registerMaintenance } from "./maintenance";
+
 const program = new Command();
 
 program.name("jobradar");
@@ -73,5 +75,7 @@ setup.command("get-config").action(async () => {
   const { default: getConfig } = await import("./setup/getConfig");
   await getConfig();
 });
+
+registerMaintenance(program);
 
 program.parse();

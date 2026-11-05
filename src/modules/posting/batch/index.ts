@@ -3,7 +3,12 @@ import pLimit from "p-limit";
 import { RED_CROSS } from "@/constants/log";
 
 import type { JD, Job } from "@/types";
-import type { AIResponse, BatchGenerateRequest } from "@/utils/ai/provider/utils";
+import type {
+  AIResponse,
+  BatchGenerateRequest,
+  BatchGenerateResult,
+  BatchJobStatus,
+} from "@/utils/ai/provider/utils";
 
 import { getJobKey } from "@/modules/ats/job-key";
 import analyzeJD, {
@@ -144,6 +149,84 @@ function parseAnalyzedResult(
 
 function batchPhase(batch: InflightBatch) {
   return batch.phase ?? "screen";
+}
+
+/**
+ * Pair provider results to batch jobs. A valid key wins. An unmatched result
+ * may use its index only when that job is still free. A result is never
+ * reassigned to a different job, and a job never receives a second result.
+ */
+function pairBatchResults(jobs: Job[], results: BatchGenerateResult[]) {
+  const jobsByKey = new Map<string, Job>();
+
+  for (const job of jobs) {
+    const key = getJobKey(job.link);
+
+    if (!jobsByKey.has(key)) {
+      jobsByKey.set(key, job);
+    }
+  }
+
+  const pairedJobKeys = new Set<string>();
+  const claimed = new Set<number>();
+  const pairs: Array<{ job: Job; result: BatchGenerateResult; resultIndex: number }> = [];
+  const skipped: Array<{ index: number; key: string; reason: string }> = [];
+
+  for (const [index, result] of results.entries()) {
+    const job = result.key ? jobsByKey.get(result.key) : undefined;
+
+    if (!job) {
+      continue;
+    }
+
+    const key = getJobKey(job.link);
+
+    if (pairedJobKeys.has(key)) {
+      skipped.push({ index, key: result.key, reason: "duplicate key; job already paired" });
+      claimed.add(index);
+      continue;
+    }
+
+    pairedJobKeys.add(key);
+    claimed.add(index);
+    pairs.push({ job, result, resultIndex: index });
+  }
+
+  for (const [index, result] of results.entries()) {
+    if (claimed.has(index)) {
+      continue;
+    }
+
+    const job = jobs[index];
+
+    if (!job) {
+      skipped.push({
+        index,
+        key: result.key,
+        reason: "key did not match a job and the index is outside the batch",
+      });
+      continue;
+    }
+
+    const key = getJobKey(job.link);
+
+    if (pairedJobKeys.has(key)) {
+      skipped.push({
+        index,
+        key: result.key,
+        reason: "index points at a job that already has a result",
+      });
+      continue;
+    }
+
+    pairedJobKeys.add(key);
+    claimed.add(index);
+    pairs.push({ job, result, resultIndex: index });
+  }
+
+  pairs.sort((left, right) => left.resultIndex - right.resultIndex);
+
+  return { pairs, skipped, pairedJobKeys };
 }
 
 async function resolveAnalyzedResult(
@@ -289,18 +372,33 @@ async function submitQualificationBatches(
       screenCosts[getJobKey(item.job.link)] = item.cost;
     }
 
-    inflight.push({
+    const qualificationBatch: InflightBatch = {
       name: submitted.name,
       submittedAt: new Date().toISOString(),
       phase: "qualifications",
       jobs: chunk.map((item) => ({ ...item.job, jd: item.jd })),
       screenCosts,
-    });
+    };
+    // The provider already accepted this id. Append it before returning so a
+    // later persistence failure can still collect this batch. The source
+    // screen batch stays in the file until jobs and opportunities persist.
+    await rememberQualificationBatch(qualificationBatch);
+    inflight.push(qualificationBatch);
 
     logger.info({ name: submitted.name, count: chunk.length }, "📦 Submitted qualification batch");
   }
 
   return { analyzed, inflight };
+}
+
+async function rememberQualificationBatch(batch: InflightBatch) {
+  const current = await loadInflightBatches();
+
+  if (current.some((item) => item.name === batch.name)) {
+    return;
+  }
+
+  await saveInflightBatches([...current, batch]);
 }
 
 async function analyzeJobsRealtime(jobs: Array<{ job: Job; rawJD: string }>) {
@@ -347,11 +445,30 @@ export async function collectInflightBatches(): Promise<{
   const requeue: Job[] = [];
   const pendingQualifications: Array<{ job: Job; jd: JD; cost: number }> = [];
   const completedDurations: number[] = [];
+  const statuses = new Map<string, BatchJobStatus>();
 
   for (const batch of inflight) {
-    const status = await provider.getBatch(batch.name);
+    statuses.set(batch.name, await provider.getBatch(batch.name));
+  }
 
-    if (status.state === "pending") {
+  // Pending and succeeded qualification batches already track their jobs.
+  // A failed batch must not submit another copy of a job those batches cover.
+  const coveredQualificationKeys = new Set<string>();
+
+  for (const batch of inflight) {
+    if (batchPhase(batch) !== "qualifications" || statuses.get(batch.name)?.state === "failed") {
+      continue;
+    }
+
+    for (const job of batch.jobs) {
+      coveredQualificationKeys.add(getJobKey(job.link));
+    }
+  }
+
+  for (const batch of inflight) {
+    const status = statuses.get(batch.name);
+
+    if (!status || status.state === "pending") {
       remaining.push(batch);
       continue;
     }
@@ -364,12 +481,19 @@ export async function collectInflightBatches(): Promise<{
 
       if (batchPhase(batch) === "qualifications") {
         for (const job of batch.jobs) {
+          const key = getJobKey(job.link);
+
+          if (coveredQualificationKeys.has(key)) {
+            continue;
+          }
+
           if (job.jd) {
             pendingQualifications.push({
               job,
               jd: job.jd,
-              cost: batch.screenCosts?.[getJobKey(job.link)] ?? 0,
+              cost: batch.screenCosts?.[key] ?? 0,
             });
+            coveredQualificationKeys.add(key);
           } else {
             requeue.push(job);
           }
@@ -386,18 +510,17 @@ export async function collectInflightBatches(): Promise<{
       completedDurations.push(durationMs);
     }
 
-    const jobsByKey = new Map(batch.jobs.map((job) => [getJobKey(job.link), job]));
-    const handled = new Set<string>();
+    const { pairs, skipped, pairedJobKeys } = pairBatchResults(batch.jobs, status.results);
 
-    for (const [index, result] of status.results.entries()) {
-      const job = jobsByKey.get(result.key) ?? batch.jobs[index];
+    for (const skip of skipped) {
+      logger.warn(
+        { name: batch.name, index: skip.index, key: skip.key, reason: skip.reason },
+        "⚠️ Batch result was not paired"
+      );
+    }
 
-      if (!job) {
-        continue;
-      }
-
+    for (const { job, result } of pairs) {
       const key = getJobKey(job.link);
-      handled.add(key);
 
       if (result.error && !result.result) {
         logger.warn(
@@ -425,7 +548,10 @@ export async function collectInflightBatches(): Promise<{
         if (parsed) posting.setJD(parsed.jd);
 
         if (parsed && posting.needsQualifications()) {
-          pendingQualifications.push({ job, jd: parsed.jd, cost: parsed.cost });
+          if (!coveredQualificationKeys.has(key)) {
+            pendingQualifications.push({ job, jd: parsed.jd, cost: parsed.cost });
+            coveredQualificationKeys.add(key);
+          }
           continue;
         }
 
@@ -443,7 +569,7 @@ export async function collectInflightBatches(): Promise<{
     }
 
     for (const job of batch.jobs) {
-      if (!handled.has(getJobKey(job.link))) {
+      if (!pairedJobKeys.has(getJobKey(job.link))) {
         requeue.push(job);
       }
     }
@@ -457,9 +583,14 @@ export async function collectInflightBatches(): Promise<{
   analyzed.push(...qualificationBatch.analyzed);
   remaining.push(...qualificationBatch.inflight);
 
-  await saveInflightBatches(remaining);
-
-  if (analyzed.length > 0) {
+  // inflight.json is a JSON array of { name, submittedAt, phase?, jobs, screenCosts? }.
+  // A qualification id is appended as soon as rename of that file succeeds.
+  // The file is replaced with the still-pending batches only after jobs and
+  // opportunities both persist. A provider id that is not in the file yet
+  // cannot be discovered on the next run.
+  if (analyzed.length === 0) {
+    await saveInflightBatches(remaining);
+  } else {
     logger.info({ count: analyzed.length }, "📦 Collected batch analysis results");
   }
 

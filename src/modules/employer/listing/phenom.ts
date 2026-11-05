@@ -4,7 +4,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "@/modules/employer/employer";
+import { Board } from "@/modules/employer/employer";
 import { ListingHttpError, logListingFailure } from "@/modules/employer/failure";
 import { decodeHtmlEntities } from "@/utils/html";
 import { fetchHtmlResponse, getSetCookieHeader, isAbortError, isHtmlResponse } from "@/utils/http";
@@ -606,7 +606,7 @@ function getPhenomJobLocation(job: PhenomJob): string {
   return job.location ?? job.cityStateCountry ?? job.cityState ?? job.city ?? "";
 }
 
-export class PhenomFetcher extends Employer<PhenomJob> {
+export class PhenomBoard extends Board<PhenomJob> {
   readonly ats = "phenom" as const;
 
   companyKeyFromUrl(url: URL): string {
@@ -752,4 +752,4 @@ export class PhenomFetcher extends Employer<PhenomJob> {
   }
 }
 
-export const phenomFetcher = new PhenomFetcher();
+export const phenomBoard = new PhenomBoard();

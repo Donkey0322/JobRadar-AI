@@ -5,7 +5,7 @@ import { renderProgress, startProgress } from "../utils/progress";
 
 import { ALLOWED_COUNTRIES } from "@/config";
 import { fetchEmployerJobs } from "@/modules/employer/discover";
-import { asEmployer } from "@/modules/employer/registry";
+import { asBoard } from "@/modules/employer/registry";
 import { classifyLocations } from "@/modules/posting/analysis/location";
 import * as store from "@/store";
 import { logger } from "@/utils/logger";
@@ -14,7 +14,7 @@ const CONCURRENCY = 10;
 const SLOW_THRESHOLD_MS = 10_000;
 
 async function discoverJobs() {
-  const companies = (await store.companies.load()).map((company) => asEmployer(company));
+  const companies = (await store.companies.load()).map((company) => asBoard(company));
   const total = companies.length;
   let completed = 0;
 

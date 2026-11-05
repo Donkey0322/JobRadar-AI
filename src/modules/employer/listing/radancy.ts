@@ -4,7 +4,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
+import { Board } from "../employer";
 
 import {
   getRadancyCompanyName,
@@ -142,7 +142,7 @@ function createRadancyRequestBody(page: number) {
   };
 }
 
-export class RadancyFetcher extends Employer<RadancyJob> {
+export class RadancyBoard extends Board<RadancyJob> {
   readonly ats = "radancy" as const;
 
   companyKeyFromUrl(url: URL): string {
@@ -254,4 +254,4 @@ export class RadancyFetcher extends Employer<RadancyJob> {
   }
 }
 
-export const radancyFetcher = new RadancyFetcher();
+export const radancyBoard = new RadancyBoard();

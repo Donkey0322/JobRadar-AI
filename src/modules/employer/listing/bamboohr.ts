@@ -5,7 +5,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
+import { Board } from "../employer";
 
 import {
   bambooHRJobUrl,
@@ -60,7 +60,7 @@ function formatLocation(job: BambooHRJob): string {
   return place ?? "";
 }
 
-export class BambooHRFetcher extends Employer<BambooHRJob> {
+export class BambooHRBoard extends Board<BambooHRJob> {
   readonly ats = "bamboohr" as const;
 
   companyKeyFromUrl(url: URL): string {
@@ -198,4 +198,4 @@ export class BambooHRFetcher extends Employer<BambooHRJob> {
   }
 }
 
-export const bambooHRFetcher = new BambooHRFetcher();
+export const bambooHRBoard = new BambooHRBoard();

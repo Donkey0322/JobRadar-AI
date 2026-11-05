@@ -14,6 +14,7 @@ const readNdjsonFileIfExistsMock = vi.hoisted(() => vi.fn());
 const readJsonFileMock = vi.hoisted(() => vi.fn());
 const writeFileMock = vi.hoisted(() => vi.fn().mockResolvedValue(undefined));
 const mkdirMock = vi.hoisted(() => vi.fn().mockResolvedValue(undefined));
+const renameMock = vi.hoisted(() => vi.fn().mockResolvedValue(undefined));
 const getAIProviderMock = vi.hoisted(() => vi.fn());
 const getRawJDMock = vi.hoisted(() => vi.fn());
 const analyzeJDMock = vi.hoisted(() => vi.fn());
@@ -39,6 +40,7 @@ vi.mock("node:fs", async (importOriginal) => {
       ...actual.promises,
       writeFile: writeFileMock,
       mkdir: mkdirMock,
+      rename: renameMock,
     },
   };
 });
@@ -115,6 +117,7 @@ describe("batch-queue", () => {
     readJsonFileMock.mockReset().mockResolvedValue([]);
     writeFileMock.mockReset().mockResolvedValue(undefined);
     mkdirMock.mockReset().mockResolvedValue(undefined);
+    renameMock.mockReset().mockResolvedValue(undefined);
     getAIProviderMock.mockReset();
     getRawJDMock.mockReset();
     getRawJDSpy.mockReset();
@@ -189,9 +192,9 @@ describe("batch-queue", () => {
         cost: 0.001,
       }),
     ]);
-    expect(writeFileMock).toHaveBeenCalledWith(
+    expect(writeFileMock).not.toHaveBeenCalledWith(
       expect.stringContaining(`${path.sep}batch${path.sep}inflight.json`),
-      `${JSON.stringify([], null, 2)}\n`,
+      expect.any(String),
       "utf-8"
     );
   });
@@ -399,9 +402,13 @@ describe("batch-queue", () => {
       expect.any(String)
     );
     expect(writeFileMock).toHaveBeenCalledWith(
-      expect.stringContaining(`${path.sep}batch${path.sep}inflight.json`),
+      expect.stringMatching(/[/\\]\.inflight\.json\.\d+\.\d+\.tmp$/),
       expect.stringContaining("batches/xyz"),
       "utf-8"
+    );
+    expect(renameMock).toHaveBeenCalledWith(
+      expect.stringMatching(/[/\\]\.inflight\.json\.\d+\.\d+\.tmp$/),
+      expect.stringContaining(`${path.sep}batch${path.sep}inflight.json`)
     );
     expect(writeFileMock).toHaveBeenCalledWith(
       expect.stringContaining(`${path.sep}batch${path.sep}queue.ndjson`),

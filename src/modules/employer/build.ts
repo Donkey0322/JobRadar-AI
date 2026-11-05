@@ -5,7 +5,7 @@ import type { Company } from "@/types";
 
 import { companyKey } from "./employer";
 import { careerSiteAlias, companyKeyFromUrl } from "./keys";
-import { employers } from "./registry";
+import { boards } from "./registry";
 
 import { classifyATS } from "@/modules/ats/classify";
 import { companies } from "@/store";
@@ -35,7 +35,7 @@ function representativeUrl(existing: Company): URL | null {
 }
 
 async function resolveExistingCompany(stored: Company): Promise<{ key: string; company: Company }> {
-  const existing = employers[stored.ats]?.repairCompany(stored) ?? stored;
+  const existing = boards[stored.ats]?.repairCompany(stored) ?? stored;
   const existingKey = companyKey(existing);
   const url = representativeUrl(existing);
 
@@ -44,7 +44,7 @@ async function resolveExistingCompany(stored: Company): Promise<{ key: string; c
   }
 
   try {
-    const fetcher = employers[classifyATS(url)];
+    const fetcher = boards[classifyATS(url)];
     const resolvedKey = companyKeyFromUrl(url);
 
     if (resolvedKey === existingKey) {
@@ -101,7 +101,7 @@ async function formCompanyFromGroup(
   try {
     const url = new URL(representative);
     const ats = classifyATS(url);
-    const company = await employers[ats].formCompany(url);
+    const company = await boards[ats].formCompany(url);
 
     if (!company) {
       return { groupKey, company: null };

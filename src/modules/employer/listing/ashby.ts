@@ -6,7 +6,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
+import { Board } from "../employer";
 
 import {
   ashbyBoardOverride,
@@ -48,7 +48,7 @@ export const AshbyResponseSchema = z.object({
 
 const PUBLISHED_DATE_CONCURRENCY = 8;
 
-export class AshbyFetcher extends Employer<AshbyJob> {
+export class AshbyBoard extends Board<AshbyJob> {
   readonly ats = "ashby" as const;
 
   companyKeyFromUrl(url: URL): string {
@@ -188,4 +188,4 @@ export class AshbyFetcher extends Employer<AshbyJob> {
   }
 }
 
-export const ashbyFetcher = new AshbyFetcher();
+export const ashbyBoard = new AshbyBoard();

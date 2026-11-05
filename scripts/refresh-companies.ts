@@ -65,7 +65,7 @@ export async function remapStoredCompanyNames(
   };
 }
 
-async function main() {
+export async function refreshCompanies() {
   const urls = await store.urls.load();
   const companies = await buildCompanyList(urls, renderBuildProgress);
   const remapped = await remapStoredCompanyNames(companies);
@@ -77,7 +77,7 @@ const isDirectRun =
   process.argv[1] != null && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
 
 if (isDirectRun) {
-  main().catch((err) => {
+  refreshCompanies().catch((err) => {
     logger.fatal({ err }, `${RED_CROSS} Fatal error`);
     process.exit(1);
   });

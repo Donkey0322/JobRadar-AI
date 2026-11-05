@@ -1,10 +1,13 @@
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
 import { RED_CROSS } from "@/constants/log";
 
 import * as store from "@/store";
 import { logger } from "@/utils/logger";
 
-async function main() {
-  const args = process.argv.slice(2);
+export async function deleteUrl(args = process.argv.slice(2)) {
+  logger.level = "silent";
   let link: string | undefined;
 
   // parse args
@@ -50,9 +53,12 @@ async function main() {
   return sent;
 }
 
-// set silent to true
-logger.level = "silent";
-main().catch((err) => {
-  logger.fatal({ err }, `${RED_CROSS} Fatal error`);
-  process.exit(1);
-});
+const isDirectRun =
+  process.argv[1] != null && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
+
+if (isDirectRun) {
+  deleteUrl().catch((err) => {
+    logger.fatal({ err }, `${RED_CROSS} Fatal error`);
+    process.exit(1);
+  });
+}

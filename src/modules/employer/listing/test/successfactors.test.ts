@@ -12,8 +12,8 @@ vi.mock("@/store", () => ({ errorLog: { append: appendErrorLog } }));
 
 import type { Company } from "@/types";
 
-import { Employer } from "../../employer";
-import { successFactorsFetcher } from "../successfactors";
+import { Board } from "../../employer";
+import { successFactorsBoard } from "../successfactors";
 
 import { toJobKeySet } from "@/modules/ats/job-key";
 import { withinDays } from "@/modules/posting/screening";
@@ -55,8 +55,8 @@ describe("SuccessFactors fetcher", () => {
   });
 
   it("is a stateless singleton on the common contract", () => {
-    expect(successFactorsFetcher).toBeInstanceOf(Employer);
-    expect(Object.keys(successFactorsFetcher)).toEqual(["ats"]);
+    expect(successFactorsBoard).toBeInstanceOf(Board);
+    expect(Object.keys(successFactorsBoard)).toEqual(["ats"]);
   });
 
   it("forms a company from a job URL and names it from the feed", async () => {
@@ -65,8 +65,8 @@ describe("SuccessFactors fetcher", () => {
     );
     mockFetch.mockResolvedValueOnce(feed(""));
 
-    expect(successFactorsFetcher.companyKeyFromUrl(url)).toBe("successfactors:aramarkcareers.com");
-    await expect(successFactorsFetcher.formCompany(url)).resolves.toEqual(company);
+    expect(successFactorsBoard.companyKeyFromUrl(url)).toBe("successfactors:aramarkcareers.com");
+    await expect(successFactorsBoard.formCompany(url)).resolves.toEqual(company);
     expect(String(mockFetch.mock.calls[0][0])).toBe(company.page);
   });
 
@@ -74,7 +74,7 @@ describe("SuccessFactors fetcher", () => {
     mockFetch.mockRejectedValueOnce(new Error("offline"));
 
     await expect(
-      successFactorsFetcher.formCompany(
+      successFactorsBoard.formCompany(
         new URL("https://careers.qorvo.com/job/X-TX-75080/1435014200/")
       )
     ).resolves.toMatchObject({ name: "careers.qorvo.com", identifier: "careers.qorvo.com" });
@@ -97,7 +97,7 @@ describe("SuccessFactors fetcher", () => {
       )
     );
 
-    const jobs = await successFactorsFetcher.fetch(company, knownKeys, AbortSignal.timeout(1000));
+    const jobs = await successFactorsBoard.fetch(company, knownKeys, AbortSignal.timeout(1000));
 
     expect(jobs).toEqual([
       {
@@ -117,7 +117,7 @@ describe("SuccessFactors fetcher", () => {
     );
 
     await expect(
-      successFactorsFetcher.listJobKeys(company, AbortSignal.timeout(1000))
+      successFactorsBoard.listJobKeys(company, AbortSignal.timeout(1000))
     ).resolves.toEqual(new Set(["successfactors:aramarkcareers.com:1440000000"]));
   });
 
@@ -127,7 +127,7 @@ describe("SuccessFactors fetcher", () => {
     );
 
     await expect(
-      successFactorsFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
+      successFactorsBoard.fetch(company, new Set(), AbortSignal.timeout(1000))
     ).resolves.toEqual([]);
     expect(appendErrorLog).toHaveBeenCalledWith(
       "SuccessFactors: Aramark - certificate has expired"
@@ -138,7 +138,7 @@ describe("SuccessFactors fetcher", () => {
     mockFetch.mockResolvedValueOnce(new Response("", { status: 503, statusText: "Unavailable" }));
 
     await expect(
-      successFactorsFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
+      successFactorsBoard.fetch(company, new Set(), AbortSignal.timeout(1000))
     ).resolves.toEqual([]);
     expect(appendErrorLog).toHaveBeenCalledWith("SuccessFactors: Aramark - 503 - Unavailable");
   });
@@ -155,7 +155,7 @@ describe("SuccessFactors fetcher", () => {
     );
 
     await expect(
-      successFactorsFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
+      successFactorsBoard.fetch(company, new Set(), AbortSignal.timeout(1000))
     ).resolves.toEqual([]);
   });
 });

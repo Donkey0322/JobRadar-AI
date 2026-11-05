@@ -1,46 +1,46 @@
-import type { Employer } from "./employer";
+import type { Board } from "./employer";
 import type { ATS } from "@/modules/ats/types";
 import type { Company } from "@/types";
 
-import { ashbyFetcher } from "./listing/ashby";
-import { bambooHRFetcher } from "./listing/bamboohr";
-import { customFetcher } from "./listing/custom";
-import { eightfoldFetcher } from "./listing/eightfold";
-import { greenhouseFetcher } from "./listing/greenhouse";
-import { icimsFetcher } from "./listing/icims";
-import { jazzHRFetcher } from "./listing/jazzhr";
-import { leverFetcher } from "./listing/lever";
-import { noneFetcher } from "./listing/none";
-import { oracleCloudFetcher } from "./listing/oraclecloud";
-import { phenomFetcher } from "./listing/phenom";
-import { pinpointFetcher } from "./listing/pinpoint";
-import { radancyFetcher } from "./listing/radancy";
-import { ripplingFetcher } from "./listing/rippling";
-import { smartRecruitersFetcher } from "./listing/smart";
-import { successFactorsFetcher } from "./listing/successfactors";
-import { workdayFetcher } from "./listing/workday";
+import { ashbyBoard } from "./listing/ashby";
+import { bambooHRBoard } from "./listing/bamboohr";
+import { customBoard } from "./listing/custom";
+import { eightfoldBoard } from "./listing/eightfold";
+import { greenhouseBoard } from "./listing/greenhouse";
+import { icimsBoard } from "./listing/icims";
+import { jazzHRBoard } from "./listing/jazzhr";
+import { leverBoard } from "./listing/lever";
+import { noneBoard } from "./listing/none";
+import { oracleCloudBoard } from "./listing/oraclecloud";
+import { phenomBoard } from "./listing/phenom";
+import { pinpointBoard } from "./listing/pinpoint";
+import { radancyBoard } from "./listing/radancy";
+import { ripplingBoard } from "./listing/rippling";
+import { smartRecruitersBoard } from "./listing/smart";
+import { successFactorsBoard } from "./listing/successfactors";
+import { workdayBoard } from "./listing/workday";
 
-export const employers = {
-  ashby: ashbyFetcher,
-  bamboohr: bambooHRFetcher,
-  eightfold: eightfoldFetcher,
-  greenhouse: greenhouseFetcher,
-  icims: icimsFetcher,
-  jazzhr: jazzHRFetcher,
-  lever: leverFetcher,
-  oraclecloud: oracleCloudFetcher,
-  phenom: phenomFetcher,
-  pinpoint: pinpointFetcher,
-  radancy: radancyFetcher,
-  rippling: ripplingFetcher,
-  smartrecruiters: smartRecruitersFetcher,
-  successfactors: successFactorsFetcher,
-  workday: workdayFetcher,
-  custom: customFetcher,
-  none: noneFetcher,
-} satisfies Record<ATS, Employer<unknown>>;
+export const boards = {
+  ashby: ashbyBoard,
+  bamboohr: bambooHRBoard,
+  eightfold: eightfoldBoard,
+  greenhouse: greenhouseBoard,
+  icims: icimsBoard,
+  jazzhr: jazzHRBoard,
+  lever: leverBoard,
+  oraclecloud: oracleCloudBoard,
+  phenom: phenomBoard,
+  pinpoint: pinpointBoard,
+  radancy: radancyBoard,
+  rippling: ripplingBoard,
+  smartrecruiters: smartRecruitersBoard,
+  successfactors: successFactorsBoard,
+  workday: workdayBoard,
+  custom: customBoard,
+  none: noneBoard,
+} satisfies Record<ATS, Board<unknown>>;
 
-export function asEmployer(company: Company): Employer {
-  const Board = employers[company.ats].constructor as new (company?: Company) => Employer;
-  return new Board(company);
+export function asBoard(company: Company): Board {
+  const Adapter = boards[company.ats].constructor as new (company?: Company) => Board;
+  return new Adapter(company);
 }

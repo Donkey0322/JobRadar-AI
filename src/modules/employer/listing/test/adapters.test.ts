@@ -11,14 +11,14 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company } from "@/types";
 
-import { Employer } from "../../employer";
-import { ashbyFetcher } from "../ashby";
-import { eightfoldFetcher } from "../eightfold";
-import { GreenhouseFetcher, greenhouseFetcher } from "../greenhouse";
-import { leverFetcher } from "../lever";
-import { NoneFetcher, noneFetcher } from "../none";
-import { oracleCloudFetcher } from "../oraclecloud";
-import { smartRecruitersFetcher } from "../smart";
+import { Board } from "../../employer";
+import { ashbyBoard } from "../ashby";
+import { eightfoldBoard } from "../eightfold";
+import { GreenhouseBoard, greenhouseBoard } from "../greenhouse";
+import { leverBoard } from "../lever";
+import { NoneBoard, noneBoard } from "../none";
+import { oracleCloudBoard } from "../oraclecloud";
+import { smartRecruitersBoard } from "../smart";
 
 import { toJobKeySet } from "@/modules/ats/job-key";
 import { isTarget, withinDays } from "@/modules/posting/screening";
@@ -44,25 +44,25 @@ describe("Company adapters", () => {
   });
 
   it("exposes Greenhouse and Eightfold through the common base contract", () => {
-    expect(greenhouseFetcher).toBeInstanceOf(Employer);
-    expect(greenhouseFetcher.ats).toBe("greenhouse");
-    expect(eightfoldFetcher).toBeInstanceOf(Employer);
-    expect(eightfoldFetcher.ats).toBe("eightfold");
+    expect(greenhouseBoard).toBeInstanceOf(Board);
+    expect(greenhouseBoard.ats).toBe("greenhouse");
+    expect(eightfoldBoard).toBeInstanceOf(Board);
+    expect(eightfoldBoard.ats).toBe("eightfold");
   });
 
   it("exposes the simple adapters through the common base contract", () => {
-    expect(ashbyFetcher).toBeInstanceOf(Employer);
-    expect(ashbyFetcher.ats).toBe("ashby");
-    expect(leverFetcher).toBeInstanceOf(Employer);
-    expect(leverFetcher.ats).toBe("lever");
-    expect(oracleCloudFetcher).toBeInstanceOf(Employer);
-    expect(oracleCloudFetcher.ats).toBe("oraclecloud");
-    expect(smartRecruitersFetcher).toBeInstanceOf(Employer);
-    expect(smartRecruitersFetcher.ats).toBe("smartrecruiters");
+    expect(ashbyBoard).toBeInstanceOf(Board);
+    expect(ashbyBoard.ats).toBe("ashby");
+    expect(leverBoard).toBeInstanceOf(Board);
+    expect(leverBoard.ats).toBe("lever");
+    expect(oracleCloudBoard).toBeInstanceOf(Board);
+    expect(oracleCloudBoard.ats).toBe("oraclecloud");
+    expect(smartRecruitersBoard).toBeInstanceOf(Board);
+    expect(smartRecruitersBoard.ats).toBe("smartrecruiters");
   });
 
   it("keeps Greenhouse company formation compatible", async () => {
-    const company = await greenhouseFetcher.formCompany(
+    const company = await greenhouseBoard.formCompany(
       new URL("https://job-boards.greenhouse.io/acme/jobs/123")
     );
 
@@ -108,7 +108,7 @@ describe("Company adapters", () => {
     );
 
     await expect(
-      greenhouseFetcher.fetch(company, toJobKeySet([knownAlias]), AbortSignal.timeout(1000))
+      greenhouseBoard.fetch(company, toJobKeySet([knownAlias]), AbortSignal.timeout(1000))
     ).resolves.toEqual([
       {
         company: "Acme Inc.",
@@ -147,7 +147,7 @@ describe("Company adapters", () => {
     );
 
     await expect(
-      greenhouseFetcher.listJobKeys(company, AbortSignal.timeout(1000))
+      greenhouseBoard.listJobKeys(company, AbortSignal.timeout(1000))
     ).resolves.toEqual(new Set(["greenhouse:1", "greenhouse:2"]));
   });
 
@@ -156,10 +156,10 @@ describe("Company adapters", () => {
       .mockResolvedValueOnce(jsonResponse({ data: { positions: [] } }))
       .mockResolvedValueOnce(jsonResponse({ data: { positions: [] } }));
 
-    const microsoft = await eightfoldFetcher.formCompany(
+    const microsoft = await eightfoldBoard.formCompany(
       new URL("https://apply.careers.microsoft.com/careers/job/1?domain=microsoft.com&8fold_id=1")
     );
-    const caci = await eightfoldFetcher.formCompany(
+    const caci = await eightfoldBoard.formCompany(
       new URL("https://searchcareers.caci.com/careers/job/1?8fold_id=1")
     );
 
@@ -174,7 +174,7 @@ describe("Company adapters", () => {
       domain: "caci.com",
     });
     expect(
-      eightfoldFetcher.companyKeyFromUrl(
+      eightfoldBoard.companyKeyFromUrl(
         new URL("https://apply.careers.microsoft.com/careers/job/2?8fold_id=2")
       )
     ).toBe("eightfold:apply.careers.microsoft.com");
@@ -184,7 +184,7 @@ describe("Company adapters", () => {
     mockFetch.mockResolvedValueOnce(jsonResponse({ data: { positions: [] } }));
 
     await expect(
-      eightfoldFetcher.formCompany(new URL("https://join.sephora.com/careers/job/790312030968"))
+      eightfoldBoard.formCompany(new URL("https://join.sephora.com/careers/job/790312030968"))
     ).resolves.toMatchObject({
       name: "sephora",
       identifier: "join.sephora.com",
@@ -195,9 +195,9 @@ describe("Company adapters", () => {
 
   it("files a custom host under its existing *.eightfold.ai tenant", () => {
     expect(
-      eightfoldFetcher.companyKeyFromUrl(new URL("https://career.mlp.com/careers/job/755957778821"))
+      eightfoldBoard.companyKeyFromUrl(new URL("https://career.mlp.com/careers/job/755957778821"))
     ).toBe(
-      eightfoldFetcher.companyKeyFromUrl(
+      eightfoldBoard.companyKeyFromUrl(
         new URL("https://mlp.eightfold.ai/careers/job/755957583465?domain=mlp.com&8fold_id=1")
       )
     );
@@ -208,7 +208,7 @@ describe("Company adapters", () => {
       jsonResponse({ message: "PCSX is not enabled for this user." })
     );
 
-    const company = await eightfoldFetcher.formCompany(
+    const company = await eightfoldBoard.formCompany(
       new URL("https://acme.eightfold.ai/careers?domain=jobs.acme.com")
     );
 
@@ -227,7 +227,7 @@ describe("Company adapters", () => {
       jsonResponse({ message: "PCSX is not enabled for this user." }, 403)
     );
 
-    const company = await eightfoldFetcher.formCompany(
+    const company = await eightfoldBoard.formCompany(
       new URL("https://mlp.eightfold.ai/careers/job/1?domain=mlp.com")
     );
 
@@ -260,7 +260,7 @@ describe("Company adapters", () => {
         })
       );
 
-    const jobs = await eightfoldFetcher.fetch(company, new Set(), AbortSignal.timeout(1000));
+    const jobs = await eightfoldBoard.fetch(company, new Set(), AbortSignal.timeout(1000));
 
     expect(jobs).toEqual([
       {
@@ -299,7 +299,7 @@ describe("Company adapters", () => {
       })
     );
 
-    const jobs = await eightfoldFetcher.fetch(company, new Set(), AbortSignal.timeout(1000));
+    const jobs = await eightfoldBoard.fetch(company, new Set(), AbortSignal.timeout(1000));
 
     expect(jobs).toEqual([
       {
@@ -335,7 +335,7 @@ describe("Company adapters", () => {
       .mockResolvedValueOnce(jsonResponse({ data: { positions } }))
       .mockResolvedValueOnce(jsonResponse({ data: { positions: [] } }));
 
-    const jobs = await eightfoldFetcher.fetch(company, new Set(), AbortSignal.timeout(1000));
+    const jobs = await eightfoldBoard.fetch(company, new Set(), AbortSignal.timeout(1000));
 
     expect(jobs).toHaveLength(10);
     expect(mockFetch).toHaveBeenCalledTimes(2);
@@ -365,7 +365,7 @@ describe("Company adapters", () => {
       .mockResolvedValueOnce(jsonResponse({ data: { positions } }))
       .mockResolvedValueOnce(new Response("", { status: 500, statusText: "Unavailable" }));
 
-    const jobs = await eightfoldFetcher.fetch(company, new Set(), AbortSignal.timeout(1000));
+    const jobs = await eightfoldBoard.fetch(company, new Set(), AbortSignal.timeout(1000));
 
     expect(jobs).toHaveLength(10);
     expect(jobs[0]?.link).toContain("/careers/job/1");
@@ -401,7 +401,7 @@ describe("Company adapters", () => {
       )
       .mockRejectedValueOnce(new DOMException("timed out", "TimeoutError"));
 
-    await expect(eightfoldFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))).resolves.toEqual(
+    await expect(eightfoldBoard.fetch(company, new Set(), AbortSignal.timeout(1000))).resolves.toEqual(
       []
     );
     expect(mockFetch).toHaveBeenCalledTimes(2);
@@ -435,7 +435,7 @@ describe("Company adapters", () => {
 
     mockFetch.mockResolvedValueOnce(jsonResponse({ data: { positions } }));
 
-    const jobs = await eightfoldFetcher.fetch(company, new Set(), AbortSignal.timeout(1000));
+    const jobs = await eightfoldBoard.fetch(company, new Set(), AbortSignal.timeout(1000));
 
     expect(jobs.map((job) => job.role)).toEqual([
       "Engineer 1",
@@ -492,7 +492,7 @@ describe("Company adapters", () => {
     );
 
     await expect(
-      greenhouseFetcher.fetch(
+      greenhouseBoard.fetch(
         company,
         toJobKeySet(["https://boards.greenhouse.io/acme/jobs/3"]),
         signal
@@ -509,10 +509,10 @@ describe("Company adapters", () => {
   });
 
   it.each([
-    ["Greenhouse", greenhouseFetcher],
-    ["Lever", leverFetcher],
-    ["Smart Recruiters", smartRecruitersFetcher],
-    ["Oracle Cloud", oracleCloudFetcher],
+    ["Greenhouse", greenhouseBoard],
+    ["Lever", leverBoard],
+    ["Smart Recruiters", smartRecruitersBoard],
+    ["Oracle Cloud", oracleCloudBoard],
   ] as const)("returns no jobs when %s fails the listing request", async (label, fetcher) => {
     const company: Company = {
       name: "acme",
@@ -595,7 +595,7 @@ describe("Company adapters", () => {
       })
     );
 
-    const jobs = await new GreenhouseFetcher(company).getJobs();
+    const jobs = await new GreenhouseBoard(company).getJobs();
 
     expect(jobs.map((job) => job.link)).toEqual([
       "https://boards.greenhouse.io/acme/jobs/2",
@@ -636,7 +636,7 @@ describe("Company adapters", () => {
       ])
     );
 
-    const jobs = await leverFetcher.fetch(
+    const jobs = await leverBoard.fetch(
       company,
       toJobKeySet(["https://jobs.lever.co/acme/bbb?utm=1"]),
       AbortSignal.timeout(1000)
@@ -668,7 +668,7 @@ describe("Company adapters", () => {
       })
     );
 
-    const jobs = await smartRecruitersFetcher.fetch(
+    const jobs = await smartRecruitersBoard.fetch(
       company,
       toJobKeySet(["https://jobs.smartrecruiters.com/other/222?src=1"]),
       AbortSignal.timeout(1000)
@@ -705,7 +705,7 @@ describe("Company adapters", () => {
       })
     );
 
-    const jobs = await oracleCloudFetcher.fetch(
+    const jobs = await oracleCloudBoard.fetch(
       company,
       toJobKeySet([`${domain}/222?src=1`]),
       AbortSignal.timeout(1000)
@@ -758,7 +758,7 @@ describe("Company adapters", () => {
       })
     );
 
-    const jobs = await eightfoldFetcher.fetch(
+    const jobs = await eightfoldBoard.fetch(
       company,
       toJobKeySet(["https://acme.eightfold.ai/careers/job/2?pid=2"]),
       AbortSignal.timeout(1000)
@@ -781,8 +781,8 @@ describe("Company adapters", () => {
       urls: ["https://example.com/jobs/1"],
     };
 
-    await expect(new NoneFetcher(company).getJobs()).resolves.toEqual([]);
-    expect(noneFetcher.ats).toBe("none");
+    await expect(new NoneBoard(company).getJobs()).resolves.toEqual([]);
+    expect(noneBoard.ats).toBe("none");
     expect(mockFetch).not.toHaveBeenCalled();
   });
 });

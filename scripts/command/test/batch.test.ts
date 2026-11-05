@@ -8,6 +8,7 @@ import type { JD } from "@/types/jobs";
 const collectInflightBatchesMock = vi.hoisted(() => vi.fn());
 const loadBatchQueueMock = vi.hoisted(() => vi.fn());
 const loadInflightBatchesMock = vi.hoisted(() => vi.fn());
+const saveInflightBatchesMock = vi.hoisted(() => vi.fn());
 const submitQueuedJobsMock = vi.hoisted(() => vi.fn());
 const persistAnalyzedJobsMock = vi.hoisted(() => vi.fn());
 
@@ -15,6 +16,7 @@ vi.mock("@/modules/posting/batch", () => ({
   collectInflightBatches: collectInflightBatchesMock,
   loadBatchQueue: loadBatchQueueMock,
   loadInflightBatches: loadInflightBatchesMock,
+  saveInflightBatches: saveInflightBatchesMock,
   submitQueuedJobs: submitQueuedJobsMock,
 }));
 
@@ -59,6 +61,7 @@ describe("processBatchQueue", () => {
     collectInflightBatchesMock.mockReset();
     loadBatchQueueMock.mockReset().mockResolvedValue([]);
     loadInflightBatchesMock.mockReset().mockResolvedValue([]);
+    saveInflightBatchesMock.mockReset().mockResolvedValue(undefined);
     submitQueuedJobsMock.mockReset();
     persistAnalyzedJobsMock.mockReset().mockResolvedValue(emptyPersist);
   });
@@ -80,6 +83,7 @@ describe("processBatchQueue", () => {
     const result = await processBatchQueue(0);
 
     expect(persistAnalyzedJobsMock).toHaveBeenCalledWith(analyzed);
+    expect(saveInflightBatchesMock).toHaveBeenCalledWith([]);
     expect(submitQueuedJobsMock).not.toHaveBeenCalled();
     expect(result).toMatchObject({
       collected: 1,
@@ -153,6 +157,7 @@ describe("processBatchQueue", () => {
     expect(sleep).toHaveBeenCalledOnce();
     expect(collectInflightBatchesMock).toHaveBeenCalledTimes(2);
     expect(persistAnalyzedJobsMock).toHaveBeenNthCalledWith(2, analyzed);
+    expect(saveInflightBatchesMock).toHaveBeenCalledWith([]);
     expect(result).toMatchObject({
       collected: 1,
       submitted: 1,

@@ -11,8 +11,8 @@ vi.mock("@/utils/logger", () => ({
 import type { Company, Job } from "@/types";
 
 import { fetchEmployerJobs } from "../discover";
-import { leverFetcher } from "../listing/lever";
-import { asEmployer } from "../registry";
+import { leverBoard } from "../listing/lever";
+import { asBoard } from "../registry";
 
 function company(name: string, urls: string[] = []): Company {
   return {
@@ -32,9 +32,9 @@ describe("fetchEmployerJobs", () => {
 
   it("converts company URLs to keys before dispatching an adapter", async () => {
     const existing = "https://jobs.lever.co/acme/known";
-    const fetch = vi.spyOn(Object.getPrototypeOf(leverFetcher), "fetch").mockResolvedValue([]);
+    const fetch = vi.spyOn(Object.getPrototypeOf(leverBoard), "fetch").mockResolvedValue([]);
 
-    await expect(fetchEmployerJobs([asEmployer(company("acme", [existing]))])).resolves.toEqual({
+    await expect(fetchEmployerJobs([asBoard(company("acme", [existing]))])).resolves.toEqual({
       jobs: [],
       slow: [],
       failed: [],
@@ -59,7 +59,7 @@ describe("fetchEmployerJobs", () => {
       link: "https://jobs.lever.co/acme/new",
       location: "Remote",
     };
-    vi.spyOn(Object.getPrototypeOf(leverFetcher), "fetch").mockImplementation(async (employer) => {
+    vi.spyOn(Object.getPrototypeOf(leverBoard), "fetch").mockImplementation(async (employer) => {
       if ((employer as Company).name === "bad") {
         throw new Error("down");
       }
@@ -68,8 +68,8 @@ describe("fetchEmployerJobs", () => {
     });
 
     const result = await fetchEmployerJobs([
-      asEmployer(company("acme")),
-      asEmployer(company("bad")),
+      asBoard(company("acme")),
+      asBoard(company("bad")),
     ]);
 
     expect(result.jobs).toEqual([job]);

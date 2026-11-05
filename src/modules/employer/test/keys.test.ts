@@ -6,7 +6,7 @@ import type { Company } from "@/types";
 
 import { companyKey, groupUrlsByCompanyKey } from "../build";
 import { careerSiteAlias, companyKeyFromUrl } from "../keys";
-import { employers } from "../registry";
+import { boards } from "../registry";
 import { knownEmployerName, remapStoredCompany } from "../remap";
 
 import { classifyATS } from "@/modules/ats/classify";
@@ -67,7 +67,7 @@ describe("career-site alias company keys", () => {
     "https://careers.example.com/jobs/123",
   ])("keeps the ATS company key for a non-alias URL: %s", (link) => {
     const url = new URL(link);
-    const atsKey = employers[classifyATS(url)].companyKeyFromUrl(url);
+    const atsKey = boards[classifyATS(url)].companyKeyFromUrl(url);
 
     expect(careerSiteAlias(link)).toBeNull();
     expect(companyKeyFromUrl(url)).toBe(atsKey);

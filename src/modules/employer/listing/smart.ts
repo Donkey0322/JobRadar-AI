@@ -5,7 +5,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
+import { Board } from "../employer";
 
 import { logListingStatus } from "@/modules/employer/failure";
 import { formatCompanyName } from "@/utils/company-name";
@@ -25,7 +25,7 @@ export const SmartRecruitersResponseSchema = z.object({
   content: z.array(SmartRecruitersJobSchema),
 });
 
-export class SmartRecruitersFetcher extends Employer<SmartRecruitersJob> {
+export class SmartRecruitersBoard extends Board<SmartRecruitersJob> {
   readonly ats = "smartrecruiters" as const;
 
   companyKeyFromUrl(url: URL): string {
@@ -105,4 +105,4 @@ export class SmartRecruitersFetcher extends Employer<SmartRecruitersJob> {
   }
 }
 
-export const smartRecruitersFetcher = new SmartRecruitersFetcher();
+export const smartRecruitersBoard = new SmartRecruitersBoard();

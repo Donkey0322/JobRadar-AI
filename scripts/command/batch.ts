@@ -4,6 +4,7 @@ import {
   collectInflightBatches,
   loadBatchQueue,
   loadInflightBatches,
+  saveInflightBatches,
   submitQueuedJobs,
 } from "@/modules/posting/batch";
 import { logger } from "@/utils/logger";
@@ -43,6 +44,11 @@ export async function processBatchQueue(
   async function collectAndPersist() {
     const collected = await collectInflightBatches();
     const persisted = await persistAnalyzedJobs(collected.analyzed);
+
+    if (collected.analyzed.length > 0) {
+      await saveInflightBatches(collected.remaining);
+    }
+
     collectedCount += collected.analyzed.length;
     totalCost += persisted.totalCost;
     notifyCount += persisted.count;

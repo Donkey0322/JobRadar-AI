@@ -16,8 +16,8 @@ vi.mock("@/store", () => ({ errorLog: { append: appendErrorLog } }));
 
 import type { Company } from "@/types";
 
-import { Employer } from "../../employer";
-import { jazzHRFetcher } from "../jazzhr";
+import { Board } from "../../employer";
+import { jazzHRBoard } from "../jazzhr";
 
 import { toJobKeySet } from "@/modules/ats/job-key";
 
@@ -53,8 +53,8 @@ describe("JazzHR fetcher", () => {
   });
 
   it("is a stateless singleton on the common contract", () => {
-    expect(jazzHRFetcher).toBeInstanceOf(Employer);
-    expect(Object.keys(jazzHRFetcher)).toEqual(["ats"]);
+    expect(jazzHRBoard).toBeInstanceOf(Board);
+    expect(Object.keys(jazzHRBoard)).toEqual(["ats"]);
   });
 
   it("forms a company from a job URL and names it from the board", async () => {
@@ -63,8 +63,8 @@ describe("JazzHR fetcher", () => {
     );
     mockFetch.mockResolvedValueOnce(listing(""));
 
-    expect(jazzHRFetcher.companyKeyFromUrl(url)).toBe("jazzhr:career.innovativesystems.com");
-    await expect(jazzHRFetcher.formCompany(url)).resolves.toEqual(company);
+    expect(jazzHRBoard.companyKeyFromUrl(url)).toBe("jazzhr:career.innovativesystems.com");
+    await expect(jazzHRBoard.formCompany(url)).resolves.toEqual(company);
     expect(String(mockFetch.mock.calls[0][0])).toBe(company.page);
   });
 
@@ -72,7 +72,7 @@ describe("JazzHR fetcher", () => {
     mockFetch.mockRejectedValueOnce(new Error("offline"));
 
     await expect(
-      jazzHRFetcher.formCompany(new URL("https://neboagency.applytojob.com/apply/AFMqe9Jb7b/x"))
+      jazzHRBoard.formCompany(new URL("https://neboagency.applytojob.com/apply/AFMqe9Jb7b/x"))
     ).resolves.toMatchObject({ name: "neboagency", identifier: "neboagency.applytojob.com" });
   });
 
@@ -90,7 +90,7 @@ describe("JazzHR fetcher", () => {
     );
 
     await expect(
-      jazzHRFetcher.fetch(company, knownKeys, AbortSignal.timeout(1000))
+      jazzHRBoard.fetch(company, knownKeys, AbortSignal.timeout(1000))
     ).resolves.toEqual([
       {
         company: "Innovative Systems",
@@ -106,7 +106,7 @@ describe("JazzHR fetcher", () => {
       listing(row("20260522003912", "jA6qmBJarn", "Support Analyst", "London"))
     );
 
-    await expect(jazzHRFetcher.listJobKeys(company, AbortSignal.timeout(1000))).resolves.toEqual(
+    await expect(jazzHRBoard.listJobKeys(company, AbortSignal.timeout(1000))).resolves.toEqual(
       new Set(["jazzhr:career.innovativesystems.com:jA6qmBJarn"])
     );
   });
@@ -117,7 +117,7 @@ describe("JazzHR fetcher", () => {
     );
 
     await expect(
-      jazzHRFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
+      jazzHRBoard.fetch(company, new Set(), AbortSignal.timeout(1000))
     ).resolves.toEqual([]);
     expect(appendErrorLog).toHaveBeenCalledWith(
       "JazzHR: Innovative Systems - getaddrinfo ENOTFOUND"
@@ -128,7 +128,7 @@ describe("JazzHR fetcher", () => {
     mockFetch.mockResolvedValueOnce(new Response("", { status: 404, statusText: "Not Found" }));
 
     await expect(
-      jazzHRFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
+      jazzHRBoard.fetch(company, new Set(), AbortSignal.timeout(1000))
     ).resolves.toEqual([]);
     expect(appendErrorLog).toHaveBeenCalledWith("JazzHR: Innovative Systems - 404 - Not Found");
   });

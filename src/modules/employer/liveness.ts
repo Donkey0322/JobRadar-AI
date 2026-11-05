@@ -1,6 +1,6 @@
 import type { Company } from "@/types";
 
-import { asEmployer } from "./registry";
+import { asBoard } from "./registry";
 
 import { getJobKey } from "@/modules/ats/job-key";
 
@@ -35,6 +35,6 @@ export async function checkUrlsAgainstListing(
     return { listed: [], unverified: [...urls] };
   }
 
-  const listedKeys = await asEmployer(company).listedKeys(signal);
+  const listedKeys = await asBoard(company).listedKeys(signal);
   return partitionUrlsByListedKeys(urls, listedKeys);
 }

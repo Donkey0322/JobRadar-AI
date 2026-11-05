@@ -1,6 +1,6 @@
 import pLimit from "p-limit";
 
-import type { Employer } from "./employer";
+import type { Board } from "./employer";
 import type { Job } from "@/types";
 
 import { deduplicateJobs } from "@/modules/ats/job-key";
@@ -16,7 +16,7 @@ export type DiscoverCompanyFailure = DiscoverCompanyTiming & {
 };
 
 export async function fetchEmployerJobs(
-  companies: readonly Employer[],
+  companies: readonly Board[],
   options: {
     concurrency?: number;
     slowThresholdMs?: number;

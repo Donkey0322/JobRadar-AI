@@ -2,7 +2,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
+import { Board } from "../employer";
 
 import {
   getSuccessFactorsFeedCompanyName,
@@ -42,7 +42,7 @@ async function fetchFeedCompanyName(feedUrl: string): Promise<string | null> {
  * SAP SuccessFactors Career Site Builder boards. The public RSS feed lists the
  * newest postings first and does not paginate.
  */
-export class SuccessFactorsFetcher extends Employer<SuccessFactorsJob> {
+export class SuccessFactorsBoard extends Board<SuccessFactorsJob> {
   readonly ats = "successfactors" as const;
 
   companyKeyFromUrl(url: URL): string {
@@ -127,4 +127,4 @@ export class SuccessFactorsFetcher extends Employer<SuccessFactorsJob> {
   }
 }
 
-export const successFactorsFetcher = new SuccessFactorsFetcher();
+export const successFactorsBoard = new SuccessFactorsBoard();

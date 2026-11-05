@@ -11,11 +11,11 @@ vi.mock("@/store", () => ({ errorLog: { append: vi.fn() } }));
 
 import type { Company } from "@/types";
 
-import { Employer } from "../../employer";
-import { icimsFetcher } from "../icims";
-import { phenomFetcher } from "../phenom";
-import { radancyFetcher } from "../radancy";
-import { workdayFetcher } from "../workday";
+import { Board } from "../../employer";
+import { icimsBoard } from "../icims";
+import { phenomBoard } from "../phenom";
+import { radancyBoard } from "../radancy";
+import { workdayBoard } from "../workday";
 
 import { getJobKey, toJobKeySet } from "@/modules/ats/job-key";
 import { isTarget } from "@/modules/posting/screening";
@@ -42,14 +42,14 @@ describe("complex ATS adapters", () => {
   });
 
   it("exposes stateless singleton fetchers through the common contract", () => {
-    expect(workdayFetcher).toBeInstanceOf(Employer);
-    expect(icimsFetcher).toBeInstanceOf(Employer);
-    expect(phenomFetcher).toBeInstanceOf(Employer);
-    expect(radancyFetcher).toBeInstanceOf(Employer);
-    expect(Object.keys(workdayFetcher)).toEqual(["ats"]);
-    expect(Object.keys(icimsFetcher)).toEqual(["ats"]);
-    expect(Object.keys(phenomFetcher)).toEqual(["ats"]);
-    expect(Object.keys(radancyFetcher)).toEqual(["ats"]);
+    expect(workdayBoard).toBeInstanceOf(Board);
+    expect(icimsBoard).toBeInstanceOf(Board);
+    expect(phenomBoard).toBeInstanceOf(Board);
+    expect(radancyBoard).toBeInstanceOf(Board);
+    expect(Object.keys(workdayBoard)).toEqual(["ats"]);
+    expect(Object.keys(icimsBoard)).toEqual(["ats"]);
+    expect(Object.keys(phenomBoard)).toEqual(["ats"]);
+    expect(Object.keys(radancyBoard)).toEqual(["ats"]);
   });
 
   it("keeps Workday pagination for jobs posted today", async () => {
@@ -72,7 +72,7 @@ describe("complex ATS adapters", () => {
       .mockResolvedValueOnce(jsonResponse({ jobPostings }, company.page))
       .mockResolvedValueOnce(jsonResponse({ jobPostings: [] }, company.page));
 
-    const jobs = await workdayFetcher.fetch(company, new Set(), AbortSignal.timeout(1000));
+    const jobs = await workdayBoard.fetch(company, new Set(), AbortSignal.timeout(1000));
 
     expect(jobs).toHaveLength(20);
     expect(mockFetch).toHaveBeenCalledTimes(2);
@@ -112,7 +112,7 @@ describe("complex ATS adapters", () => {
       .mockResolvedValueOnce(jsonResponse({ jobPostings: today }, company.page))
       .mockResolvedValueOnce(jsonResponse({ jobPostings: older }, company.page));
 
-    const keys = await workdayFetcher.listJobKeys(company, AbortSignal.timeout(1000));
+    const keys = await workdayBoard.listJobKeys(company, AbortSignal.timeout(1000));
 
     expect(keys?.size).toBe(25);
     expect(keys?.has("workday:acme:R1000")).toBe(true);
@@ -144,7 +144,7 @@ describe("complex ATS adapters", () => {
       .mockResolvedValueOnce(jsonResponse({ jobPostings: today }, company.page))
       .mockResolvedValueOnce(new Response("", { status: 500, statusText: "Unavailable" }));
 
-    await expect(workdayFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))).resolves.toEqual(
+    await expect(workdayBoard.fetch(company, new Set(), AbortSignal.timeout(1000))).resolves.toEqual(
       []
     );
     expect(mockFetch).toHaveBeenCalledTimes(2);
@@ -171,7 +171,7 @@ describe("complex ATS adapters", () => {
       .mockResolvedValueOnce(jsonResponse({ jobPostings: today }, company.page))
       .mockResolvedValueOnce(new Response("", { status: 500, statusText: "Unavailable" }));
 
-    const keys = await workdayFetcher.listJobKeys(company, AbortSignal.timeout(1000));
+    const keys = await workdayBoard.listJobKeys(company, AbortSignal.timeout(1000));
 
     expect(keys?.size).toBe(20);
     expect(keys?.has("workday:acme:R1000")).toBe(true);
@@ -218,7 +218,7 @@ describe("complex ATS adapters", () => {
       )
     );
 
-    const jobs = await workdayFetcher.fetch(
+    const jobs = await workdayBoard.fetch(
       company,
       toJobKeySet([`${known}?src=1`]),
       AbortSignal.timeout(1000)
@@ -249,7 +249,7 @@ describe("complex ATS adapters", () => {
 
     mockFetch.mockResolvedValueOnce(response(html, `${company.page}?pr=0`));
 
-    const jobs = await icimsFetcher.fetch(company, knownKeys, AbortSignal.timeout(1000));
+    const jobs = await icimsBoard.fetch(company, knownKeys, AbortSignal.timeout(1000));
 
     expect(jobs).toEqual([
       {
@@ -288,7 +288,7 @@ describe("complex ATS adapters", () => {
 
     mockFetch.mockResolvedValueOnce(response(html, `${company.page}?pr=0`));
 
-    const jobs = await icimsFetcher.fetch(
+    const jobs = await icimsBoard.fetch(
       company,
       toJobKeySet(["https://careers-acme.icims.com/jobs/1/known-engineer/job?in_iframe=1"]),
       AbortSignal.timeout(1000)
@@ -333,7 +333,7 @@ describe("complex ATS adapters", () => {
       .mockResolvedValueOnce(response(redirect, `${company.page}?pr=0`))
       .mockResolvedValueOnce(jsonResponse({ jobs }, "https://careers.acme.com/api/jobs"));
 
-    const keys = await icimsFetcher.listJobKeys(company, AbortSignal.timeout(1000));
+    const keys = await icimsBoard.listJobKeys(company, AbortSignal.timeout(1000));
 
     expect(keys).toEqual(
       new Set(["icims:careers.acme.com:1", "icims:careers.acme.com:2", "icims:careers.acme.com:3"])
@@ -360,7 +360,7 @@ describe("complex ATS adapters", () => {
 
     mockFetch.mockResolvedValueOnce(jsonResponse({ jobs: firstPage }, company.page));
 
-    const jobs = await icimsFetcher.fetch(
+    const jobs = await icimsBoard.fetch(
       company,
       toJobKeySet(["https://careers.acme.com/jobs/1?icims=1"]),
       AbortSignal.timeout(1000)
@@ -391,7 +391,7 @@ describe("complex ATS adapters", () => {
       .mockResolvedValueOnce(response(redirect, `${company.page}?pr=0`))
       .mockResolvedValueOnce(new Response("Not Found", { status: 404 }));
 
-    expect(await icimsFetcher.listJobKeys(company, AbortSignal.timeout(1000))).toEqual(new Set());
+    expect(await icimsBoard.listJobKeys(company, AbortSignal.timeout(1000))).toEqual(new Set());
   });
 
   it.each([
@@ -408,7 +408,7 @@ describe("complex ATS adapters", () => {
     };
     mockFetch.mockResolvedValueOnce(response("<html></html>", page));
 
-    await icimsFetcher.listJobKeys(company, AbortSignal.timeout(1000));
+    await icimsBoard.listJobKeys(company, AbortSignal.timeout(1000));
 
     expect(String(mockFetch.mock.calls[0][0])).toBe(
       "https://careers-acme.icims.com/jobs/search?in_iframe=1&pr=0"
@@ -446,7 +446,7 @@ describe("complex ATS adapters", () => {
       urls: [],
     };
 
-    expect(icimsFetcher.repairCompany(company).page).toBe(expected);
+    expect(icimsBoard.repairCompany(company).page).toBe(expected);
   });
 
   it("writes a failed iCIMS listing to the error log", async () => {
@@ -462,7 +462,7 @@ describe("complex ATS adapters", () => {
     mockFetch.mockResolvedValueOnce(new Response("Gone", { status: 410, statusText: "Gone" }));
 
     await expect(
-      icimsFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
+      icimsBoard.fetch(company, new Set(), AbortSignal.timeout(1000))
     ).resolves.toEqual([]);
     expect(errorLog.append).toHaveBeenCalledWith(
       "iCIMS: acme - 410 - Gone (https://careers-acme.icims.com/jobs/search?in_iframe=1&pr=0)"
@@ -477,7 +477,7 @@ describe("complex ATS adapters", () => {
       )
     );
 
-    const company = await icimsFetcher.formCompany(
+    const company = await icimsBoard.formCompany(
       new URL("https://careers.akima.com/jobs?keywords=&page=1")
     );
 
@@ -503,7 +503,7 @@ describe("complex ATS adapters", () => {
 
     mockFetch.mockResolvedValueOnce(new Response("", { status: 503 }));
 
-    expect(await icimsFetcher.listJobKeys(company, AbortSignal.timeout(1000))).toBeNull();
+    expect(await icimsBoard.listJobKeys(company, AbortSignal.timeout(1000))).toBeNull();
   });
 
   it("reports a failed iCIMS page as unknown rather than empty", async () => {
@@ -518,7 +518,7 @@ describe("complex ATS adapters", () => {
 
     mockFetch.mockResolvedValueOnce(new Response("", { status: 503 }));
 
-    expect(await icimsFetcher.listJobKeys(company, AbortSignal.timeout(1000))).toBeNull();
+    expect(await icimsBoard.listJobKeys(company, AbortSignal.timeout(1000))).toBeNull();
   });
 
   it("lists every Phenom page regardless of age for job keys", async () => {
@@ -554,7 +554,7 @@ describe("complex ATS adapters", () => {
       return jsonResponse({ refineSearch: { data: { jobs } } }, url);
     });
 
-    const keys = await phenomFetcher.listJobKeys(company, AbortSignal.timeout(1000));
+    const keys = await phenomBoard.listJobKeys(company, AbortSignal.timeout(1000));
 
     expect(froms).toEqual([0, 100]);
     expect(keys?.size).toBe(101);
@@ -594,7 +594,7 @@ describe("complex ATS adapters", () => {
       return jsonResponse({ refineSearch: { data: { jobs } } }, url);
     });
 
-    await expect(phenomFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))).resolves.toEqual(
+    await expect(phenomBoard.fetch(company, new Set(), AbortSignal.timeout(1000))).resolves.toEqual(
       [
         {
           company: "acme",
@@ -647,7 +647,7 @@ describe("complex ATS adapters", () => {
       );
     });
 
-    const jobs = await phenomFetcher.fetch(
+    const jobs = await phenomBoard.fetch(
       company,
       toJobKeySet(["https://careers.cisco.com/global/en/job/R3"]),
       AbortSignal.timeout(1000)
@@ -711,7 +711,7 @@ describe("complex ATS adapters", () => {
     });
 
     const [alphaJobs, betaJobs] = await Promise.all(
-      companies.map((company) => phenomFetcher.fetch(company, new Set(), AbortSignal.timeout(1000)))
+      companies.map((company) => phenomBoard.fetch(company, new Set(), AbortSignal.timeout(1000)))
     );
 
     expect(alphaJobs[0]).toMatchObject({
@@ -741,7 +741,7 @@ describe("complex ATS adapters", () => {
   it("forms Arm companies and fetches Date Posted search results", async () => {
     const jobUrl =
       "https://careers.arm.com/job/bengaluru/ip-verification-engineer/33099/99500560928";
-    const company = radancyFetcher.formCompany(new URL(jobUrl));
+    const company = radancyBoard.formCompany(new URL(jobUrl));
     const knownKeys = toJobKeySet([
       "https://careers.arm.com/job/cambridge/existing-engineer/33099/1",
     ]);
@@ -780,7 +780,7 @@ describe("complex ATS adapters", () => {
       )
     );
 
-    const jobs = await radancyFetcher.fetch(company, knownKeys, AbortSignal.timeout(1000));
+    const jobs = await radancyBoard.fetch(company, knownKeys, AbortSignal.timeout(1000));
 
     expect(jobs).toEqual([
       {
@@ -837,7 +837,7 @@ describe("complex ATS adapters", () => {
         )
       );
 
-    const jobs = await radancyFetcher.fetch(company, new Set(), AbortSignal.timeout(1000));
+    const jobs = await radancyBoard.fetch(company, new Set(), AbortSignal.timeout(1000));
 
     expect(jobs).toEqual([
       {

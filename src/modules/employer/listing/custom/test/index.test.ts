@@ -2,7 +2,7 @@ import { beforeEach, describe, expect, it, vi } from "vitest";
 
 import type { Job } from "@/types";
 
-import { Employer } from "../../../employer";
+import { Board } from "../../../employer";
 
 const { fetchAmazonMock } = vi.hoisted(() => ({
   fetchAmazonMock: vi.fn(),
@@ -20,15 +20,15 @@ vi.mock("../amazon", () => ({
   fetchAmazon: fetchAmazonMock,
 }));
 
-import { customFetcher } from "../index";
+import { customBoard } from "../index";
 
-describe("CustomFetcher", () => {
+describe("CustomBoard", () => {
   beforeEach(() => {
     fetchAmazonMock.mockReset();
   });
 
   it("forms and dispatches a known custom company", async () => {
-    const company = customFetcher.formCompany(new URL("https://www.amazon.jobs/en/"));
+    const company = customBoard.formCompany(new URL("https://www.amazon.jobs/en/"));
     const jobs: Job[] = [
       {
         company: "Amazon",
@@ -42,16 +42,16 @@ describe("CustomFetcher", () => {
 
     fetchAmazonMock.mockResolvedValueOnce(jobs);
 
-    expect(customFetcher).toBeInstanceOf(Employer);
-    expect(customFetcher.ats).toBe("custom");
+    expect(customBoard).toBeInstanceOf(Board);
+    expect(customBoard.ats).toBe("custom");
     expect(company.identifier).toBe("amazon");
-    await expect(customFetcher.fetch(company, urls, signal)).resolves.toBe(jobs);
+    await expect(customBoard.fetch(company, urls, signal)).resolves.toBe(jobs);
     expect(fetchAmazonMock).toHaveBeenCalledWith(company, urls, signal);
   });
 
   it("forms ByteDance from both career hosts", () => {
-    const fromSearch = customFetcher.formCompany(new URL("https://joinbytedance.com/search/1"));
-    const fromDetail = customFetcher.formCompany(
+    const fromSearch = customBoard.formCompany(new URL("https://joinbytedance.com/search/1"));
+    const fromDetail = customBoard.formCompany(
       new URL("https://jobs.bytedance.com/en/position/1/detail")
     );
 
@@ -65,7 +65,7 @@ describe("CustomFetcher", () => {
   });
 
   it("forms a fallback company and skips its empty page", async () => {
-    const company = customFetcher.formCompany(new URL("https://www.example.com/careers"));
+    const company = customBoard.formCompany(new URL("https://www.example.com/careers"));
 
     expect(company).toEqual({
       name: "example.com",
@@ -76,7 +76,7 @@ describe("CustomFetcher", () => {
       urls: [],
     });
     await expect(
-      customFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
+      customBoard.fetch(company, new Set(), AbortSignal.timeout(1000))
     ).resolves.toEqual([]);
     expect(fetchAmazonMock).not.toHaveBeenCalled();
   });
@@ -85,11 +85,11 @@ describe("CustomFetcher", () => {
     const fetchMock = vi.fn();
     vi.stubGlobal("fetch", fetchMock);
     const company = {
-      ...customFetcher.formCompany(new URL("https://www.example.com/careers")),
+      ...customBoard.formCompany(new URL("https://www.example.com/careers")),
       page: "https://www.example.com/careers",
     };
 
-    await expect(customFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))).resolves.toEqual(
+    await expect(customBoard.fetch(company, new Set(), AbortSignal.timeout(1000))).resolves.toEqual(
       []
     );
     expect(fetchMock).not.toHaveBeenCalled();

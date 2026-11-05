@@ -123,7 +123,7 @@ export function renderBoard(input: {
   };
 }
 
-async function main() {
+export async function updateReadme() {
   const opportunities = await store.opportunities.load();
   const generatedAt = new Date();
   const board = renderBoard({ opportunities, config: CONFIG, generatedAt });
@@ -760,7 +760,7 @@ const isDirectRun =
   process.argv[1] != null && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
 
 if (isDirectRun) {
-  main().catch((error) => {
+  updateReadme().catch((error) => {
     console.error(error);
     process.exit(1);
   });

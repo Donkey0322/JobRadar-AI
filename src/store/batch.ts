@@ -25,16 +25,47 @@ export async function saveBatchQueue(jobs: Job[]) {
 }
 
 export async function loadInflightBatches<T>(): Promise<T[]> {
+  let parsed: unknown;
+
   try {
-    return await readJsonFile<T[]>(BATCH_INFLIGHT_PATH);
-  } catch {
-    return [];
+    parsed = await readJsonFile<unknown>(BATCH_INFLIGHT_PATH);
+  } catch (error) {
+    if (isMissingFile(error)) {
+      return [];
+    }
+
+    throw new Error(`Inflight batch file is not valid JSON: ${BATCH_INFLIGHT_PATH}`, {
+      cause: error,
+    });
   }
+
+  if (!Array.isArray(parsed)) {
+    throw new Error(`Inflight batch file must be a JSON array: ${BATCH_INFLIGHT_PATH}`);
+  }
+
+  return parsed as T[];
+}
+
+function isMissingFile(error: unknown) {
+  return (error as NodeJS.ErrnoException).code === "ENOENT";
 }
 
 export async function saveInflightBatches(batches: unknown[]) {
-  await fs.mkdir(path.dirname(BATCH_INFLIGHT_PATH), { recursive: true });
-  await fs.writeFile(BATCH_INFLIGHT_PATH, `${JSON.stringify(batches, null, 2)}\n`, "utf-8");
+  const directory = path.dirname(BATCH_INFLIGHT_PATH);
+  await fs.mkdir(directory, { recursive: true });
+  const temporary = path.join(
+    directory,
+    `.${path.basename(BATCH_INFLIGHT_PATH)}.${process.pid}.${Date.now()}.tmp`
+  );
+  const body = `${JSON.stringify(batches, null, 2)}\n`;
+
+  try {
+    await fs.writeFile(temporary, body, "utf-8");
+    await fs.rename(temporary, BATCH_INFLIGHT_PATH);
+  } catch (error) {
+    await fs.rm(temporary, { force: true });
+    throw error;
+  }
 }
 
 export const batchQueue = {

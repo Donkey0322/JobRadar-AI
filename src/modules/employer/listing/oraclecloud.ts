@@ -4,7 +4,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
+import { Board } from "../employer";
 
 import { logListingStatus } from "@/modules/employer/failure";
 import { formatCompanyName } from "@/utils/company-name";
@@ -107,7 +107,7 @@ const composeUrl = (company: Company, id: string) => {
   return `${company.domain}/${id}`;
 };
 
-export class OracleCloudFetcher extends Employer<OracleCloudJob> {
+export class OracleCloudBoard extends Board<OracleCloudJob> {
   readonly ats = "oraclecloud" as const;
 
   companyKeyFromUrl(url: URL): string {
@@ -202,4 +202,4 @@ export class OracleCloudFetcher extends Employer<OracleCloudJob> {
   }
 }
 
-export const oracleCloudFetcher = new OracleCloudFetcher();
+export const oracleCloudBoard = new OracleCloudBoard();

@@ -5,7 +5,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
+import { Board } from "../employer";
 
 import {
   greenhouseSyncIdentifier,
@@ -32,7 +32,7 @@ export const GreenhouseResponseSchema = z.object({
   jobs: z.array(GreenhouseJobSchema),
 });
 
-export class GreenhouseFetcher extends Employer<GreenhouseJob> {
+export class GreenhouseBoard extends Board<GreenhouseJob> {
   readonly ats = "greenhouse" as const;
 
   companyKeyFromUrl(url: URL): string {
@@ -131,7 +131,7 @@ export class GreenhouseFetcher extends Employer<GreenhouseJob> {
   }
 }
 
-export const greenhouseFetcher = new GreenhouseFetcher();
+export const greenhouseBoard = new GreenhouseBoard();
 
 /**
  * {

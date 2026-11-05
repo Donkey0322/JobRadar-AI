@@ -4,7 +4,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
+import { Board } from "../employer";
 
 import { eightfoldDomain, eightfoldIdentifier } from "@/modules/ats/eightfold";
 import { logListingStatus } from "@/modules/employer/failure";
@@ -75,7 +75,7 @@ function applyListingPage(page: string): string | null {
   return `${url.origin}/api/apply/v2/jobs?domain=${domain}`;
 }
 
-export class EightfoldFetcher extends Employer<EightfoldJob> {
+export class EightfoldBoard extends Board<EightfoldJob> {
   readonly ats = "eightfold" as const;
 
   companyKeyFromUrl(url: URL): string {
@@ -302,4 +302,4 @@ export class EightfoldFetcher extends Employer<EightfoldJob> {
   }
 }
 
-export const eightfoldFetcher = new EightfoldFetcher();
+export const eightfoldBoard = new EightfoldBoard();

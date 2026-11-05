@@ -2,7 +2,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
+import { Board } from "../employer";
 
 import {
   fetchPinpointCompanyName,
@@ -26,7 +26,7 @@ function formatLocation(job: PinpointJob): string {
 }
 
 /** The postings feed has no posting date, so new jobs are the target titles not seen before. */
-export class PinpointFetcher extends Employer<PinpointJob> {
+export class PinpointBoard extends Board<PinpointJob> {
   readonly ats = "pinpoint" as const;
 
   companyKeyFromUrl(url: URL): string {
@@ -105,4 +105,4 @@ export class PinpointFetcher extends Employer<PinpointJob> {
   }
 }
 
-export const pinpointFetcher = new PinpointFetcher();
+export const pinpointBoard = new PinpointBoard();

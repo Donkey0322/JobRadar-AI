@@ -12,7 +12,7 @@ import { renderBuildProgress, renderProgress, startProgress } from "../utils/pro
 
 import { outcomeAfterAnalysis, resolveJob } from "./outcome";
 
-import { deduplicateJobs, groupUrlsByKey } from "@/modules/ats/job-key";
+import { deduplicateJobs, getJobKey, groupUrlsByKey } from "@/modules/ats/job-key";
 import { buildCompanyList } from "@/modules/employer/build";
 import {
   createOpportunityLedger,
@@ -361,13 +361,42 @@ export async function persistAnalyzedJobs(analyzed: Array<{ job: Job; jd: JD; co
     };
   }
 
+  const storedJobs = await store.jobs.loadInFileOrder();
+  const storedByKey = new Map<string, Job>();
+
+  for (const stored of storedJobs) {
+    const key = getJobKey(stored.link);
+
+    if (!storedByKey.has(key)) {
+      storedByKey.set(key, stored);
+    }
+  }
+
   const { currentId: startingId } = await createSyncContext();
   const opportunities = createOpportunityLedger(await store.opportunities.load());
   const state = createApplyState(startingId, (posting) => {
     recordSeenOpportunity(opportunities, posting.toJob(), "preserve");
   });
+  const seen = new Set<string>();
 
   for (const item of analyzed) {
+    const key = getJobKey(item.job.link);
+
+    if (seen.has(key)) {
+      continue;
+    }
+
+    seen.add(key);
+
+    const existing = storedByKey.get(key);
+
+    if (existing) {
+      const stored = Posting.from({ ...existing, jd: existing.jd ?? item.jd });
+      recordSeenOpportunity(opportunities, stored.toJob(), "preserve");
+      state.totalCost += item.cost;
+      continue;
+    }
+
     const job = Posting.from(item.job);
     job.jd = item.jd;
 

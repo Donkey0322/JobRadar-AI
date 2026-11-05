@@ -4,7 +4,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
+import { Board } from "../employer";
 
 import { isWorkdayLocaleSegment } from "@/modules/ats/workday";
 import { logListingFailure, logListingStatus } from "@/modules/employer/failure";
@@ -38,7 +38,7 @@ const WorkdayResponseSchema = z.object({
   jobPostings: z.array(z.unknown()),
 });
 
-export class WorkdayFetcher extends Employer<WorkdayJob> {
+export class WorkdayBoard extends Board<WorkdayJob> {
   readonly ats = "workday" as const;
 
   companyKeyFromUrl(url: URL): string {
@@ -317,4 +317,4 @@ export class WorkdayFetcher extends Employer<WorkdayJob> {
   }
 }
 
-export const workdayFetcher = new WorkdayFetcher();
+export const workdayBoard = new WorkdayBoard();

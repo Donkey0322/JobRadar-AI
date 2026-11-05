@@ -2,7 +2,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
+import { Board } from "../employer";
 
 import {
   jazzHRHostName,
@@ -42,7 +42,7 @@ async function fetchCompanyName(listingUrl: string): Promise<string | null> {
  * JazzHR boards (`*.applytojob.com` or a company domain). `/apply/jobs` renders
  * every open job in one HTML table; there is no public JSON feed.
  */
-export class JazzHRFetcher extends Employer<JazzHRJob> {
+export class JazzHRBoard extends Board<JazzHRJob> {
   readonly ats = "jazzhr" as const;
 
   companyKeyFromUrl(url: URL): string {
@@ -125,4 +125,4 @@ export class JazzHRFetcher extends Employer<JazzHRJob> {
   }
 }
 
-export const jazzHRFetcher = new JazzHRFetcher();
+export const jazzHRBoard = new JazzHRBoard();

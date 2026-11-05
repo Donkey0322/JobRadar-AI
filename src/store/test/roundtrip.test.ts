@@ -1,4 +1,5 @@
-import { mkdir, readFile, rm } from "node:fs/promises";
+import { promises as nodeFs } from "node:fs";
+import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { afterAll, afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
@@ -257,6 +258,55 @@ describe("store datasets", () => {
 
     await batchInflight.save(await batchInflight.load());
     expect(await readFile(BATCH_INFLIGHT_PATH)).toEqual(first);
+  });
+
+  it("treats a missing inflight file as an empty list", async () => {
+    expect(await batchInflight.load()).toEqual([]);
+  });
+
+  it("keeps the previous inflight list when the temp write fails before replace", async () => {
+    const batches = [
+      {
+        name: "batches/kept",
+        submittedAt: "2026-01-01T00:00:00.000Z",
+        jobs: [job(1)],
+      },
+    ];
+    await batchInflight.save(batches);
+    const before = await readFile(BATCH_INFLIGHT_PATH, "utf8");
+    const write = vi.spyOn(nodeFs, "writeFile").mockRejectedValue(new Error("injected temp write failure"));
+
+    await expect(
+      batchInflight.save([
+        {
+          name: "batches/lost",
+          submittedAt: "2026-01-02T00:00:00.000Z",
+          jobs: [],
+        },
+      ])
+    ).rejects.toThrow("injected temp write failure");
+    write.mockRestore();
+
+    expect(await readFile(BATCH_INFLIGHT_PATH, "utf8")).toBe(before);
+    expect(await batchInflight.load()).toEqual(batches);
+  });
+
+  it("reports a damaged inflight file and leaves the original bytes in place", async () => {
+    await mkdir(path.dirname(BATCH_INFLIGHT_PATH), { recursive: true });
+    const damaged = "{not-json";
+    await writeFile(BATCH_INFLIGHT_PATH, damaged);
+
+    await expect(batchInflight.load()).rejects.toThrow(
+      `Inflight batch file is not valid JSON: ${BATCH_INFLIGHT_PATH}`
+    );
+    expect(await readFile(BATCH_INFLIGHT_PATH, "utf8")).toBe(damaged);
+
+    const notArray = `${JSON.stringify({ name: "batches/1" })}\n`;
+    await writeFile(BATCH_INFLIGHT_PATH, notArray);
+    await expect(batchInflight.load()).rejects.toThrow(
+      `Inflight batch file must be a JSON array: ${BATCH_INFLIGHT_PATH}`
+    );
+    expect(await readFile(BATCH_INFLIGHT_PATH, "utf8")).toBe(notArray);
   });
 });
 

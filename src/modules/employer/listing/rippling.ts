@@ -5,7 +5,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
+import { Board } from "../employer";
 
 import {
   fetchRipplingBoardTitle,
@@ -55,7 +55,7 @@ function mergeLocations(rows: z.infer<typeof RipplingResponseSchema>): RipplingJ
   }));
 }
 
-export class RipplingFetcher extends Employer<RipplingJob> {
+export class RipplingBoard extends Board<RipplingJob> {
   readonly ats = "rippling" as const;
 
   companyKeyFromUrl(url: URL): string {
@@ -179,4 +179,4 @@ export class RipplingFetcher extends Employer<RipplingJob> {
   }
 }
 
-export const ripplingFetcher = new RipplingFetcher();
+export const ripplingBoard = new RipplingBoard();

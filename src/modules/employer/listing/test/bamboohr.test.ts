@@ -15,8 +15,8 @@ vi.mock("@/store", () => ({ errorLog: { append: vi.fn() } }));
 
 import type { Company } from "@/types";
 
-import { Employer } from "../../employer";
-import { bambooHRFetcher } from "../bamboohr";
+import { Board } from "../../employer";
+import { bambooHRBoard } from "../bamboohr";
 
 import { toJobKeySet } from "@/modules/ats/job-key";
 import { errorLog } from "@/store";
@@ -55,8 +55,8 @@ describe("BambooHR fetcher", () => {
   });
 
   it("is a stateless singleton on the common contract", () => {
-    expect(bambooHRFetcher).toBeInstanceOf(Employer);
-    expect(Object.keys(bambooHRFetcher)).toEqual(["ats"]);
+    expect(bambooHRBoard).toBeInstanceOf(Board);
+    expect(Object.keys(bambooHRBoard)).toEqual(["ats"]);
   });
 
   it("keys companies by tenant and names them from og:site_name", async () => {
@@ -65,8 +65,8 @@ describe("BambooHR fetcher", () => {
       new Response('<meta property="og:site_name" content="Mujin" />')
     );
 
-    expect(bambooHRFetcher.companyKeyFromUrl(url)).toBe("bamboohr:mujin");
-    await expect(bambooHRFetcher.formCompany(url)).resolves.toEqual(company);
+    expect(bambooHRBoard.companyKeyFromUrl(url)).toBe("bamboohr:mujin");
+    await expect(bambooHRBoard.formCompany(url)).resolves.toEqual(company);
     expect(String(mockFetch.mock.calls[0][0])).toBe("https://mujin.bamboohr.com/careers");
   });
 
@@ -93,7 +93,7 @@ describe("BambooHR fetcher", () => {
       throw new Error(`unexpected fetch ${url}`);
     });
 
-    const jobs = await bambooHRFetcher.fetch(company, knownKeys, AbortSignal.timeout(1000));
+    const jobs = await bambooHRBoard.fetch(company, knownKeys, AbortSignal.timeout(1000));
 
     expect(jobs).toEqual([
       {
@@ -122,7 +122,7 @@ describe("BambooHR fetcher", () => {
   it("lists every posting key for liveness checks", async () => {
     mockFetch.mockResolvedValueOnce(Response.json({ result: [row("126", "Office Manager")] }));
 
-    await expect(bambooHRFetcher.listJobKeys(company, AbortSignal.timeout(1000))).resolves.toEqual(
+    await expect(bambooHRBoard.listJobKeys(company, AbortSignal.timeout(1000))).resolves.toEqual(
       new Set(["bamboohr:mujin:126"])
     );
   });
@@ -133,7 +133,7 @@ describe("BambooHR fetcher", () => {
     mockFetch.mockResolvedValueOnce(res);
 
     await expect(
-      bambooHRFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
+      bambooHRBoard.fetch(company, new Set(), AbortSignal.timeout(1000))
     ).resolves.toEqual([]);
     expect(errorLog.append).toHaveBeenCalledWith("BambooHR: Mujin - board no longer exists");
   });
@@ -142,7 +142,7 @@ describe("BambooHR fetcher", () => {
     mockFetch.mockResolvedValueOnce(new Response("", { status: 500, statusText: "Server Error" }));
 
     await expect(
-      bambooHRFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
+      bambooHRBoard.fetch(company, new Set(), AbortSignal.timeout(1000))
     ).resolves.toEqual([]);
     expect(errorLog.append).toHaveBeenCalledWith("BambooHR: Mujin - 500 - Server Error");
   });
@@ -161,7 +161,7 @@ describe("BambooHR fetcher", () => {
     });
 
     await expect(
-      bambooHRFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
+      bambooHRBoard.fetch(company, new Set(), AbortSignal.timeout(1000))
     ).resolves.toEqual([
       {
         company: "Mujin",

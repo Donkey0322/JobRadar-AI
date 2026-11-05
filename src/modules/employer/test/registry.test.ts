@@ -19,25 +19,25 @@ vi.mock("@/utils/logger", () => ({
 import type { ATS } from "@/modules/ats/types";
 import type { Company } from "@/types";
 
-import { Employer } from "../employer";
-import { ashbyFetcher } from "../listing/ashby";
-import { bambooHRFetcher } from "../listing/bamboohr";
-import { customFetcher } from "../listing/custom";
-import { eightfoldFetcher } from "../listing/eightfold";
-import { greenhouseFetcher } from "../listing/greenhouse";
-import { icimsFetcher } from "../listing/icims";
-import { jazzHRFetcher } from "../listing/jazzhr";
-import { leverFetcher } from "../listing/lever";
-import { noneFetcher } from "../listing/none";
-import { oracleCloudFetcher } from "../listing/oraclecloud";
-import { phenomFetcher } from "../listing/phenom";
-import { pinpointFetcher } from "../listing/pinpoint";
-import { radancyFetcher } from "../listing/radancy";
-import { ripplingFetcher } from "../listing/rippling";
-import { smartRecruitersFetcher } from "../listing/smart";
-import { successFactorsFetcher } from "../listing/successfactors";
-import { workdayFetcher } from "../listing/workday";
-import { employers } from "../registry";
+import { Board } from "../employer";
+import { ashbyBoard } from "../listing/ashby";
+import { bambooHRBoard } from "../listing/bamboohr";
+import { customBoard } from "../listing/custom";
+import { eightfoldBoard } from "../listing/eightfold";
+import { greenhouseBoard } from "../listing/greenhouse";
+import { icimsBoard } from "../listing/icims";
+import { jazzHRBoard } from "../listing/jazzhr";
+import { leverBoard } from "../listing/lever";
+import { noneBoard } from "../listing/none";
+import { oracleCloudBoard } from "../listing/oraclecloud";
+import { phenomBoard } from "../listing/phenom";
+import { pinpointBoard } from "../listing/pinpoint";
+import { radancyBoard } from "../listing/radancy";
+import { ripplingBoard } from "../listing/rippling";
+import { smartRecruitersBoard } from "../listing/smart";
+import { successFactorsBoard } from "../listing/successfactors";
+import { workdayBoard } from "../listing/workday";
+import { boards } from "../registry";
 
 import { buildCompanyList } from "@/modules/employer/build";
 
@@ -69,33 +69,33 @@ describe("ATS fetcher registry", () => {
   });
 
   it("contains every ATS exactly once and returns its singleton", () => {
-    expect(Object.keys(employers).sort()).toEqual([...allATS].sort());
-    expect(employers).toEqual({
-      ashby: ashbyFetcher,
-      bamboohr: bambooHRFetcher,
-      eightfold: eightfoldFetcher,
-      greenhouse: greenhouseFetcher,
-      icims: icimsFetcher,
-      jazzhr: jazzHRFetcher,
-      lever: leverFetcher,
-      oraclecloud: oracleCloudFetcher,
-      phenom: phenomFetcher,
-      pinpoint: pinpointFetcher,
-      radancy: radancyFetcher,
-      rippling: ripplingFetcher,
-      smartrecruiters: smartRecruitersFetcher,
-      successfactors: successFactorsFetcher,
-      workday: workdayFetcher,
-      custom: customFetcher,
-      none: noneFetcher,
+    expect(Object.keys(boards).sort()).toEqual([...allATS].sort());
+    expect(boards).toEqual({
+      ashby: ashbyBoard,
+      bamboohr: bambooHRBoard,
+      eightfold: eightfoldBoard,
+      greenhouse: greenhouseBoard,
+      icims: icimsBoard,
+      jazzhr: jazzHRBoard,
+      lever: leverBoard,
+      oraclecloud: oracleCloudBoard,
+      phenom: phenomBoard,
+      pinpoint: pinpointBoard,
+      radancy: radancyBoard,
+      rippling: ripplingBoard,
+      smartrecruiters: smartRecruitersBoard,
+      successfactors: successFactorsBoard,
+      workday: workdayBoard,
+      custom: customBoard,
+      none: noneBoard,
     });
 
     for (const ats of allATS) {
-      const fetcher = employers[ats];
+      const fetcher = boards[ats];
       const prototype = Object.getPrototypeOf(fetcher) as object;
 
-      expect(fetcher).toBe(employers[ats]);
-      expect(fetcher).toBeInstanceOf(Employer);
+      expect(fetcher).toBe(boards[ats]);
+      expect(fetcher).toBeInstanceOf(Board);
       expect(fetcher.ats).toBe(ats);
       expect(Object.keys(fetcher)).toEqual(["ats"]);
       expect(prototype).toHaveProperty("companyKeyFromUrl", expect.any(Function));
@@ -114,7 +114,7 @@ describe("ATS fetcher registry", () => {
       page: "",
       urls: [],
     };
-    const formCompany = vi.spyOn(noneFetcher, "formCompany").mockReturnValue(company);
+    const formCompany = vi.spyOn(noneBoard, "formCompany").mockReturnValue(company);
 
     await expect(buildCompanyList(["https://example.com/jobs/1"])).resolves.toEqual([
       {
@@ -158,7 +158,7 @@ describe("ATS fetcher registry", () => {
       page: "https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com",
       urls: [],
     };
-    const formCompany = vi.spyOn(eightfoldFetcher, "formCompany").mockResolvedValue(company);
+    const formCompany = vi.spyOn(eightfoldBoard, "formCompany").mockResolvedValue(company);
 
     const urls = [
       "https://apply.careers.microsoft.com/careers/job/1?domain=microsoft.com&8fold_id=1",
@@ -187,7 +187,7 @@ describe("ATS fetcher registry", () => {
       urls: [url],
     };
     dataMocks.companies.load.mockResolvedValue([stored]);
-    vi.spyOn(greenhouseFetcher, "formCompany").mockResolvedValue({
+    vi.spyOn(greenhouseBoard, "formCompany").mockResolvedValue({
       ...stored,
       name: "imc",
       urls: [],
@@ -256,7 +256,7 @@ describe("ATS fetcher registry", () => {
       urls: [],
     };
     dataMocks.companies.load.mockResolvedValue([legacy]);
-    const formCompany = vi.spyOn(bambooHRFetcher, "formCompany").mockResolvedValue(upgraded);
+    const formCompany = vi.spyOn(bambooHRBoard, "formCompany").mockResolvedValue(upgraded);
 
     await expect(buildCompanyList([])).resolves.toEqual([upgraded]);
     expect(formCompany).toHaveBeenCalledWith(new URL(legacy.domain));
@@ -305,7 +305,7 @@ describe("ATS fetcher registry", () => {
 
     it("files new site URLs under the tracked board instead of a none row", async () => {
       dataMocks.companies.load.mockResolvedValue([homeDepot]);
-      const noneForm = vi.spyOn(noneFetcher, "formCompany");
+      const noneForm = vi.spyOn(noneBoard, "formCompany");
 
       await expect(buildCompanyList([siteUrl])).resolves.toEqual([
         { ...homeDepot, urls: [siteUrl] },
@@ -315,7 +315,7 @@ describe("ATS fetcher registry", () => {
 
     it("keeps a tracked board whose only stored URLs are site URLs", async () => {
       dataMocks.companies.load.mockResolvedValue([{ ...homeDepot, urls: [siteUrl] }]);
-      const noneForm = vi.spyOn(noneFetcher, "formCompany");
+      const noneForm = vi.spyOn(noneBoard, "formCompany");
 
       await expect(buildCompanyList([siteUrl])).resolves.toEqual([
         { ...homeDepot, urls: [siteUrl] },
@@ -342,7 +342,7 @@ describe("ATS fetcher registry", () => {
       urls: [],
     };
     dataMocks.companies.load.mockResolvedValue([unread]);
-    const formCompany = vi.spyOn(noneFetcher, "formCompany");
+    const formCompany = vi.spyOn(noneBoard, "formCompany");
 
     await expect(buildCompanyList([])).resolves.toEqual([unread]);
     expect(formCompany).not.toHaveBeenCalled();
@@ -382,7 +382,7 @@ describe("ATS fetcher registry", () => {
       urls: [],
     };
     const formCompany = vi
-      .spyOn(leverFetcher, "formCompany")
+      .spyOn(leverBoard, "formCompany")
       .mockImplementation((url) => (url.pathname.startsWith("/acme") ? acme : beta));
 
     const result = await buildCompanyList([

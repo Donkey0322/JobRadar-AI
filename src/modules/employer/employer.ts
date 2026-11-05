@@ -26,14 +26,14 @@ export function companyKey(
 }
 
 /**
- * One employer on a job board.
+ * One job board adapter. `Company` remains the stored company row.
  *
  * The subclass is the board (Greenhouse, Lever, …). A row from `company.json`
  * is constructed with that subclass so `getJobs()` uses the matching fetch.
  * URL-only helpers (`companyKeyFromUrl`, `formCompany`) stay on the
- * shared instance because no employer exists yet.
+ * shared instance because no company row exists yet.
  */
-export abstract class Employer<TJob = unknown> {
+export abstract class Board<TJob = unknown> {
   abstract readonly ats: ATS;
 
   #data?: Company;

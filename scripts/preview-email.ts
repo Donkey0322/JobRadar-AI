@@ -1,10 +1,11 @@
 import fs from "fs/promises";
-import path from "path";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 
 import { generateEmailContent } from "@/modules/notifier/generate";
 import * as store from "@/store";
 
-async function main() {
+export async function previewEmail() {
   const jobs = await store.jobs.load();
   const job = jobs.find((job) => job.jd?.citizenship === true && job.jd?.sponsorship === false);
   if (!job) {
@@ -19,4 +20,9 @@ async function main() {
   console.log(`✅ Generated: ${output}`);
 }
 
-main().catch(console.error);
+const isDirectRun =
+  process.argv[1] != null && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
+
+if (isDirectRun) {
+  previewEmail().catch(console.error);
+}

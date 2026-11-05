@@ -4,7 +4,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../../employer";
+import { Board } from "../../employer";
 
 import { AmazonCompany, fetchAmazon } from "./amazon";
 import { AppleCompany, fetchApple } from "./apple";
@@ -24,7 +24,7 @@ export {
   type CustomCompanyIdentifier,
 } from "@/modules/ats/custom";
 
-export class CustomFetcher extends Employer<Job> {
+export class CustomBoard extends Board<Job> {
   readonly ats = "custom" as const;
 
   companyKeyFromUrl(url: URL): string {
@@ -145,4 +145,4 @@ export class CustomFetcher extends Employer<Job> {
   }
 }
 
-export const customFetcher = new CustomFetcher();
+export const customBoard = new CustomBoard();

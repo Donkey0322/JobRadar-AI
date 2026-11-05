@@ -1,89 +1,89 @@
 export {
-  AshbyFetcher,
-  ashbyFetcher,
+  AshbyBoard,
+  ashbyBoard,
   AshbyJobSchema,
   AshbyResponseSchema,
   type AshbyJob,
 } from "./ashby";
 export {
-  BambooHRFetcher,
-  bambooHRFetcher,
+  BambooHRBoard,
+  bambooHRBoard,
   BambooHRJobSchema,
   BambooHRResponseSchema,
   type BambooHRJob,
 } from "./bamboohr";
 export {
-  CustomFetcher,
-  customFetcher,
+  CustomBoard,
+  customBoard,
   CUSTOM_COMPANY_DOMAINS,
   parseCustomCompanyIdentifier,
 } from "./custom";
 export {
   EightfoldApplyJobSchema,
   EightfoldApplyResponseSchema,
-  EightfoldFetcher,
-  eightfoldFetcher,
+  EightfoldBoard,
+  eightfoldBoard,
   EightfoldJobSchema,
   EightfoldPcsxResponseSchema,
   TRACKING_PARAM as EIGHTFOLD_TRACKING_PARAM,
   type EightfoldJob,
 } from "./eightfold";
 export {
-  GreenhouseFetcher,
-  greenhouseFetcher,
+  GreenhouseBoard,
+  greenhouseBoard,
   GreenhouseJobSchema,
   GreenhouseResponseSchema,
   type GreenhouseJob,
 } from "./greenhouse";
-export { IcimsFetcher, icimsFetcher, IcimsJobSchema, type IcimsJob } from "./icims";
-export { JazzHRFetcher, jazzHRFetcher, type JazzHRJob } from "./jazzhr";
+export { IcimsBoard, icimsBoard, IcimsJobSchema, type IcimsJob } from "./icims";
+export { JazzHRBoard, jazzHRBoard, type JazzHRJob } from "./jazzhr";
 export {
-  LeverFetcher,
-  leverFetcher,
+  LeverBoard,
+  leverBoard,
   LeverJobSchema,
   LeverResponseSchema,
   type LeverJob,
 } from "./lever";
-export { NoneFetcher, noneFetcher } from "./none";
+export { NoneBoard, noneBoard } from "./none";
 export {
-  OracleCloudFetcher,
-  oracleCloudFetcher,
+  OracleCloudBoard,
+  oracleCloudBoard,
   OracleCloudJobSchema,
   OracleCloudResponseSchema,
   type OracleCloudJob,
 } from "./oraclecloud";
 export {
-  PhenomFetcher,
-  phenomFetcher,
+  PhenomBoard,
+  phenomBoard,
   PhenomJobSchema,
   TRACKING_PARAM as PHENOM_TRACKING_PARAM,
   type PhenomJob,
 } from "./phenom";
-export { PinpointFetcher, pinpointFetcher, type PinpointJob } from "./pinpoint";
+export { PinpointBoard, pinpointBoard, type PinpointJob } from "./pinpoint";
 export {
-  RadancyFetcher,
-  radancyFetcher,
+  RadancyBoard,
+  radancyBoard,
   RadancyJobSchema,
   RadancyResponseSchema,
   type RadancyJob,
 } from "./radancy";
 export {
-  RipplingFetcher,
-  ripplingFetcher,
+  RipplingBoard,
+  ripplingBoard,
   RipplingJobSchema,
   RipplingResponseSchema,
   type RipplingJob,
 } from "./rippling";
 export {
-  SmartRecruitersFetcher,
-  smartRecruitersFetcher,
+  SmartRecruitersBoard,
+  smartRecruitersBoard,
   SmartRecruitersJobSchema,
   SmartRecruitersResponseSchema,
   type SmartRecruitersJob,
 } from "./smart";
 export {
-  SuccessFactorsFetcher,
-  successFactorsFetcher,
+  SuccessFactorsBoard,
+  successFactorsBoard,
   type SuccessFactorsJob,
 } from "./successfactors";
-export { WorkdayFetcher, workdayFetcher, WorkdayJobSchema, type WorkdayJob } from "./workday";
+export { WorkdayBoard, workdayBoard, WorkdayJobSchema, type WorkdayJob } from "./workday";

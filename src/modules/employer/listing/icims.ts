@@ -5,7 +5,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
+import { Board } from "../employer";
 
 import { findIcimsIframeSrc, isIcimsUrl, normalizeIcimsUrl } from "@/modules/ats/icims";
 import {
@@ -303,7 +303,7 @@ interface IcimsPageResponse {
   pageUrl: URL;
 }
 
-export class IcimsFetcher extends Employer<IcimsJob> {
+export class IcimsBoard extends Board<IcimsJob> {
   readonly ats = "icims" as const;
 
   companyKeyFromUrl(url: URL): string {
@@ -441,4 +441,4 @@ export class IcimsFetcher extends Employer<IcimsJob> {
   }
 }
 
-export const icimsFetcher = new IcimsFetcher();
+export const icimsBoard = new IcimsBoard();

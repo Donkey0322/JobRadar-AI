@@ -66,14 +66,24 @@ export function boundaryRule(from: string, to: string, kind: EdgeKind): string |
   return null;
 }
 
-export function scanArchitecture(extra: Readonly<Record<string, string>> = {}): ArchitectureScan {
+interface ScanBase {
+  options: ts.CompilerOptions;
+  sources: Map<string, string>;
+  facts: Map<string, FileFacts>;
+  edges: ArchitectureEdge[];
+  unrecognized: UnrecognizedLoad[];
+  scan: ArchitectureScan;
+}
+
+let scanBase: ScanBase | undefined;
+
+function loadScanBase(): ScanBase {
+  if (scanBase) return scanBase;
+
   const options = compilerOptions();
   const sources = new Map<string, string>();
 
   for (const file of walkSources()) sources.set(file, readFileSync(file, "utf8"));
-  for (const [relPath, source] of Object.entries(extra)) {
-    sources.set(path.normalize(path.join(ROOT, relPath)), source);
-  }
 
   const host = resolutionHost(sources);
   const facts = new Map<string, FileFacts>();
@@ -86,9 +96,44 @@ export function scanArchitecture(extra: Readonly<Record<string, string>> = {}): 
   }
 
   const edges = collectEdges(facts, options, host);
-  const violations = violationsFor(edges);
+  const scan = { edges, violations: violationsFor(edges), unrecognized };
+  scanBase = { options, sources, facts, edges, unrecognized, scan };
+  return scanBase;
+}
 
-  return { edges, violations, unrecognized };
+export function scanArchitecture(extra: Readonly<Record<string, string>> = {}): ArchitectureScan {
+  const base = loadScanBase();
+  const extras = Object.entries(extra);
+
+  if (extras.length === 0) return base.scan;
+
+  const sources = new Map(base.sources);
+  const facts = new Map(base.facts);
+  const unrecognized = base.unrecognized.map((item) => ({ ...item }));
+  const replaced = new Set<string>();
+
+  for (const [relPath, source] of extras) {
+    const file = path.normalize(path.join(ROOT, relPath));
+    sources.set(file, source);
+    const rel = projectRel(file);
+    if (rel) replaced.add(rel);
+  }
+
+  const host = resolutionHost(sources);
+
+  for (const rel of replaced) {
+    const file = path.normalize(path.join(ROOT, rel));
+    const source = sources.get(file);
+    if (source === undefined) continue;
+    facts.set(rel, inspect(source, file, rel, base.options, host, unrecognized));
+  }
+
+  const edges = [
+    ...base.edges.filter((edge) => !replaced.has(edge.from)),
+    ...collectEdges(facts, base.options, host, replaced),
+  ].sort(compareEdge);
+
+  return { edges, violations: violationsFor(edges), unrecognized };
 }
 
 export function violationKey(item: ArchitectureException): string {
@@ -455,7 +500,8 @@ function runtimeSpecifiers(source: string, fileName: string): Set<string> {
 function collectEdges(
   facts: Map<string, FileFacts>,
   options: ts.CompilerOptions,
-  host: ts.ModuleResolutionHost
+  host: ts.ModuleResolutionHost,
+  onlyFrom?: ReadonlySet<string>
 ): ArchitectureEdge[] {
   const edges = new Map<string, ArchitectureEdge>();
   const add = (from: string, to: string, kind: EdgeKind) => {
@@ -465,6 +511,7 @@ function collectEdges(
   };
 
   for (const file of facts.values()) {
+    if (onlyFrom && !onlyFrom.has(file.rel)) continue;
     const merged = mergeClauses(file.clauses);
     for (const [specifier, clause] of merged) {
       const resolved = resolveSpecifier(specifier, file.rel, options, host);

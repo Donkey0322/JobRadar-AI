@@ -15,8 +15,8 @@ vi.mock("@/store", () => ({ errorLog: { append: vi.fn() } }));
 
 import type { Company } from "@/types";
 
-import { Employer } from "../../employer";
-import { ripplingFetcher } from "../rippling";
+import { Board } from "../../employer";
+import { ripplingBoard } from "../rippling";
 
 import { toJobKeySet } from "@/modules/ats/job-key";
 import { errorLog } from "@/store";
@@ -61,8 +61,8 @@ describe("Rippling fetcher", () => {
   });
 
   it("is a stateless singleton on the common contract", () => {
-    expect(ripplingFetcher).toBeInstanceOf(Employer);
-    expect(Object.keys(ripplingFetcher)).toEqual(["ats"]);
+    expect(ripplingBoard).toBeInstanceOf(Board);
+    expect(Object.keys(ripplingBoard)).toEqual(["ats"]);
   });
 
   it("keys companies by board slug and names them from the board page", async () => {
@@ -74,8 +74,8 @@ describe("Rippling fetcher", () => {
       new Response(`<script id="__NEXT_DATA__">${JSON.stringify(data)}</script>`)
     );
 
-    expect(ripplingFetcher.companyKeyFromUrl(url)).toBe("rippling:collieraerospace");
-    await expect(ripplingFetcher.formCompany(url)).resolves.toEqual(company);
+    expect(ripplingBoard.companyKeyFromUrl(url)).toBe("rippling:collieraerospace");
+    await expect(ripplingBoard.formCompany(url)).resolves.toEqual(company);
     expect(String(mockFetch.mock.calls[0][0])).toBe(
       "https://ats.rippling.com/collieraerospace/jobs"
     );
@@ -100,7 +100,7 @@ describe("Rippling fetcher", () => {
       throw new Error(`unexpected fetch ${url}`);
     });
 
-    const jobs = await ripplingFetcher.fetch(company, knownKeys, AbortSignal.timeout(1000));
+    const jobs = await ripplingBoard.fetch(company, knownKeys, AbortSignal.timeout(1000));
 
     expect(jobs).toEqual([
       {
@@ -124,7 +124,7 @@ describe("Rippling fetcher", () => {
       Response.json([row(NEW_ID, "Software Engineer Intern", "Raleigh, NC")])
     );
 
-    await expect(ripplingFetcher.listJobKeys(company, AbortSignal.timeout(1000))).resolves.toEqual(
+    await expect(ripplingBoard.listJobKeys(company, AbortSignal.timeout(1000))).resolves.toEqual(
       new Set([`rippling:${NEW_ID}`])
     );
   });
@@ -133,7 +133,7 @@ describe("Rippling fetcher", () => {
     mockFetch.mockResolvedValueOnce(new Response("", { status: 404, statusText: "Not Found" }));
 
     await expect(
-      ripplingFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
+      ripplingBoard.fetch(company, new Set(), AbortSignal.timeout(1000))
     ).resolves.toEqual([]);
     expect(errorLog.append).toHaveBeenCalledWith("Rippling: Collier Aerospace - 404 - Not Found");
   });
@@ -153,7 +153,7 @@ describe("Rippling fetcher", () => {
     });
 
     await expect(
-      ripplingFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
+      ripplingBoard.fetch(company, new Set(), AbortSignal.timeout(1000))
     ).resolves.toEqual([
       {
         company: "Collier Aerospace",

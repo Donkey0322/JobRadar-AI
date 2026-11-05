@@ -4,7 +4,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
-import { Employer } from "../employer";
+import { Board } from "../employer";
 
 import { logListingStatus } from "@/modules/employer/failure";
 import { formatCompanyName } from "@/utils/company-name";
@@ -25,7 +25,7 @@ export type LeverJob = z.infer<typeof LeverJobSchema>;
 
 export const LeverResponseSchema = z.array(LeverJobSchema);
 
-export class LeverFetcher extends Employer<LeverJob> {
+export class LeverBoard extends Board<LeverJob> {
   readonly ats = "lever" as const;
 
   companyKeyFromUrl(url: URL): string {
@@ -110,4 +110,4 @@ export class LeverFetcher extends Employer<LeverJob> {
   }
 }
 
-export const leverFetcher = new LeverFetcher();
+export const leverBoard = new LeverBoard();

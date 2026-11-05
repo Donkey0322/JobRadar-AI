@@ -1,5 +1,5 @@
 import { aliasedCompanyKey } from "./aliases";
-import { employers } from "./registry";
+import { boards } from "./registry";
 
 import { classifyATS } from "@/modules/ats/classify";
 
@@ -15,5 +15,5 @@ export function careerSiteAlias(urlStr: string): string | null {
 
 /** Company key for a URL; an aliased career site joins the board it fronts. */
 export function companyKeyFromUrl(url: URL): string {
-  return careerSiteAlias(url.href) ?? employers[classifyATS(url)].companyKeyFromUrl(url);
+  return careerSiteAlias(url.href) ?? boards[classifyATS(url)].companyKeyFromUrl(url);
 }

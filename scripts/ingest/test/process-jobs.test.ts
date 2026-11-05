@@ -16,6 +16,7 @@ const dataMocks = vi.hoisted(() => ({
   },
   jobs: {
     load: vi.fn().mockResolvedValue([]),
+    loadInFileOrder: vi.fn().mockResolvedValue([]),
     append: vi.fn().mockResolvedValue(undefined),
     replace: vi.fn().mockResolvedValue(undefined),
   },
@@ -99,6 +100,7 @@ describe("processJobs", () => {
     dataMocks.urls.save.mockReset().mockResolvedValue(undefined);
     dataMocks.urls.load.mockReset().mockResolvedValue(new Set<string>());
     dataMocks.jobs.load.mockReset().mockResolvedValue([]);
+    dataMocks.jobs.loadInFileOrder.mockReset().mockResolvedValue([]);
     getJDMock.mockReset();
     analyzePostingSpy.mockImplementation(async function (this: Posting) {
       const result = await getJDMock(this);

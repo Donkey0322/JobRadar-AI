@@ -16,8 +16,8 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company } from "@/types";
 
-import { Employer } from "../../employer";
-import { pinpointFetcher } from "../pinpoint";
+import { Board } from "../../employer";
+import { pinpointBoard } from "../pinpoint";
 
 import { toJobKeySet } from "@/modules/ats/job-key";
 import { errorLog } from "@/store";
@@ -58,8 +58,8 @@ describe("Pinpoint fetcher", () => {
   });
 
   it("is a stateless singleton on the common contract", () => {
-    expect(pinpointFetcher).toBeInstanceOf(Employer);
-    expect(Object.keys(pinpointFetcher)).toEqual(["ats"]);
+    expect(pinpointBoard).toBeInstanceOf(Board);
+    expect(Object.keys(pinpointBoard)).toEqual(["ats"]);
   });
 
   it("keys companies by tenant and names them from the careers page title", async () => {
@@ -68,8 +68,8 @@ describe("Pinpoint fetcher", () => {
       new Response("<title>Jobs at Wolverine | Wolverine Careers</title>")
     );
 
-    expect(pinpointFetcher.companyKeyFromUrl(url)).toBe("pinpoint:wolve");
-    await expect(pinpointFetcher.formCompany(url)).resolves.toEqual(company);
+    expect(pinpointBoard.companyKeyFromUrl(url)).toBe("pinpoint:wolve");
+    await expect(pinpointBoard.formCompany(url)).resolves.toEqual(company);
   });
 
   it("returns unseen target postings on tenant-host links", async () => {
@@ -86,7 +86,7 @@ describe("Pinpoint fetcher", () => {
 
     const known = toJobKeySet([`https://wolve.pinpointhq.com/en/postings/${KNOWN}?ats=pinpointhq`]);
 
-    await expect(pinpointFetcher.fetch(company, known, AbortSignal.timeout(1000))).resolves.toEqual(
+    await expect(pinpointBoard.fetch(company, known, AbortSignal.timeout(1000))).resolves.toEqual(
       [
         {
           company: "Wolverine",
@@ -109,7 +109,7 @@ describe("Pinpoint fetcher", () => {
       Response.json({ data: [posting(KNOWN, "Accountant"), posting(FRESH, "Engineer")] })
     );
 
-    await expect(pinpointFetcher.listJobKeys(company, AbortSignal.timeout(1000))).resolves.toEqual(
+    await expect(pinpointBoard.listJobKeys(company, AbortSignal.timeout(1000))).resolves.toEqual(
       new Set([`pinpoint:${KNOWN}`, `pinpoint:${FRESH}`])
     );
   });
@@ -118,7 +118,7 @@ describe("Pinpoint fetcher", () => {
     mockFetch.mockResolvedValueOnce(new Response("", { status: 404, statusText: "Not Found" }));
 
     await expect(
-      pinpointFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
+      pinpointBoard.fetch(company, new Set(), AbortSignal.timeout(1000))
     ).resolves.toEqual([]);
     expect(errorLog.append).toHaveBeenCalledWith("Pinpoint: Wolverine - 404 - Not Found");
   });
@@ -130,7 +130,7 @@ describe("Pinpoint fetcher", () => {
     mockFetch.mockRejectedValueOnce(aborted);
 
     await expect(
-      pinpointFetcher.fetch(company, new Set(), AbortSignal.timeout(1000))
+      pinpointBoard.fetch(company, new Set(), AbortSignal.timeout(1000))
     ).resolves.toEqual([]);
     expect(error).toHaveBeenCalledWith(
       { err: "TimeoutError", company: company.name, url: company.page },
