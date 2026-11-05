@@ -1,8 +1,8 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 
-import type * as CompanyUtils from "@/modules/posting/titles";
+import type * as CompanyUtils from "@/modules/posting/screening";
 
-vi.mock("@/modules/posting/titles", async (importOriginal) => {
+vi.mock("@/modules/posting/screening", async (importOriginal) => {
   const actual = await importOriginal<typeof CompanyUtils>();
   return { ...actual, isTarget: vi.fn(() => true) };
 });
@@ -18,7 +18,7 @@ import { radancyFetcher } from "../radancy";
 import { workdayFetcher } from "../workday";
 
 import { getJobKey, toJobKeySet } from "@/modules/ats/job-key";
-import { isTarget } from "@/modules/posting/titles";
+import { isTarget } from "@/modules/posting/screening";
 import { errorLog } from "@/store";
 
 const mockFetch = vi.fn<typeof fetch>();

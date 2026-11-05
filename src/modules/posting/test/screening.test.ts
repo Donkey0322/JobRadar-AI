@@ -13,7 +13,7 @@ import {
   isUnspecifiedTechLevel,
   shouldBatchAnalyze,
   withinDays,
-} from "../titles";
+} from "../screening";
 
 import { CONFIG } from "@/config";
 

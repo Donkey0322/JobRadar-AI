@@ -2,7 +2,7 @@ import { beforeEach, describe, expect, it, vi } from "vitest";
 
 import { JobCategory } from "@/constants/job-category";
 
-import type * as PostingTitles from "@/modules/posting/titles";
+import type * as PostingTitles from "@/modules/posting/screening";
 import type { Job } from "@/types";
 import type { JD } from "@/types/jobs";
 
@@ -42,7 +42,7 @@ vi.mock("@/modules/posting/batch", () => ({
   enqueueBatchJobs: enqueueBatchJobsMock,
 }));
 
-vi.mock("@/modules/posting/titles", async (importOriginal) => {
+vi.mock("@/modules/posting/screening", async (importOriginal) => {
   const actual = await importOriginal<typeof PostingTitles>();
   return {
     ...actual,

@@ -5,7 +5,7 @@ import type { JD, Job } from "@/types";
 import { analyzePosting, extractQualifications } from "./analysis/analyze";
 import { createJDFetchSignal } from "./jd/signal";
 import { fetchPostingJD } from "./jd";
-import { isNotifyCandidate, isTarget, shouldBatchAnalyze, withinDays } from "./titles";
+import { isNotifyCandidate, isTarget, shouldBatchAnalyze, withinDays } from "./screening";
 
 import { ALLOWED_COUNTRIES, CONFIG } from "@/config";
 import { getJobKey, isKnownJob } from "@/modules/ats/job-key";

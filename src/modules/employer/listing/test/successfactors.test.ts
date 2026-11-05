@@ -1,8 +1,8 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 
-import type * as Titles from "@/modules/posting/titles";
+import type * as Titles from "@/modules/posting/screening";
 
-vi.mock("@/modules/posting/titles", async (importOriginal) => {
+vi.mock("@/modules/posting/screening", async (importOriginal) => {
   const actual = await importOriginal<typeof Titles>();
   return { ...actual, isTarget: vi.fn(() => true), withinDays: vi.fn(() => true) };
 });
@@ -16,7 +16,7 @@ import { Employer } from "../../employer";
 import { successFactorsFetcher } from "../successfactors";
 
 import { toJobKeySet } from "@/modules/ats/job-key";
-import { withinDays } from "@/modules/posting/titles";
+import { withinDays } from "@/modules/posting/screening";
 
 const mockFetch = vi.fn<typeof fetch>();
 

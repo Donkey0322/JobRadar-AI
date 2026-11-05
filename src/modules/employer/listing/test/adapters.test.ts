@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 
-vi.mock("@/modules/posting/titles", () => ({
+vi.mock("@/modules/posting/screening", () => ({
   isTarget: vi.fn(() => true),
   withinDays: vi.fn(() => true),
 }));
@@ -21,7 +21,7 @@ import { oracleCloudFetcher } from "../oraclecloud";
 import { smartRecruitersFetcher } from "../smart";
 
 import { toJobKeySet } from "@/modules/ats/job-key";
-import { isTarget, withinDays } from "@/modules/posting/titles";
+import { isTarget, withinDays } from "@/modules/posting/screening";
 import { errorLog } from "@/store";
 import { logger } from "@/utils/logger";
 
