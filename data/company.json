@@ -3622,6 +3622,7 @@
       "https://careers.amd.com/jobs/93453?icims=1",
       "https://careers.amd.com/jobs/93490?icims=1",
       "https://careers.amd.com/jobs/94265?icims=1",
+      "https://careers.amd.com/jobs/95806?icims=1",
       "https://careers.amd.com/jobs/96054?icims=1",
       "https://careers.amd.com/jobs/96121?icims=1",
       "https://careers.amd.com/jobs/96122?icims=1",
@@ -5658,6 +5659,9 @@
       "https://apply.workable.com/amax-1/j/C8FD3B365F",
       "https://apply.workable.com/botpress/j/16C68A50A7/apply",
       "https://apply.workable.com/botpress/j/9B3CB646E8/apply",
+      "https://apply.workable.com/datavisor-jobs/j/2FB6A93BF6",
+      "https://apply.workable.com/datavisor-jobs/j/2FB6A93BF6/apply",
+      "https://apply.workable.com/j/2FB6A93BF6",
       "https://apply.workable.com/j/739753C003",
       "https://apply.workable.com/j/772CD136FF",
       "https://apply.workable.com/j/9B3CB646E8",
@@ -45198,6 +45202,7 @@
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/tri?mode=json",
     "urls": [
+      "https://jobs.lever.co/tri/62b161d6-21e0-4d10-9997-ff7ae91a2ff4/apply",
       "https://jobs.lever.co/tri/e7cc38d2-2b08-4349-b322-4d56cac9fb1b"
     ]
   },
