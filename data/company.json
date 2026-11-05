@@ -14050,6 +14050,16 @@
     ]
   },
   {
+    "name": "cbrands",
+    "ats": "workday",
+    "identifier": "cbrands-cbi_external_careers",
+    "domain": "https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers",
+    "page": "https://cbrands.wd5.myworkdayjobs.com/wday/cxs/cbrands/CBI_External_Careers/jobs",
+    "urls": [
+      "https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Rochester-New-York/Intern--AI---Automation-Engineering_R-41655"
+    ]
+  },
+  {
     "name": "cc",
     "ats": "workday",
     "identifier": "cc-chanelcareers",
@@ -31674,6 +31684,17 @@
       "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---New-Jersey---Rahway/Building-Automation-System-Engineer_R424147-1",
       "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---New-Jersey---Rahway/Scientist--DSCS-Digital-Technologies-Laboratory-Automation--Automation-Systems-Engineer--Hybrid-_R425283-1",
       "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Device-Development---Technology---Systems---Human-Factors-Engineering---Co-op_R422538"
+    ]
+  },
+  {
+    "name": "mtb",
+    "ats": "workday",
+    "identifier": "mtb-campus",
+    "domain": "https://mtb.wd5.myworkdayjobs.com/Campus",
+    "page": "https://mtb.wd5.myworkdayjobs.com/wday/cxs/mtb/Campus/jobs",
+    "urls": [
+      "https://mtb.wd5.myworkdayjobs.com/en-US/Campus/job/Buffalo-NY/XMLNAME-2027-Technology-Development-Program---Cloud-Storage---Data-Protection-Engineer_R91745",
+      "https://mtb.wd5.myworkdayjobs.com/en-US/Campus/job/Buffalo-NY/XMLNAME-2027-Technology-Development-Program---Operating-Systems-Engineer_R91770"
     ]
   },
   {
