@@ -11,14 +11,204 @@
     "test": "vitest run",
     "test:ai-eval": "vitest run --config vitest.eval.config.mjs",
     "typecheck": "tsc --noEmit",
-    "lint": "eslint .",
-    "refresh-companies": "tsx scripts/refresh-companies.ts",
-    "dedup": "tsx scripts/dedup.ts",
-    "add-job": "tsx scripts/link.ts",
-    "delete-url": "tsx scripts/delete-url.ts",
-    "clean-url": "tsx scripts/clean-url.ts",
-    "preview-email": "tsx scripts/preview-email.ts",
-    "update-readme": "tsx scripts/readme.ts"
+    "lint": "eslint ."
+  },
+  "fig": {
+    "jobctl": {
+      "subcommands": [
+        {
+          "name": "scan",
+          "description": "Scan jobs from ATS patterns"
+        },
+        {
+          "name": "sync",
+          "description": "Sync jobs from community sources"
+        },
+        {
+          "name": "batch",
+          "description": "Submit and collect cheaper batch analysis for queued jobs",
+          "options": [
+            {
+              "name": "--submit-only",
+              "description": "Submit queued jobs, then exit without waiting for results"
+            }
+          ]
+        },
+        {
+          "name": "notify",
+          "description": "Send notification emails",
+          "subcommands": [
+            {
+              "name": "latest",
+              "description": "Notify the latest stored jobs"
+            },
+            {
+              "name": "range",
+              "description": "Notify jobs in a date range",
+              "args": [
+                {
+                  "name": "from"
+                },
+                {
+                  "name": "to"
+                }
+              ]
+            },
+            {
+              "name": "commit",
+              "description": "Notify jobs from a commit",
+              "args": {
+                "name": "commit"
+              }
+            }
+          ]
+        },
+        {
+          "name": "setup",
+          "description": "Check and print configuration",
+          "subcommands": [
+            {
+              "name": "check-config",
+              "description": "Check the local configuration"
+            },
+            {
+              "name": "get-config",
+              "description": "Print the local configuration"
+            }
+          ]
+        },
+        {
+          "name": "job",
+          "description": "Maintain stored jobs",
+          "subcommands": [
+            {
+              "name": "add",
+              "description": "Add jobs from links, a JSON file, or interactive prompts",
+              "options": [
+                {
+                  "name": [
+                    "-l",
+                    "--link"
+                  ],
+                  "description": "Job URL. Repeat to add more than one",
+                  "isRepeatable": true,
+                  "exclusiveOn": [
+                    "--file"
+                  ],
+                  "args": {
+                    "name": "url"
+                  }
+                },
+                {
+                  "name": [
+                    "-f",
+                    "--file"
+                  ],
+                  "description": "JSON file of one Job or a Job array. Defaults to scripts/job.json",
+                  "exclusiveOn": [
+                    "--link"
+                  ],
+                  "args": {
+                    "name": "jobs.json",
+                    "isOptional": true,
+                    "template": "filepaths"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "analyze",
+              "description": "Print JD analysis for URLs without storing jobs",
+              "options": [
+                {
+                  "name": [
+                    "-l",
+                    "--link"
+                  ],
+                  "description": "Job URL. Repeat to analyze more than one",
+                  "isRepeatable": true,
+                  "args": {
+                    "name": "url"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "delete",
+              "description": "Delete exact posting URLs from urls, companies, and opportunities",
+              "options": [
+                {
+                  "name": [
+                    "-l",
+                    "--link"
+                  ],
+                  "description": "Exact posting URL. Repeat to delete more than one",
+                  "isRepeatable": true,
+                  "exclusiveOn": [
+                    "--file"
+                  ],
+                  "args": {
+                    "name": "url"
+                  }
+                },
+                {
+                  "name": [
+                    "-f",
+                    "--file"
+                  ],
+                  "description": "Text file with one exact URL per line",
+                  "exclusiveOn": [
+                    "--link"
+                  ],
+                  "args": {
+                    "name": "urls.txt",
+                    "template": "filepaths"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "clean",
+              "description": "Drop dead posting URLs and refresh companies"
+            },
+            {
+              "name": "dedup",
+              "description": "Deduplicate stored URLs and opportunities"
+            }
+          ]
+        },
+        {
+          "name": "company",
+          "description": "Maintain stored companies",
+          "subcommands": [
+            {
+              "name": "refresh",
+              "description": "Rebuild companies from stored URLs"
+            }
+          ]
+        },
+        {
+          "name": "board",
+          "description": "Publish the README, subpages, and badges",
+          "subcommands": [
+            {
+              "name": "refresh",
+              "description": "Regenerate the README, subpages, and badges"
+            }
+          ]
+        },
+        {
+          "name": "email",
+          "description": "Email tools",
+          "subcommands": [
+            {
+              "name": "preview",
+              "description": "Write preview.html for one stored job"
+            }
+          ]
+        }
+      ]
+    }
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

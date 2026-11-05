@@ -1,7 +1,5 @@
-import { promises as fs } from "fs";
 import inquirer from "inquirer";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
+import { promises as fs } from "node:fs";
 
 import { RED_CROSS } from "@/constants/log";
 
@@ -9,9 +7,18 @@ import type { Job } from "@/types";
 
 import { createSyncContext, processJobs } from "./ingest";
 
-import { analyzeLink, Posting } from "@/modules/posting";
-import { HttpStatusCode } from "@/modules/posting/jd";
+import { companyKey } from "@/modules/employer/build";
+import { knownEmployerName } from "@/modules/employer/remap";
+import { analyzeLink } from "@/modules/posting";
+import * as store from "@/store";
 import { logger } from "@/utils/logger";
+import { isValidHttpUrl } from "@/utils/url";
+
+const REQUIRED_LINK_FIELDS = ["company", "role", "location"] as const;
+
+function isInteractive() {
+  return Boolean(process.stdin.isTTY && process.stdout.isTTY);
+}
 
 function isJob(value: unknown): value is Job {
   if (!value || typeof value !== "object") return false;
@@ -41,9 +48,7 @@ function parseJobs(content: string): Job[] {
       throw new Error(`Invalid job at index ${index}`);
     }
 
-    try {
-      new URL(item.link);
-    } catch {
+    if (!isValidHttpUrl(item.link)) {
       throw new Error(`Invalid URL at index ${index}`);
     }
 
@@ -75,118 +80,147 @@ export async function promptJob(): Promise<Job> {
       name: "link",
       message: "Link:",
       type: "input",
-      validate: (input) => {
-        try {
-          new URL(input);
-          return true;
-        } catch {
-          return "Invalid URL";
-        }
-      },
+      validate: (input) => (isValidHttpUrl(input) ? true : "Invalid URL"),
     },
   ]);
   return job;
 }
 
-export async function addJob(args = process.argv.slice(2)) {
-  const context = await createSyncContext();
+async function readJobFile(file: string): Promise<Job[]> {
+  let content: string;
 
-  let link: string | undefined;
-  let file: string | undefined;
-
-  // parse args
-  for (let i = 0; i < args.length; i++) {
-    const arg = args[i];
-
-    if (arg === "-l") {
-      link = args[i + 1];
-      i++;
-    } else if (arg === "-f") {
-      const next = args[i + 1];
-      if (!next || next.startsWith("-")) {
-        file = "scripts/job.json";
-      } else {
-        file = next;
-        i++;
-      }
-    }
-  }
-
-  // ❗Cannot use -l and -f together
-  if (link && file) {
-    logger.error(`${RED_CROSS} Cannot use -l and -f together`);
+  try {
+    content = await fs.readFile(file, "utf8");
+  } catch (error) {
+    const message = error instanceof Error ? error.message : "Cannot read job file";
+    logger.error(`${RED_CROSS} ${message}`);
     process.exit(1);
   }
 
-  // --- modes ---
+  try {
+    return parseJobs(content);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : "Invalid job file";
+    logger.error(`${RED_CROSS} ${message}`);
+    process.exit(1);
+  }
+}
 
-  // 1. link mode
-  if (link) {
-    try {
-      new URL(link);
-    } catch {
-      logger.error(`${RED_CROSS} Invalid URL`);
+/**
+ * A posting URL reliably supplies the link. The company name is reliable only
+ * when it already belongs to a stored company. Role and location are not on
+ * the URL, so they are never guessed.
+ */
+async function jobsFromLinks(links: string[]): Promise<Job[]> {
+  const invalid = links.filter((link) => !isValidHttpUrl(link));
+
+  if (invalid.length > 0) {
+    for (const link of invalid) {
+      logger.error(`${RED_CROSS} Invalid URL: ${link}`);
+    }
+    process.exit(1);
+  }
+
+  const companies = await store.companies.load();
+  const companiesByKey = new Map(companies.map((company) => [companyKey(company), company]));
+  const pending = links.map((link) => {
+    const company = knownEmployerName(link, companiesByKey);
+    const missing = REQUIRED_LINK_FIELDS.filter((field) => field !== "company" || !company);
+    return { link, company, missing };
+  });
+  const incomplete = pending.filter((item) => item.missing.length > 0);
+
+  if (incomplete.length > 0 && !isInteractive()) {
+    for (const item of incomplete) {
+      logger.error(`${RED_CROSS} Missing ${item.missing.join(", ")} for ${item.link}`);
+    }
+    process.exit(1);
+  }
+
+  const jobs: Job[] = [];
+
+  for (const item of pending) {
+    const answers = await inquirer.prompt<Partial<Pick<Job, "company" | "role" | "location">>>(
+      item.missing.map((field) => ({
+        name: field,
+        message: `${field[0]?.toUpperCase()}${field.slice(1)} for ${item.link}:`,
+        type: "input" as const,
+        validate: (input: string) => (input ? true : `${field} is required`),
+      }))
+    );
+    const company = item.company ?? answers.company;
+    const role = answers.role;
+    const location = answers.location;
+
+    if (!company || !role || !location) {
+      logger.error(`${RED_CROSS} Missing company, role, location for ${item.link}`);
       process.exit(1);
     }
 
+    jobs.push({ company, role, location, link: item.link });
+  }
+
+  return jobs;
+}
+
+export async function addJob(options: { links?: string[]; file?: string } = {}) {
+  const links = options.links ?? [];
+  const file = options.file;
+
+  if (links.length > 0 && file !== undefined) {
+    logger.error(`${RED_CROSS} Cannot use --link and --file together`);
+    process.exit(1);
+  }
+
+  let jobs: Job[];
+
+  if (file !== undefined) {
+    jobs = await readJobFile(file);
+  } else if (links.length > 0) {
+    jobs = await jobsFromLinks(links);
+  } else if (!isInteractive()) {
+    logger.error(`${RED_CROSS} Missing company, role, location, link`);
+    process.exit(1);
+  } else {
+    jobs = [await promptJob()];
+  }
+
+  const context = await createSyncContext();
+  const result = await processJobs({ jobs, ...context });
+
+  logger.info(
+    { added: result.count, skipped: result.skipped, failed: result.failed },
+    "Job add finished"
+  );
+
+  if (result.count === 0 && result.skipped === 0 && result.batched === 0 && result.failed > 0) {
+    process.exit(1);
+  }
+}
+
+export async function analyzeJobs(links: string[]) {
+  if (links.length === 0) {
+    logger.error(`${RED_CROSS} Link is required`);
+    process.exit(1);
+  }
+
+  const invalid = links.filter((link) => !isValidHttpUrl(link));
+
+  if (invalid.length > 0) {
+    for (const link of invalid) {
+      logger.error(`${RED_CROSS} Invalid URL: ${link}`);
+    }
+    process.exit(1);
+  }
+
+  for (const link of links) {
     const jd = await analyzeLink(link);
 
     if (!jd) {
-      logger.info(`${RED_CROSS} No result`);
-      return;
+      logger.info({ url: link }, `${RED_CROSS} No result`);
+      continue;
     }
 
-    logger.info("\n ✏️ Result:\n%s", JSON.stringify(jd, null, 2));
-    return;
+    logger.info({ url: link }, "\n ✏️ Result:\n%s", JSON.stringify(jd, null, 2));
   }
-
-  // 2. file mode
-  if (file !== undefined) {
-    const filePath = file ?? "scripts/job.json";
-    const content = await fs.readFile(filePath, "utf8");
-
-    let jobs: Job[];
-    try {
-      jobs = parseJobs(content);
-    } catch (err) {
-      const message = err instanceof Error ? err.message : "Invalid job file";
-      logger.error(`${RED_CROSS} ${message}`);
-      process.exit(1);
-    }
-
-    const ready: Job[] = [];
-    for (const job of jobs) {
-      const { error } = await Posting.from(job).getRawJD();
-      if (HttpStatusCode.isError(error.code)) {
-        logger.error(`${RED_CROSS} ${job.company} — ${job.role}`);
-        continue;
-      }
-      ready.push(job);
-    }
-
-    if (ready.length === 0) {
-      process.exit(1);
-    }
-
-    await processJobs({ jobs: ready, ...context });
-    return;
-  }
-
-  // 3. default → add mode
-  const job = await promptJob();
-  const { error } = await Posting.from(job).getRawJD();
-  if (HttpStatusCode.isError(error.code)) {
-    process.exit(1);
-  }
-  await processJobs({ jobs: [job], ...context });
-}
-
-const isDirectRun =
-  process.argv[1] != null && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
-
-if (isDirectRun) {
-  addJob().catch((err) => {
-    logger.fatal({ err }, `${RED_CROSS} Error`);
-    process.exit(1);
-  });
 }

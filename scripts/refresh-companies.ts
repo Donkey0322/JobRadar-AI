@@ -1,8 +1,3 @@
-import path from "node:path";
-import { fileURLToPath } from "node:url";
-
-import { RED_CROSS } from "@/constants/log";
-
 import type { Company } from "@/types";
 
 import { renderBuildProgress } from "./utils/progress";
@@ -71,14 +66,4 @@ export async function refreshCompanies() {
   const remapped = await remapStoredCompanyNames(companies);
 
   logger.info(remapped, "🏷️ Remapped stored job company names");
-}
-
-const isDirectRun =
-  process.argv[1] != null && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
-
-if (isDirectRun) {
-  refreshCompanies().catch((err) => {
-    logger.fatal({ err }, `${RED_CROSS} Fatal error`);
-    process.exit(1);
-  });
 }

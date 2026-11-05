@@ -1,6 +1,5 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
 
 import { getSeasonYears } from "@/constants/season";
 
@@ -754,14 +753,4 @@ function escapeHtmlAttr(value: string): string {
 
 function unique<T>(values: T[]): T[] {
   return [...new Set(values)];
-}
-
-const isDirectRun =
-  process.argv[1] != null && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
-
-if (isDirectRun) {
-  updateReadme().catch((error) => {
-    console.error(error);
-    process.exit(1);
-  });
 }

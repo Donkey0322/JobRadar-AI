@@ -1,6 +1,5 @@
 import fs from "fs/promises";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
 
 import { generateEmailContent } from "@/modules/notifier/generate";
 import * as store from "@/store";
@@ -18,11 +17,4 @@ export async function previewEmail() {
   await fs.writeFile(output, html, "utf-8");
 
   console.log(`✅ Generated: ${output}`);
-}
-
-const isDirectRun =
-  process.argv[1] != null && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
-
-if (isDirectRun) {
-  previewEmail().catch(console.error);
 }

@@ -1,6 +1,4 @@
 import { setMaxListeners } from "node:events";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
 import pLimit from "p-limit";
 
 import { GREEN_CHECKMARK, RED_CROSS } from "@/constants/log";
@@ -319,14 +317,4 @@ export async function cleanUrls() {
   const urls = await main();
   await buildCompanyList(urls, renderBuildProgress);
   return urls;
-}
-
-const isDirectRun =
-  process.argv[1] != null && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
-
-if (isDirectRun) {
-  cleanUrls().catch((err) => {
-    logger.fatal({ err }, `${RED_CROSS} Fatal error`);
-    process.exit(1);
-  });
 }

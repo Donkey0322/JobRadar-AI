@@ -52,7 +52,7 @@ jobs:
       # ✅ Update README
       - name: Update README
         id: update-readme
-        run: pnpm update-readme
+        run: pnpm jobctl board refresh
 
       # ✅ Commit generated job board changes
       - name: Commit generated job board changes

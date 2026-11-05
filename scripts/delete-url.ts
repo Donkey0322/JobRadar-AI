@@ -1,64 +1,71 @@
-import path from "node:path";
-import { fileURLToPath } from "node:url";
+import { promises as fs } from "node:fs";
 
 import { RED_CROSS } from "@/constants/log";
 
 import * as store from "@/store";
 import { logger } from "@/utils/logger";
+import { isValidHttpUrl } from "@/utils/url";
 
-export async function deleteUrl(args = process.argv.slice(2)) {
-  logger.level = "silent";
-  let link: string | undefined;
+async function readUrlLines(file: string): Promise<string[]> {
+  let content: string;
 
-  // parse args
-  for (let i = 0; i < args.length; i++) {
-    const arg = args[i];
-
-    if (arg === "-l") {
-      link = args[i + 1];
-      i++;
-    }
+  try {
+    content = await fs.readFile(file, "utf8");
+  } catch (error) {
+    const message = error instanceof Error ? error.message : "Cannot read URL file";
+    logger.fatal(`${RED_CROSS} ${message}`);
+    process.exit(1);
   }
-  const sent = await store.urls.load();
-  const companies = await store.companies.load();
-  const opportunities = await store.opportunities.load();
 
-  if (!link) {
+  return content
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter((line) => line.length > 0);
+}
+
+export async function deleteUrls(options: { links?: string[]; file?: string } = {}) {
+  const optionLinks = options.links ?? [];
+
+  if (options.file !== undefined && optionLinks.length > 0) {
+    logger.fatal(`${RED_CROSS} Cannot use --link and --file together`);
+    process.exit(1);
+  }
+
+  const links = options.file !== undefined ? await readUrlLines(options.file) : optionLinks;
+
+  if (links.length === 0) {
     logger.fatal(`${RED_CROSS} Link is required`);
     process.exit(1);
   }
 
-  if (sent.has(link)) {
-    sent.delete(link);
+  const invalid = links.filter((link) => !isValidHttpUrl(link));
 
-    const updatedCompanies = [];
-    for (const company of companies) {
-      if (company.urls.includes(link)) {
-        updatedCompanies.push({
-          ...company,
-          urls: company.urls.filter((url) => url !== link),
-        });
-      } else {
-        updatedCompanies.push(company);
-      }
+  if (invalid.length > 0) {
+    for (const link of invalid) {
+      logger.fatal(`${RED_CROSS} Invalid URL: ${link}`);
     }
-    await store.companies.save(updatedCompanies);
-
-    const updatedOpportunities = opportunities.filter((opportunity) => opportunity.link !== link);
-    await store.opportunities.replace(updatedOpportunities);
+    process.exit(1);
   }
 
+  logger.level = "silent";
+  const sent = await store.urls.load();
+  const companies = await store.companies.load();
+  const opportunities = await store.opportunities.load();
+  const remove = new Set(links.filter((link) => sent.has(link)));
+
+  for (const link of remove) {
+    sent.delete(link);
+  }
+
+  const updatedCompanies = companies.map((company) => ({
+    ...company,
+    urls: company.urls.filter((url) => !remove.has(url)),
+  }));
+  const updatedOpportunities = opportunities.filter((opportunity) => !remove.has(opportunity.link));
+
+  await store.companies.save(updatedCompanies);
+  await store.opportunities.replace(updatedOpportunities);
   await store.urls.save(sent);
 
   return sent;
-}
-
-const isDirectRun =
-  process.argv[1] != null && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
-
-if (isDirectRun) {
-  deleteUrl().catch((err) => {
-    logger.fatal({ err }, `${RED_CROSS} Fatal error`);
-    process.exit(1);
-  });
 }

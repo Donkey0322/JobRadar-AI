@@ -1,22 +1,73 @@
-import type { Command } from "commander";
+import { type Command, InvalidArgumentError, Option } from "commander";
 
-/** Maintenance commands. Each action calls the existing script with its own argv. */
+const DEFAULT_JOB_FILE = "scripts/job.json";
+
+function collect(value: string, previous: string[] = []) {
+  previous.push(value);
+  return previous;
+}
+
+function oneFile(value: string, previous: string | undefined) {
+  if (previous !== undefined) {
+    throw new InvalidArgumentError("--file cannot be repeated");
+  }
+
+  return value;
+}
+
+/** Maintenance commands. Flags and conflicts are declared here. */
 export function registerMaintenance(program: Command) {
-  const job = program.command("job").description("Maintain one job");
+  const job = program.command("job").description("Maintain stored jobs");
 
   job
     .command("add")
-    .description("Add a job from -l, -f, or interactive prompts")
-    .argument("[args...]")
-    .allowUnknownOption()
-    .action(async (args: string[]) => {
+    .description("Add jobs from links, a JSON file, or interactive prompts")
+    .addOption(
+      new Option("-l, --link <url>", "Job URL. Repeat to add more than one")
+        .argParser(collect)
+        .conflicts("file")
+    )
+    .addOption(
+      new Option("-f, --file [jobs.json]", "JSON file of one Job or a Job array")
+        .preset(DEFAULT_JOB_FILE)
+        .argParser(oneFile)
+        .conflicts("link")
+    )
+    .action(async (options: { link?: string[]; file?: string }) => {
       const { addJob } = await import("../link");
-      await addJob(args);
+      await addJob({ links: options.link ?? [], file: options.file });
     });
 
-  const urls = program.command("urls").description("Maintain stored URLs");
+  job
+    .command("analyze")
+    .description("Print JD analysis for URLs without storing jobs")
+    .addOption(
+      new Option("-l, --link <url>", "Job URL. Repeat to analyze more than one").argParser(collect)
+    )
+    .action(async (options: { link?: string[] }) => {
+      const { analyzeJobs } = await import("../link");
+      await analyzeJobs(options.link ?? []);
+    });
 
-  urls
+  job
+    .command("delete")
+    .description("Delete exact posting URLs from urls, companies, and opportunities")
+    .addOption(
+      new Option("-l, --link <url>", "Exact posting URL. Repeat to delete more than one")
+        .argParser(collect)
+        .conflicts("file")
+    )
+    .addOption(
+      new Option("-f, --file <urls.txt>", "Text file with one exact URL per line")
+        .argParser(oneFile)
+        .conflicts("link")
+    )
+    .action(async (options: { link?: string[]; file?: string }) => {
+      const { deleteUrls } = await import("../delete-url");
+      await deleteUrls({ links: options.link ?? [], file: options.file });
+    });
+
+  job
     .command("clean")
     .description("Drop dead posting URLs and refresh companies")
     .action(async () => {
@@ -24,17 +75,7 @@ export function registerMaintenance(program: Command) {
       await cleanUrls();
     });
 
-  urls
-    .command("delete")
-    .description("Delete one exact URL from urls, companies, and opportunities")
-    .argument("[args...]")
-    .allowUnknownOption()
-    .action(async (args: string[]) => {
-      const { deleteUrl } = await import("../delete-url");
-      await deleteUrl(args);
-    });
-
-  urls
+  job
     .command("dedup")
     .description("Deduplicate stored URLs and opportunities")
     .action(async () => {
@@ -42,9 +83,9 @@ export function registerMaintenance(program: Command) {
       await dedup();
     });
 
-  const companies = program.command("companies").description("Maintain the company list");
-
-  companies
+  program
+    .command("company")
+    .description("Maintain stored companies")
     .command("refresh")
     .description("Rebuild companies from stored URLs")
     .action(async () => {
@@ -53,16 +94,18 @@ export function registerMaintenance(program: Command) {
     });
 
   program
-    .command("readme")
+    .command("board")
+    .description("Publish the README, subpages, and badges")
+    .command("refresh")
     .description("Regenerate the README, subpages, and badges")
     .action(async () => {
       const { updateReadme } = await import("../readme");
       await updateReadme();
     });
 
-  const email = program.command("email").description("Email tools");
-
-  email
+  program
+    .command("email")
+    .description("Email tools")
     .command("preview")
     .description("Write preview.html for one stored job")
     .action(async () => {

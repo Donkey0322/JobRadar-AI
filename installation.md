@@ -473,7 +473,7 @@ scripts/readme.ts
 You can also run it manually. It runs:
 
 ```bash
-pnpm update-readme
+pnpm jobctl board refresh
 ```
 
 and commits changes to `README.md`, `job-postings/`, and `assets/featured-badges/` if needed.
@@ -507,7 +507,7 @@ Workflow file:
 It runs:
 
 ```bash
-pnpm clean-url
+pnpm jobctl job clean
 ```
 
 It checks every stored posting URL, removes postings that are gone from `data/urls.json`, and refreshes expiry in the opportunity data. Expired rows last seen more than 90 days ago are removed.
@@ -1031,23 +1031,26 @@ pnpm jobctl notify range <from-sha> <to-sha>
 Update README:
 
 ```bash
-pnpm update-readme
+pnpm jobctl board refresh
 ```
 
 Preview email:
 
 ```bash
-pnpm preview-email
+pnpm jobctl email preview
 ```
 
 Maintain job data:
 
 ```bash
-pnpm add-job            # add one posting interactively
-pnpm delete-url         # remove a posting URL
-pnpm clean-url          # remove dead posting URLs
-pnpm dedup              # deduplicate opportunities and URLs
-pnpm refresh-companies  # rewrite stored company names after identifier remaps
+pnpm jobctl job add
+pnpm jobctl job add -l <url>
+pnpm jobctl job analyze -l <url>
+pnpm jobctl job delete -l <url>
+pnpm jobctl job clean
+pnpm jobctl job dedup
+pnpm jobctl company refresh
+pnpm jobctl board refresh
 ```
 
 Test and typecheck:

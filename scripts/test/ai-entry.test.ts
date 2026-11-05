@@ -208,14 +208,12 @@ describe("AI entry points", () => {
     });
   });
 
-  describe("link -l", () => {
+  describe("job analyze -l", () => {
     async function runLink(config: AIConfig) {
-      process.argv = ["node", "scripts/link.ts", "-l", JOB_URL];
-      await runScript("../link", config);
-      await vi.waitFor(() => {
-        const messages = loggedMessages(loggerMocks.info);
-        expect(messages.some((message) => /result/i.test(message ?? ""))).toBe(true);
-      });
+      ai.config.current = config;
+      vi.resetModules();
+      const { analyzeJobs } = await import("../link");
+      await analyzeJobs([JOB_URL]);
     }
 
     it("returns no result without creating a provider or calling AI when AI is disabled", async () => {

@@ -48,7 +48,7 @@ jobs:
       # ✅ Clean Outdated URL
       - name: Clean Outdated URL
         id: clean-outdated-url
-        run: pnpm clean-url
+        run: pnpm jobctl job clean
 
       - name: Commit and push updated data
         run: |
