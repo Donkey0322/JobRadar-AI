@@ -111,7 +111,7 @@ export class OracleCloudFetcher extends Employer<OracleCloudJob> {
   readonly ats = "oraclecloud" as const;
 
   companyKeyFromUrl(url: URL): string {
-    return this.companyKey(url.hostname.replace("www.", ""));
+    return this.keyOf(url.hostname.replace("www.", ""));
   }
 
   async formCompany(url: URL): Promise<Company> {

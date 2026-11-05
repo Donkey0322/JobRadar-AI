@@ -146,7 +146,7 @@ export class RadancyFetcher extends Employer<RadancyJob> {
   readonly ats = "radancy" as const;
 
   companyKeyFromUrl(url: URL): string {
-    return this.companyKey(getHostnameWithoutWww(url));
+    return this.keyOf(getHostnameWithoutWww(url));
   }
 
   formCompany(url: URL): Company {

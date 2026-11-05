@@ -307,7 +307,7 @@ export class IcimsFetcher extends Employer<IcimsJob> {
   readonly ats = "icims" as const;
 
   companyKeyFromUrl(url: URL): string {
-    return this.companyKey(getIcimsCompanyIdentifier(url));
+    return this.keyOf(getIcimsCompanyIdentifier(url));
   }
 
   repairCompany(company: Company): Company {

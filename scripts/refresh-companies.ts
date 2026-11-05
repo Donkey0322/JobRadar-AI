@@ -7,7 +7,7 @@ import type { Company } from "@/types";
 
 import { renderBuildProgress } from "./utils/progress";
 
-import { buildCompanyList, getCompanyKey } from "@/modules/employer/build";
+import { buildCompanyList, companyKey } from "@/modules/employer/build";
 import { remapStoredCompany } from "@/modules/employer/remap";
 import * as store from "@/store";
 import { logger } from "@/utils/logger";
@@ -24,7 +24,7 @@ export interface RemapStoredCompanyNamesResult {
 export async function remapStoredCompanyNames(
   companies: Company[]
 ): Promise<RemapStoredCompanyNamesResult> {
-  const companiesByKey = new Map(companies.map((company) => [getCompanyKey(company), company]));
+  const companiesByKey = new Map(companies.map((company) => [companyKey(company), company]));
 
   const jobs = await store.jobs.loadInFileOrder();
   const opportunities = await store.opportunities.load();

@@ -39,7 +39,7 @@ export class GreenhouseFetcher extends Employer<GreenhouseJob> {
     const syncIdentifier = this.getSyncIdentifier(url);
 
     if (syncIdentifier) {
-      return this.companyKey(syncIdentifier);
+      return this.keyOf(syncIdentifier);
     }
 
     const parts = url.pathname.split("/").filter(Boolean);
@@ -48,10 +48,10 @@ export class GreenhouseFetcher extends Employer<GreenhouseJob> {
     // Provisional keys for URLs that need network to resolve the real identifier
     if (isGreenhouseJobBoardHost(host) && parts[0] === "embed" && parts[1] === "job_app") {
       const token = url.searchParams.get("token");
-      return this.companyKey(token ? `job_app:${token}` : `url:${url.href}`);
+      return this.keyOf(token ? `job_app:${token}` : `url:${url.href}`);
     }
 
-    return this.companyKey(`host:${host}`);
+    return this.keyOf(`host:${host}`);
   }
 
   async formCompany(url: URL): Promise<Company> {

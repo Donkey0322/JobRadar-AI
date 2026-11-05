@@ -28,7 +28,7 @@ export class CustomFetcher extends Employer<Job> {
   readonly ats = "custom" as const;
 
   companyKeyFromUrl(url: URL): string {
-    return this.companyKey(this.getIdentifier(url));
+    return this.keyOf(this.getIdentifier(url));
   }
 
   formCompany(url: URL): Company {

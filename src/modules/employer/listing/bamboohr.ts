@@ -64,7 +64,7 @@ export class BambooHRFetcher extends Employer<BambooHRJob> {
   readonly ats = "bamboohr" as const;
 
   companyKeyFromUrl(url: URL): string {
-    return this.companyKey(getBambooHRSlug(url));
+    return this.keyOf(getBambooHRSlug(url));
   }
 
   async formCompany(url: URL): Promise<Company> {

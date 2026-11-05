@@ -610,7 +610,7 @@ export class PhenomFetcher extends Employer<PhenomJob> {
   readonly ats = "phenom" as const;
 
   companyKeyFromUrl(url: URL): string {
-    return this.companyKey(url.hostname);
+    return this.keyOf(url.hostname);
   }
 
   async formCompany(url: URL): Promise<Company | null> {

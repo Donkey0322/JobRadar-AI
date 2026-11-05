@@ -46,7 +46,7 @@ export class SuccessFactorsFetcher extends Employer<SuccessFactorsJob> {
   readonly ats = "successfactors" as const;
 
   companyKeyFromUrl(url: URL): string {
-    return this.companyKey(getHostnameWithoutWww(url));
+    return this.keyOf(getHostnameWithoutWww(url));
   }
 
   async formCompany(url: URL): Promise<Company> {

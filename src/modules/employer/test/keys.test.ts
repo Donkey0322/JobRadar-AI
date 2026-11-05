@@ -4,7 +4,7 @@ import { describe, expect, it } from "vitest";
 
 import type { Company } from "@/types";
 
-import { getCompanyKey, groupUrlsByCompanyKey } from "../build";
+import { companyKey, groupUrlsByCompanyKey } from "../build";
 import { careerSiteAlias, companyKeyFromUrl } from "../keys";
 import { employers } from "../registry";
 import { knownEmployerName, remapStoredCompany } from "../remap";
@@ -40,9 +40,9 @@ function record(company: string, link: string) {
 
 describe("career-site alias company keys", () => {
   it("resolves a Dexcom career-site URL to the stored Workday company in build and remap", () => {
-    const companiesByKey = new Map([[getCompanyKey(dexcom), dexcom]]);
+    const companiesByKey = new Map([[companyKey(dexcom), dexcom]]);
 
-    expect(getCompanyKey(dexcom)).toBe("workday:dexcom-dexcom");
+    expect(companyKey(dexcom)).toBe("workday:dexcom-dexcom");
     expect(buildKey(DEXCOM_URL)).toBe("workday:dexcom-dexcom");
     expect(companyKeyFromUrl(new URL(DEXCOM_URL))).toBe("workday:dexcom-dexcom");
     expect(knownEmployerName(DEXCOM_URL, companiesByKey)).toBe("Dexcom");
@@ -76,7 +76,7 @@ describe("career-site alias company keys", () => {
 
   it("leaves an alias URL unmatched when its target company is not stored", () => {
     const unrelated: Company = { ...dexcom, name: "micron", identifier: "micron-external" };
-    const companiesByKey = new Map([[getCompanyKey(unrelated), unrelated]]);
+    const companiesByKey = new Map([[companyKey(unrelated), unrelated]]);
     const stored = record("careers.dexcom.com", DEXCOM_URL);
 
     expect(buildKey(DEXCOM_URL)).toBe("workday:dexcom-dexcom");

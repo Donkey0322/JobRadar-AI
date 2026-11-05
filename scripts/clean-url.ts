@@ -11,7 +11,7 @@ import deduplicate from "./dedup";
 
 import { classifyATS } from "@/modules/ats/classify";
 import { groupUrlsByKey } from "@/modules/ats/job-key";
-import { buildCompanyList, getCompanyKey, groupUrlsByCompanyKey } from "@/modules/employer/build";
+import { buildCompanyList, companyKey, groupUrlsByCompanyKey } from "@/modules/employer/build";
 import { checkUrlsAgainstListing } from "@/modules/employer/liveness";
 import { dropStaleExpiredOpportunities, syncExpiredFlags } from "@/modules/opportunity/dedup";
 import { Posting } from "@/modules/posting";
@@ -268,7 +268,7 @@ async function main() {
   const storedUrls = Array.from(await store.urls.load());
   const targeted = targetedOpportunities(await store.opportunities.load());
   const companiesByKey = new Map(
-    (await store.companies.load()).map((company) => [getCompanyKey(company), company])
+    (await store.companies.load()).map((company) => [companyKey(company), company])
   );
 
   const advance = trackProgress(storedUrls.length);

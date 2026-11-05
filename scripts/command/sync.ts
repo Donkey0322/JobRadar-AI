@@ -5,7 +5,7 @@ import type { Job } from "@/types";
 import { createSyncContext, processJobs } from "../ingest";
 
 import { isKnownJob } from "@/modules/ats/job-key";
-import { getCompanyKey } from "@/modules/employer/build";
+import { companyKey } from "@/modules/employer/build";
 import { knownEmployerName } from "@/modules/employer/remap";
 import { Posting } from "@/modules/posting";
 import { canonicalizeApplyLink } from "@/modules/posting/apply-link";
@@ -20,7 +20,7 @@ export default async function syncCommunity() {
 
   const context = await createSyncContext();
   const companiesByKey = new Map(
-    (await store.companies.load()).map((company) => [getCompanyKey(company), company])
+    (await store.companies.load()).map((company) => [companyKey(company), company])
   );
   const limit = pLimit(RESOLVE_CONCURRENCY);
 

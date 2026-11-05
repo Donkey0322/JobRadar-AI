@@ -9,7 +9,7 @@ export class NoneFetcher extends Employer<Job> {
   readonly ats = "none" as const;
 
   companyKeyFromUrl(url: URL): string {
-    return this.companyKey(getHostnameWithoutWww(url));
+    return this.keyOf(getHostnameWithoutWww(url));
   }
 
   formCompany(url: URL): Company {

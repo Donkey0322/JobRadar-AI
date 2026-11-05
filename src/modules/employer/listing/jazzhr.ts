@@ -46,7 +46,7 @@ export class JazzHRFetcher extends Employer<JazzHRJob> {
   readonly ats = "jazzhr" as const;
 
   companyKeyFromUrl(url: URL): string {
-    return this.companyKey(getHostnameWithoutWww(url));
+    return this.keyOf(getHostnameWithoutWww(url));
   }
 
   async formCompany(url: URL): Promise<Company> {

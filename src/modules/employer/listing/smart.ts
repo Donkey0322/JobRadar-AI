@@ -29,7 +29,7 @@ export class SmartRecruitersFetcher extends Employer<SmartRecruitersJob> {
   readonly ats = "smartrecruiters" as const;
 
   companyKeyFromUrl(url: URL): string {
-    return this.companyKey(this.getIdentifier(url));
+    return this.keyOf(this.getIdentifier(url));
   }
 
   formCompany(url: URL): Company {

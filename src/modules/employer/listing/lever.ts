@@ -29,7 +29,7 @@ export class LeverFetcher extends Employer<LeverJob> {
   readonly ats = "lever" as const;
 
   companyKeyFromUrl(url: URL): string {
-    return this.companyKey(this.getIdentifier(url));
+    return this.keyOf(this.getIdentifier(url));
   }
 
   formCompany(url: URL): Company {

@@ -3,7 +3,7 @@ import { URL } from "url";
 
 import type { Company } from "@/types";
 
-import { identityKey } from "./employer";
+import { companyKey } from "./employer";
 import { careerSiteAlias, companyKeyFromUrl } from "./keys";
 import { employers } from "./registry";
 
@@ -13,9 +13,7 @@ import { logger } from "@/utils/logger";
 
 const CONCURRENCY = 10;
 
-export function getCompanyKey(company: Company): string {
-  return identityKey(company);
-}
+export { companyKey };
 
 /**
  * Bare domain/page URLs often omit the company slug (e.g. https://jobs.lever.co),
@@ -38,7 +36,7 @@ function representativeUrl(existing: Company): URL | null {
 
 async function resolveExistingCompany(stored: Company): Promise<{ key: string; company: Company }> {
   const existing = employers[stored.ats]?.repairCompany(stored) ?? stored;
-  const existingKey = getCompanyKey(existing);
+  const existingKey = companyKey(existing);
   const url = representativeUrl(existing);
 
   if (!url) {
@@ -59,7 +57,7 @@ async function resolveExistingCompany(stored: Company): Promise<{ key: string; c
       return { key: existingKey, company: existing };
     }
 
-    return { key: getCompanyKey(reformed), company: reformed };
+    return { key: companyKey(reformed), company: reformed };
   } catch {
     return { key: existingKey, company: existing };
   }
@@ -179,7 +177,7 @@ export async function buildCompanyList(
       continue;
     }
 
-    const key = getCompanyKey(company);
+    const key = companyKey(company);
 
     if (!map.has(key)) {
       map.set(key, company);
@@ -234,13 +232,13 @@ export async function buildCompanyList(
     }
 
     const { company } = await formCompanyFromGroup(groupKey, groupUrls);
-    if (company?.name) map.set(getCompanyKey(company), company);
+    if (company?.name) map.set(companyKey(company), company);
   }
 
   const result = Array.from(map.values())
     .map((company) => ({ ...company, urls: [...company.urls].sort() }))
     .sort(
-      (a, b) => a.name.localeCompare(b.name) || getCompanyKey(a).localeCompare(getCompanyKey(b))
+      (a, b) => a.name.localeCompare(b.name) || companyKey(a).localeCompare(companyKey(b))
     );
 
   await companies.save(result);

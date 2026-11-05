@@ -79,7 +79,7 @@ export class EightfoldFetcher extends Employer<EightfoldJob> {
   readonly ats = "eightfold" as const;
 
   companyKeyFromUrl(url: URL): string {
-    return this.companyKey(this.getIdentifier(url));
+    return this.keyOf(this.getIdentifier(url));
   }
 
   async formCompany(url: URL): Promise<Company> {

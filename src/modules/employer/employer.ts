@@ -15,7 +15,7 @@ export type MaybePromise<T> = T | Promise<T>;
 const FETCH_TIMEOUT = 20_000;
 const LEVER_TIMEOUT = 60_000;
 
-export function identityKey(
+export function companyKey(
   company: Pick<Company, "ats" | "identifier" | "domain" | "page">
 ): string {
   if (company.identifier) {
@@ -74,7 +74,7 @@ export abstract class Employer<TJob = unknown> {
   }
 
   key(): string {
-    return identityKey(this);
+    return companyKey(this);
   }
 
   async getJobs(): Promise<Job[]> {
@@ -158,7 +158,7 @@ export abstract class Employer<TJob = unknown> {
   }
 
   /** Build `${ats}:${identifier}` keys used by company list grouping. */
-  protected companyKey(identifier: string): string {
+  protected keyOf(identifier: string): string {
     return `${this.ats}:${identifier}`;
   }
 

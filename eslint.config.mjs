@@ -8,9 +8,10 @@ import prettier from "eslint-config-prettier";
 /**
  * Later blocks replace `@typescript-eslint/no-restricted-imports` entirely for
  * the files they match. Each block repeats every ban that still applies.
- * `src/test/architecture.test.ts` remains the check for resolved paths,
- * `vi.mock`, `require()`, and non-literal `import()`. Static `export … from`
- * is checked here by specifier text.
+ * `src/test/architecture.test.ts` resolves `@/` and relative specifiers.
+ * It lists `vi.mock`, `require()`, and non-literal `import()`, but those
+ * loads are not dependency edges checked by the boundary rules.
+ * Static `export … from` is checked here by specifier text.
  */
 const scriptsBan = {
   group: ["@/scripts", "@/scripts/**", "**/scripts", "**/scripts/**"],

@@ -30,7 +30,7 @@ export class PinpointFetcher extends Employer<PinpointJob> {
   readonly ats = "pinpoint" as const;
 
   companyKeyFromUrl(url: URL): string {
-    return this.companyKey(getPinpointSlug(url));
+    return this.keyOf(getPinpointSlug(url));
   }
 
   async formCompany(url: URL): Promise<Company> {

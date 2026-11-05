@@ -43,7 +43,7 @@ export class WorkdayFetcher extends Employer<WorkdayJob> {
 
   companyKeyFromUrl(url: URL): string {
     const { companyName, careerPage } = this.getCompanyParts(url);
-    return this.companyKey(`${companyName}-${careerPage.toLowerCase()}`);
+    return this.keyOf(`${companyName}-${careerPage.toLowerCase()}`);
   }
 
   formCompany(url: URL): Company {

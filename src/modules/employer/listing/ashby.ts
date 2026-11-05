@@ -55,10 +55,10 @@ export class AshbyFetcher extends Employer<AshbyJob> {
     const syncIdentifier = this.getSyncIdentifier(url);
 
     if (syncIdentifier) {
-      return this.companyKey(syncIdentifier);
+      return this.keyOf(syncIdentifier);
     }
 
-    return this.companyKey(`host:${getHostnameWithoutWww(url)}`);
+    return this.keyOf(`host:${getHostnameWithoutWww(url)}`);
   }
 
   async formCompany(url: URL): Promise<Company> {

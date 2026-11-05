@@ -59,7 +59,7 @@ export class RipplingFetcher extends Employer<RipplingJob> {
   readonly ats = "rippling" as const;
 
   companyKeyFromUrl(url: URL): string {
-    return this.companyKey(getRipplingSlug(url) ?? url.hostname);
+    return this.keyOf(getRipplingSlug(url) ?? url.hostname);
   }
 
   async formCompany(url: URL): Promise<Company | null> {
