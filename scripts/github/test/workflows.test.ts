@@ -267,10 +267,12 @@ describe("maintenance routing", () => {
     writeFileSync(path.join(directory, "README.md"), "board\n");
     writeFileSync(path.join(directory, "data-note.txt"), "leave me\n");
 
+    const inherited = { ...process.env };
+    delete inherited.GITHUB_OUTPUT;
     const committed = spawnSync(process.execPath, [ROUTE, "maintenance-commit"], {
       cwd: directory,
       encoding: "utf8",
-      env: { ...process.env, EVENT_NAME: "workflow_dispatch", TASK: "board refresh" },
+      env: { ...inherited, EVENT_NAME: "workflow_dispatch", TASK: "board refresh" },
     });
 
     expect(committed.status, committed.stderr).toBe(0);
