@@ -47,6 +47,12 @@ export function batchShouldStart(eventName: string, commitMessage: string): bool
 
 export function batchDue(eventName: string, queue: string | null, inflight: string | null): boolean;
 
+export function jobsResultAfterBatch(
+  fetchResult: string,
+  publishResult: string,
+  batchResult: string
+): string;
+
 export function classifyFiles(files: string[]): RouteResult;
 
 export function routePush(

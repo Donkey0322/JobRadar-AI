@@ -195,12 +195,25 @@ export function batchShouldStart(eventName, commitMessage) {
   return true;
 }
 
+// eventName is the caller's event. A reusable workflow keeps that name, so a
+// manual Jobs run still arrives as workflow_dispatch. Queue lines and inflight
+// entries are the only signal, for every caller.
 export function batchDue(eventName, queue, inflight) {
-  if (eventName === "workflow_dispatch") return true;
+  void eventName;
   if (queue && queue.split(/\r?\n/).some((line) => line.trim())) return true;
   if (!inflight) return false;
   const payload = JSON.parse(inflight);
   return Array.isArray(payload) && payload.length > 0;
+}
+
+// An idle batch-run skips submit, collect, and both publishes. That called
+// workflow succeeds, so Jobs stays successful. A failed fetch, publish, or
+// batch still fails Jobs.
+export function jobsResultAfterBatch(fetchResult, publishResult, batchResult) {
+  if (fetchResult !== "success") return fetchResult;
+  if (publishResult !== "success" && publishResult !== "skipped") return publishResult;
+  if (batchResult !== "success" && batchResult !== "skipped") return batchResult;
+  return "success";
 }
 
 function isPipelineCommit(message) {
@@ -365,8 +378,7 @@ function batchDueCli() {
     readOptional("data/batch/queue.ndjson"),
     readOptional("data/batch/inflight.json")
   );
-  if (eventName === "workflow_dispatch") stderr("Manual run; skipping idle gate.");
-  else stderr(due ? "Batch work is pending." : "No queued or inflight batch work.");
+  stderr(due ? "Batch work is pending." : "No queued or inflight batch work.");
   emit({ due: due ? "true" : "false" });
 }
 

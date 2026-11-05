@@ -82,13 +82,25 @@ jobs:
       notify: true
     secrets: inherit
 
-  finish:
+  batch:
     needs: [add-job, publish]
     if: >-
       ${{
         !cancelled() &&
         needs.add-job.result == 'success' &&
         (needs.publish.result == 'success' || needs.publish.result == 'skipped')
+      }}
+    uses: ./.github/workflows/batch-run.yml
+    secrets: inherit
+
+  finish:
+    needs: [add-job, publish, batch]
+    if: >-
+      ${{
+        !cancelled() &&
+        needs.add-job.result == 'success' &&
+        (needs.publish.result == 'success' || needs.publish.result == 'skipped') &&
+        (needs.batch.result == 'success' || needs.batch.result == 'skipped')
       }}
     runs-on: ubuntu-latest
     timeout-minutes: 5
@@ -109,11 +121,15 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   report-failure:
-    needs: [add-job, publish]
+    needs: [add-job, publish, batch]
     if: >-
       ${{
         !cancelled() &&
-        (needs.add-job.result == 'failure' || needs.publish.result == 'failure')
+        (
+          needs.add-job.result == 'failure' ||
+          needs.publish.result == 'failure' ||
+          needs.batch.result == 'failure'
+        )
       }}
     runs-on: ubuntu-latest
     timeout-minutes: 5

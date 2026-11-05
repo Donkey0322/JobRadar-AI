@@ -34,7 +34,8 @@ permissions:
 # single pending run. Issue, Maintenance, and Publish data changes must each
 # run. Scheduled Jobs and Batch could be superseded by a later schedule, but
 # they share this queue so a later schedule cannot cancel a waiting issue.
-# Publish Jobs does not set concurrency, so it cannot wait on this caller.
+# Publish Jobs and Batch Run do not set concurrency, so they do not wait on
+# this caller. A scheduled Batch Pipeline stays queued until this run ends.
 concurrency:
   group: job-data-sync
   cancel-in-progress: false
@@ -157,4 +158,15 @@ jobs:
     with:
       data_sha: ${{ needs.fetch.outputs.data_sha }}
       notify: true
+    secrets: inherit
+
+  batch:
+    needs: [fetch, publish]
+    if: >-
+      ${{
+        !cancelled() &&
+        needs.fetch.result == 'success' &&
+        (needs.publish.result == 'success' || needs.publish.result == 'skipped')
+      }}
+    uses: ./.github/workflows/batch-run.yml
     secrets: inherit

@@ -531,26 +531,27 @@ To reduce cost or email frequency, slow the matching cron in `jobs.yml`. For exa
 
 ### Batch Pipeline
 
-File:
+Files:
 
 ```text
+.github/workflows/batch-run.yml
 .github/workflows/batch.yml
 ```
 
-Current schedule:
+`batch-run.yml` is the shared implementation. Jobs Pipeline calls it after scan or sync, and Add Job From Issue calls it after a submission. Neither caller gives that child its own `job-data-sync` lock, so the caller can finish. `batch.yml` is the manual run and the hourly recovery. It holds the same queue, so it cannot write data while a Jobs run is inside `batch-run.yml`.
 
 ```yaml
 on:
-  push:
-    paths:
-      - "data/batch/queue.ndjson"
   schedule:
     - cron: "47 * * * *"
+  workflow_dispatch: {}
 ```
 
-Discovery commits that add queued jobs start a batch run immediately. Submit checkpoints inflight work with `[skip ci]`, then collect polls the provider every 20 seconds until the batch finishes or the 20-minute soft deadline is hit. The checkpoint push does not start another batch run. Collect may write failed jobs back onto the queue; Batch also ignores `chore(batch): collect` pushes, so retries wait for the next scan or the hourly cron. The hourly cron collects leftover inflight work.
+A commit that only adds `data/batch/queue.ndjson` does not start another batch. Scan, sync, and an accepted issue process that queue once. `jobctl job analyze`, or a queue committed outside those workflows, waits for the hourly run or a manual Batch Pipeline run. Public JD sync writes `data/upstream/queue.json` and does not use this queue.
 
-If both the queue and inflight files are empty, the workflow exits before installing Node. Manual **Run workflow** always runs.
+Submit checkpoints inflight work with `[skip ci]`, then collect polls the provider every 20 seconds until the batch finishes or the 20-minute soft deadline is hit. Checkpoint and collect each publish their own saved commit. A board failure still notifies that commit and fails the publish workflow. Collect continues after a failed or skipped checkpoint publish.
+
+The shared gate reads `data/batch/queue.ndjson` and `data/batch/inflight.json` for every caller. A called workflow keeps the caller's `github.event_name`, so a manual Jobs run is still `workflow_dispatch` and uses this same check. A queue line or an inflight entry runs submit, collect, and their publishes. When both are empty, those jobs are skipped and the calling Jobs workflow stays successful. Existing inflight work is collected instead of submitted again. A failed batch fails the Jobs or issue workflow that called it.
 
 ### Publish data changes and Publish Jobs
 
