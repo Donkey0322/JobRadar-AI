@@ -1,15 +1,16 @@
 name: Publish data changes
 run-name: 📬 Publish data changes
 
-# Direct edits of board inputs or job data. The file check and the notification
-# use the same before..after range. An existing branch uses github.event.before
-# and github.sha, so a truncated webhook commit list does not shrink that range.
-# A new branch has a zero before. The webhook commits array holds at most 2048
-# commits; the Events API timeline cap of 20 does not apply to this payload. A
-# shorter list is the whole push. A list of 2048 may be truncated, and the job
-# fails instead of notifying from that list. Pipeline commits are skipped here
-# because Jobs, Batch, and Add Job already call Publish Jobs with the saved
-# data commit.
+# Direct edits of board inputs or job data. One checkout has the full history
+# because the notification range can start at an older commit. The file check
+# and the notification use that same before..after range. An existing branch
+# uses github.event.before and github.sha, so a truncated webhook commit list
+# does not shrink that range. A new branch has a zero before. The webhook
+# commits array holds at most 2048 commits; the Events API timeline cap of 20
+# does not apply to this payload. A shorter list is the whole push. A list of
+# 2048 may be truncated, and the job fails instead of notifying from that list.
+# Pipeline commits are skipped here because Jobs, Batch, and Add Job already
+# publish the saved data commit.
 on:
   push:
     paths:
@@ -28,7 +29,7 @@ concurrency:
   queue: max
 
 jobs:
-  route:
+  publish:
     if: >-
       ${{
         !startsWith(github.event.head_commit.message, 'chore(discovery):') &&
@@ -38,23 +39,19 @@ jobs:
         !startsWith(github.event.head_commit.message, 'data: add job from issue')
       }}
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-    outputs:
-      run: ${{ steps.route.outputs.run }}
-      from_sha: ${{ steps.route.outputs.from_sha }}
-      data_sha: ${{ steps.route.outputs.data_sha }}
-      notify: ${{ steps.route.outputs.notify }}
-
+    # Route 5 plus fast-forward 5, board 10, and notify 10.
+    timeout-minutes: 30
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
-          ref: ${{ github.sha }}
+          ref: ${{ github.ref_name }}
           token: ${{ secrets.PAT }}
 
       - name: Classify the pushed commit
         id: route
+        timeout-minutes: 5
         env:
           COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
           BEFORE: ${{ github.event.before }}
@@ -62,12 +59,31 @@ jobs:
           PUSH_COMMITS: ${{ toJson(github.event.commits.*.id) }}
         run: node .github/scripts/workflow-route.mjs publish-route
 
-  publish:
-    needs: route
-    if: needs.route.result == 'success' && needs.route.outputs.run == 'true'
-    uses: ./.github/workflows/publish-jobs.yml
-    with:
-      data_sha: ${{ needs.route.outputs.data_sha }}
-      from_sha: ${{ needs.route.outputs.from_sha }}
-      notify: ${{ needs.route.outputs.notify == 'true' }}
-    secrets: inherit
+      - name: Setup pnpm and Node
+        id: setup
+        if: ${{ success() && !cancelled() && steps.route.outputs.run == 'true' }}
+        uses: ./.github/actions/setup-jobradar
+
+      - name: Check configuration
+        id: config
+        if: ${{ success() && !cancelled() && steps.setup.outcome == 'success' }}
+        env:
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          PAT: ${{ secrets.PAT }}
+          LOG_PRETTY: "1"
+        run: pnpm jobctl setup check-config
+
+      - name: Publish saved data
+        if: ${{ success() && !cancelled() && steps.config.outcome == 'success' }}
+        env:
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          PAT: ${{ secrets.PAT }}
+        uses: ./.github/actions/publish-saved
+        with:
+          data_sha: ${{ steps.route.outputs.data_sha }}
+          from_sha: ${{ steps.route.outputs.from_sha }}
+          notify: ${{ steps.route.outputs.notify }}
+          token: ${{ secrets.PAT }}
+          ref: ${{ github.ref_name }}

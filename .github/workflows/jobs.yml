@@ -1,9 +1,11 @@
 name: Jobs Pipeline
 run-name: 🔍 Jobs Pipeline
 
-# Scan and community sync share this workflow. The fetch job both downloads
-# jobs and commits data/, then passes that commit SHA to Publish Jobs.
-# Board refresh may add another commit, so notify must keep the saved SHA.
+# Scan and community sync share this workflow. One runner checks out once.
+# The gate reads no git history. Setup runs only when the gate says to work.
+# Later steps deepen the shallow clone when a commit, parent, or merge base
+# is missing. Board refresh may add another commit, so notify keeps the saved
+# data SHA.
 on:
   schedule:
     # ATS scan. Cover every California weekday hour across PST and PDT.
@@ -34,73 +36,64 @@ permissions:
 # single pending run. Issue, Maintenance, and Publish data changes must each
 # run. Scheduled Jobs and Batch could be superseded by a later schedule, but
 # they share this queue so a later schedule cannot cancel a waiting issue.
-# Publish Jobs and Batch Run do not set concurrency, so they do not wait on
-# this caller. A scheduled Batch Pipeline stays queued until this run ends.
+# Publish and batch steps run here, so they do not take this lock again.
+# A scheduled Batch Pipeline stays queued until this run ends.
+#
+# Step budgets kept from the separate jobs: gate 5, fetch 30, each publish
+# 5+10+10, batch gate 5, submit 30, collect 30, and a second publish. The
+# job cap is their sum so joining them on one runner does not cut the run off.
 concurrency:
   group: job-data-sync
   cancel-in-progress: false
   queue: max
 
 jobs:
-  gate:
+  pipeline:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-    outputs:
-      should_run: ${{ steps.calendar.outputs.should_run }}
-      task: ${{ steps.calendar.outputs.task }}
-      lookback_days: ${{ steps.calendar.outputs.lookback_days }}
-
+    timeout-minutes: 175
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
           fetch-depth: 1
+          ref: ${{ github.ref_name }}
+          token: ${{ secrets.PAT }}
 
       - name: Choose scan or sync
         id: calendar
+        timeout-minutes: 5
         env:
           EVENT_NAME: ${{ github.event_name }}
           TASK: ${{ inputs.task }}
           SCHEDULE: ${{ github.event.schedule }}
         run: node .github/scripts/workflow-route.mjs jobs-gate
 
-  fetch:
-    needs: gate
-    if: needs.gate.outputs.should_run == 'true'
-    runs-on: ubuntu-latest
-    timeout-minutes: 30
-    outputs:
-      has_changes: ${{ steps.fetch.outputs.has_changes }}
-      data_sha: ${{ steps.saved.outputs.data_sha }}
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v6
-        with:
-          fetch-depth: 0
-          ref: ${{ github.ref_name }}
-          token: ${{ secrets.PAT }}
-
       - name: Setup pnpm and Node
+        id: setup
+        if: ${{ success() && !cancelled() && steps.calendar.outputs.should_run == 'true' }}
         uses: ./.github/actions/setup-jobradar
 
       - name: Check configuration
-        run: pnpm jobctl setup check-config
+        id: config
+        if: ${{ success() && !cancelled() && steps.setup.outcome == 'success' }}
         env:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           PAT: ${{ secrets.PAT }}
           LOG_PRETTY: "1"
+        run: pnpm jobctl setup check-config
 
       - name: Fetch jobs
         id: fetch
+        timeout-minutes: 30
+        if: ${{ success() && !cancelled() && steps.config.outcome == 'success' }}
         env:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           PAT: ${{ secrets.PAT }}
           LOG_PRETTY: "1"
-          TASK: ${{ needs.gate.outputs.task }}
-          LOOKBACK: ${{ needs.gate.outputs.lookback_days }}
+          TASK: ${{ steps.calendar.outputs.task }}
+          LOOKBACK: ${{ steps.calendar.outputs.lookback_days }}
         run: |
           set -euo pipefail
           if [[ "$TASK" == "scan" ]]; then
@@ -125,9 +118,10 @@ jobs:
           fi
 
       - name: Save data
-        if: steps.fetch.outputs.has_changes == 'true'
+        id: save
+        if: ${{ success() && !cancelled() && steps.fetch.outcome == 'success' && steps.fetch.outputs.has_changes == 'true' }}
         env:
-          TASK: ${{ needs.gate.outputs.task }}
+          TASK: ${{ steps.calendar.outputs.task }}
         run: |
           set -euo pipefail
           git config user.name "actions-bot"
@@ -139,8 +133,9 @@ jobs:
             git commit -m "chore(community): update new jobs"
           fi
 
-      - name: Rebase and push
-        if: steps.fetch.outputs.has_changes == 'true'
+      - name: Rebase and push data
+        id: push
+        if: ${{ success() && !cancelled() && steps.save.outcome == 'success' }}
         uses: ./.github/actions/rebase-push
         with:
           token: ${{ secrets.PAT }}
@@ -148,25 +143,37 @@ jobs:
 
       - name: Record saved data commit
         id: saved
-        if: steps.fetch.outputs.has_changes == 'true'
+        if: ${{ success() && !cancelled() && steps.push.outcome == 'success' }}
         run: echo "data_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
-  publish:
-    needs: fetch
-    if: needs.fetch.result == 'success' && needs.fetch.outputs.has_changes == 'true'
-    uses: ./.github/workflows/publish-jobs.yml
-    with:
-      data_sha: ${{ needs.fetch.outputs.data_sha }}
-      notify: true
-    secrets: inherit
+      - name: Publish saved data
+        id: publish
+        if: ${{ success() && !cancelled() && steps.saved.outcome == 'success' }}
+        env:
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          PAT: ${{ secrets.PAT }}
+        uses: ./.github/actions/publish-saved
+        with:
+          data_sha: ${{ steps.saved.outputs.data_sha }}
+          notify: "true"
+          token: ${{ secrets.PAT }}
+          ref: ${{ github.ref_name }}
 
-  batch:
-    needs: [fetch, publish]
-    if: >-
-      ${{
-        !cancelled() &&
-        needs.fetch.result == 'success' &&
-        (needs.publish.result == 'success' || needs.publish.result == 'skipped')
-      }}
-    uses: ./.github/workflows/batch-run.yml
-    secrets: inherit
+      - name: Check whether queued or inflight work exists
+        id: batch_due
+        if: ${{ success() && !cancelled() && steps.fetch.outcome == 'success' && (steps.publish.outcome == 'success' || steps.publish.outcome == 'skipped') }}
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: node .github/scripts/workflow-route.mjs batch-due
+
+      - name: Run batch
+        if: ${{ success() && !cancelled() && steps.batch_due.outputs.due == 'true' }}
+        env:
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          PAT: ${{ secrets.PAT }}
+        uses: ./.github/actions/batch-work
+        with:
+          token: ${{ secrets.PAT }}
+          ref: ${{ github.ref_name }}

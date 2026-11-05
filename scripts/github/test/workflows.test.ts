@@ -9,12 +9,14 @@ import {
   batchShouldStart,
   classifyFiles,
   collectShouldContinue,
+  commitHistoryPlan,
   jobsGate,
   jobsResultAfterBatch,
   MAINTENANCE,
   maintenancePlan,
   notifyEnabled,
   PIPELINE_PREFIXES,
+  rebaseHistoryPlan,
   resolvePushBounds,
   routePush,
   SCAN_CRONS,
@@ -28,6 +30,25 @@ const ROUTE = path.join(ROOT, ".github/scripts/workflow-route.mjs");
 
 function workflow(name: string) {
   return readFileSync(path.join(ROOT, ".github/workflows", name), "utf8");
+}
+
+function action(name: string) {
+  return readFileSync(path.join(ROOT, ".github/actions", name, "action.yml"), "utf8");
+}
+
+function stepBlocks(source: string) {
+  const blocks: string[] = [];
+  let current: string[] | null = null;
+  for (const line of source.split("\n")) {
+    if (/^ {6}- /.test(line)) {
+      if (current) blocks.push(current.join("\n"));
+      current = [line];
+      continue;
+    }
+    if (current) current.push(line);
+  }
+  if (current) blocks.push(current.join("\n"));
+  return blocks;
 }
 
 function crons(source: string) {
@@ -90,7 +111,7 @@ describe("jobs gate", () => {
 describe("publish routing", () => {
   it("publishes scan, sync, batch, and issue commits once", () => {
     const jobs = workflow("jobs.yml");
-    const batch = workflow("batch-run.yml");
+    const batch = action("batch-work");
     const issue = workflow("add-job-from-issue.yml");
     const publishData = workflow("publish-data.yml");
     const prefixes = PIPELINE_PREFIXES;
@@ -140,14 +161,14 @@ describe("publish routing", () => {
 
   it("skips notify when a run saved no jobs or notifications are disabled", () => {
     const jobs = workflow("jobs.yml");
-    const publish = workflow("publish-jobs.yml");
+    const publish = action("publish-saved");
 
-    expect(jobs).toContain("needs.fetch.outputs.has_changes == 'true'");
+    expect(jobs).toContain("steps.fetch.outputs.has_changes == 'true'");
     expect(jobs).not.toContain("gh run cancel");
     expect(notifyEnabled({ dashboard: {} })).toBe(true);
     expect(notifyEnabled({})).toBe(true);
     expect(notifyEnabled({ dashboard: { notify: false } })).toBe(false);
-    expect(publish).toContain("needs.prepare.outputs.send == 'true'");
+    expect(publish).toContain("steps.notify.outputs.send == 'true'");
     expect(classifyFiles(["data/batch/queue.ndjson"])).toEqual({
       run: false,
       board: false,
@@ -156,15 +177,16 @@ describe("publish routing", () => {
   });
 
   it("notifies the saved data commit when board refresh fails", () => {
-    const publish = workflow("publish-jobs.yml");
+    const publish = action("publish-saved");
 
     expect(publish).toContain('pnpm jobctl notify commit "$DATA_SHA"');
     expect(publish).toContain('pnpm jobctl notify range "$FROM_SHA" "$DATA_SHA"');
-    expect(publish).toContain("ref: ${{ github.ref_name }}");
+    expect(publish).toContain("git merge --ff-only");
     expect(publish).not.toContain("github.sha");
+    expect(publish).not.toContain("actions/checkout");
     expect(publish).not.toContain("concurrency:");
-    expect(publish).toContain("needs.board.result == 'failure'");
-    expect(publish).toContain("always()");
+    expect(publish).toContain("steps.board.outcome == 'failure'");
+    expect(publish).not.toContain("always()");
     expect(shouldNotify("failure", true, true, "success")).toBe(true);
     expect(shouldNotify("failure", true, false, "success")).toBe(false);
     expect(shouldNotify("failure", false, true, "success")).toBe(false);
@@ -175,7 +197,7 @@ describe("publish routing", () => {
 
 describe("batch gate", () => {
   it("collects pending work and does not restart from its own collect commit", () => {
-    const batch = workflow("batch-run.yml");
+    const batch = action("batch-work");
     const entry = workflow("batch.yml");
     const jobs = workflow("jobs.yml");
     const issue = workflow("add-job-from-issue.yml");
@@ -193,44 +215,48 @@ describe("batch gate", () => {
     expect(batchDue("push", "", "[]")).toBe(false);
     expect(batchDue("schedule", "job\n", "[]")).toBe(true);
     expect(batchDue("schedule", "", '[{"id":"batch"}]')).toBe(true);
-    expect(batch).toContain(
-      "startsWith(github.event.head_commit.message, 'chore(batch): collect')"
-    );
-    expect(batch).toContain("contains(github.event.head_commit.message, '[skip ci]')");
+    expect(entry).toContain("startsWith(github.event.head_commit.message, 'chore(batch): collect')");
+    expect(entry).toContain("contains(github.event.head_commit.message, '[skip ci]')");
     expect(batch).toContain("classify-head");
-    expect(batch).toContain("needs.submit.outputs.checkpoint_sha");
-    expect(batch).toContain("needs.collect.outputs.collect_sha");
+    expect(batch).toContain("steps.checkpoint_route.outputs.data_sha");
+    expect(batch).toContain("steps.collect_route.outputs.data_sha");
     expect(batch).not.toContain("concurrency:");
-    expect(batch).toContain("workflow_call:");
-    const checkpointJob = batch.slice(
-      batch.indexOf("\n  publish-checkpoint:"),
-      batch.indexOf("\n  collect:")
+    expect(batch).not.toContain("workflow_call:");
+    expect(batch).not.toContain("always()");
+    const checkpoint = batch.slice(
+      batch.indexOf("Checkpoint inflight submissions"),
+      batch.indexOf("Wait and collect batch results")
     );
-    expect(checkpointJob).toContain("needs: submit");
-    expect(checkpointJob).not.toContain("needs.collect");
-    expect(checkpointJob).not.toContain("publish-checkpoint.result");
-    const collectJob = batch.slice(
-      batch.indexOf("\n  collect:"),
-      batch.indexOf("\n  publish-collect:")
+    expect(checkpoint).toContain("Publish checkpoint");
+    expect(checkpoint).toContain("continue-on-error: true");
+    expect(checkpoint).not.toContain("Wait and collect");
+    const collect = batch.slice(
+      batch.indexOf("Wait and collect batch results"),
+      batch.indexOf("Fail when checkpoint publish failed")
     );
-    expect(collectJob).toContain("needs: [submit, publish-checkpoint]");
-    expect(collectJob).toContain("always()");
-    expect(collectJob).toContain("needs.publish-checkpoint.result == 'success'");
-    expect(collectJob).toContain("needs.publish-checkpoint.result == 'failure'");
-    expect(collectJob).toContain("needs.publish-checkpoint.result == 'skipped'");
-    expect(batch).toContain(
-      "needs.collect.result == 'success' && needs.collect.outputs.collect_publish == 'true'"
+    expect(collect).toContain("steps.publish_checkpoint.outcome == 'success'");
+    expect(collect).toContain("steps.publish_checkpoint.outcome == 'failure'");
+    expect(collect).toContain("steps.publish_checkpoint.outcome == 'skipped'");
+    expect(collect).toContain("!cancelled()");
+    expect(collect).not.toContain("outcome == 'cancelled'");
+    expect(batch.indexOf("Publish collected results")).toBeLessThan(
+      batch.indexOf("Fail when checkpoint publish failed")
     );
     expect(entry).toContain('cron: "47 * * * *"');
     expect(entry).toContain("workflow_dispatch:");
     expect(entry).not.toContain("queue.ndjson");
-    expect(entry).not.toContain("push:");
-    expect(entry).toContain("uses: ./.github/workflows/batch-run.yml");
+    expect(entry).not.toContain("\n  push:");
+    expect(entry).not.toContain("batch-run.yml");
     expect(entry.match(/concurrency:/g)).toHaveLength(1);
-    expect(jobs).toContain("uses: ./.github/workflows/batch-run.yml");
+    expect(entry.match(/uses: actions\/checkout@/g)).toHaveLength(1);
+    expect(entry.match(/uses: \.\/\.github\/actions\/setup-jobradar/g)).toHaveLength(1);
+    expect(jobs).toContain("uses: ./.github/actions/batch-work");
+    expect(jobs).not.toContain("batch-run.yml");
     expect(jobs).not.toContain("needs.publish.result == 'failure'");
-    expect(issue).toContain("uses: ./.github/workflows/batch-run.yml");
-    expect(issue).toContain("needs.batch.result == 'failure'");
+    expect(jobs).not.toContain("always()");
+    expect(issue).toContain("uses: ./.github/actions/batch-work");
+    expect(issue).toContain("needs.process.result == 'failure'");
+    expect(issue).not.toContain("batch-run.yml");
     expect(collectShouldContinue("success", "success")).toBe(true);
     expect(collectShouldContinue("success", "failure")).toBe(true);
     expect(collectShouldContinue("success", "skipped")).toBe(true);
@@ -239,12 +265,8 @@ describe("batch gate", () => {
   });
 
   it("uses queue and inflight for a manual caller and keeps Jobs successful when idle", () => {
-    const batch = workflow("batch-run.yml");
+    const batch = workflow("batch.yml");
     const jobs = workflow("jobs.yml");
-    const submitJob = batch.slice(
-      batch.indexOf("\n  submit:"),
-      batch.indexOf("\n  publish-checkpoint:")
-    );
 
     expect(batchDue("workflow_dispatch", null, null)).toBe(false);
     expect(batchDue("workflow_dispatch", "", "[]")).toBe(false);
@@ -253,15 +275,59 @@ describe("batch gate", () => {
     expect(batchDue("workflow_dispatch", "job\n", null)).toBe(true);
     expect(batchDue("workflow_dispatch", "", '[{"id":"batch"}]')).toBe(true);
     expect(batchDue("workflow_dispatch", null, '[{"id":"batch"}]')).toBe(true);
-    expect(submitJob).toContain("needs.gate.outputs.due == 'true'");
-    expect(batch).toContain("needs: submit");
-    expect(batch).toContain("needs: [submit, publish-checkpoint]");
-    expect(batch).toContain("needs: collect");
-    expect(jobs.lastIndexOf("\n  batch:")).toBeGreaterThan(jobs.lastIndexOf("\n  publish:"));
+    expect(batch).toContain("steps.check.outputs.due == 'true'");
+    expect(jobs).toContain("steps.batch_due.outputs.due == 'true'");
+    expect(jobs).toContain("steps.publish.outcome == 'success' || steps.publish.outcome == 'skipped'");
+    expect(jobs.indexOf("Publish saved data")).toBeLessThan(jobs.indexOf("Run batch"));
+    expect(jobs.indexOf("Record saved data commit")).toBeGreaterThan(jobs.indexOf("Rebase and push data"));
     expect(jobsResultAfterBatch("success", "success", "success")).toBe("success");
     expect(jobsResultAfterBatch("success", "skipped", "success")).toBe("success");
     expect(jobsResultAfterBatch("success", "failure", "skipped")).toBe("failure");
     expect(jobsResultAfterBatch("success", "success", "failure")).toBe("failure");
+    expect(jobs.match(/uses: actions\/checkout@/g)).toHaveLength(1);
+    expect(jobs.match(/uses: \.\/\.github\/actions\/setup-jobradar/g)).toHaveLength(1);
+    expect(jobs).toContain("fetch-depth: 1");
+    expect(jobs).not.toContain("fetch-depth: 0");
+    expect(jobs).toContain("steps.calendar.outputs.should_run == 'true'");
+    expect(workflow("publish-data.yml").match(/uses: actions\/checkout@/g)).toHaveLength(1);
+    expect(workflow("publish-data.yml")).toContain("fetch-depth: 0");
+    expect(workflow("publish-jobs.yml").match(/uses: actions\/checkout@/g)).toHaveLength(1);
+    expect(workflow("add-job-from-issue.yml").match(/uses: actions\/checkout@/g)).toHaveLength(1);
+  });
+
+  it("fetches history only when a commit, parent, or merge base is missing", () => {
+    const ready = {
+      shallow: true,
+      commitPresent: true,
+      parentRequired: true,
+      parentPresent: true,
+      fetched: false,
+    };
+    expect(commitHistoryPlan(ready)).toBe("ready");
+    expect(commitHistoryPlan({ ...ready, parentPresent: false })).toBe("fetch");
+    expect(commitHistoryPlan({ ...ready, parentPresent: false, fetched: true })).toBe("unshallow");
+    expect(
+      commitHistoryPlan({ ...ready, shallow: false, parentPresent: false, fetched: true })
+    ).toBe("fail");
+    expect(commitHistoryPlan({ ...ready, commitPresent: false, parentRequired: false })).toBe(
+      "fetch"
+    );
+    expect(rebaseHistoryPlan({ shallow: false, mergeBasePresent: true, unshallowed: false })).toBe(
+      "ready"
+    );
+    expect(rebaseHistoryPlan({ shallow: true, mergeBasePresent: false, unshallowed: false })).toBe(
+      "unshallow"
+    );
+    expect(rebaseHistoryPlan({ shallow: true, mergeBasePresent: false, unshallowed: true })).toBe(
+      "fail"
+    );
+    expect(rebaseHistoryPlan({ shallow: false, mergeBasePresent: false, unshallowed: false })).toBe(
+      "fail"
+    );
+    expect(action("rebase-push")).toContain('echo "No common ancestor');
+    expect(action("rebase-push")).not.toContain("force");
+    expect(action("publish-saved")).toContain("Notification was not sent.");
+    expect(action("publish-saved")).toContain("4b825dc642cb6eb9a060e54bf8d69288fbee4904");
   });
 });
 
@@ -598,7 +664,6 @@ describe("workflow inventory", () => {
   it("keeps CI, the event entry points, and the shared publish path", () => {
     expect(readdirSync(path.join(ROOT, ".github/workflows")).sort()).toEqual([
       "add-job-from-issue.yml",
-      "batch-run.yml",
       "batch.yml",
       "check-setup.yml",
       "ci.yml",
@@ -641,6 +706,41 @@ describe("workflow inventory", () => {
     expect(workflow("publish-jobs.yml")).not.toContain("concurrency:");
     expect(workflow("check-setup.yml")).not.toContain("job-data-sync");
     expect(workflow("ci.yml")).not.toContain("job-data-sync");
-    expect(workflow("publish-data.yml")).toContain("from_sha: ${{ needs.route.outputs.from_sha }}");
+    expect(workflow("publish-data.yml")).toContain(
+      "from_sha: ${{ steps.route.outputs.from_sha }}"
+    );
+  });
+
+  it("passes secrets into composite actions and keeps the outer job deadline", () => {
+    const secretEnv = [
+      "SMTP_PASS: ${{ secrets.SMTP_PASS }}",
+      "AI_API_KEY: ${{ secrets.AI_API_KEY }}",
+      "PAT: ${{ secrets.PAT }}",
+    ];
+    const callers = [
+      ["jobs.yml", 2],
+      ["batch.yml", 1],
+      ["add-job-from-issue.yml", 2],
+      ["publish-data.yml", 1],
+      ["publish-jobs.yml", 1],
+    ] as const;
+
+    for (const [name, count] of callers) {
+      const blocks = stepBlocks(workflow(name)).filter(
+        (block) =>
+          block.includes("uses: ./.github/actions/publish-saved") ||
+          block.includes("uses: ./.github/actions/batch-work")
+      );
+      expect(blocks, name).toHaveLength(count);
+      for (const block of blocks) {
+        for (const line of secretEnv) expect(block, `${name} ${line}`).toContain(line);
+      }
+    }
+
+    expect(workflow("jobs.yml")).toContain("timeout-minutes: 175");
+    expect(workflow("batch.yml")).toContain("timeout-minutes: 120");
+    expect(workflow("add-job-from-issue.yml")).toContain("timeout-minutes: 150");
+    expect(workflow("publish-data.yml")).toContain("timeout-minutes: 30");
+    expect(workflow("publish-jobs.yml")).toContain("timeout-minutes: 25");
   });
 });

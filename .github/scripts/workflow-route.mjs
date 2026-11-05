@@ -206,9 +206,8 @@ export function batchDue(eventName, queue, inflight) {
   return Array.isArray(payload) && payload.length > 0;
 }
 
-// An idle batch-run skips submit, collect, and both publishes. That called
-// workflow succeeds, so Jobs stays successful. A failed fetch, publish, or
-// batch still fails Jobs.
+// An idle batch skips submit, collect, and both publishes. The caller stays
+// successful. A failed fetch, publish, or batch still fails the caller.
 export function jobsResultAfterBatch(fetchResult, publishResult, batchResult) {
   if (fetchResult !== "success") return fetchResult;
   if (publishResult !== "success" && publishResult !== "skipped") return publishResult;
@@ -275,19 +274,47 @@ export function collectShouldContinue(submitResult, checkpointResult) {
   return submitResult === "success" && ["success", "failure", "skipped"].includes(checkpointResult);
 }
 
+// ready: the objects are already local. fetch: ask origin for the commit once.
+// unshallow: the shallow clone still cannot see a parent or merge base.
+// fail: stop. Do not widen the notification range and do not force-push.
+export function commitHistoryPlan({ shallow, commitPresent, parentRequired, parentPresent, fetched }) {
+  if (commitPresent && (!parentRequired || parentPresent)) return "ready";
+  if (!fetched) return "fetch";
+  if (shallow) return "unshallow";
+  return "fail";
+}
+
+export function rebaseHistoryPlan({ shallow, mergeBasePresent, unshallowed }) {
+  if (mergeBasePresent) return "ready";
+  if (shallow && !unshallowed) return "unshallow";
+  return "fail";
+}
+
 export function notifyEnabled(config) {
   const dashboard = config.dashboard || {};
   if (!Object.hasOwn(dashboard, "notify")) return true;
   return Boolean(dashboard.notify);
 }
 
-export function shouldNotify(boardResult, notify, send, prepareResult = "success") {
+export function shouldNotify(boardResult, notify, send, prepareResult = "success", cancelled = false) {
+  if (cancelled || prepareResult === "cancelled" || boardResult === "cancelled") return false;
   return (
     prepareResult === "success" &&
     Boolean(notify) &&
     Boolean(send) &&
     ["success", "failure", "skipped"].includes(boardResult)
   );
+}
+
+export function shouldStartWrite(cancelled) {
+  return !cancelled;
+}
+
+export function batchConclusion({ checkpointPublish, collect, collectPublish }) {
+  const outcomes = [checkpointPublish, collect, collectPublish];
+  if (outcomes.includes("cancelled")) return "cancelled";
+  if (outcomes.includes("failure")) return "failure";
+  return "success";
 }
 
 export function maintenancePlan(eventName, task) {
@@ -471,6 +498,78 @@ function emitRoute(sha, route, fromSha = "") {
   });
 }
 
+function flag(value) {
+  return value === "true";
+}
+
+function shouldStartCli() {
+  const cancelled = process.env.CANCELLED === "true";
+  const step = process.env.STEP ?? "";
+  if (step === "notify") {
+    const start = shouldNotify(
+      process.env.BOARD ?? "success",
+      process.env.NOTIFY === "true",
+      process.env.SEND === "true",
+      process.env.PREPARE ?? "success",
+      cancelled
+    );
+    if (!start) {
+      stderr(cancelled ? "Cancelled. Notification was not sent." : "Notification was not started.");
+      process.exit(2);
+    }
+    return;
+  }
+  if (step === "write") {
+    if (!shouldStartWrite(cancelled)) {
+      stderr("Cancelled. No further writes.");
+      process.exit(2);
+    }
+    return;
+  }
+  throw new Error(`unknown step ${step}`);
+}
+
+function batchConclusionCli() {
+  const result = batchConclusion({
+    checkpointPublish: process.env.CHECKPOINT_PUBLISH ?? "",
+    collect: process.env.COLLECT ?? "",
+    collectPublish: process.env.COLLECT_PUBLISH ?? "",
+  });
+  if (result === "cancelled") {
+    stderr("Cancelled. No further writes.");
+    return;
+  }
+  if (result === "failure") {
+    stderr("Checkpoint publish failed after collect.");
+    process.exit(1);
+  }
+}
+
+function historyPlanCli() {
+  const mode = process.env.MODE ?? "";
+  if (mode === "commit") {
+    const plan = commitHistoryPlan({
+      shallow: flag(process.env.SHALLOW),
+      commitPresent: flag(process.env.COMMIT_PRESENT),
+      parentRequired: flag(process.env.PARENT_REQUIRED),
+      parentPresent: flag(process.env.PARENT_PRESENT),
+      fetched: flag(process.env.FETCHED),
+    });
+    process.stdout.write(`${plan}\n`);
+    return;
+  }
+  if (mode === "rebase") {
+    const plan = rebaseHistoryPlan({
+      shallow: flag(process.env.SHALLOW),
+      mergeBasePresent: flag(process.env.MERGE_BASE_PRESENT),
+      unshallowed: flag(process.env.UNSHALLOWED),
+    });
+    process.stdout.write(`${plan}\n`);
+    return;
+  }
+  throw new Error(`unknown history plan mode ${mode}`);
+}
+
 function readOptional(filePath) {
   if (!existsSync(filePath)) return null;
   return readFileSync(filePath, "utf8");
@@ -486,6 +585,9 @@ function main() {
     "notify-enabled": notifyEnabledCli,
     "maintenance-task": maintenanceTaskCli,
     "maintenance-commit": maintenanceCommitCli,
+    "history-plan": historyPlanCli,
+    "should-start": shouldStartCli,
+    "batch-conclusion": batchConclusionCli,
   };
   const run = commands[command];
   if (!run) {

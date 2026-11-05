@@ -379,7 +379,7 @@ Choose `sync` or `scan`.
 
 `scan` runs `pnpm jobctl scan`. It discovers jobs from supported ATS/company sources. A manual scan looks back 2 days.
 
-When the saved commit changes data, the same run calls **Publish Jobs** with that commit. A run that finds nothing succeeds and skips publish.
+When the saved commit changes data, the same runner publishes that commit. A run that finds nothing succeeds and skips publish. The scheduled gate does not install dependencies.
 
 ### Batch Pipeline
 
@@ -412,9 +412,9 @@ Workflow file:
 .github/workflows/publish-jobs.yml
 ```
 
-Jobs, Batch, Add Job, and Publish data changes call this workflow. You can also run it manually with a saved data commit.
+Manual runs use `publish-jobs.yml`. Jobs, Batch, Add Job, and Publish data changes call the same `.github/actions/publish-saved` action on their own runner.
 
-The board job checks out the branch tip and runs:
+The board step fast-forwards to the branch tip and runs:
 
 ```bash
 pnpm jobctl board refresh
@@ -422,7 +422,7 @@ pnpm jobctl board refresh
 
 It commits `README.md`, `job-postings/`, and `assets/featured-badges/` when those files change. The board always renders the latest data on the branch, including a commit that landed after the data commit being notified.
 
-The notify job uses a fixed range and does not read the branch tip:
+The notify step uses a fixed range and does not check out that commit:
 
 ```bash
 pnpm jobctl notify commit <data-sha>
@@ -534,11 +534,11 @@ To reduce cost or email frequency, slow the matching cron in `jobs.yml`. For exa
 Files:
 
 ```text
-.github/workflows/batch-run.yml
+.github/actions/batch-work/action.yml
 .github/workflows/batch.yml
 ```
 
-`batch-run.yml` is the shared implementation. Jobs Pipeline calls it after scan or sync, and Add Job From Issue calls it after a submission. Neither caller gives that child its own `job-data-sync` lock, so the caller can finish. `batch.yml` is the manual run and the hourly recovery. It holds the same queue, so it cannot write data while a Jobs run is inside `batch-run.yml`.
+`batch-work` is the shared implementation. Jobs Pipeline and Add Job From Issue run it in the same job that wrote the queue. `batch.yml` is the manual run and the hourly recovery. It holds `job-data-sync`, so it cannot write data while another data workflow is running. The steps do not take that lock a second time.
 
 ```yaml
 on:
@@ -551,7 +551,7 @@ A commit that only adds `data/batch/queue.ndjson` does not start another batch. 
 
 Submit checkpoints inflight work with `[skip ci]`, then collect polls the provider every 20 seconds until the batch finishes or the 20-minute soft deadline is hit. Checkpoint and collect each publish their own saved commit. A board failure still notifies that commit and fails the publish workflow. Collect continues after a failed or skipped checkpoint publish.
 
-The shared gate reads `data/batch/queue.ndjson` and `data/batch/inflight.json` for every caller. A called workflow keeps the caller's `github.event_name`, so a manual Jobs run is still `workflow_dispatch` and uses this same check. A queue line or an inflight entry runs submit, collect, and their publishes. When both are empty, those jobs are skipped and the calling Jobs workflow stays successful. Existing inflight work is collected instead of submitted again. A failed batch fails the Jobs or issue workflow that called it.
+The shared gate reads `data/batch/queue.ndjson` and `data/batch/inflight.json`. A manual run uses this same check. A queue line or an inflight entry runs submit, collect, and their publishes. When both are empty, those steps are skipped and the caller stays successful. Existing inflight work is collected instead of submitted again. A failed batch fails the Jobs or issue workflow. A failed checkpoint publish still notifies that commit, still collects, and then fails the run.
 
 ### Publish data changes and Publish Jobs
 
@@ -589,7 +589,7 @@ These must run one by one. A later event must not replace one that is still wait
 
 A later scheduled Jobs, Batch, or Maintenance run could stand in for an older scheduled run that has not started, because it reads the current sources. Those schedules still wait in this same queue, so a schedule cannot cancel a waiting issue, maintenance, or data-publish run.
 
-Publish Jobs does not use this group. The caller already holds it for the whole run, including the called jobs. The same group on both sides would leave the caller and the called workflow waiting on each other. Check Setup only comments on an issue, and CI uses a separate group.
+Publish and batch steps run inside the workflow that already holds this group. They do not start another workflow with the same group. Manual Publish Jobs has no concurrency group. Check Setup only comments on an issue, and CI uses a separate group.
 
 ### A run that finds nothing
 

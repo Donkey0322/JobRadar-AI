@@ -1,26 +1,12 @@
 name: Publish Jobs
 run-name: 📬 Publish Jobs
 
-# Board checks out the branch tip and renders the latest data. Notify uses the
-# saved data commit, or from_sha..data_sha for a direct push. A later board
-# commit is not the notification range. A board failure still notifies and
-# fails this workflow. This reusable workflow has no concurrency group, so it
-# does not wait on the caller that already holds job-data-sync.
+# Manual publish of one saved commit. Jobs, Batch, Add Job, and Publish data
+# changes run the same action inside their own runner. Board fast-forwards to
+# the branch tip. Notify keeps data_sha, or from_sha..data_sha. A board failure
+# still notifies and fails this run. No concurrency group: a caller that
+# already holds job-data-sync publishes inside its own job instead of here.
 on:
-  workflow_call:
-    inputs:
-      data_sha:
-        description: End of the notification range, or the saved data commit
-        required: true
-        type: string
-      from_sha:
-        description: Start of a direct-push range. Empty notifies data_sha as one commit.
-        type: string
-        default: ""
-      notify:
-        description: Send notifications when dashboard.notify allows it
-        type: boolean
-        default: true
   workflow_dispatch:
     inputs:
       data_sha:
@@ -40,12 +26,10 @@ permissions:
   contents: write
 
 jobs:
-  prepare:
+  publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-    outputs:
-      send: ${{ steps.notify.outputs.send }}
-
+    # Fast-forward 5, board 10, notify 10.
+    timeout-minutes: 25
     steps:
       - name: Require the saved data commit
         env:
@@ -57,95 +41,32 @@ jobs:
           fi
 
       - name: Checkout repository
-        if: inputs.notify
         uses: actions/checkout@v6
         with:
-          fetch-depth: 0
+          fetch-depth: 1
           ref: ${{ github.ref_name }}
-          token: ${{ secrets.PAT }}
-
-      - name: Check whether this repo sends notifications
-        id: notify
-        if: inputs.notify
-        env:
-          DATA_SHA: ${{ inputs.data_sha }}
-        run: node .github/scripts/workflow-route.mjs notify-enabled
-
-  board:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-
-    steps:
-      - name: Checkout the branch tip
-        uses: actions/checkout@v6
-        with:
-          fetch-depth: 0
-          ref: ${{ github.ref_name }}
-          token: ${{ secrets.PAT }}
-
-      - name: Setup pnpm and Node
-        uses: ./.github/actions/setup-jobradar
-
-      - name: Refresh board
-        id: board
-        uses: ./.github/actions/refresh-board
-
-      - name: Rebase and push
-        if: steps.board.outputs.has_commit == 'true'
-        uses: ./.github/actions/rebase-push
-        with:
-          token: ${{ secrets.PAT }}
-          ref: ${{ github.ref_name }}
-
-  notify:
-    needs: [prepare, board]
-    if: >-
-      ${{
-        always() &&
-        needs.prepare.result == 'success' &&
-        inputs.notify &&
-        needs.prepare.outputs.send == 'true' &&
-        (needs.board.result == 'success' || needs.board.result == 'failure' || needs.board.result == 'skipped')
-      }}
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-
-    steps:
-      - name: Checkout the saved data commit
-        uses: actions/checkout@v6
-        with:
-          fetch-depth: 0
-          ref: ${{ inputs.data_sha }}
           token: ${{ secrets.PAT }}
 
       - name: Setup pnpm and Node
         uses: ./.github/actions/setup-jobradar
 
       - name: Check configuration
+        env:
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          PAT: ${{ secrets.PAT }}
+          LOG_PRETTY: "1"
         run: pnpm jobctl setup check-config
-        env:
-          SMTP_PASS: ${{ secrets.SMTP_PASS }}
-          AI_API_KEY: ${{ secrets.AI_API_KEY }}
-          PAT: ${{ secrets.PAT }}
-          LOG_PRETTY: "1"
 
-      - name: Notify the saved range
+      - name: Publish saved data
         env:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           PAT: ${{ secrets.PAT }}
-          LOG_PRETTY: "1"
-          FROM_SHA: ${{ inputs.from_sha }}
-          DATA_SHA: ${{ inputs.data_sha }}
-        run: |
-          set -euo pipefail
-          if [[ -n "$FROM_SHA" ]]; then
-            if ! git cat-file -e "$FROM_SHA"; then
-              git hash-object -t tree --stdin </dev/null >/dev/null
-            fi
-            echo "Notify range: $FROM_SHA $DATA_SHA"
-            pnpm jobctl notify range "$FROM_SHA" "$DATA_SHA"
-          else
-            echo "Data commit: $DATA_SHA"
-            pnpm jobctl notify commit "$DATA_SHA"
-          fi
+        uses: ./.github/actions/publish-saved
+        with:
+          data_sha: ${{ inputs.data_sha }}
+          from_sha: ${{ inputs.from_sha }}
+          notify: ${{ inputs.notify && 'true' || 'false' }}
+          token: ${{ secrets.PAT }}
+          ref: ${{ github.ref_name }}

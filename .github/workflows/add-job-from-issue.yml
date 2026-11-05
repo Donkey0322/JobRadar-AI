@@ -17,25 +17,16 @@ concurrency:
   queue: max
 
 jobs:
-  add-job:
+  process:
     if: contains(github.event.issue.labels.*.name, 'add-job') || startsWith(github.event.issue.title, 'Add Job')
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-    outputs:
-      has_commit: ${{ steps.commit.outputs.has_commit }}
-      data_sha: ${{ steps.saved.outputs.data_sha }}
-
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      AI_API_KEY: ${{ secrets.AI_API_KEY }}
-      SMTP_PASS: ${{ secrets.SMTP_PASS }}
-      LOG_PRETTY: "1"
-
+    # Submission 10, publish 25, and one batch cycle of 115 minutes.
+    timeout-minutes: 150
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
-          fetch-depth: 0
+          fetch-depth: 1
           ref: ${{ github.ref_name }}
           token: ${{ secrets.PAT }}
 
@@ -43,6 +34,12 @@ jobs:
         uses: ./.github/actions/setup-jobradar
 
       - name: Process submitted job
+        timeout-minutes: 10
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          LOG_PRETTY: "1"
         run: pnpm tsx scripts/github/add-job-from-issue.ts
 
       - name: Commit changes
@@ -62,7 +59,8 @@ jobs:
           echo "has_commit=true" >> "$GITHUB_OUTPUT"
 
       - name: Rebase and push
-        if: steps.commit.outputs.has_commit == 'true'
+        id: push
+        if: ${{ success() && !cancelled() && steps.commit.outputs.has_commit == 'true' }}
         uses: ./.github/actions/rebase-push
         with:
           token: ${{ secrets.PAT }}
@@ -70,38 +68,44 @@ jobs:
 
       - name: Record saved data commit
         id: saved
-        if: steps.commit.outputs.has_commit == 'true'
+        if: ${{ success() && !cancelled() && steps.push.outcome == 'success' }}
         run: echo "data_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
-  publish:
-    needs: add-job
-    if: needs.add-job.result == 'success' && needs.add-job.outputs.has_commit == 'true'
-    uses: ./.github/workflows/publish-jobs.yml
-    with:
-      data_sha: ${{ needs.add-job.outputs.data_sha }}
-      notify: true
-    secrets: inherit
+      - name: Publish saved data
+        id: publish
+        if: ${{ success() && !cancelled() && steps.saved.outcome == 'success' }}
+        env:
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          PAT: ${{ secrets.PAT }}
+        uses: ./.github/actions/publish-saved
+        with:
+          data_sha: ${{ steps.saved.outputs.data_sha }}
+          notify: "true"
+          token: ${{ secrets.PAT }}
+          ref: ${{ github.ref_name }}
 
-  batch:
-    needs: [add-job, publish]
-    if: >-
-      ${{
-        !cancelled() &&
-        needs.add-job.result == 'success' &&
-        (needs.publish.result == 'success' || needs.publish.result == 'skipped')
-      }}
-    uses: ./.github/workflows/batch-run.yml
-    secrets: inherit
+      - name: Check whether queued or inflight work exists
+        id: batch_due
+        if: ${{ success() && !cancelled() && steps.commit.outcome == 'success' && (steps.publish.outcome == 'success' || steps.publish.outcome == 'skipped') }}
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: node .github/scripts/workflow-route.mjs batch-due
+
+      - name: Run batch
+        if: ${{ success() && !cancelled() && steps.batch_due.outputs.due == 'true' }}
+        env:
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          PAT: ${{ secrets.PAT }}
+        uses: ./.github/actions/batch-work
+        with:
+          token: ${{ secrets.PAT }}
+          ref: ${{ github.ref_name }}
 
   finish:
-    needs: [add-job, publish, batch]
-    if: >-
-      ${{
-        !cancelled() &&
-        needs.add-job.result == 'success' &&
-        (needs.publish.result == 'success' || needs.publish.result == 'skipped') &&
-        (needs.batch.result == 'success' || needs.batch.result == 'skipped')
-      }}
+    needs: process
+    if: ${{ !cancelled() && needs.process.result == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
@@ -121,16 +125,8 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   report-failure:
-    needs: [add-job, publish, batch]
-    if: >-
-      ${{
-        !cancelled() &&
-        (
-          needs.add-job.result == 'failure' ||
-          needs.publish.result == 'failure' ||
-          needs.batch.result == 'failure'
-        )
-      }}
+    needs: process
+    if: ${{ !cancelled() && needs.process.result == 'failure' }}
     runs-on: ubuntu-latest
     timeout-minutes: 5
 

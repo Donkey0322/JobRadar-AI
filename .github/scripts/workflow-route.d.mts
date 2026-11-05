@@ -70,13 +70,36 @@ export function resolvePushBounds(
 
 export function collectShouldContinue(submitResult: string, checkpointResult: string): boolean;
 
+export function commitHistoryPlan(input: {
+  shallow: boolean;
+  commitPresent: boolean;
+  parentRequired: boolean;
+  parentPresent: boolean;
+  fetched: boolean;
+}): "ready" | "fetch" | "unshallow" | "fail";
+
+export function rebaseHistoryPlan(input: {
+  shallow: boolean;
+  mergeBasePresent: boolean;
+  unshallowed: boolean;
+}): "ready" | "unshallow" | "fail";
+
 export function notifyEnabled(config: { dashboard?: { notify?: unknown } | null }): boolean;
 
 export function shouldNotify(
   boardResult: string,
   notify: boolean,
   send: boolean,
-  prepareResult?: string
+  prepareResult?: string,
+  cancelled?: boolean
 ): boolean;
+
+export function shouldStartWrite(cancelled: boolean): boolean;
+
+export function batchConclusion(input: {
+  checkpointPublish: string;
+  collect: string;
+  collectPublish: string;
+}): "success" | "failure" | "cancelled";
 
 export function maintenancePlan(eventName: string, task: string): MaintenancePlan;

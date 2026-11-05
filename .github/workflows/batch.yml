@@ -2,11 +2,10 @@ name: Batch Pipeline
 run-name: 📦 Batch Pipeline
 
 # Manual runs and the hourly recovery for inflight work or a queue written
-# outside Jobs Pipeline. Jobs Pipeline calls batch-run.yml itself, so a queue
-# commit does not start a second run. This caller holds job-data-sync; the
-# reusable workflow does not, so the two cannot overwrite data and do not
-# wait on each other. The shared gate skips submit, collect, and publish when
-# the queue and inflight file are both empty, including this manual dispatch.
+# outside Jobs Pipeline. Jobs runs batch in its own job, so a queue commit
+# does not start a second run. This workflow holds job-data-sync. Its steps
+# do not take that lock again. The gate skips setup, submit, collect, and
+# publish when the queue and inflight file are both empty.
 on:
   schedule:
     # Safety net if a run times out while batches are still inflight.
@@ -24,5 +23,57 @@ concurrency:
 
 jobs:
   batch:
-    uses: ./.github/workflows/batch-run.yml
-    secrets: inherit
+    # A checkpoint push carries [skip ci]. A collect push does not, so ignore
+    # that subject here too. This workflow is no longer started by push; the
+    # guard stays so a collect or checkpoint commit cannot run the cycle.
+    if: >-
+      ${{
+        github.event_name != 'push' ||
+        (
+          !startsWith(github.event.head_commit.message, 'chore(batch): collect') &&
+          !contains(github.event.head_commit.message, '[skip ci]')
+        )
+      }}
+    runs-on: ubuntu-latest
+    # Gate 5, submit 30, checkpoint publish 25, collect 30, collect publish 25.
+    timeout-minutes: 120
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+          ref: ${{ github.ref_name }}
+          token: ${{ secrets.PAT }}
+
+      - name: Check whether queued or inflight work exists
+        id: check
+        timeout-minutes: 5
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: node .github/scripts/workflow-route.mjs batch-due
+
+      - name: Setup pnpm and Node
+        id: setup
+        if: ${{ success() && !cancelled() && steps.check.outputs.due == 'true' }}
+        uses: ./.github/actions/setup-jobradar
+
+      - name: Check configuration
+        id: config
+        if: ${{ success() && !cancelled() && steps.setup.outcome == 'success' }}
+        env:
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          PAT: ${{ secrets.PAT }}
+          LOG_PRETTY: "1"
+        run: pnpm jobctl setup check-config
+
+      - name: Run batch
+        if: ${{ success() && !cancelled() && steps.config.outcome == 'success' }}
+        env:
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          PAT: ${{ secrets.PAT }}
+        uses: ./.github/actions/batch-work
+        with:
+          token: ${{ secrets.PAT }}
+          ref: ${{ github.ref_name }}

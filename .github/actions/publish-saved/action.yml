@@ -1,0 +1,198 @@
+name: Publish saved data
+description: Render the branch tip, then notify one saved commit or a fixed range.
+
+inputs:
+  data_sha:
+    description: End of the notification range, or the saved data commit
+    required: true
+  from_sha:
+    description: Start of a direct-push range. Empty notifies data_sha as one commit.
+    required: false
+    default: ""
+  notify:
+    description: Send notifications when dashboard.notify allows it
+    required: false
+    default: "true"
+  token:
+    description: Token used to fetch and push
+    required: true
+  ref:
+    description: Branch whose tip the board renders
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - name: Ensure the notification commits are present
+      if: ${{ success() && !cancelled() && inputs.notify == 'true' }}
+      shell: bash
+      env:
+        DATA_SHA: ${{ inputs.data_sha }}
+        FROM_SHA: ${{ inputs.from_sha }}
+      run: |
+        set -euo pipefail
+
+        ensure_commit() {
+          local sha="$1"
+          local parent_required="$2"
+          local fetched="false"
+          while true; do
+            local commit_present="false"
+            local parent_present="false"
+            local shallow="false"
+            if git cat-file -e "${sha}^{commit}" >/dev/null 2>&1; then
+              commit_present="true"
+            fi
+            if [[ "$parent_required" == "true" ]] && git rev-parse --verify --quiet "${sha}^" >/dev/null; then
+              parent_present="true"
+            fi
+            if [[ -f .git/shallow ]]; then
+              shallow="true"
+            fi
+            local plan
+            plan="$(
+              MODE=commit \
+                SHALLOW="$shallow" \
+                COMMIT_PRESENT="$commit_present" \
+                PARENT_REQUIRED="$parent_required" \
+                PARENT_PRESENT="$parent_present" \
+                FETCHED="$fetched" \
+                node .github/scripts/workflow-route.mjs history-plan
+            )"
+            case "$plan" in
+              ready)
+                return 0
+                ;;
+              fetch)
+                echo "Fetching missing commit ${sha}."
+                git fetch --no-tags origin "$sha" || true
+                fetched="true"
+                ;;
+              unshallow)
+                echo "Shallow history does not contain ${sha} or its parent; fetching full history."
+                git fetch --unshallow origin
+                fetched="true"
+                ;;
+              fail)
+                echo "Commit ${sha} is not available. Notification was not sent."
+                exit 1
+                ;;
+              *)
+                echo "Unknown history plan: ${plan}"
+                exit 1
+                ;;
+            esac
+          done
+        }
+
+        parent_required="true"
+        if [[ -n "$FROM_SHA" ]]; then
+          parent_required="false"
+          # The empty tree is a tree object, not a commit. Notify creates it
+          # when this repository does not have it yet.
+          if [[ "$FROM_SHA" != "4b825dc642cb6eb9a060e54bf8d69288fbee4904" ]]; then
+            ensure_commit "$FROM_SHA" "false"
+          fi
+        fi
+        ensure_commit "$DATA_SHA" "$parent_required"
+
+    - name: Check whether this repo sends notifications
+      id: notify
+      if: ${{ success() && !cancelled() && inputs.notify == 'true' }}
+      shell: bash
+      env:
+        DATA_SHA: ${{ inputs.data_sha }}
+      run: node .github/scripts/workflow-route.mjs notify-enabled
+
+    - name: Fast-forward to the branch tip
+      if: ${{ success() && !cancelled() }}
+      shell: bash
+      env:
+        BRANCH: ${{ inputs.ref }}
+        TOKEN: ${{ inputs.token }}
+        REPOSITORY: ${{ github.repository }}
+      run: |
+        set -euo pipefail
+        if [[ -z "${JOBRADAR_INSIDE_DEADLINE:-}" ]]; then
+          export JOBRADAR_INSIDE_DEADLINE=1
+          exec node .github/scripts/run-deadline.mjs 300 bash -e "${BASH_SOURCE[0]}"
+        fi
+        git remote set-url origin "https://x-access-token:${TOKEN}@github.com/${REPOSITORY}.git"
+        git fetch --no-tags origin "$BRANCH"
+        if ! git merge --ff-only "origin/${BRANCH}"; then
+          if [[ -f .git/shallow ]]; then
+            echo "Fast-forward needs more history; fetching full history."
+            git fetch --unshallow origin
+            git merge --ff-only "origin/${BRANCH}"
+          else
+            echo "origin/${BRANCH} is not a fast-forward of HEAD. Refusing to reset."
+            exit 1
+          fi
+        fi
+
+    - name: Record the branch tip
+      id: base
+      if: ${{ success() && !cancelled() }}
+      shell: bash
+      run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+    - name: Refresh board
+      id: board
+      if: ${{ success() && !cancelled() }}
+      uses: ./.github/actions/refresh-board
+      continue-on-error: true
+
+    - name: Rebase and push board
+      if: ${{ success() && !cancelled() && steps.board.outcome == 'success' && steps.board.outputs.has_commit == 'true' }}
+      uses: ./.github/actions/rebase-push
+      with:
+        token: ${{ inputs.token }}
+        ref: ${{ inputs.ref }}
+
+    - name: Notify the saved range
+      if: ${{ !cancelled() && inputs.notify == 'true' && steps.notify.outputs.send == 'true' && (steps.board.outcome == 'success' || steps.board.outcome == 'failure') }}
+      shell: bash
+      env:
+        SMTP_PASS: ${{ env.SMTP_PASS }}
+        AI_API_KEY: ${{ env.AI_API_KEY }}
+        PAT: ${{ env.PAT }}
+        LOG_PRETTY: "1"
+        FROM_SHA: ${{ inputs.from_sha }}
+        DATA_SHA: ${{ inputs.data_sha }}
+      run: |
+        set -euo pipefail
+        if [[ -z "${JOBRADAR_INSIDE_DEADLINE:-}" ]]; then
+          export JOBRADAR_INSIDE_DEADLINE=1
+          exec node .github/scripts/run-deadline.mjs 600 bash -e "${BASH_SOURCE[0]}"
+        fi
+        if [[ -n "$FROM_SHA" ]]; then
+          if ! git cat-file -e "$FROM_SHA"; then
+            git hash-object -t tree --stdin </dev/null >/dev/null
+          fi
+          echo "Notify range: $FROM_SHA $DATA_SHA"
+          pnpm jobctl notify range "$FROM_SHA" "$DATA_SHA"
+        else
+          echo "Data commit: $DATA_SHA"
+          pnpm jobctl notify commit "$DATA_SHA"
+        fi
+
+    - name: Restore unpublished board changes
+      if: ${{ !cancelled() }}
+      shell: bash
+      env:
+        BASE_SHA: ${{ steps.base.outputs.sha }}
+        BRANCH: ${{ inputs.ref }}
+      run: |
+        set -euo pipefail
+        if [[ -z "${JOBRADAR_INSIDE_DEADLINE:-}" ]]; then
+          export JOBRADAR_INSIDE_DEADLINE=1
+          exec node .github/scripts/run-deadline.mjs 60 bash -e "${BASH_SOURCE[0]}"
+        fi
+        node .github/scripts/restore-board-attempt.mjs
+
+    - name: Fail when board refresh failed
+      if: ${{ !cancelled() && steps.board.outcome == 'failure' }}
+      shell: bash
+      run: |
+        echo "Board refresh failed. Notification used the saved data commit."
+        exit 1

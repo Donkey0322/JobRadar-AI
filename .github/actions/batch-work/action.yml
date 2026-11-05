@@ -1,0 +1,150 @@
+name: Batch work
+description: Submit queued jobs, publish the checkpoint, then collect and publish that commit.
+
+inputs:
+  token:
+    description: Token used to fetch and push
+    required: true
+  ref:
+    description: Branch to update
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - name: Submit queued jobs
+      id: submit
+      shell: bash
+      env:
+        SMTP_PASS: ${{ env.SMTP_PASS }}
+        AI_API_KEY: ${{ env.AI_API_KEY }}
+        PAT: ${{ env.PAT }}
+        LOG_PRETTY: "1"
+      run: |
+        set -euo pipefail
+        if [[ -z "${JOBRADAR_INSIDE_DEADLINE:-}" ]]; then
+          export JOBRADAR_INSIDE_DEADLINE=1
+          exec node .github/scripts/run-deadline.mjs 1800 bash -e "${BASH_SOURCE[0]}"
+        fi
+        pnpm jobctl batch --submit-only
+
+        if [[ -n "$(git status --porcelain data/ 2>/dev/null || true)" ]]; then
+          echo "has_changes=true" >> "$GITHUB_OUTPUT"
+        else
+          echo "No batch submissions to checkpoint."
+          echo "has_changes=false" >> "$GITHUB_OUTPUT"
+        fi
+
+    - name: Checkpoint inflight submissions
+      id: checkpoint
+      if: ${{ success() && !cancelled() && steps.submit.outcome == 'success' && steps.submit.outputs.has_changes == 'true' }}
+      shell: bash
+      run: |
+        set -euo pipefail
+        git config user.name "actions-bot"
+        git config user.email "actions@github.com"
+        git add data/
+        git commit -m "chore(batch): checkpoint inflight submissions [skip ci]"
+
+    - name: Push inflight checkpoint
+      id: checkpoint_push
+      if: ${{ success() && !cancelled() && steps.checkpoint.outcome == 'success' }}
+      uses: ./.github/actions/rebase-push
+      with:
+        token: ${{ inputs.token }}
+        ref: ${{ inputs.ref }}
+
+    - name: Classify checkpoint commit
+      id: checkpoint_route
+      if: ${{ success() && !cancelled() && steps.checkpoint_push.outcome == 'success' }}
+      shell: bash
+      run: node .github/scripts/workflow-route.mjs classify-head
+
+    - name: Publish checkpoint
+      id: publish_checkpoint
+      if: ${{ success() && !cancelled() && steps.checkpoint_route.outputs.run == 'true' }}
+      uses: ./.github/actions/publish-saved
+      continue-on-error: true
+      env:
+        SMTP_PASS: ${{ env.SMTP_PASS }}
+        AI_API_KEY: ${{ env.AI_API_KEY }}
+        PAT: ${{ env.PAT }}
+      with:
+        data_sha: ${{ steps.checkpoint_route.outputs.data_sha }}
+        notify: ${{ steps.checkpoint_route.outputs.notify }}
+        token: ${{ inputs.token }}
+        ref: ${{ inputs.ref }}
+
+    # continue-on-error on the checkpoint publish keeps success() true, so a
+    # failed board or notify still reaches collect. Cancellation does not.
+    - name: Wait and collect batch results
+      id: collect
+      if: ${{ success() && !cancelled() && steps.submit.outcome == 'success' && (steps.publish_checkpoint.outcome == 'success' || steps.publish_checkpoint.outcome == 'failure' || steps.publish_checkpoint.outcome == 'skipped') }}
+      shell: bash
+      env:
+        SMTP_PASS: ${{ env.SMTP_PASS }}
+        AI_API_KEY: ${{ env.AI_API_KEY }}
+        PAT: ${{ env.PAT }}
+        LOG_PRETTY: "1"
+      run: |
+        set -euo pipefail
+        if [[ -z "${JOBRADAR_INSIDE_DEADLINE:-}" ]]; then
+          export JOBRADAR_INSIDE_DEADLINE=1
+          exec node .github/scripts/run-deadline.mjs 1800 bash -e "${BASH_SOURCE[0]}"
+        fi
+        pnpm jobctl batch
+
+        if [[ -n "$(git status --porcelain data/ 2>/dev/null || true)" ]]; then
+          echo "has_changes=true" >> "$GITHUB_OUTPUT"
+        else
+          echo "No batch analysis changes."
+          echo "has_changes=false" >> "$GITHUB_OUTPUT"
+        fi
+
+    - name: Save collected results
+      id: collect_save
+      if: ${{ success() && !cancelled() && steps.collect.outcome == 'success' && steps.collect.outputs.has_changes == 'true' }}
+      shell: bash
+      run: |
+        set -euo pipefail
+        git config user.name "actions-bot"
+        git config user.email "actions@github.com"
+        git add data/
+        git commit -m "chore(batch): collect batch analysis"
+
+    - name: Push collected results
+      id: collect_push
+      if: ${{ success() && !cancelled() && steps.collect_save.outcome == 'success' }}
+      uses: ./.github/actions/rebase-push
+      with:
+        token: ${{ inputs.token }}
+        ref: ${{ inputs.ref }}
+
+    - name: Classify collected data commit
+      id: collect_route
+      if: ${{ success() && !cancelled() && steps.collect_push.outcome == 'success' }}
+      shell: bash
+      run: node .github/scripts/workflow-route.mjs classify-head
+
+    - name: Publish collected results
+      id: publish_collect
+      if: ${{ success() && !cancelled() && steps.collect_route.outputs.run == 'true' }}
+      uses: ./.github/actions/publish-saved
+      env:
+        SMTP_PASS: ${{ env.SMTP_PASS }}
+        AI_API_KEY: ${{ env.AI_API_KEY }}
+        PAT: ${{ env.PAT }}
+      with:
+        data_sha: ${{ steps.collect_route.outputs.data_sha }}
+        notify: ${{ steps.collect_route.outputs.notify }}
+        token: ${{ inputs.token }}
+        ref: ${{ inputs.ref }}
+
+    - name: Fail when checkpoint publish failed
+      if: ${{ !cancelled() && steps.publish_checkpoint.outcome == 'failure' }}
+      shell: bash
+      env:
+        CHECKPOINT_PUBLISH: ${{ steps.publish_checkpoint.outcome }}
+        COLLECT: ${{ steps.collect.outcome }}
+        COLLECT_PUBLISH: ${{ steps.publish_collect.outcome }}
+      run: node .github/scripts/workflow-route.mjs batch-conclusion

@@ -10,14 +10,15 @@ runs:
   using: composite
   steps:
     - name: Refresh board
-      shell: bash
-      run: pnpm jobctl board refresh
-
-    - name: Commit generated job board changes
       id: commit
       shell: bash
       run: |
         set -euo pipefail
+        if [[ -z "${JOBRADAR_INSIDE_DEADLINE:-}" ]]; then
+          export JOBRADAR_INSIDE_DEADLINE=1
+          exec node .github/scripts/run-deadline.mjs 600 bash -e "${BASH_SOURCE[0]}"
+        fi
+        pnpm jobctl board refresh
         if [[ -z "$(git status --porcelain -- README.md job-postings assets/featured-badges)" ]]; then
           echo "has_commit=false" >> "$GITHUB_OUTPUT"
           echo "No job board changes to commit."

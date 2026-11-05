@@ -1,5 +1,5 @@
 name: Rebase and push
-description: Pull --rebase then push, retrying when another job moved the branch.
+description: Rebase onto the remote branch and push, retrying when another job moved the branch.
 
 inputs:
   token:
@@ -22,10 +22,51 @@ runs:
         set -euo pipefail
         git remote set-url origin "https://x-access-token:${TOKEN}@github.com/${REPOSITORY}.git"
 
+        plan_rebase() {
+          local unshallowed="$1"
+          local merge_base="false"
+          local shallow="false"
+          if git merge-base HEAD "origin/${BRANCH}" >/dev/null 2>&1; then
+            merge_base="true"
+          fi
+          if [[ -f .git/shallow ]]; then
+            shallow="true"
+          fi
+          MODE=rebase \
+            SHALLOW="$shallow" \
+            MERGE_BASE_PRESENT="$merge_base" \
+            UNSHALLOWED="$unshallowed" \
+            node .github/scripts/workflow-route.mjs history-plan
+        }
+
         attempt=1
         max=8
         while true; do
-          git pull --rebase origin "$BRANCH"
+          git fetch --no-tags origin "$BRANCH"
+          unshallowed=false
+          while true; do
+            plan="$(plan_rebase "$unshallowed")"
+            case "$plan" in
+              ready)
+                break
+                ;;
+              unshallow)
+                echo "Shallow clone has no common ancestor with origin/${BRANCH}; fetching full history."
+                git fetch --unshallow origin
+                unshallowed=true
+                ;;
+              fail)
+                echo "No common ancestor with origin/${BRANCH}. Refusing to push."
+                exit 1
+                ;;
+              *)
+                echo "Unknown history plan: ${plan}"
+                exit 1
+                ;;
+            esac
+          done
+
+          git rebase "origin/${BRANCH}"
           if git push origin "HEAD:${BRANCH}"; then
             exit 0
           fi
