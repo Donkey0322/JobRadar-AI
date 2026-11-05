@@ -1,14 +1,11 @@
-import fs from "node:fs/promises";
-import path from "node:path";
 
 import { getSeasonYears } from "@/constants/season";
 
+import type { Config } from "@/config";
 import type { JD, Opportunity } from "@/types/jobs";
 
-import { CONFIG, type Config } from "@/config";
 import { getJobKey } from "@/modules/ats/job-key";
 import { detectReopenedKeys } from "@/modules/opportunity/reopen";
-import * as store from "@/store";
 import { escapeHtml } from "@/utils/html";
 
 type TableRow = [string, string, string, string, string];
@@ -17,11 +14,6 @@ type JDWithLocation = JD & {
   location?: string | null;
 };
 
-const ROOT = process.cwd();
-
-const README_PATH = path.join(ROOT, "README.md");
-const JOB_POSTINGS_DIR = path.join(ROOT, "job-postings");
-const FEATURED_BADGES_DIR = path.join(ROOT, "assets", "featured-badges");
 
 const REPO_OWNER = "Donkey0322";
 const REPO_NAME = "JobRadar-AI";
@@ -122,22 +114,8 @@ export function renderBoard(input: {
   };
 }
 
-export async function updateReadme() {
-  const opportunities = await store.opportunities.load();
-  const generatedAt = new Date();
-  const board = renderBoard({ opportunities, config: CONFIG, generatedAt });
-  const included = selectTargetOpportunities(opportunities, CONFIG).targetOpportunities.length;
 
-  await writeFeaturedCompanyBadges(board.badges);
-  await writeCategoryPages(board.pages);
-  await fs.writeFile(README_PATH, board.readme, "utf-8");
-
-  console.log(`README generated: ${README_PATH}`);
-  console.log(`Category pages generated: ${board.pages.length}`);
-  console.log(`Target opportunities included: ${included}`);
-}
-
-function selectTargetOpportunities(
+export function selectTargetOpportunities(
   opportunities: Opportunity[],
   config: Config
 ): { targetOpportunities: Opportunity[]; grouped: Map<string, Opportunity[]> } {
@@ -380,22 +358,6 @@ function buildCategoryPageLinks(grouped: Map<string, Opportunity[]>): string[] {
   );
 }
 
-async function writeCategoryPages(pages: BoardPage[]): Promise<void> {
-  await fs.mkdir(JOB_POSTINGS_DIR, { recursive: true });
-
-  const existingFiles = await fs.readdir(JOB_POSTINGS_DIR);
-  await Promise.all(
-    existingFiles
-      .filter((fileName) => fileName.endsWith(".md"))
-      .map((fileName) => fs.rm(path.join(JOB_POSTINGS_DIR, fileName)))
-  );
-
-  await Promise.all(
-    pages.map((page) =>
-      fs.writeFile(path.join(JOB_POSTINGS_DIR, page.fileName), page.markdown, "utf-8")
-    )
-  );
-}
 
 function buildCategoryPage(category: string, jobs: Opportunity[], generatedAt: Date): string {
   const title = formatCategoryTitle(category);
@@ -712,15 +674,6 @@ function matchFeaturedCompany(company: string): FeaturedCompany | null {
   );
 }
 
-async function writeFeaturedCompanyBadges(badges: BoardBadge[]): Promise<void> {
-  await fs.mkdir(FEATURED_BADGES_DIR, { recursive: true });
-
-  await Promise.all(
-    badges.map((badge) =>
-      fs.writeFile(path.join(FEATURED_BADGES_DIR, badge.fileName), badge.svg, "utf-8")
-    )
-  );
-}
 
 function buildHolographicBadgeSvg(label: string): string {
   const height = FEATURED_BADGE_HEIGHT;

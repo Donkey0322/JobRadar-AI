@@ -19,7 +19,7 @@ const store = vi.hoisted(() => ({
   savedOpportunities: undefined as Opportunity[] | undefined,
 }));
 
-vi.mock("../../ingest", () => ({
+vi.mock("../../../ingest", () => ({
   createSyncContext,
   processJobs,
 }));
@@ -71,8 +71,9 @@ vi.mock("@/utils/logger", () => ({
   },
 }));
 
-import { deleteUrls } from "../../delete-url";
-import { addJob, analyzeJobs } from "../../link";
+import { addJob } from "../add";
+import { analyzeJobs } from "../analyze";
+import { deleteUrls } from "../delete";
 
 import { logger } from "@/utils/logger";
 

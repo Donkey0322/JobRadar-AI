@@ -5,11 +5,12 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Job } from "@/types";
 
-import { createSyncContext, processJobs } from "./ingest";
+import { createSyncContext, processJobs } from "../../ingest";
+
+import { rejectInvalidUrls } from "./input";
 
 import { companyKey } from "@/modules/employer/build";
 import { knownEmployerName } from "@/modules/employer/remap";
-import { analyzeLink } from "@/modules/posting";
 import * as store from "@/store";
 import { logger } from "@/utils/logger";
 import { isValidHttpUrl } from "@/utils/url";
@@ -112,14 +113,7 @@ async function readJobFile(file: string): Promise<Job[]> {
  * the URL, so they are never guessed.
  */
 async function jobsFromLinks(links: string[]): Promise<Job[]> {
-  const invalid = links.filter((link) => !isValidHttpUrl(link));
-
-  if (invalid.length > 0) {
-    for (const link of invalid) {
-      logger.error(`${RED_CROSS} Invalid URL: ${link}`);
-    }
-    process.exit(1);
-  }
+  rejectInvalidUrls(links);
 
   const companies = await store.companies.load();
   const companiesByKey = new Map(companies.map((company) => [companyKey(company), company]));
@@ -195,32 +189,5 @@ export async function addJob(options: { links?: string[]; file?: string } = {}) 
 
   if (result.count === 0 && result.skipped === 0 && result.batched === 0 && result.failed > 0) {
     process.exit(1);
-  }
-}
-
-export async function analyzeJobs(links: string[]) {
-  if (links.length === 0) {
-    logger.error(`${RED_CROSS} Link is required`);
-    process.exit(1);
-  }
-
-  const invalid = links.filter((link) => !isValidHttpUrl(link));
-
-  if (invalid.length > 0) {
-    for (const link of invalid) {
-      logger.error(`${RED_CROSS} Invalid URL: ${link}`);
-    }
-    process.exit(1);
-  }
-
-  for (const link of links) {
-    const jd = await analyzeLink(link);
-
-    if (!jd) {
-      logger.info({ url: link }, `${RED_CROSS} No result`);
-      continue;
-    }
-
-    logger.info({ url: link }, "\n ✏️ Result:\n%s", JSON.stringify(jd, null, 2));
   }
 }

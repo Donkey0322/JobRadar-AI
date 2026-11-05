@@ -1,6 +1,6 @@
 import type { Company } from "@/types";
 
-import { renderBuildProgress } from "./utils/progress";
+import { renderBuildProgress } from "../../utils/progress";
 
 import { buildCompanyList, companyKey } from "@/modules/employer/build";
 import { remapStoredCompany } from "@/modules/employer/remap";

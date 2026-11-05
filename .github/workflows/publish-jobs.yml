@@ -69,7 +69,7 @@ jobs:
         if: inputs.notify
         env:
           DATA_SHA: ${{ inputs.data_sha }}
-        run: python3 .github/scripts/workflow_route.py notify-enabled
+        run: node .github/scripts/workflow-route.mjs notify-enabled
 
   board:
     runs-on: ubuntu-latest

@@ -43,7 +43,7 @@ jobs:
         uses: ./.github/actions/setup-jobradar
 
       - name: Process submitted job
-        run: pnpm tsx scripts/add-job-from-issue.ts
+        run: pnpm tsx scripts/github/add-job-from-issue.ts
 
       - name: Commit changes
         id: commit

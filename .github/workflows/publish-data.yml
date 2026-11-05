@@ -17,7 +17,7 @@ on:
       - "data/jobs.ndjson"
       - "data/opportunities.ndjson"
       - "data/archive/opportunities-*.ndjson"
-      - "scripts/readme.ts"
+      - "src/modules/board/**"
 
 permissions:
   contents: write
@@ -60,7 +60,7 @@ jobs:
           BEFORE: ${{ github.event.before }}
           SHA: ${{ github.sha }}
           PUSH_COMMITS: ${{ toJson(github.event.commits.*.id) }}
-        run: python3 .github/scripts/workflow_route.py publish-route
+        run: node .github/scripts/workflow-route.mjs publish-route
 
   publish:
     needs: route

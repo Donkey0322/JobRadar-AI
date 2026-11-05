@@ -139,14 +139,14 @@ describe("architecture boundaries", () => {
     expect(scan.violations.some((item) => item.rule === "src must not import scripts")).toBe(false);
     expect(scan.edges).toContainEqual({
       from: "scripts/command/index.ts",
-      to: "scripts/command/setup/checkConfig.ts",
+      to: "scripts/command/setup/check-config.ts",
       kind: "runtime",
     });
 
     expect(
       added({
-        "src/utils/__architecture_probe.ts": 'import "../../scripts/dedup";\n',
-        "src/types/__architecture_probe.ts": 'import type { X } from "../../scripts/dedup";\n',
+        "src/utils/__architecture_probe.ts": 'import "../../scripts/command/job/dedup";\n',
+        "src/types/__architecture_probe.ts": 'import type { X } from "../../scripts/command/job/dedup";\n',
       }).map((item) => `${item.kind} ${item.from}`)
     ).toEqual([
       "runtime src/utils/__architecture_probe.ts",
@@ -170,7 +170,7 @@ describe("architecture boundaries", () => {
       },
       {
         kind: "dynamic import()",
-        file: "scripts/test/ai-entry.test.ts",
+        file: "scripts/github/test/add-job-from-issue.test.ts",
         detail: "non-literal",
         rule: null,
       },

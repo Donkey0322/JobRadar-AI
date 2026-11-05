@@ -113,7 +113,7 @@ async function runScript(path: string, config: AIConfig) {
   await import(path);
 }
 
-describe("AI entry points", () => {
+describe("add job from an issue", () => {
   let exitSpy: ReturnType<typeof vi.spyOn>;
   const argv = process.argv;
 
@@ -166,7 +166,6 @@ describe("AI entry points", () => {
     vi.unstubAllGlobals();
     vi.unstubAllEnvs();
   });
-
   describe("add-job-from-issue", () => {
     async function runIssue(config: AIConfig) {
       await runScript("../add-job-from-issue", config);
@@ -204,43 +203,6 @@ describe("AI entry points", () => {
       }
       expect(enqueueBatchJobsMock).not.toHaveBeenCalled();
       expect(dataMocks.urls.save).toHaveBeenCalledWith(new Set([JOB_URL]));
-      expect(exitSpy).not.toHaveBeenCalled();
-    });
-  });
-
-  describe("job analyze -l", () => {
-    async function runLink(config: AIConfig) {
-      ai.config.current = config;
-      vi.resetModules();
-      const { analyzeJobs } = await import("../link");
-      await analyzeJobs([JOB_URL]);
-    }
-
-    it("returns no result without creating a provider or calling AI when AI is disabled", async () => {
-      await runLink({ enabled: false });
-
-      expect(ai.created).toEqual([]);
-      expect(ai.generate).not.toHaveBeenCalled();
-      expect(fetchMock).not.toHaveBeenCalled();
-      expect(loggedMessages(loggerMocks.info)).toContain(
-        "⏭️ AI is disabled; skipping link analysis"
-      );
-      expect(loggerMocks.error).not.toHaveBeenCalled();
-      expect(exitSpy).not.toHaveBeenCalled();
-    });
-
-    it("analyzes with the configured provider and model when AI is enabled", async () => {
-      await runLink(ENABLED_CONFIG);
-
-      expect(fetchedUrls()).toEqual([JOB_URL]);
-      expect(ai.created.length).toBeGreaterThan(0);
-      expect(ai.created).toEqual(
-        ai.created.map(() => ({ provider: ENABLED_CONFIG.provider, apiKey: FAKE_API_KEY }))
-      );
-      for (const call of ai.generate.mock.calls) {
-        expect(call[2]).toBe(ENABLED_CONFIG.model);
-      }
-      expect(loggedMessages(loggerMocks.info)).toContain("\n ✏️ Result:\n%s");
       expect(exitSpy).not.toHaveBeenCalled();
     });
   });

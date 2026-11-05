@@ -14,7 +14,7 @@ const readdir = vi.spyOn(fs, "readdir").mockResolvedValue([]);
 vi.spyOn(fs, "rm").mockResolvedValue(undefined);
 const exit = vi.spyOn(process, "exit").mockImplementation((() => undefined) as typeof process.exit);
 
-const { renderBoard } = await import("../readme");
+const { renderBoard } = await import("../render");
 
 const importedWithoutWriting =
   writeFile.mock.calls.length === 0 &&

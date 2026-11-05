@@ -446,7 +446,7 @@ config.json
 data/jobs.ndjson
 data/opportunities.ndjson
 data/archive/opportunities-*.ndjson
-scripts/readme.ts
+src/modules/board/**
 ```
 
 It skips a push whose commits were already published by Jobs, Batch, or Add Job. For every other push, the file check and the notification use one range:
@@ -467,7 +467,7 @@ This workflow runs when an issue is opened or edited with the `add-job` label, o
 It runs:
 
 ```bash
-pnpm tsx scripts/add-job-from-issue.ts
+pnpm tsx scripts/github/add-job-from-issue.ts
 ```
 
 It fetches the job description, analyzes it with your AI key, commits the job data, and calls Publish Jobs for that commit. The workflow comments on and closes the issue when publish succeeds. A failed publish leaves the issue open.

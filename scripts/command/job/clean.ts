@@ -6,7 +6,8 @@ import { GREEN_CHECKMARK, RED_CROSS } from "@/constants/log";
 import type { JDFetchResult, JDFetchStatus } from "@/modules/posting/jd";
 import type { Company, Opportunity } from "@/types";
 
-import { renderBuildProgress, renderProgress, startProgress } from "./utils/progress";
+import { renderBuildProgress, renderProgress, startProgress } from "../../utils/progress";
+
 import deduplicate from "./dedup";
 
 import { classifyATS } from "@/modules/ats/classify";

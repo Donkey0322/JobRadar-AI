@@ -61,7 +61,7 @@ jobs:
           EVENT_NAME: ${{ github.event_name }}
           TASK: ${{ inputs.task }}
           SCHEDULE: ${{ github.event.schedule }}
-        run: python3 .github/scripts/workflow_route.py jobs-gate
+        run: node .github/scripts/workflow-route.mjs jobs-gate
 
   fetch:
     needs: gate

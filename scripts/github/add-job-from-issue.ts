@@ -1,5 +1,5 @@
-import { createIssueSectionParser } from "./utils/github-issue";
-import { createSyncContext, processJobs } from "./ingest";
+import { createSyncContext, processJobs } from "../ingest";
+import { createIssueSectionParser } from "../utils/github-issue";
 
 import { readJsonFile } from "@/store";
 import { logger } from "@/utils/logger";

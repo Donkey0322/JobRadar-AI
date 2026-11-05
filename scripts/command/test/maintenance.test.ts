@@ -12,15 +12,19 @@ const refreshCompanies = vi.hoisted(() => vi.fn());
 const updateReadme = vi.hoisted(() => vi.fn());
 const previewEmail = vi.hoisted(() => vi.fn());
 
-vi.mock("../../link", () => ({ addJob, analyzeJobs }));
-vi.mock("../../delete-url", () => ({ deleteUrls }));
-vi.mock("../../clean-url", () => ({ cleanUrls }));
-vi.mock("../../dedup", () => ({ default: dedup }));
-vi.mock("../../refresh-companies", () => ({ refreshCompanies }));
-vi.mock("../../readme", () => ({ updateReadme }));
-vi.mock("../../preview-email", () => ({ previewEmail }));
+vi.mock("../job/add", () => ({ addJob }));
+vi.mock("../job/analyze", () => ({ analyzeJobs }));
+vi.mock("../job/delete", () => ({ deleteUrls }));
+vi.mock("../job/clean", () => ({ cleanUrls }));
+vi.mock("../job/dedup", () => ({ default: dedup }));
+vi.mock("../company/refresh", () => ({ refreshCompanies }));
+vi.mock("../board/refresh", () => ({ updateReadme }));
+vi.mock("../email/preview", () => ({ previewEmail }));
 
-import { registerMaintenance } from "../maintenance";
+import { registerBoard } from "../board";
+import { registerCompany } from "../company";
+import { registerEmail } from "../email";
+import { registerJob } from "../job";
 
 function runCli(...args: string[]) {
   return spawnSync(process.execPath, ["--import", "tsx", "scripts/command/index.ts", ...args], {
@@ -32,7 +36,10 @@ function cli() {
   const program = new Command();
   program.exitOverride();
   program.name("jobradar");
-  registerMaintenance(program);
+  registerJob(program);
+  registerCompany(program);
+  registerBoard(program);
+  registerEmail(program);
   return program;
 }
 
@@ -63,7 +70,7 @@ describe("jobctl maintenance commands", () => {
     ]);
     expect(pkg.scripts.jobctl).toBe("tsx scripts/command/index.ts");
     expect(readFileSync(".github/workflows/add-job-from-issue.yml", "utf8")).toContain(
-      "pnpm tsx scripts/add-job-from-issue.ts"
+      "pnpm tsx scripts/github/add-job-from-issue.ts"
     );
     expect(readFileSync(".github/workflows/maintenance.yml", "utf8")).toContain(
       "pnpm jobctl job clean"

@@ -48,7 +48,7 @@ jobs:
           TASK: ${{ inputs.task }}
         run: |
           set -euo pipefail
-          task="$(python3 .github/scripts/workflow_route.py maintenance-task)"
+          task="$(node .github/scripts/workflow-route.mjs maintenance-task)"
           case "$task" in
             clean) pnpm jobctl job clean ;;
             dedup) pnpm jobctl job dedup ;;
@@ -59,7 +59,7 @@ jobs:
               exit 1
               ;;
           esac
-          python3 .github/scripts/workflow_route.py maintenance-commit
+          node .github/scripts/workflow-route.mjs maintenance-commit
 
       - name: Rebase and push
         if: steps.task.outputs.has_commit == 'true'
