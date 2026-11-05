@@ -5859,6 +5859,16 @@
     ]
   },
   {
+    "name": "Arango",
+    "ats": "jazzhr",
+    "identifier": "arangodb.applytojob.com",
+    "domain": "https://arangodb.applytojob.com",
+    "page": "https://arangodb.applytojob.com/apply/jobs",
+    "urls": [
+      "https://arangodb.applytojob.com/apply/gzea0EizlE/Software-Engineer-Intern-Arango-Cookbooks"
+    ]
+  },
+  {
     "name": "Arcadis",
     "ats": "oraclecloud",
     "identifier": "ebcs.fa.em2.oraclecloud.com",
@@ -14965,6 +14975,7 @@
     "domain": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers",
     "page": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs",
     "urls": [
+      "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Austin-Texas-US/Software-Engineer-Full-Stack---Backend-I--Full-Time----United-States_2028784",
       "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bratislava-Slovakia/Software-Engineer---Mobile_2028669",
       "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bratislava-Slovakia/Software-Engineer---Webex-Native-Client_2028677",
       "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bratislava-Slovakia/Software-Engineer---Webex-Native-Client_2028678",
@@ -16014,6 +16025,16 @@
     "page": "https://careers.ctg.com/api/jobs",
     "urls": [
       "https://careers.ctg.com/jobs/17921?icims=1"
+    ]
+  },
+  {
+    "name": "Concord Advice",
+    "ats": "jazzhr",
+    "identifier": "concordadvice.applytojob.com",
+    "domain": "https://concordadvice.applytojob.com",
+    "page": "https://concordadvice.applytojob.com/apply/jobs",
+    "urls": [
+      "https://concordadvice.applytojob.com/apply/QDuxYS4Cm8/Data-Scientist-Intern"
     ]
   },
   {
@@ -18621,6 +18642,16 @@
     ]
   },
   {
+    "name": "elementfleet",
+    "ats": "workday",
+    "identifier": "elementfleet-external_career_site",
+    "domain": "https://elementfleet.wd3.myworkdayjobs.com/External_Career_Site",
+    "page": "https://elementfleet.wd3.myworkdayjobs.com/wday/cxs/elementfleet/External_Career_Site/jobs",
+    "urls": [
+      "https://elementfleet.wd3.myworkdayjobs.com/External_Career_Site/job/Toronto/Forward-Deployed-Engineer--FDE--Intern--8-12-month-intern-_R105989"
+    ]
+  },
+  {
     "name": "elementsolutions",
     "ats": "lever",
     "identifier": "elementsolutions",
@@ -18769,7 +18800,8 @@
       "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012933",
       "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013111",
       "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013246",
-      "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013296"
+      "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013296",
+      "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013465"
     ]
   },
   {
@@ -19470,6 +19502,16 @@
       "https://eversource.wd1.myworkdayjobs.com/externalsite/job/Hartford-CT/Engineer--Systems-Planning--Transmission---Hybrid-Schedule_R-029736",
       "https://eversource.wd1.myworkdayjobs.com/externalsite/job/Westwood-MA/Engineering-Intern--Distribution-System-Modeling-and-Automation--MA-CT-NH--Hybrid-Schedule-_R-032434",
       "https://eversource.wd1.myworkdayjobs.com/externalsite/job/Windsor-CT/Distribution-Management-Systems-Engineer--Hybrid-Schedule-_R-031451"
+    ]
+  },
+  {
+    "name": "everwatch-everwatchsolutions",
+    "ats": "icims",
+    "identifier": "everwatch-everwatchsolutions",
+    "domain": "https://everwatch-everwatchsolutions.icims.com",
+    "page": "https://everwatch-everwatchsolutions.icims.com/jobs/search",
+    "urls": [
+      "https://everwatch-everwatchsolutions.icims.com/jobs/3573/job?mobile=true&needsRedirect=false"
     ]
   },
   {
@@ -20589,6 +20631,16 @@
     "urls": []
   },
   {
+    "name": "FlexAI",
+    "ats": "rippling",
+    "identifier": "flexai",
+    "domain": "https://ats.rippling.com",
+    "page": "https://api.rippling.com/platform/api/ats/v1/board/flexai/jobs",
+    "urls": [
+      "https://ats.rippling.com/flexai/jobs/93ada67c-8527-427c-b2f6-4a5557b00674"
+    ]
+  },
+  {
     "name": "flir",
     "ats": "workday",
     "identifier": "flir-flircareers",
@@ -21589,6 +21641,8 @@
       "https://careers-gdms.icims.com/jobs/75099/junior-embedded-software-engineer-%28cleared%29/job",
       "https://careers-gdms.icims.com/jobs/75100/embedded-software-engineer/job",
       "https://careers-gdms.icims.com/jobs/75108/intern---systems-engineer/job",
+      "https://careers-gdms.icims.com/jobs/75128/job?mobile=true&needsRedirect=false",
+      "https://careers-gdms.icims.com/jobs/75131/job?mobile=true&needsRedirect=false",
       "https://careers-gdms.icims.com/jobs/75137/system-engineering-intern-engineer-%28project-management%29/job",
       "https://careers-gdms.icims.com/jobs/75139/systems-engineering-intern-%28slcm---manassas%29/job",
       "https://careers-gdms.icims.com/jobs/75141/systems-engineering-intern-%28tcs--manassas%29/job",
@@ -22186,6 +22240,17 @@
     "urls": [
       "https://jobs.ashbyhq.com/genesis-molecular-ai/44e3cbdc-949c-426e-a80a-b41c73ad6a99",
       "https://jobs.ashbyhq.com/genesis-molecular-ai/6e9c55b1-73b6-4881-8b7a-f7838626e17d"
+    ]
+  },
+  {
+    "name": "genesys",
+    "ats": "workday",
+    "identifier": "genesys-2_genesys_jobs",
+    "domain": "https://genesys.wd1.myworkdayjobs.com/2_genesys_jobs",
+    "page": "https://genesys.wd1.myworkdayjobs.com/wday/cxs/genesys/2_genesys_jobs/jobs",
+    "urls": [
+      "https://genesys.wd1.myworkdayjobs.com/2_genesys_jobs/job/Indianapolis-IN-USA/Software-Engineering-Intern_JR112421",
+      "https://genesys.wd1.myworkdayjobs.com/2_genesys_jobs/job/Toronto-Flexible/Web-Software-Developer-Intern--WFM-_JR112214-3"
     ]
   },
   {
@@ -25617,6 +25682,16 @@
     ]
   },
   {
+    "name": "Innovative Systems",
+    "ats": "jazzhr",
+    "identifier": "innovativesystems.applytojob.com",
+    "domain": "https://innovativesystems.applytojob.com",
+    "page": "https://innovativesystems.applytojob.com/apply/jobs",
+    "urls": [
+      "https://innovativesystems.applytojob.com/apply/nPMqeNSQOo/InternCoop-Summer-2027-Software-Engineering"
+    ]
+  },
+  {
     "name": "instalilyai",
     "ats": "greenhouse",
     "identifier": "instalilyai",
@@ -26940,6 +27015,7 @@
       "https://jobs.jobvite.com/tylertech/job/oMAPAfwv?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/tylertech/job/oqQJAfwj?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/tylertech/job/ouQXAfwB?nl=1&nl=1&fr=false",
+      "https://jobs.jobvite.com/tylertech/job/oxAPAfwg",
       "https://jobs.jobvite.com/tylertech/job/oxAPAfwg?nl=1&nl=1&fr=false"
     ]
   },
@@ -29667,6 +29743,16 @@
       "https://app.careerpuck.com/job-board/lyft/job/8908005002?gh_jid=8908005002",
       "https://app.careerpuck.com/job-board/lyft/job/8923592002?gh_jid=8923592002",
       "https://app.careerpuck.com/job-board/lyft/job/8927268002?gh_jid=8927268002"
+    ]
+  },
+  {
+    "name": "Lyte AI",
+    "ats": "rippling",
+    "identifier": "lyte",
+    "domain": "https://ats.rippling.com",
+    "page": "https://api.rippling.com/platform/api/ats/v1/board/lyte/jobs",
+    "urls": [
+      "https://ats.rippling.com/lyte/jobs/13e9e743-b6bd-4e76-a4ce-27d4dc61c73e"
     ]
   },
   {
@@ -34431,6 +34517,16 @@
     "urls": []
   },
   {
+    "name": "omya",
+    "ats": "workday",
+    "identifier": "omya-omya",
+    "domain": "https://omya.wd3.myworkdayjobs.com/Omya",
+    "page": "https://omya.wd3.myworkdayjobs.com/wday/cxs/omya/Omya/jobs",
+    "urls": [
+      "https://omya.wd3.myworkdayjobs.com/Omya/job/CincinnatiOH/Data-Scientist-Spring-Co-Op-2027_JR018275"
+    ]
+  },
+  {
     "name": "onapsis",
     "ats": "greenhouse",
     "identifier": "onapsis",
@@ -35023,6 +35119,17 @@
       "https://pacificlife.wd1.myworkdayjobs.com/pacificlifecareers/job/Newport-Beach-CA-700/Sr-Full-Stack-Developer-Web-Technology_R18021",
       "https://pacificlife.wd1.myworkdayjobs.com/pacificlifecareers/job/Newport-Beach-CA-700/Summer-2027-Data-Engineering-Internship_R17828",
       "https://pacificlife.wd1.myworkdayjobs.com/pacificlifecareers/job/Newport-Beach-CA-700/Summer-2027-Software-Engineering-Internship_R17826"
+    ]
+  },
+  {
+    "name": "PAConsulting",
+    "ats": "smartrecruiters",
+    "identifier": "PAConsulting",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/PAConsulting/postings",
+    "urls": [
+      "https://jobs.smartrecruiters.com/PAConsulting/744000159817990",
+      "https://jobs.smartrecruiters.com/PAConsulting/744000159818139"
     ]
   },
   {
@@ -47358,6 +47465,16 @@
     ]
   },
   {
+    "name": "Veryable",
+    "ats": "rippling",
+    "identifier": "veryable-careers",
+    "domain": "https://ats.rippling.com",
+    "page": "https://api.rippling.com/platform/api/ats/v1/board/veryable-careers/jobs",
+    "urls": [
+      "https://ats.rippling.com/veryable-careers/jobs/87c0311c-cd08-449c-8353-03c48314e4cb"
+    ]
+  },
+  {
     "name": "verygoodsecurity",
     "ats": "lever",
     "identifier": "verygoodsecurity",
@@ -48007,6 +48124,16 @@
       "https://warnerbros.wd5.myworkdayjobs.com/global/job/Mexico-City---Av-Paseo-de-las-Palmas-405/Salesforce-Software-Engineer_R000106666",
       "https://warnerbros.wd5.myworkdayjobs.com/global/job/Stockholm-Tegeluddsvgen-80/Rights-Analyst---Data-Management_R000107541",
       "https://warnerbros.wd5.myworkdayjobs.com/global/job/Warsaw-166-Wiertnicza-TVN/BROADCAST-IT--SYSTEMS-ENGINEER_R000107217"
+    ]
+  },
+  {
+    "name": "warp",
+    "ats": "greenhouse",
+    "identifier": "warp",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/warp/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/warp/jobs/4324888004"
     ]
   },
   {
