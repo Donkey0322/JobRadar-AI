@@ -157,7 +157,17 @@ describe("architecture boundaries", () => {
   it("does not treat vi.mock or a non-literal import() as an edge", () => {
     const kinds = new Set(scan.unrecognized.map((item) => item.kind));
     expect(kinds).toEqual(new Set(["vi.mock", "dynamic import()"]));
-    expect(scan.unrecognized.filter((item) => item.kind === "dynamic import()")).toEqual([
+    expect(
+      scan.unrecognized
+        .filter((item) => item.kind === "dynamic import()")
+        .sort((a, b) => a.file.localeCompare(b.file))
+    ).toEqual([
+      {
+        kind: "dynamic import()",
+        file: "scripts/completion/test/pnpm-spec-parse.integration.test.ts",
+        detail: "non-literal",
+        rule: null,
+      },
       {
         kind: "dynamic import()",
         file: "scripts/test/ai-entry.test.ts",
