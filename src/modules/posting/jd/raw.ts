@@ -3,7 +3,12 @@ import { RED_CROSS } from "@/constants/log";
 import type { ATS } from "@/modules/ats/types";
 
 import { fetchCustomJD } from "./custom";
-import { isRetryableJDFetch, JD_FETCH_ERROR, JD_FETCH_OK, type JDFetchResult } from "./fetch";
+import {
+  isRetryableJDFetch,
+  JD_FETCH_OK,
+  jdFetchErrorFromThrown,
+  type JDFetchResult,
+} from "./fetch";
 import { fetchJDByATS } from "./registry";
 
 import { classifyATS } from "@/modules/ats/classify";
@@ -44,8 +49,7 @@ export async function fetchPostingJD(url: string, signal: AbortSignal): Promise<
 
     return finishRawJD(await fetchCustomJD(url, signal));
   } catch (e) {
-    const desc = e instanceof Error ? e.message : "Unknown fetch error";
     logger.error({ err: e, url }, `${RED_CROSS} Error fetching JD`);
-    return { jd: null, error: JD_FETCH_ERROR.fetch(desc) };
+    return { jd: null, error: jdFetchErrorFromThrown(e) };
   }
 }

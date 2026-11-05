@@ -7,7 +7,9 @@ import type { Company, Job } from "@/types";
 import { Board } from "../employer";
 
 import { eightfoldDomain, eightfoldIdentifier } from "@/modules/ats/eightfold";
+import { getJobKey } from "@/modules/ats/job-key";
 import { logListingStatus } from "@/modules/employer/failure";
+import { type ListingScan,listingTargetsFound } from "@/modules/employer/listing-scan";
 import { formatCompanyName } from "@/utils/company-name";
 import { logger } from "@/utils/logger";
 
@@ -175,15 +177,17 @@ export class EightfoldBoard extends Board<EightfoldJob> {
 
   protected async collectListingJobs(
     company: Company,
-    signal: AbortSignal
+    signal: AbortSignal,
+    scan?: ListingScan
   ): Promise<EightfoldJob[] | null> {
     const jobs: EightfoldJob[] = [];
+    const found = new Set<string>();
     let page = company.page;
 
     try {
       for (let index = 0; index < MAX_PAGES; index++) {
         const start = index * PAGE_SIZE;
-        const result = await this.readListing(page, company.domain, start, signal);
+        const result = await this.readListing(page, company.domain, start, signal, scan);
         page = result.page;
 
         if (!result.response.ok) {
@@ -196,6 +200,13 @@ export class EightfoldBoard extends Board<EightfoldJob> {
         }
 
         jobs.push(...rawJobs);
+        if (scan?.targetKeys?.size) {
+          for (const job of rawJobs) {
+            const link = this.getJobLink(job, company);
+            if (link) found.add(getJobKey(link));
+          }
+        }
+        if (listingTargetsFound(found, scan)) break;
         if (rawJobs.length < PAGE_SIZE) {
           break;
         }
@@ -234,8 +245,10 @@ export class EightfoldBoard extends Board<EightfoldJob> {
     page: string,
     domain: string,
     start: number,
-    signal: AbortSignal
+    signal: AbortSignal,
+    scan?: ListingScan
   ): Promise<{ page: string; response: Response; body: unknown }> {
+    scan?.onPage?.();
     const response = await fetch(this.listingUrl(page, start), {
       signal,
       headers: this.listingHeaders(domain, start),
@@ -247,6 +260,7 @@ export class EightfoldBoard extends Board<EightfoldJob> {
       return { page, response, body };
     }
 
+    scan?.onPage?.();
     const retry = await fetch(this.listingUrl(fallback, start), {
       signal,
       headers: this.listingHeaders(domain, start),

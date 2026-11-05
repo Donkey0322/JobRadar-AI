@@ -93,4 +93,44 @@ describe("fetchJD", () => {
       headers: { Accept: "application/json" },
     });
   });
+
+  it("tags TimeoutError by name and ignores timeout wording", async () => {
+    const fetchMock = vi.spyOn(globalThis, "fetch");
+    const timeout = new Error("socket hang up");
+    timeout.name = "TimeoutError";
+    fetchMock.mockRejectedValueOnce(timeout);
+
+    const timed = await fetchJD("https://example.com/job", AbortSignal.timeout(1_000));
+    expect(timed.error).toEqual({ code: NETWORK_ERROR_CODE, desc: "socket hang up", failure: "timeout" });
+
+    fetchMock.mockRejectedValueOnce(new Error("The operation was aborted due to timeout"));
+    const worded = await fetchJD("https://example.com/job", AbortSignal.timeout(1_000));
+    expect(worded.error).toEqual({ code: NETWORK_ERROR_CODE, desc: "The operation was aborted due to timeout" });
+
+    const wrapped = new Error("aborted");
+    wrapped.name = "AbortError";
+    wrapped.cause = new DOMException("The operation was aborted due to timeout", "TimeoutError");
+    fetchMock.mockRejectedValueOnce(wrapped);
+    const caused = await fetchJD("https://example.com/job", AbortSignal.timeout(1_000));
+    expect(caused.error).toEqual({ code: NETWORK_ERROR_CODE, desc: "aborted", failure: "timeout" });
+  });
+
+  it("marks HTTP 200 invalid JSON as unparsed without treating the message as the cause", async () => {
+    const fetchMock = vi.spyOn(globalThis, "fetch");
+    fetchMock.mockResolvedValueOnce(new Response("not-json", { status: 200, statusText: "OK" }));
+
+    const parsed = await fetchJD("https://example.com/job", AbortSignal.timeout(1_000));
+    expect(parsed.error.code).toBe(NETWORK_ERROR_CODE);
+    expect(parsed.error.failure).toBe("invalid");
+    expect(isRetryableJDFetch(parsed.error)).toBe(true);
+    expect(parsed.jd).toBeNull();
+
+    fetchMock.mockRejectedValueOnce(new TypeError("Unexpected token not-json is not valid JSON"));
+    const connected = await fetchJD("https://example.com/job", AbortSignal.timeout(1_000));
+    expect(connected.error).toEqual({
+      code: NETWORK_ERROR_CODE,
+      desc: "Unexpected token not-json is not valid JSON",
+    });
+    expect(isRetryableJDFetch(connected.error)).toBe(true);
+  });
 });

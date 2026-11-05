@@ -1,6 +1,7 @@
 import { RED_CROSS } from "@/constants/log";
 
 import type { ATS } from "@/modules/ats/types";
+import type { ListingScan } from "@/modules/employer/listing-scan";
 import type { Company, Job } from "@/types";
 
 import { getJobKey, isKnownJob, toJobKeySet } from "@/modules/ats/job-key";
@@ -85,8 +86,8 @@ export abstract class Board<TJob = unknown> {
   }
 
   /** Job keys currently on this company's board, unfiltered. */
-  async listedKeys(signal: AbortSignal): Promise<Set<string> | null> {
-    return this.listJobKeys(this, signal);
+  async listedKeys(signal: AbortSignal, scan?: ListingScan): Promise<Set<string> | null> {
+    return this.listJobKeys(this, signal, scan);
   }
 
   abstract companyKeyFromUrl(url: URL): string;
@@ -172,13 +173,17 @@ export abstract class Board<TJob = unknown> {
    * Job keys currently advertised on `company.page`, unfiltered.
    * Returns null when the listing cannot be retrieved.
    */
-  async listJobKeys(company: Company, signal: AbortSignal): Promise<Set<string> | null> {
+  async listJobKeys(
+    company: Company,
+    signal: AbortSignal,
+    scan?: ListingScan
+  ): Promise<Set<string> | null> {
     if (!company.page) {
       return null;
     }
 
     try {
-      const jobs = await this.collectListingJobs(company, signal);
+      const jobs = await this.collectListingJobs(company, signal, scan);
       if (jobs === null) {
         return null;
       }
@@ -202,8 +207,10 @@ export abstract class Board<TJob = unknown> {
    */
   protected async collectListingJobs(
     company: Company,
-    signal: AbortSignal
+    signal: AbortSignal,
+    scan?: ListingScan
   ): Promise<TJob[] | null> {
+    scan?.onPage?.();
     const res = await fetch(company.page, { signal });
     if (!res.ok) {
       return null;

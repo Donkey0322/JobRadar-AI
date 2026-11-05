@@ -4,8 +4,10 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
+import { getJobKey } from "@/modules/ats/job-key";
 import { Board } from "@/modules/employer/employer";
 import { ListingHttpError, logListingFailure } from "@/modules/employer/failure";
+import { type ListingScan,listingTargetsFound } from "@/modules/employer/listing-scan";
 import { decodeHtmlEntities } from "@/utils/html";
 import { fetchHtmlResponse, getSetCookieHeader, isAbortError, isHtmlResponse } from "@/utils/http";
 import { logger } from "@/utils/logger";
@@ -657,17 +659,27 @@ export class PhenomBoard extends Board<PhenomJob> {
 
   protected async collectListingJobs(
     company: Company,
-    signal: AbortSignal
+    signal: AbortSignal,
+    scan?: ListingScan
   ): Promise<PhenomJob[] | null> {
     const session = await getPhenomSession(company.page, signal);
     const jobs: PhenomJob[] = [];
+    const found = new Set<string>();
 
     for (let page = 0; page < MAX_LIST_PAGES; page++) {
+      scan?.onPage?.();
       const rawJobs = await fetchPhenomPage(page, session, signal, (data) =>
         this.getJobsFromResponse(data, company)
       );
       jobs.push(...rawJobs);
 
+      if (scan?.targetKeys?.size) {
+        for (const job of rawJobs) {
+          const link = this.getJobLink(job, company);
+          if (link) found.add(getJobKey(link));
+        }
+      }
+      if (listingTargetsFound(found, scan)) break;
       if (rawJobs.length < PAGE_SIZE) {
         break;
       }

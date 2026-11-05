@@ -65,10 +65,18 @@ const MAX_RETRY_AFTER_MS = 60_000;
 
 export type HttpStatus = number;
 
+/** Producer-set cause. Diagnostics read this; takedown does not. */
+export type JDFetchFailure = "timeout" | "closed" | "invalid";
+
 export interface JDFetchStatus {
   code: HttpStatus | typeof NETWORK_ERROR_CODE;
   desc: string;
   retryAfterMs?: number;
+  /**
+   * Set only from a structured producer signal: `TimeoutError`, a synthetic
+   * no-data result, or an unparseable URL. Absent when the producer cannot tell.
+   */
+  failure?: JDFetchFailure;
 }
 
 export function isRetryableJDFetch(error: Pick<JDFetchStatus, "code">): boolean {
@@ -111,6 +119,7 @@ export const JD_FETCH_ERROR = {
   invalidUrl: (desc = "Invalid URL"): JDFetchStatus => ({
     code: HttpStatusCode.BAD_REQUEST,
     desc,
+    failure: "invalid",
   }),
 
   http: (status: HttpStatus, statusText: string, retryAfterMs?: number): JDFetchStatus => ({
@@ -127,13 +136,29 @@ export const JD_FETCH_ERROR = {
   noData: (desc = "No data in response"): JDFetchStatus => ({
     code: HttpStatusCode.NOT_FOUND,
     desc,
+    failure: "closed",
   }),
 
-  fetch: (desc: string): JDFetchStatus => ({
+  fetch: (desc: string, failure?: "timeout" | "invalid"): JDFetchStatus => ({
     code: NETWORK_ERROR_CODE,
     desc,
+    ...(failure ? { failure } : {}),
   }),
 } as const;
+
+function isTimeoutError(error: unknown): boolean {
+  return error instanceof Error && error.name === "TimeoutError";
+}
+
+/** Network failure from a thrown error. Timeout and JSON parse errors come from the error class, not its message. */
+export function jdFetchErrorFromThrown(error: unknown): JDFetchStatus {
+  const desc = error instanceof Error ? error.message : "Unknown fetch error";
+  const timedOut =
+    isTimeoutError(error) || (error instanceof Error && isTimeoutError(error.cause));
+  if (timedOut) return JD_FETCH_ERROR.fetch(desc, "timeout");
+  if (error instanceof SyntaxError) return JD_FETCH_ERROR.fetch(desc, "invalid");
+  return JD_FETCH_ERROR.fetch(desc);
+}
 
 function retryAfterMsFrom(res: Response): number | undefined {
   if (res.status !== HttpStatusCode.TOO_MANY_REQUESTS) {
@@ -185,7 +210,13 @@ export async function fetchJD(
       };
     }
 
-    const data = await res.json();
+    let data: unknown;
+    try {
+      data = await res.json();
+    } catch (err) {
+      if (!(err instanceof SyntaxError)) throw err;
+      return { jd: null, error: jdFetchErrorFromThrown(err) };
+    }
 
     const jd = transform ? transform(data) : data ? JSON.stringify(data) : null;
 
@@ -201,8 +232,6 @@ export async function fetchJD(
       error: JD_FETCH_OK,
     };
   } catch (err) {
-    const desc = err instanceof Error ? err.message : "Unknown fetch error";
-
     logger.error(
       {
         err,
@@ -214,7 +243,7 @@ export async function fetchJD(
 
     return {
       jd: null,
-      error: JD_FETCH_ERROR.fetch(desc),
+      error: jdFetchErrorFromThrown(err),
     };
   }
 }

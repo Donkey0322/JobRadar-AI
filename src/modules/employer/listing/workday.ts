@@ -6,8 +6,10 @@ import type { Company, Job } from "@/types";
 
 import { Board } from "../employer";
 
+import { getJobKey } from "@/modules/ats/job-key";
 import { isWorkdayLocaleSegment } from "@/modules/ats/workday";
 import { logListingFailure, logListingStatus } from "@/modules/employer/failure";
+import { type ListingScan,listingTargetsFound } from "@/modules/employer/listing-scan";
 import { formatCompanyName } from "@/utils/company-name";
 import { logger } from "@/utils/logger";
 
@@ -148,11 +150,13 @@ export class WorkdayBoard extends Board<WorkdayJob> {
 
   protected async collectListingJobs(
     company: Company,
-    signal: AbortSignal
+    signal: AbortSignal,
+    scan?: ListingScan
   ): Promise<WorkdayJob[] | null> {
     return this.paginateJobPostings(company, signal, {
       recentOnly: false,
       maxPages: MAX_LIST_PAGES,
+      scan,
     });
   }
 
@@ -179,13 +183,14 @@ export class WorkdayBoard extends Board<WorkdayJob> {
   private async paginateJobPostings(
     company: Company,
     signal: AbortSignal,
-    options: { recentOnly: boolean; maxPages: number }
+    options: { recentOnly: boolean; maxPages: number; scan?: ListingScan }
   ): Promise<WorkdayJob[] | null> {
     const { recentOnly, maxPages } = options;
     let offset = 0;
     let page = 0;
     let hasMore = true;
     const results: WorkdayJob[] = [];
+    const found = new Set<string>();
 
     try {
       while (hasMore && page < maxPages) {
@@ -200,6 +205,7 @@ export class WorkdayBoard extends Board<WorkdayJob> {
           return recentOnly ? null : results.length > 0 ? results : null;
         }
 
+        options.scan?.onPage?.();
         const res = await fetch(company.page, {
           method: "POST",
           headers: {
@@ -255,12 +261,16 @@ export class WorkdayBoard extends Board<WorkdayJob> {
           break;
         }
 
-        if (recentOnly) {
-          results.push(
-            ...rawJobs.filter((job) => !job.postedOn || job.postedOn === "Posted Today")
-          );
-        } else {
-          results.push(...rawJobs);
+        const accepted = recentOnly
+          ? rawJobs.filter((job) => !job.postedOn || job.postedOn === "Posted Today")
+          : rawJobs;
+        results.push(...accepted);
+
+        if (options.scan?.targetKeys?.size) {
+          for (const job of accepted) {
+            const link = this.getJobLink(job, company);
+            if (link) found.add(getJobKey(link));
+          }
         }
 
         offset += PAGE_SIZE;
@@ -270,6 +280,9 @@ export class WorkdayBoard extends Board<WorkdayJob> {
           (!recentOnly ||
             !rawJobs[rawJobs.length - 1]?.postedOn ||
             rawJobs[rawJobs.length - 1]?.postedOn === "Posted Today");
+        if (listingTargetsFound(found, options.scan)) {
+          hasMore = false;
+        }
       }
 
       if (page >= maxPages) {

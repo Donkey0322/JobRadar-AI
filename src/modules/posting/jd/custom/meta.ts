@@ -287,7 +287,7 @@ export async function fetchMetaJD(
     return {
       jd: null,
       error: res.ok
-        ? JD_FETCH_ERROR.fetch("Meta returned an HTML page instead of job JSON")
+        ? JD_FETCH_ERROR.fetch("Meta returned an HTML page instead of job JSON", "invalid")
         : jdFetchErrorFromResponse(res),
     };
   }
@@ -299,7 +299,7 @@ export async function fetchMetaJD(
   } catch {
     return {
       jd: null,
-      error: JD_FETCH_ERROR.fetch("Meta job JSON was unreadable"),
+      error: JD_FETCH_ERROR.fetch("Meta job JSON was unreadable", "invalid"),
     };
   }
 

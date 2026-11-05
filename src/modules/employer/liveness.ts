@@ -1,3 +1,4 @@
+import type { ListingScan } from "./listing-scan";
 import type { Company } from "@/types";
 
 import { asBoard } from "./registry";
@@ -29,12 +30,16 @@ export function partitionUrlsByListedKeys(
 export async function checkUrlsAgainstListing(
   company: Company,
   urls: readonly string[],
-  signal: AbortSignal
+  signal: AbortSignal,
+  scan?: ListingScan
 ): Promise<{ listed: string[]; unverified: string[] }> {
   if (!company.page || urls.length === 0) {
     return { listed: [], unverified: [...urls] };
   }
 
-  const listedKeys = await asBoard(company).listedKeys(signal);
+  const listedKeys = await asBoard(company).listedKeys(signal, {
+    targetKeys: scan?.targetKeys ?? new Set(urls.map((url) => getJobKey(url))),
+    onPage: scan?.onPage,
+  });
   return partitionUrlsByListedKeys(urls, listedKeys);
 }

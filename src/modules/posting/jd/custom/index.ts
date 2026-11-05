@@ -4,7 +4,12 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { JDFetchResult } from "../fetch";
 
-import { JD_FETCH_ERROR, JD_FETCH_OK, jdFetchErrorFromResponse } from "../fetch";
+import {
+  JD_FETCH_ERROR,
+  JD_FETCH_OK,
+  jdFetchErrorFromResponse,
+  jdFetchErrorFromThrown,
+} from "../fetch";
 import { createJDFetchSignal } from "../signal";
 import {
   extractJobPostingFromJsonLd,
@@ -173,7 +178,7 @@ export async function fetchCustomJD(
   } catch (e) {
     return {
       jd: null,
-      error: JD_FETCH_ERROR.fetch(e instanceof Error ? e.message : "Unknown fetch error"),
+      error: jdFetchErrorFromThrown(e),
     };
   }
 }
