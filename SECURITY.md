@@ -65,7 +65,7 @@ If a secret is accidentally exposed, rotate it immediately.
 
 ## GitHub Token Permissions
 
-JobRadar AI requires a personal access token stored as `PAT`. Commits pushed with the built-in `GITHUB_TOKEN` do not trigger other workflows, so data commits are pushed with the PAT to start notification, README, and batch workflows.
+JobRadar AI requires a personal access token stored as `PAT`. Commits pushed with the built-in `GITHUB_TOKEN` do not trigger other workflows, so data commits are pushed with the PAT. Jobs, Batch, and Add Job call Publish Jobs for the commit they saved. A direct push starts Publish data changes for that push's before..after range. The batch checkpoint message contains `[skip ci]`, so that push does not start Publish data changes or another Batch run.
 
 Limit what that token can do:
 
@@ -93,7 +93,7 @@ Be careful with workflows triggered by issues, pull requests, or external contri
 
 Anyone who can open issues or comment on a public repository can trigger these workflows:
 
-- **Add Job From Issue** (`add-job-from-issue.yml`) runs on any issue titled `Add Job…` or labeled `add-job`. It fetches the submitted URL from the runner, sends the page to your AI provider using your `AI_API_KEY`, and commits the result with your `PAT`. A stranger can use it to spend your AI credits or add unwanted data.
+- **Add Job From Issue** (`add-job-from-issue.yml`) runs on any issue titled `Add Job…` or labeled `add-job`. It fetches the submitted URL from the runner, sends the page to your AI provider using your `AI_API_KEY`, commits the result with your `PAT`, and publishes that commit. A stranger can use it to spend your AI credits, add unwanted data, or send a notification.
 - **Check Setup** (`check-setup.yml`) runs on any comment containing `/check-setup` on a setup issue. It validates your SMTP login and AI key each time.
 - **Setup from Issue** (`setup-from-issue.yml`) regenerates and commits `config.json` when a setup issue is opened or edited.
 

@@ -20,19 +20,19 @@ flowchart TD
   F --> G[Filter by config.json]
   E --> G
   G --> H[Write data files]
-  H --> I[Commit data updates]
-  I --> J[Email notification workflow]
-  I --> K[README update workflow]
+  H --> I[Commit the saved data]
+  I --> J[Publish Jobs]
+  J --> K[Refresh the board from the branch tip]
+  J --> L[Notify a fixed data commit or push range]
 ```
 
 The important pieces are:
 
 - `config.json` controls target roles, countries, keywords, AI provider/model, SMTP sender, and receiver emails.
-- GitHub Actions runs the sync/discovery workflows on a schedule.
+- GitHub Actions runs Jobs Pipeline, Batch Pipeline, and Maintenance on a schedule.
 - Newly discovered jobs are committed into `data/`.
 - Titles that match your notify config are analyzed in real time. Unspecified-level titles go through cheaper batch analysis.
-- A notification workflow sends emails only for newly updated job data.
-- A README update workflow regenerates the job board when config or job data changes.
+- Publish Jobs refreshes the README board from the latest branch data and sends mail for one saved data commit, or for the before..after range of a direct push.
 
 ---
 
@@ -81,7 +81,7 @@ Use a fine-grained token scoped to this repository only, and grant:
 
 Issue comments and issue closing use the built-in `GITHUB_TOKEN`, so the PAT does not need Issues permission.
 
-The PAT is required, not optional. Commits pushed with the default `GITHUB_TOKEN` do not trigger other workflows, so data commits must be pushed with the PAT for **Notify Latest Jobs**, **Update README**, and **Batch Analysis Pipeline** to run.
+The PAT is required, not optional. Commits pushed with the default `GITHUB_TOKEN` do not trigger other workflows, so data commits must be pushed with the PAT. Jobs, Batch, Add Job, and Maintenance then call **Publish Jobs** for the commit they saved. A direct push of config or job data starts **Publish data changes**. The batch checkpoint commit contains `[skip ci]`, so that push does not start another workflow; the same Batch run publishes it.
 
 > Every workflow checks out the repository with `secrets.PAT`, including `.github/workflows/setup-from-issue.yml`, so add `PAT` before opening the setup issue.
 
@@ -359,124 +359,100 @@ If the check fails, the bot comments with common failure reasons. Fix the issue,
 
 After setup passes, run these workflows manually once from the **Actions** tab.
 
-### Community Sync Pipeline
+### Jobs Pipeline
 
 Workflow file:
 
 ```text
-.github/workflows/community-sync.yml
+.github/workflows/jobs.yml
 ```
 
 Manual run:
 
 ```text
-Actions → Community Sync Pipeline → Run workflow
+Actions → Jobs Pipeline → Run workflow
 ```
 
-This runs:
+Choose `sync` or `scan`.
 
-```bash
-pnpm jobctl sync
-```
+`sync` runs `pnpm jobctl sync`. It parses community-maintained GitHub job lists and commits new job data if anything changed.
 
-It parses community-maintained GitHub job lists and commits new job data if anything changed.
+`scan` runs `pnpm jobctl scan`. It discovers jobs from supported ATS/company sources. A manual scan looks back 2 days.
 
-### ATS Discovery Pipeline
+When the saved commit changes data, the same run calls **Publish Jobs** with that commit. A run that finds nothing succeeds and skips publish.
+
+### Batch Pipeline
 
 Workflow file:
 
 ```text
-.github/workflows/ats-discovery.yml
+.github/workflows/batch.yml
 ```
 
 Manual run:
 
 ```text
-Actions → ATS Discovery Pipeline → Run workflow
+Actions → Batch Pipeline → Run workflow
 ```
 
-This runs:
+The workflow has two data commits:
 
-```bash
-pnpm jobctl scan
-```
+1. `pnpm jobctl batch --submit-only` submits queued job descriptions to the provider Batch API (about 50% of real-time cost). It can also save results that were already inflight. That commit is `chore(batch): checkpoint inflight submissions [skip ci]`.
+2. `pnpm jobctl batch` polls the provider every 20 seconds until those jobs finish or the 20-minute soft deadline is hit, then commits `chore(batch): collect batch analysis` when the collect step changes data.
 
-It discovers jobs from supported ATS/company sources and commits new job data if anything changed.
-
-### Batch Analysis Pipeline
-
-Workflow file:
-
-```text
-.github/workflows/batch-analysis.yml
-```
-
-Manual run:
-
-```text
-Actions → Batch Analysis Pipeline → Run workflow
-```
-
-This runs:
-
-```bash
-pnpm jobctl batch
-```
-
-The workflow runs it in three steps:
-
-1. `pnpm jobctl batch --submit-only` submits queued job descriptions to the provider Batch API (about 50% of real-time cost).
-2. The workflow commits `data/batch/inflight.json` as a checkpoint with `[skip ci]`.
-3. `pnpm jobctl batch` polls the provider every 20 seconds until those jobs finish or the 20-minute soft deadline is hit, then commits the collected results.
+`[skip ci]` keeps the checkpoint push from starting Publish data changes or another Batch run. Publish of the checkpoint does not wait for collect. If collect later changes nothing, or the collect job fails, jobs written by the checkpoint still go through Publish Jobs. Collect publishes its own commit only when that commit changes board or job files.
 
 Notify still follows `config.json`. In the default hybrid setup, this queue is unspecified-level titles. Notify titles stay on the real-time path.
 
-### Notify Latest Jobs
+### Publish Jobs
 
 Workflow file:
 
 ```text
-.github/workflows/mail-notify.yml
+.github/workflows/publish-jobs.yml
 ```
 
-This workflow normally runs when `data/jobs.ndjson` changes.
+Jobs, Batch, Add Job, and Publish data changes call this workflow. You can also run it manually with a saved data commit.
 
-You can also run it manually:
-
-```text
-Actions → Notify Latest Jobs → Run workflow
-```
-
-It runs:
-
-```bash
-pnpm jobctl notify commit <commit-sha>
-```
-
-### Update README
-
-Workflow file:
-
-```text
-.github/workflows/readme-update.yml
-```
-
-This workflow runs when any of these change:
-
-```text
-config.json
-data/opportunities.ndjson
-data/archive/opportunities-*.ndjson
-scripts/readme.ts
-```
-
-You can also run it manually. It runs:
+The board job checks out the branch tip and runs:
 
 ```bash
 pnpm jobctl board refresh
 ```
 
-and commits changes to `README.md`, `job-postings/`, and `assets/featured-badges/` if needed.
+It commits `README.md`, `job-postings/`, and `assets/featured-badges/` when those files change. The board always renders the latest data on the branch, including a commit that landed after the data commit being notified.
+
+The notify job uses a fixed range and does not read the branch tip:
+
+```bash
+pnpm jobctl notify commit <data-sha>
+pnpm jobctl notify range <from-sha> <to-sha>
+```
+
+Pipelines pass the data commit they just saved, so notify uses `notify commit`. A direct push passes the same before and after SHAs used to decide that the push contains jobs, so notify uses `notify range`. An empty `from-sha` keeps the single-commit command. A board failure still sends that notification and fails the workflow.
+
+### Publish data changes
+
+Workflow file:
+
+```text
+.github/workflows/publish-data.yml
+```
+
+This runs on a direct push of:
+
+```text
+config.json
+data/jobs.ndjson
+data/opportunities.ndjson
+data/archive/opportunities-*.ndjson
+scripts/readme.ts
+```
+
+It skips a push whose commits were already published by Jobs, Batch, or Add Job. For every other push, the file check and the notification use one range:
+
+- A push to an existing branch uses `github.event.before` and `github.sha`. A push that adds jobs in an earlier commit and only changes config in the last commit still notifies those jobs. This is the range Publish data changes uses for the repository's data branch, and it stays complete when the webhook commit list is truncated.
+- A new branch reports an all-zero `before`. GitHub Actions receives the push webhook. That `commits` array holds at most 2048 commits. The older limit of 20 applies to the Events API timeline, not to this workflow payload. An empty list added no commits, so nothing is notified. A shorter list is the whole push: the range starts at the parent of its oldest commit, or the empty tree when that commit is a root. A list of 2048 commits may omit older commits, so the workflow fails and does not send mail from the truncated list.
 
 ### Add Job From Issue
 
@@ -494,23 +470,25 @@ It runs:
 pnpm tsx scripts/add-job-from-issue.ts
 ```
 
-It fetches the job description, analyzes it with your AI key, commits the job data, then comments on and closes the issue.
+It fetches the job description, analyzes it with your AI key, commits the job data, and calls Publish Jobs for that commit. The workflow comments on and closes the issue when publish succeeds. A failed publish leaves the issue open.
 
-### Clean Outdated URL
+### Maintenance
 
 Workflow file:
 
 ```text
-.github/workflows/clean-outdated-url.yml
+.github/workflows/maintenance.yml
 ```
 
-It runs:
+Manual run:
 
-```bash
-pnpm jobctl job clean
+```text
+Actions → Maintenance → Run workflow
 ```
 
-It checks every stored posting URL, removes postings that are gone from `data/urls.json`, and refreshes expiry in the opportunity data. Expired rows last seen more than 90 days ago are removed.
+Choose `clean`, `dedup`, `company refresh`, or `board refresh`. The scheduled run is always `clean`.
+
+`clean` runs `pnpm jobctl job clean`. It checks every stored posting URL, removes postings that are gone from `data/urls.json`, and refreshes expiry in the opportunity data. Expired rows last seen more than 90 days ago are removed. A data commit from this workflow is published by the following push, through Publish data changes.
 
 ---
 
@@ -518,15 +496,15 @@ It checks every stored posting URL, removes postings that are gone from `data/ur
 
 GitHub cron schedules use **UTC**.
 
-### Community Sync Pipeline
+### Jobs Pipeline
 
 File:
 
 ```text
-.github/workflows/community-sync.yml
+.github/workflows/jobs.yml
 ```
 
-Current schedule:
+Sync schedule:
 
 ```yaml
 schedule:
@@ -534,35 +512,9 @@ schedule:
   - cron: "*/20 0-7 * * *"
 ```
 
-These windows cover 07:00–23:40 California time in both PST and PDT. The first step checks the hour in `America/Los_Angeles` and skips runs outside that window, so the community sync runs every 20 minutes during the California day. Manual runs skip this check.
+These windows cover 07:00–23:40 California time in both PST and PDT. The gate checks the hour in `America/Los_Angeles` and skips sync runs outside that window, so community sync runs every 20 minutes during the California day. Manual runs skip this check.
 
-To reduce cost or email frequency, change this to something slower.
-
-Examples:
-
-Run once per day at 13:00 UTC:
-
-```yaml
-schedule:
-  - cron: "0 13 * * *"
-```
-
-Run every 4 hours:
-
-```yaml
-schedule:
-  - cron: "0 */4 * * *"
-```
-
-### ATS Discovery Pipeline
-
-File:
-
-```text
-.github/workflows/ats-discovery.yml
-```
-
-Current schedule:
+Scan schedule:
 
 ```yaml
 schedule:
@@ -571,23 +523,18 @@ schedule:
   - cron: "10 0-7 * * 2-6"
 ```
 
-This runs once per hour at minute 10, between the community sync runs at :00, :20, and :40. The three lines cover every California weekday hour in both PST and PDT. The first step skips runs that land on a California weekend.
+Scan runs once per hour at minute 10, between the sync runs at :00, :20, and :40. The three lines cover every California weekday hour in both PST and PDT. The gate skips runs that land on a California weekend.
 
 Discovery looks back 2 days by default. The Monday 00:00 California run looks back 3 days to catch weekend postings. The workflow passes this to the scan as `DISCOVERY_LOOKBACK_DAYS`.
 
-To run twice per day, replace the schedule and keep the weekday check:
+To reduce cost or email frequency, slow the matching cron in `jobs.yml`. For example, once per day at 13:00 UTC is `0 13 * * *`, and every 4 hours is `0 */4 * * *`.
 
-```yaml
-schedule:
-  - cron: "0 13,23 * * *"
-```
-
-### Batch Analysis Pipeline
+### Batch Pipeline
 
 File:
 
 ```text
-.github/workflows/batch-analysis.yml
+.github/workflows/batch.yml
 ```
 
 Current schedule:
@@ -601,58 +548,22 @@ on:
     - cron: "47 * * * *"
 ```
 
-Discovery commits that add queued jobs start a batch run immediately. The job submits work, commits the inflight checkpoint with `[skip ci]`, then polls the provider every 20 seconds until the batch finishes or the 20-minute soft deadline is hit. Emptying the queue in that checkpoint does not start another batch run. Collect may write failed jobs back onto the queue; that commit still updates the README and notify workflows, but Batch ignores `chore(batch): collect` pushes so retries wait for the next scan or the hourly cron. Canceling during the wait no longer loses the batch mapping; the hourly cron also collects leftover inflight.
+Discovery commits that add queued jobs start a batch run immediately. Submit checkpoints inflight work with `[skip ci]`, then collect polls the provider every 20 seconds until the batch finishes or the 20-minute soft deadline is hit. The checkpoint push does not start another batch run. Collect may write failed jobs back onto the queue; Batch also ignores `chore(batch): collect` pushes, so retries wait for the next scan or the hourly cron. The hourly cron collects leftover inflight work.
 
 If both the queue and inflight files are empty, the workflow exits before installing Node. Manual **Run workflow** always runs.
 
-### Notify Latest Jobs
+### Publish data changes and Publish Jobs
+
+Publish data changes is the push entry for direct edits. Publish Jobs is the shared board and notify workflow. Set `dashboard.notify` to `false` to skip mail. The public board does that. Template installs omit the field and still send mail.
+
+The board uses the branch tip. Notification uses the saved data commit for a pipeline, or the before..after range for a direct push.
+
+### Maintenance
 
 File:
 
 ```text
-.github/workflows/mail-notify.yml
-```
-
-This is push-triggered:
-
-```yaml
-on:
-  push:
-    paths:
-      - "data/jobs.ndjson"
-```
-
-It sends notifications when job data changes. Set `dashboard.notify` to `false` to skip this workflow. The public board does that. Template installs omit the field and still send mail.
-
-### README Update
-
-File:
-
-```text
-.github/workflows/readme-update.yml
-```
-
-This is push-triggered:
-
-```yaml
-on:
-  push:
-    paths:
-      - "config.json"
-      - "data/opportunities.ndjson"
-      - "data/archive/opportunities-*.ndjson"
-      - "scripts/readme.ts"
-  workflow_dispatch: {}
-```
-
-It regenerates the README job board when config, opportunity data, or the README generator changes.
-
-### Clean Outdated URL
-
-File:
-
-```text
-.github/workflows/clean-outdated-url.yml
+.github/workflows/maintenance.yml
 ```
 
 Current schedule:
@@ -662,11 +573,26 @@ schedule:
   - cron: "0 0 */14 * *"
 ```
 
-This runs at 00:00 UTC on days 1, 15, and 29 of each month. It can take up to 120 minutes because it checks every stored URL.
+This runs `clean` at 00:00 UTC on days 1, 15, and 29 of each month. It can take up to 120 minutes because it checks every stored URL. Manual runs can choose another task.
 
-### No-change runs show as Cancelled
+### Which runs can be merged
 
-When Community Sync or ATS Discovery finds no new data, the workflow cancels itself with `gh run cancel`. Those runs appear as **Cancelled** in the Actions tab. This is expected and does not mean the run failed.
+Jobs, Batch, Maintenance, Add Job, Setup, and Publish data changes share the concurrency group `job-data-sync` with `cancel-in-progress: false` and `queue: max`. GitHub's default queue keeps one pending run and cancels the previous pending run. `queue: max` keeps up to 100 pending runs and starts them in order. The 101st pending run is still cancelled.
+
+These must run one by one. A later event must not replace one that is still waiting:
+
+- Add Job From Issue, because each issue writes its own job.
+- Setup from Issue, because each edit writes config.
+- Maintenance, because a waiting clean and a waiting dedup are different tasks.
+- Publish data changes, because each push has its own before and after.
+
+A later scheduled Jobs, Batch, or Maintenance run could stand in for an older scheduled run that has not started, because it reads the current sources. Those schedules still wait in this same queue, so a schedule cannot cancel a waiting issue, maintenance, or data-publish run.
+
+Publish Jobs does not use this group. The caller already holds it for the whole run, including the called jobs. The same group on both sides would leave the caller and the called workflow waiting on each other. Check Setup only comments on an issue, and CI uses a separate group.
+
+### A run that finds nothing
+
+When Jobs or Batch finds no data to commit, that job succeeds and skips Publish Jobs. The Actions run stays successful. It is not cancelled.
 
 ---
 
@@ -935,17 +861,18 @@ Possible reasons:
 - Jobs were already sent before.
 - Your filters are too strict.
 - The sync workflow did not produce changes in `data/`.
-- `mail-notify.yml` did not trigger because the expected data path did not change.
+- Publish data changes did not run because the push did not change `data/jobs.ndjson`, or the commit was already published by Jobs, Batch, or Add Job.
+- The checkpoint commit contains `[skip ci]`. Its jobs are published by the Batch run that created it, not by the checkpoint push.
 - The data commit was pushed without the `PAT`, so downstream workflows did not start.
 - `dashboard.notify` is set to `false` in `config.json`.
 
-### Workflow runs show as Cancelled
+### A run that finds nothing
 
-Community Sync and ATS Discovery cancel themselves when they find no new data. This is expected.
+Jobs and Batch succeed and skip Publish Jobs when they have no data commit. That success is expected. A cancelled run is a concurrency cancellation, not the empty-result path.
 
 ### Workflows skip outside certain hours
 
-Community Sync only runs 07:00–23:40 California time, and ATS Discovery only runs on California weekdays. Use **Run workflow** to run either one at any time.
+Sync only runs 07:00–23:40 California time, and scan only runs on California weekdays. Use **Run workflow** on Jobs Pipeline to run either task at any time.
 
 ### AI cost is higher than expected
 
@@ -1028,7 +955,7 @@ pnpm jobctl notify commit <commit-sha>
 pnpm jobctl notify range <from-sha> <to-sha>
 ```
 
-Update README:
+Refresh the job board:
 
 ```bash
 pnpm jobctl board refresh
@@ -1073,8 +1000,8 @@ pnpm typecheck
 - [ ] Added `AI_API_KEY` if AI is enabled
 - [ ] Commented `/check-setup`
 - [ ] Setup issue closed successfully
-- [ ] Manually ran Community Sync once
-- [ ] Manually ran ATS Discovery once
-- [ ] Manually ran Batch Analysis once
+- [ ] Manually ran Jobs Pipeline `sync` once
+- [ ] Manually ran Jobs Pipeline `scan` once
+- [ ] Manually ran Batch Pipeline once
 - [ ] Confirmed notification email works
 - [ ] Decided whether to keep **Add Job From Issue** enabled (see `SECURITY.md` for public repositories)

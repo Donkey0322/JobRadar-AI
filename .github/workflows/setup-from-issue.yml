@@ -9,6 +9,11 @@ permissions:
   contents: write
   issues: write
 
+concurrency:
+  group: job-data-sync
+  cancel-in-progress: false
+  queue: max
+
 jobs:
   setup:
     if: github.repository != 'Donkey0322/JobRadar-AI' && (contains(github.event.issue.labels.*.name, 'setup') || startsWith(github.event.issue.title, 'Setup JobRadar-AI'))
@@ -22,19 +27,8 @@ jobs:
           ref: ${{ github.ref_name }}
           token: ${{ secrets.PAT }}
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v6
-        with:
-          version: 11.7.0
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v6
-        with:
-          node-version: 22
-          cache: pnpm
-
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+      - name: Setup pnpm and Node
+        uses: ./.github/actions/setup-jobradar
 
       - name: Get config.json from issue form
         run: pnpm jobctl setup get-config

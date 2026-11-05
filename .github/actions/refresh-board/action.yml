@@ -1,0 +1,31 @@
+name: Refresh board
+description: Regenerate the job board and commit it when the generated files change.
+
+outputs:
+  has_commit:
+    description: Whether a board commit was created
+    value: ${{ steps.commit.outputs.has_commit }}
+
+runs:
+  using: composite
+  steps:
+    - name: Refresh board
+      shell: bash
+      run: pnpm jobctl board refresh
+
+    - name: Commit generated job board changes
+      id: commit
+      shell: bash
+      run: |
+        set -euo pipefail
+        if [[ -z "$(git status --porcelain -- README.md job-postings assets/featured-badges)" ]]; then
+          echo "has_commit=false" >> "$GITHUB_OUTPUT"
+          echo "No job board changes to commit."
+          exit 0
+        fi
+
+        git config user.name "actions-bot"
+        git config user.email "actions@github.com"
+        git add README.md job-postings assets/featured-badges
+        git commit -m "docs: update generated job boards"
+        echo "has_commit=true" >> "$GITHUB_OUTPUT"

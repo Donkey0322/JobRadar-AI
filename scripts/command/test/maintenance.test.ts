@@ -65,10 +65,10 @@ describe("jobctl maintenance commands", () => {
     expect(readFileSync(".github/workflows/add-job-from-issue.yml", "utf8")).toContain(
       "pnpm tsx scripts/add-job-from-issue.ts"
     );
-    expect(readFileSync(".github/workflows/clean-outdated-url.yml", "utf8")).toContain(
+    expect(readFileSync(".github/workflows/maintenance.yml", "utf8")).toContain(
       "pnpm jobctl job clean"
     );
-    expect(readFileSync(".github/workflows/readme-update.yml", "utf8")).toContain(
+    expect(readFileSync(".github/actions/refresh-board/action.yml", "utf8")).toContain(
       "pnpm jobctl board refresh"
     );
     const names = (commands: { name: string }[]) => commands.map((command) => command.name);

@@ -1,0 +1,69 @@
+name: Maintenance
+run-name: 🧹 Maintenance (${{ inputs.task || 'clean' }})
+
+on:
+  schedule:
+    - cron: "0 0 */14 * *"
+  workflow_dispatch:
+    inputs:
+      task:
+        description: Maintenance task
+        required: true
+        type: choice
+        options:
+          - clean
+          - dedup
+          - company refresh
+          - board refresh
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: job-data-sync
+  cancel-in-progress: false
+  queue: max
+
+jobs:
+  maintain:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref_name }}
+          token: ${{ secrets.PAT }}
+
+      - name: Setup pnpm and Node
+        uses: ./.github/actions/setup-jobradar
+
+      - name: Run maintenance task
+        id: task
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          TASK: ${{ inputs.task }}
+        run: |
+          set -euo pipefail
+          task="$(python3 .github/scripts/workflow_route.py maintenance-task)"
+          case "$task" in
+            clean) pnpm jobctl job clean ;;
+            dedup) pnpm jobctl job dedup ;;
+            "company refresh") pnpm jobctl company refresh ;;
+            "board refresh") pnpm jobctl board refresh ;;
+            *)
+              echo "Unknown maintenance task: $task"
+              exit 1
+              ;;
+          esac
+          python3 .github/scripts/workflow_route.py maintenance-commit
+
+      - name: Rebase and push
+        if: steps.task.outputs.has_commit == 'true'
+        uses: ./.github/actions/rebase-push
+        with:
+          token: ${{ secrets.PAT }}
+          ref: ${{ github.ref_name }}

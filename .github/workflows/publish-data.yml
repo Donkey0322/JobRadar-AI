@@ -1,0 +1,73 @@
+name: Publish data changes
+run-name: 📬 Publish data changes
+
+# Direct edits of board inputs or job data. The file check and the notification
+# use the same before..after range. An existing branch uses github.event.before
+# and github.sha, so a truncated webhook commit list does not shrink that range.
+# A new branch has a zero before. The webhook commits array holds at most 2048
+# commits; the Events API timeline cap of 20 does not apply to this payload. A
+# shorter list is the whole push. A list of 2048 may be truncated, and the job
+# fails instead of notifying from that list. Pipeline commits are skipped here
+# because Jobs, Batch, and Add Job already call Publish Jobs with the saved
+# data commit.
+on:
+  push:
+    paths:
+      - "config.json"
+      - "data/jobs.ndjson"
+      - "data/opportunities.ndjson"
+      - "data/archive/opportunities-*.ndjson"
+      - "scripts/readme.ts"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: job-data-sync
+  cancel-in-progress: false
+  queue: max
+
+jobs:
+  route:
+    if: >-
+      ${{
+        !startsWith(github.event.head_commit.message, 'chore(discovery):') &&
+        !startsWith(github.event.head_commit.message, 'chore(community):') &&
+        !startsWith(github.event.head_commit.message, 'chore(batch): collect') &&
+        !startsWith(github.event.head_commit.message, 'chore(batch): checkpoint') &&
+        !startsWith(github.event.head_commit.message, 'data: add job from issue')
+      }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      run: ${{ steps.route.outputs.run }}
+      from_sha: ${{ steps.route.outputs.from_sha }}
+      data_sha: ${{ steps.route.outputs.data_sha }}
+      notify: ${{ steps.route.outputs.notify }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          ref: ${{ github.sha }}
+          token: ${{ secrets.PAT }}
+
+      - name: Classify the pushed commit
+        id: route
+        env:
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+          BEFORE: ${{ github.event.before }}
+          SHA: ${{ github.sha }}
+          PUSH_COMMITS: ${{ toJson(github.event.commits.*.id) }}
+        run: python3 .github/scripts/workflow_route.py publish-route
+
+  publish:
+    needs: route
+    if: needs.route.result == 'success' && needs.route.outputs.run == 'true'
+    uses: ./.github/workflows/publish-jobs.yml
+    with:
+      data_sha: ${{ needs.route.outputs.data_sha }}
+      from_sha: ${{ needs.route.outputs.from_sha }}
+      notify: ${{ needs.route.outputs.notify == 'true' }}
+    secrets: inherit

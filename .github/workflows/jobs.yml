@@ -1,0 +1,160 @@
+name: Jobs Pipeline
+run-name: 🔍 Jobs Pipeline
+
+# Scan and community sync share this workflow. The fetch job both downloads
+# jobs and commits data/, then passes that commit SHA to Publish Jobs.
+# Board refresh may add another commit, so notify must keep the saved SHA.
+on:
+  schedule:
+    # ATS scan. Cover every California weekday hour across PST and PDT.
+    # Minute 10 sits midway between community sync runs at :00, :20, and :40.
+    # One DST boundary run lands on a California weekend and is skipped by the gate.
+    - cron: "10 7-23 * * 1"
+    - cron: "10 8-23 * * 2-5"
+    - cron: "10 0-7 * * 2-6"
+    # Community sync. Cover 07:00-23:40 California time across PST and PDT.
+    # The boundary hour outside the local window is skipped by the gate.
+    - cron: "*/20 14-23 * * *"
+    - cron: "*/20 0-7 * * *"
+  workflow_dispatch:
+    inputs:
+      task:
+        description: Pipeline to run
+        required: true
+        type: choice
+        options:
+          - scan
+          - sync
+
+permissions:
+  contents: write
+  actions: write
+
+# queue: max keeps every waiting run, up to 100, instead of replacing the
+# single pending run. Issue, Maintenance, and Publish data changes must each
+# run. Scheduled Jobs and Batch could be superseded by a later schedule, but
+# they share this queue so a later schedule cannot cancel a waiting issue.
+# Publish Jobs does not set concurrency, so it cannot wait on this caller.
+concurrency:
+  group: job-data-sync
+  cancel-in-progress: false
+  queue: max
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      should_run: ${{ steps.calendar.outputs.should_run }}
+      task: ${{ steps.calendar.outputs.task }}
+      lookback_days: ${{ steps.calendar.outputs.lookback_days }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+
+      - name: Choose scan or sync
+        id: calendar
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          TASK: ${{ inputs.task }}
+          SCHEDULE: ${{ github.event.schedule }}
+        run: python3 .github/scripts/workflow_route.py jobs-gate
+
+  fetch:
+    needs: gate
+    if: needs.gate.outputs.should_run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    outputs:
+      has_changes: ${{ steps.fetch.outputs.has_changes }}
+      data_sha: ${{ steps.saved.outputs.data_sha }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref_name }}
+          token: ${{ secrets.PAT }}
+
+      - name: Setup pnpm and Node
+        uses: ./.github/actions/setup-jobradar
+
+      - name: Check configuration
+        run: pnpm jobctl setup check-config
+        env:
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          PAT: ${{ secrets.PAT }}
+          LOG_PRETTY: "1"
+
+      - name: Fetch jobs
+        id: fetch
+        env:
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          PAT: ${{ secrets.PAT }}
+          LOG_PRETTY: "1"
+          TASK: ${{ needs.gate.outputs.task }}
+          LOOKBACK: ${{ needs.gate.outputs.lookback_days }}
+        run: |
+          set -euo pipefail
+          if [[ "$TASK" == "scan" ]]; then
+            if [[ -z "$LOOKBACK" ]]; then
+              echo "Scan lookback is missing."
+              exit 1
+            fi
+            export DISCOVERY_LOOKBACK_DAYS="$LOOKBACK"
+            pnpm jobctl scan
+          elif [[ "$TASK" == "sync" ]]; then
+            pnpm jobctl sync
+          else
+            echo "Unknown jobs task: $TASK"
+            exit 1
+          fi
+
+          if [[ -n "$(git status --porcelain data/ 2>/dev/null || true)" ]]; then
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "No new job data found."
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Save data
+        if: steps.fetch.outputs.has_changes == 'true'
+        env:
+          TASK: ${{ needs.gate.outputs.task }}
+        run: |
+          set -euo pipefail
+          git config user.name "actions-bot"
+          git config user.email "actions@github.com"
+          git add data/
+          if [[ "$TASK" == "scan" ]]; then
+            git commit -m "chore(discovery): update new jobs"
+          else
+            git commit -m "chore(community): update new jobs"
+          fi
+
+      - name: Rebase and push
+        if: steps.fetch.outputs.has_changes == 'true'
+        uses: ./.github/actions/rebase-push
+        with:
+          token: ${{ secrets.PAT }}
+          ref: ${{ github.ref_name }}
+
+      - name: Record saved data commit
+        id: saved
+        if: steps.fetch.outputs.has_changes == 'true'
+        run: echo "data_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+  publish:
+    needs: fetch
+    if: needs.fetch.result == 'success' && needs.fetch.outputs.has_changes == 'true'
+    uses: ./.github/workflows/publish-jobs.yml
+    with:
+      data_sha: ${{ needs.fetch.outputs.data_sha }}
+      notify: true
+    secrets: inherit

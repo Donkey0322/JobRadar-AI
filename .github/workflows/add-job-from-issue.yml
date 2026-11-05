@@ -14,12 +14,16 @@ permissions:
 concurrency:
   group: job-data-sync
   cancel-in-progress: false
+  queue: max
 
 jobs:
   add-job:
     if: contains(github.event.issue.labels.*.name, 'add-job') || startsWith(github.event.issue.title, 'Add Job')
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    outputs:
+      has_commit: ${{ steps.commit.outputs.has_commit }}
+      data_sha: ${{ steps.saved.outputs.data_sha }}
 
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -35,19 +39,8 @@ jobs:
           ref: ${{ github.ref_name }}
           token: ${{ secrets.PAT }}
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v6
-        with:
-          version: 11.7.0
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v6
-        with:
-          node-version: 22
-          cache: "pnpm"
-
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+      - name: Setup pnpm and Node
+        uses: ./.github/actions/setup-jobradar
 
       - name: Process submitted job
         run: pnpm tsx scripts/add-job-from-issue.ts
@@ -55,6 +48,7 @@ jobs:
       - name: Commit changes
         id: commit
         run: |
+          set -euo pipefail
           if git diff --quiet; then
             echo "has_commit=false" >> "$GITHUB_OUTPUT"
             echo "No changes to commit."
@@ -63,7 +57,6 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git add .
           git commit -m "data: add job from issue #${{ github.event.issue.number }}"
           echo "has_commit=true" >> "$GITHUB_OUTPUT"
@@ -75,8 +68,33 @@ jobs:
           token: ${{ secrets.PAT }}
           ref: ${{ github.ref_name }}
 
+      - name: Record saved data commit
+        id: saved
+        if: steps.commit.outputs.has_commit == 'true'
+        run: echo "data_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+  publish:
+    needs: add-job
+    if: needs.add-job.result == 'success' && needs.add-job.outputs.has_commit == 'true'
+    uses: ./.github/workflows/publish-jobs.yml
+    with:
+      data_sha: ${{ needs.add-job.outputs.data_sha }}
+      notify: true
+    secrets: inherit
+
+  finish:
+    needs: [add-job, publish]
+    if: >-
+      ${{
+        !cancelled() &&
+        needs.add-job.result == 'success' &&
+        (needs.publish.result == 'success' || needs.publish.result == 'skipped')
+      }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
       - name: Comment success
-        if: success()
         run: |
           gh issue comment "${{ github.event.issue.number }}" \
             --body "✅ Job submitted successfully and processed by JobRadar AI."
@@ -84,15 +102,24 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Close issue
-        if: success()
         run: |
           gh issue close "${{ github.event.issue.number }}" \
             --comment "Closing this issue because the submitted job has been processed."
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+  report-failure:
+    needs: [add-job, publish]
+    if: >-
+      ${{
+        !cancelled() &&
+        (needs.add-job.result == 'failure' || needs.publish.result == 'failure')
+      }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
       - name: Comment failure
-        if: failure()
         run: |
           gh issue comment "${{ github.event.issue.number }}" \
             --body "❌ Failed to process this job submission. Please check the workflow logs or update the issue fields."
