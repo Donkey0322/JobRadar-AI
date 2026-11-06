@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "name": "batches/76pmasn5zyg38d6l6r4xjvd78gsby0tkexzr",
+    "submittedAt": "2026-11-06T16:20:03.055Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "AMD",
+        "role": "MTS Software Development Engineer",
+        "link": "https://careers.amd.com/jobs/94259?icims=1",
+        "location": "Santa Clara, California",
+        "country": "USA"
+      },
+      {
+        "company": "AMD",
+        "role": "MTS Systems Design Engineer",
+        "link": "https://careers.amd.com/jobs/94253?icims=1",
+        "location": "Santa Clara, California",
+        "country": "USA"
+      },
+      {
+        "company": "AMD",
+        "role": "SMTS Software Development Engineer",
+        "link": "https://careers.amd.com/jobs/93946?icims=1",
+        "location": "Santa Clara, California",
+        "country": "USA"
+      },
+      {
+        "company": "AMD",
+        "role": "Systems Design Engineer",
+        "link": "https://careers.amd.com/jobs/93944?icims=1",
+        "location": "Austin, Texas",
+        "country": "USA"
+      },
+      {
+        "company": "Hologic Careers",
+        "role": "Principle Software Algorithm Engineer - Digital Cytology AI",
+        "link": "https://ebwb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/12678",
+        "location": "Marlborough, MA, United States",
+        "country": "USA"
+      },
+      {
+        "company": "BAE Systems",
+        "role": "Information System Security Engineer (ISSE)",
+        "link": "https://jobs.baesystems.com/global/en/job/132364BR?ph_id=132364BR",
+        "location": "Hill AFB, Utah, United States",
+        "country": "USA"
+      },
+      {
+        "company": "Nvidia",
+        "role": "System Software Engineer Intern, Autonomous Vehicles - 2027",
+        "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shenzhen/System-Software-Engineer-Intern--Autonomous-Vehicles---2027_JR2028172",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Onehealthineers",
+        "role": "Embedded Software Developer Co-op",
+        "link": "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/YOW-B/Embedded-Software-Developer-Co-op_R-31948",
+        "location": "YOW B",
+        "country": "Unsure"
+      },
+      {
+        "company": "Tmobile",
+        "role": "T-Ads Engineer, Software Full Stack",
+        "link": "https://tmobile.wd1.myworkdayjobs.com/External/job/Bellevue-Washington/T-Ads-Engineer--Software-Full-Stack_REQ376574-1",
+        "location": "Bellevue, Washington",
+        "country": "USA"
+      }
+    ]
+  }
+]
