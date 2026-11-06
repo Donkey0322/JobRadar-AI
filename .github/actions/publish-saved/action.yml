@@ -29,8 +29,11 @@ runs:
       env:
         DATA_SHA: ${{ inputs.data_sha }}
         FROM_SHA: ${{ inputs.from_sha }}
+        TOKEN: ${{ inputs.token }}
+        REPOSITORY: ${{ github.repository }}
       run: |
         set -euo pipefail
+        bash .github/scripts/use-push-token.sh "$TOKEN" "$REPOSITORY"
 
         ensure_commit() {
           local sha="$1"
@@ -117,7 +120,7 @@ runs:
           export JOBRADAR_INSIDE_DEADLINE=1
           exec node .github/scripts/run-deadline.mjs 300 bash -e "${BASH_SOURCE[0]}"
         fi
-        git remote set-url origin "https://x-access-token:${TOKEN}@github.com/${REPOSITORY}.git"
+        bash .github/scripts/use-push-token.sh "$TOKEN" "$REPOSITORY"
         git fetch --no-tags origin "$BRANCH"
         if ! git merge --ff-only "origin/${BRANCH}"; then
           if [[ -f .git/shallow ]]; then

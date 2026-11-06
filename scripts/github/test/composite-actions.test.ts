@@ -16,6 +16,7 @@ const ROOT = path.resolve(import.meta.dirname, "../../..");
 const ROUTE = path.join(ROOT, ".github/scripts/workflow-route.mjs");
 const DEADLINE = path.join(ROOT, ".github/scripts/run-deadline.mjs");
 const RESTORE = path.join(ROOT, ".github/scripts/restore-board-attempt.mjs");
+const USE_PUSH_TOKEN = path.join(ROOT, ".github/scripts/use-push-token.sh");
 
 const temps: string[] = [];
 const leftoverPids: number[] = [];
@@ -268,6 +269,85 @@ describe("composite actions", () => {
     expect(source).not.toMatch(/git\s+clean\b/);
     expect(source).not.toMatch(/git\s+stash\b/);
     expect(source).toContain('["reset", "--keep", remote]');
+  });
+
+  it("drops the checkout v6 includeIf PAT before each batch push token", () => {
+    const root = mkdtempSync(path.join(tmpdir(), "jobradar-token-"));
+    temps.push(root);
+    const work = path.join(root, "work");
+    const credentials = path.join(root, "git-credentials-11111111-2222-4333-8444-555555555555.config");
+    const containerCredentials =
+      "/github/runner_temp/git-credentials-aaaaaaaa-bbbb-4ccc-8ddd-eeeeeeeeeeee.config";
+    const kept = path.join(root, "kept.config");
+    git(root, ["init", "-b", "main", work]);
+    const gitDir = git(work, ["rev-parse", "--absolute-git-dir"]).replaceAll("\\", "/");
+    git(work, ["remote", "add", "origin", "https://github.com/Donkey0322/JobRadar-AI.git"]);
+    writeFileSync(credentials, "");
+    writeFileSync(kept, "");
+    git(work, [
+      "config",
+      "--file",
+      credentials,
+      "http.https://github.com/.extraheader",
+      "AUTHORIZATION: basic checkout-pat",
+    ]);
+    git(work, ["config", "--file", kept, "user.email", "kept@example.com"]);
+    git(work, ["config", "--local", `includeIf.gitdir:${gitDir}.path`, credentials]);
+    git(work, ["config", "--local", "includeIf.gitdir:/github/workspace/.git.path", containerCredentials]);
+    git(work, ["config", "--local", "includeIf.gitdir:**/.git.path", kept]);
+    git(work, [
+      "config",
+      "--local",
+      "http.https://github.com/.extraheader",
+      "AUTHORIZATION: basic checkout-pat",
+    ]);
+
+    git(work, ["config", "--local", "--unset-all", "http.https://github.com/.extraheader"]);
+    const leaked = git(work, ["config", "--includes", "--get-all", "http.https://github.com/.extraheader"]);
+    expect(leaked).toContain("AUTHORIZATION: basic checkout-pat");
+    const localOnly = gitResult(work, ["config", "--local", "--get-regexp", "extraheader"]);
+    expect(localOnly.status).not.toBe(0);
+
+    const apply = (token: string) => {
+      const applied = spawnSync("bash", [USE_PUSH_TOKEN, token, "Donkey0322/JobRadar-AI"], {
+        cwd: work,
+        encoding: "utf8",
+        env: gitEnv(),
+      });
+      expect(applied.status, applied.stderr).toBe(0);
+      expect(applied.stdout).not.toContain(token);
+      expect(applied.stdout).not.toContain("checkout-pat");
+      return applied;
+    };
+
+    apply("built-in-token");
+    const dataHeader = gitResult(work, [
+      "config",
+      "--includes",
+      "--get-all",
+      "http.https://github.com/.extraheader",
+    ]);
+    expect(`${dataHeader.stdout}${dataHeader.stderr}`).not.toContain("checkout-pat");
+    expect(dataHeader.stdout).not.toContain("AUTHORIZATION:");
+    expect(git(work, ["remote", "get-url", "origin"])).toBe(
+      "https://x-access-token:built-in-token@github.com/Donkey0322/JobRadar-AI.git"
+    );
+    expect(git(work, ["config", "--includes", "--get", "user.email"])).toBe("kept@example.com");
+    expect(existsSync(credentials)).toBe(false);
+
+    apply("board-pat");
+    const boardHeader = gitResult(work, [
+      "config",
+      "--includes",
+      "--get-all",
+      "http.https://github.com/.extraheader",
+    ]);
+    expect(`${boardHeader.stdout}${boardHeader.stderr}`).not.toContain("checkout-pat");
+    expect(boardHeader.stdout).not.toContain("built-in-token");
+    expect(boardHeader.stdout).not.toContain("AUTHORIZATION:");
+    expect(git(work, ["remote", "get-url", "origin"])).toBe(
+      "https://x-access-token:board-pat@github.com/Donkey0322/JobRadar-AI.git"
+    );
   });
 
   it("stops the command group at the deadline and keeps the command status", () => {

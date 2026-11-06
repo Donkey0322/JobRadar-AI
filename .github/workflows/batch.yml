@@ -44,6 +44,7 @@ jobs:
           fetch-depth: 1
           ref: ${{ github.ref_name }}
           token: ${{ secrets.PAT }}
+          persist-credentials: false
 
       - name: Check whether queued or inflight work exists
         id: check
@@ -75,5 +76,6 @@ jobs:
           PAT: ${{ secrets.PAT }}
         uses: ./.github/actions/batch-work
         with:
-          token: ${{ secrets.PAT }}
+          token: ${{ github.token }}
+          publish_token: ${{ secrets.PAT }}
           ref: ${{ github.ref_name }}

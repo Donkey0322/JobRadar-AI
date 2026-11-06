@@ -3,8 +3,12 @@ description: Submit queued jobs, publish the checkpoint, then collect and publis
 
 inputs:
   token:
-    description: Token used to fetch and push
+    description: Token used to push the checkpoint and collect commits
     required: true
+  publish_token:
+    description: Token used to push board updates. Defaults to token.
+    required: false
+    default: ""
   ref:
     description: Branch to update
     required: true
@@ -72,7 +76,7 @@ runs:
       with:
         data_sha: ${{ steps.checkpoint_route.outputs.data_sha }}
         notify: ${{ steps.checkpoint_route.outputs.notify }}
-        token: ${{ inputs.token }}
+        token: ${{ inputs.publish_token || inputs.token }}
         ref: ${{ inputs.ref }}
 
     # continue-on-error on the checkpoint publish keeps success() true, so a
@@ -137,7 +141,7 @@ runs:
       with:
         data_sha: ${{ steps.collect_route.outputs.data_sha }}
         notify: ${{ steps.collect_route.outputs.notify }}
-        token: ${{ inputs.token }}
+        token: ${{ inputs.publish_token || inputs.token }}
         ref: ${{ inputs.ref }}
 
     - name: Fail when checkpoint publish failed

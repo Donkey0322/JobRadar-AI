@@ -9,8 +9,10 @@ run-name: 📬 Publish data changes
 # commits array holds at most 2048 commits; the Events API timeline cap of 20
 # does not apply to this payload. A shorter list is the whole push. A list of
 # 2048 may be truncated, and the job fails instead of notifying from that list.
-# Pipeline commits are skipped here because Jobs, Batch, and Add Job already
-# publish the saved data commit.
+# Jobs and Batch push their own data commits with the built-in token, so GitHub
+# does not create a run for those pushes. The job skip below still drops a PAT
+# push of the same subjects, including Add Job. Maintenance and direct edits
+# use a token that starts this workflow.
 on:
   push:
     paths:

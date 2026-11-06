@@ -20,7 +20,7 @@ runs:
         REPOSITORY: ${{ github.repository }}
       run: |
         set -euo pipefail
-        git remote set-url origin "https://x-access-token:${TOKEN}@github.com/${REPOSITORY}.git"
+        bash .github/scripts/use-push-token.sh "$TOKEN" "$REPOSITORY"
 
         plan_rebase() {
           local unshallowed="$1"

@@ -58,6 +58,7 @@ jobs:
           fetch-depth: 1
           ref: ${{ github.ref_name }}
           token: ${{ secrets.PAT }}
+          persist-credentials: false
 
       - name: Choose scan or sync
         id: calendar
@@ -138,7 +139,8 @@ jobs:
         if: ${{ success() && !cancelled() && steps.save.outcome == 'success' }}
         uses: ./.github/actions/rebase-push
         with:
-          token: ${{ secrets.PAT }}
+          # This commit is published in the next step. The built-in token does not start another workflow.
+          token: ${{ github.token }}
           ref: ${{ github.ref_name }}
 
       - name: Record saved data commit
@@ -175,5 +177,6 @@ jobs:
           PAT: ${{ secrets.PAT }}
         uses: ./.github/actions/batch-work
         with:
-          token: ${{ secrets.PAT }}
+          token: ${{ github.token }}
+          publish_token: ${{ secrets.PAT }}
           ref: ${{ github.ref_name }}

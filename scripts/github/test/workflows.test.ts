@@ -139,6 +139,112 @@ describe("publish routing", () => {
     ).toEqual({ run: true, board: true, notify: true });
   });
 
+  it("uses the built-in token for pipeline data pushes and PAT for the publish entry", () => {
+    const jobs = workflow("jobs.yml");
+    const batchWorkflow = workflow("batch.yml");
+    const batch = action("batch-work");
+    const maintenance = workflow("maintenance.yml");
+    const issue = workflow("add-job-from-issue.yml");
+    const setup = workflow("setup-from-issue.yml");
+    const publishData = workflow("publish-data.yml");
+
+    const dataPush = stepBlocks(jobs).find((block) => block.includes("Rebase and push data"));
+    expect(dataPush).toContain("token: ${{ github.token }}");
+    expect(dataPush).not.toContain("secrets.PAT");
+    expect(jobs).toContain("contents: write");
+    expect(stepBlocks(jobs).some((block) => block.includes("token: ${{ secrets.PAT }}"))).toBe(true);
+
+    const checkout = (source: string) =>
+      stepBlocks(source).find((block) => block.includes("actions/checkout@v6"));
+    expect(checkout(jobs)).toContain("persist-credentials: false");
+    expect(checkout(batchWorkflow)).toContain("persist-credentials: false");
+    for (const name of [
+      "maintenance.yml",
+      "add-job-from-issue.yml",
+      "setup-from-issue.yml",
+      "publish-data.yml",
+      "publish-jobs.yml",
+    ]) {
+      expect(checkout(workflow(name))).not.toContain("persist-credentials");
+    }
+
+    const saved = stepBlocks(jobs).find((block) => block.includes("Publish saved data"));
+    expect(saved).toContain("data_sha: ${{ steps.saved.outputs.data_sha }}");
+    expect(saved).toContain("token: ${{ secrets.PAT }}");
+    expect(jobs).toContain('echo "data_sha=$(git rev-parse HEAD)"');
+
+    for (const source of [jobs, batchWorkflow]) {
+      const work = stepBlocks(source).find((block) =>
+        block.includes("uses: ./.github/actions/batch-work")
+      );
+      expect(work).toContain("token: ${{ github.token }}");
+      expect(work).toContain("publish_token: ${{ secrets.PAT }}");
+      expect(work).toContain("PAT: ${{ secrets.PAT }}");
+    }
+    expect(batchWorkflow).toContain("contents: write");
+
+    const checkpoint = batch.slice(
+      batch.indexOf("Push inflight checkpoint"),
+      batch.indexOf("Classify checkpoint commit")
+    );
+    const collected = batch.slice(
+      batch.indexOf("Push collected results"),
+      batch.indexOf("Classify collected data commit")
+    );
+    expect(checkpoint).toContain("token: ${{ inputs.token }}");
+    expect(checkpoint).not.toContain("publish_token");
+    expect(collected).toContain("token: ${{ inputs.token }}");
+    expect(collected).not.toContain("publish_token");
+    expect(batch).toContain("token: ${{ inputs.publish_token || inputs.token }}");
+
+    const maintenancePush = stepBlocks(maintenance).find((block) =>
+      block.includes("uses: ./.github/actions/rebase-push")
+    );
+    expect(maintenancePush).toContain("token: ${{ secrets.PAT }}");
+    expect(maintenancePush).not.toContain("github.token");
+    expect(routePush("chore(clean-outdated-url): clean outdated url", ["data/jobs.ndjson"]).run).toBe(
+      true
+    );
+
+    for (const block of stepBlocks(issue).filter(
+      (block) =>
+        block.includes("uses: ./.github/actions/rebase-push") ||
+        block.includes("uses: ./.github/actions/batch-work")
+    )) {
+      expect(block).toContain("token: ${{ secrets.PAT }}");
+      expect(block).not.toContain("github.token");
+      expect(block).not.toContain("publish_token");
+    }
+    expect(stepBlocks(setup).find((block) => block.includes("rebase-push"))).toContain(
+      "token: ${{ secrets.PAT }}"
+    );
+
+    expect(publishData).toContain("push:");
+    expect(publishData).toContain("group: job-data-sync");
+    expect(publishData).toContain("queue: max");
+    expect(publishData).toContain(
+      "!startsWith(github.event.head_commit.message, 'chore(discovery):')"
+    );
+    expect(action("rebase-push")).toContain("bash .github/scripts/use-push-token.sh");
+    const publishSaved = action("publish-saved");
+    expect(publishSaved).toContain("bash .github/scripts/use-push-token.sh");
+    const ensure = publishSaved.slice(
+      publishSaved.indexOf("Ensure the notification commits are present"),
+      publishSaved.indexOf("Check whether this repo sends notifications")
+    );
+    expect(ensure.indexOf("bash .github/scripts/use-push-token.sh")).toBeGreaterThan(-1);
+    expect(ensure.indexOf("bash .github/scripts/use-push-token.sh")).toBeLessThan(
+      ensure.indexOf("git fetch")
+    );
+    const fastForward = publishSaved.slice(publishSaved.indexOf("Fast-forward to the branch tip"));
+    expect(fastForward.indexOf("bash .github/scripts/use-push-token.sh")).toBeLessThan(
+      fastForward.indexOf("git fetch")
+    );
+    const rebase = action("rebase-push");
+    expect(rebase.indexOf("bash .github/scripts/use-push-token.sh")).toBeLessThan(rebase.indexOf("git fetch"));
+    expect(rebase.indexOf("bash .github/scripts/use-push-token.sh")).toBeLessThan(rebase.indexOf("git push"));
+  });
+
   it("refreshes the board for config, opportunities, archive, and the render script", () => {
     expect(routePush("chore: update config from setup issue #4", ["config.json"])).toEqual({
       run: true,
