@@ -44,6 +44,7 @@ import { classifyJdFetch, cleanUrls, formatCleanStatus, runClean, unknownReason 
 
 import { companyKey } from "@/modules/employer/build";
 import { companyKeyFromUrl } from "@/modules/employer/keys";
+import { AppleCompany } from "@/modules/employer/listing/custom/apple";
 import { leverBoard } from "@/modules/employer/listing/lever";
 import { workdayBoard } from "@/modules/employer/listing/workday";
 import { HttpStatusCode, JD_FETCH_ERROR, JD_FETCH_OK } from "@/modules/posting/jd";
@@ -1151,6 +1152,179 @@ describe("runClean", () => {
     expect(calls.filter((url) => url.endsWith("/jobs/9001"))).toHaveLength(7);
     expect(calls.filter((url) => url.endsWith("/jobs/9002"))).toHaveLength(7);
     expect(calls.some((url) => url.includes("boards.greenhouse.io"))).toBe(false);
+  });
+
+  it("replaces Apple JD attempts with listing hits for the same fixture", async () => {
+    const onFirstPage = "https://jobs.apple.com/en-us/details/111111111/role?team=SFTWR";
+    const onSecondPage = "https://jobs.apple.com/en-us/details/222222222/role?team=SFTWR";
+    const absent = "https://jobs.apple.com/en-us/details/333333333/role?team=SFTWR";
+    const urls = [onFirstPage, onSecondPage, absent];
+    const card = (id: string) =>
+      `<li><a href="/en-us/details/${id}/role">Software Engineer Intern</a><span class="job-posted-date">Jan 1, 2020</span></li>`;
+    const page = (body: string, status = 200) =>
+      new Response(`<ul id="search-job-list">${body}</ul>`, {
+        status,
+        statusText: status === 200 ? "OK" : "Error",
+        headers: { "content-type": "text/html" },
+      });
+    const jd = vi.fn(async (url: string) => {
+      expect(url).toContain("jobs.apple.com");
+      return ok();
+    });
+
+    const before = await runClean({
+      urls,
+      companies: [AppleCompany],
+      hooks: {
+        sleep: async () => undefined,
+        random: () => 0,
+        checkListing: async (_company, companyUrls) => ({ listed: [], unverified: [...companyUrls] }),
+        fetchJd: jd,
+      },
+    });
+
+    expect(before.listingPages).toBe(0);
+    expect(before.listingHits).toBe(0);
+    expect(before.jdAttempts).toBe(3);
+    expect(jd).toHaveBeenCalledTimes(3);
+
+    const requested: string[] = [];
+    vi.stubGlobal("fetch", (input: RequestInfo | URL) => {
+      const url = new URL(String(input));
+      const number = url.searchParams.get("page") ?? "";
+      requested.push(number);
+      if (number === "1") return Promise.resolve(page(card("111111111")));
+      if (number === "2") return Promise.resolve(page(card("222222222")));
+      if (number === "3") return Promise.resolve(page(""));
+      return Promise.reject(new Error(`unexpected page ${number}`));
+    });
+    jd.mockClear();
+
+    const after = await runClean({
+      urls,
+      companies: [AppleCompany],
+      hooks: { sleep: async () => undefined, random: () => 0, fetchJd: jd },
+    });
+
+    expect(requested).toEqual(["1", "2", "3"]);
+    expect(after.listingPages).toBe(3);
+    expect(after.listingHits).toBe(2);
+    expect(after.jdAttempts).toBe(1);
+    expect(jd.mock.calls.map((call) => call[0])).toEqual([absent]);
+    expect(after.byAts.find((row) => row.ats === "custom")).toMatchObject({
+      urls: 3,
+      listingHits: 2,
+      jdAttempts: 1,
+    });
+    expect(before.jdAttempts - after.jdAttempts).toBe(2);
+  });
+
+  it("skips the JD when the Apple URL is on the first listing page", async () => {
+    const url = "https://jobs.apple.com/en-us/details/111111111/role?team=SFTWR";
+    const requested: string[] = [];
+    vi.stubGlobal("fetch", (input: RequestInfo | URL) => {
+      const page = new URL(String(input)).searchParams.get("page") ?? "";
+      requested.push(page);
+      if (page !== "1") return Promise.reject(new Error(`unexpected page ${page}`));
+      return Promise.resolve(
+        new Response(
+          `<ul id="search-job-list"><li><a href="/en-us/details/111111111/role">Software Engineer Intern</a></li></ul>`,
+          { status: 200, headers: { "content-type": "text/html" } }
+        )
+      );
+    });
+
+    const report = await runClean({
+      urls: [url],
+      companies: [AppleCompany],
+      hooks: {
+        sleep: async () => undefined,
+        random: () => 0,
+        fetchJd: async () => {
+          throw new Error("JD was requested");
+        },
+      },
+    });
+
+    expect(requested).toEqual(["1"]);
+    expect(report.listingPages).toBe(1);
+    expect(report.listingHits).toBe(1);
+    expect(report.jdAttempts).toBe(0);
+  });
+
+  it("confirms an Apple URL found on a later page and sends the rest to JD when that page fails", async () => {
+    const early = "https://jobs.apple.com/en-us/details/111111111/role";
+    const later = "https://jobs.apple.com/en-us/details/222222222/role?team=SFTWR";
+    const missing = "https://jobs.apple.com/en-us/details/333333333/role";
+    const card = (id: string) =>
+      `<li><a href="/en-us/details/${id}/role">Software Engineer Intern</a><span class="job-posted-date">Jan 1, 2020</span></li>`;
+
+    const crossPages: string[] = [];
+    vi.stubGlobal("fetch", (input: RequestInfo | URL) => {
+      const page = new URL(String(input)).searchParams.get("page") ?? "";
+      crossPages.push(page);
+      if (page === "1") {
+        return Promise.resolve(
+          new Response(`<ul id="search-job-list">${card("999999999")}</ul>`, { status: 200 })
+        );
+      }
+      if (page === "2") {
+        return Promise.resolve(
+          new Response(`<ul id="search-job-list">${card("222222222")}</ul>`, { status: 200 })
+        );
+      }
+      return Promise.reject(new Error(`unexpected page ${page}`));
+    });
+
+    const cross = await runClean({
+      urls: [later],
+      companies: [AppleCompany],
+      hooks: {
+        sleep: async () => undefined,
+        random: () => 0,
+        fetchJd: async () => {
+          throw new Error("JD was requested");
+        },
+      },
+    });
+
+    expect(crossPages).toEqual(["1", "2"]);
+    expect(cross.listingPages).toBe(2);
+    expect(cross.listingHits).toBe(1);
+    expect(cross.jdAttempts).toBe(0);
+
+    const failedPages: string[] = [];
+    const jdUrls: string[] = [];
+    vi.stubGlobal("fetch", (input: RequestInfo | URL) => {
+      const page = new URL(String(input)).searchParams.get("page") ?? "";
+      failedPages.push(page);
+      if (page === "1") {
+        return Promise.resolve(
+          new Response(`<ul id="search-job-list">${card("111111111")}</ul>`, { status: 200 })
+        );
+      }
+      if (page === "2") return Promise.resolve(new Response("", { status: 500, statusText: "Error" }));
+      return Promise.reject(new Error(`unexpected page ${page}`));
+    });
+
+    const failed = await runClean({
+      urls: [early, missing],
+      companies: [AppleCompany],
+      hooks: {
+        sleep: async () => undefined,
+        random: () => 0,
+        fetchJd: async (url: string) => {
+          jdUrls.push(url);
+          return ok();
+        },
+      },
+    });
+
+    expect(failedPages).toEqual(["1", "2"]);
+    expect(failed.listingPages).toBe(2);
+    expect(failed.listingHits).toBe(1);
+    expect(failed.jdAttempts).toBe(1);
+    expect(jdUrls).toEqual([missing]);
   });
 });
 

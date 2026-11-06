@@ -5,7 +5,9 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Company, Job } from "@/types";
 
+import { getJobKey } from "@/modules/ats/job-key";
 import { logListingFailure, logListingStatus } from "@/modules/employer/failure";
+import { type ListingScan, listingTargetsFound } from "@/modules/employer/listing-scan";
 import { createJDFetchSignal } from "@/modules/posting/jd/signal";
 import { Posting } from "@/modules/posting/posting";
 import { logger } from "@/utils/logger";
@@ -112,6 +114,62 @@ function normalizeAppleJob(job: AppleJob): Job {
     link: job.link,
     location: job.location ?? "",
   };
+}
+
+/**
+ * Unfiltered listing pages for liveness. Discovery `fetchApple` keeps its own
+ * recency and title filters and does not use this scan.
+ * A later page that is empty stops the walk. A failed request or thrown parse
+ * keeps keys already seen and leaves the rest unconfirmed.
+ */
+export async function collectAppleListingJobs(
+  company: Company,
+  signal: AbortSignal,
+  scan?: ListingScan
+): Promise<Job[] | null> {
+  const jobs: Job[] = [];
+  const found = new Set<string>();
+
+  try {
+    for (let page = 1; page <= MAX_PAGES; page++) {
+      scan?.onPage?.();
+      const html = await fetchAppleHtml(company, page, signal);
+
+      if (html === "") {
+        return jobs.length > 0 ? jobs : null;
+      }
+
+      const rawJobs = parseAppleJobs(html);
+      if (rawJobs.length === 0) {
+        break;
+      }
+
+      for (const raw of rawJobs) {
+        const job = normalizeAppleJob(raw);
+        jobs.push(job);
+        if (job.link) found.add(getJobKey(job.link));
+      }
+
+      if (listingTargetsFound(found, scan)) break;
+    }
+
+    return jobs;
+  } catch (error) {
+    if (await logListingFailure("Apple", company, error)) {
+      return jobs.length > 0 ? jobs : null;
+    }
+
+    if (error instanceof Error && error.name === "TimeoutError") {
+      logger.error(
+        { err: "TimeoutError", company: company.name, url: company.page },
+        `${RED_CROSS} Error fetching apple jobs`
+      );
+      return jobs.length > 0 ? jobs : null;
+    }
+
+    logger.error({ err: error, company: company.name }, `${RED_CROSS} Error fetching apple jobs`);
+    return jobs.length > 0 ? jobs : null;
+  }
 }
 
 export async function fetchApple(

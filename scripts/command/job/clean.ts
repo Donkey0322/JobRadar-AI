@@ -270,7 +270,7 @@ export interface CleanReport {
   elapsedMs: number;
   /**
    * Listing pages reported by the default one-request collector and by Workday,
-   * Eightfold, and Phenom. Other board overrides do not report each page.
+   * Eightfold, Phenom, and Apple. Other board overrides do not report each page.
    */
   listingPages: number;
   listingHits: number;

@@ -2,12 +2,13 @@
 
 import { RED_CROSS } from "@/constants/log";
 
+import type { ListingScan } from "@/modules/employer/listing-scan";
 import type { Company, Job } from "@/types";
 
 import { Board } from "../../employer";
 
 import { AmazonCompany, fetchAmazon } from "./amazon";
-import { AppleCompany, fetchApple } from "./apple";
+import { AppleCompany, collectAppleListingJobs, fetchApple } from "./apple";
 import { ByteDanceCompany, fetchByteDance } from "./bytedance";
 import { fetchGoogle, GoogleCompany } from "./google";
 import { fetchMeta, MetaCompany } from "./meta";
@@ -92,6 +93,18 @@ export class CustomBoard extends Board<Job> {
   protected normalizeJob(job: Job, _company: Company): Job {
     void _company;
     return job;
+  }
+
+  protected async collectListingJobs(
+    company: Company,
+    signal: AbortSignal,
+    scan?: ListingScan
+  ): Promise<Job[] | null> {
+    if (company.page && parseCustomCompanyIdentifier(new URL(company.page)) === "apple") {
+      return collectAppleListingJobs(company, signal, scan);
+    }
+
+    return super.collectListingJobs(company, signal, scan);
   }
 
   async fetch(
