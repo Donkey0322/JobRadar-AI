@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">L3Harris</td>
+      <td width="420" align="left" valign="top">Systems Engineering Intern</td>
+      <td width="180" align="left" valign="top">Salt Lake City, UT</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.l3harris.com/job/Salt-Lake-City-Systems-Engineering-Intern-UT-84116/1438190600/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 6</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Draper</td>
       <td width="420" align="left" valign="top">GNC Systems Engineering Co-Op (Spring 2027)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Cambridge, MA</td>
@@ -2106,17 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://careers-gdms.icims.com/jobs/75775/software-intern-engineer/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 22</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">L3harris</td>
-      <td width="420" align="left" valign="top">Intern, Software Engineer Engineering|Co Op/Intern Tulsa, OK<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Tulsa, OK</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.l3harris.com/job/tulsa/intern-software-engineer/4832/102294878784"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 22</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,800 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,801 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-06T18:12:22.472Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-06T18:16:23.173Z</code></sub>
