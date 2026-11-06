@@ -3644,6 +3644,10 @@
       "https://careers.amd.com/jobs/93936?icims=1",
       "https://careers.amd.com/jobs/93937?icims=1",
       "https://careers.amd.com/jobs/93938?icims=1",
+      "https://careers.amd.com/jobs/93944?icims=1",
+      "https://careers.amd.com/jobs/93946?icims=1",
+      "https://careers.amd.com/jobs/94253?icims=1",
+      "https://careers.amd.com/jobs/94259?icims=1",
       "https://careers.amd.com/jobs/94265?icims=1",
       "https://careers.amd.com/jobs/96095?icims=1",
       "https://careers.amd.com/jobs/96121?icims=1",
@@ -24243,7 +24247,8 @@
     "domain": "https://ebwb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job",
     "page": "https://ebwb.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
     "urls": [
-      "https://ebwb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/12481"
+      "https://ebwb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/12481",
+      "https://ebwb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/12678"
     ]
   },
   {
@@ -24948,7 +24953,8 @@
     "domain": "https://huntsman.wd1.myworkdayjobs.com/huntsman",
     "page": "https://huntsman.wd1.myworkdayjobs.com/wday/cxs/huntsman/huntsman/jobs",
     "urls": [
-      "https://huntsman.wd1.myworkdayjobs.com/huntsman/job/Costa-Rica---Heredia/Global-Supply-Chain-Data-Analyst--Temporary-_J-019858"
+      "https://huntsman.wd1.myworkdayjobs.com/huntsman/job/Costa-Rica---Heredia/Global-Supply-Chain-Data-Analyst--Temporary-_J-019858",
+      "https://huntsman.wd1.myworkdayjobs.com/huntsman/job/Poland---Krakow/Intern---Data-Science-Engineering_J-020460"
     ]
   },
   {
@@ -26845,6 +26851,7 @@
       "https://jobs.baesystems.com/global/en/job/132328BR?ph_id=132328BR",
       "https://jobs.baesystems.com/global/en/job/132357BR?ph_id=132357BR",
       "https://jobs.baesystems.com/global/en/job/132362BR?ph_id=132362BR",
+      "https://jobs.baesystems.com/global/en/job/132364BR?ph_id=132364BR",
       "https://jobs.baesystems.com/global/en/job/132370BR?ph_id=132370BR",
       "https://jobs.baesystems.com/global/en/job/132378BR?ph_id=132378BR",
       "https://jobs.baesystems.com/global/en/job/132383BR?ph_id=132383BR",
@@ -34022,12 +34029,14 @@
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Engineering-Intern--Test-Development---2027_JR2027707",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-QA-Developer-Intern---2027_JR2023654",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Software-Test-Developer--SDET---Robotics_JR2024862",
+      "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/System-Software-Engineer-Intern---Autonomous-Vehicles---2027_JR2028135",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/System-Software-Engineer-Intern--Embedded---2027_JR2028298",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Test-Development-Software-Engineering-Intern---2027_JR2023632",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Test-Development-Software-Engineering-Intern---2027_JR2027347",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Test-Development-Software-Engineering-Intern---2027_JR2027472",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Test-Development-Software-Engineering-Intern--Aerial---2027_JR2023852",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shenzhen/System-Design-Engineer---Components_JR2020977",
+      "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shenzhen/System-Software-Engineer-Intern--Autonomous-Vehicles---2027_JR2028172",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Denmark-Roskilde/System-Optic-PHY-Engineer_JR2025967",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Denmark-Roskilde/System-Software-Architecture-Researcher---PhD-Program_JR2022429",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Germany-Munich/AI-Developer-Technology-Intern---2027_JR2027497",
@@ -34543,6 +34552,7 @@
       "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/PUN-MIC-T-4/XMLNAME-NET-Full-Stack-Developer_R-30964",
       "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/SAN-C/Field-Service-Engineer---SW---Systems-Admin-for-Medical-Device-Vendor--LA--San-Diego_R-30282-1",
       "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/SAN-C/Sr-Field-Service-Engineer---SW---LA-San-Diego--CA_R-28977-1",
+      "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/YOW-B/Embedded-Software-Developer-Co-op_R-31948",
       "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/YWG-BW/Software-Developer-Co-op---Red-River-College_R-30142"
     ]
   },
@@ -45472,6 +45482,7 @@
     "urls": [
       "https://tmobile.wd1.myworkdayjobs.com/External/job/Atlanta-Georgia/Summer-2027-Software-Engineering-Internship_REQ380650",
       "https://tmobile.wd1.myworkdayjobs.com/External/job/Atlanta-Georgia/Summer-2027-Software-Engineering-Internship_REQ380652",
+      "https://tmobile.wd1.myworkdayjobs.com/External/job/Bellevue-Washington/T-Ads-Engineer--Software-Full-Stack_REQ376574-1",
       "https://tmobile.wd1.myworkdayjobs.com/External/job/New-York-New-York/T-Ads-Sr-Engineer--Software_REQ374810-1",
       "https://tmobile.wd1.myworkdayjobs.com/External/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380734",
       "https://tmobile.wd1.myworkdayjobs.com/External/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380739",
