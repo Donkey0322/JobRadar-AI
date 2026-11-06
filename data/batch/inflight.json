@@ -1,1 +1,57 @@
-[]
+[
+  {
+    "name": "batches/lqcoaaidab3h7mv4i0ycsrl5hbmj8cbexz6l",
+    "submittedAt": "2026-11-06T01:21:26.248Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Western Alliance Bancorporation",
+        "role": "Platform Engineering Intern",
+        "link": "https://westernalliancebank.wd5.myworkdayjobs.com/WAB/job/Dallas-TX/Summer-2027-Internship---Dallas--TX---Platform-Engineering_R14019",
+        "location": "Dallas, TX"
+      },
+      {
+        "company": "Western Alliance Bancorporation",
+        "role": "Platform Engineering Intern",
+        "link": "https://westernalliancebank.wd5.myworkdayjobs.com/WAB/job/Columbus-OH/Summer-2027-Internship---Columbus--OH---Platform-Engineering_R14024",
+        "location": "Columbus, OH"
+      },
+      {
+        "company": "V2X",
+        "role": "AI Engineering Intern",
+        "link": "https://careers.gov2x.com/jobs/63949?icims=1&lang=en-us",
+        "location": "Indianapolis, IN"
+      },
+      {
+        "company": "V2X",
+        "role": "AI Engineer Intern",
+        "link": "https://careers.gov2x.com/jobs/63948?icims=1&lang=en-us",
+        "location": "Indianapolis, IN"
+      },
+      {
+        "company": "Lnw",
+        "role": "Software Engineering Intern",
+        "link": "https://lnw.wd5.myworkdayjobs.com/LightWonderExternalCareers/job/Reno-NV/Intern-Software-Engineering_R322885",
+        "location": "Reno, NV"
+      },
+      {
+        "company": "Recruiting.paylocity.com",
+        "role": "Software Engineer Intern",
+        "link": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4640548",
+        "location": "Westerville, OH"
+      },
+      {
+        "company": "First National Bank",
+        "role": "Data Analytics Engineer 1 🛂",
+        "link": "https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Data-Analytics-Engineer-1---Pittsburgh-or-Hermitage--PA_2026-02664",
+        "location": "Pittsburgh, PA</br>Hermitage, PA"
+      },
+      {
+        "company": "Lumbermen's",
+        "role": "Software Developer Intern",
+        "link": "https://job-boards.greenhouse.io/lumbermens/jobs/5474346008",
+        "location": "Grand Rapids, MI"
+      }
+    ]
+  }
+]
