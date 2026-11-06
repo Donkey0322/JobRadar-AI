@@ -1,350 +1,156 @@
 [
   {
-    "name": "batches/bzlxhwg5yzul9ey0kjccclxuh21za03dpwxv",
-    "submittedAt": "2026-11-06T15:59:04.584Z",
-    "phase": "screen",
+    "name": "batches/oodsrd6gl2bmg1kz2d16fv72u7pmavdk1x5r",
+    "submittedAt": "2026-11-06T16:07:44.085Z",
+    "phase": "qualifications",
     "jobs": [
-      {
-        "company": "Amazon",
-        "role": "System Development Engineer, OTS Delivery Software Engineering",
-        "link": "https://amazon.jobs/en/jobs/10598681",
-        "location": "US, TX, Austin",
-        "country": "USA"
-      },
-      {
-        "company": "Amazon",
-        "role": "Controls Engineer, Deployment, Data Center Capacity Delivery",
-        "link": "https://amazon.jobs/en/jobs/3122652",
-        "location": "US, PA, Berwick",
-        "country": "USA"
-      },
-      {
-        "company": "AMD",
-        "role": "SMTS Software System Design Engineer",
-        "link": "https://careers.amd.com/jobs/93938?icims=1",
-        "location": "PLYMOUTH, Minnesota",
-        "country": "USA"
-      },
-      {
-        "company": "AMD",
-        "role": "MTS Systems Design Engineer",
-        "link": "https://careers.amd.com/jobs/93937?icims=1",
-        "location": "Austin, Texas",
-        "country": "USA"
-      },
       {
         "company": "AMD",
         "role": "Software Development Engineer",
         "link": "https://careers.amd.com/jobs/93936?icims=1",
         "location": "Austin, Texas",
-        "country": "USA"
+        "country": "USA",
+        "jd": {
+          "citizenship": null,
+          "sponsorship": null,
+          "country": "USA",
+          "location": "Austin, TX, USA",
+          "qualifications": null,
+          "category": "entry level",
+          "season": "None"
+        }
       },
       {
         "company": "AMD",
         "role": "Software Development Engineer",
         "link": "https://careers.amd.com/jobs/93935?icims=1",
         "location": "Austin, Texas",
-        "country": "USA"
+        "country": "USA",
+        "jd": {
+          "citizenship": null,
+          "sponsorship": null,
+          "country": "USA",
+          "location": "Austin, TX, USA",
+          "qualifications": null,
+          "category": "entry level",
+          "season": "None"
+        }
       },
       {
         "company": "AMD",
         "role": "Software Development Engineer",
         "link": "https://careers.amd.com/jobs/93927?icims=1",
         "location": "Austin, Texas",
-        "country": "USA"
-      },
-      {
-        "company": "AMD",
-        "role": "SMTS Software Development Engineer",
-        "link": "https://careers.amd.com/jobs/93889?icims=1",
-        "location": "Austin, Texas",
-        "country": "USA"
+        "country": "USA",
+        "jd": {
+          "citizenship": null,
+          "sponsorship": null,
+          "country": "USA",
+          "location": "Austin, TX, USA",
+          "qualifications": null,
+          "category": "entry level",
+          "season": "None"
+        }
       },
       {
         "company": "AMD",
         "role": "Systems Design Engineer",
         "link": "https://careers.amd.com/jobs/93887?icims=1",
         "location": "Austin, Texas",
-        "country": "USA"
+        "country": "USA",
+        "jd": {
+          "citizenship": null,
+          "sponsorship": null,
+          "country": "USA",
+          "location": "Austin, TX, USA",
+          "qualifications": null,
+          "category": "entry level",
+          "season": "None"
+        }
       },
       {
         "company": "AMD",
         "role": "Systems Design Engineer",
         "link": "https://careers.amd.com/jobs/93883?icims=1",
         "location": "Austin, Texas",
-        "country": "USA"
-      },
-      {
-        "company": "AMD",
-        "role": "MTS Systems Design Engineer",
-        "link": "https://careers.amd.com/jobs/93881?icims=1",
-        "location": "Austin, Texas",
-        "country": "USA"
-      },
-      {
-        "company": "AMD",
-        "role": "PMTS Software Development Engineer",
-        "link": "https://careers.amd.com/jobs/93880?icims=1",
-        "location": "San Jose, California",
-        "country": "USA"
-      },
-      {
-        "company": "AMD",
-        "role": "MTS Systems Design Engineer",
-        "link": "https://careers.amd.com/jobs/93869?icims=1",
-        "location": "Austin, Texas",
-        "country": "USA"
-      },
-      {
-        "company": "AMD",
-        "role": "MTS Software System Design Engineer",
-        "link": "https://careers.amd.com/jobs/93867?icims=1",
-        "location": "Austin, Texas",
-        "country": "USA"
+        "country": "USA",
+        "jd": {
+          "citizenship": null,
+          "sponsorship": null,
+          "country": "USA",
+          "location": "Austin, TX, USA",
+          "qualifications": null,
+          "category": "entry level",
+          "season": "None"
+        }
       },
       {
         "company": "AMD",
         "role": "Systems Design Engineer",
         "link": "https://careers.amd.com/jobs/93862?icims=1",
         "location": "Austin, Texas",
-        "country": "USA"
-      },
-      {
-        "company": "AMD",
-        "role": "MTS Systems Engineer",
-        "link": "https://careers.amd.com/jobs/93859?icims=1",
-        "location": "Austin, Texas",
-        "country": "USA"
-      },
-      {
-        "company": "Anduril Industries",
-        "role": "Site Reliability Engineer, Strategic Defense",
-        "link": "https://boards.greenhouse.io/andurilindustries/jobs/5272039007?gh_jid=5272039007",
-        "location": "Washington, District of Columbia, United States",
-        "country": "USA"
+        "country": "USA",
+        "jd": {
+          "citizenship": null,
+          "sponsorship": null,
+          "country": "USA",
+          "location": "Austin, TX, USA",
+          "qualifications": null,
+          "category": "entry level",
+          "season": "None"
+        }
       },
       {
         "company": "ASM",
         "role": "Software Engineer - Early Career",
         "link": "https://www.asm.com/open-vacancies/?gh_jid=5019821101",
         "location": "US > Arizona > Phoenix",
-        "country": "USA"
-      },
+        "country": "USA",
+        "jd": {
+          "citizenship": null,
+          "sponsorship": null,
+          "country": "USA",
+          "location": "Phoenix, AZ, USA",
+          "qualifications": null,
+          "category": "entry level",
+          "season": "None"
+        }
+      }
+    ],
+    "screenCosts": {
+      "icims:careers.amd.com:93936": 0.0004678,
+      "icims:careers.amd.com:93935": 0.00027796,
+      "icims:careers.amd.com:93927": 0.00025618,
+      "icims:careers.amd.com:93887": 0.0004723,
+      "icims:careers.amd.com:93883": 0.00048535,
+      "icims:careers.amd.com:93862": 0.0004816,
+      "greenhouse:5019821101": 0.002374045
+    }
+  },
+  {
+    "name": "batches/7gi35e5s0d03jbvlm8x0v79uudvpd2cvw0si",
+    "submittedAt": "2026-11-06T16:07:48.539Z",
+    "phase": "screen",
+    "jobs": [
       {
-        "company": "Bpinternational",
-        "role": "Graduate – Digital – Data & AI and Digital Engineering – Houston",
-        "link": "https://bpinternational.wd3.myworkdayjobs.com/bpearlycareers/job/United-States-of-America---Texas---Houston/Graduate---Digital---Data---AI-and-Digital-Engineering---Houston_RQ117961-1",
-        "location": "United States of America - Texas - Houston",
-        "country": "USA"
-      },
-      {
-        "company": "Cat",
-        "role": "Connectivity Systems Engineer",
-        "link": "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Irving-Texas/Connectivity-Systems-Engineer_R0000404183",
-        "location": "Irving, Texas",
-        "country": "USA"
-      },
-      {
-        "company": "CHS, Inc.",
-        "role": "Business Process & Data Analyst (Experienced level)",
-        "link": "https://careers.chsinc.com/job/Inver-Grove-Heights-Business-Process-&-Data-Analyst-%28Experienced-level%29-MN-55077-1721/1448526900/",
-        "location": "Inver Grove Heights, MN, US, 55077-1721",
-        "country": "USA"
-      },
-      {
-        "company": "Citi",
-        "role": "Threat & Exposure Management Platform Engineer",
-        "link": "https://citi.wd5.myworkdayjobs.com/2/job/Irving-Texas-United-States/Threat---Exposure-Management-Platform-Engineer_26997074",
-        "location": "Irving Texas United States",
-        "country": "USA"
-      },
-      {
-        "company": "Freedom Technology Solutions Group",
-        "role": "AI Engineer 811",
-        "link": "https://job-boards.greenhouse.io/freedomconsulting/jobs/5287272007",
-        "location": "Annapolis Junction, MD",
-        "country": "USA"
-      },
-      {
-        "company": "Freedom Technology Solutions Group",
-        "role": "Backend Developer 810",
-        "link": "https://job-boards.greenhouse.io/freedomconsulting/jobs/5287240007",
-        "location": "Annapolis Junction, MD",
-        "country": "USA"
-      },
-      {
-        "company": "Google",
-        "role": "Software Engineer, AI/ML, Technical Delivery, Google Public Sector",
-        "link": "https://www.google.com/about/careers/applications/jobs/results/116649057224401606-software-engineer-aiml-technical-delivery-google-public-sector?sort_by=date&page=1",
-        "location": "Reston, VA, USA; Washington D.C., DC, USA",
-        "country": "USA"
-      },
-      {
-        "company": "Google",
-        "role": "UX Engineer, Search Design System",
-        "link": "https://www.google.com/about/careers/applications/jobs/results/131539193443558086-ux-engineer-search-design-system?sort_by=date&page=2",
-        "location": "Mountain View, CA, USA; New York, NY, USA; +2 more; +1 more",
-        "country": "USA"
-      },
-      {
-        "company": "Hearst",
-        "role": "AI Development Editor",
-        "link": "https://job-boards.greenhouse.io/hearst/jobs/4480343009",
-        "location": "San Francisco, CA, United States",
-        "country": "USA"
-      },
-      {
-        "company": "Hp",
-        "role": "Data Insights and Analytics (DIA) Financial Analyst",
-        "link": "https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Tlaquepaque-Jalisco-Mexico/Data-Insights-and-Analytics--DIA--Financial-Analyst_3160838",
-        "location": "2 Locations",
+        "company": "Nationwide",
+        "role": "Engineer, Software Engineer (Post Issue Optimization) - Java, Angular, and AWS - Entry Level",
+        "link": "https://nationwide.wd1.myworkdayjobs.com/nationwide_career/job/Ohio---Columbus-Three-Nationwide-Plaza/Engineer--Software-Engineer--Post-Issue-Optimization----Java--Angular--and-AWS---Entry-Level_100567",
+        "location": "",
         "country": "Unsure"
       },
       {
-        "company": "L3harris",
-        "role": "Specialist, Software Engineer (Cloud Developer) Engineering Patrick Air Force Base, FL",
-        "link": "https://careers.l3harris.com/job/patrick-air-force-base/specialist-software-engineer-cloud-developer/4832/102789756352",
-        "location": "Patrick Air Force Base, FL",
+        "company": "Rtx",
+        "role": "Auxiliary Power System Project Engineer (Onsite)",
+        "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-JUPITER-ADR--17900-Beeline-Hwy--ADR-BLDG/Auxiliary-Power-System-Project-Engineer--Onsite-_01873489-1",
+        "location": "US-FL-JUPITER-ADR ~ 17900 Beeline Hwy ~ ADR BLDG",
         "country": "USA"
       },
       {
-        "company": "L3harris",
-        "role": "Specialist, Systems Engineer Engineering Salt Lake City, UT",
-        "link": "https://careers.l3harris.com/job/salt-lake-city/specialist-systems-engineer/4832/102941813840",
-        "location": "Salt Lake City, UT",
-        "country": "USA"
-      },
-      {
-        "company": "Leidos",
-        "role": "Field Service Representative Systems Engineer CONUS",
-        "link": "https://leidos.wd5.myworkdayjobs.com/External/job/Bridgewater-VA/Field-Service-Representative-Systems-Engineer-CONUS_R-00195773",
-        "location": "Bridgewater, VA",
-        "country": "USA"
-      },
-      {
-        "company": "Leonardo DRS, Inc.",
-        "role": "Software Engineering Intern | Summer 2027",
-        "link": "https://careers.leonardodrs.com/job/Menomonee-Falls-Software-Engineering-Intern-Summer-2027-WI-53051/1428313900/",
-        "location": "Menomonee Falls, WI, US, 53051",
-        "country": "USA"
-      },
-      {
-        "company": "Livanova",
-        "role": "Software Test Engineer I",
-        "link": "https://livanova.wd5.myworkdayjobs.com/search/job/Houston-Texas-United-States/Software-Test-Engineer-I_JR-14953",
-        "location": "Houston, Texas, United States",
-        "country": "USA"
-      },
-      {
-        "company": "Lodestar",
-        "role": "Payload Systems Engineer (I) ",
-        "link": "https://job-boards.eu.greenhouse.io/lodestarspace/jobs/4987198101",
-        "location": "Los Angeles, US",
-        "country": "USA"
-      },
-      {
-        "company": "Microsoft",
-        "role": "Sr Digital Solution Engineer - Cloud & AI Data",
-        "link": "https://apply.careers.microsoft.com/careers/job/1970393557047461?domain=microsoft.com&8fold_id=1970393557047461",
-        "location": "United States, Multiple Locations, Multiple Locations",
-        "country": "USA"
-      },
-      {
-        "company": "Microsoft",
-        "role": "Digital Solution Engineer - Cloud & AI Infrastructure",
-        "link": "https://apply.careers.microsoft.com/careers/job/1970393557047462?domain=microsoft.com&8fold_id=1970393557047462",
-        "location": "United States, Multiple Locations, Multiple Locations",
-        "country": "USA"
-      },
-      {
-        "company": "Nokia",
-        "role": "Optical AI Software Engineer",
-        "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/41600",
-        "location": "United States",
-        "country": "USA"
-      },
-      {
-        "company": "Pae",
-        "role": "Systems Engineer, Flight Instrumentation (ES4)",
-        "link": "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-AL-Huntsville/Systems-Engineer--Flight-Instrumentation--ES4-_R0174744",
-        "location": "US-AL-Huntsville",
-        "country": "USA"
-      },
-      {
-        "company": "SAIC",
-        "role": "Systems Engineer",
-        "link": "https://eihu.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2616939",
-        "location": "Remote Work, IN, United States",
-        "country": "USA"
-      },
-      {
-        "company": "Schwab",
-        "role": "Software Developer Southlake, TX; Austin, TX Requisition ID: 2026-125547 Application deadline: 2026-11-11 Save for Later",
-        "link": "https://www.schwabjobs.com/job/southlake/software-developer/33727/100363971072",
-        "location": "Southlake, TX; Austin, TX",
-        "country": "USA"
-      },
-      {
-        "company": "Schwab",
-        "role": "Associate - Software Development & Engineering Southlake, TX; Austin, TX Requisition ID: 2026-129593 Application deadline: 2026-11-09 Save for Later",
-        "link": "https://www.schwabjobs.com/job/southlake/associate-software-development-and-engineering/33727/102941735568",
-        "location": "Southlake, TX; Austin, TX",
-        "country": "USA"
-      },
-      {
-        "company": "Scires",
-        "role": "Information Security Analyst",
-        "link": "https://careers-scires.icims.com/jobs/11764/information-security-analyst/job",
-        "location": "Unsure",
-        "country": "Unsure"
-      },
-      {
-        "company": "Sentara",
-        "role": "Business System Analyst - Remote",
-        "link": "https://sentara.wd1.myworkdayjobs.com/SCS/job/Virginia-Beach-VA/Business-System-Analyst---Remote_JR-104878",
-        "location": "Virginia Beach, VA",
-        "country": "USA"
-      },
-      {
-        "company": "Tmobile",
-        "role": "T-Ads Sr Engineer,  Software Full Stack",
-        "link": "https://tmobile.wd1.myworkdayjobs.com/External/job/Philadelphia-Pennsylvania/T-Ads-Sr-Engineer---Software-Full-Stack_REQ380194-1",
-        "location": "Philadelphia, Pennsylvania",
-        "country": "USA"
-      },
-      {
-        "company": "Tmobile",
-        "role": "Summer 2027 Software Engineering Internship",
-        "link": "https://tmobile.wd1.myworkdayjobs.com/External/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380739",
-        "location": "Overland Park, Kansas",
-        "country": "USA"
-      },
-      {
-        "company": "Tmobile",
-        "role": "Summer 2027 Software Engineering Internship",
-        "link": "https://tmobile.wd1.myworkdayjobs.com/External/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380734",
-        "location": "Overland Park, Kansas",
-        "country": "USA"
-      },
-      {
-        "company": "Trinzic",
-        "role": "SETA Systems Engineer (Mid)",
-        "link": "https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/Chantilly-Virginia/SETA-Systems-Engineer--Mid-_R3001131",
-        "location": "Chantilly, Virginia",
-        "country": "USA"
-      },
-      {
-        "company": "Uhaul",
-        "role": "Data Analyst Spring Internship",
-        "link": "https://uhaul.wd1.myworkdayjobs.com/uhauljobs/job/Phoenix-Arizona/Data-Analyst-Spring-Internship_R258909",
-        "location": "Phoenix, Arizona",
-        "country": "USA"
-      },
-      {
-        "company": "Xenergy",
-        "role": "Cloud Infrastructure Engineer IV",
-        "link": "https://xenergy.wd5.myworkdayjobs.com/x-energyus/job/Oak-Ridge-TN/Cloud-Infrastructure-Engineer-IV_R101408",
-        "location": "Oak Ridge, TN",
+        "company": "SpaceX",
+        "role": "Fluid Systems Engineer, Starlink Infrastructure",
+        "link": "https://boards.greenhouse.io/spacex/jobs/8926072002?gh_jid=8926072002",
+        "location": "Bastrop, TX",
         "country": "USA"
       }
     ]
