@@ -5772,7 +5772,8 @@
       "https://apply.workable.com/j/739753C003",
       "https://apply.workable.com/j/772CD136FF",
       "https://apply.workable.com/j/9B3CB646E8",
-      "https://apply.workable.com/j/CA15908E0A"
+      "https://apply.workable.com/j/CA15908E0A",
+      "https://apply.workable.com/persimmons-ai/j/E8AF3CDFB3"
     ]
   },
   {
@@ -20889,6 +20890,16 @@
     ]
   },
   {
+    "name": "fnbcorp",
+    "ats": "workday",
+    "identifier": "fnbcorp-fnbcorp",
+    "domain": "https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP",
+    "page": "https://fnbcorp.wd501.myworkdayjobs.com/wday/cxs/fnbcorp/FNBCORP/jobs",
+    "urls": [
+      "https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Data-Analytics-Engineer-1---Pittsburgh-or-Hermitage--PA_2026-02664"
+    ]
+  },
+  {
     "name": "foresters",
     "ats": "workday",
     "identifier": "foresters-forestersfinancialcareers",
@@ -29271,6 +29282,7 @@
       "https://lnw.wd5.myworkdayjobs.com/LightWonderExternalCareers/job/Chicago-IL/Associate-QA-Engineer--Software_R323051",
       "https://lnw.wd5.myworkdayjobs.com/LightWonderExternalCareers/job/Montreal-Canada/Front-End-Developer_R322983-1",
       "https://lnw.wd5.myworkdayjobs.com/LightWonderExternalCareers/job/Pune-India/QA-Engineer_R322947",
+      "https://lnw.wd5.myworkdayjobs.com/LightWonderExternalCareers/job/Reno-NV/Intern-Software-Engineering_R322885",
       "https://lnw.wd5.myworkdayjobs.com/LightWonderExternalCareers/job/USA-NV-Las-Vegas-6655-Bermuda/Software-Engineer_R321117"
     ]
   },
@@ -29682,6 +29694,16 @@
     "page": "https://api.lever.co/v0/postings/lumafield?mode=json",
     "urls": [
       "https://jobs.lever.co/lumafield/6915b531-14bd-45cd-a314-88145025b8cb/apply"
+    ]
+  },
+  {
+    "name": "lumbermens",
+    "ats": "greenhouse",
+    "identifier": "lumbermens",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/lumbermens/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/lumbermens/jobs/5474346008"
     ]
   },
   {
@@ -37824,7 +37846,8 @@
       "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4491829",
       "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4501054",
       "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4501273",
-      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4537849"
+      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4537849",
+      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4640548"
     ]
   },
   {
@@ -46968,7 +46991,10 @@
     "identifier": "careers.gov2x.com",
     "domain": "https://careers.gov2x.com",
     "page": "https://careers.gov2x.com/api/jobs",
-    "urls": []
+    "urls": [
+      "https://careers.gov2x.com/jobs/63948?icims=1&lang=en-us",
+      "https://careers.gov2x.com/jobs/63949?icims=1&lang=en-us"
+    ]
   },
   {
     "name": "valeo",
@@ -48489,6 +48515,17 @@
     "page": "https://api.lever.co/v0/postings/weride?mode=json",
     "urls": [
       "https://jobs.lever.co/weride/5a7cbc83-2381-482e-9d6d-e9c9d59ad63b/apply"
+    ]
+  },
+  {
+    "name": "westernalliancebank",
+    "ats": "workday",
+    "identifier": "westernalliancebank-wab",
+    "domain": "https://westernalliancebank.wd5.myworkdayjobs.com/WAB",
+    "page": "https://westernalliancebank.wd5.myworkdayjobs.com/wday/cxs/westernalliancebank/WAB/jobs",
+    "urls": [
+      "https://westernalliancebank.wd5.myworkdayjobs.com/WAB/job/Columbus-OH/Summer-2027-Internship---Columbus--OH---Platform-Engineering_R14024",
+      "https://westernalliancebank.wd5.myworkdayjobs.com/WAB/job/Dallas-TX/Summer-2027-Internship---Dallas--TX---Platform-Engineering_R14019"
     ]
   },
   {
