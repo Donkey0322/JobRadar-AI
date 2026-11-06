@@ -20,6 +20,7 @@ import { workdayBoard } from "../workday";
 import { getJobKey, toJobKeySet } from "@/modules/ats/job-key";
 import { isTarget } from "@/modules/posting/screening";
 import { errorLog } from "@/store";
+import { logger } from "@/utils/logger";
 
 const mockFetch = vi.fn<typeof fetch>();
 
@@ -31,6 +32,36 @@ function response(body: string, url: string, headers?: HeadersInit): Response {
 
 function jsonResponse(data: unknown, url: string): Response {
   return response(JSON.stringify(data), url, { "content-type": "application/json" });
+}
+
+const workdayDiscoveryCompany: Company = {
+  name: "acme",
+  ats: "workday",
+  identifier: "acme-external",
+  domain: "https://acme.wd1.myworkdayjobs.com/en-US/external",
+  page: "https://acme.wd1.myworkdayjobs.com/wday/cxs/acme/external/jobs",
+  urls: [],
+};
+
+function workdayPosting(id: number, postedOn?: string) {
+  return {
+    title: `Software Engineer ${id}`,
+    ...(postedOn ? { postedOn } : {}),
+    locationsText: "Remote",
+    externalPath: `/job/Engineer_R${id}`,
+  };
+}
+
+function workdayFullPage(start: number, postedOn?: string) {
+  return Array.from({ length: 20 }, (_, index) => workdayPosting(start + index, postedOn));
+}
+
+function workdayLink(id: number): string {
+  return `${workdayDiscoveryCompany.domain}/job/Engineer_R${id}`;
+}
+
+function requestedOffsets(): number[] {
+  return mockFetch.mock.calls.map((call) => JSON.parse(String(call[1]?.body)).offset as number);
 }
 
 describe("complex ATS adapters", () => {
@@ -124,7 +155,7 @@ describe("complex ATS adapters", () => {
     });
   });
 
-  it("drops Workday jobs already fetched when a later discover page fails", async () => {
+  it("keeps Workday jobs already fetched when a later discover page fails", async () => {
     const company: Company = {
       name: "acme",
       ats: "workday",
@@ -144,8 +175,8 @@ describe("complex ATS adapters", () => {
       .mockResolvedValueOnce(jsonResponse({ jobPostings: today }, company.page))
       .mockResolvedValueOnce(new Response("", { status: 500, statusText: "Unavailable" }));
 
-    await expect(workdayBoard.fetch(company, new Set(), AbortSignal.timeout(1000))).resolves.toEqual(
-      []
+    await expect(workdayBoard.fetch(company, new Set(), AbortSignal.timeout(1000))).resolves.toHaveLength(
+      20
     );
     expect(mockFetch).toHaveBeenCalledTimes(2);
     expect(errorLog.append).toHaveBeenCalledWith("Workday: acme - 500 - Unavailable");
@@ -226,6 +257,344 @@ describe("complex ATS adapters", () => {
 
     expect(jobs.map((job) => job.link)).toEqual([`${company.domain}/job/Engineer_R2000`]);
     expect(mockFetch).toHaveBeenCalledOnce();
+  });
+
+  it("requests the next page when the first full page is entirely older", async () => {
+    const signal = new AbortController().signal;
+    mockFetch
+      .mockResolvedValueOnce(
+        jsonResponse(
+          { jobPostings: workdayFullPage(0, "Posted Yesterday") },
+          workdayDiscoveryCompany.page
+        )
+      )
+      .mockResolvedValueOnce(
+        jsonResponse(
+          { jobPostings: [workdayPosting(100, "Posted Today")] },
+          workdayDiscoveryCompany.page
+        )
+      );
+
+    const jobs = await workdayBoard.fetch(workdayDiscoveryCompany, new Set(), signal);
+
+    expect(requestedOffsets()).toEqual([0, 20]);
+    expect(jobs.map((job) => job.link)).toEqual([workdayLink(100)]);
+    expect(mockFetch.mock.calls[0]?.[1]).toMatchObject({
+      method: "POST",
+      headers: { "Content-Type": "application/json", "Accept-Language": "en-US" },
+      signal,
+    });
+    expect(JSON.parse(String(mockFetch.mock.calls[0]?.[1]?.body))).toEqual({
+      appliedFacets: {},
+      limit: 20,
+      offset: 0,
+    });
+  });
+
+  it("continues after one full page of older jobs and resets when a later page hits", async () => {
+    const todayThenOld = [
+      ...workdayFullPage(0, "Posted Today").slice(0, 19),
+      workdayPosting(19, "Posted Yesterday"),
+    ];
+    mockFetch
+      .mockResolvedValueOnce(jsonResponse({ jobPostings: todayThenOld }, workdayDiscoveryCompany.page))
+      .mockResolvedValueOnce(
+        jsonResponse(
+          { jobPostings: workdayFullPage(100, "Posted Yesterday") },
+          workdayDiscoveryCompany.page
+        )
+      )
+      .mockResolvedValueOnce(
+        jsonResponse(
+          { jobPostings: workdayFullPage(200, "Posted Today") },
+          workdayDiscoveryCompany.page
+        )
+      )
+      .mockResolvedValueOnce(
+        jsonResponse(
+          { jobPostings: workdayFullPage(300, "Posted Yesterday") },
+          workdayDiscoveryCompany.page
+        )
+      )
+      .mockResolvedValueOnce(
+        jsonResponse(
+          { jobPostings: workdayFullPage(400, "Posted Yesterday") },
+          workdayDiscoveryCompany.page
+        )
+      );
+
+    const jobs = await workdayBoard.fetch(workdayDiscoveryCompany, new Set(), AbortSignal.timeout(1000));
+
+    expect(requestedOffsets()).toEqual([0, 20, 40, 60, 80]);
+    expect(jobs.map((job) => job.link)).toEqual([
+      ...Array.from({ length: 19 }, (_, index) => workdayLink(index)),
+      ...Array.from({ length: 20 }, (_, index) => workdayLink(200 + index)),
+    ]);
+  });
+
+  it("stops after two consecutive full pages with no dated hits", async () => {
+    mockFetch
+      .mockResolvedValueOnce(
+        jsonResponse(
+          { jobPostings: workdayFullPage(0, "Posted Yesterday") },
+          workdayDiscoveryCompany.page
+        )
+      )
+      .mockResolvedValueOnce(
+        jsonResponse(
+          { jobPostings: workdayFullPage(20, "Posted Yesterday") },
+          workdayDiscoveryCompany.page
+        )
+      )
+      .mockImplementation(() => {
+        throw new Error("requested a third page");
+      });
+
+    await expect(
+      workdayBoard.fetch(workdayDiscoveryCompany, new Set(), AbortSignal.timeout(1000))
+    ).resolves.toEqual([]);
+    expect(requestedOffsets()).toEqual([0, 20]);
+  });
+
+  it("treats a job with no postedOn as a dated hit and resets the gap", async () => {
+    const undatedPage = [...workdayFullPage(20, "Posted Yesterday").slice(0, 19), workdayPosting(39)];
+    mockFetch
+      .mockResolvedValueOnce(
+        jsonResponse(
+          { jobPostings: workdayFullPage(0, "Posted Yesterday") },
+          workdayDiscoveryCompany.page
+        )
+      )
+      .mockResolvedValueOnce(jsonResponse({ jobPostings: undatedPage }, workdayDiscoveryCompany.page))
+      .mockResolvedValueOnce(
+        jsonResponse(
+          { jobPostings: workdayFullPage(40, "Posted Yesterday") },
+          workdayDiscoveryCompany.page
+        )
+      )
+      .mockResolvedValueOnce(
+        jsonResponse(
+          { jobPostings: workdayFullPage(60, "Posted Yesterday") },
+          workdayDiscoveryCompany.page
+        )
+      );
+
+    const jobs = await workdayBoard.fetch(workdayDiscoveryCompany, new Set(), AbortSignal.timeout(1000));
+
+    expect(requestedOffsets()).toEqual([0, 20, 40, 60]);
+    expect(jobs.map((job) => job.link)).toEqual([workdayLink(39)]);
+  });
+
+  it("stops on an empty page without treating it as a full page of older jobs", async () => {
+    mockFetch.mockResolvedValueOnce(
+      jsonResponse({ jobPostings: [] }, workdayDiscoveryCompany.page)
+    );
+
+    await expect(
+      workdayBoard.fetch(workdayDiscoveryCompany, new Set(), AbortSignal.timeout(1000))
+    ).resolves.toEqual([]);
+    expect(requestedOffsets()).toEqual([0]);
+  });
+
+  it("keeps a short page of jobs posted today and does not request another page", async () => {
+    mockFetch.mockResolvedValueOnce(
+      jsonResponse({ jobPostings: [workdayPosting(7, "Posted Today")] }, workdayDiscoveryCompany.page)
+    );
+
+    const jobs = await workdayBoard.fetch(workdayDiscoveryCompany, new Set(), AbortSignal.timeout(1000));
+
+    expect(requestedOffsets()).toEqual([0]);
+    expect(jobs.map((job) => job.link)).toEqual([workdayLink(7)]);
+  });
+
+  it("requests exactly 20 pages while every full page still has a dated hit", async () => {
+    const signal = new AbortController().signal;
+    const warn = vi.spyOn(logger, "warn").mockImplementation(() => {});
+    mockFetch.mockImplementation(async (_input, init) => {
+      const body = JSON.parse(String(init?.body)) as { offset: number };
+      return jsonResponse(
+        { jobPostings: workdayFullPage(body.offset, "Posted Today") },
+        workdayDiscoveryCompany.page
+      );
+    });
+
+    try {
+      const jobs = await workdayBoard.fetch(workdayDiscoveryCompany, new Set(), signal);
+
+      expect(requestedOffsets()).toEqual(Array.from({ length: 20 }, (_, index) => index * 20));
+      expect(jobs).toHaveLength(400);
+      expect(mockFetch.mock.calls.every((call) => call[1]?.signal === signal)).toBe(true);
+      expect(warn).toHaveBeenCalledWith(
+        expect.objectContaining({ company: "acme", pages: 20 }),
+        "⚠️ Workday hit MAX_PAGES limit"
+      );
+    } finally {
+      warn.mockRestore();
+    }
+  });
+
+  it("returns no jobs when the first Workday page fails", async () => {
+    mockFetch.mockResolvedValueOnce(new Response("", { status: 500, statusText: "Unavailable" }));
+
+    await expect(
+      workdayBoard.fetch(workdayDiscoveryCompany, new Set(), AbortSignal.timeout(1000))
+    ).resolves.toEqual([]);
+    expect(mockFetch).toHaveBeenCalledTimes(1);
+    expect(errorLog.append).toHaveBeenCalledWith("Workday: acme - 500 - Unavailable");
+  });
+
+  it("keeps earlier jobs when the probe page fails", async () => {
+    const openedByOld = [
+      ...workdayFullPage(0, "Posted Today").slice(0, 19),
+      workdayPosting(19, "Posted Yesterday"),
+    ];
+    const kept = openedByOld.slice(0, 19).map((job) => `${workdayDiscoveryCompany.domain}${job.externalPath}`);
+    mockFetch
+      .mockResolvedValueOnce(jsonResponse({ jobPostings: openedByOld }, workdayDiscoveryCompany.page))
+      .mockResolvedValueOnce(new Response("", { status: 500, statusText: "Unavailable" }));
+
+    const jobs = await workdayBoard.fetch(workdayDiscoveryCompany, new Set(), AbortSignal.timeout(1000));
+
+    expect(requestedOffsets()).toEqual([0, 20]);
+    expect(jobs.map((job) => job.link)).toEqual(kept);
+    expect(errorLog.append).toHaveBeenCalledWith("Workday: acme - 500 - Unavailable");
+  });
+
+  it("keeps earlier jobs when a later page is not valid JSON", async () => {
+    const openedByOld = [
+      ...workdayFullPage(0, "Posted Today").slice(0, 19),
+      workdayPosting(19, "Posted Yesterday"),
+    ];
+    const error = vi.spyOn(logger, "error").mockImplementation(() => {});
+    mockFetch
+      .mockResolvedValueOnce(jsonResponse({ jobPostings: openedByOld }, workdayDiscoveryCompany.page))
+      .mockResolvedValueOnce(
+        new Response("not-json", { status: 200, headers: { "content-type": "application/json" } })
+      );
+
+    try {
+      const jobs = await workdayBoard.fetch(workdayDiscoveryCompany, new Set(), AbortSignal.timeout(1000));
+
+      expect(requestedOffsets()).toEqual([0, 20]);
+      expect(jobs).toHaveLength(19);
+      expect(error).toHaveBeenCalledWith(
+        expect.objectContaining({ company: "acme", url: workdayDiscoveryCompany.page }),
+        expect.stringContaining("Workday JSON parse error")
+      );
+    } finally {
+      error.mockRestore();
+    }
+  });
+
+  it("keeps earlier jobs when the caller aborts before the probe page", async () => {
+    const controller = new AbortController();
+    const openedByOld = [
+      ...workdayFullPage(0, "Posted Today").slice(0, 19),
+      workdayPosting(19, "Posted Yesterday"),
+    ];
+    const warn = vi.spyOn(logger, "warn").mockImplementation(() => {});
+    mockFetch.mockImplementation(async () => {
+      controller.abort();
+      return jsonResponse({ jobPostings: openedByOld }, workdayDiscoveryCompany.page);
+    });
+
+    try {
+      const jobs = await workdayBoard.fetch(workdayDiscoveryCompany, new Set(), controller.signal);
+
+      expect(mockFetch).toHaveBeenCalledTimes(1);
+      expect(jobs).toHaveLength(19);
+      expect(warn).toHaveBeenCalledWith(
+        expect.objectContaining({ company: "acme" }),
+        "⚠️ Workday aborted before fetch"
+      );
+    } finally {
+      warn.mockRestore();
+    }
+  });
+
+  it("keeps earlier jobs when a later fetch times out or aborts", async () => {
+    const openedByOld = [
+      ...workdayFullPage(0, "Posted Today").slice(0, 19),
+      workdayPosting(19, "Posted Yesterday"),
+    ];
+    const warn = vi.spyOn(logger, "warn").mockImplementation(() => {});
+
+    try {
+      for (const name of ["TimeoutError", "AbortError"] as const) {
+        mockFetch.mockReset();
+        warn.mockClear();
+        mockFetch
+          .mockResolvedValueOnce(jsonResponse({ jobPostings: openedByOld }, workdayDiscoveryCompany.page))
+          .mockRejectedValueOnce(new DOMException(name, name));
+
+        const jobs = await workdayBoard.fetch(
+          workdayDiscoveryCompany,
+          new Set(),
+          AbortSignal.timeout(1000)
+        );
+
+        expect(requestedOffsets()).toEqual([0, 20]);
+        expect(jobs).toHaveLength(19);
+        expect(warn).toHaveBeenCalledWith(
+          expect.objectContaining({ company: "acme", url: workdayDiscoveryCompany.page }),
+          "⚠️ Workday request aborted"
+        );
+      }
+    } finally {
+      warn.mockRestore();
+    }
+  });
+
+  it("keeps paging when every dated hit on the page is already known", async () => {
+    const known = toJobKeySet(Array.from({ length: 20 }, (_, index) => workdayLink(index)));
+    mockFetch
+      .mockResolvedValueOnce(
+        jsonResponse({ jobPostings: workdayFullPage(0, "Posted Today") }, workdayDiscoveryCompany.page)
+      )
+      .mockResolvedValueOnce(
+        jsonResponse(
+          { jobPostings: workdayFullPage(100, "Posted Yesterday") },
+          workdayDiscoveryCompany.page
+        )
+      )
+      .mockResolvedValueOnce(
+        jsonResponse({ jobPostings: [workdayPosting(200, "Posted Today")] }, workdayDiscoveryCompany.page)
+      );
+
+    const jobs = await workdayBoard.fetch(workdayDiscoveryCompany, known, AbortSignal.timeout(1000));
+
+    expect(requestedOffsets()).toEqual([0, 20, 40]);
+    expect(jobs.map((job) => job.link)).toEqual([workdayLink(200)]);
+  });
+
+  it("keeps paging liveness through full pages of older jobs", async () => {
+    mockFetch
+      .mockResolvedValueOnce(
+        jsonResponse(
+          { jobPostings: workdayFullPage(0, "Posted Yesterday") },
+          workdayDiscoveryCompany.page
+        )
+      )
+      .mockResolvedValueOnce(
+        jsonResponse(
+          { jobPostings: workdayFullPage(20, "Posted Yesterday") },
+          workdayDiscoveryCompany.page
+        )
+      )
+      .mockResolvedValueOnce(
+        jsonResponse(
+          { jobPostings: workdayFullPage(40, "Posted Yesterday") },
+          workdayDiscoveryCompany.page
+        )
+      )
+      .mockResolvedValueOnce(jsonResponse({ jobPostings: [] }, workdayDiscoveryCompany.page));
+
+    const keys = await workdayBoard.listJobKeys(workdayDiscoveryCompany, AbortSignal.timeout(1000));
+
+    expect(requestedOffsets()).toEqual([0, 20, 40, 60]);
+    expect(keys?.size).toBe(60);
+    expect(keys?.has(getJobKey(workdayLink(0)))).toBe(true);
+    expect(keys?.has(getJobKey(workdayLink(59)))).toBe(true);
   });
 
   it("parses iCIMS HTML without mutating the caller's key set", async () => {

@@ -189,8 +189,12 @@ export class WorkdayBoard extends Board<WorkdayJob> {
     let offset = 0;
     let page = 0;
     let hasMore = true;
+    // Discovery only. One full page of older jobs can sit between hits.
+    // A second consecutive full page with no dated hit stops the walk.
+    let staleFullPages = 0;
     const results: WorkdayJob[] = [];
     const found = new Set<string>();
+    const collected = (): WorkdayJob[] | null => (results.length > 0 ? results : null);
 
     try {
       while (hasMore && page < maxPages) {
@@ -202,7 +206,7 @@ export class WorkdayBoard extends Board<WorkdayJob> {
             "⚠️ Workday aborted before fetch"
           );
 
-          return recentOnly ? null : results.length > 0 ? results : null;
+          return collected();
         }
 
         options.scan?.onPage?.();
@@ -222,10 +226,7 @@ export class WorkdayBoard extends Board<WorkdayJob> {
 
         if (!res.ok) {
           await logListingStatus("Workday", company, res);
-          if (!recentOnly && results.length > 0) {
-            return results;
-          }
-          return null;
+          return collected();
         }
 
         const jsonStart = Date.now();
@@ -237,10 +238,7 @@ export class WorkdayBoard extends Board<WorkdayJob> {
             { company: company.name, url: company.page },
             `${RED_CROSS} Workday JSON parse error`
           );
-          if (!recentOnly && results.length > 0) {
-            return results;
-          }
-          return null;
+          return collected();
         }
 
         const jsonDuration = Date.now() - jsonStart;
@@ -261,6 +259,7 @@ export class WorkdayBoard extends Board<WorkdayJob> {
           break;
         }
 
+        // Date hits are counted before fetch() applies title and known-key screening.
         const accepted = recentOnly
           ? rawJobs.filter((job) => !job.postedOn || job.postedOn === "Posted Today")
           : rawJobs;
@@ -275,11 +274,14 @@ export class WorkdayBoard extends Board<WorkdayJob> {
 
         offset += PAGE_SIZE;
         page++;
-        hasMore =
-          rawJobs.length === PAGE_SIZE &&
-          (!recentOnly ||
-            !rawJobs[rawJobs.length - 1]?.postedOn ||
-            rawJobs[rawJobs.length - 1]?.postedOn === "Posted Today");
+        const fullPage = rawJobs.length === PAGE_SIZE;
+        if (!fullPage) {
+          hasMore = false;
+        } else if (recentOnly) {
+          if (accepted.length > 0) staleFullPages = 0;
+          else staleFullPages++;
+          hasMore = staleFullPages < 2;
+        }
         if (listingTargetsFound(found, options.scan)) {
           hasMore = false;
         }
@@ -298,7 +300,7 @@ export class WorkdayBoard extends Board<WorkdayJob> {
       return results;
     } catch (error) {
       if (await logListingFailure("Workday", company, error)) {
-        return recentOnly ? null : results.length > 0 ? results : null;
+        return collected();
       }
 
       if (
@@ -313,7 +315,7 @@ export class WorkdayBoard extends Board<WorkdayJob> {
           "⚠️ Workday request aborted"
         );
 
-        return recentOnly ? null : results.length > 0 ? results : null;
+        return collected();
       }
 
       logger.error(
@@ -325,7 +327,7 @@ export class WorkdayBoard extends Board<WorkdayJob> {
         `${RED_CROSS} Error fetching workday jobs`
       );
 
-      return recentOnly ? null : results.length > 0 ? results : null;
+      return collected();
     }
   }
 }
