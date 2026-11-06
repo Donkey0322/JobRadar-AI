@@ -89,8 +89,8 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [2027 Summer Intern](./job-postings/summer-intern.md) — 1,991 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 1,789 opportunities
+- [2027 Summer Intern](./job-postings/summer-intern.md) — 1,997 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 1,790 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 3,389 opportunities
 
 ## The List 🚴‍♂️
@@ -110,6 +110,48 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Zoox</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern, Software Platforms &amp; Product</td>
+      <td width="180" align="left" valign="top">Foster City, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/zoox/88f6cb68-1534-44af-80db-10e43c203520"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 5</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern, Software Systems</td>
+      <td width="180" align="left" valign="top">Foster City, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/zoox/8b32157b-ab44-4078-85ea-1d8d7b747a20"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 5</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Raft Company Website</td>
+      <td width="420" align="left" valign="top">Data Engineering Intern 🇺🇸<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">McLean, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/raft/jobs/6239800004"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 5</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Full Stack Engineering Intern 🇺🇸<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">McLean, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/raft/jobs/6240549004"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 5</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">DevOps Engineering Intern 🇺🇸<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">McLean, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/raft/jobs/6239819004"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 5</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Zoox</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern - Autonomy Software 🎓<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Foster City, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/zoox/7b20b929-d9a4-4995-a472-16cd4925a877/apply"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 5</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Spectrum</td>
       <td width="420" align="left" valign="top">2027 Summer Intern: Data Developer Greenwood Village, CO 11/05/2026<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
@@ -278,51 +320,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://trinzic.wd115.myworkdayjobs.com/Trinzic_Careers/job/Chantilly-Virginia/Defense---Intel--D-I----Software-Engineering-Internship_R3001235"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 5</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Waymo</td>
-      <td width="420" align="left" valign="top">2027 Summer Intern, MS/PhD, Perception Systems Engineering: Pedestrian Detection Precision</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.withwaymo.com/jobs?gh_jid=8234670"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 5</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Lockheedmartin</td>
-      <td width="420" align="left" valign="top">Software Engineer - Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Fort Worth, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477501542?domain=lockheedmartin.com&amp;8fold_id=996477501542"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 5</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Engineer Intern - Summer 2027<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Colorado Springs, CO</td>
-      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477474126?domain=lockheedmartin.com&amp;8fold_id=996477474126"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 5</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Systems Engineer Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Palmdale, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477449180?domain=lockheedmartin.com&amp;8fold_id=996477449180"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 5</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Tmobile</td>
-      <td width="420" align="left" valign="top">Summer 2027 Software Engineering Internship<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Atlanta, GA</td>
-      <td width="120" align="left" valign="top"><a href="https://tmobile.wd1.myworkdayjobs.com/External/job/Atlanta-Georgia/Summer-2027-Software-Engineering-Internship_REQ380650"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 5</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Bah</td>
-      <td width="420" align="left" valign="top">University - 2027 Summer Games Systems Engineer Intern - El Segundo, CA<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">El Segundo, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/El-Segundo-CA/University---2027-Summer-Games-Systems-Engineer-Intern---El-Segundo--CA_R0248366"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 5</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,991 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,997 opportunities in this section.</sub></p>
 
 ### Off Season Intern
 
@@ -337,6 +337,13 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">ASM</td>
+      <td width="420" align="left" valign="top">Product Intelligence Engineering Intern, AI/ML</td>
+      <td width="180" align="left" valign="top">Phoenix, AZ</td>
+      <td width="120" align="left" valign="top"><a href="https://www.asm.com/open-vacancies/?gh_jid=5029228101"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 5</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Lockheedmartin</td>
       <td width="420" align="left" valign="top">Software Developer Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
@@ -540,16 +547,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Rochester-New-York/Intern--AI---Automation-Engineering_R-41655"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 4</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Rollsroyce</td>
-      <td width="420" align="left" valign="top">Integrated Control Systems Engineer (Software)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Indianapolis, IN</td>
-      <td width="120" align="left" valign="top"><a href="https://rollsroyce.wd3.myworkdayjobs.com/Intern_Graduate/job/Indianapolis/Integrated-Control-Systems-Engineer--Software-_JR6162819"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 4</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,789 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,790 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -795,7 +795,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-06T05:30:43.789Z</code>
+      🕒 Last updated <code>2026-11-06T05:35:41.267Z</code>
     </span>
   </p>
 </div>
