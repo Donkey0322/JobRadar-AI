@@ -131,6 +131,7 @@ describe("classifyJdFetch", () => {
       companiesTotal: 2,
       jdPending: 2,
       jdActive: 1,
+      jdBackoff: 3,
       retries: 1,
       unknown: 1,
       elapsedMs: 4_000,
@@ -140,6 +141,7 @@ describe("classifyJdFetch", () => {
     expect(line).toContain("companies 1/2");
     expect(line).toContain("jd waiting 2");
     expect(line).toContain("active 1");
+    expect(line).toContain("backoff 3");
     expect(line).toContain("retries 1");
     expect(line).toContain("unknown 1");
     expect(line).not.toMatch(/eta/i);
@@ -1325,6 +1327,188 @@ describe("runClean", () => {
     expect(failed.listingHits).toBe(1);
     expect(failed.jdAttempts).toBe(1);
     expect(jdUrls).toEqual([missing]);
+  });
+
+  it("lets the next non-Workday JD start while eight retries are waiting", async () => {
+    const urls = Array.from({ length: 9 }, (_, index) => {
+      const id = `${String(index + 1).padStart(8, "0")}-1111-4111-8111-111111111111`;
+      return `https://jobs.lever.co/acme/${id}`;
+    });
+    const ninth = urls[8];
+    let clock = 0;
+    let inFlight = 0;
+    let maxInFlight = 0;
+    const attempts: { url: string; at: number }[] = [];
+    let releaseEight: () => void = () => {};
+    const eightHeld = new Promise<void>((resolve) => {
+      releaseEight = resolve;
+    });
+    let markEight: () => void = () => {};
+    const eightInside = new Promise<void>((resolve) => {
+      markEight = resolve;
+    });
+    let releaseNinth: () => void = () => {};
+    const ninthHeld = new Promise<void>((resolve) => {
+      releaseNinth = resolve;
+    });
+    let markNinth: () => void = () => {};
+    const ninthInside = new Promise<void>((resolve) => {
+      markNinth = resolve;
+    });
+    const sleeps: { start: number; ms: number }[] = [];
+    const releaseSleeps: (() => void)[] = [];
+    let markSleeps: () => void = () => {};
+    const eightSleeps = new Promise<void>((resolve) => {
+      markSleeps = resolve;
+    });
+    const snapshots: CleanProgress[] = [];
+
+    const pending = runClean({
+      urls,
+      companies: [],
+      hooks: {
+        now: () => clock,
+        random: () => 0,
+        onProgress: (progress) => snapshots.push({ ...progress }),
+        sleep: (ms) =>
+          new Promise((resolve) => {
+            sleeps.push({ start: clock, ms });
+            releaseSleeps.push(resolve);
+            if (sleeps.length === 8) markSleeps();
+          }),
+        fetchJd: async (url) => {
+          inFlight++;
+          maxInFlight = Math.max(maxInFlight, inFlight);
+          const prior = attempts.filter((attempt) => attempt.url === url).length;
+          attempts.push({ url, at: clock });
+          try {
+            if (prior === 0 && url !== ninth) {
+              if (attempts.filter((attempt) => attempt.url !== ninth).length === 8) markEight();
+              await eightHeld;
+              return { jd: null, error: { code: 429, desc: "Too Many Requests", retryAfterMs: 5_000 } };
+            }
+            if (url === ninth) {
+              markNinth();
+              await ninthHeld;
+            }
+            return ok();
+          } finally {
+            inFlight--;
+          }
+        },
+      },
+    });
+
+    await eightInside;
+    expect(inFlight).toBe(8);
+    expect(attempts.some((attempt) => attempt.url === ninth)).toBe(false);
+    clock = 100;
+    releaseEight();
+    await eightSleeps;
+    await ninthInside;
+
+    expect(maxInFlight).toBeLessThanOrEqual(8);
+    expect(inFlight).toBe(1);
+    expect(attempts.find((attempt) => attempt.url === ninth)?.at).toBe(100);
+    expect(sleeps).toEqual(Array.from({ length: 8 }, () => ({ start: 100, ms: 5_000 })));
+    expect(snapshots.some((progress) => progress.completed > 0 && progress.jdBackoff > 0)).toBe(false);
+    expect(snapshots.some((progress) => progress.jdActive === 1 && progress.jdBackoff === 8 && progress.completed === 0)).toBe(true);
+
+    releaseNinth();
+    await new Promise((resolve) => setImmediate(resolve));
+    clock = 100 + 5_000;
+    for (const release of releaseSleeps) release();
+    const report = await pending;
+
+    expect(maxInFlight).toBeLessThanOrEqual(8);
+    expect(report.jdAttempts).toBe(17);
+    expect(report.retries).toBe(8);
+    expect(report.unknown).toBe(0);
+    expect(report.elapsedMs).toBe(5_100);
+    expect(report.byAts.find((row) => row.ats === "lever")?.jd).toEqual({
+      queueMs: 100,
+      busyMs: 800,
+      backoffMs: 40_000,
+    });
+    const retried = urls.slice(0, 8);
+    for (const url of retried) {
+      const times = attempts.filter((attempt) => attempt.url === url).map((attempt) => attempt.at);
+      expect(times).toEqual([0, 5_100]);
+    }
+    expect(snapshots.at(-1)).toMatchObject({ completed: 9, jdPending: 0, jdActive: 0, jdBackoff: 0 });
+    expect(Math.max(...snapshots.map((progress) => progress.completed))).toBe(9);
+  });
+
+  it("keeps the Workday host slot through the JD retry wait", async () => {
+    const first = "https://lock.wd1.myworkdayjobs.com/en-US/external/job/Engineer_R1000";
+    const second = "https://lock.wd1.myworkdayjobs.com/en-US/external/job/Analyst_R2000";
+    let clock = 0;
+    let fetches = 0;
+    const starts: number[] = [];
+    let releaseFirst: () => void = () => {};
+    const firstHeld = new Promise<void>((resolve) => {
+      releaseFirst = resolve;
+    });
+    let markFirst: () => void = () => {};
+    const firstInside = new Promise<void>((resolve) => {
+      markFirst = resolve;
+    });
+    let releaseSleep: () => void = () => {};
+    let markSleep: () => void = () => {};
+    const sleepStarted = new Promise<void>((resolve) => {
+      markSleep = resolve;
+    });
+    const sleeps: number[] = [];
+
+    const pending = runClean({
+      urls: [first, second],
+      companies: [workdayBoard.formCompany(new URL(first))],
+      hooks: {
+        now: () => clock,
+        random: () => 0,
+        checkListing: async (_company, companyUrls) => ({ listed: [], unverified: [...companyUrls] }),
+        sleep: (ms) => {
+          if (ms < 1_000) {
+            clock += ms;
+            return Promise.resolve();
+          }
+          sleeps.push(ms);
+          markSleep();
+          return new Promise((resolve) => {
+            releaseSleep = () => {
+              clock += ms;
+              resolve();
+            };
+          });
+        },
+        fetchJd: async () => {
+          fetches++;
+          starts.push(clock);
+          if (fetches === 1) {
+            markFirst();
+            await firstHeld;
+            return { jd: null, error: { code: 429, desc: "Too Many Requests", retryAfterMs: 3_000 } };
+          }
+          return ok();
+        },
+      },
+    });
+
+    await firstInside;
+    expect(fetches).toBe(1);
+    releaseFirst();
+    await sleepStarted;
+    expect(fetches).toBe(1);
+    expect(sleeps).toEqual([3_000]);
+    releaseSleep();
+    const report = await pending;
+
+    expect(fetches).toBe(3);
+    expect(starts).toEqual([0, 3_000, 3_100]);
+    expect(report.jdAttempts).toBe(3);
+    expect(report.retries).toBe(1);
+    expect(report.elapsedMs).toBe(3_200);
+    expect(report.byAts.find((row) => row.ats === "workday")?.jd.backoffMs).toBe(3_200);
   });
 });
 

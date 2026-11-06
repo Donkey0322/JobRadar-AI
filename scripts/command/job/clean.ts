@@ -52,7 +52,8 @@ import { logger } from "@/utils/logger";
 setMaxListeners(32);
 
 // Workday rejects bursts. Each host runs one request at a time, and a 429 pauses
-// later requests to that host. Other boards share a wider pool.
+// later requests to that host. Other boards share eight JD slots. A non-Workday
+// retry frees its slot before the backoff, then queues the next attempt again.
 const LISTING_OTHER_CONCURRENCY = 12;
 const LISTING_WORKDAY_CONCURRENCY = 6;
 const JD_OTHER_CONCURRENCY = 8;
@@ -119,6 +120,14 @@ function hostnameOf(url: string): string {
   }
 }
 
+function isWorkdayUrl(url: string): boolean {
+  try {
+    return classifyATS(new URL(url)) === "workday";
+  } catch {
+    return false;
+  }
+}
+
 /** getRawJD only reads the link. The other posting fields are unused. */
 function fetchRawJD(url: string, signal: AbortSignal): Promise<JDFetchResult> {
   return Posting.from({
@@ -136,6 +145,7 @@ interface TimeSink {
 /**
  * Run one fetch under the pool that matches its board. The slot is free when this promise settles.
  * Queue time is the wait for a pool slot. Host cooldown and the Workday JD gap are backoff, not busy time.
+ * Non-Workday JD calls this once per attempt and waits for its retry outside the pool.
  */
 function runLimited<T>(
   url: string,
@@ -257,8 +267,12 @@ export interface CleanProgress {
   total: number;
   companiesDone: number;
   companiesTotal: number;
+  /** Queued for a JD slot, including a non-Workday attempt that is ready to run again. */
   jdPending: number;
+  /** Inside `fetchJd`. For Workday this also covers the in-slot retry wait. */
   jdActive: number;
+  /** Non-Workday URLs waiting out a retry with the slot released. */
+  jdBackoff: number;
   retries: number;
   unknown: number;
   elapsedMs: number;
@@ -367,6 +381,7 @@ export function formatCleanStatus(progress: CleanProgress): string {
     `companies ${progress.companiesDone}/${progress.companiesTotal}`,
     `jd waiting ${progress.jdPending}`,
     `active ${progress.jdActive}`,
+    `backoff ${progress.jdBackoff}`,
     `retries ${progress.retries}`,
     `unknown ${progress.unknown}`,
     formatElapsed(progress.elapsedMs),
@@ -404,6 +419,7 @@ async function runCleanBody(
   let companiesDone = 0;
   let jdPending = 0;
   let jdActive = 0;
+  let jdBackoff = 0;
   let retries = 0;
   let unknown = 0;
   let listingHits = 0;
@@ -526,6 +542,7 @@ async function runCleanBody(
     companiesTotal,
     jdPending,
     jdActive,
+    jdBackoff,
     retries,
     unknown,
     elapsedMs: hooks.now() - started,
@@ -553,33 +570,53 @@ async function runCleanBody(
     emit("url");
   };
 
-  const fetchWithRetry = async (url: string, key: string, sink: TimeSink): Promise<JDFetchResult> => {
-    const host = hostnameOf(url);
-    let delay = INITIAL_DELAY_MS;
-    const attempt = async () => {
-      jdAttempts++;
-      atsRow(atsOf(url)).jdAttempts++;
-      const busyStart = runtime.now();
-      try {
-        return await hooks.fetchJd(url, AbortSignal.timeout(hooks.fetchTimeoutMs));
-      } finally {
-        sink.add("busyMs", Math.max(0, runtime.now() - busyStart));
-      }
-    };
-
-    let result = await attempt();
-    for (let attemptNumber = 0; attemptNumber < MAX_RETRIES && isRetryableJDFetch(result.error); attemptNumber++) {
-      countRetry(url, key);
-      emit("url");
-      const wait = retryDelay(result.error, delay);
-      extendHostCooldown(host, wait, runtime);
-      const backoffStart = runtime.now();
-      await runtime.sleep(wait + Math.floor(runtime.random() * 250));
-      sink.add("backoffMs", Math.max(0, runtime.now() - backoffStart));
-      result = await attempt();
-      delay *= 2;
+  const fetchAttempt = async (url: string, sink: TimeSink): Promise<JDFetchResult> => {
+    jdAttempts++;
+    atsRow(atsOf(url)).jdAttempts++;
+    const busyStart = runtime.now();
+    try {
+      return await hooks.fetchJd(url, AbortSignal.timeout(hooks.fetchTimeoutMs));
+    } finally {
+      sink.add("busyMs", Math.max(0, runtime.now() - busyStart));
     }
+  };
 
+  const waitToRetry = async (
+    url: string,
+    key: string,
+    status: JDFetchStatus,
+    delay: number,
+    sink: TimeSink
+  ): Promise<number> => {
+    countRetry(url, key);
+    emit("url");
+    const wait = retryDelay(status, delay);
+    extendHostCooldown(hostnameOf(url), wait, runtime);
+    const backoffStart = runtime.now();
+    await runtime.sleep(wait + Math.floor(runtime.random() * 250));
+    sink.add("backoffMs", Math.max(0, runtime.now() - backoffStart));
+    return delay * 2;
+  };
+
+  const applyOutcome = (url: string, key: string, error: JDFetchStatus) => {
+    const outcome = classifyJdFetch(error);
+    if (outcome === "gone") dropped.add(url);
+    else if (outcome === "unknown") countUnknown(url, key, unknownReason(error));
+  };
+
+  const failJd = (url: string, key: string, error: unknown) => {
+    countUnknown(url, key, "other");
+    console.error({ url, err: error }, `${RED_CROSS} Error fetching JD`);
+  };
+
+  /** Workday keeps the host slot through the retry wait and the JD gap. */
+  const fetchWithRetry = async (url: string, key: string, sink: TimeSink): Promise<JDFetchResult> => {
+    let delay = INITIAL_DELAY_MS;
+    let result = await fetchAttempt(url, sink);
+    for (let attemptNumber = 0; attemptNumber < MAX_RETRIES && isRetryableJDFetch(result.error); attemptNumber++) {
+      delay = await waitToRetry(url, key, result.error, delay, sink);
+      result = await fetchAttempt(url, sink);
+    }
     return result;
   };
 
@@ -589,14 +626,57 @@ async function runCleanBody(
     emit("url");
     try {
       const { error } = await fetchWithRetry(url, key, sink);
-      const outcome = classifyJdFetch(error);
-      if (outcome === "gone") dropped.add(url);
-      else if (outcome === "unknown") countUnknown(url, key, unknownReason(error));
+      applyOutcome(url, key, error);
     } catch (error) {
-      countUnknown(url, key, "other");
-      console.error({ url, err: error }, `${RED_CROSS} Error fetching JD`);
+      failJd(url, key, error);
     } finally {
       jdActive = Math.max(0, jdActive - 1);
+      finish(url);
+    }
+  };
+
+  /**
+   * The pool wraps one fetch. A retryable result leaves the slot, waits, then queues again.
+   * The URL stays unfinished until that later attempt returns a final result.
+   */
+  const confirmOtherJd = async (url: string, key: string, sink: TimeSink): Promise<void> => {
+    let delay = INITIAL_DELAY_MS;
+    try {
+      for (let attemptNumber = 0; ; attemptNumber++) {
+        const result = await runLimited(
+          url,
+          "jd",
+          async () => {
+            jdPending = Math.max(0, jdPending - 1);
+            jdActive++;
+            emit("url");
+            try {
+              return await fetchAttempt(url, sink);
+            } finally {
+              jdActive = Math.max(0, jdActive - 1);
+            }
+          },
+          runtime,
+          sink
+        );
+
+        if (attemptNumber >= MAX_RETRIES || !isRetryableJDFetch(result.error)) {
+          applyOutcome(url, key, result.error);
+          return;
+        }
+
+        jdBackoff++;
+        try {
+          delay = await waitToRetry(url, key, result.error, delay, sink);
+        } finally {
+          jdBackoff = Math.max(0, jdBackoff - 1);
+        }
+        jdPending++;
+        emit("url");
+      }
+    } catch (error) {
+      failJd(url, key, error);
+    } finally {
       finish(url);
     }
   };
@@ -609,7 +689,11 @@ async function runCleanBody(
     emit("url");
     for (const url of pending) {
       const sink = sinkFor("jd", url, key);
-      jdTasks.push(runLimited(url, "jd", () => confirmJd(url, key, sink), runtime, sink));
+      jdTasks.push(
+        isWorkdayUrl(url)
+          ? runLimited(url, "jd", () => confirmJd(url, key, sink), runtime, sink)
+          : confirmOtherJd(url, key, sink)
+      );
     }
   };
 
