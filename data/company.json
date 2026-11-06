@@ -6136,7 +6136,8 @@
       "https://www.asm.com/open-vacancies/?gh_jid=4966075101",
       "https://www.asm.com/open-vacancies/?gh_jid=4977325101",
       "https://www.asm.com/open-vacancies/?gh_jid=5000751101",
-      "https://www.asm.com/open-vacancies/?gh_jid=5028136101"
+      "https://www.asm.com/open-vacancies/?gh_jid=5028136101",
+      "https://www.asm.com/open-vacancies/?gh_jid=5029228101"
     ]
   },
   {
@@ -37240,6 +37241,18 @@
     ]
   },
   {
+    "name": "raft",
+    "ats": "greenhouse",
+    "identifier": "raft",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/raft/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/raft/jobs/6239800004",
+      "https://job-boards.greenhouse.io/raft/jobs/6239819004",
+      "https://job-boards.greenhouse.io/raft/jobs/6240549004"
+    ]
+  },
+  {
     "name": "Ragle Inc",
     "ats": "jazzhr",
     "identifier": "ragleinc.applytojob.com",
@@ -49026,10 +49039,13 @@
       "https://jobs.lever.co/zoox/6da52aa7-0ccb-48d0-af25-0889f41ddee5",
       "https://jobs.lever.co/zoox/6e2c1641-a814-43ad-a807-34f585a35fd9",
       "https://jobs.lever.co/zoox/7522162e-a518-444e-8fe7-49b8b45bbdd3",
+      "https://jobs.lever.co/zoox/7b20b929-d9a4-4995-a472-16cd4925a877/apply",
       "https://jobs.lever.co/zoox/8321d00e-9e2b-4947-a37e-fdbad7dcd637",
       "https://jobs.lever.co/zoox/87877cf4-3ac8-45d5-90fb-2ef7f223c068",
       "https://jobs.lever.co/zoox/887c7590-e98d-4997-b85d-e3956381fd57",
+      "https://jobs.lever.co/zoox/88f6cb68-1534-44af-80db-10e43c203520",
       "https://jobs.lever.co/zoox/896f37b9-80b7-4077-a937-e499151ce5f2",
+      "https://jobs.lever.co/zoox/8b32157b-ab44-4078-85ea-1d8d7b747a20",
       "https://jobs.lever.co/zoox/91ff6263-49fb-421e-860f-36e7b9bae784",
       "https://jobs.lever.co/zoox/ae2785ae-dfee-484b-8add-3cf32ca2d10e",
       "https://jobs.lever.co/zoox/b1bba11f-2b04-4a4a-8095-752c04182af1",
