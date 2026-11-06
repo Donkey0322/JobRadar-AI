@@ -1,1 +1,163 @@
-[]
+[
+  {
+    "name": "batches/ddqd0bxqsf5o1sjml5mwipz6gwait2bp2l3u",
+    "submittedAt": "2026-11-06T01:35:16.463Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "American Express",
+        "role": "Software Engineer I",
+        "link": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26016174",
+        "location": "Sunrise, FL, United States",
+        "country": "USA"
+      },
+      {
+        "company": "ByteDance",
+        "role": "AI Research Scientist - Pico - Inter-Perception RD - HCI - Pico - San Jose",
+        "link": "https://joinbytedance.com/search/7704391868210137397",
+        "location": "San Jose",
+        "country": "USA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "102917965328 11/05/2026 Full-stack Engineer 4 Plano, TX",
+        "link": "https://www.capitalonecareers.com/job/plano/full-stack-engineer-4/1732/102917965328",
+        "location": "Plano, TX",
+        "country": "USA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 4",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Plano-TX/Full-stack-Engineer-4_R1005300-2",
+        "location": "Plano, TX",
+        "country": "USA"
+      },
+      {
+        "company": "Jci",
+        "role": "Performance Engineer - Sustainable Infrastructure Services",
+        "link": "https://jci.wd5.myworkdayjobs.com/jci/job/Livermore-California-United-States-of-America/Performance-Engineer---Sustainable-Infrastructure-Services_WD30282935",
+        "location": "Livermore-California-United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "Lockheedmartin",
+        "role": "Systems Engineering - Intern",
+        "link": "https://lockheedmartin.eightfold.ai/careers/job/996477806176?domain=lockheedmartin.com&8fold_id=996477806176",
+        "location": "Palmdale, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Lockheedmartin",
+        "role": "Software Developer Intern",
+        "link": "https://lockheedmartin.eightfold.ai/careers/job/996477806702?domain=lockheedmartin.com&8fold_id=996477806702",
+        "location": "Boulder, CO",
+        "country": "USA"
+      },
+      {
+        "company": "Lockheedmartin",
+        "role": "Systems Engineering - Intern",
+        "link": "https://lockheedmartin.eightfold.ai/careers/job/996477805850?domain=lockheedmartin.com&8fold_id=996477805850",
+        "location": "Palmdale, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Lockheedmartin",
+        "role": "Systems Engineering - Early Career",
+        "link": "https://lockheedmartin.eightfold.ai/careers/job/996477802987?domain=lockheedmartin.com&8fold_id=996477802987",
+        "location": "Palmdale, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer, Core OS Capabilities",
+        "link": "https://www.metacareers.com/profile/job_details/1095940806376464",
+        "location": "Redmond, WA",
+        "country": "USA"
+      },
+      {
+        "company": "Nvidia",
+        "role": "Software QA Engineer - AI Data Centers",
+        "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Software-QA-Engineer---AI-Data-Centers_JR2028396",
+        "location": "2 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Openai",
+        "role": "Forward Deployed Engineer (FDE), Cyber - NYC",
+        "link": "https://jobs.ashbyhq.com/openai/9c1aa1f3-b4d0-48fa-814b-37d36ad0ad2e",
+        "location": "New York City",
+        "country": "USA"
+      },
+      {
+        "company": "Openai",
+        "role": "Forward Deployed Engineer (FDE), Cyber - SF",
+        "link": "https://jobs.ashbyhq.com/openai/a84e6109-142f-45ae-80e1-05811732cca1",
+        "location": "San Francisco",
+        "country": "USA"
+      },
+      {
+        "company": "Qualcomm",
+        "role": "Embedded Software Engineer",
+        "link": "https://careers.qualcomm.com/careers/job/446719178051?domain=qualcomm.com&8fold_id=446719178051",
+        "location": "San Diego, California, United States of America",
+        "country": "USA"
+      },
+      {
+        "company": "Salesforce",
+        "role": "Provisioning & Entitlements Systems Sr Analyst",
+        "link": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Indiana---Indianapolis/Provisioning---Entitlements-Systems-Sr-Analyst_JR366792",
+        "location": "3 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Spectrum",
+        "role": "2027 Summer Intern: Data Developer Greenwood Village, CO 11/05/2026",
+        "link": "https://jobs.spectrum.com/job/greenwood-village/2027-summer-intern-data-developer/4673/100149371008",
+        "location": "Greenwood Village, CO",
+        "country": "USA"
+      },
+      {
+        "company": "Spectrum",
+        "role": "2027 Summer Intern: Software Engineer - P&T Maryland Heights, MO 11/05/2026",
+        "link": "https://jobs.spectrum.com/job/maryland-heights/2027-summer-intern-software-engineer-p-and-t/4673/100830276992",
+        "location": "Maryland Heights, MO",
+        "country": "USA"
+      },
+      {
+        "company": "True Anomaly",
+        "role": "Platform Engineer, IT",
+        "link": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5283892007",
+        "location": "Denver, CO; Long Beach, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Universal Health Services",
+        "role": "Performance Improvement Analyst *ONSITE* South Texas Health System - FT - ROC",
+        "link": "https://jobs.uhsinc.com/jobs/374481?icims=1",
+        "location": "MCALLEN, Texas",
+        "country": "USA"
+      },
+      {
+        "company": "Westernalliancebank",
+        "role": "Summer 2027 Internship - Dallas, TX - Platform Engineering",
+        "link": "https://westernalliancebank.wd5.myworkdayjobs.com/WAB/job/Dallas-TX/Summer-2027-Internship---Dallas--TX---Platform-Engineering_R14023",
+        "location": "Dallas, TX",
+        "country": "USA"
+      },
+      {
+        "company": "Westernalliancebank",
+        "role": "Summer 2027 Internship - Dallas, TX - Platform Engineering",
+        "link": "https://westernalliancebank.wd5.myworkdayjobs.com/WAB/job/Dallas-TX/Summer-2027-Internship---Dallas--TX---Platform-Engineering_R14020",
+        "location": "Dallas, TX",
+        "country": "USA"
+      },
+      {
+        "company": "Westernalliancebank",
+        "role": "Summer 2027 Internship - Dallas, TX - Platform Engineering",
+        "link": "https://westernalliancebank.wd5.myworkdayjobs.com/WAB/job/Dallas-TX/Summer-2027-Internship---Dallas--TX---Platform-Engineering_R14021",
+        "location": "Dallas, TX",
+        "country": "USA"
+      }
+    ]
+  }
+]
