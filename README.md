@@ -89,9 +89,9 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [2027 Summer Intern](./job-postings/summer-intern.md) — 2,039 opportunities
+- [2027 Summer Intern](./job-postings/summer-intern.md) — 2,040 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,813 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,453 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,457 opportunities
 
 ## The List 🚴‍♂️
 
@@ -110,6 +110,13 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Impulse Space</td>
+      <td width="420" align="left" valign="top">Assembly, Integration, and Test (AI&amp;T) Engineering Intern (Summer 2027)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Redondo Beach, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://impulsespace.pinpointhq.com/en/postings/59b09673-de5e-4ffc-a976-8ebdb3bb8d56"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 7</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Zoox</td>
       <td width="420" align="left" valign="top">Data Scientist Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
@@ -313,16 +320,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260831"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 6</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Draper</td>
-      <td width="420" align="left" valign="top">GNC Systems Engineering Intern (Summer 2027)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Cambridge, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://draper.wd5.myworkdayjobs.com/draper_careers/job/Cambridge-MA/GNC-Systems-Engineering-Intern--Summer-2027-_JR003129"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 6</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 2,039 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 2,040 opportunities in this section.</sub></p>
 
 ### Off Season Intern
 
@@ -565,6 +565,34 @@ Each category page shows up to 300 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Wolverine</td>
+      <td width="420" align="left" valign="top">Software Engineer – N-Tiered Software Developer</td>
+      <td width="180" align="left" valign="top">Chicago, IL</td>
+      <td width="120" align="left" valign="top"><a href="https://wolve.pinpointhq.com/en/postings/ce3f9cb7-4219-4676-8241-5c8b7903d4c6"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 7</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Innovative Defense Technologies</td>
+      <td width="420" align="left" valign="top">Associate Systems Engineer - JobID-0183<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Mount Laurel, NJ</td>
+      <td width="120" align="left" valign="top"><a href="https://idtus.pinpointhq.com/en/postings/3ffe3459-d01a-4ccc-8005-c6d00f2ce6cc"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 7</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Associate Software Engineer - JobID-0186<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Mount Laurel, NJ</td>
+      <td width="120" align="left" valign="top"><a href="https://idtus.pinpointhq.com/en/postings/7f0d1270-7754-4346-9c73-1fe45e086258"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 7</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Chewy</td>
+      <td width="420" align="left" valign="top">Software Engineer I, Full Stack, Promotions</td>
+      <td width="180" align="left" valign="top">Boston, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://chewy.wd5.myworkdayjobs.com/External/job/Boston-MA/Software-Engineer-I--Full-Stack--Promotions_R31442"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 7</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Newyorklife</td>
       <td width="420" align="left" valign="top">Associate - Full-Stack Software Developer</td>
       <td width="180" align="left" valign="top">New York, NY</td>
@@ -746,37 +774,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://careers.formlabs.com/job/8241436/apply/?gh_jid=8241436"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 6</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Engineer, Business Systems</td>
-      <td width="180" align="left" valign="top">Somerville, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.formlabs.com/job/7506561/apply/?gh_jid=7506561"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Generalmotors</td>
-      <td width="420" align="left" valign="top">Entry Level Mainframe Systems Engineer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Warren, MI</td>
-      <td width="120" align="left" valign="top"><a href="https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/Entry-Level-Mainframe-Systems-Engineer_JR-202623745"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Icf</td>
-      <td width="420" align="left" valign="top">Software Developer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Remote, USA</td>
-      <td width="120" align="left" valign="top"><a href="https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Richmond-VA/Software-Developer_R2603769"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Intel</td>
-      <td width="420" align="left" valign="top">Microarchitecture and Design Engineer - AI SoC</td>
-      <td width="180" align="left" valign="top">Santa Clara, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/Microarchitecture-and-Design-Engineer---AI-SoC_JR0287996"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 6</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,453 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,457 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -795,7 +795,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-07T17:46:39.571Z</code>
+      🕒 Last updated <code>2026-11-07T17:54:15.814Z</code>
     </span>
   </p>
 </div>

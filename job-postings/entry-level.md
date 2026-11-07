@@ -14,6 +14,34 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Wolverine</td>
+      <td width="420" align="left" valign="top">Software Engineer – N-Tiered Software Developer</td>
+      <td width="180" align="left" valign="top">Chicago, IL</td>
+      <td width="120" align="left" valign="top"><a href="https://wolve.pinpointhq.com/en/postings/ce3f9cb7-4219-4676-8241-5c8b7903d4c6"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 7</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Innovative Defense Technologies</td>
+      <td width="420" align="left" valign="top">Associate Systems Engineer - JobID-0183<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Mount Laurel, NJ</td>
+      <td width="120" align="left" valign="top"><a href="https://idtus.pinpointhq.com/en/postings/3ffe3459-d01a-4ccc-8005-c6d00f2ce6cc"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 7</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Associate Software Engineer - JobID-0186<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Mount Laurel, NJ</td>
+      <td width="120" align="left" valign="top"><a href="https://idtus.pinpointhq.com/en/postings/7f0d1270-7754-4346-9c73-1fe45e086258"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 7</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Chewy</td>
+      <td width="420" align="left" valign="top">Software Engineer I, Full Stack, Promotions</td>
+      <td width="180" align="left" valign="top">Boston, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://chewy.wd5.myworkdayjobs.com/External/job/Boston-MA/Software-Engineer-I--Full-Stack--Promotions_R31442"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 7</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Newyorklife</td>
       <td width="420" align="left" valign="top">Associate - Full-Stack Software Developer</td>
       <td width="180" align="left" valign="top">New York, NY</td>
@@ -2085,38 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://bakerhughes.wd5.myworkdayjobs.com/bakerhughes/job/US-NV-MINDEN-1631-BENTLY-PARKWAY-SOUTH/Software-Engineer_R168272"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 2</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Anduril Industries</td>
-      <td width="420" align="left" valign="top">Space Orbital Software Engineer, Emerging Talent<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Costa Mesa, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/andurilindustries/jobs/5236290007?gh_jid=5236290007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 2</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Apple" src="../assets/featured-badges/apple.svg" /></td>
-      <td width="420" align="left" valign="top">Cellular Power Optimization Software Engineer, Wireless Technologies &amp; Ecosystems</td>
-      <td width="180" align="left" valign="top">San Diego, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200692907-3543/cellular-power-optimization-software-engineer-wireless-technologies-ecosystems?team=SFTWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 2</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Cellular Power Optimization Software Engineer, Wireless Technologies &amp; Ecosystems</td>
-      <td width="180" align="left" valign="top">San Diego, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200692894-3543/cellular-power-optimization-software-engineer-wireless-technologies-ecosystems?team=SFTWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 2</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Asml</td>
-      <td width="420" align="left" valign="top">System Integration and Test Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">San Diego, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/System-Integration-and-Test-Engineer_J-00356216"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 2</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 3,453 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 3,457 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-07T17:46:39.571Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-07T17:54:15.814Z</code></sub>
