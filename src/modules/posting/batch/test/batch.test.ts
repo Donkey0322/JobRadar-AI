@@ -2,6 +2,7 @@ import path from "node:path";
 import { afterEach, beforeEach, describe, expect, it, onTestFinished, vi } from "vitest";
 
 import { JobCategory } from "@/constants/job-category";
+import { SEASONS } from "@/constants/season";
 
 import type { Job } from "@/types";
 import type { JD } from "@/types/jobs";
@@ -50,6 +51,25 @@ vi.mock("@/utils/ndjson-archive", async (importOriginal) => {
   return {
     ...actual,
     readNdjsonFileIfExists: readNdjsonFileIfExistsMock,
+  };
+});
+
+const failureStore = vi.hoisted(() => {
+  const store = {
+    records: [] as unknown[],
+    load: async () => structuredClone(store.records),
+    save: async (records: unknown[]) => {
+      store.records = structuredClone(records);
+    },
+  };
+  return store;
+});
+
+vi.mock("@/store/batch", async (importOriginal) => {
+  const actual = (await importOriginal()) as Record<string, unknown>;
+  return {
+    ...actual,
+    batchFailures: { load: failureStore.load, save: failureStore.save },
   };
 });
 
@@ -113,6 +133,7 @@ function makeJob(): Job {
 
 describe("batch-queue", () => {
   beforeEach(() => {
+    failureStore.records = [];
     readNdjsonFileIfExistsMock.mockReset().mockResolvedValue([]);
     readJsonFileMock.mockReset().mockResolvedValue([]);
     writeFileMock.mockReset().mockResolvedValue(undefined);
@@ -346,6 +367,66 @@ describe("batch-queue", () => {
         link: job.link,
         location: job.location,
       })}\n`,
+      "utf-8"
+    );
+  });
+
+  it("re-queues a job whose batch result breaks the JD rules and records the attempt", async () => {
+    vi.useFakeTimers({ now: new Date("2026-11-07T09:00:00.000Z"), toFake: ["Date"] });
+    onTestFinished(() => {
+      vi.useRealTimers();
+    });
+    const job = makeJob();
+    readJsonFileMock.mockResolvedValue([
+      { name: "batches/abc", submittedAt: "2026-09-01T00:00:00.000Z", jobs: [job] },
+    ]);
+    getAIProviderMock.mockReturnValue({
+      getBatch: vi.fn().mockResolvedValue({
+        state: "succeeded",
+        durationMs: 240_000,
+        results: [
+          {
+            key: getJobKey(job.link),
+            result: JSON.stringify({
+              ...usaJd,
+              category: JobCategory.SUMMER_INTERN,
+              season: SEASONS.fall,
+            }),
+            cost: 0.001,
+          },
+        ],
+      }),
+    });
+
+    const { analyzed, remaining } = await collectInflightBatches();
+
+    expect(analyzed).toEqual([]);
+    expect(remaining).toEqual([]);
+    expect(analyzeJDMock).not.toHaveBeenCalled();
+    expect(failureStore.records).toEqual([
+      {
+        key: getJobKey(job.link),
+        job,
+        status: "retrying",
+        failure: { stage: "ai", reason: "invalid" },
+        attempts: [
+          {
+            id: "batches/abc",
+            at: "2026-11-07T09:00:00.000Z",
+            failure: { stage: "ai", reason: "invalid" },
+            cost: 0.001,
+            round: 0,
+          },
+        ],
+        cost: 0.001,
+        firstFailedAt: "2026-11-07T09:00:00.000Z",
+        lastFailedAt: "2026-11-07T09:00:00.000Z",
+        manualRetries: 0,
+      },
+    ]);
+    expect(writeFileMock).toHaveBeenCalledWith(
+      expect.stringContaining(`${path.sep}batch${path.sep}queue.ndjson`),
+      `${JSON.stringify(job)}\n`,
       "utf-8"
     );
   });

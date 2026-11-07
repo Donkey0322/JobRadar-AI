@@ -27,7 +27,22 @@ export interface Job {
   jd?: JD | null;
 }
 
+/**
+ * Why public stopped before a JD was stored. Absent on older rows.
+ * `gone` is an explicit HTTP 404 or 410. `exhausted` used the shared attempt
+ * budget on a temporary failure. `undetermined` is anything else, including
+ * 403, a synthetic 404, and a parse failure.
+ */
+export interface OpportunityStop {
+  reason: "gone" | "exhausted" | "undetermined";
+  code: number;
+  /** Producer signal. `closed` is a synthetic 404, not an HTTP 404. */
+  failure?: "timeout" | "closed" | "invalid";
+  at: string;
+}
+
 export interface Opportunity extends Job {
   postedAt: string;
   expired: boolean;
+  stop?: OpportunityStop;
 }

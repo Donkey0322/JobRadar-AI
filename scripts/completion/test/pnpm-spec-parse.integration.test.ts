@@ -21,7 +21,9 @@ function specPath(name: "EASY_COMPLETE_BUNDLE" | "EASY_COMPLETE_PNPM_SPEC") {
   const value = process.env[name];
 
   if (!value) {
-    throw new Error(`${name} must point at a local Easy Complete file before this parser test can run`);
+    throw new Error(
+      `${name} must point at a local Easy Complete file before this parser test can run`
+    );
   }
 
   if (!existsSync(value)) {
@@ -49,7 +51,9 @@ type Parser = {
   ) => Promise<{ completionObj: SpecNode }>;
   nb: (state: { completionObj: SpecNode }) => {
     completionObj: SpecNode;
-    currentArg?: { generators?: { postProcess?: (stdout: string, tokens: string[]) => Suggestion[] }[] };
+    currentArg?: {
+      generators?: { postProcess?: (stdout: string, tokens: string[]) => Suggestion[] }[];
+    };
   };
 };
 
@@ -82,10 +86,7 @@ async function installParser() {
       "async function Lo({executable:e,args:t,environment:n,workingDirectory:r,terminalSessionId:i,timeout:a}){let o=n??{};return Ka({executable:e,arguments:t,env:Object.keys(o).map(e=>A(Pr,{key:e,value:o[e]})),workingDirectory:r,terminalSessionId:i,timeout:a?A(Nr,{nanos:Math.floor(a%1e3*1e6),secs:BigInt(Math.floor(a/1e3))}):void 0})}",
       "async function Lo({executable:e,args:t,workingDirectory:r}){return globalThis.__ecSpawn({executable:e,args:t,workingDirectory:r})}"
     )
-    .replace(
-      /Rs\.watch\(\)[\s\S]*$/,
-      "globalThis.__ecParser={cb,nb};"
-    );
+    .replace(/Rs\.watch\(\)[\s\S]*$/, "globalThis.__ecParser={cb,nb};");
 
   if (patched === source) throw new Error("Could not isolate the Easy Complete parser");
 
@@ -131,7 +132,11 @@ beforeAll(async () => {
   ) => readFileSync(file, "utf8");
   (
     globalThis as typeof globalThis & {
-      __ecSpawn: (command: { executable: string; args?: string[]; workingDirectory?: string }) => Promise<{
+      __ecSpawn: (command: {
+        executable: string;
+        args?: string[];
+        workingDirectory?: string;
+      }) => Promise<{
         exitCode: number;
         stdout: string;
         stderr: string;
@@ -267,7 +272,14 @@ describe("installed pnpm spec parse", () => {
       "board",
       "email",
     ]);
-    expect(subcommands(job)).toEqual(["add", "analyze", "delete", "clean", "dedup"]);
+    expect(subcommands(job)).toEqual([
+      "add",
+      "analyze",
+      "delete",
+      "clean",
+      "pinpoint-replay",
+      "dedup",
+    ]);
     expect(options(add)).toEqual(expect.arrayContaining(["-l", "--link", "-f", "--file"]));
     expect(subcommands(company)).toEqual(["refresh"]);
     expect(subcommands(board)).toEqual(["refresh"]);

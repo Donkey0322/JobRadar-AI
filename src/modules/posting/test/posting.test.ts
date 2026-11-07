@@ -41,6 +41,23 @@ describe("Posting", () => {
     expect(posting.isRecent()).toBe(true);
   });
 
+  it("trims company and role without touching inner spaces, casing, or the input", () => {
+    const input = {
+      company: "  Two Sigma\t",
+      role: "\n Software Engineer  II, eBay Ads ",
+      link: "https://job-boards.greenhouse.io/acme/jobs/123",
+      location: " Remote ",
+    };
+    const snapshot = structuredClone(input);
+
+    expect(Posting.from(input).toJob()).toEqual({
+      ...input,
+      company: "Two Sigma",
+      role: "Software Engineer  II, eBay Ads",
+    });
+    expect(input).toEqual(snapshot);
+  });
+
   it("returns the same runtime instance when wrapping a Posting again", () => {
     const posting = makePosting();
 

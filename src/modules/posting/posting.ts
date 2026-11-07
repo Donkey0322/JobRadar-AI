@@ -27,8 +27,8 @@ export class Posting implements Job {
   #dates: PostingDate[];
 
   constructor(job: Job, dates: PostingDate | readonly PostingDate[] = []) {
-    this.company = job.company;
-    this.role = job.role;
+    this.company = job.company.trim();
+    this.role = job.role.trim();
     this.link = job.link;
     this.location = job.location;
     this.#dates = Array.isArray(dates) ? [...dates] : [dates];

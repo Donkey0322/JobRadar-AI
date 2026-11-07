@@ -948,6 +948,12 @@ Submit queued jobs without waiting for results:
 pnpm jobctl batch --submit-only
 ```
 
+A batch job whose AI answer breaks the JD rules gets up to 3 attempts in total. Without a provider Batch API, each failed real-time call counts the same way. Every attempt and its cost is kept in `data/batch/failures.ndjson`. After the third, the job is set aside there with `status: "failed"`. Queue those jobs again with 3 new attempts and run the batch:
+
+```bash
+pnpm jobctl batch --retry-failed
+```
+
 Send notifications:
 
 ```bash

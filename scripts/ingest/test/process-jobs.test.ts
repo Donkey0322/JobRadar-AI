@@ -295,6 +295,132 @@ describe("processJobs", () => {
     ]);
   });
 
+  it("stores trimmed company and role from a real-time analysis without changing the input", async () => {
+    const job = {
+      ...makeJob("padded"),
+      company: " Point 72 ",
+      role: " Junior  Software Engineer\t",
+    };
+    const snapshot = structuredClone(job);
+    getJDMock.mockResolvedValue({ jd: usaJd, rawJD: "raw", cost: 0.01, error: JD_FETCH_OK });
+
+    await processJobs({ jobs: [job], ...emptyContext() });
+
+    const trimmed = { company: "Point 72", role: "Junior  Software Engineer" };
+    expect(dataMocks.jobs.append).toHaveBeenCalledWith([expect.objectContaining(trimmed)]);
+    expect(dataMocks.opportunities.append).toHaveBeenCalledWith([expect.objectContaining(trimmed)]);
+    expect(job).toEqual(snapshot);
+  });
+
+  it("queues and stores trimmed company and role on the batch path", async () => {
+    shouldBatchAnalyzeMock.mockReturnValue(true);
+    const queued = {
+      ...makeJob("padded-batch"),
+      company: " Point 72 ",
+      role: " Senior  Engineer ",
+    };
+
+    await processJobs({ jobs: [queued], ...emptyContext() });
+
+    const trimmed = { company: "Point 72", role: "Senior  Engineer" };
+    expect(enqueueBatchJobsMock).toHaveBeenCalledWith([expect.objectContaining(trimmed)]);
+    expect(dataMocks.opportunities.append).toHaveBeenCalledWith([expect.objectContaining(trimmed)]);
+
+    const analyzed = {
+      ...makeJob("padded-collect"),
+      company: "  Acme ",
+      role: " Junior Software Engineer ",
+    };
+    const snapshot = structuredClone(analyzed);
+
+    await persistAnalyzedJobs([{ job: analyzed, jd: usaJd, cost: 0.002 }]);
+
+    expect(dataMocks.jobs.append).toHaveBeenLastCalledWith([
+      expect.objectContaining({ company: "Acme", role: "Junior Software Engineer", jd: usaJd }),
+    ]);
+    expect(analyzed).toEqual(snapshot);
+  });
+
+  it("does not copy a legacy stored JD onto the opportunity of a re-analyzed job", async () => {
+    // Thomson Reuters JREQ199695: stored in May 2026, posted again under a new URL.
+    const stored = {
+      company: "Thomsonreuters",
+      role: "Automation and AI Solutions Lead",
+      link: "https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/India-Bengaluru-Karnataka/Automation-and-AI-Solutions-Lead_JREQ199695",
+      location: "",
+      id: 1200,
+      jd: {
+        citizenship: false,
+        sponsorship: null,
+        location: "Other",
+        qualifications: ["Have 5-8 years total experience."],
+        season: "Senior Level",
+      },
+    } as unknown as Job;
+    const reposted = {
+      ...stored,
+      link: "https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/India-Hyderabad/Automation-and-AI-Solutions-Lead_JREQ199695",
+      jd: undefined,
+      id: undefined,
+    };
+    const seniorJd: JD = { ...usaJd, country: "India", category: JobCategory.SENIOR_LEVEL };
+    dataMocks.jobs.loadInFileOrder.mockResolvedValue([stored]);
+
+    const result = await persistAnalyzedJobs([{ job: reposted, jd: seniorJd, cost: 0.002 }]);
+
+    expect(result.count).toBe(0);
+    expect(dataMocks.jobs.append).toHaveBeenCalledWith([]);
+    expect(dataMocks.opportunities.append).toHaveBeenCalledWith([
+      expect.objectContaining({ id: 1200, jd: seniorJd }),
+    ]);
+  });
+
+  it("keeps a current stored JD from an earlier season on the opportunity", async () => {
+    const storedJd: JD = {
+      ...usaJd,
+      category: JobCategory.SUMMER_INTERN,
+      season: "2025 Summer" as JD["season"],
+    };
+    const stored = { ...makeJob("stored"), id: 3, jd: storedJd };
+    dataMocks.jobs.loadInFileOrder.mockResolvedValue([stored]);
+
+    await persistAnalyzedJobs([{ job: makeJob("stored"), jd: usaJd, cost: 0.002 }]);
+
+    expect(dataMocks.opportunities.append).toHaveBeenCalledWith([
+      expect.objectContaining({ id: 3, jd: storedJd }),
+    ]);
+  });
+
+  it("writes a stored non-intern JD with its season normalized to None", async () => {
+    const storedJd = { ...usaJd, location: "Stored HQ", season: "2025 Summer" as JD["season"] };
+    const stored = { ...makeJob("stored-entry"), id: 4, jd: storedJd };
+    dataMocks.jobs.loadInFileOrder.mockResolvedValue([stored]);
+
+    await persistAnalyzedJobs([{ job: makeJob("stored-entry"), jd: usaJd, cost: 0.002 }]);
+
+    expect(dataMocks.opportunities.append).toHaveBeenCalledWith([
+      expect.objectContaining({ id: 4, jd: { ...storedJd, season: "None" } }),
+    ]);
+    expect(storedJd.season).toBe("2025 Summer");
+  });
+
+  it("uses the new JD when the stored intern season conflicts with its category", async () => {
+    const storedJd: JD = {
+      ...usaJd,
+      location: "Stored HQ",
+      category: JobCategory.SUMMER_INTERN,
+      season: "2025 Fall" as JD["season"],
+    };
+    const stored = { ...makeJob("stored-intern"), id: 5, jd: storedJd };
+    dataMocks.jobs.loadInFileOrder.mockResolvedValue([stored]);
+
+    await persistAnalyzedJobs([{ job: makeJob("stored-intern"), jd: usaJd, cost: 0.002 }]);
+
+    expect(dataMocks.opportunities.append).toHaveBeenCalledWith([
+      expect.objectContaining({ id: 5, jd: usaJd }),
+    ]);
+  });
+
   it("notifies unspecified-level titles when the JD matches config", async () => {
     const job = makeJob("generic");
     job.role = "Software Engineer";

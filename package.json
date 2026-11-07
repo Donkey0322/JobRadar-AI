@@ -31,6 +31,10 @@
             {
               "name": "--submit-only",
               "description": "Submit queued jobs, then exit without waiting for results"
+            },
+            {
+              "name": "--retry-failed",
+              "description": "Queue jobs that used up their batch attempts, then run the batch"
             }
           ]
         },
@@ -170,6 +174,10 @@
             {
               "name": "clean",
               "description": "Drop dead posting URLs and refresh companies"
+            },
+            {
+              "name": "pinpoint-replay",
+              "description": "Print a dry-run review of the Pinpoint URLs added in 0ccaee30. Does not fetch or write."
             },
             {
               "name": "dedup",

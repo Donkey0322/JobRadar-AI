@@ -196,11 +196,12 @@ export function batchShouldStart(eventName, commitMessage) {
 }
 
 // eventName is the caller's event. A reusable workflow keeps that name, so a
-// manual Jobs run still arrives as workflow_dispatch. Queue lines and inflight
-// entries are the only signal, for every caller.
-export function batchDue(eventName, queue, inflight) {
+// manual Jobs run still arrives as workflow_dispatch. Queue lines, inflight
+// entries, and saved real-time results are the only signal, for every caller.
+export function batchDue(eventName, queue, inflight, results = null) {
   void eventName;
-  if (queue && queue.split(/\r?\n/).some((line) => line.trim())) return true;
+  const hasLines = (text) => Boolean(text && text.split(/\r?\n/).some((line) => line.trim()));
+  if (hasLines(queue) || hasLines(results)) return true;
   if (!inflight) return false;
   const payload = JSON.parse(inflight);
   return Array.isArray(payload) && payload.length > 0;
@@ -403,7 +404,8 @@ function batchDueCli() {
   const due = batchDue(
     eventName,
     readOptional("data/batch/queue.ndjson"),
-    readOptional("data/batch/inflight.json")
+    readOptional("data/batch/inflight.json"),
+    readOptional("data/batch/results.ndjson")
   );
   stderr(due ? "Batch work is pending." : "No queued or inflight batch work.");
   emit({ due: due ? "true" : "false" });

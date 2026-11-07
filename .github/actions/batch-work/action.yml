@@ -144,6 +144,24 @@ runs:
         token: ${{ inputs.publish_token || inputs.token }}
         ref: ${{ inputs.ref }}
 
+    # Rebuilds replay records for JDs that are not in the last pushed jobs and
+    # opportunities, and keeps provider batch ids that those datasets do not cover yet.
+    # Jobs and opportunities are not part of this commit. The script resets them only
+    # after the tracking commit exists, so a failed commit or a failed push below still
+    # leaves the replay records in the worktree.
+    - name: Save recoverable batch state
+      id: recover_save
+      if: ${{ failure() && !cancelled() && (steps.submit.outcome == 'failure' || steps.collect.outcome == 'failure') }}
+      shell: bash
+      run: pnpm exec tsx scripts/github/recover-batch.ts
+
+    - name: Push recoverable batch state
+      if: ${{ failure() && !cancelled() && steps.recover_save.outputs.committed == 'true' }}
+      uses: ./.github/actions/rebase-push
+      with:
+        token: ${{ inputs.token }}
+        ref: ${{ inputs.ref }}
+
     - name: Fail when checkpoint publish failed
       if: ${{ !cancelled() && steps.publish_checkpoint.outcome == 'failure' }}
       shell: bash

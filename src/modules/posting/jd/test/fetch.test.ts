@@ -8,6 +8,7 @@ import {
   fetchJD,
   HttpStatusCode,
   isRetryableJDFetch,
+  isTemporaryJDFetch,
   JD_FETCH_ERROR,
   jdFetchErrorFromResponse,
   NETWORK_ERROR_CODE,
@@ -35,10 +36,34 @@ describe("parseRetryAfter", () => {
 });
 
 describe("isRetryableJDFetch", () => {
-  it("retries 429 and network failures only", () => {
+  it("retries only a 429 or a connectivity failure", () => {
     expect(isRetryableJDFetch({ code: HttpStatusCode.TOO_MANY_REQUESTS })).toBe(true);
     expect(isRetryableJDFetch({ code: NETWORK_ERROR_CODE })).toBe(true);
+    expect(isRetryableJDFetch({ code: NETWORK_ERROR_CODE, failure: "timeout" })).toBe(true);
+    expect(isRetryableJDFetch({ code: NETWORK_ERROR_CODE, failure: "invalid" })).toBe(true);
+    expect(isRetryableJDFetch({ code: HttpStatusCode.REQUEST_TIMEOUT })).toBe(false);
+    expect(isRetryableJDFetch({ code: HttpStatusCode.SERVICE_UNAVAILABLE })).toBe(false);
+    expect(isRetryableJDFetch({ code: HttpStatusCode.INTERNAL_SERVER_ERROR })).toBe(false);
     expect(isRetryableJDFetch({ code: HttpStatusCode.NOT_FOUND })).toBe(false);
+    expect(isRetryableJDFetch({ code: HttpStatusCode.NOT_FOUND, failure: "closed" })).toBe(false);
+    expect(isRetryableJDFetch({ code: HttpStatusCode.FORBIDDEN })).toBe(false);
+    expect(isRetryableJDFetch({ code: HttpStatusCode.GONE })).toBe(false);
+  });
+});
+
+describe("isTemporaryJDFetch", () => {
+  it("includes the batch retry set without taking over HTML fallback", () => {
+    expect(isTemporaryJDFetch({ code: HttpStatusCode.TOO_MANY_REQUESTS })).toBe(true);
+    expect(isTemporaryJDFetch({ code: NETWORK_ERROR_CODE })).toBe(true);
+    expect(isTemporaryJDFetch({ code: NETWORK_ERROR_CODE, failure: "timeout" })).toBe(true);
+    expect(isTemporaryJDFetch({ code: NETWORK_ERROR_CODE, failure: "invalid" })).toBe(true);
+    expect(isTemporaryJDFetch({ code: HttpStatusCode.REQUEST_TIMEOUT })).toBe(true);
+    expect(isTemporaryJDFetch({ code: HttpStatusCode.SERVICE_UNAVAILABLE })).toBe(true);
+    expect(isTemporaryJDFetch({ code: HttpStatusCode.INTERNAL_SERVER_ERROR })).toBe(true);
+    expect(isTemporaryJDFetch({ code: HttpStatusCode.NOT_FOUND })).toBe(false);
+    expect(isTemporaryJDFetch({ code: HttpStatusCode.NOT_FOUND, failure: "closed" })).toBe(false);
+    expect(isTemporaryJDFetch({ code: HttpStatusCode.FORBIDDEN })).toBe(false);
+    expect(isTemporaryJDFetch({ code: HttpStatusCode.GONE })).toBe(false);
   });
 });
 
@@ -101,11 +126,18 @@ describe("fetchJD", () => {
     fetchMock.mockRejectedValueOnce(timeout);
 
     const timed = await fetchJD("https://example.com/job", AbortSignal.timeout(1_000));
-    expect(timed.error).toEqual({ code: NETWORK_ERROR_CODE, desc: "socket hang up", failure: "timeout" });
+    expect(timed.error).toEqual({
+      code: NETWORK_ERROR_CODE,
+      desc: "socket hang up",
+      failure: "timeout",
+    });
 
     fetchMock.mockRejectedValueOnce(new Error("The operation was aborted due to timeout"));
     const worded = await fetchJD("https://example.com/job", AbortSignal.timeout(1_000));
-    expect(worded.error).toEqual({ code: NETWORK_ERROR_CODE, desc: "The operation was aborted due to timeout" });
+    expect(worded.error).toEqual({
+      code: NETWORK_ERROR_CODE,
+      desc: "The operation was aborted due to timeout",
+    });
 
     const wrapped = new Error("aborted");
     wrapped.name = "AbortError";

@@ -20,6 +20,7 @@ import {
   seenOpportunitiesToWrite,
 } from "@/modules/opportunity/seen";
 import { Posting } from "@/modules/posting";
+import { parseStoredJD } from "@/modules/posting/analysis/validation/ai";
 import { enqueueBatchJobs } from "@/modules/posting/batch";
 import * as store from "@/store";
 import { logger } from "@/utils/logger";
@@ -391,7 +392,7 @@ export async function persistAnalyzedJobs(analyzed: Array<{ job: Job; jd: JD; co
     const existing = storedByKey.get(key);
 
     if (existing) {
-      const stored = Posting.from({ ...existing, jd: existing.jd ?? item.jd });
+      const stored = Posting.from({ ...existing, jd: parseStoredJD(existing.jd) ?? item.jd });
       recordSeenOpportunity(opportunities, stored.toJob(), "preserve");
       state.totalCost += item.cost;
       continue;

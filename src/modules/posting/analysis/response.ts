@@ -3,7 +3,7 @@ import { z } from "zod";
 import type { JDResponse } from "./validation/ai";
 import type { JD } from "@/types/jobs";
 
-import { JDResponseSchema } from "./validation/ai";
+import { JDResponseSchema, normalizeSeason } from "./validation/ai";
 
 import { cleanText } from "@/utils/text";
 
@@ -205,7 +205,7 @@ export function normalizeJD(response: JDResponse): JD {
         ? null
         : response.qualifications.map(cleanAIString).filter((item) => item.length > 0),
     category: response.category,
-    season: response.season,
+    season: normalizeSeason(response.category, response.season),
   };
 }
 

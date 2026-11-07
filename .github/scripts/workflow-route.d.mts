@@ -45,7 +45,12 @@ export function jobsGate(
 
 export function batchShouldStart(eventName: string, commitMessage: string): boolean;
 
-export function batchDue(eventName: string, queue: string | null, inflight: string | null): boolean;
+export function batchDue(
+  eventName: string,
+  queue: string | null,
+  inflight: string | null,
+  results?: string | null
+): boolean;
 
 export function jobsResultAfterBatch(
   fetchResult: string,

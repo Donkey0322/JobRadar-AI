@@ -79,7 +79,45 @@ export interface JDFetchStatus {
   failure?: JDFetchFailure;
 }
 
-export function isRetryableJDFetch(error: Pick<JDFetchStatus, "code">): boolean {
+/**
+ * Batch submit retries these across runs. A parse failure stays here so a blocked
+ * HTML body is retried, but it is not a takedown. Synthetic 404 (`failure: "closed"`)
+ * and other 4xx are not. `fetchPostingJD` and `job clean` use `isRetryableJDFetch`.
+ */
+export function isTemporaryJDFetch(error: Pick<JDFetchStatus, "code" | "failure">): boolean {
+  if (error.failure === "closed") {
+    return false;
+  }
+
+  if (error.code === HttpStatusCode.TOO_MANY_REQUESTS || error.code === NETWORK_ERROR_CODE) {
+    return true;
+  }
+
+  if (error.code === HttpStatusCode.REQUEST_TIMEOUT) {
+    return true;
+  }
+
+  return HttpStatusCode.is5xx(error.code);
+}
+
+/**
+ * The server said this posting is gone. A synthetic 404 sets `failure: "closed"`
+ * and is not this case; neither is 403, 5xx, or a parse failure.
+ */
+export function isExplicitJDRemoval(error: Pick<JDFetchStatus, "code" | "failure">): boolean {
+  if (error.failure) {
+    return false;
+  }
+
+  return error.code === HttpStatusCode.NOT_FOUND || error.code === HttpStatusCode.GONE;
+}
+
+/**
+ * One fetch and `job clean` retry only a 429 or a connectivity failure.
+ * The failure tag is ignored. A 408 or 5xx is not in this set, so `fetchPostingJD`
+ * can still read the HTML page.
+ */
+export function isRetryableJDFetch(error: Pick<JDFetchStatus, "code" | "failure">): boolean {
   return error.code === HttpStatusCode.TOO_MANY_REQUESTS || error.code === NETWORK_ERROR_CODE;
 }
 
@@ -153,8 +191,7 @@ function isTimeoutError(error: unknown): boolean {
 /** Network failure from a thrown error. Timeout and JSON parse errors come from the error class, not its message. */
 export function jdFetchErrorFromThrown(error: unknown): JDFetchStatus {
   const desc = error instanceof Error ? error.message : "Unknown fetch error";
-  const timedOut =
-    isTimeoutError(error) || (error instanceof Error && isTimeoutError(error.cause));
+  const timedOut = isTimeoutError(error) || (error instanceof Error && isTimeoutError(error.cause));
   if (timedOut) return JD_FETCH_ERROR.fetch(desc, "timeout");
   if (error instanceof SyntaxError) return JD_FETCH_ERROR.fetch(desc, "invalid");
   return JD_FETCH_ERROR.fetch(desc);

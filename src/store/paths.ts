@@ -12,3 +12,5 @@ export const ERROR_LOG_PATH = path.join(DATA_PATH, "discover-errors.log");
 export const BATCH_PATH = path.join(DATA_PATH, "batch");
 export const BATCH_QUEUE_PATH = path.join(BATCH_PATH, "queue.ndjson");
 export const BATCH_INFLIGHT_PATH = path.join(BATCH_PATH, "inflight.json");
+export const BATCH_FAILURES_PATH = path.join(BATCH_PATH, "failures.ndjson");
+export const BATCH_RESULTS_PATH = path.join(BATCH_PATH, "results.ndjson");

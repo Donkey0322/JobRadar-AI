@@ -1,6 +1,11 @@
 import { describe, expect, it } from "vitest";
 
+import { SEASONS } from "@/constants/season";
+
+import type { ZodError } from "zod";
+
 import { jdResponseSpilled, parseAIJDResult } from "../response";
+import { parseStoredJD } from "../validation/ai";
 
 const validResponse = {
   citizenship: false,
@@ -11,6 +16,51 @@ const validResponse = {
   category: "entry level",
   season: "None",
 };
+
+describe("parseStoredJD", () => {
+  it("keeps stored JDs from past seasons and screening JDs without qualifications", () => {
+    const pastSummer = { ...validResponse, category: "summer intern", season: "2025 Summer" };
+    const pastFall = { ...validResponse, category: "off-season intern", season: "2024 Fall" };
+    const screening = { ...validResponse, qualifications: null };
+
+    expect(parseStoredJD(pastSummer)).toEqual(pastSummer);
+    expect(parseStoredJD(pastFall)).toEqual(pastFall);
+    expect(parseStoredJD(screening)).toEqual(screening);
+  });
+
+  it.each(["entry level", "mid level", "senior level"])(
+    "normalizes the stored season of %s to None",
+    (category) => {
+      const stored = { ...validResponse, category, season: "2025 Summer" };
+
+      expect(parseStoredJD(stored)).toEqual({ ...stored, season: "None" });
+      expect(stored.season).toBe("2025 Summer");
+    }
+  );
+
+  it.each([
+    ["summer intern", "2025 Fall"],
+    ["summer intern", "2026 Winter"],
+    ["off-season intern", "2025 Summer"],
+  ])("rejects a stored %s with season %s", (category, season) => {
+    expect(parseStoredJD({ ...validResponse, category, season })).toBeNull();
+  });
+
+  it("rejects the legacy Thomson Reuters JREQ199695 JD and other missing fields", () => {
+    expect(
+      parseStoredJD({
+        citizenship: false,
+        sponsorship: null,
+        location: "Other",
+        qualifications: [],
+        season: "Senior Level",
+      })
+    ).toBeNull();
+    const { category: _category, ...noCategory } = validResponse;
+    expect(parseStoredJD(noCategory)).toBeNull();
+    expect(parseStoredJD(undefined)).toBeNull();
+  });
+});
 
 describe("parseAIJDResult", () => {
   it("leaves qualifications empty when the screening response omits them", () => {
@@ -72,6 +122,81 @@ describe("parseAIJDResult", () => {
       expect(invalid.parsed).toEqual({ ...validResponse, country: "Mars" });
     }
     expect(malformed.status).toBe("parse-error");
+  });
+
+  it("rejects the legacy Thomson Reuters JREQ199695 JD that has no country or category", () => {
+    // Written to opportunities by batch collect 6d4e383d; qualifications shortened.
+    const legacy = {
+      citizenship: false,
+      sponsorship: null,
+      location: "Other",
+      qualifications: [
+        "Have 5-8 years total experience.",
+        "Possess 2-4 years production GenAI/LLM experience.",
+      ],
+      season: "Senior Level",
+    };
+
+    const parsed = parseAIJDResult(JSON.stringify(legacy));
+
+    expect(parsed.status).toBe("invalid");
+    if (parsed.status === "invalid") {
+      expect((parsed.error as ZodError).issues.map((issue) => issue.path.join("."))).toEqual(
+        expect.arrayContaining(["country", "category", "season"])
+      );
+    }
+  });
+
+  it.each([
+    ["summer intern", SEASONS.summer],
+    ["summer intern", "None"],
+    ["off-season intern", SEASONS.fall],
+    ["off-season intern", SEASONS.spring],
+    ["off-season intern", SEASONS.winter],
+    ["off-season intern", "None"],
+  ])("keeps %s with season %s", (category, season) => {
+    expect(parseAIJDResult(JSON.stringify({ ...validResponse, category, season }))).toEqual({
+      status: "ok",
+      jd: { ...validResponse, category, season },
+    });
+  });
+
+  it.each([
+    ["summer intern", SEASONS.fall],
+    ["summer intern", SEASONS.spring],
+    ["summer intern", SEASONS.winter],
+    ["off-season intern", SEASONS.summer],
+  ])("rejects %s with season %s", (category, season) => {
+    const parsed = parseAIJDResult(JSON.stringify({ ...validResponse, category, season }));
+
+    expect(parsed.status).toBe("invalid");
+    if (parsed.status === "invalid") {
+      expect((parsed.error as ZodError).issues).toEqual([
+        expect.objectContaining({ path: ["season"], code: "custom" }),
+      ]);
+    }
+  });
+
+  it.each(["entry level", "mid level", "senior level"])(
+    "normalizes the season of %s to None",
+    (category) => {
+      expect(
+        parseAIJDResult(JSON.stringify({ ...validResponse, category, season: SEASONS.summer }))
+      ).toEqual({
+        status: "ok",
+        jd: { ...validResponse, category, season: "None" },
+      });
+    }
+  );
+
+  it("does not fill in a year the model left out", () => {
+    for (const season of ["Summer", `${Number.parseInt(SEASONS.summer) + 1} Summer`]) {
+      const parsed = parseAIJDResult(
+        JSON.stringify({ ...validResponse, category: "summer intern", season })
+      );
+
+      expect(parsed.status).toBe("invalid");
+    }
   });
 
   it("keeps the rest of a qualification split by a short newline run", () => {

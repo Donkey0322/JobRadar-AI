@@ -59,12 +59,16 @@ program
   .command("batch")
   .description("Submit and collect cheaper batch analysis for queued jobs")
   .option("--submit-only", "Submit queued jobs, then exit without waiting for results")
-  .action(async (options: { submitOnly?: boolean }) => {
+  .option("--retry-failed", "Queue jobs that used up their batch attempts, then run the batch")
+  .action(async (options: { submitOnly?: boolean; retryFailed?: boolean }) => {
     const { default: checkConfig } = await import("./setup/check-config");
     await checkConfig();
 
     const { default: runBatch } = await import("./batch");
-    await runBatch({ submitOnly: Boolean(options.submitOnly) });
+    await runBatch({
+      submitOnly: Boolean(options.submitOnly),
+      retryFailed: Boolean(options.retryFailed),
+    });
   });
 
 const setup = program.command("setup");

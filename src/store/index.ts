@@ -1,4 +1,4 @@
-export { batchInflight, batchQueue } from "./batch";
+export { batchFailures, batchInflight, batchQueue, batchResults } from "./batch";
 export { companies } from "./companies";
 export { errorLog } from "./error-log";
 export { jobs } from "./jobs";

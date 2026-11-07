@@ -36,11 +36,12 @@ describe("pnpm jobctl completion draft", () => {
       "analyze",
       "delete",
       "clean",
+      "pinpoint-replay",
       "dedup",
     ]);
     expect(names(["pnpm", "jobctl", "job", "add", ""])).toEqual(["-l", "--link", "-f", "--file"]);
     expect(names(["pnpm", "jobctl", "company", ""])).toEqual(["refresh"]);
     expect(names(["pnpm", "jobctl", "board", ""])).toEqual(["refresh"]);
-    expect(names(["pnpm", "jobctl", "batch", ""])).toEqual(["--submit-only"]);
+    expect(names(["pnpm", "jobctl", "batch", ""])).toEqual(["--submit-only", "--retry-failed"]);
   });
 });

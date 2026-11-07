@@ -1,7 +1,9 @@
+import { randomUUID } from "node:crypto";
 import pLimit from "p-limit";
 
 import { RED_CROSS } from "@/constants/log";
 
+import type { BatchFailure } from "@/modules/posting/batch/failures";
 import type { JD, Job } from "@/types";
 import type {
   AIResponse,
@@ -11,6 +13,7 @@ import type {
 } from "@/utils/ai/provider/utils";
 
 import { getJobKey } from "@/modules/ats/job-key";
+import { saveOpportunityStop, terminalOpportunityStop } from "@/modules/opportunity/stop";
 import analyzeJD, {
   analyzeQualifications,
   formatJDPrompt,
@@ -23,7 +26,14 @@ import {
   parseAIJDResult,
   parseQualificationResult,
 } from "@/modules/posting/analysis/response";
-import { isRetryableJDFetch, JD_FETCH_OK } from "@/modules/posting/jd";
+import {
+  BATCH_MAX_ATTEMPTS,
+  BatchFailures,
+  roundAttempts,
+  toQueuedJob,
+} from "@/modules/posting/batch/failures";
+import { PendingResults } from "@/modules/posting/batch/results";
+import { isTemporaryJDFetch, JD_FETCH_OK } from "@/modules/posting/jd";
 import { Posting } from "@/modules/posting/posting";
 import { batchInflight, batchQueue } from "@/store/batch";
 import { AI_DEFAULT_MODEL, getAIProvider } from "@/utils/ai";
@@ -102,13 +112,7 @@ export async function enqueueBatchJobs(jobs: Job[]) {
     }
 
     seen.add(key);
-    appended.push({
-      company: job.company,
-      role: job.role,
-      link: job.link,
-      location: job.location,
-      ...(job.country ? { country: job.country } : {}),
-    });
+    appended.push(toQueuedJob(job));
   }
 
   if (appended.length === 0) {
@@ -120,16 +124,32 @@ export async function enqueueBatchJobs(jobs: Job[]) {
   logger.info({ count: appended.length }, "📦 Queued jobs for batch analysis");
 }
 
-function parseAnalyzedResult(
-  job: Job,
-  result: string | null,
-  cost: number
-): AnalyzedBatchJob | null {
+/** A model answer that breaks the JD rules. It counts toward `BATCH_MAX_ATTEMPTS`. */
+interface InvalidBatchResult {
+  invalid: true;
+  cost: number;
+}
+
+type BatchParseResult = AnalyzedBatchJob | InvalidBatchResult | null;
+
+function isInvalidResult(result: BatchParseResult): result is InvalidBatchResult {
+  return result !== null && "invalid" in result;
+}
+
+function parseAnalyzedResult(job: Job, result: string | null, cost: number): BatchParseResult {
   if (!result) {
     return null;
   }
 
   const parsed = parseAIJDResult(result);
+
+  if (parsed.status === "invalid") {
+    logger.warn(
+      { company: job.company, url: job.link, reason: "invalid", err: parsed.error },
+      "⚠️ Batch AI response breaks the JD rules"
+    );
+    return { invalid: true, cost };
+  }
 
   if (parsed.status !== "ok") {
     logger.warn(
@@ -233,7 +253,7 @@ async function resolveAnalyzedResult(
   job: Job,
   result: string | null,
   cost: number
-): Promise<AnalyzedBatchJob | null> {
+): Promise<BatchParseResult> {
   if (!result || !jdResponseSpilled(result)) {
     return parseAnalyzedResult(job, result, cost);
   }
@@ -316,7 +336,7 @@ async function submitQualificationBatches(
 
   for (const item of fetched) {
     if (!item.rawJD) {
-      if (isRetryableJDFetch(item.error)) {
+      if (isTemporaryJDFetch(item.error)) {
         requeue.push(item.job);
       } else {
         analyzed.push({ job: item.job, jd: item.jd, cost: item.cost });
@@ -401,23 +421,191 @@ async function rememberQualificationBatch(batch: InflightBatch) {
   await saveInflightBatches([...current, batch]);
 }
 
-async function analyzeJobsRealtime(jobs: Array<{ job: Job; rawJD: string }>) {
+function logFailedAttempt(job: Job, record: BatchFailure) {
+  const context = {
+    company: job.company,
+    url: job.link,
+    failure: record.failure,
+    attempts: roundAttempts(record).length,
+    maxAttempts: BATCH_MAX_ATTEMPTS,
+  };
+
+  if (record.status === "retrying") {
+    logger.warn(context, "⚠️ Batch analysis failed; keeping the job queued for another attempt");
+  } else {
+    logger.error(
+      context,
+      `${RED_CROSS} Batch analysis failed too many times; rerun with pnpm jobctl batch --retry-failed`
+    );
+  }
+}
+
+/**
+ * Counts each invalid result once per provider batch and returns the `retrying` jobs to
+ * re-queue. A result already counted, for example from an inflight batch collected again
+ * after a manual retry, adds nothing but still re-queues a `retrying` job that has no
+ * pending batch. failures.ndjson is saved before the caller re-queues jobs or drops the
+ * inflight batch, so a failed save leaves that batch to be collected again.
+ */
+async function recordInvalidResults(
+  invalid: Array<{ job: Job; batch: string; cost: number }>,
+  succeeded: Set<string>,
+  pendingKeys: Set<string>
+): Promise<Job[]> {
+  if (invalid.length === 0 && succeeded.size === 0) {
+    return [];
+  }
+
+  const failures = await BatchFailures.load();
+  const retry: Job[] = [];
+  const at = new Date().toISOString();
+
+  for (const key of succeeded) {
+    failures.clear(key);
+  }
+
+  for (const { job, batch, cost } of invalid) {
+    const key = getJobKey(job.link);
+
+    if (succeeded.has(key)) {
+      continue;
+    }
+
+    const { record, counted } = failures.record(job, {
+      id: batch,
+      at,
+      failure: { stage: "ai", reason: "invalid" },
+      cost,
+    });
+
+    if (counted) {
+      logFailedAttempt(job, record);
+    }
+
+    if (record.status === "retrying" && !pendingKeys.has(key)) {
+      retry.push(job);
+    }
+  }
+
+  await failures.save();
+  return retry;
+}
+
+/**
+ * Puts every failed job back in the queue with a fresh round of attempts, then the
+ * normal batch run analyzes it. The queue is written first. If the record save fails,
+ * the record stays `failed`, the next submit drops the queued copy, and running this
+ * again picks the job up.
+ */
+export async function retryFailedBatchJobs(): Promise<number> {
+  const failures = await BatchFailures.load();
+  const failed = failures.failed();
+
+  if (failed.length === 0) {
+    return 0;
+  }
+
+  await enqueueBatchJobs(failed.map((record) => record.job));
+  failures.markRetried(failed);
+  await failures.save();
+  return failed.length;
+}
+
+/**
+ * Real-time JDs saved in results.ndjson that have not reached jobs and opportunities.
+ * Persist them before analyzing anything new, then call `finishRealtimeJobs`.
+ */
+export async function loadRealtimeResults(): Promise<AnalyzedBatchJob[]> {
+  const results = await PendingResults.load();
+  return results.list().map(({ job, jd, cost }) => ({ job, jd, cost }));
+}
+
+/**
+ * Call after real-time results persist to jobs and opportunities. Failure records go
+ * first, then the queue, then results.ndjson. Until that last write, the saved result is
+ * replayed, so an interruption at any step only repeats idempotent work.
+ */
+export async function finishRealtimeJobs(jobs: Job[]) {
+  if (jobs.length === 0) {
+    return;
+  }
+
+  const keys = new Set(jobs.map((job) => getJobKey(job.link)));
+  const failures = await BatchFailures.load();
+
+  for (const key of keys) {
+    failures.clear(key);
+  }
+
+  await failures.save();
+  const queue = await loadBatchQueue();
+  const remaining = queue.filter((job) => !keys.has(getJobKey(job.link)));
+
+  if (remaining.length !== queue.length) {
+    await saveBatchQueue(remaining);
+  }
+
+  const results = await PendingResults.load();
+  results.remove(keys);
+  await results.save();
+}
+
+/**
+ * Analyzes jobs one call at a time. A valid JD is saved to results.ndjson before it is
+ * returned. Each failed call is a counted attempt. Returns the jobs that stay queued:
+ * successes until `finishRealtimeJobs`, and `retrying` failures.
+ */
+async function analyzeJobsRealtime(
+  jobs: Array<{ job: Job; rawJD: string }>,
+  failures: BatchFailures,
+  results: PendingResults
+) {
   const analyzed: AnalyzedBatchJob[] = [];
+  const kept: Job[] = [];
 
   for (const { job, rawJD } of jobs) {
     const posting = Posting.from(job);
     const result = await posting.analyze({
       fetched: { jd: rawJD, error: JD_FETCH_OK },
     });
+    const attemptId = `realtime:${randomUUID()}`;
 
-    if (!result.jd) {
+    if (result.jd) {
+      results.add(job, {
+        jd: result.jd,
+        attemptId,
+        cost: result.cost,
+        analyzedAt: new Date().toISOString(),
+      });
+
+      try {
+        await results.save();
+      } catch (error) {
+        logger.error(
+          { company: job.company, url: job.link, attemptId, cost: result.cost, err: error },
+          `${RED_CROSS} Could not save the real-time result; the job stays queued and the next run calls AI again`
+        );
+        throw error;
+      }
+      analyzed.push({ job, jd: result.jd, cost: result.cost });
+      kept.push(job);
       continue;
     }
 
-    analyzed.push({ job, jd: result.jd, cost: result.cost });
+    const { record } = failures.record(job, {
+      id: attemptId,
+      at: new Date().toISOString(),
+      failure: result.failure ?? { stage: "ai", reason: "empty" },
+      cost: result.cost,
+    });
+    logFailedAttempt(job, record);
+
+    if (record.status === "retrying") {
+      kept.push(job);
+    }
   }
 
-  return analyzed;
+  return { analyzed, kept };
 }
 
 export async function collectInflightBatches(): Promise<{
@@ -446,6 +634,8 @@ export async function collectInflightBatches(): Promise<{
   const pendingQualifications: Array<{ job: Job; jd: JD; cost: number }> = [];
   const completedDurations: number[] = [];
   const statuses = new Map<string, BatchJobStatus>();
+  const invalid: Array<{ job: Job; batch: string; cost: number }> = [];
+  const succeeded = new Set<string>();
 
   for (const batch of inflight) {
     statuses.set(batch.name, await provider.getBatch(batch.name));
@@ -543,9 +733,18 @@ export async function collectInflightBatches(): Promise<{
         }
       } else {
         const parsed = await resolveAnalyzedResult(job, result.result, result.cost);
+
+        if (isInvalidResult(parsed)) {
+          invalid.push({ job, batch: batch.name, cost: parsed.cost });
+          continue;
+        }
+
         const posting = Posting.from(job);
 
-        if (parsed) posting.setJD(parsed.jd);
+        if (parsed) {
+          posting.setJD(parsed.jd);
+          succeeded.add(key);
+        }
 
         if (parsed && posting.needsQualifications()) {
           if (!coveredQualificationKeys.has(key)) {
@@ -574,6 +773,11 @@ export async function collectInflightBatches(): Promise<{
       }
     }
   }
+
+  const pendingKeys = new Set(
+    remaining.flatMap((batch) => batch.jobs.map((job) => getJobKey(job.link)))
+  );
+  requeue.push(...(await recordInvalidResults(invalid, succeeded, pendingKeys)));
 
   if (requeue.length > 0) {
     await enqueueBatchJobs(requeue);
@@ -611,13 +815,18 @@ function durationFromSubmittedAt(submittedAt: string) {
   return Math.max(0, Date.now() - started);
 }
 
+/**
+ * Submits the next chunk of the queue. Without a Batch API it analyzes the chunk in real
+ * time and returns the results, which stay queued until the caller persists them and
+ * calls `finishRealtimeJobs`.
+ */
 export async function submitQueuedJobs(limit = Number.POSITIVE_INFINITY): Promise<{
   submitted: number;
   analyzed: AnalyzedBatchJob[];
 }> {
-  const queue = await loadBatchQueue();
+  const stored = await loadBatchQueue();
 
-  if (queue.length === 0 || limit <= 0) {
+  if (stored.length === 0 || limit <= 0) {
     return { submitted: 0, analyzed: [] };
   }
 
@@ -626,42 +835,152 @@ export async function submitQueuedJobs(limit = Number.POSITIVE_INFINITY): Promis
     return { submitted: 0, analyzed: [] };
   }
 
-  const provider = getAIProvider();
-  const chunk = queue.slice(0, Math.min(BATCH_CHUNK_SIZE, limit));
-  const fetchLimit = pLimit(FETCH_CONCURRENCY);
+  const failures = await BatchFailures.load();
+  const results = await PendingResults.load();
+  const now = Date.now();
   const retry: Job[] = [];
+  const active: Job[] = [];
+
+  // A failed AI job only comes back through retryFailedBatchJobs. A failed fetch
+  // stays queued until its stop is stored on the opportunity. Replaying that
+  // record writes the stop again and does not add another attempt.
+  for (const job of stored) {
+    const record = failures.get(job);
+
+    if (record?.status !== "failed") {
+      active.push(job);
+      continue;
+    }
+
+    if (record.failure.stage !== "fetch") {
+      continue;
+    }
+
+    try {
+      await saveOpportunityStop(
+        job,
+        terminalOpportunityStop(record.failure.error, record.lastFailedAt)
+      );
+    } catch (error) {
+      logger.error(
+        { company: job.company, url: job.link, err: error },
+        `${RED_CROSS} Could not save the JD fetch stop; the job stays queued`
+      );
+      retry.push(job);
+    }
+  }
+
+  // A job with a saved real-time result waits for loadRealtimeResults instead.
+  const waiting = active.filter((job) => results.has(job));
+  const candidates = active.filter((job) => {
+    if (results.has(job)) {
+      return false;
+    }
+
+    const nextAttemptAt = failures.get(job)?.nextAttemptAt;
+
+    if (!nextAttemptAt) {
+      return true;
+    }
+
+    const due = Date.parse(nextAttemptAt);
+    return !Number.isFinite(due) || due <= now;
+  });
+  const delayed = active.filter((job) => !results.has(job) && !candidates.includes(job));
+
+  if (candidates.length === 0) {
+    const nextQueue = [...retry, ...delayed, ...waiting];
+    const unchanged =
+      nextQueue.length === stored.length &&
+      nextQueue.every((job, index) => job.link === stored[index]?.link);
+
+    if (!unchanged) {
+      await saveBatchQueue(nextQueue);
+    }
+
+    return { submitted: 0, analyzed: [] };
+  }
+
+  const provider = getAIProvider();
+  const chunk = candidates.slice(0, Math.min(BATCH_CHUNK_SIZE, limit));
+  const fetchLimit = pLimit(FETCH_CONCURRENCY);
   const fetched: Array<{ job: Job; rawJD: string }> = [];
+  const terminal: Job[] = [];
 
   const fetchResults = await Promise.all(
     chunk.map((job) =>
       fetchLimit(async () => {
+        const attemptId = `fetch:${randomUUID()}`;
         const { jd: rawJD, error } = await Posting.from(job).getRawJD();
-        return { job, rawJD, error };
+        return { job, rawJD, error, attemptId };
       })
     )
   );
 
-  for (const { job, rawJD, error } of fetchResults) {
+  for (const { job, rawJD, error, attemptId } of fetchResults) {
     if (!rawJD) {
-      if (isRetryableJDFetch(error)) {
-        retry.push(job);
-      } else {
-        logger.warn(
-          {
-            company: job.company,
-            url: job.link,
-            code: error.code,
-          },
-          "⏭️ Dropping batch job after JD fetch failure"
-        );
+      const at = new Date().toISOString();
+      const { record, counted } = failures.record(job, {
+        id: attemptId,
+        at,
+        failure: { stage: "fetch", error },
+        cost: 0,
+      });
+
+      if (!counted) {
+        (record.status === "failed" ? terminal : retry).push(job);
+        continue;
       }
+
+      if (isTemporaryJDFetch(error) && record.status === "retrying") {
+        if (error.retryAfterMs !== undefined) {
+          failures.schedule(job, new Date(Date.now() + error.retryAfterMs).toISOString());
+        }
+
+        logFailedAttempt(job, failures.get(job) ?? record);
+        retry.push(job);
+        continue;
+      }
+
+      const stopped = record.status === "failed" ? record : (failures.finish(job) ?? record);
+      logFailedAttempt(job, stopped);
+      terminal.push(job);
       continue;
     }
 
     fetched.push({ job, rawJD });
   }
 
-  const leftover = [...retry, ...queue.slice(chunk.length)];
+  await failures.save();
+
+  for (const job of terminal) {
+    const record = failures.get(job);
+
+    if (record?.failure.stage !== "fetch") {
+      retry.push(job);
+      continue;
+    }
+
+    try {
+      await saveOpportunityStop(
+        job,
+        terminalOpportunityStop(record.failure.error, record.lastFailedAt)
+      );
+    } catch (error) {
+      logger.error(
+        {
+          company: job.company,
+          url: job.link,
+          attemptId: record.attempts.at(-1)?.id,
+          err: error,
+        },
+        `${RED_CROSS} Could not save the JD fetch stop; the job stays queued`
+      );
+      retry.push(job);
+    }
+  }
+
+  const leftover = [...retry, ...delayed, ...candidates.slice(chunk.length), ...waiting];
 
   if (fetched.length === 0) {
     await saveBatchQueue(leftover);
@@ -670,8 +989,10 @@ export async function submitQueuedJobs(limit = Number.POSITIVE_INFINITY): Promis
 
   if (!provider?.submitBatch || !provider.getBatch) {
     logger.warn("⚠️ Current AI provider has no Batch API; analyzing queued jobs in real time");
-    const analyzed = await analyzeJobsRealtime(fetched);
-    await saveBatchQueue(leftover);
+    const { analyzed, kept } = await analyzeJobsRealtime(fetched, failures, results);
+    // A job that just failed for good leaves the queue only after its record is saved.
+    await failures.save();
+    await saveBatchQueue([...kept, ...leftover]);
     return { submitted: 0, analyzed };
   }
 

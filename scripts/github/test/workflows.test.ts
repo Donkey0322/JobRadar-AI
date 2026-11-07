@@ -152,7 +152,9 @@ describe("publish routing", () => {
     expect(dataPush).toContain("token: ${{ github.token }}");
     expect(dataPush).not.toContain("secrets.PAT");
     expect(jobs).toContain("contents: write");
-    expect(stepBlocks(jobs).some((block) => block.includes("token: ${{ secrets.PAT }}"))).toBe(true);
+    expect(stepBlocks(jobs).some((block) => block.includes("token: ${{ secrets.PAT }}"))).toBe(
+      true
+    );
 
     const checkout = (source: string) =>
       stepBlocks(source).find((block) => block.includes("actions/checkout@v6"));
@@ -202,9 +204,9 @@ describe("publish routing", () => {
     );
     expect(maintenancePush).toContain("token: ${{ secrets.PAT }}");
     expect(maintenancePush).not.toContain("github.token");
-    expect(routePush("chore(clean-outdated-url): clean outdated url", ["data/jobs.ndjson"]).run).toBe(
-      true
-    );
+    expect(
+      routePush("chore(clean-outdated-url): clean outdated url", ["data/jobs.ndjson"]).run
+    ).toBe(true);
 
     for (const block of stepBlocks(issue).filter(
       (block) =>
@@ -241,8 +243,12 @@ describe("publish routing", () => {
       fastForward.indexOf("git fetch")
     );
     const rebase = action("rebase-push");
-    expect(rebase.indexOf("bash .github/scripts/use-push-token.sh")).toBeLessThan(rebase.indexOf("git fetch"));
-    expect(rebase.indexOf("bash .github/scripts/use-push-token.sh")).toBeLessThan(rebase.indexOf("git push"));
+    expect(rebase.indexOf("bash .github/scripts/use-push-token.sh")).toBeLessThan(
+      rebase.indexOf("git fetch")
+    );
+    expect(rebase.indexOf("bash .github/scripts/use-push-token.sh")).toBeLessThan(
+      rebase.indexOf("git push")
+    );
   });
 
   it("refreshes the board for config, opportunities, archive, and the render script", () => {
@@ -301,6 +307,52 @@ describe("publish routing", () => {
   });
 });
 
+describe("batch recovery state", () => {
+  it("starts a batch run for saved real-time results", () => {
+    expect(batchDue("schedule", "", "[]", "")).toBe(false);
+    expect(batchDue("schedule", "", "[]", "\n \n")).toBe(false);
+    expect(batchDue("schedule", "", "[]", '{"key":"greenhouse:1"}\n')).toBe(true);
+    expect(batchDue("workflow_call", null, null, '{"key":"greenhouse:1"}\n')).toBe(true);
+    expect(batchDue("workflow_call", "", "[]")).toBe(false);
+  });
+
+  it("recovers batch state with the shared push and does not publish that commit", () => {
+    const blocks = action("batch-work").split(/\n(?= {4}- )/);
+    const save = blocks.find((block) => block.includes("Save recoverable batch state"));
+    const push = blocks.find((block) => block.includes("Push recoverable batch state"));
+    const program = readFileSync(path.join(ROOT, "scripts/github/recover-batch.ts"), "utf8");
+
+    expect(save).toContain(
+      "failure() && !cancelled() && (steps.submit.outcome == 'failure' || steps.collect.outcome == 'failure')"
+    );
+    expect(save).toContain("pnpm exec tsx scripts/github/recover-batch.ts");
+    expect(save).not.toContain("git add data/");
+    expect(save).not.toContain("publish-saved");
+    expect(push).toContain("steps.recover_save.outputs.committed == 'true'");
+    expect(push).toContain("uses: ./.github/actions/rebase-push");
+    expect(push).toContain("token: ${{ inputs.token }}");
+    expect(push).not.toContain("publish_token");
+    expect(program).toContain('gitText(root, ["reset", "--hard", "HEAD"])');
+    expect(program).toContain("Recovery commit failed; working tree was left in place");
+
+    const message = "chore(batch): checkpoint recoverable batch state [skip ci]";
+    expect(program).toContain(message);
+    expect(batchShouldStart("push", message)).toBe(false);
+    expect(
+      routePush(message, [
+        "data/batch/queue.ndjson",
+        "data/batch/inflight.json",
+        "data/batch/results.ndjson",
+        "data/batch/failures.ndjson",
+      ])
+    ).toEqual({
+      run: false,
+      board: false,
+      notify: false,
+    });
+  });
+});
+
 describe("batch gate", () => {
   it("collects pending work and does not restart from its own collect commit", () => {
     const batch = action("batch-work");
@@ -321,7 +373,9 @@ describe("batch gate", () => {
     expect(batchDue("push", "", "[]")).toBe(false);
     expect(batchDue("schedule", "job\n", "[]")).toBe(true);
     expect(batchDue("schedule", "", '[{"id":"batch"}]')).toBe(true);
-    expect(entry).toContain("startsWith(github.event.head_commit.message, 'chore(batch): collect')");
+    expect(entry).toContain(
+      "startsWith(github.event.head_commit.message, 'chore(batch): collect')"
+    );
     expect(entry).toContain("contains(github.event.head_commit.message, '[skip ci]')");
     expect(batch).toContain("classify-head");
     expect(batch).toContain("steps.checkpoint_route.outputs.data_sha");
@@ -383,9 +437,13 @@ describe("batch gate", () => {
     expect(batchDue("workflow_dispatch", null, '[{"id":"batch"}]')).toBe(true);
     expect(batch).toContain("steps.check.outputs.due == 'true'");
     expect(jobs).toContain("steps.batch_due.outputs.due == 'true'");
-    expect(jobs).toContain("steps.publish.outcome == 'success' || steps.publish.outcome == 'skipped'");
+    expect(jobs).toContain(
+      "steps.publish.outcome == 'success' || steps.publish.outcome == 'skipped'"
+    );
     expect(jobs.indexOf("Publish saved data")).toBeLessThan(jobs.indexOf("Run batch"));
-    expect(jobs.indexOf("Record saved data commit")).toBeGreaterThan(jobs.indexOf("Rebase and push data"));
+    expect(jobs.indexOf("Record saved data commit")).toBeGreaterThan(
+      jobs.indexOf("Rebase and push data")
+    );
     expect(jobsResultAfterBatch("success", "success", "success")).toBe("success");
     expect(jobsResultAfterBatch("success", "skipped", "success")).toBe("success");
     expect(jobsResultAfterBatch("success", "failure", "skipped")).toBe("failure");
@@ -812,9 +870,7 @@ describe("workflow inventory", () => {
     expect(workflow("publish-jobs.yml")).not.toContain("concurrency:");
     expect(workflow("check-setup.yml")).not.toContain("job-data-sync");
     expect(workflow("ci.yml")).not.toContain("job-data-sync");
-    expect(workflow("publish-data.yml")).toContain(
-      "from_sha: ${{ steps.route.outputs.from_sha }}"
-    );
+    expect(workflow("publish-data.yml")).toContain("from_sha: ${{ steps.route.outputs.from_sha }}");
   });
 
   it("passes secrets into composite actions and keeps the outer job deadline", () => {

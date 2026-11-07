@@ -1,9 +1,14 @@
+import type { AnalyzedBatchJob } from "@/modules/posting/batch";
+
 import { persistAnalyzedJobs } from "../ingest";
 
 import {
   collectInflightBatches,
+  finishRealtimeJobs,
   loadBatchQueue,
   loadInflightBatches,
+  loadRealtimeResults,
+  retryFailedBatchJobs,
   saveInflightBatches,
   submitQueuedJobs,
 } from "@/modules/posting/batch";
@@ -55,6 +60,18 @@ export async function processBatchQueue(
     return collected;
   }
 
+  async function persistRealtime(analyzed: AnalyzedBatchJob[]) {
+    if (analyzed.length === 0) {
+      return;
+    }
+
+    const persisted = await persistAnalyzedJobs(analyzed);
+    await finishRealtimeJobs(analyzed.map((item) => item.job));
+    totalCost += persisted.totalCost;
+    notifyCount += persisted.count;
+  }
+
+  await persistRealtime(await loadRealtimeResults());
   await collectAndPersist();
 
   for (;;) {
@@ -69,11 +86,7 @@ export async function processBatchQueue(
 
       const result = await submitQueuedJobs();
 
-      if (result.analyzed.length > 0) {
-        const fallback = await persistAnalyzedJobs(result.analyzed);
-        totalCost += fallback.totalCost;
-        notifyCount += fallback.count;
-      }
+      await persistRealtime(result.analyzed);
 
       if (result.submitted === 0 && result.analyzed.length === 0) {
         break;
@@ -146,6 +159,13 @@ export async function processBatchQueue(
   };
 }
 
-export default async function runBatch(options: { submitOnly?: boolean } = {}) {
+export default async function runBatch(
+  options: { submitOnly?: boolean; retryFailed?: boolean } = {}
+) {
+  if (options.retryFailed) {
+    const count = await retryFailedBatchJobs();
+    logger.info({ count }, "📦 Re-queued failed batch jobs");
+  }
+
   await processBatchQueue(undefined, { wait: !options.submitOnly });
 }

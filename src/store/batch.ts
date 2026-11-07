@@ -4,7 +4,12 @@ import path from "node:path";
 import type { Job } from "@/types";
 
 import { readJsonFile } from "@/store/json";
-import { BATCH_INFLIGHT_PATH, BATCH_QUEUE_PATH } from "@/store/paths";
+import {
+  BATCH_FAILURES_PATH,
+  BATCH_INFLIGHT_PATH,
+  BATCH_QUEUE_PATH,
+  BATCH_RESULTS_PATH,
+} from "@/store/paths";
 import { readNdjsonFileIfExists } from "@/utils/ndjson-archive";
 
 function toNdjson(records: unknown[]) {
@@ -13,6 +18,23 @@ function toNdjson(records: unknown[]) {
   }
 
   return `${records.map((record) => JSON.stringify(record)).join("\n")}\n`;
+}
+
+async function writeFileAtomic(file: string, body: string) {
+  const directory = path.dirname(file);
+  await fs.mkdir(directory, { recursive: true });
+  const temporary = path.join(
+    directory,
+    `.${path.basename(file)}.${process.pid}.${Date.now()}.tmp`
+  );
+
+  try {
+    await fs.writeFile(temporary, body, "utf-8");
+    await fs.rename(temporary, file);
+  } catch (error) {
+    await fs.rm(temporary, { force: true });
+    throw error;
+  }
 }
 
 export async function loadBatchQueue(): Promise<Job[]> {
@@ -51,21 +73,23 @@ function isMissingFile(error: unknown) {
 }
 
 export async function saveInflightBatches(batches: unknown[]) {
-  const directory = path.dirname(BATCH_INFLIGHT_PATH);
-  await fs.mkdir(directory, { recursive: true });
-  const temporary = path.join(
-    directory,
-    `.${path.basename(BATCH_INFLIGHT_PATH)}.${process.pid}.${Date.now()}.tmp`
-  );
-  const body = `${JSON.stringify(batches, null, 2)}\n`;
+  await writeFileAtomic(BATCH_INFLIGHT_PATH, `${JSON.stringify(batches, null, 2)}\n`);
+}
 
-  try {
-    await fs.writeFile(temporary, body, "utf-8");
-    await fs.rename(temporary, BATCH_INFLIGHT_PATH);
-  } catch (error) {
-    await fs.rm(temporary, { force: true });
-    throw error;
-  }
+export async function loadBatchFailures<T>(): Promise<T[]> {
+  return await readNdjsonFileIfExists<T>(BATCH_FAILURES_PATH);
+}
+
+export async function saveBatchFailures(records: unknown[]) {
+  await writeFileAtomic(BATCH_FAILURES_PATH, toNdjson(records));
+}
+
+export async function loadBatchResults<T>(): Promise<T[]> {
+  return await readNdjsonFileIfExists<T>(BATCH_RESULTS_PATH);
+}
+
+export async function saveBatchResults(records: unknown[]) {
+  await writeFileAtomic(BATCH_RESULTS_PATH, toNdjson(records));
 }
 
 export const batchQueue = {
@@ -76,4 +100,14 @@ export const batchQueue = {
 export const batchInflight = {
   load: loadInflightBatches,
   save: saveInflightBatches,
+};
+
+export const batchFailures = {
+  load: loadBatchFailures,
+  save: saveBatchFailures,
+};
+
+export const batchResults = {
+  load: loadBatchResults,
+  save: saveBatchResults,
 };

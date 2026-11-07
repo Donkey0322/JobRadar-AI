@@ -133,4 +133,112 @@ describe("Radancy HTML parsing", () => {
       },
     ]);
   });
+
+  // Cards trimmed from each site's live search-jobs/resultspost HTML.
+  it.each([
+    {
+      site: "Capital One",
+      card: `<a href="/job/plano/full-stack-engineer-5/1732/102946843680" data-job-id="102946843680">
+        <div class="job-search-info"><span>102946843680</span> <span class="job-date-posted">11/06/2026</span></div>
+        <h2>Full-stack Engineer 5</h2> <span class="job-location">Plano, TX</span>
+      </a>
+      <button data-a11y-saved-button="" class="js-save-job-btn" data-job-id="102946843680" data-org-id="1732">Save Job</button>`,
+      title: "Full-stack Engineer 5",
+      location: "Plano, TX",
+    },
+    {
+      site: "Schwab",
+      card: `<a href="/job/austin/c-sharp-net-developer/33727/99734774000" data-job-id="99734774000">
+        <h2>C Sharp / .Net Developer</h2> <span class="job-location">Austin, TX; Southlake, TX</span>
+        <div><span class="job-req-id"><b>Requisition ID: </b> 2026-125748</span></div>
+        <div><span class="job-req-id "><b>Application deadline: </b> 2026-11-11</span></div>
+        <button type="button" class="js-save-job-btn" data-job-id="99734774000" data-org-id="33727">Save for Later</button>
+      </a>`,
+      title: "C Sharp / .Net Developer",
+      location: "Austin, TX; Southlake, TX",
+    },
+    {
+      site: "Toro",
+      card: `<a href="/job/tomah/assembler-1st-shift-the-toro-company/40062/102956481344" data-job-id="102956481344">
+        <span class="job-brand job-brand__toro"><span class="wai">Toro</span></span>
+        <span class="job-title">Assembler, 1st Shift - The Toro Company</span>
+        <span class="job-category"> Production </span> <span class="job-location">Tomah, WI</span>
+      </a>
+      <button type="button" class="js-save-job-btn" data-job-id="102956481344" data-org-id="40062"><span class="wai">Save for Later</span></button>`,
+      title: "Assembler, 1st Shift - The Toro Company",
+      location: "Tomah, WI",
+    },
+    {
+      site: "Staples",
+      card: `<a href="/en/job/greencastle/warehouse-bulk-full-time-2nd-shift/44412/102954356448" data-job-id="102954356448">
+        <h2>Warehouse Bulk Full Time 2nd Shift</h2>
+        <div class="search-results-link"><span class="job-location"><strong>Greencastle, PA</strong></span>
+        <span class="job-info job-category"><strong>Category:</strong> Warehouse</span>
+        <span class="job-id"><strong>Job ID:</strong> 77299</span></div>
+      </a>`,
+      title: "Warehouse Bulk Full Time 2nd Shift",
+      location: "Greencastle, PA",
+    },
+    {
+      site: "UnitedHealth Group",
+      card: `<a href="/job/plymouth/coding-quality-analyst/34088/102964786896" data-job-id="102964786896">
+        <div><h2>Coding Quality Analyst</h2> <span class="job-id job-info">2393157</span>
+        <span class="job-divider"> | </span> <span class="job-location 1">Plymouth, Minnesota</span>
+        <span class="job-divider"> | </span> <span class="job-info job-worksetting">Remote</span></div>
+      </a>`,
+      title: "Coding Quality Analyst",
+      location: "Plymouth, Minnesota",
+    },
+    {
+      site: "Comcast",
+      card: `<a href="/job/new-york/programmatic-account-director/45483/102962359664" data-job-id="102962359664">
+        <h2>Programmatic Account Director</h2>
+        <div class="facet-group"><span class="job-location">Multiple Locations</span>
+        <span class="job-info job-category"><span>Sales</span></span> <span class="job-date-posted">11/06/2026</span></div>
+      </a>`,
+      title: "Programmatic Account Director",
+      location: "Multiple Locations",
+    },
+    {
+      site: "Disney",
+      card: `<a href="/job/lake-buena-vista/lead-software-engineer/391/102963747664" data-job-id="102963747664">
+        <h2>Lead Software Engineer</h2> <span class="job-brand">Disney Experiences</span>
+        <span class="job-location">Lake Buena Vista, Florida</span> <span class="job-date-posted">Nov. 07, 2026</span>
+      </a>
+      <button type="button" class="js-save-job-btn" data-job-id="102963747664" data-org-id="391"><span>Save Job</span></button>`,
+      title: "Lead Software Engineer",
+      location: "Lake Buena Vista, Florida",
+    },
+    {
+      site: "L3Harris",
+      card: `<a href="/job/palm-bay/lead-project-engineering/4832/100946517568" data-job-id="100946517568">
+        <h2>Lead, Project Engineering</h2> <span class="results-facet job-category">Engineering</span>
+        <span class="results-facet job-location test3">Palm Bay, Brevard, FL</span>
+      </a>`,
+      title: "Lead, Project Engineering",
+      location: "Palm Bay, Brevard, FL",
+    },
+  ])("keeps only the title on $site cards", ({ card, title, location }) => {
+    const [job] = parseRadancyJobs(`<ul><li>${card}</li></ul>`, "https://jobs.example.com");
+
+    expect(job).toMatchObject({ title, location });
+  });
+
+  it("prefers .job-title, then h2, then h3 over the card text", () => {
+    const html = `
+      <ul>
+        <li><a href="/job/a/b/1/1" data-job-id="1"><h3>Team</h3><h2>Heading</h2><span class="job-title">Title</span></a></li>
+        <li><a href="/job/a/b/1/2" data-job-id="2"><h3>Team</h3><h2>Heading</h2> Austin, TX</a></li>
+        <li><a href="/job/a/b/1/3" data-job-id="3"><span>99</span><h3>Heading</h3> Austin, TX</a></li>
+        <li><a href="/job/a/b/1/4" data-job-id="4"><h2> </h2><h3>Fallback</h3></a></li>
+      </ul>
+    `;
+
+    expect(parseRadancyJobs(html, "https://jobs.example.com").map((job) => job.title)).toEqual([
+      "Title",
+      "Heading",
+      "Heading",
+      "Fallback",
+    ]);
+  });
 });

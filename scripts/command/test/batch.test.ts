@@ -10,10 +10,13 @@ const loadBatchQueueMock = vi.hoisted(() => vi.fn());
 const loadInflightBatchesMock = vi.hoisted(() => vi.fn());
 const saveInflightBatchesMock = vi.hoisted(() => vi.fn());
 const submitQueuedJobsMock = vi.hoisted(() => vi.fn());
+const finishRealtimeJobsMock = vi.hoisted(() => vi.fn().mockResolvedValue(undefined));
 const persistAnalyzedJobsMock = vi.hoisted(() => vi.fn());
 
 vi.mock("@/modules/posting/batch", () => ({
   collectInflightBatches: collectInflightBatchesMock,
+  finishRealtimeJobs: finishRealtimeJobsMock,
+  loadRealtimeResults: vi.fn().mockResolvedValue([]),
   loadBatchQueue: loadBatchQueueMock,
   loadInflightBatches: loadInflightBatchesMock,
   saveInflightBatches: saveInflightBatchesMock,
@@ -124,6 +127,10 @@ describe("processBatchQueue", () => {
     const result = await processBatchQueue();
 
     expect(persistAnalyzedJobsMock).toHaveBeenNthCalledWith(2, analyzed);
+    expect(finishRealtimeJobsMock).toHaveBeenCalledWith([analyzed[0]?.job]);
+    expect(finishRealtimeJobsMock.mock.invocationCallOrder[0]).toBeGreaterThan(
+      persistAnalyzedJobsMock.mock.invocationCallOrder[1] ?? Number.POSITIVE_INFINITY
+    );
     expect(result).toMatchObject({
       collected: 0,
       submitted: 0,

@@ -11,6 +11,9 @@ const RADANCY_SEARCH_PATH = new RegExp(
   "i"
 );
 
+/** Most specific first: `.job-title` (Toro), `h2` (Capital One, Schwab), `h3` (Cargill). */
+const TITLE_SELECTORS = [".job-title", "h2", "h3"] as const;
+
 export interface RadancyJob {
   jobId: string;
   title: string;
@@ -97,8 +100,12 @@ export function parseRadancyJobs(html: string, baseUrl: string): RadancyJob[] {
       return;
     }
 
-    const heading = cleanText($(el).find("h3").first().text());
-    const title = heading || cleanText($(el).text());
+    // Cards also hold the job id, date, category, location, and save button. Only a
+    // card without a title element may use its whole text.
+    const heading = TITLE_SELECTORS.map((selector) =>
+      cleanText($(el).find(selector).first().text())
+    ).find(Boolean);
+    const title = heading ?? cleanText($(el).text());
     if (!title) return;
 
     const card = $(el).closest("li, article, .job-card, .sr-job-item");

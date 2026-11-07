@@ -1,16 +1,16 @@
 import { describe, expect, it } from "vitest";
 
-import { JDResponseSchema } from "../validation/ai";
+import { checkInternSeason, JDFieldsSchema } from "../validation/ai";
 
 import { JD_EVAL_CASES } from "./eval-cases";
 
-const expectedSchema = JDResponseSchema.pick({
+const expectedSchema = JDFieldsSchema.pick({
   citizenship: true,
   sponsorship: true,
   country: true,
   category: true,
   season: true,
-});
+}).superRefine(checkInternSeason);
 
 describe("JD eval cases", () => {
   it("have unique names", () => {
