@@ -43,9 +43,11 @@ jobs:
     runs-on: ubuntu-latest
     # Route 5 plus fast-forward 5, board 10, and notify 10.
     timeout-minutes: 30
-    env:
-      JOBRADAR_SUMMARY_DIR: ${{ runner.temp }}/jobradar-summary
     steps:
+      - name: Initialize summary
+        shell: bash
+        run: echo "JOBRADAR_SUMMARY_DIR=$RUNNER_TEMP/jobradar-summary" >> "$GITHUB_ENV"
+
       - name: Checkout repository
         uses: actions/checkout@v6
         with:

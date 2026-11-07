@@ -37,9 +37,11 @@ jobs:
     runs-on: ubuntu-latest
     # Gate 5, submit 30, checkpoint publish 25, collect 30, collect publish 25.
     timeout-minutes: 120
-    env:
-      JOBRADAR_SUMMARY_DIR: ${{ runner.temp }}/jobradar-summary
     steps:
+      - name: Initialize summary
+        shell: bash
+        run: echo "JOBRADAR_SUMMARY_DIR=$RUNNER_TEMP/jobradar-summary" >> "$GITHUB_ENV"
+
       - name: Checkout repository
         uses: actions/checkout@v6
         with:

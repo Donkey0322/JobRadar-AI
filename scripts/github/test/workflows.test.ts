@@ -1,5 +1,5 @@
 import { spawnSync } from "node:child_process";
-import { mkdirSync, mkdtempSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, mkdtempSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
@@ -955,14 +955,89 @@ describe("workflow inventory", () => {
     expect(workflow("publish-data.yml")).toContain("timeout-minutes: 30");
     expect(workflow("publish-jobs.yml")).toContain("timeout-minutes: 25");
 
-    for (const name of ["jobs.yml", "batch.yml", "publish-jobs.yml", "publish-data.yml", "maintenance.yml"]) {
-      expect(workflow(name)).toContain("JOBRADAR_SUMMARY_DIR:");
-      expect(workflow(name)).toContain("JOB_STATUS: ${{ job.status }}");
-      expect(workflow(name)).toContain("node .github/scripts/summary.mjs render");
-      expect(workflow(name)).toContain("always() && !cancelled()");
+    const summaryInit = 'echo "JOBRADAR_SUMMARY_DIR=$RUNNER_TEMP/jobradar-summary" >> "$GITHUB_ENV"';
+    const summaryJobs = [
+      ["jobs.yml", "Choose scan or sync"],
+      ["batch.yml", "Check whether queued or inflight work exists"],
+      ["maintenance.yml", "Run maintenance task"],
+      ["publish-data.yml", "Classify the pushed commit"],
+      ["publish-jobs.yml", "Require the saved data commit"],
+    ] as const;
+    for (const [name, gate] of summaryJobs) {
+      const source = workflow(name);
+      const stepsAt = source.indexOf("\n    steps:\n");
+      const steps = stepBlocks(source.slice(stepsAt));
+      const beforeSteps = source.slice(0, stepsAt);
+      expect(steps[0], name).toContain("name: Initialize summary");
+      expect(steps[0], name).toContain("shell: bash");
+      expect(steps[0], name).toContain(summaryInit);
+      expect(source.indexOf("name: Initialize summary"), name).toBeLessThan(
+        source.indexOf(`name: ${gate}`)
+      );
+      expect(beforeSteps, name).not.toContain("JOBRADAR_SUMMARY_DIR");
+      expect(beforeSteps, name).not.toMatch(/\$\{\{\s*runner\b/);
+      expect(source, name).not.toContain("${{ runner.");
+      expect(source, name).toContain("JOB_STATUS: ${{ job.status }}");
+      expect(source, name).toContain("node .github/scripts/summary.mjs render");
+      expect(source, name).toContain("always() && !cancelled()");
     }
     expect(action("publish-saved")).not.toContain("summary.mjs render");
     expect(action("batch-work")).not.toContain("summary.mjs render");
     expect(action("refresh-board")).not.toContain("summary.mjs render");
+  });
+
+  it("initializes the summary directory from RUNNER_TEMP before later steps write it", () => {
+    const command = 'echo "JOBRADAR_SUMMARY_DIR=$RUNNER_TEMP/jobradar-summary" >> "$GITHUB_ENV"';
+    const dir = mkdtempSync(path.join(tmpdir(), "jobradar-summary-init-"));
+    const runnerTemp = path.join(dir, "runner");
+    const githubEnv = path.join(dir, "github.env");
+    const stepSummary = path.join(dir, "step-summary.md");
+    const official = process.env.GITHUB_STEP_SUMMARY;
+    const officialBefore = official && existsSync(official) ? readFileSync(official, "utf8") : null;
+    mkdirSync(runnerTemp);
+    writeFileSync(githubEnv, "");
+    writeFileSync(stepSummary, "");
+
+    try {
+      const init = spawnSync("bash", ["-c", command], {
+        encoding: "utf8",
+        env: {
+          PATH: process.env.PATH ?? "",
+          RUNNER_TEMP: runnerTemp,
+          GITHUB_ENV: githubEnv,
+        },
+      });
+      expect(init.status, init.stderr).toBe(0);
+      const summaryDir = `${runnerTemp}/jobradar-summary`;
+      expect(readFileSync(githubEnv, "utf8")).toBe(`JOBRADAR_SUMMARY_DIR=${summaryDir}\n`);
+
+      const appended = spawnSync(process.execPath, [path.join(ROOT, ".github/scripts/summary.mjs"), "append-commit"], {
+        encoding: "utf8",
+        env: {
+          PATH: process.env.PATH ?? "",
+          JOBRADAR_SUMMARY_DIR: summaryDir,
+          COMMIT_LABEL: "job data",
+        },
+      });
+      expect(appended.status, appended.stderr).toBe(0);
+      const rendered = spawnSync(process.execPath, [path.join(ROOT, ".github/scripts/summary.mjs"), "render"], {
+        encoding: "utf8",
+        env: {
+          PATH: process.env.PATH ?? "",
+          JOBRADAR_SUMMARY_DIR: summaryDir,
+          GITHUB_STEP_SUMMARY: stepSummary,
+          JOB_STATUS: "success",
+        },
+      });
+      expect(rendered.status, rendered.stderr).toBe(0);
+      expect(readFileSync(path.join(summaryDir, "stages.ndjson"), "utf8")).toContain('"label":"job data"');
+      expect(readFileSync(stepSummary, "utf8")).toContain("### Commit (job data)");
+      expect(readFileSync(stepSummary, "utf8")).toContain("| Committed | yes |");
+      if (officialBefore !== null && official) {
+        expect(readFileSync(official, "utf8")).toBe(officialBefore);
+      }
+    } finally {
+      rmSync(dir, { recursive: true, force: true });
+    }
   });
 });

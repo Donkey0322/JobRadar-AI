@@ -51,9 +51,11 @@ jobs:
   pipeline:
     runs-on: ubuntu-latest
     timeout-minutes: 175
-    env:
-      JOBRADAR_SUMMARY_DIR: ${{ runner.temp }}/jobradar-summary
     steps:
+      - name: Initialize summary
+        shell: bash
+        run: echo "JOBRADAR_SUMMARY_DIR=$RUNNER_TEMP/jobradar-summary" >> "$GITHUB_ENV"
+
       - name: Checkout repository
         uses: actions/checkout@v6
         with:

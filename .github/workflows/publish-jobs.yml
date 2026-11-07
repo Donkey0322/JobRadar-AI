@@ -30,9 +30,11 @@ jobs:
     runs-on: ubuntu-latest
     # Fast-forward 5, board 10, notify 10.
     timeout-minutes: 25
-    env:
-      JOBRADAR_SUMMARY_DIR: ${{ runner.temp }}/jobradar-summary
     steps:
+      - name: Initialize summary
+        shell: bash
+        run: echo "JOBRADAR_SUMMARY_DIR=$RUNNER_TEMP/jobradar-summary" >> "$GITHUB_ENV"
+
       - name: Require the saved data commit
         env:
           DATA_SHA: ${{ inputs.data_sha }}
