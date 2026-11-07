@@ -29957,6 +29957,16 @@
     "urls": []
   },
   {
+    "name": "ludorobotics",
+    "ats": "greenhouse",
+    "identifier": "ludorobotics",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/ludorobotics/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/ludorobotics/jobs/8451758002"
+    ]
+  },
+  {
     "name": "lumaai",
     "ats": "ashby",
     "identifier": "lumaai",
