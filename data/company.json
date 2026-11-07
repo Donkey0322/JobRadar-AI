@@ -5731,7 +5731,8 @@
       "https://jobs.apple.com/en-us/details/200693801-0836/security-researcher-red-team?team=HRDWR",
       "https://jobs.apple.com/en-us/details/200693803-3401/modem-system-test-engineer-wireless-technologies-and-ecosystems?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200693806-0836/product-display-driver-engineer-graphics-games-and-ml?team=SFTWR",
-      "https://jobs.apple.com/en-us/details/200693908-0836/ai-software-evaluation-engineer-siri-ai-quality?team=SFTWR"
+      "https://jobs.apple.com/en-us/details/200693908-0836/ai-software-evaluation-engineer-siri-ai-quality?team=SFTWR",
+      "https://jobs.apple.com/en-us/details/200693920-3350/machine-learning-engineer-evaluation-and-quality-creativity-apps?team=SFTWR"
     ]
   },
   {
@@ -6399,6 +6400,7 @@
     "page": "https://assaabloy.jobs2web.com/services/rss/job/?locale=en_US",
     "urls": [
       "https://assaabloy.jobs2web.com/job/Bangholme-Business-Systems-Analyst-VIC-3175/1454058033/",
+      "https://assaabloy.jobs2web.com/job/Beaucouz%C3%A9-Data-Engineer-49070/1435691333/",
       "https://assaabloy.jobs2web.com/job/Lake-Forest-Mobile-Developer-Intern-CA-92610/1293009401/?ats=successfactors",
       "https://assaabloy.jobs2web.com/job/New-Haven-Software-Developer-Intern-CT-06511/1370661333/?ats=successfactors",
       "https://assaabloy.jobs2web.com/job/Romano-Canavese-Software-Engineer-Fixed-Term-Contract-%2812-months%29-10090/1445326933/",
@@ -11072,6 +11074,7 @@
       "https://searchcareers.caci.com/careers/job/1443153454796?domain=caci.com&8fold_id=1443153454796",
       "https://searchcareers.caci.com/careers/job/1443153456360?domain=caci.com&8fold_id=1443153456360",
       "https://searchcareers.caci.com/careers/job/1443153493794?domain=caci.com&8fold_id=1443153493794",
+      "https://searchcareers.caci.com/careers/job/1443153540602?domain=caci.com&8fold_id=1443153540602",
       "https://searchcareers.caci.com/careers/job/1443153547731?domain=caci.com&8fold_id=1443153547731",
       "https://searchcareers.caci.com/careers/job/1443153547732?domain=caci.com&8fold_id=1443153547732",
       "https://searchcareers.caci.com/careers/job/1443153551505?domain=caci.com&8fold_id=1443153551505",
@@ -11173,6 +11176,7 @@
       "https://searchcareers.caci.com/careers/job/1443154416129?domain=caci.com&8fold_id=1443154416129",
       "https://searchcareers.caci.com/careers/job/1443154416232?domain=caci.com&8fold_id=1443154416232",
       "https://searchcareers.caci.com/careers/job/1443154418986?domain=caci.com&8fold_id=1443154418986",
+      "https://searchcareers.caci.com/careers/job/1443154419489?domain=caci.com&8fold_id=1443154419489",
       "https://searchcareers.caci.com/careers/job/1443154419505?domain=caci.com&8fold_id=1443154419505",
       "https://searchcareers.caci.com/careers/job/1443154419506?domain=caci.com&8fold_id=1443154419506"
     ]
@@ -11925,15 +11929,20 @@
       "https://careers.capgemini.com/job/Casablanca-Software-Developer-Intern/1413261533/",
       "https://careers.capgemini.com/job/Casablanca-Supply-Chain-Data-Analyst/1444323133/",
       "https://careers.capgemini.com/job/Dallas%2C-TX-Capgemini-Invent%2C-Consultant%2C-Forward-Deployed-Engineer-TX-75201/1445796033/",
+      "https://careers.capgemini.com/job/Dallas%2C-TX-Software-Engineer-TX-75201/1435901533/",
       "https://careers.capgemini.com/job/Issy-les-Moulineaux-JR-Sourcing-Software-Engineer-1/1424349233/",
+      "https://careers.capgemini.com/job/Issy-les-Moulineaux-Software-Engineer-Fullstack/1435873733/",
       "https://careers.capgemini.com/job/Kyiv-DevOps-Engineer-%28AWS%29/1403409533/",
       "https://careers.capgemini.com/job/Kyiv-DevOps-Engineer-%28Azure%29/1403424633/",
       "https://careers.capgemini.com/job/Kyiv-DevOps-Engineer-%28GCP%29/1403443233/",
       "https://careers.capgemini.com/job/Milano-DevOps-Engineer/1370621633/",
+      "https://careers.capgemini.com/job/New-York%2C-NY-Java-Full-Stack-Developer-NY-10001/1435860633/",
+      "https://careers.capgemini.com/job/New-York%2C-NY-Software-Engineer-NY-10001/1435972133/",
       "https://careers.capgemini.com/job/Telford-Graduate-Software-Engineering-Programme-2027-1/1443172033/?ats=successfactors",
       "https://careers.capgemini.com/job/Toronto-DevOps-Engineer-%28ML-Infrastructure%29-ON/1444936633/",
       "https://careers.capgemini.com/job/Vila-Nova-de-Gaia-Data-Engineer/1445379533/",
-      "https://careers.capgemini.com/job/Vila-Nova-de-Gaia-Junior-Data-Scientist/1445382533/"
+      "https://careers.capgemini.com/job/Vila-Nova-de-Gaia-Junior-Data-Scientist/1445382533/",
+      "https://careers.capgemini.com/job/Wroc%C5%82aw-Backend-Engineer-%28Python%2C-AI%29/1435777633/"
     ]
   },
   {
@@ -13485,6 +13494,7 @@
     "domain": "https://careers.crowe.com",
     "page": "https://careers.crowe.com",
     "urls": [
+      "https://careers.crowe.com/us/en/job/R-52587?ph_id=R-52587",
       "https://careers.crowe.com/us/en/job/R-52634?ph_id=R-52634"
     ]
   },
@@ -18617,6 +18627,8 @@
       "https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/CAN---Alberta---Calgary/Software-Engineer_R00309696",
       "https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/IND---Karnataka---Bangalore---EDC/AI-Engineer-Data-Databricks-Pltform_R00305089",
       "https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/IND---Karnataka---Bangalore---EDC/AI-Engineer_R00300129",
+      "https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/IND---Karnataka---Bangalore---EDC/AI-Engineer_R00301456",
+      "https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/IND---Karnataka---Bangalore---EDC/AI-Engineer_R00301458",
       "https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/IND---Karnataka---Bangalore---EDC/AI-Engineer_R00305766",
       "https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/IND---Karnataka---Bangalore---EDC/AI-Engineer_R00305768",
       "https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/IND---Karnataka---Bangalore---EDC/AI-Engineer_R00305815",
@@ -18629,6 +18641,7 @@
       "https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/IND---Karnataka---Bangalore---EDC/AI-engineer-Databricks-Data-Platform_R00305094",
       "https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/IND---Karnataka---Bangalore---EDC/Data-Analyst_R00309205",
       "https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/IND---Karnataka---Bangalore---EDC/Data-Analyst_R00309206",
+      "https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/IND---Karnataka---Bangalore---EDC/Data-Engineer_R00301455",
       "https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/IND---Karnataka---Bangalore---EDC/Data-Scientist_R00306634-1",
       "https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/IND---Karnataka---Bangalore---EDC/Lead-AI-Engineer_R00299919",
       "https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/IND---Karnataka---Bangalore---EDC/Microsoft-Fabric-Data-Engineer_R00305812",
@@ -27715,6 +27728,7 @@
     "urls": [
       "https://www.kaiserpermanentejobs.org/job/greensboro/database-infrastructure-engineer-vi/641/100674076368",
       "https://www.kaiserpermanentejobs.org/job/greensboro/it-applications-engineer-v-java-and-cloud-technologies-greensboro-nc/641/101968936816",
+      "https://www.kaiserpermanentejobs.org/job/greensboro/it-applications-engineer-vi-web/641/102969629344",
       "https://www.kaiserpermanentejobs.org/job/greensboro/it-infrastructure-engineer-iv-application-epic-interop/641/100463986272",
       "https://www.kaiserpermanentejobs.org/job/greensboro/it-infrastructure-engineer-iv-network/641/101418674336",
       "https://www.kaiserpermanentejobs.org/job/greensboro/it-infrastructure-engineer-vi/641/99558341184",
@@ -32354,6 +32368,7 @@
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Cork-Ireland/Software-Engineering-Work-Placement_R69536",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Cork-Ireland/Software-Quality-Assurance-Analyst--12-month-FTC-_R69178",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Culver-City-CA/Linux-System-and-Security-Analyst_R67594",
+      "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Culver-City-CA/Linux-System-and-Security-Analyst_R70427",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Edinburgh-UK-ZUK129/Full-Stack-Engineer_R65798",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Edinburgh-UK-ZUK129/Junior-Back-End-Engineer_R65538",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Edinburgh-UK-ZUK129/Mid-Level-Back-End-Software-Engineer_R65766",
@@ -32890,6 +32905,7 @@
       "https://nationwide.wd1.myworkdayjobs.com/nationwide_career/job/Ohio---Columbus-Three-Nationwide-Plaza/Consultant--Data-Engineer_101187",
       "https://nationwide.wd1.myworkdayjobs.com/nationwide_career/job/Ohio---Columbus-Three-Nationwide-Plaza/Consultant--Software-Engineer---Forward-Deployed-Engineering_100909",
       "https://nationwide.wd1.myworkdayjobs.com/nationwide_career/job/Ohio---Columbus-Three-Nationwide-Plaza/Consultant--Software-Engineer---Platform-Engineering_100906",
+      "https://nationwide.wd1.myworkdayjobs.com/nationwide_career/job/Ohio---Columbus-Three-Nationwide-Plaza/Consultant--Software-Engineer--DevXP-_101081",
       "https://nationwide.wd1.myworkdayjobs.com/nationwide_career/job/Ohio---Columbus-Three-Nationwide-Plaza/Consultant--Software-Engineer_101185",
       "https://nationwide.wd1.myworkdayjobs.com/nationwide_career/job/Ohio---Columbus-Three-Nationwide-Plaza/Consultant--Software-Engineer_101190",
       "https://nationwide.wd1.myworkdayjobs.com/nationwide_career/job/Ohio---Columbus-Three-Nationwide-Plaza/Consultant--Systems-Analyst_101184",
@@ -33462,6 +33478,7 @@
     "domain": "newyorklife.com",
     "page": "https://careers.newyorklife.com/api/apply/v2/jobs?domain=newyorklife.com",
     "urls": [
+      "https://careers.newyorklife.com/careers/job/45404606?domain=newyorklife.com&8fold_id=45404606",
       "https://careers.newyorklife.com/careers?location=New+York%2C+New+York%2C+US&pid=30591072&domain=newyorklife.com&sort_by=relevance",
       "https://careers.newyorklife.com/careers?query=%23Techcampus&location=any&pid=30149944&domain=newyorklife.com&sort_by=relevance"
     ]
@@ -34553,6 +34570,7 @@
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Harness-and-Platform-Engineer--AI-Safety-and-Security-Engineering_JR2021886",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Industry-Development-Specialist--AI-Natives_JR2028623",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Intellectual-Property-Security-Engineer_JR2021915",
+      "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Machine-Learning-Engineer--Data-Curation---Autonomous-Vehicles_JR2028908",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Machine-Learning-Engineer--GeForce-G-Assist_JR2027676-1",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492",
@@ -41277,6 +41295,7 @@
     "domain": "https://jobs.sick.com",
     "page": "https://jobs.sick.com/services/rss/job/?locale=en_US",
     "urls": [
+      "https://jobs.sick.com/usa/job/Canton-Software-Engineering-Intern-MA-02021/1446212033/",
       "https://jobs.sick.com/usa/job/Canton-Software-Engineering-Internship-(AIML)-MA-02021/37406-en_US/"
     ]
   },
@@ -44753,6 +44772,7 @@
       "https://jobs.ashbyhq.com/the-exploration-company/446ca823-dbc2-4f82-8a31-169690b75cf2",
       "https://jobs.ashbyhq.com/the-exploration-company/55282b05-a334-41f2-b0e3-6d9f15ad0551",
       "https://jobs.ashbyhq.com/the-exploration-company/5b351d77-135b-4c9a-a8af-07b93cd6e55f",
+      "https://jobs.ashbyhq.com/the-exploration-company/79fe8a46-8cee-4586-b650-6c0c48e86f62",
       "https://jobs.ashbyhq.com/the-exploration-company/86270058-8eec-4692-b49d-97ce59fd54ac/application?embed=true",
       "https://jobs.ashbyhq.com/the-exploration-company/99d8d035-3fb8-4abd-9092-2ba26de05766",
       "https://jobs.ashbyhq.com/the-exploration-company/ea754862-55ec-4677-bd8c-fdc3e9e9b3ea",
@@ -46025,6 +46045,7 @@
     "urls": [
       "https://tmobile.wd1.myworkdayjobs.com/External/job/Atlanta-Georgia/Summer-2027-Software-Engineering-Internship_REQ380650",
       "https://tmobile.wd1.myworkdayjobs.com/External/job/Atlanta-Georgia/Summer-2027-Software-Engineering-Internship_REQ380652",
+      "https://tmobile.wd1.myworkdayjobs.com/External/job/Bellevue-Washington/Software-Engineer_REQ380065-1",
       "https://tmobile.wd1.myworkdayjobs.com/External/job/Bellevue-Washington/Summer-2027-AI-Engineering-Internship_REQ380765",
       "https://tmobile.wd1.myworkdayjobs.com/External/job/Bellevue-Washington/Summer-2027-AI-Engineering-Internship_REQ381194",
       "https://tmobile.wd1.myworkdayjobs.com/External/job/Bellevue-Washington/Summer-2027-AI-Engineering-Internship_REQ381198",
@@ -49597,6 +49618,7 @@
       "https://job-boards.greenhouse.io/xai/jobs/5189147007",
       "https://job-boards.greenhouse.io/xai/jobs/5191142007",
       "https://job-boards.greenhouse.io/xai/jobs/5193037007",
+      "https://job-boards.greenhouse.io/xai/jobs/5198194007",
       "https://job-boards.greenhouse.io/xai/jobs/5202187007",
       "https://job-boards.greenhouse.io/xai/jobs/5204788007",
       "https://job-boards.greenhouse.io/xai/jobs/5204819007",
