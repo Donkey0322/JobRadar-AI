@@ -103,12 +103,13 @@ vi.mock("@/utils/logger", () => ({
   logger: { info: vi.fn(), warn: vi.fn(), error: vi.fn() },
 }));
 
+import { renderSummary } from "@github/scripts/summary.mjs";
+
 import { JobCategory } from "@/constants/job-category";
 import { SEASONS } from "@/constants/season";
 
 import type { MockInstance } from "vitest";
 
-import { renderSummary } from "../../../.github/scripts/summary.mjs";
 import runBatch, { processBatchQueue } from "../batch";
 
 import { CONFIG } from "@/config";

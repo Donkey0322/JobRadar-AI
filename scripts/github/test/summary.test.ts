@@ -4,7 +4,8 @@ import { tmpdir } from "node:os";
 import path from "node:path";
 import { afterEach, describe, expect, it } from "vitest";
 
-import { appendStage, renderMarkdown, renderSummary } from "../../../.github/scripts/summary.mjs";
+import { appendStage, renderMarkdown, renderSummary } from "@github/scripts/summary.mjs";
+
 import { recordStage } from "../summary";
 
 const ROOT = path.resolve(import.meta.dirname, "../../..");

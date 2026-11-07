@@ -33,7 +33,8 @@ vi.mock("@/utils/logger", () => ({
   logger: { info: vi.fn(), warn: vi.fn(), error: vi.fn() },
 }));
 
-import { renderSummary } from "../../../.github/scripts/summary.mjs";
+import { renderSummary } from "@github/scripts/summary.mjs";
+
 import syncDiscover from "../scan";
 import syncCommunity from "../sync";
 

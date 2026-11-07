@@ -8,6 +8,9 @@ export default defineConfig({
   },
   resolve: {
     alias: {
+      // `@` matches `@/…` only. `@scripts` and `@github` stay separate prefixes.
+      "@scripts": path.resolve(import.meta.dirname, "./scripts"),
+      "@github": path.resolve(import.meta.dirname, "./.github"),
       "@": path.resolve(import.meta.dirname, "./src"),
     },
   },

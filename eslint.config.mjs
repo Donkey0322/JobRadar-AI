@@ -8,14 +8,26 @@ import prettier from "eslint-config-prettier";
 /**
  * Later blocks replace `@typescript-eslint/no-restricted-imports` entirely for
  * the files they match. Each block repeats every ban that still applies.
- * `src/test/architecture.test.ts` resolves `@/` and relative specifiers.
+ * `src/test/architecture.test.ts` resolves `@/`, `@scripts/`, `@github/`, and relative specifiers.
  * It lists `vi.mock`, `require()`, and non-literal `import()`, but those
  * loads are not dependency edges checked by the boundary rules.
  * Static `export … from` is checked here by specifier text.
  */
 const scriptsBan = {
-  group: ["@/scripts", "@/scripts/**", "**/scripts", "**/scripts/**"],
+  group: [
+    "@/scripts",
+    "@/scripts/**",
+    "@scripts",
+    "@scripts/**",
+    "**/scripts",
+    "**/scripts/**",
+  ],
   message: "src must not import scripts",
+};
+
+const githubBan = {
+  group: ["@github", "@github/**", "**/.github", "**/.github/**"],
+  message: "src must not import .github",
 };
 
 function modulesBan(message) {
@@ -86,6 +98,9 @@ export default [
           groups: [
             ["^@?\\w"],
 
+            // Longer than `^@?\w`, so these aliases are not sorted as packages.
+            ["^@github/", "^@scripts/"],
+
             // Unanchored: this is what keeps `@/constants/…` ahead of other `@/` imports.
             ["env", "constants"],
 
@@ -120,7 +135,7 @@ export default [
 
   {
     files: ["src/**/*.ts"],
-    rules: restricted([scriptsBan]),
+    rules: restricted([scriptsBan, githubBan]),
   },
 
   {
@@ -128,6 +143,7 @@ export default [
     ignores: LOG_EXCEPTION_FILES,
     rules: restricted([
       scriptsBan,
+      githubBan,
       modulesBan("utils must not import modules"),
       constantsBan,
     ]),
@@ -137,6 +153,7 @@ export default [
     files: LOG_EXCEPTION_FILES,
     rules: restricted([
       scriptsBan,
+      githubBan,
       modulesBan("utils must not import modules"),
       constantsExceptLogBan,
     ]),
@@ -144,16 +161,24 @@ export default [
 
   {
     files: ["src/types/**/*.ts"],
-    rules: restricted([scriptsBan, modulesBan("types must not import modules")]),
+    rules: restricted([
+      scriptsBan,
+      githubBan,
+      modulesBan("types must not import modules"),
+    ]),
   },
 
   {
     files: ["src/constants/**/*.ts"],
-    rules: restricted([scriptsBan, modulesBan("constants must not import modules")]),
+    rules: restricted([
+      scriptsBan,
+      githubBan,
+      modulesBan("constants must not import modules"),
+    ]),
   },
 
   {
     files: ["src/modules/posting/**/*.ts"],
-    rules: restricted([scriptsBan, employerBan]),
+    rules: restricted([scriptsBan, githubBan, employerBan]),
   },
 ];

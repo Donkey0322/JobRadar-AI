@@ -19,7 +19,7 @@ const store = vi.hoisted(() => ({
   savedOpportunities: undefined as Opportunity[] | undefined,
 }));
 
-vi.mock("../../../ingest", () => ({
+vi.mock("@scripts/ingest", () => ({
   createSyncContext,
   processJobs,
 }));

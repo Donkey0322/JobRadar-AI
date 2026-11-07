@@ -8,6 +8,8 @@ export default defineConfig({
   },
   resolve: {
     alias: {
+      "@scripts": path.resolve(import.meta.dirname, "./scripts"),
+      "@github": path.resolve(import.meta.dirname, "./.github"),
       "@": path.resolve(import.meta.dirname, "./src"),
     },
   },

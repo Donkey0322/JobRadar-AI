@@ -113,9 +113,10 @@ vi.mock("@/utils/logger", () => ({
   logger: { info: vi.fn(), warn: vi.fn(), error: vi.fn() },
 }));
 
+import { routePush } from "@github/scripts/workflow-route.mjs";
+
 import { JobCategory } from "@/constants/job-category";
 
-import { routePush } from "../../../.github/scripts/workflow-route.mjs";
 import { processBatchQueue } from "../../command/batch";
 import { planBatchRecovery } from "../recover-batch";
 

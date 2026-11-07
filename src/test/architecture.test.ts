@@ -154,6 +154,88 @@ describe("architecture boundaries", () => {
     ]);
   });
 
+  it("resolves a relative path and an alias to the same file", () => {
+    const runtime = scanArchitecture({
+      "scripts/github/__alias_runtime.ts": [
+        'import { renderMarkdown } from "@github/scripts/summary.mjs";',
+        'import { renderMarkdown as relativeMarkdown } from "../../.github/scripts/summary.mjs";',
+        'import { recordStage } from "@scripts/github/summary";',
+        'import { recordStage as relativeStage } from "./summary";',
+        "",
+      ].join("\n"),
+    });
+    expect(
+      runtime.edges
+        .filter((edge) => edge.from === "scripts/github/__alias_runtime.ts")
+        .map((edge) => `${edge.kind} ${edge.to}`)
+    ).toEqual([
+      "runtime .github/scripts/summary.d.mts",
+      "runtime scripts/github/summary.ts",
+    ]);
+    expect(runtime.violations.some((item) => item.from === "scripts/github/__alias_runtime.ts")).toBe(
+      false
+    );
+
+    const typed = scanArchitecture({
+      "scripts/github/__alias_type.ts": [
+        'import type { renderMarkdown } from "@github/scripts/summary.mjs";',
+        'import type { renderMarkdown as relativeMarkdown } from "../../.github/scripts/summary.mjs";',
+        "",
+      ].join("\n"),
+    });
+    expect(
+      typed.edges
+        .filter((edge) => edge.from === "scripts/github/__alias_type.ts")
+        .map((edge) => `${edge.kind} ${edge.to}`)
+    ).toEqual(["type .github/scripts/summary.d.mts"]);
+    expect(typed.violations.some((item) => item.from === "scripts/github/__alias_type.ts")).toBe(
+      false
+    );
+  });
+
+  it("rejects src imports of scripts and .github, including type-only imports", () => {
+    expect(
+      added({
+        "src/utils/__alias_probe.ts": 'import { recordStage } from "@scripts/github/summary";\n',
+        "src/types/__alias_probe.ts": 'import type { X } from "@scripts/github/summary";\n',
+        "src/constants/__alias_probe.ts":
+          'import { renderMarkdown } from "@github/scripts/summary.mjs";\n',
+        "src/modules/posting/__alias_probe.ts":
+          'import type { renderMarkdown } from "@github/scripts/summary.mjs";\n',
+        "src/utils/ai/__alias_probe.ts":
+          'import { routePush } from "../../../.github/scripts/workflow-route.mjs";\n',
+      }).map((item) => `${item.kind} ${item.rule} ${item.from} ${item.to}`)
+    ).toEqual([
+      "runtime src must not import .github src/constants/__alias_probe.ts .github/scripts/summary.d.mts",
+      "runtime src must not import .github src/utils/ai/__alias_probe.ts .github/scripts/workflow-route.d.mts",
+      "runtime src must not import scripts src/utils/__alias_probe.ts scripts/github/summary.ts",
+      "type src must not import .github src/modules/posting/__alias_probe.ts .github/scripts/summary.d.mts",
+      "type src must not import scripts src/types/__alias_probe.ts scripts/github/summary.ts",
+    ]);
+  });
+
+  it("lists an alias vi.mock without turning it into an edge", () => {
+    const mocked = scanArchitecture({
+      "src/utils/__alias_probe.ts":
+        'vi.mock("@scripts/github/summary");\nvi.mock("@github/scripts/summary.mjs");\n',
+    });
+    expect(mocked.violations.some((item) => item.from === "src/utils/__alias_probe.ts")).toBe(false);
+    expect(mocked.unrecognized.filter((item) => item.file === "src/utils/__alias_probe.ts")).toEqual([
+      {
+        kind: "vi.mock",
+        file: "src/utils/__alias_probe.ts",
+        detail: "@scripts/github/summary",
+        rule: "src must not import scripts",
+      },
+      {
+        kind: "vi.mock",
+        file: "src/utils/__alias_probe.ts",
+        detail: "@github/scripts/summary.mjs",
+        rule: "src must not import .github",
+      },
+    ]);
+  });
+
   it("does not treat vi.mock or a non-literal import() as an edge", () => {
     const kinds = new Set(scan.unrecognized.map((item) => item.kind));
     expect(kinds).toEqual(new Set(["vi.mock", "dynamic import()"]));

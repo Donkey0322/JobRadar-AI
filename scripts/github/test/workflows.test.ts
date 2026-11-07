@@ -23,7 +23,7 @@ import {
   shouldNotify,
   SYNC_CRONS,
   WEBHOOK_PUSH_COMMIT_CAP,
-} from "../../../.github/scripts/workflow-route.mjs";
+} from "@github/scripts/workflow-route.mjs";
 
 const ROOT = path.resolve(import.meta.dirname, "../../..");
 const ROUTE = path.join(ROOT, ".github/scripts/workflow-route.mjs");

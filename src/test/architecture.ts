@@ -4,9 +4,9 @@ import ts from "typescript";
 
 /**
  * Layer check for the current tree. Edges are resolved with the repo tsconfig,
- * so `@/` and relative specifiers land on the same file. `export … from` is an
- * edge of the barrel, and a named import is also an edge to the file that
- * defines that name.
+ * so `@/`, `@scripts/`, `@github/`, and relative specifiers land on the same
+ * file. `export … from` is an edge of the barrel, and a named import is also
+ * an edge to the file that defines that name.
  *
  * Runtime means the specifier is still an import or re-export after
  * `ts.transpileModule`. `import type` and `export type` are type-only.
@@ -49,6 +49,7 @@ const ROOT = path.resolve(import.meta.dirname, "../..");
 
 export function boundaryRule(from: string, to: string, kind: EdgeKind): string | null {
   if (from.startsWith("src/") && to.startsWith("scripts/")) return "src must not import scripts";
+  if (from.startsWith("src/") && to.startsWith(".github/")) return "src must not import .github";
   if (kind === "type") return null;
 
   if (from.startsWith("src/utils/") && to.startsWith("src/modules/"))
@@ -176,8 +177,10 @@ function projectRel(file: string): string | null {
   const rel = path.relative(ROOT, file);
   if (rel.startsWith("..") || path.isAbsolute(rel)) return null;
   const posix = rel.split(path.sep).join("/");
-  if (!posix.startsWith("src/") && !posix.startsWith("scripts/")) return null;
-  if (!/\.(?:ts|tsx|mts)$/.test(posix)) return null;
+  if (!posix.startsWith("src/") && !posix.startsWith("scripts/") && !posix.startsWith(".github/")) {
+    return null;
+  }
+  if (!/\.(?:tsx|[cm]?ts|mjs)$/.test(posix)) return null;
   return posix;
 }
 
@@ -587,7 +590,14 @@ function resolveSpecifier(
   options: ts.CompilerOptions,
   host: ts.ModuleResolutionHost
 ): string | null {
-  if (!specifier.startsWith(".") && !specifier.startsWith("@/")) return null;
+  if (
+    !specifier.startsWith(".") &&
+    !specifier.startsWith("@/") &&
+    !specifier.startsWith("@scripts/") &&
+    !specifier.startsWith("@github/")
+  ) {
+    return null;
+  }
   const fromFile = path.join(ROOT, fromRel);
   const resolved = ts.resolveModuleName(specifier, fromFile, options, host).resolvedModule;
   if (!resolved) throw new Error(`Cannot resolve ${specifier} from ${fromRel}`);
