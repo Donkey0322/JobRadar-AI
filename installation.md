@@ -547,7 +547,7 @@ on:
   workflow_dispatch: {}
 ```
 
-A commit that only adds `data/batch/queue.ndjson` does not start another batch. Scan, sync, and an accepted issue process that queue once. `jobctl job analyze`, or a queue committed outside those workflows, waits for the hourly run or a manual Batch Pipeline run. Public JD sync writes `data/upstream/queue.json` and does not use this queue.
+A commit that only adds `data/batch/queue.ndjson` does not start another batch. Scan, sync, and an accepted issue process that queue once. `jobctl job analyze`, or a queue committed outside those workflows, waits for the hourly run or a manual Batch Pipeline run.
 
 Submit checkpoints inflight work with `[skip ci]`, then collect polls the provider every 20 seconds until the batch finishes or the 20-minute soft deadline is hit. Checkpoint and collect each publish their own saved commit. A board failure still notifies that commit and fails the publish workflow. Collect continues after a failed or skipped checkpoint publish.
 
