@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Newyorklife</td>
+      <td width="420" align="left" valign="top">Associate - Full-Stack Software Developer</td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.newyorklife.com/careers/job/45404606?domain=newyorklife.com&amp;8fold_id=45404606"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 6</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Cisco</td>
       <td width="420" align="left" valign="top">Software Engineer Embedded Systems I</td>
       <td width="180" align="left" valign="top">San Jose, CA</td>
@@ -2106,17 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/System-Integration-and-Test-Engineer_J-00356216"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 2</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Aurelian</td>
-      <td width="420" align="left" valign="top">Forward Deployed Engineer</td>
-      <td width="180" align="left" valign="top">Seattle, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/aurelian/834316d0-3eda-45c4-95d8-59385b83fd20"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 2</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 3,452 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 3,453 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-07T05:40:49.901Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-07T05:46:13.015Z</code></sub>

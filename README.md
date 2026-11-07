@@ -91,7 +91,7 @@ Each category page shows up to 300 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 2,039 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,813 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,452 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,453 opportunities
 
 ## The List 🚴‍♂️
 
@@ -565,6 +565,13 @@ Each category page shows up to 300 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Newyorklife</td>
+      <td width="420" align="left" valign="top">Associate - Full-Stack Software Developer</td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.newyorklife.com/careers/job/45404606?domain=newyorklife.com&amp;8fold_id=45404606"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 6</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Cisco</td>
       <td width="420" align="left" valign="top">Software Engineer Embedded Systems I</td>
       <td width="180" align="left" valign="top">San Jose, CA</td>
@@ -767,16 +774,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/Microarchitecture-and-Design-Engineer---AI-SoC_JR0287996"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 6</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Intercontinental Exchange</td>
-      <td width="420" align="left" valign="top">Associate Full Stack Developer</td>
-      <td width="180" align="left" valign="top">Jacksonville, FL</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.ice.com/jobs/13532?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 6</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,452 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,453 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -795,7 +795,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-07T05:40:49.901Z</code>
+      🕒 Last updated <code>2026-11-07T05:46:13.015Z</code>
     </span>
   </p>
 </div>
