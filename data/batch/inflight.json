@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "name": "batches/hdjq6sxnz1j0lh10ontpc0drpzd1he0i7ybm",
+    "submittedAt": "2026-11-07T23:26:23.384Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Ludo Robotics",
+        "role": "ML/AI Engineer",
+        "link": "https://job-boards.greenhouse.io/ludorobotics/jobs/8451758002",
+        "location": "Palo Alto",
+        "country": "USA"
+      }
+    ]
+  }
+]
