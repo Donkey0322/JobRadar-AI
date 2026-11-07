@@ -36,7 +36,6 @@ describe("pnpm jobctl completion draft", () => {
       "analyze",
       "delete",
       "clean",
-      "pinpoint-replay",
       "dedup",
     ]);
     expect(names(["pnpm", "jobctl", "job", "add", ""])).toEqual(["-l", "--link", "-f", "--file"]);

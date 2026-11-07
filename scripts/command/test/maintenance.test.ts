@@ -91,7 +91,13 @@ describe("jobctl maintenance commands", () => {
       "email",
     ]);
     const job = pkg.fig.jobctl.subcommands.find((command) => command.name === "job");
-    expect(names(job?.subcommands ?? [])).toEqual(["add", "analyze", "delete", "clean", "dedup"]);
+    expect(names(job?.subcommands ?? [])).toEqual([
+      "add",
+      "analyze",
+      "delete",
+      "clean",
+      "dedup",
+    ]);
     expect(
       names(pkg.fig.jobctl.subcommands.find((command) => command.name === "company")?.subcommands ?? [])
     ).toEqual(["refresh"]);
@@ -120,6 +126,7 @@ describe("jobctl maintenance commands", () => {
     for (const name of ["add", "analyze", "delete", "clean", "dedup"]) {
       expect(job.stdout).toContain(name);
     }
+    expect(job.stdout).not.toContain("pinpoint-replay");
     expect(add.status).toBe(0);
     expect(add.stdout).toContain("--link");
     expect(add.stdout).toContain("--file");

@@ -75,16 +75,6 @@ export function registerJob(program: Command) {
     });
 
   job
-    .command("pinpoint-replay")
-    .description(
-      "Print a dry-run review of the Pinpoint URLs added in 0ccaee30. Does not fetch or write."
-    )
-    .action(async () => {
-      const { reviewPinpointReplay } = await import("./pinpoint-replay");
-      await reviewPinpointReplay();
-    });
-
-  job
     .command("dedup")
     .description("Deduplicate stored URLs and opportunities")
     .action(async () => {

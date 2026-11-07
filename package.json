@@ -176,10 +176,6 @@
               "description": "Drop dead posting URLs and refresh companies"
             },
             {
-              "name": "pinpoint-replay",
-              "description": "Print a dry-run review of the Pinpoint URLs added in 0ccaee30. Does not fetch or write."
-            },
-            {
               "name": "dedup",
               "description": "Deduplicate stored URLs and opportunities"
             }

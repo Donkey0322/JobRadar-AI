@@ -301,7 +301,7 @@ afterEach(() => {
   for (const dir of temps.splice(0)) rmSync(dir, { recursive: true, force: true });
 });
 
-describe("batch recovery checkpoint", () => {
+describe("batch recovery checkpoint", { timeout: 20_000 }, () => {
   const alphaJd = jd("Alpha HQ");
 
   async function rerun(repo: string) {

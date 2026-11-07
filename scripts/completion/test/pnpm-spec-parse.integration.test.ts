@@ -277,7 +277,6 @@ describe("installed pnpm spec parse", () => {
       "analyze",
       "delete",
       "clean",
-      "pinpoint-replay",
       "dedup",
     ]);
     expect(options(add)).toEqual(expect.arrayContaining(["-l", "--link", "-f", "--file"]));
