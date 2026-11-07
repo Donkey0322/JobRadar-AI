@@ -413,7 +413,8 @@ describe("batch gate", () => {
     expect(jobs).toContain("uses: ./.github/actions/batch-work");
     expect(jobs).not.toContain("batch-run.yml");
     expect(jobs).not.toContain("needs.publish.result == 'failure'");
-    expect(jobs).not.toContain("always()");
+    expect(jobs.match(/always\(\)/g)).toEqual(["always()"]);
+    expect(jobs).toContain("name: Write run summary\n        if: ${{ always() && !cancelled() }}");
     expect(issue).toContain("uses: ./.github/actions/batch-work");
     expect(issue).toContain("needs.process.result == 'failure'");
     expect(issue).not.toContain("batch-run.yml");
@@ -541,15 +542,18 @@ describe("maintenance routing", () => {
     writeFileSync(path.join(directory, "README.md"), "board\n");
     writeFileSync(path.join(directory, "data-note.txt"), "leave me\n");
 
-    const inherited = { ...process.env };
-    delete inherited.GITHUB_OUTPUT;
+    const isolated = isolatedRouteEnv(directory, {
+      EVENT_NAME: "workflow_dispatch",
+      TASK: "board refresh",
+    });
     const committed = spawnSync(process.execPath, [ROUTE, "maintenance-commit"], {
       cwd: directory,
       encoding: "utf8",
-      env: { ...inherited, EVENT_NAME: "workflow_dispatch", TASK: "board refresh" },
+      env: isolated.env,
     });
 
     expect(committed.status, committed.stderr).toBe(0);
+    expect(readFileSync(isolated.summary, "utf8")).toBe("OFFICIAL\n");
     expect(committed.stdout).toContain("has_commit=true");
     const names = spawnSync("git", ["diff-tree", "--no-commit-id", "--name-only", "-r", "HEAD"], {
       cwd: directory,
@@ -579,14 +583,34 @@ function runGit(directory: string, args: string[]) {
   return result.stdout.trim();
 }
 
-function publishRoute(directory: string, env: Record<string, string>) {
+function isolatedRouteEnv(directory: string, extra: Record<string, string> = {}) {
   const inherited = { ...process.env };
   delete inherited.GITHUB_OUTPUT;
+  delete inherited.GITHUB_STEP_SUMMARY;
+  delete inherited.JOBRADAR_SUMMARY_DIR;
+  const summary = path.join(directory, "official-step-summary.md");
+  const stageDir = path.join(directory, "summary-stages");
+  writeFileSync(summary, "OFFICIAL\n");
+  return {
+    summary,
+    stageDir,
+    env: {
+      ...inherited,
+      ...extra,
+      GITHUB_STEP_SUMMARY: summary,
+      JOBRADAR_SUMMARY_DIR: stageDir,
+    },
+  };
+}
+
+function publishRoute(directory: string, env: Record<string, string>) {
+  const isolated = isolatedRouteEnv(directory, env);
   const result = spawnSync(process.execPath, [ROUTE, "publish-route"], {
     cwd: directory,
     encoding: "utf8",
-    env: { ...inherited, ...env },
+    env: isolated.env,
   });
+  expect(readFileSync(isolated.summary, "utf8")).toBe("OFFICIAL\n");
   expect(result.status, result.stderr).toBe(0);
   return Object.fromEntries(
     result.stdout
@@ -619,12 +643,11 @@ describe("saved ranges", () => {
       runGit(directory, ["diff", "-U0", base, checkpoint, "--", "data/jobs.ndjson"])
     ).toContain("https://example.com/new");
 
-    const inherited = { ...process.env };
-    delete inherited.GITHUB_OUTPUT;
+    const isolated = isolatedRouteEnv(directory);
     const classified = spawnSync(process.execPath, [ROUTE, "classify-head"], {
       cwd: directory,
       encoding: "utf8",
-      env: inherited,
+      env: isolated.env,
     });
     expect(classified.status, classified.stderr).toBe(0);
     expect(classified.stdout).toContain("notify=true");
@@ -640,8 +663,9 @@ describe("saved ranges", () => {
     const collected = spawnSync(process.execPath, [ROUTE, "classify-head"], {
       cwd: directory,
       encoding: "utf8",
-      env: inherited,
+      env: isolated.env,
     });
+    expect(readFileSync(isolated.summary, "utf8")).toBe("OFFICIAL\n");
     expect(collected.status, collected.stderr).toBe(0);
     expect(collected.stdout).toContain("notify=false");
     expect(
@@ -789,13 +813,12 @@ describe("saved ranges", () => {
     });
 
     const directory = mkdtempSync(path.join(tmpdir(), "jobradar-truncated-"));
-    const inherited = { ...process.env };
-    delete inherited.GITHUB_OUTPUT;
+    const isolated = isolatedRouteEnv(directory);
     const failed = spawnSync(process.execPath, [ROUTE, "publish-route"], {
       cwd: directory,
       encoding: "utf8",
       env: {
-        ...inherited,
+        ...isolated.env,
         BEFORE: ZERO_SHA,
         SHA: after,
         COMMIT_MESSAGE: "add a job",
@@ -806,21 +829,48 @@ describe("saved ranges", () => {
     expect(failed.stderr).toContain("Notification was not sent.");
     expect(failed.stdout).not.toContain("notify=");
     expect(failed.stdout).not.toContain(capped[0]);
+    expect(readFileSync(isolated.summary, "utf8")).toBe("OFFICIAL\n");
+    const stages = readFileSync(path.join(isolated.stageDir, "stages.ndjson"), "utf8");
+    expect(stages).toContain("2048");
+    expect(stages).toContain("Notification was not sent.");
 
+    const rendered = path.join(directory, "rendered-summary.md");
+    const render = spawnSync(
+      process.execPath,
+      [path.join(ROOT, ".github/scripts/summary.mjs"), "render"],
+      {
+        encoding: "utf8",
+        env: {
+          PATH: process.env.PATH ?? "",
+          JOBRADAR_SUMMARY_DIR: isolated.stageDir,
+          GITHUB_STEP_SUMMARY: rendered,
+        },
+      }
+    );
+    expect(render.status).toBe(0);
+    expect(readFileSync(rendered, "utf8")).toContain("2048");
+    expect(readFileSync(isolated.summary, "utf8")).toBe("OFFICIAL\n");
+
+    const missingParent = "e".repeat(40);
     const missing = spawnSync(process.execPath, [ROUTE, "publish-route"], {
       cwd: directory,
       encoding: "utf8",
       env: {
-        ...inherited,
+        ...isolated.env,
         BEFORE: ZERO_SHA,
         SHA: after,
         COMMIT_MESSAGE: "add a job",
-        PUSH_COMMITS: JSON.stringify(["e".repeat(40)]),
+        PUSH_COMMITS: JSON.stringify([missingParent]),
       },
     });
     expect(missing.status).toBe(1);
     expect(missing.stderr).toContain("could not be resolved");
     expect(missing.stdout).not.toContain("notify=");
+    expect(readFileSync(isolated.summary, "utf8")).toBe("OFFICIAL\n");
+    const missingStages = readFileSync(path.join(isolated.stageDir, "stages.ndjson"), "utf8");
+    expect(missingStages).toContain(missingParent);
+    expect(missingStages).toContain("could not be resolved");
+    expect(readFileSync(rendered, "utf8")).not.toContain(missingParent);
   });
 });
 
@@ -904,5 +954,15 @@ describe("workflow inventory", () => {
     expect(workflow("add-job-from-issue.yml")).toContain("timeout-minutes: 150");
     expect(workflow("publish-data.yml")).toContain("timeout-minutes: 30");
     expect(workflow("publish-jobs.yml")).toContain("timeout-minutes: 25");
+
+    for (const name of ["jobs.yml", "batch.yml", "publish-jobs.yml", "publish-data.yml", "maintenance.yml"]) {
+      expect(workflow(name)).toContain("JOBRADAR_SUMMARY_DIR:");
+      expect(workflow(name)).toContain("JOB_STATUS: ${{ job.status }}");
+      expect(workflow(name)).toContain("node .github/scripts/summary.mjs render");
+      expect(workflow(name)).toContain("always() && !cancelled()");
+    }
+    expect(action("publish-saved")).not.toContain("summary.mjs render");
+    expect(action("batch-work")).not.toContain("summary.mjs render");
+    expect(action("refresh-board")).not.toContain("summary.mjs render");
   });
 });

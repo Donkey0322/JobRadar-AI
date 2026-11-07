@@ -6,9 +6,10 @@ import { GREEN_CHECKMARK, RED_CROSS } from "@/constants/log";
 import type { JDFetchResult, JDFetchStatus } from "@/modules/posting/jd";
 import type { Company, Opportunity } from "@/types";
 
+import { recordStage } from "../../github/summary";
 import { renderBuildProgress } from "../../utils/progress";
 
-import deduplicate from "./dedup";
+import { dedupeStored as deduplicate } from "./dedup";
 
 import { classifyATS } from "@/modules/ats/classify";
 import { groupUrlsByKey } from "@/modules/ats/job-key";
@@ -865,26 +866,48 @@ export async function runClean(input: {
 }
 
 async function main() {
-  await deduplicate();
+  try {
+    await deduplicate();
 
-  const storedUrls = Array.from(await store.urls.load());
-  const targeted = targetedOpportunities(await store.opportunities.load());
-  const companies = await store.companies.load();
-  const report = await runClean({ urls: storedUrls, companies });
+    const storedUrls = Array.from(await store.urls.load());
+    const targeted = targetedOpportunities(await store.opportunities.load());
+    const companies = await store.companies.load();
+    const report = await runClean({ urls: storedUrls, companies });
 
-  await store.urls.save(new Set(report.urls));
+    await store.urls.save(new Set(report.urls));
 
-  const synced = syncExpiredFlags(targeted, groupUrlsByKey(report.urls));
-  const opportunities = dropStaleExpiredOpportunities(synced);
+    const synced = syncExpiredFlags(targeted, groupUrlsByKey(report.urls));
+    const opportunities = dropStaleExpiredOpportunities(synced);
 
-  console.log(
-    { opportunities: opportunities.length, staleExpired: synced.length - opportunities.length },
-    `${GREEN_CHECKMARK} Pruned stale expired opportunities`
-  );
+    console.log(
+      { opportunities: opportunities.length, staleExpired: synced.length - opportunities.length },
+      `${GREEN_CHECKMARK} Pruned stale expired opportunities`
+    );
 
-  await store.opportunities.replace(opportunities);
+    await store.opportunities.replace(opportunities);
+    recordStage({
+      stage: "maintenance",
+      task: "clean",
+      status: "success",
+      kept: report.urls.length,
+      dropped: report.dropped.length,
+      unknown: report.unknown,
+      retries: report.retries,
+      elapsedMs: report.elapsedMs,
+      saved: "complete",
+    });
 
-  return report.urls;
+    return report.urls;
+  } catch (error) {
+    recordStage({
+      stage: "maintenance",
+      task: "clean",
+      status: "failed",
+      reason: "clean failed",
+      saved: "unknown",
+    });
+    throw error;
+  }
 }
 
 export async function cleanUrls() {

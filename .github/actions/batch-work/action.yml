@@ -49,6 +49,7 @@ runs:
         git config user.email "actions@github.com"
         git add data/
         git commit -m "chore(batch): checkpoint inflight submissions [skip ci]"
+        COMMIT_LABEL="batch checkpoint" node .github/scripts/summary.mjs append-commit || echo "::warning::Could not write the run summary. The task result is unchanged."
 
     - name: Push inflight checkpoint
       id: checkpoint_push
@@ -57,6 +58,7 @@ runs:
       with:
         token: ${{ inputs.token }}
         ref: ${{ inputs.ref }}
+        summary_label: batch checkpoint
 
     - name: Classify checkpoint commit
       id: checkpoint_route
@@ -76,6 +78,7 @@ runs:
       with:
         data_sha: ${{ steps.checkpoint_route.outputs.data_sha }}
         notify: ${{ steps.checkpoint_route.outputs.notify }}
+        label: batch checkpoint
         token: ${{ inputs.publish_token || inputs.token }}
         ref: ${{ inputs.ref }}
 
@@ -115,6 +118,7 @@ runs:
         git config user.email "actions@github.com"
         git add data/
         git commit -m "chore(batch): collect batch analysis"
+        COMMIT_LABEL="batch collect" node .github/scripts/summary.mjs append-commit || echo "::warning::Could not write the run summary. The task result is unchanged."
 
     - name: Push collected results
       id: collect_push
@@ -123,6 +127,7 @@ runs:
       with:
         token: ${{ inputs.token }}
         ref: ${{ inputs.ref }}
+        summary_label: batch collect
 
     - name: Classify collected data commit
       id: collect_route
@@ -141,6 +146,7 @@ runs:
       with:
         data_sha: ${{ steps.collect_route.outputs.data_sha }}
         notify: ${{ steps.collect_route.outputs.notify }}
+        label: batch collect
         token: ${{ inputs.publish_token || inputs.token }}
         ref: ${{ inputs.ref }}
 
@@ -153,7 +159,13 @@ runs:
       id: recover_save
       if: ${{ failure() && !cancelled() && (steps.submit.outcome == 'failure' || steps.collect.outcome == 'failure') }}
       shell: bash
-      run: pnpm exec tsx scripts/github/recover-batch.ts
+      run: |
+        set +e
+        result="$(pnpm exec tsx scripts/github/recover-batch.ts)"
+        status=$?
+        printf '%s\n' "$result"
+        RECOVER_STATUS="$status" RECOVER_OUTPUT="$result" node .github/scripts/summary.mjs append-recover || echo "::warning::Could not write the run summary. The task result is unchanged."
+        exit "$status"
 
     - name: Push recoverable batch state
       if: ${{ failure() && !cancelled() && steps.recover_save.outputs.committed == 'true' }}
@@ -161,6 +173,7 @@ runs:
       with:
         token: ${{ inputs.token }}
         ref: ${{ inputs.ref }}
+        summary_label: batch recovery
 
     - name: Fail when checkpoint publish failed
       if: ${{ !cancelled() && steps.publish_checkpoint.outcome == 'failure' }}

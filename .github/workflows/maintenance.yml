@@ -29,6 +29,8 @@ jobs:
   maintain:
     runs-on: ubuntu-latest
     timeout-minutes: 120
+    env:
+      JOBRADAR_SUMMARY_DIR: ${{ runner.temp }}/jobradar-summary
 
     steps:
       - name: Checkout repository
@@ -67,3 +69,10 @@ jobs:
         with:
           token: ${{ secrets.PAT }}
           ref: ${{ github.ref_name }}
+          summary_label: maintenance
+
+      - name: Write run summary
+        if: ${{ always() && !cancelled() }}
+        env:
+          JOB_STATUS: ${{ job.status }}
+        run: node .github/scripts/summary.mjs render || echo "::warning::Could not write the run summary. The task result is unchanged."

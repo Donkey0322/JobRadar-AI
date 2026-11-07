@@ -131,6 +131,8 @@ const ai = CONFIG.ai;
 function gitEnv() {
   const env = { ...process.env };
   delete env.GITHUB_OUTPUT;
+  delete env.GITHUB_STEP_SUMMARY;
+  delete env.JOBRADAR_SUMMARY_DIR;
   delete env.GIT_DIR;
   delete env.GIT_WORK_TREE;
 

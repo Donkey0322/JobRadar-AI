@@ -108,6 +108,7 @@ import { SEASONS } from "@/constants/season";
 
 import type { MockInstance } from "vitest";
 
+import { renderSummary } from "../../../.github/scripts/summary.mjs";
 import runBatch, { processBatchQueue } from "../batch";
 
 import { CONFIG } from "@/config";
@@ -258,6 +259,59 @@ describe("batch rerun baseline", () => {
     expect(provider.generate).not.toHaveBeenCalled();
     expect(provider.submitBatch).not.toHaveBeenCalled();
     expect(fetchMock).not.toHaveBeenCalled();
+  });
+
+  it("records each batch pass once, including a replay that adds no cost", async () => {
+    const summaryDir = path.join(paths.root, "summary");
+    const official = path.join(paths.root, "official.md");
+    await fs.writeFile(official, "OFFICIAL\n");
+    process.env.JOBRADAR_SUMMARY_DIR = summaryDir;
+    process.env.GITHUB_STEP_SUMMARY = official;
+
+    try {
+      provider.batches.set("batches/done", {
+        state: "succeeded",
+        durationMs: 240_000,
+        results: [
+          { key: getJobKey(alpha.link), result: JSON.stringify(jd("Alpha HQ")), cost: 0.001 },
+          { key: getJobKey(beta.link), result: JSON.stringify(jd("Beta HQ")), cost: 0.002 },
+        ],
+      });
+      await saveInflightBatches([
+        {
+          name: "batches/done",
+          submittedAt: "2026-09-01T00:00:00.000Z",
+          phase: "screen",
+          jobs: [alpha, beta],
+        },
+      ]);
+
+      await runBatch();
+      await runBatch();
+
+      const jobsAfter = await fs.readFile(JOB_PATH, "utf-8");
+      await runBatch();
+      expect(await fs.readFile(JOB_PATH, "utf-8")).toBe(jobsAfter);
+
+      const { markdown } = renderSummary({
+        dir: summaryDir,
+        summaryPath: path.join(paths.root, "rendered.md"),
+      });
+      const costs = [...markdown.matchAll(/\| AI cost this pass \| ([0-9.]+) \|/g)].map(
+        (match) => match[1]
+      );
+      expect(costs).toEqual(["0.003", "0", "0"]);
+      expect(markdown).not.toContain("0.006");
+      expect(markdown).not.toContain("0.009");
+      expect(markdown).not.toContain("test-fake-ai-key");
+      expect(markdown).not.toContain("Software Engineer Intern");
+      expect(markdown).not.toContain("greenhouse.io");
+      expect(markdown).not.toContain("Bachelor");
+      expect(await fs.readFile(official, "utf8")).toBe("OFFICIAL\n");
+    } finally {
+      delete process.env.JOBRADAR_SUMMARY_DIR;
+      delete process.env.GITHUB_STEP_SUMMARY;
+    }
   });
 
   async function saveDone(results: Array<{ key: string; result: string; cost: number }>) {

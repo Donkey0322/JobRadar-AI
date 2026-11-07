@@ -77,6 +77,8 @@ interface ApplyState {
   skipped: number;
   failed: number;
   batched: number;
+  notStarted: number;
+  skipReasons: Partial<Record<SkipKind, number>>;
   forceStopped: boolean;
   markAsSeen: (posting: Posting) => void;
 }
@@ -90,6 +92,8 @@ function createApplyState(currentId: number, markAsSeen: (posting: Posting) => v
     skipped: 0,
     failed: 0,
     batched: 0,
+    notStarted: 0,
+    skipReasons: {},
     forceStopped: false,
     markAsSeen,
   };
@@ -187,6 +191,7 @@ function logFailure(job: Posting, failure: PostingAnalysisFailure) {
 function applyOutcome(outcome: JobOutcome, state: ApplyState) {
   switch (outcome.effect) {
     case "deadline":
+      state.notStarted += 1;
       state.forceStopped = true;
       return;
 
@@ -201,6 +206,7 @@ function applyOutcome(outcome: JobOutcome, state: ApplyState) {
       }
 
       state.skipped += 1;
+      state.skipReasons[outcome.kind] = (state.skipReasons[outcome.kind] ?? 0) + 1;
       state.totalCost += outcome.cost;
       logSkip(outcome.job, outcome.kind, outcome.reason);
       return;
@@ -344,9 +350,13 @@ export async function processJobs({
   return {
     jobs: state.jobs,
     count: state.jobs.length,
+    received: incomingJobs.length,
+    opportunitiesAdded: opportunities.appended.length,
     skipped: state.skipped,
+    skipReasons: state.skipReasons,
     failed: state.failed,
     batched: state.batched,
+    notStarted: state.notStarted,
     totalCost: state.totalCost,
     forceStopped: state.forceStopped,
   };

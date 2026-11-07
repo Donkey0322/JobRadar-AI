@@ -1,5 +1,6 @@
 import type { Company } from "@/types";
 
+import { recordStage } from "../../github/summary";
 import { renderBuildProgress } from "../../utils/progress";
 
 import { buildCompanyList, companyKey } from "@/modules/employer/build";
@@ -61,9 +62,29 @@ export async function remapStoredCompanyNames(
 }
 
 export async function refreshCompanies() {
-  const urls = await store.urls.load();
-  const companies = await buildCompanyList(urls, renderBuildProgress);
-  const remapped = await remapStoredCompanyNames(companies);
+  try {
+    const urls = await store.urls.load();
+    const companies = await buildCompanyList(urls, renderBuildProgress);
+    const remapped = await remapStoredCompanyNames(companies);
 
-  logger.info(remapped, "🏷️ Remapped stored job company names");
+    logger.info(remapped, "🏷️ Remapped stored job company names");
+    recordStage({
+      stage: "maintenance",
+      task: "company refresh",
+      status: "success",
+      companies: companies.length,
+      jobsRenamed: remapped.jobs,
+      opportunitiesRenamed: remapped.opportunities,
+      saved: "complete",
+    });
+  } catch (error) {
+    recordStage({
+      stage: "maintenance",
+      task: "company refresh",
+      status: "failed",
+      reason: "company refresh failed",
+      saved: "unknown",
+    });
+    throw error;
+  }
 }

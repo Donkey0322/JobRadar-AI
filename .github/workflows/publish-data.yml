@@ -43,6 +43,8 @@ jobs:
     runs-on: ubuntu-latest
     # Route 5 plus fast-forward 5, board 10, and notify 10.
     timeout-minutes: 30
+    env:
+      JOBRADAR_SUMMARY_DIR: ${{ runner.temp }}/jobradar-summary
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
@@ -89,3 +91,10 @@ jobs:
           notify: ${{ steps.route.outputs.notify }}
           token: ${{ secrets.PAT }}
           ref: ${{ github.ref_name }}
+          label: direct push
+
+      - name: Write run summary
+        if: ${{ always() && !cancelled() }}
+        env:
+          JOB_STATUS: ${{ job.status }}
+        run: node .github/scripts/summary.mjs render || echo "::warning::Could not write the run summary. The task result is unchanged."

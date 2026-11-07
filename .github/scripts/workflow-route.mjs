@@ -12,6 +12,8 @@ import path from "node:path";
 import process from "node:process";
 import { pathToFileURL } from "node:url";
 
+import { appendStage } from "./summary.mjs";
+
 const LA = "America/Los_Angeles";
 
 export const SCAN_CRONS = ["10 7-23 * * 1", "10 8-23 * * 2-5", "10 0-7 * * 2-6"];
@@ -392,6 +394,13 @@ function jobsGateCli() {
     parseWorkflowNow(process.env.NOW)
   );
   if (result.message) stderr(result.message);
+  if (!result.should_run) {
+    appendStage({
+      stage: "jobs",
+      status: "skipped",
+      reason: result.message || "not scheduled",
+    });
+  }
   emit({
     should_run: result.should_run,
     task: result.task,
@@ -408,13 +417,25 @@ function batchDueCli() {
     readOptional("data/batch/results.ndjson")
   );
   stderr(due ? "Batch work is pending." : "No queued or inflight batch work.");
+  if (!due) {
+    appendStage({
+      stage: "batch",
+      status: "skipped",
+      reason: "no queued or inflight batch work",
+    });
+  }
   emit({ due: due ? "true" : "false" });
 }
 
 function reportIncompleteRange(reason) {
   stderr(reason);
-  const summary = process.env.GITHUB_STEP_SUMMARY;
-  if (summary) appendFileSync(summary, `${reason}\n`, "utf8");
+  appendStage({
+    stage: "publish",
+    label: "direct push",
+    status: "failed",
+    reason,
+    saved: "unchanged",
+  });
 }
 
 function publishRouteCli() {
@@ -474,20 +495,44 @@ function maintenanceTaskCli() {
 
 function maintenanceCommitCli() {
   const plan = maintenancePlan(process.env.EVENT_NAME ?? "", process.env.TASK ?? "");
-  const dirty = plan.paths.filter((filePath) =>
-    gitText(["status", "--porcelain", "--", filePath]).trim()
-  );
-  if (dirty.length === 0) {
-    stderr("No changes to commit.");
-    emit({ has_commit: "false" });
-    return;
-  }
 
-  gitRun(["config", "user.name", "actions-bot"]);
-  gitRun(["config", "user.email", "actions@github.com"]);
-  gitRun(["add", "--", ...dirty]);
-  gitRun(["-c", "commit.gpgsign=false", "commit", "-m", plan.message]);
-  emit({ has_commit: "true" });
+  try {
+    const dirty = plan.paths.filter((filePath) =>
+      gitText(["status", "--porcelain", "--", filePath]).trim()
+    );
+    if (dirty.length === 0) {
+      stderr("No changes to commit.");
+      appendStage({
+        stage: "maintenance-commit",
+        task: plan.task,
+        status: "success",
+        committed: false,
+      });
+      emit({ has_commit: "false" });
+      return;
+    }
+
+    gitRun(["config", "user.name", "actions-bot"]);
+    gitRun(["config", "user.email", "actions@github.com"]);
+    gitRun(["add", "--", ...dirty]);
+    gitRun(["-c", "commit.gpgsign=false", "commit", "-m", plan.message]);
+    appendStage({
+      stage: "maintenance-commit",
+      task: plan.task,
+      status: "success",
+      committed: true,
+    });
+    emit({ has_commit: "true" });
+  } catch (error) {
+    appendStage({
+      stage: "maintenance-commit",
+      task: plan.task,
+      status: "failed",
+      reason: "commit failed",
+      saved: "unknown",
+    });
+    throw error;
+  }
 }
 
 function emitRoute(sha, route, fromSha = "") {

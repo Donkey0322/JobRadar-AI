@@ -37,6 +37,8 @@ jobs:
     runs-on: ubuntu-latest
     # Gate 5, submit 30, checkpoint publish 25, collect 30, collect publish 25.
     timeout-minutes: 120
+    env:
+      JOBRADAR_SUMMARY_DIR: ${{ runner.temp }}/jobradar-summary
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
@@ -79,3 +81,9 @@ jobs:
           token: ${{ github.token }}
           publish_token: ${{ secrets.PAT }}
           ref: ${{ github.ref_name }}
+
+      - name: Write run summary
+        if: ${{ always() && !cancelled() }}
+        env:
+          JOB_STATUS: ${{ job.status }}
+        run: node .github/scripts/summary.mjs render || echo "::warning::Could not write the run summary. The task result is unchanged."

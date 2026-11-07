@@ -8,6 +8,10 @@ inputs:
   ref:
     description: Branch name to update
     required: true
+  summary_label:
+    description: Summary name for this push
+    required: false
+    default: ""
 
 runs:
   using: composite
@@ -18,9 +22,15 @@ runs:
         TOKEN: ${{ inputs.token }}
         BRANCH: ${{ inputs.ref }}
         REPOSITORY: ${{ github.repository }}
+        PUSH_LABEL: ${{ inputs.summary_label }}
       run: |
         set -euo pipefail
         bash .github/scripts/use-push-token.sh "$TOKEN" "$REPOSITORY"
+
+        record_push() {
+          PUSH_STATUS="$1" node .github/scripts/summary.mjs append-push \
+            || echo "::warning::Could not write the run summary. The task result is unchanged."
+        }
 
         plan_rebase() {
           local unshallowed="$1"
@@ -57,10 +67,12 @@ runs:
                 ;;
               fail)
                 echo "No common ancestor with origin/${BRANCH}. Refusing to push."
+                record_push failure
                 exit 1
                 ;;
               *)
                 echo "Unknown history plan: ${plan}"
+                record_push failure
                 exit 1
                 ;;
             esac
@@ -68,11 +80,13 @@ runs:
 
           git rebase "origin/${BRANCH}"
           if git push origin "HEAD:${BRANCH}"; then
+            record_push success
             exit 0
           fi
 
           if (( attempt >= max )); then
             echo "Push failed after ${max} attempts."
+            record_push failure
             exit 1
           fi
 

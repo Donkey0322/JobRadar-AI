@@ -31,7 +31,10 @@ vi.mock("@/store", async (importOriginal) => {
   };
 });
 
-vi.mock("../job/dedup", () => ({ default: mocks.deduplicate }));
+vi.mock("../job/dedup", () => ({
+  default: mocks.deduplicate,
+  dedupeStored: mocks.deduplicate,
+}));
 
 vi.mock("@/modules/employer/build", async (importOriginal) => {
   const actual = await importOriginal<typeof BuildModule>();

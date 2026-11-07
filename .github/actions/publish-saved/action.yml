@@ -19,10 +19,23 @@ inputs:
   ref:
     description: Branch whose tip the board renders
     required: true
+  label:
+    description: Summary label for this publish
+    required: false
+    default: saved data
 
 runs:
   using: composite
   steps:
+    - name: Record publish range
+      if: ${{ !cancelled() }}
+      shell: bash
+      env:
+        DATA_SHA: ${{ inputs.data_sha }}
+        FROM_SHA: ${{ inputs.from_sha }}
+        PUBLISH_LABEL: ${{ inputs.label }}
+      run: node .github/scripts/summary.mjs append-range || echo "::warning::Could not write the run summary. The task result is unchanged."
+
     - name: Ensure the notification commits are present
       if: ${{ success() && !cancelled() && inputs.notify == 'true' }}
       shell: bash
@@ -151,6 +164,7 @@ runs:
       with:
         token: ${{ inputs.token }}
         ref: ${{ inputs.ref }}
+        summary_label: board
 
     - name: Notify the saved range
       if: ${{ !cancelled() && inputs.notify == 'true' && steps.notify.outputs.send == 'true' && (steps.board.outcome == 'success' || steps.board.outcome == 'failure') }}
@@ -178,6 +192,11 @@ runs:
           echo "Data commit: $DATA_SHA"
           pnpm jobctl notify commit "$DATA_SHA"
         fi
+
+    - name: Record skipped notification
+      if: ${{ !cancelled() && (inputs.notify != 'true' || steps.notify.outputs.send == 'false') }}
+      shell: bash
+      run: node .github/scripts/summary.mjs append '{"stage":"notify","status":"skipped","reason":"notifications were not sent"}' || echo "::warning::Could not write the run summary. The task result is unchanged."
 
     - name: Restore unpublished board changes
       if: ${{ !cancelled() }}

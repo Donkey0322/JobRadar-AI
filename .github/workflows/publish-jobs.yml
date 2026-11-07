@@ -30,6 +30,8 @@ jobs:
     runs-on: ubuntu-latest
     # Fast-forward 5, board 10, notify 10.
     timeout-minutes: 25
+    env:
+      JOBRADAR_SUMMARY_DIR: ${{ runner.temp }}/jobradar-summary
     steps:
       - name: Require the saved data commit
         env:
@@ -70,3 +72,10 @@ jobs:
           notify: ${{ inputs.notify && 'true' || 'false' }}
           token: ${{ secrets.PAT }}
           ref: ${{ github.ref_name }}
+          label: manual
+
+      - name: Write run summary
+        if: ${{ always() && !cancelled() }}
+        env:
+          JOB_STATUS: ${{ job.status }}
+        run: node .github/scripts/summary.mjs render || echo "::warning::Could not write the run summary. The task result is unchanged."
