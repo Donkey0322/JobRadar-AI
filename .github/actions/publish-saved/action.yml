@@ -193,10 +193,20 @@ runs:
           pnpm jobctl notify commit "$DATA_SHA"
         fi
 
-    - name: Record skipped notification
-      if: ${{ !cancelled() && (inputs.notify != 'true' || steps.notify.outputs.send == 'false') }}
+    - name: Record notification not requested
+      if: ${{ !cancelled() && inputs.notify != 'true' }}
       shell: bash
-      run: node .github/scripts/summary.mjs append '{"stage":"notify","status":"skipped","reason":"notifications were not sent"}' || echo "::warning::Could not write the run summary. The task result is unchanged."
+      run: node .github/scripts/summary.mjs append '{"stage":"notify","status":"skipped","reason":"notification was not requested"}' || echo "::warning::Could not write the run summary. The task result is unchanged."
+
+    - name: Record disabled notification
+      if: ${{ !cancelled() && inputs.notify == 'true' && steps.notify.outputs.send == 'false' }}
+      shell: bash
+      run: node .github/scripts/summary.mjs append '{"stage":"notify","status":"skipped","reason":"notifications disabled"}' || echo "::warning::Could not write the run summary. The task result is unchanged."
+
+    - name: Record notification not run
+      if: ${{ !cancelled() && inputs.notify == 'true' && steps.notify.outputs.send != 'true' && steps.notify.outputs.send != 'false' }}
+      shell: bash
+      run: node .github/scripts/summary.mjs append '{"stage":"notify","status":"skipped","reason":"an earlier step failed before notification"}' || echo "::warning::Could not write the run summary. The task result is unchanged."
 
     - name: Restore unpublished board changes
       if: ${{ !cancelled() }}

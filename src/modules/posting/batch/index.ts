@@ -447,18 +447,27 @@ function logFailedAttempt(job: Job, record: BatchFailure) {
  * pending batch. failures.ndjson is saved before the caller re-queues jobs or drops the
  * inflight batch, so a failed save leaves that batch to be collected again.
  */
+function stoppedByThisAttempt(
+  before: BatchFailure["status"] | undefined,
+  counted: boolean,
+  after: BatchFailure["status"] | undefined
+) {
+  return counted && before !== "failed" && after === "failed";
+}
+
 async function recordInvalidResults(
   invalid: Array<{ job: Job; batch: string; cost: number }>,
   succeeded: Set<string>,
   pendingKeys: Set<string>
-): Promise<Job[]> {
+): Promise<{ jobs: Job[]; stopped: number }> {
   if (invalid.length === 0 && succeeded.size === 0) {
-    return [];
+    return { jobs: [], stopped: 0 };
   }
 
   const failures = await BatchFailures.load();
   const retry: Job[] = [];
   const at = new Date().toISOString();
+  let stopped = 0;
 
   for (const key of succeeded) {
     failures.clear(key);
@@ -471,12 +480,17 @@ async function recordInvalidResults(
       continue;
     }
 
+    const before = failures.get(job)?.status;
     const { record, counted } = failures.record(job, {
       id: batch,
       at,
       failure: { stage: "ai", reason: "invalid" },
       cost,
     });
+
+    if (stoppedByThisAttempt(before, counted, record.status)) {
+      stopped += 1;
+    }
 
     if (counted) {
       logFailedAttempt(job, record);
@@ -488,7 +502,7 @@ async function recordInvalidResults(
   }
 
   await failures.save();
-  return retry;
+  return { jobs: retry, stopped };
 }
 
 /**
@@ -562,6 +576,7 @@ async function analyzeJobsRealtime(
 ) {
   const analyzed: AnalyzedBatchJob[] = [];
   const kept: Job[] = [];
+  let stopped = 0;
 
   for (const { job, rawJD } of jobs) {
     const posting = Posting.from(job);
@@ -592,12 +607,18 @@ async function analyzeJobsRealtime(
       continue;
     }
 
-    const { record } = failures.record(job, {
+    const before = failures.get(job)?.status;
+    const { record, counted } = failures.record(job, {
       id: attemptId,
       at: new Date().toISOString(),
       failure: result.failure ?? { stage: "ai", reason: "empty" },
       cost: result.cost,
     });
+
+    if (stoppedByThisAttempt(before, counted, record.status)) {
+      stopped += 1;
+    }
+
     logFailedAttempt(job, record);
 
     if (record.status === "retrying") {
@@ -605,18 +626,19 @@ async function analyzeJobsRealtime(
     }
   }
 
-  return { analyzed, kept };
+  return { analyzed, kept, stopped };
 }
 
 export async function collectInflightBatches(): Promise<{
   analyzed: AnalyzedBatchJob[];
   remaining: InflightBatch[];
   completedDurationMs: number | null;
+  failed: number;
 }> {
   const inflight = await loadInflightBatches();
 
   if (inflight.length === 0) {
-    return { analyzed: [], remaining: [], completedDurationMs: null };
+    return { analyzed: [], remaining: [], completedDurationMs: null, failed: 0 };
   }
 
   const provider = getAIProvider();
@@ -625,7 +647,7 @@ export async function collectInflightBatches(): Promise<{
     logger.warn("⚠️ Current AI provider cannot collect batch jobs; re-queuing inflight jobs");
     await enqueueBatchJobs(inflight.flatMap((batch) => batch.jobs));
     await saveInflightBatches([]);
-    return { analyzed: [], remaining: [], completedDurationMs: null };
+    return { analyzed: [], remaining: [], completedDurationMs: null, failed: 0 };
   }
 
   const analyzed: AnalyzedBatchJob[] = [];
@@ -777,7 +799,8 @@ export async function collectInflightBatches(): Promise<{
   const pendingKeys = new Set(
     remaining.flatMap((batch) => batch.jobs.map((job) => getJobKey(job.link)))
   );
-  requeue.push(...(await recordInvalidResults(invalid, succeeded, pendingKeys)));
+  const invalidResults = await recordInvalidResults(invalid, succeeded, pendingKeys);
+  requeue.push(...invalidResults.jobs);
 
   if (requeue.length > 0) {
     await enqueueBatchJobs(requeue);
@@ -802,6 +825,7 @@ export async function collectInflightBatches(): Promise<{
     analyzed,
     remaining,
     completedDurationMs: completedDurations.length > 0 ? Math.max(...completedDurations) : null,
+    failed: invalidResults.stopped,
   };
 }
 
@@ -823,16 +847,17 @@ function durationFromSubmittedAt(submittedAt: string) {
 export async function submitQueuedJobs(limit = Number.POSITIVE_INFINITY): Promise<{
   submitted: number;
   analyzed: AnalyzedBatchJob[];
+  failed: number;
 }> {
   const stored = await loadBatchQueue();
 
   if (stored.length === 0 || limit <= 0) {
-    return { submitted: 0, analyzed: [] };
+    return { submitted: 0, analyzed: [], failed: 0 };
   }
 
   if (!isAIEnabled()) {
     logger.info("📦 AI is disabled; leaving batch queue untouched");
-    return { submitted: 0, analyzed: [] };
+    return { submitted: 0, analyzed: [], failed: 0 };
   }
 
   const failures = await BatchFailures.load();
@@ -898,7 +923,7 @@ export async function submitQueuedJobs(limit = Number.POSITIVE_INFINITY): Promis
       await saveBatchQueue(nextQueue);
     }
 
-    return { submitted: 0, analyzed: [] };
+    return { submitted: 0, analyzed: [], failed: 0 };
   }
 
   const provider = getAIProvider();
@@ -906,6 +931,7 @@ export async function submitQueuedJobs(limit = Number.POSITIVE_INFINITY): Promis
   const fetchLimit = pLimit(FETCH_CONCURRENCY);
   const fetched: Array<{ job: Job; rawJD: string }> = [];
   const terminal: Job[] = [];
+  let stopped = 0;
 
   const fetchResults = await Promise.all(
     chunk.map((job) =>
@@ -920,6 +946,7 @@ export async function submitQueuedJobs(limit = Number.POSITIVE_INFINITY): Promis
   for (const { job, rawJD, error, attemptId } of fetchResults) {
     if (!rawJD) {
       const at = new Date().toISOString();
+      const before = failures.get(job)?.status;
       const { record, counted } = failures.record(job, {
         id: attemptId,
         at,
@@ -942,8 +969,16 @@ export async function submitQueuedJobs(limit = Number.POSITIVE_INFINITY): Promis
         continue;
       }
 
-      const stopped = record.status === "failed" ? record : (failures.finish(job) ?? record);
-      logFailedAttempt(job, stopped);
+      const stoppedRecord = record.status === "failed" ? record : (failures.finish(job) ?? record);
+
+      if (
+        stoppedByThisAttempt(before, counted, record.status) ||
+        (before !== "failed" && stoppedRecord.status === "failed")
+      ) {
+        stopped += 1;
+      }
+
+      logFailedAttempt(job, stoppedRecord);
       terminal.push(job);
       continue;
     }
@@ -984,16 +1019,16 @@ export async function submitQueuedJobs(limit = Number.POSITIVE_INFINITY): Promis
 
   if (fetched.length === 0) {
     await saveBatchQueue(leftover);
-    return { submitted: 0, analyzed: [] };
+    return { submitted: 0, analyzed: [], failed: stopped };
   }
 
   if (!provider?.submitBatch || !provider.getBatch) {
     logger.warn("⚠️ Current AI provider has no Batch API; analyzing queued jobs in real time");
-    const { analyzed, kept } = await analyzeJobsRealtime(fetched, failures, results);
+    const realtime = await analyzeJobsRealtime(fetched, failures, results);
     // A job that just failed for good leaves the queue only after its record is saved.
     await failures.save();
-    await saveBatchQueue([...kept, ...leftover]);
-    return { submitted: 0, analyzed };
+    await saveBatchQueue([...realtime.kept, ...leftover]);
+    return { submitted: 0, analyzed: realtime.analyzed, failed: stopped + realtime.stopped };
   }
 
   const { schema, systemInstruction } = await getAnalyzeJDConfig();
@@ -1008,7 +1043,7 @@ export async function submitQueuedJobs(limit = Number.POSITIVE_INFINITY): Promis
 
   if (!submitted) {
     await saveBatchQueue([...fetched.map(({ job }) => job), ...leftover]);
-    return { submitted: 0, analyzed: [] };
+    return { submitted: 0, analyzed: [], failed: stopped };
   }
 
   const inflight = await loadInflightBatches();
@@ -1026,5 +1061,5 @@ export async function submitQueuedJobs(limit = Number.POSITIVE_INFINITY): Promis
     "📦 Submitted jobs to the cheaper batch API"
   );
 
-  return { submitted: fetched.length, analyzed: [] };
+  return { submitted: fetched.length, analyzed: [], failed: stopped };
 }

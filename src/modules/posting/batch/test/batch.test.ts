@@ -437,7 +437,7 @@ describe("batch-queue", () => {
 
     const result = await submitQueuedJobs();
 
-    expect(result).toEqual({ submitted: 0, analyzed: [] });
+    expect(result).toEqual({ submitted: 0, analyzed: [], failed: 0 });
     expect(getRawJDMock).not.toHaveBeenCalled();
     expect(writeFileMock).not.toHaveBeenCalled();
   });
@@ -453,7 +453,7 @@ describe("batch-queue", () => {
 
     const result = await submitQueuedJobs();
 
-    expect(result).toEqual({ submitted: 0, analyzed: [] });
+    expect(result).toEqual({ submitted: 0, analyzed: [], failed: 0 });
     expect(getAIProviderMock).not.toHaveBeenCalled();
     expect(getRawJDMock).not.toHaveBeenCalled();
     expect(analyzeJDMock).not.toHaveBeenCalled();
@@ -472,7 +472,7 @@ describe("batch-queue", () => {
 
     const result = await submitQueuedJobs();
 
-    expect(result).toEqual({ submitted: 1, analyzed: [] });
+    expect(result).toEqual({ submitted: 1, analyzed: [], failed: 0 });
     expect(submitBatch).toHaveBeenCalledWith(
       [
         expect.objectContaining({
@@ -543,7 +543,7 @@ describe("batch-queue", () => {
 
     const result = await submitQueuedJobs();
 
-    expect(result).toEqual({ submitted: 0, analyzed: [] });
+    expect(result).toEqual({ submitted: 0, analyzed: [], failed: 1 });
     expect(writeFileMock).toHaveBeenCalledWith(
       expect.stringContaining(`${path.sep}batch${path.sep}queue.ndjson`),
       `${JSON.stringify({

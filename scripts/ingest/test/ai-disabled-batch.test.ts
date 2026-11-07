@@ -204,7 +204,7 @@ describe("batch queue while AI is disabled", () => {
 
     const submit = await submitQueuedJobs();
 
-    expect(submit).toEqual({ submitted: 0, analyzed: [] });
+    expect(submit).toEqual({ submitted: 0, analyzed: [], failed: 0 });
     expect(await loadBatchQueue()).toEqual([queuedJob, newJob]);
     expect(await loadInflightBatches()).toEqual([]);
     expect(ai.created).toEqual([]);

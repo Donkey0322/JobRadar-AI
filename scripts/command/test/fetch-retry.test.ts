@@ -280,7 +280,7 @@ describe("persistent JD fetch retries", () => {
       .spyOn(opportunities, "replace")
       .mockRejectedValueOnce(new Error("disk full"));
 
-    await expect(submitQueuedJobs()).resolves.toEqual({ submitted: 0, analyzed: [] });
+    await expect(submitQueuedJobs()).resolves.toEqual({ submitted: 0, analyzed: [], failed: 1 });
 
     expect((await loadBatchQueue()).map((item) => item.link)).toEqual([job.link]);
     expect((await failures()).get(job)?.attempts).toHaveLength(1);

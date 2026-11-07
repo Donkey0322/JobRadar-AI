@@ -315,6 +315,123 @@ describe("batch rerun baseline", () => {
     }
   });
 
+  it("counts two identical analyses separately and one duplicated record once", async () => {
+    const summaryDir = path.join(paths.root, "summary-events");
+    const official = path.join(paths.root, "official-events.md");
+    await fs.writeFile(official, "OFFICIAL\n");
+    process.env.JOBRADAR_SUMMARY_DIR = summaryDir;
+    process.env.GITHUB_STEP_SUMMARY = official;
+    const gamma = job("Gamma", "303");
+
+    try {
+      provider.batches.set("batches/one", {
+        state: "succeeded",
+        durationMs: 240_000,
+        results: [{ key: getJobKey(alpha.link), result: JSON.stringify(jd("Alpha HQ")), cost: 0.003 }],
+      });
+      await saveInflightBatches([
+        {
+          name: "batches/one",
+          submittedAt: "2026-09-01T00:00:00.000Z",
+          phase: "screen",
+          jobs: [alpha],
+        },
+      ]);
+      await runBatch();
+
+      provider.batches.set("batches/two", {
+        state: "succeeded",
+        durationMs: 240_000,
+        results: [{ key: getJobKey(gamma.link), result: JSON.stringify(jd("Gamma HQ")), cost: 0.003 }],
+      });
+      await saveInflightBatches([
+        {
+          name: "batches/two",
+          submittedAt: "2026-09-01T00:00:00.000Z",
+          phase: "screen",
+          jobs: [gamma],
+        },
+      ]);
+      await runBatch();
+
+      const separate = renderSummary({
+        dir: summaryDir,
+        summaryPath: path.join(paths.root, "rendered-events.md"),
+      });
+      const separateHead = separate.markdown.slice(0, separate.markdown.indexOf("<details>"));
+      expect(separateHead).toContain("2 collected");
+      expect(separateHead).toContain("| AI cost | 0.006 |");
+      expect(separate.markdown).not.toContain("test-fake-ai-key");
+
+      const stage = path.join(summaryDir, "stages.ndjson");
+      const lines = (await fs.readFile(stage, "utf8")).trim().split("\n");
+      const first = lines[0] ?? "";
+      expect(first).toContain('"event":');
+      await fs.writeFile(stage, `${first}\n${first}\n`);
+      const repeated = renderSummary({
+        dir: summaryDir,
+        summaryPath: path.join(paths.root, "rendered-repeat.md"),
+      });
+      const repeatedHead = repeated.markdown.slice(0, repeated.markdown.indexOf("<details>"));
+      expect(repeatedHead).toContain("1 collected");
+      expect(repeatedHead).toContain("| AI cost | 0.003 |");
+      expect(repeatedHead).not.toContain("0.006");
+      expect(repeatedHead).not.toContain("2 collected");
+      expect(await fs.readFile(official, "utf8")).toBe("OFFICIAL\n");
+    } finally {
+      delete process.env.JOBRADAR_SUMMARY_DIR;
+      delete process.env.GITHUB_STEP_SUMMARY;
+    }
+  });
+
+  it("shows a level filter as a saved JD when no notification job is added", async () => {
+    const summaryDir = path.join(paths.root, "summary-level");
+    const official = path.join(paths.root, "official-level.md");
+    await fs.writeFile(official, "OFFICIAL\n");
+    process.env.JOBRADAR_SUMMARY_DIR = summaryDir;
+    process.env.GITHUB_STEP_SUMMARY = official;
+
+    try {
+      const mid = { ...jd("Mid HQ"), category: JobCategory.MID_LEVEL };
+      provider.batches.set("batches/mid", {
+        state: "succeeded",
+        durationMs: 240_000,
+        results: [{ key: getJobKey(alpha.link), result: JSON.stringify(mid), cost: 0.003 }],
+      });
+      await saveInflightBatches([
+        {
+          name: "batches/mid",
+          submittedAt: "2026-09-01T00:00:00.000Z",
+          phase: "screen",
+          jobs: [alpha],
+        },
+      ]);
+
+      await runBatch();
+
+      expect(await readNdjson<Job>(JOB_PATH)).toEqual([]);
+      expect(await readNdjson<Opportunity>(OPPORTUNITIES_PATH)).toEqual([
+        expect.objectContaining({ link: alpha.link, jd: mid, expired: false }),
+      ]);
+      expect(provider.generate).not.toHaveBeenCalled();
+      const { markdown } = renderSummary({
+        dir: summaryDir,
+        summaryPath: path.join(paths.root, "rendered-level.md"),
+      });
+      const head = markdown.slice(0, markdown.indexOf("<details>"));
+      expect(head).toContain("| Result | success |");
+      expect(head).toContain("1 collected");
+      expect(head).toContain("no notification job; filter level 1");
+      expect(head).toContain("| Batch opportunities | 1 |");
+      expect(markdown).not.toContain("Not persisted");
+      expect(markdown).not.toContain("test-fake-ai-key");
+      expect(await fs.readFile(official, "utf8")).toBe("OFFICIAL\n");
+    } finally {
+      delete process.env.JOBRADAR_SUMMARY_DIR;
+      delete process.env.GITHUB_STEP_SUMMARY;
+    }
+  });
+
   async function saveDone(results: Array<{ key: string; result: string; cost: number }>) {
     provider.batches.set("batches/done", {
       state: "succeeded",
@@ -876,7 +993,7 @@ describe("batch retries of invalid AI results", () => {
   async function submitAndCollect(name: string, result: string, cost: number, minute: number) {
     vi.setSystemTime(new Date(at(minute)));
     nextBatch(name, result, cost);
-    expect(await submitQueuedJobs()).toEqual({ submitted: 1, analyzed: [] });
+    expect(await submitQueuedJobs()).toEqual({ submitted: 1, analyzed: [], failed: 0 });
     return processBatchQueue(0);
   }
 
@@ -923,6 +1040,102 @@ describe("batch retries of invalid AI results", () => {
   const realtimeAttempt = (minute: number, cost: number, round = 0) => ({
     ...attempt("", minute, cost, round),
     id: expect.stringMatching(/^realtime:[0-9a-f-]{36}$/),
+  });
+
+  it("reports a realtime fallback as analyzed now", async () => {
+    const summaryDir = path.join(paths.root, "summary-live");
+    const official = path.join(paths.root, "official-live.md");
+    await fs.writeFile(official, "OFFICIAL\n");
+    process.env.JOBRADAR_SUMMARY_DIR = summaryDir;
+    process.env.GITHUB_STEP_SUMMARY = official;
+
+    try {
+      realtimeAnswers({ Alpha: [validAlpha] });
+      await enqueueBatchJobs([alpha]);
+      await runBatch();
+
+      expect(provider.generate).toHaveBeenCalledTimes(1);
+      const live = renderSummary({
+        dir: summaryDir,
+        summaryPath: path.join(paths.root, "rendered-live.md"),
+      });
+      const liveHead = live.markdown.slice(0, live.markdown.indexOf("<details>"));
+      expect(liveHead).toContain("1 analyzed now");
+      expect(liveHead).toContain("0 collected");
+      expect(liveHead).toContain("0 replayed");
+      expect(await fs.readFile(official, "utf8")).toBe("OFFICIAL\n");
+    } finally {
+      delete process.env.JOBRADAR_SUMMARY_DIR;
+      delete process.env.GITHUB_STEP_SUMMARY;
+    }
+  });
+
+  it("reports a saved-result replay without another AI call", async () => {
+    const summaryDir = path.join(paths.root, "summary-replay");
+    const official = path.join(paths.root, "official-replay.md");
+    await fs.writeFile(official, "OFFICIAL\n");
+    process.env.JOBRADAR_SUMMARY_DIR = summaryDir;
+    process.env.GITHUB_STEP_SUMMARY = official;
+    const appendOpportunities = vi.spyOn(store.opportunities, "append").mockImplementation(async () => {
+      throw new Error("injected interrupt after jobs are stored");
+    });
+
+    try {
+      realtimeAnswers({ Alpha: [validAlpha, invalidAlpha] });
+      await enqueueBatchJobs([alpha]);
+      await expect(runBatch()).rejects.toThrow("injected interrupt after jobs are stored");
+      appendOpportunities.mockRestore();
+      const calls = provider.generate.mock.calls.length;
+
+      await runBatch();
+
+      expect(provider.generate).toHaveBeenCalledTimes(calls);
+      const replayed = renderSummary({
+        dir: summaryDir,
+        summaryPath: path.join(paths.root, "rendered-replay.md"),
+      });
+      const replayedHead = replayed.markdown.slice(0, replayed.markdown.indexOf("<details>"));
+      expect(replayedHead).toContain("1 replayed");
+      expect(replayedHead).not.toContain("1 analyzed now");
+      expect(replayedHead).toContain("reused 1 existing");
+      expect(replayedHead).toContain("| Batch opportunities | 1 |");
+      expect(await fs.readFile(official, "utf8")).toBe("OFFICIAL\n");
+    } finally {
+      appendOpportunities.mockRestore();
+      delete process.env.JOBRADAR_SUMMARY_DIR;
+      delete process.env.GITHUB_STEP_SUMMARY;
+    }
+  });
+
+  it("keeps the final empty queue after an earlier inflight snapshot", async () => {
+    const summaryDir = path.join(paths.root, "summary-queue");
+    const official = path.join(paths.root, "official-queue.md");
+    await fs.writeFile(official, "OFFICIAL\n");
+    process.env.JOBRADAR_SUMMARY_DIR = summaryDir;
+    process.env.GITHUB_STEP_SUMMARY = official;
+
+    try {
+      await enqueueBatchJobs([alpha]);
+      nextBatch("batches/live", validAlpha, 0.003);
+      await runBatch({ submitOnly: true });
+      const submitted = await fs.readFile(path.join(summaryDir, "stages.ndjson"), "utf8");
+      expect(submitted).toContain('"inflight":1');
+
+      await runBatch();
+
+      const { markdown } = renderSummary({
+        dir: summaryDir,
+        summaryPath: path.join(paths.root, "rendered-queue.md"),
+      });
+      const head = markdown.slice(0, markdown.indexOf("<details>"));
+      expect(head).toContain("| Still waiting | none |");
+      expect(head).not.toContain("can run again");
+      expect(await loadInflightBatches()).toEqual([]);
+      expect(await fs.readFile(official, "utf8")).toBe("OFFICIAL\n");
+    } finally {
+      delete process.env.JOBRADAR_SUMMARY_DIR;
+      delete process.env.GITHUB_STEP_SUMMARY;
+    }
   });
 
   it("re-queues an invalid result and clears its record once a later batch succeeds", async () => {
@@ -1214,7 +1427,7 @@ describe("batch retries of invalid AI results", () => {
     expect(await loadFailures()).toEqual([setAside]);
     expect(await loadBatchQueue()).toEqual([alpha]);
 
-    expect(await submitQueuedJobs()).toEqual({ submitted: 0, analyzed: [] });
+    expect(await submitQueuedJobs()).toEqual({ submitted: 0, analyzed: [], failed: 0 });
     expect(provider.submitBatch).not.toHaveBeenCalled();
     expect(await loadBatchQueue()).toEqual([]);
     expect(await loadFailures()).toEqual([setAside]);

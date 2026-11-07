@@ -289,9 +289,35 @@ describe("processJobs", () => {
     const result = await persistAnalyzedJobs([{ job, jd: usaJd, cost: 0.002 }]);
 
     expect(result.count).toBe(0);
+    expect(result.skipped).toBe(1);
+    expect(result.filterReasons).toEqual({ title: 1 });
+    expect(result.opportunitiesAdded).toBe(1);
+    expect(result.reused).toBe(0);
     expect(dataMocks.jobs.append).toHaveBeenCalledWith([]);
     expect(dataMocks.opportunities.append).toHaveBeenCalledWith([
       expect.objectContaining({ link: job.link, jd: usaJd, role: job.role }),
+    ]);
+  });
+
+  it("saves a level mismatch as a notification filter without treating it as a write failure", async () => {
+    const job = makeJob("mid");
+    const jd: JD = { ...usaJd, category: JobCategory.MID_LEVEL };
+
+    const result = await persistAnalyzedJobs([{ job, jd, cost: 0.0005466 }]);
+
+    expect(result).toMatchObject({
+      count: 0,
+      analyzed: 1,
+      reused: 0,
+      skipped: 1,
+      filterReasons: { level: 1 },
+      opportunitiesAdded: 1,
+      opportunitiesUpdated: 0,
+      totalCost: 0.0005466,
+    });
+    expect(dataMocks.jobs.append).toHaveBeenCalledWith([]);
+    expect(dataMocks.opportunities.append).toHaveBeenCalledWith([
+      expect.objectContaining({ link: job.link, jd }),
     ]);
   });
 

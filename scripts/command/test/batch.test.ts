@@ -133,6 +133,8 @@ describe("processBatchQueue", () => {
     );
     expect(result).toMatchObject({
       collected: 0,
+      realtime: 1,
+      replayed: 0,
       submitted: 0,
       notified: 1,
       totalCost: 0.01,

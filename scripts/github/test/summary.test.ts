@@ -86,7 +86,8 @@ describe("run summary", () => {
     expect(markdown).toContain("| Queued for batch | 1 |");
     expect(markdown).toContain("| Analysis failures | 1 |");
     expect(markdown).toContain("| Skip reasons | filter 1 |");
-    expect(markdown).toContain("Part of this run failed");
+    expect(markdown).toContain("Listing or analysis was incomplete");
+    expect(markdown).not.toContain("Part of this run failed");
     expect(markdown).not.toContain("Emails sent");
   });
 
@@ -104,6 +105,11 @@ describe("run summary", () => {
       },
     ]);
 
+    const head = markdown.slice(0, markdown.indexOf("<details>"));
+    expect(head).toContain("| Result | failed |");
+    expect(head).toContain("| Board | refresh failed |");
+    expect(head).toContain("| Notifications | 2 jobs notified |");
+    expect(head).not.toContain("### ");
     expect(markdown).toContain("### Board");
     expect(markdown).toContain("| Status | failed |");
     expect(markdown).toContain("### Notify");
@@ -158,7 +164,8 @@ describe("run summary", () => {
     );
 
     expect(markdown).toContain("| Status | partial |");
-    expect(markdown).toContain("Part of this run failed");
+    expect(markdown).toContain("Listing or analysis was incomplete");
+    expect(markdown).not.toContain("Part of this run failed");
     expect(markdown).not.toContain("This run failed");
     expect(markdown).not.toContain("Failed stage");
   });
@@ -321,4 +328,245 @@ describe("run summary", () => {
     expect(render.stderr).toContain("The task result is unchanged");
     expect(readFileSync(official, "utf8")).toBe("OFFICIAL\n");
   });
+
+  it("reports this run's outcome without turning historical failures or an earlier inflight count into a partial", () => {
+    const markdown = renderMarkdown(successRun(), { jobStatus: "success" });
+    const head = markdown.slice(0, markdown.indexOf("<details>"));
+
+    expect(head).not.toContain("### ");
+    expect(head).toContain("| Result | success |");
+    expect(head).toContain("| Scan | 2256 companies, 5 candidates, 4 skipped, 1 queued for batch |");
+    expect(head).toContain("| Opportunities added | 2 |");
+    expect(head).toContain("| Notification jobs | 0 |");
+    expect(head).toContain("1 collected");
+    expect(head).toContain("no notification job; filter level 1");
+    expect(head).toContain("| Opportunities updated | 1 |");
+    expect(head).toContain("| Data and board | pushed |");
+    expect(head).toContain("| Notifications | no new notification jobs |");
+    expect(head).toContain("| Still waiting | none |");
+    expect(head).toContain("| Existing stopped failures | 2 |");
+    expect(head).toContain("| AI cost | 0.0005466 |");
+    expect(head).toContain("No batches are waiting.");
+    expect(head).not.toContain("| 3 |");
+    expect(markdown).not.toContain("partial");
+    expect(markdown).not.toContain("Part of this run failed");
+    expect(markdown).not.toContain("can run again");
+    expect(markdown).not.toContain("Not persisted");
+    expect(markdown).toContain("<summary>執行細節</summary>");
+    expect(markdown).toContain("### Jobs (scan)");
+    expect(markdown).toContain("### Batch (submit)");
+    expect(markdown).toContain("### Batch (collect)");
+    expect(markdown).toContain("### Commit (job data)");
+    expect(markdown).toContain("### Push (board)");
+  });
+
+  it("keeps identical counts for different events and counts one event once", () => {
+    const pass = {
+      stage: "batch",
+      mode: "collect",
+      status: "success",
+      collected: 1,
+      jobsSaved: 0,
+      cost: 0.003,
+      queued: 0,
+      inflight: 0,
+      retrying: 0,
+      pendingResults: 0,
+    };
+    const separate = renderMarkdown([pass, { ...pass }], { jobStatus: "success" });
+    const separateHead = separate.slice(0, separate.indexOf("<details>"));
+    expect(separateHead).toContain("2 collected");
+    expect(separateHead).toContain("| AI cost | 0.006 |");
+
+    const repeated = renderMarkdown(
+      [
+        { ...pass, event: "batch-1" },
+        { ...pass, event: "batch-1" },
+      ],
+      { jobStatus: "success" }
+    );
+    const repeatedHead = repeated.slice(0, repeated.indexOf("<details>"));
+    expect(repeatedHead).toContain("1 collected");
+    expect(repeatedHead).toContain("| AI cost | 0.003 |");
+    expect(repeatedHead).not.toContain("0.006");
+    expect(repeatedHead).not.toContain("2 collected");
+  });
+
+  it("shows a new stop, a rejected push, an interrupted collect, and an unknown cost without guessing zero", () => {
+    const stopped = renderMarkdown(
+      [
+        {
+          stage: "batch",
+          mode: "collect",
+          status: "partial",
+          collected: 1,
+          jobsSaved: 0,
+          failed: 1,
+          queued: 0,
+          inflight: 0,
+          retrying: 0,
+          pendingResults: 0,
+          stopped: 2,
+          saved: "complete",
+        },
+      ],
+      { jobStatus: "success" }
+    );
+    expect(stopped.slice(0, stopped.indexOf("<details>"))).toContain("| Result | success |");
+    expect(stopped).toContain("1 newly stopped");
+    expect(stopped).toContain("This run stopped 1 batch analysis.");
+    expect(stopped).not.toContain("This run failed");
+    expect(stopped).not.toContain("Not persisted");
+
+    const interrupted = renderMarkdown(failedRun(), { jobStatus: "failure" });
+    const failedHead = interrupted.slice(0, interrupted.indexOf("<details>"));
+    expect(failedHead).toContain("| Result | failed |");
+    expect(failedHead).toContain("last confirmed: inflight 1; final state unknown");
+    expect(failedHead).toContain("| Recovery | committed locally, push rejected |");
+    expect(failedHead).toContain("| AI cost | unknown |");
+    expect(failedHead).not.toContain("| AI cost | 0 |");
+    expect(failedHead).not.toContain("| Still waiting | none |");
+    expect(interrupted).toContain("Collection did not finish");
+    expect(interrupted).toContain("| Counts | unknown |");
+    expect(interrupted).toContain("| Pushed | no |");
+    expect(interrupted).not.toContain("| Pushed | yes |");
+
+    const unknownCost = renderMarkdown([
+      {
+        stage: "batch",
+        mode: "collect",
+        status: "success",
+        collected: 1,
+        jobsSaved: 1,
+        queued: 0,
+        inflight: 0,
+        retrying: 0,
+        pendingResults: 0,
+      },
+    ]);
+    expect(unknownCost).toContain("| AI cost | unknown |");
+    expect(unknownCost.slice(0, unknownCost.indexOf("<details>"))).not.toContain("| AI cost | 0 |");
+  });
+
+  it("warns when the final snapshot still has batches to collect", () => {
+    const markdown = renderMarkdown(waitingRun(), { jobStatus: "success" });
+    const head = markdown.slice(0, markdown.indexOf("<details>"));
+
+    expect(head).toContain("| Result | success |");
+    expect(head).toContain("| Still waiting | queued 2, inflight 1, retrying 1 |");
+    expect(head).toContain("can run again");
+    expect(markdown).toContain("<summary>執行細節</summary>");
+    expect(markdown).toContain("### Batch (submit)");
+  });
 });
+
+function queue(overrides: Record<string, unknown> = {}) {
+  return {
+    queued: 0,
+    inflight: 0,
+    retrying: 0,
+    pendingResults: 0,
+    ...overrides,
+  };
+}
+
+function successRun() {
+  return [
+    {
+      stage: "jobs",
+      mode: "scan",
+      status: "success",
+      companies: 2256,
+      discovered: 5,
+      received: 5,
+      jobsAdded: 0,
+      opportunitiesAdded: 2,
+      skipped: 4,
+      failed: 0,
+      batched: 1,
+      listingFailed: 0,
+      notStarted: 0,
+      saved: "complete",
+    },
+    {
+      stage: "batch",
+      mode: "submit",
+      status: "success",
+      submitted: 1,
+      collected: 0,
+      jobsSaved: 0,
+      failed: 0,
+      stopped: 2,
+      cost: 0,
+      saved: "complete",
+      ...queue({ inflight: 1 }),
+    },
+    { stage: "commit", label: "job data", status: "success", committed: true },
+    { stage: "push", label: "job data", status: "success", pushed: true },
+    { stage: "commit", label: "board", status: "success", committed: true },
+    { stage: "push", label: "board", status: "success", pushed: true },
+    {
+      stage: "notify",
+      status: "success",
+      reason: "no new jobs",
+      notifiedJobs: 0,
+      candidates: 0,
+      saved: "unchanged",
+    },
+    {
+      stage: "batch",
+      mode: "collect",
+      status: "success",
+      submitted: 0,
+      collected: 1,
+      jobsSaved: 0,
+      notificationSkipped: 1,
+      filterReasons: { level: 1 },
+      reused: 0,
+      opportunitiesAdded: 0,
+      opportunitiesUpdated: 1,
+      failed: 0,
+      stopped: 2,
+      cost: 0.0005466,
+      saved: "complete",
+      ...queue(),
+    },
+  ];
+}
+
+function failedRun() {
+  return [
+    {
+      stage: "batch",
+      mode: "submit",
+      status: "success",
+      submitted: 1,
+      collected: 0,
+      jobsSaved: 0,
+      failed: 0,
+      cost: 0,
+      saved: "complete",
+      ...queue({ inflight: 1 }),
+    },
+    { stage: "batch", mode: "collect", status: "failed", reason: "batch failed", saved: "unknown" },
+    { stage: "recover", status: "success", committed: true, saved: "local" },
+    { stage: "push", label: "batch recovery", status: "failed", pushed: false, reason: "push did not succeed" },
+  ];
+}
+
+function waitingRun() {
+  return [
+    {
+      stage: "batch",
+      mode: "submit",
+      status: "success",
+      submitted: 1,
+      collected: 0,
+      jobsSaved: 0,
+      failed: 0,
+      cost: 0,
+      saved: "complete",
+      ...queue({ queued: 2, inflight: 1, retrying: 1 }),
+    },
+  ];
+}

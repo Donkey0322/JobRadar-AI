@@ -362,12 +362,28 @@ export async function processJobs({
   };
 }
 
+function notificationFilterBucket(kind: SkipKind, reason: string | null) {
+  if (kind === "dashboard") return "title";
+  if (kind !== "ineligible") return kind;
+  if (!reason) return "ineligible";
+  if (reason.includes("allowed categories")) return "level";
+  if (reason.includes("allowed countries")) return "country";
+  if (reason.includes("citizenship")) return "citizenship";
+  if (reason.includes("sponsorship")) return "sponsorship";
+  return "ineligible";
+}
+
 export async function persistAnalyzedJobs(analyzed: Array<{ job: Job; jd: JD; cost: number }>) {
   if (analyzed.length === 0) {
     return {
       jobs: [] as Job[],
       count: 0,
+      analyzed: 0,
+      reused: 0,
       skipped: 0,
+      filterReasons: {} as Record<string, number>,
+      opportunitiesAdded: 0,
+      opportunitiesUpdated: 0,
       totalCost: 0,
     };
   }
@@ -385,10 +401,24 @@ export async function persistAnalyzedJobs(analyzed: Array<{ job: Job; jd: JD; co
 
   const { currentId: startingId } = await createSyncContext();
   const opportunities = createOpportunityLedger(await store.opportunities.load());
-  const state = createApplyState(startingId, (posting) => {
+  let opportunitiesAdded = 0;
+  let opportunitiesUpdated = 0;
+
+  function noteOpportunity(posting: Posting) {
+    const before = opportunities.appended.length;
     recordSeenOpportunity(opportunities, posting.toJob(), "preserve");
-  });
+
+    if (opportunities.appended.length > before) {
+      opportunitiesAdded += 1;
+    } else {
+      opportunitiesUpdated += 1;
+    }
+  }
+
+  const state = createApplyState(startingId, noteOpportunity);
   const seen = new Set<string>();
+  let reused = 0;
+  const filterReasons: Record<string, number> = {};
 
   for (const item of analyzed) {
     const key = getJobKey(item.job.link);
@@ -403,8 +433,9 @@ export async function persistAnalyzedJobs(analyzed: Array<{ job: Job; jd: JD; co
 
     if (existing) {
       const stored = Posting.from({ ...existing, jd: parseStoredJD(existing.jd) ?? item.jd });
-      recordSeenOpportunity(opportunities, stored.toJob(), "preserve");
+      noteOpportunity(stored);
       state.totalCost += item.cost;
+      reused += 1;
       continue;
     }
 
@@ -413,6 +444,11 @@ export async function persistAnalyzedJobs(analyzed: Array<{ job: Job; jd: JD; co
 
     const outcome = outcomeAfterAnalysis(job, item.cost);
     applyOutcome(outcome, state);
+
+    if (outcome.effect === "skip") {
+      const bucket = notificationFilterBucket(outcome.kind, outcome.reason);
+      filterReasons[bucket] = (filterReasons[bucket] ?? 0) + 1;
+    }
 
     if (outcome.effect === "notify") {
       logger.info(
@@ -439,7 +475,12 @@ export async function persistAnalyzedJobs(analyzed: Array<{ job: Job; jd: JD; co
   return {
     jobs: state.jobs,
     count: state.jobs.length,
+    analyzed: seen.size,
+    reused,
     skipped: state.skipped,
+    filterReasons,
+    opportunitiesAdded,
+    opportunitiesUpdated,
     totalCost: state.totalCost,
   };
 }
