@@ -5805,7 +5805,8 @@
       "https://apply.workable.com/j/772CD136FF",
       "https://apply.workable.com/j/9B3CB646E8",
       "https://apply.workable.com/j/CA15908E0A",
-      "https://apply.workable.com/persimmons-ai/j/E8AF3CDFB3"
+      "https://apply.workable.com/persimmons-ai/j/E8AF3CDFB3",
+      "https://apply.workable.com/prosync/j/6ECFBED6E7/apply"
     ]
   },
   {
@@ -6498,6 +6499,7 @@
       "https://job-boards.greenhouse.io/astranis/jobs/4015622006",
       "https://job-boards.greenhouse.io/astranis/jobs/4363202006",
       "https://job-boards.greenhouse.io/astranis/jobs/4667335006",
+      "https://job-boards.greenhouse.io/astranis/jobs/4704571006",
       "https://job-boards.greenhouse.io/astranis/jobs/4705214006",
       "https://job-boards.greenhouse.io/astranis/jobs/4705597006",
       "https://job-boards.greenhouse.io/astranis/jobs/4705599006",
@@ -35897,6 +35899,16 @@
     ]
   },
   {
+    "name": "parspec",
+    "ats": "ashby",
+    "identifier": "parspec",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/parspec",
+    "urls": [
+      "https://jobs.ashbyhq.com/parspec/0a897c21-0df7-40ba-85f2-694bf6678504"
+    ]
+  },
+  {
     "name": "patchmypc",
     "ats": "lever",
     "identifier": "patchmypc",
@@ -37648,7 +37660,8 @@
       "https://qualcomm.eightfold.ai/careers/job/446721862429",
       "https://qualcomm.eightfold.ai/careers/job/446721876471?domain=qualcomm.com&8fold_id=446721876471",
       "https://qualcomm.eightfold.ai/careers/job/446721876482?domain=qualcomm.com&8fold_id=446721876482",
-      "https://qualcomm.eightfold.ai/careers/job/446721898983?domain=qualcomm.com&8fold_id=446721898983"
+      "https://qualcomm.eightfold.ai/careers/job/446721898983?domain=qualcomm.com&8fold_id=446721898983",
+      "https://qualcomm.eightfold.ai/careers/job/446722005254"
     ]
   },
   {
@@ -38063,7 +38076,9 @@
       "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4501054",
       "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4501273",
       "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4537849",
-      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4640548"
+      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4640548",
+      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4646257",
+      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4648416"
     ]
   },
   {
@@ -44279,7 +44294,8 @@
       "https://www.tesla.com/careers/search/job/286085",
       "https://www.tesla.com/careers/search/job/286127",
       "https://www.tesla.com/careers/search/job/286261",
-      "https://www.tesla.com/careers/search/job/287982"
+      "https://www.tesla.com/careers/search/job/287982",
+      "https://www.tesla.com/careers/search/job/289240"
     ]
   },
   {
