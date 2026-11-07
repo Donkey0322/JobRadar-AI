@@ -18867,7 +18867,8 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/ElevenLabs",
     "urls": [
-      "https://jobs.ashbyhq.com/ElevenLabs/6a530871-b6c6-4783-ac6b-69cc3b084192"
+      "https://jobs.ashbyhq.com/ElevenLabs/6a530871-b6c6-4783-ac6b-69cc3b084192",
+      "https://jobs.ashbyhq.com/ElevenLabs/c7d59014-b918-4c15-ae33-79f5c9f2cf9f"
     ]
   },
   {
@@ -28059,6 +28060,7 @@
     "urls": [
       "https://careers-kinaxis.icims.com/jobs/35111/forward-deployed-engineer-i/job",
       "https://careers-kinaxis.icims.com/jobs/35145/forward-deployed-engineer-i/job",
+      "https://careers-kinaxis.icims.com/jobs/35297/co-op-intern-developer%2c-machine-learning/job",
       "https://careers-kinaxis.icims.com/jobs/35310/intern-software-developer-quality-assurance/job",
       "https://careers-kinaxis.icims.com/jobs/35343/intern-developer%2c-ai-solutions/job",
       "https://careers-kinaxis.icims.com/jobs/35372/intern-developer%2c-back-end-technologies/job",
@@ -42829,6 +42831,7 @@
     "urls": [
       "https://careers-springswindowfashions.icims.com/jobs/12874/job?mobile=true&needsRedirect=false",
       "https://careers-springswindowfashions.icims.com/jobs/12875/job?mobile=true&needsRedirect=false",
+      "https://careers-springswindowfashions.icims.com/jobs/12881/textile-engineering-analytics-%26-software-internship---summer-2027/job",
       "https://careers-springswindowfashions.icims.com/jobs/12891/software-engineering-internship---summer-2027/job",
       "https://careers-springswindowfashions.icims.com/jobs/12981/mes-software-developer-i/job"
     ]
@@ -44442,7 +44445,8 @@
       "https://www.tesla.com/careers/search/job/286127",
       "https://www.tesla.com/careers/search/job/286261",
       "https://www.tesla.com/careers/search/job/287982",
-      "https://www.tesla.com/careers/search/job/289240"
+      "https://www.tesla.com/careers/search/job/289240",
+      "https://www.tesla.com/careers/search/job/289241"
     ]
   },
   {
