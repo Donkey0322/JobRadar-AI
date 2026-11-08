@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "name": "batches/u44y7yj5mdc79kr7r0n7i7gqka324a7v1by3",
+    "submittedAt": "2026-11-08T13:55:45.842Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Ande",
+        "role": "Software Engineer, AI (Early Career)",
+        "link": "https://jobs.ashbyhq.com/ande/8ff8145e-8040-4a7a-a90c-cc1fdc36deb1",
+        "location": "New York City",
+        "country": "USA"
+      },
+      {
+        "company": "Zoom",
+        "role": "AI Engineer",
+        "link": "https://zoom.wd5.myworkdayjobs.com/Zoom/job/Seattle-WA/AI-Engineer_R19823-1",
+        "location": "Seattle (WA)",
+        "country": "USA"
+      },
+      {
+        "company": "Uber",
+        "role": "Sr Software Engineer - Core Build",
+        "link": "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/304060",
+        "location": "San Francisco, CA, United States",
+        "country": "USA"
+      }
+    ]
+  }
+]
