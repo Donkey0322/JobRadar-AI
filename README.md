@@ -91,7 +91,7 @@ Each category page shows up to 300 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 2,040 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,812 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,457 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,459 opportunities
 
 ## The List 🚴‍♂️
 
@@ -565,6 +565,20 @@ Each category page shows up to 300 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">D3</td>
+      <td width="420" align="left" valign="top">New Grad: Backend Engineer</td>
+      <td width="180" align="left" valign="top">Los Angeles, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/d3/jobs/4915295008"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 8</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">New Grad: Frontend Engineer</td>
+      <td width="180" align="left" valign="top">Los Angeles, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/d3/jobs/4915213008"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 8</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Ande</td>
       <td width="420" align="left" valign="top">Software Engineer, AI (Early Career)</td>
       <td width="180" align="left" valign="top">New York City, NY</td>
@@ -760,23 +774,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/IRVING-TX/Software-Engineer_R-586193-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 6</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">HPE</td>
-      <td width="420" align="left" valign="top">Storage Systems/Software Engineer<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Andover, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.hpe.com/us/en/job/1215626?ph_id=1215626"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">ICF</td>
-      <td width="420" align="left" valign="top">Software Developer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Remote</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.icf.com/us/en/job/R2603769?ph_id=R2603769"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 6</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,457 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,459 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -795,7 +795,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-08T18:45:39.654Z</code>
+      🕒 Last updated <code>2026-11-08T18:50:04.580Z</code>
     </span>
   </p>
 </div>
