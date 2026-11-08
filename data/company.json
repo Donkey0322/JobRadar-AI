@@ -4070,6 +4070,16 @@
     "urls": []
   },
   {
+    "name": "ande",
+    "ats": "ashby",
+    "identifier": "ande",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/ande",
+    "urls": [
+      "https://jobs.ashbyhq.com/ande/8ff8145e-8040-4a7a-a90c-cc1fdc36deb1"
+    ]
+  },
+  {
     "name": "andurilindustries",
     "ats": "greenhouse",
     "identifier": "andurilindustries",
@@ -49874,6 +49884,16 @@
     "page": "https://zoll.wd5.myworkdayjobs.com/wday/cxs/zoll/zollmedicalcorp/jobs",
     "urls": [
       "https://zoll.wd5.myworkdayjobs.com/zollmedicalcorp/job/Chelmsford-MA/Associate-Full-Stack-Engineer_R20171"
+    ]
+  },
+  {
+    "name": "zoom",
+    "ats": "workday",
+    "identifier": "zoom-zoom",
+    "domain": "https://zoom.wd5.myworkdayjobs.com/Zoom",
+    "page": "https://zoom.wd5.myworkdayjobs.com/wday/cxs/zoom/Zoom/jobs",
+    "urls": [
+      "https://zoom.wd5.myworkdayjobs.com/Zoom/job/Seattle-WA/AI-Engineer_R19823-1"
     ]
   },
   {
