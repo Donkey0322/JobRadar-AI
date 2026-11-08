@@ -46815,14 +46815,6 @@
     ]
   },
   {
-    "name": "uber.com",
-    "ats": "none",
-    "identifier": "uber.com",
-    "domain": "https://www.uber.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "uberfreight",
     "ats": "greenhouse",
     "identifier": "uberfreight",
