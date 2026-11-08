@@ -46805,6 +46805,16 @@
     "urls": []
   },
   {
+    "name": "Uber",
+    "ats": "oraclecloud",
+    "identifier": "iaziqy.fa.ocs.oraclecloud.com",
+    "domain": "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job",
+    "page": "https://iaziqy.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DUberCareers%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/304060"
+    ]
+  },
+  {
     "name": "uber.com",
     "ats": "none",
     "identifier": "uber.com",
