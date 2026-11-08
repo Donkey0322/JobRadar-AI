@@ -10153,6 +10153,14 @@
     ]
   },
   {
+    "name": "braincorp",
+    "ats": "greenhouse",
+    "identifier": "braincorp",
+    "domain": "https://www.braincorp.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/braincorp/jobs",
+    "urls": []
+  },
+  {
     "name": "braincorporation",
     "ats": "greenhouse",
     "identifier": "braincorporation",
@@ -17031,6 +17039,17 @@
     "urls": [
       "https://www.d2l.com/careers/jobs/?job_id=1273753&gh_jid=1273753",
       "https://www.d2l.com/careers/jobs/?job_id=260466&gh_jid=260466"
+    ]
+  },
+  {
+    "name": "d3",
+    "ats": "greenhouse",
+    "identifier": "d3",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/d3/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/d3/jobs/4915213008",
+      "https://job-boards.greenhouse.io/d3/jobs/4915295008"
     ]
   },
   {
