@@ -21481,6 +21481,16 @@
     ]
   },
   {
+    "name": "gaig",
+    "ats": "workday",
+    "identifier": "gaig-summit_external",
+    "domain": "https://gaig.wd1.myworkdayjobs.com/summit_external",
+    "page": "https://gaig.wd1.myworkdayjobs.com/wday/cxs/gaig/summit_external/jobs",
+    "urls": [
+      "https://gaig.wd1.myworkdayjobs.com/summit_external/job/Lakeland-FL-USA/Data-Scientist-Intern-2027_R9852"
+    ]
+  },
+  {
     "name": "gallup",
     "ats": "greenhouse",
     "identifier": "gallup",
@@ -41155,8 +41165,11 @@
       "https://jobs.lever.co/shieldai/7c8aaf63-ab92-4c0f-8a54-9cf1ce07ca69",
       "https://jobs.lever.co/shieldai/8c850c75-081d-4d09-bebf-096379a93010/apply",
       "https://jobs.lever.co/shieldai/a6f44fdc-093f-4db6-9f88-5181ec75f895",
+      "https://jobs.lever.co/shieldai/af183d8c-51d0-40df-9c04-fbddae0d83aa",
       "https://jobs.lever.co/shieldai/cbba120f-2089-4531-9e41-1dad856473a7",
-      "https://jobs.lever.co/shieldai/db8fc063-8856-4404-991c-f287712de949"
+      "https://jobs.lever.co/shieldai/cd641bcb-f613-44dd-b66d-2df360067319",
+      "https://jobs.lever.co/shieldai/db8fc063-8856-4404-991c-f287712de949",
+      "https://jobs.lever.co/shieldai/f8e0f87f-0e12-4e05-a491-4e8272494896"
     ]
   },
   {
