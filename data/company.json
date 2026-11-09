@@ -692,6 +692,7 @@
       "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Machine-Learning-Engineer_R171519",
       "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Security-Engineer_R173001",
       "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Software-Engineer_R171666",
+      "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Data-Engineer_R173455",
       "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Machine-Learning-Engineer_R172085",
       "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Software-Engineer_R172083"
     ]
@@ -6322,6 +6323,7 @@
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/AI-Engineer_J-00355214-1",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/Cloud-Optimization-Engineer---FinOps_J-00353399",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/Internship--Software-Development-Engineer-in-Test_J-00354459",
+      "https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/Internship-Co-Op--AI-Engineer_J-00355629",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/Internship-Co-Op--Data-Engineer_J-00355626",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/Machine-Learning-Scientist---Physics_J-00345223",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/Software-Integration-Engineer_J-00355955-1",
@@ -10121,7 +10123,8 @@
       "https://bostonscientific.eightfold.ai/careers/job/563602813855219?domain=bostonscientific.com&8fold_id=563602813855219",
       "https://bostonscientific.eightfold.ai/careers/job/563602813862694?domain=bostonscientific.com&8fold_id=563602813862694",
       "https://bostonscientific.eightfold.ai/careers/job/563602813862712?domain=bostonscientific.com&8fold_id=563602813862712",
-      "https://bostonscientific.eightfold.ai/careers/job/563602813872886?domain=bostonscientific.com&8fold_id=563602813872886"
+      "https://bostonscientific.eightfold.ai/careers/job/563602813872886?domain=bostonscientific.com&8fold_id=563602813872886",
+      "https://bostonscientific.eightfold.ai/careers/job/563602813900562"
     ]
   },
   {
@@ -14139,6 +14142,16 @@
     ]
   },
   {
+    "name": "careers.wolve.com",
+    "ats": "none",
+    "identifier": "careers.wolve.com",
+    "domain": "https://careers.wolve.com",
+    "page": "",
+    "urls": [
+      "https://careers.wolve.com/en/postings/33228344-bcc7-4bcd-b3cb-22b60aaee82c"
+    ]
+  },
+  {
     "name": "careers.zimmerbiomet.com",
     "ats": "phenom",
     "identifier": "careers.zimmerbiomet.com",
@@ -15128,6 +15141,7 @@
       "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Data-Engineering-Technical-Leader---CX-AI_2030081",
       "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Embedded-Software-Engineer_2029178",
       "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Full-Stack---Backend-I--Co-op----United-States_2026049",
+      "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Full-Stack---Backend-I--Intern----United-States_2024647-1",
       "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Stockholm-Sweden/Software-Engineer_2029455",
       "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Bratislava-Slovakia/Software-Engineer---Webex-Web-Clients_2028671",
       "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Galway-Ireland/Software-Engineer---App-Development_2023950",
@@ -16800,6 +16814,16 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/crystaldynamics/jobs",
     "urls": []
+  },
+  {
+    "name": "csiweb",
+    "ats": "workday",
+    "identifier": "csiweb-csi_careers",
+    "domain": "https://csiweb.wd1.myworkdayjobs.com/CSI_Careers",
+    "page": "https://csiweb.wd1.myworkdayjobs.com/wday/cxs/csiweb/CSI_Careers/jobs",
+    "urls": [
+      "https://csiweb.wd1.myworkdayjobs.com/CSI_Careers/job/Paducah-KY-Corporate/Software-Engineer-I---C--NET---Hybrid---Paducah--KY_R-100739"
+    ]
   },
   {
     "name": "csl",
@@ -25762,6 +25786,7 @@
     "page": "https://api.ashbyhq.com/posting-api/job-board/illumio",
     "urls": [
       "https://jobs.ashbyhq.com/illumio/24023d23-b5ee-4caa-b840-561504ef366e",
+      "https://jobs.ashbyhq.com/illumio/2bcba5c3-c6e7-407c-92b2-73027594789e",
       "https://jobs.ashbyhq.com/illumio/823ff2f2-481c-4fc4-a813-a6434b71a1b8",
       "https://jobs.ashbyhq.com/illumio/8708e622-900e-458a-96b3-ae339329a56d"
     ]
@@ -29286,7 +29311,9 @@
       "https://job-boards.greenhouse.io/lilasciences/jobs/4392245009",
       "https://job-boards.greenhouse.io/lilasciences/jobs/4395729009",
       "https://job-boards.greenhouse.io/lilasciences/jobs/4396760009",
-      "https://job-boards.greenhouse.io/lilasciences/jobs/4462594009"
+      "https://job-boards.greenhouse.io/lilasciences/jobs/4462594009",
+      "https://job-boards.greenhouse.io/lilasciences/jobs/4472540009",
+      "https://job-boards.greenhouse.io/lilasciences/jobs/4477308009"
     ]
   },
   {
@@ -32845,6 +32872,16 @@
     ]
   },
   {
+    "name": "mt.avature.net",
+    "ats": "none",
+    "identifier": "mt.avature.net",
+    "domain": "https://mt.avature.net",
+    "page": "",
+    "urls": [
+      "https://mt.avature.net/en_US/careers/JobDetail/23080"
+    ]
+  },
+  {
     "name": "mtb",
     "ats": "workday",
     "identifier": "mtb-campus",
@@ -33579,6 +33616,16 @@
       "https://explore.jobs.netflix.net/careers/job/790319328210",
       "https://explore.jobs.netflix.net/careers/job/790319386317",
       "https://explore.jobs.netflix.net/careers/job?domain=netflix.com&pid=790313310824&location=any&domain=netflix.com&sort_by=new&job_index=5"
+    ]
+  },
+  {
+    "name": "netholabs",
+    "ats": "ashby",
+    "identifier": "netholabs",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/netholabs",
+    "urls": [
+      "https://jobs.ashbyhq.com/netholabs/a16457f4-63a5-4a75-82d4-04ea2fc4e393/application?embed=true"
     ]
   },
   {
@@ -35177,6 +35224,7 @@
     "domain": "https://onehealthineers.wd3.myworkdayjobs.com/shsjb",
     "page": "https://onehealthineers.wd3.myworkdayjobs.com/wday/cxs/onehealthineers/shsjb/jobs",
     "urls": [
+      "https://onehealthineers.wd3.myworkdayjobs.com/SHSJB/job/YOW-B/Application-Software-Developer-Co-Op_R-31984",
       "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/ATL-G/Software-Development-Process-Engineer---Specialist--Medical-Device-_R-28798",
       "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/AUS-S/Quality-Systems-Engineer_R-31417-1",
       "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/BUH-IV/Medical-Software-Engineer_R-30076-2",
@@ -38188,6 +38236,8 @@
     "domain": "https://radiancetech.wd12.myworkdayjobs.com/radiance_external",
     "page": "https://radiancetech.wd12.myworkdayjobs.com/wday/cxs/radiancetech/radiance_external/jobs",
     "urls": [
+      "https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Dayton-Office/Software-Engineer-Intern-Spring-Summer-2027_HR102562",
+      "https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Dayton-Office/Software-Engineer-Intern-Spring-Summer-2027_HR102563",
       "https://radiancetech.wd12.myworkdayjobs.com/radiance_external/job/Beavercreek-OH/Data-Scientist_HR102314",
       "https://radiancetech.wd12.myworkdayjobs.com/radiance_external/job/Beavercreek-OH/DevOps-Engineer_HR102489",
       "https://radiancetech.wd12.myworkdayjobs.com/radiance_external/job/Beavercreek-OH/GIS-Data-Scientist_HR102398",
@@ -45016,6 +45066,26 @@
     ]
   },
   {
+    "name": "The Haskell Company",
+    "ats": "icims",
+    "identifier": "careers.haskell.com",
+    "domain": "https://careers.haskell.com",
+    "page": "https://careers.haskell.com/api/jobs",
+    "urls": [
+      "https://careers.haskell.com/jobs/7415?icims=1&lang=en-us"
+    ]
+  },
+  {
+    "name": "The Haskell Company",
+    "ats": "icims",
+    "identifier": "haskell.jibeapply.com",
+    "domain": "https://haskell.jibeapply.com",
+    "page": "https://haskell.jibeapply.com/api/jobs",
+    "urls": [
+      "https://haskell.jibeapply.com/jobs/7415?icims=1&lang=en-us"
+    ]
+  },
+  {
     "name": "The US Oncology Network",
     "ats": "icims",
     "identifier": "careers.usoncology.com",
@@ -45088,7 +45158,9 @@
       "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751909005",
       "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751917005",
       "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751919005",
-      "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751973005"
+      "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751973005",
+      "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4752926005",
+      "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4752930005"
     ]
   },
   {
@@ -49566,7 +49638,8 @@
     "page": "https://api.ashbyhq.com/posting-api/job-board/whoop",
     "urls": [
       "https://jobs.ashbyhq.com/whoop/3363c311-cf72-4986-9c7f-11913e693b47",
-      "https://jobs.ashbyhq.com/whoop/7f5cc7fe-c18e-4296-b3d7-80d0b7d8414f"
+      "https://jobs.ashbyhq.com/whoop/7f5cc7fe-c18e-4296-b3d7-80d0b7d8414f",
+      "https://jobs.ashbyhq.com/whoop/d31312c2-236a-45f1-8da7-61a7ca8d1622"
     ]
   },
   {
