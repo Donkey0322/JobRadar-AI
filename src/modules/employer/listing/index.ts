@@ -5,6 +5,7 @@ export {
   AshbyResponseSchema,
   type AshbyJob,
 } from "./ashby";
+export { CursorAshbyBoard, cursorAshbyBoard } from "./cursor";
 export {
   BambooHRBoard,
   bambooHRBoard,
@@ -81,9 +82,5 @@ export {
   SmartRecruitersResponseSchema,
   type SmartRecruitersJob,
 } from "./smart";
-export {
-  SuccessFactorsBoard,
-  successFactorsBoard,
-  type SuccessFactorsJob,
-} from "./successfactors";
+export { SuccessFactorsBoard, successFactorsBoard, type SuccessFactorsJob } from "./successfactors";
 export { WorkdayBoard, workdayBoard, WorkdayJobSchema, type WorkdayJob } from "./workday";

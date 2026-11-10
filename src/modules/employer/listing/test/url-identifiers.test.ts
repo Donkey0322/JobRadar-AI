@@ -9,6 +9,20 @@ describe("ATS URL hostname normalization", () => {
     vi.unstubAllGlobals();
   });
 
+  it("maps Cursor career pages back to the Ashby board", async () => {
+    const url = new URL(
+      "https://www.cursor.com/careers/software-engineer-new-grad-2027?ashby_jid=164e27cd-289e-4bcd-8aaf-5280e75c5ed6"
+    );
+
+    expect(ashbyBoard.companyKeyFromUrl(url)).toBe("ashby:cursor");
+
+    const company = await ashbyBoard.formCompany(url);
+
+    expect(company.name).toBe("cursor");
+    expect(company.identifier).toBe("cursor");
+    expect(company.page).toBe("https://api.ashbyhq.com/posting-api/job-board/cursor");
+  });
+
   it("retains Ashby identifiers for www-prefixed override hosts", async () => {
     const company = await ashbyBoard.formCompany(new URL("https://www.superhuman.com/careers"));
 

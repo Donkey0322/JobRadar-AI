@@ -1,8 +1,13 @@
 import * as cheerio from "cheerio";
 
+import { CURSOR_ASHBY_IDENTIFIER } from "@/modules/ats/cursor-careers";
 import { getHostnameWithoutWww, getSubdomainIdentifier } from "@/utils/url";
 
 const identifierMap: Record<string, { identifier: string; name: string }> = {
+  "cursor.com": {
+    identifier: CURSOR_ASHBY_IDENTIFIER,
+    name: CURSOR_ASHBY_IDENTIFIER,
+  },
   "superhuman.com": {
     identifier: "Superhuman%20Platform%20Inc",
     name: "Superhuman%20Platform%20Inc",

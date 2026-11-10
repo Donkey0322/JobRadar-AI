@@ -138,7 +138,8 @@ export class AshbyBoard extends Board<AshbyJob> {
       const rawJobs = await this.collectListingJobs(company, signal);
       if (!rawJobs) return [];
 
-      const jobs = await this.attachPublishedDates(rawJobs, company, knownKeys, signal);
+      const linked = await this.rewriteJobLinks(rawJobs, company, signal);
+      const jobs = await this.attachPublishedDates(linked, company, knownKeys, signal);
 
       return this.screen(
         jobs.map((job) => this.posting(job, company, job.publishedAt)),
@@ -148,6 +149,17 @@ export class AshbyBoard extends Board<AshbyJob> {
     } catch (error) {
       return this.failSoft("Ashby", company, error);
     }
+  }
+
+  /** A subclass can replace hosted job URLs before screening. */
+  protected async rewriteJobLinks(
+    jobs: AshbyJob[],
+    _company: Company,
+    _signal: AbortSignal
+  ): Promise<AshbyJob[]> {
+    void _company;
+    void _signal;
+    return jobs;
   }
 
   /**

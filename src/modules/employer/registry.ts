@@ -4,6 +4,7 @@ import type { Company } from "@/types";
 
 import { ashbyBoard } from "./listing/ashby";
 import { bambooHRBoard } from "./listing/bamboohr";
+import { cursorAshbyBoard } from "./listing/cursor";
 import { customBoard } from "./listing/custom";
 import { eightfoldBoard } from "./listing/eightfold";
 import { greenhouseBoard } from "./listing/greenhouse";
@@ -41,6 +42,9 @@ export const boards = {
 } satisfies Record<ATS, Board<unknown>>;
 
 export function asBoard(company: Company): Board {
+  const cursor = cursorAshbyBoard(company);
+  if (cursor) return cursor;
+
   const Adapter = boards[company.ats].constructor as new (company?: Company) => Board;
   return new Adapter(company);
 }
