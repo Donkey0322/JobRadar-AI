@@ -8697,6 +8697,17 @@
     "urls": []
   },
   {
+    "name": "biodesix",
+    "ats": "greenhouse",
+    "identifier": "biodesix",
+    "domain": "https://www.biodesix.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/biodesix/jobs",
+    "urls": [
+      "https://www.biodesix.com/careers/current-openings?gh_jid=4485306009",
+      "https://www.biodesix.com/careers/current-openings?gh_jid=4485410009"
+    ]
+  },
+  {
     "name": "biorad",
     "ats": "icims",
     "identifier": "biorad",
@@ -16951,6 +16962,16 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/crystaldynamics/jobs",
     "urls": []
+  },
+  {
+    "name": "cscgeneration-2",
+    "ats": "lever",
+    "identifier": "cscgeneration-2",
+    "domain": "https://jobs.lever.co",
+    "page": "https://api.lever.co/v0/postings/cscgeneration-2?mode=json",
+    "urls": [
+      "https://jobs.lever.co/cscgeneration-2/61ba3ce6-b92b-45b4-932d-0c66e5e19185/apply"
+    ]
   },
   {
     "name": "csiweb",
@@ -28729,6 +28750,16 @@
     "urls": []
   },
   {
+    "name": "kyndryl",
+    "ats": "workday",
+    "identifier": "kyndryl-kyndrylprofessionalcareers",
+    "domain": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers",
+    "page": "https://kyndryl.wd5.myworkdayjobs.com/wday/cxs/kyndryl/KyndrylProfessionalCareers/jobs",
+    "urls": [
+      "https://kyndryl.wd5.myworkdayjobs.com/en-US/KyndrylProfessionalCareers/job/Dallas-USDALFRI-Frisco-AI-HUB/Data-Engineer_R-66870"
+    ]
+  },
+  {
     "name": "l3harris",
     "ats": "radancy",
     "identifier": "careers.l3harris.com",
@@ -28940,6 +28971,7 @@
     "domain": "https://jobs.l3harris.com",
     "page": "https://jobs.l3harris.com/services/rss/job/?locale=en_US",
     "urls": [
+      "https://jobs.l3harris.com/job/Anaheim-Associate,-Software-Engineering-CA-92805/1449146200/?ats=successfactors",
       "https://jobs.l3harris.com/job/Bristol-Software-Engineering-Intern-PA-19007/1428452600/?ats=successfactors",
       "https://jobs.l3harris.com/job/Carlsbad-Software-Engineering-Intern-(Carlsbad,-CA)-CA-92009/1444689600/?ats=successfactors",
       "https://jobs.l3harris.com/job/Carlsbad-Software-Engineering-Intern-CA-92009/1428454700/?ats=successfactors",
@@ -32737,7 +32769,9 @@
     "identifier": "morganstanley.tal.net",
     "domain": "https://morganstanley.tal.net",
     "page": "",
-    "urls": []
+    "urls": [
+      "https://morganstanley.tal.net/vx/candidate/so/pm/1/pl/1/opp/21993"
+    ]
   },
   {
     "name": "morningstar",
@@ -37252,6 +37286,16 @@
     "urls": []
   },
   {
+    "name": "pika",
+    "ats": "ashby",
+    "identifier": "pika",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/pika",
+    "urls": [
+      "https://jobs.ashbyhq.com/pika/b075e6fb-df01-4eac-9437-1c1db97ea881"
+    ]
+  },
+  {
     "name": "pimco",
     "ats": "workday",
     "identifier": "pimco-pimco-careers",
@@ -37312,6 +37356,16 @@
     "domain": "https://pitneybowes.wd1.myworkdayjobs.com/pbcareers",
     "page": "https://pitneybowes.wd1.myworkdayjobs.com/wday/cxs/pitneybowes/pbcareers/jobs",
     "urls": []
+  },
+  {
+    "name": "pivotal",
+    "ats": "lever",
+    "identifier": "pivotal",
+    "domain": "https://jobs.lever.co",
+    "page": "https://api.lever.co/v0/postings/pivotal?mode=json",
+    "urls": [
+      "https://jobs.lever.co/pivotal/3a80913d-886a-4d22-bf5e-9a011b157ec4"
+    ]
   },
   {
     "name": "planetlabs",
@@ -38928,6 +38982,16 @@
       "https://regeneron.wd1.myworkdayjobs.com/Careers/job/RENSS---TECH-VALLEY/Process-Data-Scientist_R51538",
       "https://regeneron.wd1.myworkdayjobs.com/Careers/job/RENSSELAER/Quality-Control-Business-Systems-Analyst_R51734",
       "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-AI-ML---Data-Engineering_R52560-1"
+    ]
+  },
+  {
+    "name": "regent",
+    "ats": "ashby",
+    "identifier": "regent",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/regent",
+    "urls": [
+      "https://jobs.ashbyhq.com/regent/1da518a0-9030-48d1-a58c-15d1f88f0eaa/application?embed=true"
     ]
   },
   {
