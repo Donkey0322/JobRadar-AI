@@ -14,6 +14,76 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Meta" src="../assets/featured-badges/meta.svg" /></td>
+      <td width="420" align="left" valign="top">Research Scientist Intern, Audio Systems (PhD)</td>
+      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.metacareers.com/profile/job_details/1100150399514897"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 10</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Micron</td>
+      <td width="420" align="left" valign="top">New College Grad - Data Scientist, AI for Business Functions<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Boise, ID</td>
+      <td width="120" align="left" valign="top"><a href="https://micron.eightfold.ai/careers/job/45096301?domain=micron.com&amp;8fold_id=45096301"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 10</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">PACCAR</td>
+      <td width="420" align="left" valign="top">2027 Summer Internship: Engineering Systems</td>
+      <td width="180" align="left" valign="top">Denton, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.paccar.com/job/Denton-2027-Summer-Internship-Engineering-Systems-TX-76205-7864/1456235133/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 10</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Rambus</td>
+      <td width="420" align="left" valign="top">Forward Deployed Engineer Intern - AI &amp; Enterprise Systems</td>
+      <td width="180" align="left" valign="top">San Jose, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers-rambus.icims.com/jobs/23109/forward-deployed-engineer-intern---ai-%26-enterprise-systems/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 10</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Gdms</td>
+      <td width="420" align="left" valign="top">Software Test Engineering Intern - Space and Embedded Crypto<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Scottsdale, AZ</td>
+      <td width="120" align="left" valign="top"><a href="https://careers-gdms.icims.com/jobs/75632/software-test-engineering-intern---space-and-embedded-crypto/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 10</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Lockheedmartin</td>
+      <td width="420" align="left" valign="top">Systems Engineering Intern</td>
+      <td width="180" align="left" valign="top">Manassas, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477867043?domain=lockheedmartin.com&amp;8fold_id=996477867043"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 10</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Systems Engineering Intern</td>
+      <td width="180" align="left" valign="top">Hill AFB, UT</td>
+      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477186919?domain=lockheedmartin.com&amp;8fold_id=996477186919"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 10</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Systems Engineer - Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Fort Worth, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477384671?domain=lockheedmartin.com&amp;8fold_id=996477384671"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 10</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="ByteDance" src="../assets/featured-badges/bytedance.svg" /></td>
+      <td width="420" align="left" valign="top">Site Reliability Engineer - Intern (Data Platform, Computer Platform) - 2027 Start</td>
+      <td width="180" align="left" valign="top">San Jose, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://joinbytedance.com/search/7678104426079799557"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 10</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Amperesand</td>
+      <td width="420" align="left" valign="top">AI/ML Engineering Intern<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/amperesand/jobs/4465899009"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 10</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Trimble</td>
       <td width="420" align="left" valign="top">Software Engineering Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Knoxville, TN</td>
@@ -2043,80 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://www.metacareers.com/profile/job_details/1163507972671947"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 26</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Myhrabc</td>
-      <td width="420" align="left" valign="top">EDI IT Software Developer Intern</td>
-      <td width="180" align="left" valign="top">Conshohocken, PA</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 26</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Rtx</td>
-      <td width="420" align="left" valign="top">Systems Engineering Intern, SAOC SEIT (Onsite)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Richardson, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Systems-Engineering-Intern--SAOC-SEIT--Onsite-_01883007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 26</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Gdms</td>
-      <td width="420" align="left" valign="top">Software Test Engineering Intern - Space and Embedded Crypto<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Scottsdale, AZ</td>
-      <td width="120" align="left" valign="top"><a href="https://careers-gdms.icims.com/jobs/75163/software-test-engineering-intern---space-and-embedded-crypto/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 26</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Test Engineer Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Pittsburgh, PA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers-gdms.icims.com/jobs/75729/software-test-engineer-intern/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 26</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">L3harris</td>
-      <td width="420" align="left" valign="top">Intern, Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Rockwall, TX</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 26</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Meta" src="../assets/featured-badges/meta.svg" /></td>
-      <td width="420" align="left" valign="top">Research Scientist Intern, Generative Recommendation Systems (PhD)</td>
-      <td width="180" align="left" valign="top">Menlo Park, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.metacareers.com/profile/job_details/3265378000517806"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 26</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Bostondynamics</td>
-      <td width="420" align="left" valign="top">Systems Test Engineer - Co-Op</td>
-      <td width="180" align="left" valign="top">Waltham, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://bostondynamics.wd1.myworkdayjobs.com/boston_dynamics/job/Waltham-Office-POST/Systems-Test-Engineer---Co-Op_R3312"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 26</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Motorolasolutions</td>
-      <td width="420" align="left" valign="top">COEE Presales System Engineer (2027 Internship)</td>
-      <td width="180" align="left" valign="top">Chicago, IL</td>
-      <td width="120" align="left" valign="top"><a href="https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/COEE-Presales-System-Engineer--2027-Internship-_R68359"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 26</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Rtx</td>
-      <td width="420" align="left" valign="top">Part Time Software Platform Engineer Co-Op  (Remote)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Richardson, TX</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 26</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Part Time Software Platform Engineer Co-Op  (Remote)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Aurora, CO</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 26</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,851 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,861 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-10T22:26:53.806Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-10T22:30:34.707Z</code></sub>
