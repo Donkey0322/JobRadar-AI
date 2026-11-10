@@ -1855,13 +1855,6 @@
       <td width="120" align="left" valign="top">Nov 3</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">First Citizens Bank</td>
-      <td width="420" align="left" valign="top">Data Engineer I - Data Platform</td>
-      <td width="180" align="left" valign="top">Raleigh, NC</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
-    <tr>
       <td width="180" align="left" valign="top">L3harris</td>
       <td width="420" align="left" valign="top">Associate, Systems Engineering<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Forest, VA</td>
@@ -2113,10 +2106,17 @@
       <td width="120" align="left" valign="top"><a href="https://www.weareroku.com/jobs/8188704?gh_jid=8188704"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 3</td>
     </tr>
+    <tr>
+      <td width="180" align="left" valign="top">TRC Companies</td>
+      <td width="420" align="left" valign="top">System Protection Engineer I</td>
+      <td width="180" align="left" valign="top">Augusta, ME</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.trccompanies.com/jobs/27382?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 3</td>
+    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 3,489 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 3,486 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-09T23:23:37.248Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-10T01:33:15.278Z</code></sub>
