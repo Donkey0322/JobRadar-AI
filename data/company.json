@@ -3605,6 +3605,7 @@
       "https://amazon.jobs/en/jobs/3205224",
       "https://amazon.jobs/en/jobs/3206077",
       "https://www.amazon.jobs/en/jobs/10595839/software-development-engineer-embedded-systems-early-career-2027-us",
+      "https://www.amazon.jobs/en/jobs/10599972/software-development-engineer-audible-ai-voice-production",
       "https://www.amazon.jobs/en/jobs/3101249/software-development-engineer-internship-winter-2026-us"
     ]
   },
@@ -5721,6 +5722,7 @@
       "https://jobs.apple.com/en-us/details/200692644-3337/machine-learning-research-engineer?team=MLAI",
       "https://jobs.apple.com/en-us/details/200692658-3337/software-engineer-traffic-envoy?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200692680-0836/wireless-systems-engineer?team=HRDWR",
+      "https://jobs.apple.com/en-us/details/200692689-3956/tools-automation-engineer-early-career?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200692697-3350/software-engineer-xcode-cloud?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200692788-0865/ml-deployment-engineer-edge-ai-q?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200692846-3278/software-engineer-genai-platform-ai-data-platforms?team=MLAI",
@@ -5853,7 +5855,9 @@
     "identifier": "apply.deloitte.com",
     "domain": "https://apply.deloitte.com",
     "page": "",
-    "urls": []
+    "urls": [
+      "https://apply.deloitte.com/en_US/careers/JobDetail/Consultant-II-Backend-Software-Engineering-Tax-Transformation/359699"
+    ]
   },
   {
     "name": "apply.workable.com",
@@ -13672,6 +13676,7 @@
     "domain": "https://careers.crowe.com",
     "page": "https://careers.crowe.com",
     "urls": [
+      "https://careers.crowe.com/job/R-71006?ph_id=R-71006",
       "https://careers.crowe.com/us/en/job/R-52587?ph_id=R-52587",
       "https://careers.crowe.com/us/en/job/R-52634?ph_id=R-52634",
       "https://careers.crowe.com/us/en/job/R-52668?ph_id=R-52668"
@@ -13970,6 +13975,16 @@
     "page": "https://careers.idexx.com",
     "urls": [
       "https://careers.idexx.com/us/en/job/J-053025/Team-Lead-Veterinary-Laboratory-Scientist?ph_id=J-053025"
+    ]
+  },
+  {
+    "name": "careers.infor.com",
+    "ats": "none",
+    "identifier": "careers.infor.com",
+    "domain": "https://careers.infor.com",
+    "page": "",
+    "urls": [
+      "https://careers.infor.com/en/postings/ce583c97-0c29-4938-a5c6-684d7bb280ae"
     ]
   },
   {
@@ -18492,12 +18507,15 @@
     "urls": [
       "https://job-boards.greenhouse.io/drweng/jobs/6242898",
       "https://job-boards.greenhouse.io/drweng/jobs/6821173",
+      "https://job-boards.greenhouse.io/drweng/jobs/7097016",
       "https://job-boards.greenhouse.io/drweng/jobs/7182464",
       "https://job-boards.greenhouse.io/drweng/jobs/7276024",
       "https://job-boards.greenhouse.io/drweng/jobs/7283666",
       "https://job-boards.greenhouse.io/drweng/jobs/7283668",
       "https://job-boards.greenhouse.io/drweng/jobs/7288315",
       "https://job-boards.greenhouse.io/drweng/jobs/7375738",
+      "https://job-boards.greenhouse.io/drweng/jobs/7377915",
+      "https://job-boards.greenhouse.io/drweng/jobs/7377981",
       "https://job-boards.greenhouse.io/drweng/jobs/7392396",
       "https://job-boards.greenhouse.io/drweng/jobs/7421010",
       "https://job-boards.greenhouse.io/drweng/jobs/7545859",
@@ -23090,6 +23108,17 @@
     ]
   },
   {
+    "name": "GigaML",
+    "ats": "ashby",
+    "identifier": "GigaML",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/GigaML",
+    "urls": [
+      "https://jobs.ashbyhq.com/GigaML/96f0c2f8-3d97-4763-ab46-b6af6ad8b2e7",
+      "https://jobs.ashbyhq.com/GigaML/ba9b543d-e85c-4bd1-978b-f838d7a4062f"
+    ]
+  },
+  {
     "name": "gimlet",
     "ats": "ashby",
     "identifier": "gimlet",
@@ -26252,6 +26281,14 @@
     "urls": []
   },
   {
+    "name": "Infor",
+    "ats": "pinpoint",
+    "identifier": "infor",
+    "domain": "https://infor.pinpointhq.com",
+    "page": "https://infor.pinpointhq.com/postings.json",
+    "urls": []
+  },
+  {
     "name": "ing",
     "ats": "workday",
     "identifier": "ing-icsgblcor",
@@ -27757,10 +27794,13 @@
       "https://jobs.jobvite.com/tylertech/job/oAVOAfwD?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/tylertech/job/oKQJAfwD?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/tylertech/job/oMAPAfwv?nl=1&nl=1&fr=false",
+      "https://jobs.jobvite.com/tylertech/job/oXHjAfwh",
       "https://jobs.jobvite.com/tylertech/job/oqQJAfwj?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/tylertech/job/ouQXAfwB?nl=1&nl=1&fr=false",
+      "https://jobs.jobvite.com/tylertech/job/owuizfwB",
       "https://jobs.jobvite.com/tylertech/job/oxAPAfwg",
-      "https://jobs.jobvite.com/tylertech/job/oxAPAfwg?nl=1&nl=1&fr=false"
+      "https://jobs.jobvite.com/tylertech/job/oxAPAfwg?nl=1&nl=1&fr=false",
+      "https://jobs.jobvite.com/tylertech/job/oxH5zfwC"
     ]
   },
   {
@@ -28405,6 +28445,16 @@
       "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Cleveland-OH/AI-Process-Analyst---Real-Estate-Capital---Commercial-Servicing_R-42832",
       "https://keybank.wd5.myworkdayjobs.com/external_career_site/job/Brooklyn-OH/AI-Ready-Context-Engineer--Ontologist_R-41472",
       "https://keybank.wd5.myworkdayjobs.com/external_career_site/job/Cleveland-OH/Intermediate-Portfolio-Manager---CPM--Credit-Portfolio-Management-_R-40629-1"
+    ]
+  },
+  {
+    "name": "keyfactorinc",
+    "ats": "greenhouse",
+    "identifier": "keyfactorinc",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/keyfactorinc/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/keyfactorinc/jobs/6242660004"
     ]
   },
   {
@@ -33266,6 +33316,16 @@
     ]
   },
   {
+    "name": "mtb",
+    "ats": "workday",
+    "identifier": "mtb-mtb",
+    "domain": "https://mtb.wd5.myworkdayjobs.com/MTB",
+    "page": "https://mtb.wd5.myworkdayjobs.com/wday/cxs/mtb/MTB/jobs",
+    "urls": [
+      "https://mtb.wd5.myworkdayjobs.com/MTB/job/Buffalo-NY/Software-Engineer---Financial-Crimes_R91281"
+    ]
+  },
+  {
     "name": "mthree",
     "ats": "greenhouse",
     "identifier": "mthree",
@@ -33788,6 +33848,16 @@
     "urls": [
       "https://jobdetails.nestle.com/job/New-York-Nespresso-Web-Development-Intern-(AI-Engineering)-NY-10001/1269204701/?ats=successfactors",
       "https://jobdetails.nestle.com/job/North-York-Applications-Web-Developer-Intern-ON/1258794601/?ats=successfactors"
+    ]
+  },
+  {
+    "name": "NetApp, Inc.",
+    "ats": "successfactors",
+    "identifier": "jobs.netapp.com",
+    "domain": "https://jobs.netapp.com",
+    "page": "https://jobs.netapp.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://jobs.netapp.com/job/San-Jose-Entry-Level-Software-Engineer-ANF-%28Azure-NetApp-Files%29-CA-95128/1407688600/"
     ]
   },
   {
@@ -39170,6 +39240,17 @@
     "domain": "https://careers.reliance.com",
     "page": "https://careers.reliance.com/api/jobs",
     "urls": []
+  },
+  {
+    "name": "reliaquest",
+    "ats": "workday",
+    "identifier": "reliaquest-reliaquest_careers",
+    "domain": "https://reliaquest.wd5.myworkdayjobs.com/ReliaQuest_Careers",
+    "page": "https://reliaquest.wd5.myworkdayjobs.com/wday/cxs/reliaquest/ReliaQuest_Careers/jobs",
+    "urls": [
+      "https://reliaquest.wd5.myworkdayjobs.com/ReliaQuest_Careers/job/Pune-India-Office/Associate-Software-Engineer_R15032",
+      "https://reliaquest.wd5.myworkdayjobs.com/ReliaQuest_Careers/job/Tampa-FL/Associate-Software-Engineer_R15047"
+    ]
   },
   {
     "name": "relling",
