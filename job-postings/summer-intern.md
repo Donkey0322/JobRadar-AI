@@ -14,6 +14,27 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Regent</td>
+      <td width="420" align="left" valign="top">Systems Engineering Intern (Summer)</td>
+      <td width="180" align="left" valign="top">North Kingstown, RI</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/REGENT/2b47c43c-79ad-499f-8570-61f9107ff32c"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 9</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Systems Engineering Intern - Safety Analysis (Summer)</td>
+      <td width="180" align="left" valign="top">North Kingstown, Rhode Island</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/REGENT/9370adbc-f344-4aeb-a99d-65acaac87894"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 9</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Rtx</td>
+      <td width="420" align="left" valign="top">Systems Engineering Intern (Summer 2027), SAOC, Cedar Rapids, IA (Onsite)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Cedar Rapids, IA</td>
+      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-143--855-35Th-St-NE--BLDG-143/Systems-Engineering-Intern--Summer-2027---SAOC--Cedar-Rapids--IA--Onsite-_01886221"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 9</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Pivotal Aero</td>
       <td width="420" align="left" valign="top">Software Engineering Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Palo Alto, CA</td>
@@ -2092,31 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://tmobile.wd1.myworkdayjobs.com/external/job/Overland-Park-Kansas/Summer-2027-Assoc-AI-Engineer-Internship_REQ380484"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 29</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">BAE Systems</td>
-      <td width="420" align="left" valign="top">Software Engineering Intern III, Summer 2027<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Nashua, NH</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.baesystems.com/global/en/job/127189BR?ph_id=127189BR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Eversource</td>
-      <td width="420" align="left" valign="top">Engineering Intern: Distribution System Modeling and Automation (MA/CT/NH, Hybrid Schedule)<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Westwood, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://eversource.wd1.myworkdayjobs.com/externalsite/job/Westwood-MA/Engineering-Intern--Distribution-System-Modeling-and-Automation--MA-CT-NH--Hybrid-Schedule-_R-032434"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Gaig</td>
-      <td width="420" align="left" valign="top">DevOps Developer Intern - Summer 2027</td>
-      <td width="180" align="left" valign="top">Cincinnati, OH</td>
-      <td width="120" align="left" valign="top"><a href="https://gaig.wd1.myworkdayjobs.com/gaig_external/job/Cincinnati-OH-USA/DevOps-Developer-Intern---Summer-2027_R9826"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 29</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 2,076 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 2,079 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-10T07:16:22.012Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-10T07:21:12.230Z</code></sub>

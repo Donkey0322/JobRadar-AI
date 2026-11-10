@@ -89,9 +89,9 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [2027 Summer Intern](./job-postings/summer-intern.md) — 2,076 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 1,844 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,529 opportunities
+- [2027 Summer Intern](./job-postings/summer-intern.md) — 2,079 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 1,845 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,532 opportunities
 
 ## The List 🚴‍♂️
 
@@ -110,6 +110,27 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Regent</td>
+      <td width="420" align="left" valign="top">Systems Engineering Intern (Summer)</td>
+      <td width="180" align="left" valign="top">North Kingstown, RI</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/REGENT/2b47c43c-79ad-499f-8570-61f9107ff32c"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 9</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Systems Engineering Intern - Safety Analysis (Summer)</td>
+      <td width="180" align="left" valign="top">North Kingstown, Rhode Island</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/REGENT/9370adbc-f344-4aeb-a99d-65acaac87894"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 9</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Rtx</td>
+      <td width="420" align="left" valign="top">Systems Engineering Intern (Summer 2027), SAOC, Cedar Rapids, IA (Onsite)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Cedar Rapids, IA</td>
+      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-143--855-35Th-St-NE--BLDG-143/Systems-Engineering-Intern--Summer-2027---SAOC--Cedar-Rapids--IA--Onsite-_01886221"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 9</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Pivotal Aero</td>
       <td width="420" align="left" valign="top">Software Engineering Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
@@ -299,30 +320,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996476768969?domain=lockheedmartin.com&amp;8fold_id=996476768969"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 9</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Systems Engineer - Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Fort Worth, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477156078?domain=lockheedmartin.com&amp;8fold_id=996477156078"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 9</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">NBCUniversal</td>
-      <td width="420" align="left" valign="top">Software Engineering Internships – Summer 2027<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">New York, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/NBCUniversal3/744000160659459"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 9</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Rtx</td>
-      <td width="420" align="left" valign="top">Software Engineering Intern (Summer 2027) (Hybrid)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Aguadilla, PR</td>
-      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-PR-AGUADILLA-110--Rd-110-N-Km-288--RD110/Software-Engineering-Intern--Summer-2027---Hybrid-_01888108"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 9</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 2,076 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 2,079 opportunities in this section.</sub></p>
 
 ### Off Season Intern
 
@@ -337,6 +337,13 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Meta" src="./assets/featured-badges/meta.svg" /></td>
+      <td width="420" align="left" valign="top">Research Scientist Intern,  AI Core Machine Learning (PhD)</td>
+      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.metacareers.com/profile/job_details/2432079507324778"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 9</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Pika</td>
       <td width="420" align="left" valign="top">Applied AI Engineer Intern, Creative Experiences</td>
@@ -540,16 +547,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://warnerbros.wd5.myworkdayjobs.com/global/job/MA-Needham-117-Kendrick-St/WB-Games-Data-Engineering-Co-op--Needham--MA---January-May-2027_R000109902"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 9</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Rtx</td>
-      <td width="420" align="left" valign="top">Systems Engineering Intern<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Burnsville, MN</td>
-      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MN-BURNSVILLE-WEST--14300-Judicial-Rd--WEST-BLDG/Systems-Engineering-Intern_01872589"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 9</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,844 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,845 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -564,6 +564,27 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">L3harris</td>
+      <td width="420" align="left" valign="top">Associate, Software Engineering<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Anaheim, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.l3harris.com/job/anaheim/associate-software-engineering/4832/103096576752"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 9</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Rtx</td>
+      <td width="420" align="left" valign="top">Research Software Engineer I (Onsite)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Cambridge, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-MA-CAMBRIDGE-BBN06--10--50-Moulton-St--MOULTON-B6/Research-Software-Engineer-I--Onsite-_01887516"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 9</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="SpaceX" src="./assets/featured-badges/spacex.svg" /></td>
+      <td width="420" align="left" valign="top">Launch Engineer, Fluid Systems (Starship)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Starbase, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/spacex/jobs/8935948002?gh_jid=8935948002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 9</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">L3Harris</td>
       <td width="420" align="left" valign="top">Associate, Software Engineering</td>
@@ -753,30 +774,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/rocketlab/jobs/8057246003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 9</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Rtx</td>
-      <td width="420" align="left" valign="top">Software Engineer I (Onsite)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Richardson, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineer-I--Onsite-_01884131"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 9</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">First Citizens Bank</td>
-      <td width="420" align="left" valign="top">Data Engineer I - Data Platform<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Raleigh, NC</td>
-      <td width="120" align="left" valign="top"><a href="https://firstcitizens.jibeapply.com/jobs/34622?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 9</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Adobe" src="./assets/featured-badges/adobe.svg" /></td>
-      <td width="420" align="left" valign="top">2027 University Graduate - Data Engineer</td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.adobe.com/us/en/job/R173455?ph_id=R173455"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 9</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,529 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,532 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -795,7 +795,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-10T07:16:22.012Z</code>
+      🕒 Last updated <code>2026-11-10T07:21:12.230Z</code>
     </span>
   </p>
 </div>
