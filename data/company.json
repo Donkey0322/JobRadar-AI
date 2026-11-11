@@ -28141,6 +28141,16 @@
   },
   {
     "name": "jobs.baesystems.com",
+    "ats": "none",
+    "identifier": "jobs.baesystems.com",
+    "domain": "https://jobs.baesystems.com",
+    "page": "",
+    "urls": [
+      "https://jobs.baesystems.com/global/en/job/129314BR/Entry-Level-Software-Engineer"
+    ]
+  },
+  {
+    "name": "jobs.baesystems.com",
     "ats": "phenom",
     "identifier": "jobs.baesystems.com",
     "domain": "https://jobs.baesystems.com",
@@ -41363,6 +41373,7 @@
     "domain": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway",
     "page": "https://globalhr.wd5.myworkdayjobs.com/wday/cxs/globalhr/rec_rtx_ext_gateway/jobs",
     "urls": [
+      "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-TX-MCKINNEY-513WB--2501-W-University-Dr--WING-B-BLDG/Software-Engineering-Intern--Summer-2027-_01886440",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/AU-QLD-CANNON-HILL-101--101-Southgate-Ave--SOUTHGATE/Systems-Safety-Engineer_01870026",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/AU-SA-MAWSON-LAKES-111--1-11-Technology-Dr--BLDG-111/Graduate-DevSecOps-Engineer_01883926",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/AU-SA-MAWSON-LAKES-111--1-11-Technology-Dr--BLDG-111/ICT-Infrastructure-Engineer_01878757",
@@ -44788,6 +44799,16 @@
     ]
   },
   {
+    "name": "SpringVentureGroup1",
+    "ats": "smartrecruiters",
+    "identifier": "SpringVentureGroup1",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/SpringVentureGroup1/postings",
+    "urls": [
+      "https://jobs.smartrecruiters.com/SpringVentureGroup1/744000160958169-devops-engineer-i?oga=true"
+    ]
+  },
+  {
     "name": "sprinklr",
     "ats": "workday",
     "identifier": "sprinklr-careers",
@@ -45975,6 +45996,16 @@
       "https://synnex.wd5.myworkdayjobs.com/tdsynnexcareers/job/So-Paulo-Brasil/Cloud-Engineer-Jr---LATAM_R56667",
       "https://synnex.wd5.myworkdayjobs.com/tdsynnexcareers/job/So-Paulo-Brasil/Cybersecurity-Presales-Engineer_R56039",
       "https://synnex.wd5.myworkdayjobs.com/tdsynnexcareers/job/Tokyo-Japan/XMLNAME--AIGoogle-Cloud---Business-Development_R49598"
+    ]
+  },
+  {
+    "name": "synopsys",
+    "ats": "radancy",
+    "identifier": "careers.synopsys.com",
+    "domain": "https://careers.synopsys.com",
+    "page": "https://careers.synopsys.com/search-jobs/resultspost",
+    "urls": [
+      "https://careers.synopsys.com/job/nepean/engineering-documentation-and-ai-automation-internship-16-month-co-op/44408/103136134960"
     ]
   },
   {
