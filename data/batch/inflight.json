@@ -1,1 +1,63 @@
-[]
+[
+  {
+    "name": "batches/i8ucstn2o54fjppw6cvqrv6479d079kzihkj",
+    "submittedAt": "2026-11-11T01:01:30.451Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Rtx",
+        "role": "Software Engineering Intern 🇺🇸",
+        "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineering-Intern--Summer-2027-_01888049",
+        "location": "Richardson, TX"
+      },
+      {
+        "company": "Rtx",
+        "role": "Software Engineering Intern 🇺🇸",
+        "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-ST-PETERSBURG-381BD--7401-22nd-Ave-N--BLDG-D/Software-Engineering-Intern--Summer-2027-_01887806",
+        "location": "St Petersburg, FL"
+      },
+      {
+        "company": "Hook Music",
+        "role": "Machine Learning Engineering Intern, Recommendation Systems",
+        "link": "https://jobs.ashbyhq.com/hookmusic/d95c6fa3-68b3-4ad4-b228-f44228a4f2c6",
+        "location": "Remote</br>United States"
+      },
+      {
+        "company": "Nvidia",
+        "role": "Performance Engineering Intern, Platform Performance and Power",
+        "link": "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Performance-Engineering-Intern--Platform-Performance-and-Power----Spring-2027_JR2029541",
+        "location": "Santa Clara, CA"
+      },
+      {
+        "company": "Optimum",
+        "role": "Developer Intern, Financial & People Systems",
+        "link": "https://www.optimumcareers.com/job/Bethpage-Intern-Developer,-Financial-&-People-Systems-NY-11714/1449511200/?ats=successfactors",
+        "location": "Bethpage, NY"
+      },
+      {
+        "company": "Optimum",
+        "role": "Software Development Intern",
+        "link": "https://www.optimumcareers.com/job/Bethpage-Intern-Software-Development-NY-11714/1449514200/?ats=successfactors",
+        "location": "Bethpage, NY"
+      },
+      {
+        "company": "Techstra Solutions",
+        "role": "AI Engineer (Master's)",
+        "link": "https://techstrasolutions.applytojob.com/apply/h0W1v7gpzI/AI-Engineer",
+        "location": "Pittsburgh, PA"
+      },
+      {
+        "company": "Andurilindustries",
+        "role": "New Grad 2027: Information Security Engineer",
+        "link": "https://boards.greenhouse.io/andurilindustries/jobs/5270839007?gh_jid=5270839007",
+        "location": "Costa Mesa, CA"
+      },
+      {
+        "company": "McDonald's",
+        "role": "Software Development Engineer Intern",
+        "link": "https://jobs.mcdonalds.com/job/Chicago-Software-Development-Engineer-Intern-IL-60607/1449046600/?ats=successfactors",
+        "location": "Chicago, IL"
+      }
+    ]
+  }
+]
