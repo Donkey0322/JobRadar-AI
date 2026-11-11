@@ -4502,6 +4502,7 @@
       "https://boards.greenhouse.io/andurilindustries/jobs/5269017007?gh_jid=5269017007",
       "https://boards.greenhouse.io/andurilindustries/jobs/5269031007?gh_jid=5269031007",
       "https://boards.greenhouse.io/andurilindustries/jobs/5269889007?gh_jid=5269889007",
+      "https://boards.greenhouse.io/andurilindustries/jobs/5270839007?gh_jid=5270839007",
       "https://boards.greenhouse.io/andurilindustries/jobs/5270953007?gh_jid=5270953007",
       "https://boards.greenhouse.io/andurilindustries/jobs/5271092007?gh_jid=5271092007",
       "https://boards.greenhouse.io/andurilindustries/jobs/5271177007?gh_jid=5271177007",
@@ -25554,6 +25555,16 @@
     ]
   },
   {
+    "name": "hookmusic",
+    "ats": "ashby",
+    "identifier": "hookmusic",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/hookmusic",
+    "urls": [
+      "https://jobs.ashbyhq.com/hookmusic/d95c6fa3-68b3-4ad4-b228-f44228a4f2c6"
+    ]
+  },
+  {
     "name": "hootsuite",
     "ats": "greenhouse",
     "identifier": "hootsuite",
@@ -31877,6 +31888,7 @@
     "page": "https://jobs.mcdonalds.com/services/rss/job/?locale=en_US",
     "urls": [
       "https://jobs.mcdonalds.com/job/Chicago-2026-Global-Technology-GTIO-Intern-IL-60607/1329553100",
+      "https://jobs.mcdonalds.com/job/Chicago-Software-Development-Engineer-Intern-IL-60607/1449046600/?ats=successfactors",
       "https://jobs.mcdonalds.com/job/Chicago-Software-Engineer-I-IL-60607/1329771000/?ats=successfactors",
       "https://jobs.mcdonalds.com/job/Chicago-Software-Engineer-I-iOS-IL-60607/1322170500/"
     ]
@@ -35944,6 +35956,7 @@
       "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/India-Pune/System-Software-Engineer---GPU-Profiling_JR2020625",
       "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Israel-Yokneam/Software-Security-Researcher_JR2010818",
       "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Singapore-Pasir-Panjang/Research-Scientist---AI_JR2020802",
+      "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Performance-Engineering-Intern--Platform-Performance-and-Power----Spring-2027_JR2029541",
       "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Ukraine-Remote/DevOps-Engineer_JR2020684"
     ]
   },
@@ -36562,6 +36575,8 @@
     "domain": "https://www.optimumcareers.com",
     "page": "https://www.optimumcareers.com/services/rss/job/?locale=en_US",
     "urls": [
+      "https://www.optimumcareers.com/job/Bethpage-Intern-Developer,-Financial-&-People-Systems-NY-11714/1449511200/?ats=successfactors",
+      "https://www.optimumcareers.com/job/Bethpage-Intern-Software-Development-NY-11714/1449514200/?ats=successfactors",
       "https://www.optimumcareers.com/job/Bethpage-Software-Quality-Engineer-I-NY-11714/1437926400/",
       "https://www.optimumcareers.com/job/Bethpage-Software-Quality-Engineer-I-NY-11714/1437926600/",
       "https://www.optimumcareers.com/job/Bethpage-Sr-Engineer-Site-Reliability-NY-11714/1373739300/",
@@ -41139,6 +41154,7 @@
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-LARGO-382ST--7887-Bryan-Dairy-Rd--BLDG-400/Sr-Software-Engineer_01885833",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-MELBOURNE-307--1100-W-Hibiscus-Blvd--BLDG-307/Systems-Engineering-Intern---CNS-Onsite_01876809",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-MELBOURNE-307--1100-W-Hibiscus-Blvd--BLDG-307/Systems-Engineering-Intern--Weather-Radar_01876489",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-ST-PETERSBURG-381BD--7401-22nd-Ave-N--BLDG-D/Software-Engineering-Intern--Summer-2027-_01887806",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-ST-PETERSBURG-381BD--7401-22nd-Ave-N--BLDG-D/Systems-Engineer-Intern_01884409",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-ST-PETERSBURG-381BD--7401-22nd-Ave-N--BLDG-D/Systems-Engineering-Co-op_01884435",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-ST-PETERSBURG-381BD--7401-22nd-Ave-N--BLDG-D/Systems-Engineering-Intern--BMC2--Onsite-_01885577",
@@ -41297,6 +41313,7 @@
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-REMOTE/Snowflake-Data-Lake-Support-Technical-Analyst_01877224",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C07--1707-Cityline-Dr--CITYLINE-C07/Financial-System-Analyst--Hybrid-_01878253",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineer-Co-op--Remote-_01883545",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineering-Intern--Summer-2027-_01888049",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Platform-Engineer-I--Onsite-_01888024",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Systems-Engineering-Fall-2027-Co-op--Richardson--TX--Onsite-_01886215",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Systems-Engineering-Spring-2027-Co-op--Richardson--TX--Onsite-_01886216",
@@ -45762,6 +45779,16 @@
       "https://techinsights.applytojob.com/apply/AX0tXfx17p",
       "https://techinsights.applytojob.com/apply/I6ZoEBBOzy",
       "https://techinsights.applytojob.com/apply/L2rylA4EmC"
+    ]
+  },
+  {
+    "name": "Techstra Solutions",
+    "ats": "jazzhr",
+    "identifier": "techstrasolutions.applytojob.com",
+    "domain": "https://techstrasolutions.applytojob.com",
+    "page": "https://techstrasolutions.applytojob.com/apply/jobs",
+    "urls": [
+      "https://techstrasolutions.applytojob.com/apply/h0W1v7gpzI/AI-Engineer"
     ]
   },
   {
