@@ -6098,15 +6098,23 @@
     "page": "",
     "urls": [
       "https://apply.workable.com/amax-1/j/C8FD3B365F",
+      "https://apply.workable.com/bask-health-1/j/472CF47F60",
+      "https://apply.workable.com/bask-health-1/j/472CF47F60/apply",
+      "https://apply.workable.com/bask-health-1/j/98DB106D88",
+      "https://apply.workable.com/bask-health-1/j/DFC51193B4/apply",
+      "https://apply.workable.com/bask-health-1/j/E81C7F7D3B",
       "https://apply.workable.com/botpress/j/16C68A50A7/apply",
       "https://apply.workable.com/botpress/j/9B3CB646E8/apply",
       "https://apply.workable.com/datavisor-jobs/j/2FB6A93BF6",
       "https://apply.workable.com/datavisor-jobs/j/2FB6A93BF6/apply",
       "https://apply.workable.com/j/2FB6A93BF6",
+      "https://apply.workable.com/j/472CF47F60",
       "https://apply.workable.com/j/739753C003",
       "https://apply.workable.com/j/772CD136FF",
+      "https://apply.workable.com/j/98DB106D88",
       "https://apply.workable.com/j/9B3CB646E8",
       "https://apply.workable.com/j/CA15908E0A",
+      "https://apply.workable.com/j/E81C7F7D3B",
       "https://apply.workable.com/persimmons-ai/j/E8AF3CDFB3",
       "https://apply.workable.com/prosync/j/6ECFBED6E7/apply"
     ]
@@ -9154,7 +9162,8 @@
     "urls": [
       "https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/Mumbai-Maharashtra/Forward-Deployed-Engineer--Agentic-AI-Solutions-engineer_JR-25115",
       "https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/Newark-Delaware/Materials---Systems-Analyst_JR-24784",
-      "https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/Office---Bangalore-ITBT-Park/Edge-Software---Security-Engineer_JR-24170"
+      "https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/Office---Bangalore-ITBT-Park/Edge-Software---Security-Engineer_JR-24170",
+      "https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/San-Jose-California/AI-Solutions-Engineer-Intern_JR-25361"
     ]
   },
   {
@@ -26343,6 +26352,16 @@
     ]
   },
   {
+    "name": "hubinternational",
+    "ats": "workday",
+    "identifier": "hubinternational-hubinternational",
+    "domain": "https://hubinternational.wd1.myworkdayjobs.com/HUBInternational",
+    "page": "https://hubinternational.wd1.myworkdayjobs.com/wday/cxs/hubinternational/HUBInternational/jobs",
+    "urls": [
+      "https://hubinternational.wd1.myworkdayjobs.com/HUBInternational/job/Chicago-IL/AI-Engineering-Intern_R0039470"
+    ]
+  },
+  {
     "name": "hubspot",
     "ats": "greenhouse",
     "identifier": "hubspotjobs",
@@ -31605,6 +31624,16 @@
     ]
   },
   {
+    "name": "Luxfer MEL Technologies - UK",
+    "ats": "jazzhr",
+    "identifier": "luxfermeltechnologiesuk.applytojob.com",
+    "domain": "https://luxfermeltechnologiesuk.applytojob.com",
+    "page": "https://luxfermeltechnologiesuk.applytojob.com/apply/jobs",
+    "urls": [
+      "https://luxfermeltechnologiesuk.applytojob.com/apply/7D3Toqbi0l/Junior-Data-Engineer"
+    ]
+  },
+  {
     "name": "lyft",
     "ats": "greenhouse",
     "identifier": "lyft",
@@ -34766,7 +34795,8 @@
       "https://jobs.smartrecruiters.com/NBCUniversal3/744000160659379",
       "https://jobs.smartrecruiters.com/NBCUniversal3/744000160659459",
       "https://jobs.smartrecruiters.com/NBCUniversal3/744000160686477",
-      "https://jobs.smartrecruiters.com/NBCUniversal3/744000161150234"
+      "https://jobs.smartrecruiters.com/NBCUniversal3/744000161150234",
+      "https://jobs.smartrecruiters.com/NBCUniversal3/744000161179529"
     ]
   },
   {
@@ -40182,6 +40212,7 @@
       "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4501054",
       "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4501273",
       "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4537849",
+      "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4619793",
       "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4640548",
       "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4646257",
       "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4648416"
@@ -41944,6 +41975,7 @@
       "https://www.rubrik.com/company/careers/departments/job.8267709?gh_jid=8267709",
       "https://www.rubrik.com/company/careers/departments/job.8318044?gh_jid=8318044",
       "https://www.rubrik.com/company/careers/departments/job.8335812?gh_jid=8335812",
+      "https://www.rubrik.com/company/careers/departments/job.8351288?gh_jid=8351288",
       "https://www.rubrik.com/company/careers/departments/job.8366954?gh_jid=8366954"
     ]
   },
@@ -43829,7 +43861,8 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/skhynixmemorysolutionsamericainc/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4402959009",
-      "https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4432770009"
+      "https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4432770009",
+      "https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4504499009"
     ]
   },
   {
@@ -45540,6 +45573,16 @@
     "page": "https://stellarscience.applytojob.com/apply/jobs",
     "urls": [
       "https://stellarscience.applytojob.com/apply/my4AC4VXHI/Scientific-Software-Developer-Paid-CoopInternship"
+    ]
+  },
+  {
+    "name": "stepstone",
+    "ats": "greenhouse",
+    "identifier": "stepstone",
+    "domain": "https://boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/stepstone/jobs",
+    "urls": [
+      "https://boards.greenhouse.io/embed/job_app?token=8368989"
     ]
   },
   {
@@ -50566,7 +50609,8 @@
       "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20283675",
       "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20284343",
       "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20284628",
-      "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20284629"
+      "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20284629",
+      "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20284817"
     ]
   },
   {
@@ -52469,6 +52513,17 @@
       "https://zendesk.wd1.myworkdayjobs.com/zendesk/job/Pune-India/Site-Reliability-Engineer_R35510-1",
       "https://zendesk.wd1.myworkdayjobs.com/zendesk/job/Pune-India/Software-Engineer-I_R35832",
       "https://zendesk.wd1.myworkdayjobs.com/zendesk/job/Singapore-Singapore/Forward-Deployed-Engineer_R35121"
+    ]
+  },
+  {
+    "name": "Zensar",
+    "ats": "oraclecloud",
+    "identifier": "fa-etvl-saasfaprod1.fa.ocs.oraclecloud.com",
+    "domain": "https://fa-etvl-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://fa-etvl-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://fa-etvl-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/153873",
+      "https://fa-etvl-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/153874"
     ]
   },
   {
