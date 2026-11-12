@@ -6171,6 +6171,8 @@
       "https://apply.workable.com/amax-1/j/C8FD3B365F",
       "https://apply.workable.com/bask-health-1/j/472CF47F60",
       "https://apply.workable.com/bask-health-1/j/472CF47F60/apply",
+      "https://apply.workable.com/bask-health-1/j/95FB1074E4",
+      "https://apply.workable.com/bask-health-1/j/95FB1074E4/apply",
       "https://apply.workable.com/bask-health-1/j/98DB106D88",
       "https://apply.workable.com/bask-health-1/j/DFC51193B4/apply",
       "https://apply.workable.com/bask-health-1/j/E81C7F7D3B",
@@ -6182,8 +6184,10 @@
       "https://apply.workable.com/j/472CF47F60",
       "https://apply.workable.com/j/739753C003",
       "https://apply.workable.com/j/772CD136FF",
+      "https://apply.workable.com/j/95FB1074E4",
       "https://apply.workable.com/j/98DB106D88",
       "https://apply.workable.com/j/9B3CB646E8",
+      "https://apply.workable.com/j/9C2964C7CD",
       "https://apply.workable.com/j/CA15908E0A",
       "https://apply.workable.com/j/E81C7F7D3B",
       "https://apply.workable.com/persimmons-ai/j/E8AF3CDFB3",
@@ -7138,6 +7142,7 @@
     "domain": "https://autodesk.wd1.myworkdayjobs.com/Ext",
     "page": "https://autodesk.wd1.myworkdayjobs.com/wday/cxs/autodesk/Ext/jobs",
     "urls": [
+      "https://autodesk.wd1.myworkdayjobs.com/Ext/job/Montreal-QC-CAN/Intern--Software-Developer--Stagiaire-en-Dveloppement-Logiciel_26WD102151-3",
       "https://autodesk.wd1.myworkdayjobs.com/Ext/job/Novi-MI-USA/Software-Engineer_26WD102129-1",
       "https://autodesk.wd1.myworkdayjobs.com/Ext/job/Pune-IND/Senior-Software-Engineer-AI-ML-Platform-_26WD96776-1"
     ]
@@ -14575,6 +14580,18 @@
     "domain": "https://careers.loreal.com",
     "page": "",
     "urls": []
+  },
+  {
+    "name": "careers.medpace.com",
+    "ats": "none",
+    "identifier": "careers.medpace.com",
+    "domain": "https://careers.medpace.com",
+    "page": "",
+    "urls": [
+      "https://careers.medpace.com/jobs/12921?lang=en-us",
+      "https://careers.medpace.com/jobs/12922?lang=en-us",
+      "https://careers.medpace.com/jobs/12923?lang=en-us"
+    ]
   },
   {
     "name": "careers.merzaesthetics.com",
@@ -23972,6 +23989,17 @@
     ]
   },
   {
+    "name": "giro",
+    "ats": "workday",
+    "identifier": "giro-giro",
+    "domain": "https://giro.wd10.myworkdayjobs.com/giro",
+    "page": "https://giro.wd10.myworkdayjobs.com/wday/cxs/giro/giro/jobs",
+    "urls": [
+      "https://giro.wd10.myworkdayjobs.com/giro/job/Montreal-Rosemont/Hiver-2027---Stagiaire-en-dveloppement-logiciel--assurance-qualit-et-IA_R-100000320",
+      "https://giro.wd10.myworkdayjobs.com/giro/job/Montreal-Rosemont/Hiver-2027---Stagiaire-en-dveloppement-web--Front-end_R-100000317"
+    ]
+  },
+  {
     "name": "gitai",
     "ats": "greenhouse",
     "identifier": "gitai",
@@ -27081,6 +27109,16 @@
       "https://job-boards.eu.greenhouse.io/imc/jobs/5012854101",
       "https://job-boards.eu.greenhouse.io/imc/jobs/5013526101",
       "https://job-boards.eu.greenhouse.io/imc/jobs/5020041101"
+    ]
+  },
+  {
+    "name": "imh",
+    "ats": "workday",
+    "identifier": "imh-intermountaincareers",
+    "domain": "https://imh.wd108.myworkdayjobs.com/IntermountainCareers",
+    "page": "https://imh.wd108.myworkdayjobs.com/wday/cxs/imh/IntermountainCareers/jobs",
+    "urls": [
+      "https://imh.wd108.myworkdayjobs.com/IntermountainCareers/job/Key-Bank-Tower/AI-ML-Engineer-Intern_R188835"
     ]
   },
   {
@@ -30590,6 +30628,7 @@
       "https://leidos.wd5.myworkdayjobs.com/External/job/Gaithersburg-MD/Software-Development-Intern_R-00193103",
       "https://leidos.wd5.myworkdayjobs.com/External/job/Hampton-VA/Intelligence-Analytics-Instructor_R-00190605",
       "https://leidos.wd5.myworkdayjobs.com/External/job/Honolulu-HI/Systems-Engineer_R-00194590",
+      "https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Network-and-Systems-Engineer_R-00196745",
       "https://leidos.wd5.myworkdayjobs.com/External/job/McLean-VA/Data-Scientist_R-00196367",
       "https://leidos.wd5.myworkdayjobs.com/External/job/Omaha-NE/Application-Security-Engineer_R-00196495",
       "https://leidos.wd5.myworkdayjobs.com/External/job/Omaha-NE/DevOps-Engineer_R-00190241-1",
@@ -33675,6 +33714,7 @@
       "https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---ID1/US-FE-Expansion-Planning-Engineer_JR95856",
       "https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/Gas-Systems-Engineer---O-M_JR109693",
       "https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/Intern---System-Engineer--HBM_JR113469",
+      "https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/New-College-Grad---Software-Engineer_JR109692",
       "https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/Product-Development-Engineer_JR103405",
       "https://micron.wd1.myworkdayjobs.com/external/job/Fab-10A-Singapore/AI-Engineer--SMAI_JR111136",
       "https://micron.wd1.myworkdayjobs.com/external/job/Fab-10A-Singapore/AI-Engineer--SMAI_JR111138",
@@ -39682,6 +39722,7 @@
     "page": "https://ptc.wd1.myworkdayjobs.com/wday/cxs/ptc/ptc/jobs",
     "urls": [
       "https://ptc.wd1.myworkdayjobs.com/ptc/job/Bangalore-India/Associate-Software-Engineer-Salesforce_JR112454",
+      "https://ptc.wd1.myworkdayjobs.com/ptc/job/Boston-MA-USA/Onshape-Site-Reliability-Engineering-Intern--Summer-2027-_JR112926",
       "https://ptc.wd1.myworkdayjobs.com/ptc/job/Boston-MA-USA/Software-Engineer-Intern--Summer-2027-_JR112943",
       "https://ptc.wd1.myworkdayjobs.com/ptc/job/Budapest-Hungary/Medior-Backend-Software-Engineer_JR112885",
       "https://ptc.wd1.myworkdayjobs.com/ptc/job/Budapest-Hungary/Medior-Software-Engineer_JR112513",
@@ -45266,7 +45307,8 @@
       "https://boards.greenhouse.io/spacex/jobs/8935948002?gh_jid=8935948002",
       "https://boards.greenhouse.io/spacex/jobs/8937000002?gh_jid=8937000002",
       "https://boards.greenhouse.io/spacex/jobs/8937029002?gh_jid=8937029002",
-      "https://boards.greenhouse.io/spacex/jobs/8938027002?gh_jid=8938027002"
+      "https://boards.greenhouse.io/spacex/jobs/8938027002?gh_jid=8938027002",
+      "https://boards.greenhouse.io/spacex/jobs/8939697002?gh_jid=8939697002"
     ]
   },
   {
@@ -46097,6 +46139,16 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/stratacareers/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/stratacareers/jobs/8030865003"
+    ]
+  },
+  {
+    "name": "stratolaunch",
+    "ats": "greenhouse",
+    "identifier": "stratolaunch",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/stratolaunch/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/stratolaunch/jobs/5480612008"
     ]
   },
   {
@@ -48956,6 +49008,7 @@
     "urls": [
       "https://tmx.wd3.myworkdayjobs.com/TMX_Careers/job/Montreal---1190-av-des-Canadiens-de-Montreal/DevOps-Analyst_R-6461",
       "https://tmx.wd3.myworkdayjobs.com/TMX_Careers/job/Montreal---1190-av-des-Canadiens-de-Montreal/Functional-Analyst---Clearing-Systems_R-6040",
+      "https://tmx.wd3.myworkdayjobs.com/TMX_Careers/job/Toronto---100-Adelaide-St-W/AI-Engineering-Intern_R-6680",
       "https://tmx.wd3.myworkdayjobs.com/TMX_Careers/job/Toronto---100-Adelaide-St-W/Application-Security-Engineer_R-6541-1",
       "https://tmx.wd3.myworkdayjobs.com/TMX_Careers/job/Toronto---100-Adelaide-St-W/Business-Systems-Analyst_R-6246",
       "https://tmx.wd3.myworkdayjobs.com/TMX_Careers/job/Toronto---100-Adelaide-St-W/Cloud-Security-Engineer_R-6440",
