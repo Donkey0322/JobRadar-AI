@@ -16160,6 +16160,7 @@
     "domain": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers",
     "page": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs",
     "urls": [
+      "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Austin-Texas-US/Software-Engineer-Compiler-I--Full-Time----United-States_2031593",
       "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Austin-Texas-US/Software-Engineer-Full-Stack---Backend-I--Full-Time----United-States_2028784",
       "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bratislava-Slovakia/Software-Engineer---Mobile_2028669",
       "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bratislava-Slovakia/Software-Engineer---Webex-Native-Client_2028677",
@@ -16944,6 +16945,8 @@
     "page": "https://cmu.wd115.myworkdayjobs.com/wday/cxs/cmu/CMU/jobs",
     "urls": [
       "https://cmu.wd115.myworkdayjobs.com/CMU/job/Pittsburgh-PA/Associate-Software-Engineer_2025315",
+      "https://cmu.wd115.myworkdayjobs.com/CMU/job/Pittsburgh-PA/Cyber-AI-Engineering-Intern--Spring-2027-_2025346-1",
+      "https://cmu.wd115.myworkdayjobs.com/CMU/job/Pittsburgh-PA/Cybersecurity-Engineer-Intern--Spring-2027-_2025347",
       "https://cmu.wd115.myworkdayjobs.com/CMU/job/Pittsburgh-PA/Cybersecurity-Engineer_2025155-2",
       "https://cmu.wd115.myworkdayjobs.com/CMU/job/Pittsburgh-PA/Full-Stack-Software-Development-Intern_2025287-1",
       "https://cmu.wd115.myworkdayjobs.com/CMU/job/Pittsburgh-PA/Machine-Learning-Engineer_2025249"
@@ -28504,6 +28507,16 @@
     ]
   },
   {
+    "name": "IPConfigure",
+    "ats": "bamboohr",
+    "identifier": "ipconfigure",
+    "domain": "https://ipconfigure.bamboohr.com",
+    "page": "https://ipconfigure.bamboohr.com/careers/list",
+    "urls": [
+      "https://ipconfigure.bamboohr.com/careers/71"
+    ]
+  },
+  {
     "name": "ipipeline",
     "ats": "icims",
     "identifier": "ipipeline",
@@ -32711,6 +32724,7 @@
     "domain": "https://manulife.wd3.myworkdayjobs.com/mfcjh_adminjobs",
     "page": "https://manulife.wd3.myworkdayjobs.com/wday/cxs/manulife/mfcjh_adminjobs/jobs",
     "urls": [
+      "https://manulife.wd3.myworkdayjobs.com/MFCJH_adminJobs/job/Boston-Massachusetts/Spring-Co-op-2027---Software-Engineering-Intern_JR26110405",
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_adminjobs/job/Boston-Massachusetts/Associate-Full--Stack-Software-Engineer_JR26030584-3",
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_adminjobs/job/Boston-Massachusetts/CIAM-Security-Developer_JR26091576",
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_adminjobs/job/CAN-Ontario-Waterloo-500-King-Street-North/Full-Stack-Software-Engineer_JR26020871-3",
@@ -36312,6 +36326,16 @@
       "https://www.nextiva.com/company/careers-listing?gh_jid=8639480002",
       "https://www.nextiva.com/company/careers-listing?gh_jid=8645412002",
       "https://www.nextiva.com/company/careers-listing?gh_jid=8736469002"
+    ]
+  },
+  {
+    "name": "nexus-cognitive",
+    "ats": "ashby",
+    "identifier": "nexus-cognitive",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/nexus-cognitive",
+    "urls": [
+      "https://jobs.ashbyhq.com/nexus-cognitive/22c64819-67fc-48d0-b206-5b41d370f6a5"
     ]
   },
   {
@@ -47925,7 +47949,8 @@
       "https://www.tesla.com/careers/search/job/289240",
       "https://www.tesla.com/careers/search/job/289241",
       "https://www.tesla.com/careers/search/job/289480",
-      "https://www.tesla.com/careers/search/job/289683"
+      "https://www.tesla.com/careers/search/job/289683",
+      "https://www.tesla.com/careers/search/job/289796"
     ]
   },
   {
@@ -48655,6 +48680,17 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/thetradedesk/jobs",
     "urls": []
+  },
+  {
+    "name": "thgrp",
+    "ats": "workday",
+    "identifier": "thgrp-envita",
+    "domain": "https://thgrp.wd12.myworkdayjobs.com/Envita",
+    "page": "https://thgrp.wd12.myworkdayjobs.com/wday/cxs/thgrp/Envita/jobs",
+    "urls": [
+      "https://thgrp.wd12.myworkdayjobs.com/Envita/job/Indianapolis-IN/Data-Scientist-Intern--Applied-AI_R-1728",
+      "https://thgrp.wd12.myworkdayjobs.com/Envita/job/Indianapolis-IN/Software-Engineering-Intern--Applied-AI_R-1727"
+    ]
   },
   {
     "name": "thinkahead",
@@ -49607,6 +49643,7 @@
       "https://lifeattiktok.com/search/7701941644619155717",
       "https://lifeattiktok.com/search/7702053561758746885",
       "https://lifeattiktok.com/search/7703899923206867205",
+      "https://lifeattiktok.com/search/7703925583541979445",
       "https://lifeattiktok.com/search/7704696088079010053",
       "https://lifeattiktok.com/search/7705012688944810245",
       "https://lifeattiktok.com/search/7706693387932633397"
@@ -51096,6 +51133,7 @@
       "https://uscareers-idemia.icims.com/jobs/8677/service-platform-engineering-internship/job",
       "https://uscareers-idemia.icims.com/jobs/8706/financial-data-analyst-internship/job",
       "https://uscareers-idemia.icims.com/jobs/8707/full-stack-software-engineering-internship/job",
+      "https://uscareers-idemia.icims.com/jobs/8708/full-stack-software-engineering-internship/job",
       "https://uscareers-idemia.icims.com/jobs/8709/software-product-analyst-intern/job"
     ]
   },
