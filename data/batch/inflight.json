@@ -1,1 +1,69 @@
-[]
+[
+  {
+    "name": "batches/3zhjwm2hhqin9a5k3uwkkjqbp7ubknja363u",
+    "submittedAt": "2026-11-13T20:46:53.837Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "NexusOne",
+        "role": "Data Engineering Intern",
+        "link": "https://jobs.ashbyhq.com/nexus-cognitive/22c64819-67fc-48d0-b206-5b41d370f6a5",
+        "location": "Atlanta, GA"
+      },
+      {
+        "company": "IPConfigure",
+        "role": "Software Development Intern, Video Surveillance Software",
+        "link": "https://ipconfigure.bamboohr.com/careers/71",
+        "location": "Norfolk, VA"
+      },
+      {
+        "company": "Uscareers-idemia",
+        "role": "Full Stack Software Engineering Intern",
+        "link": "https://uscareers-idemia.icims.com/jobs/8708/full-stack-software-engineering-internship/job",
+        "location": "Eden Prairie, MN"
+      },
+      {
+        "company": "Envita Solutions",
+        "role": "Software Engineering Intern, Applied AI",
+        "link": "https://thgrp.wd12.myworkdayjobs.com/Envita/job/Indianapolis-IN/Software-Engineering-Intern--Applied-AI_R-1727",
+        "location": "Indianapolis, IN"
+      },
+      {
+        "company": "Envita Solutions",
+        "role": "Data Scientist Intern, Applied AI",
+        "link": "https://thgrp.wd12.myworkdayjobs.com/Envita/job/Indianapolis-IN/Data-Scientist-Intern--Applied-AI_R-1728",
+        "location": "Indianapolis, IN"
+      },
+      {
+        "company": "Manulife",
+        "role": "Software Engineering Co-op",
+        "link": "https://manulife.wd3.myworkdayjobs.com/MFCJH_adminJobs/job/Boston-Massachusetts/Spring-Co-op-2027---Software-Engineering-Intern_JR26110405",
+        "location": "Boston, MA"
+      },
+      {
+        "company": "Cmu",
+        "role": "Cybersecurity Engineer Intern",
+        "link": "https://cmu.wd115.myworkdayjobs.com/CMU/job/Pittsburgh-PA/Cybersecurity-Engineer-Intern--Spring-2027-_2025347",
+        "location": "Pittsburgh, PA"
+      },
+      {
+        "company": "Cmu",
+        "role": "Cyber AI Engineering Intern 🛂",
+        "link": "https://cmu.wd115.myworkdayjobs.com/CMU/job/Pittsburgh-PA/Cyber-AI-Engineering-Intern--Spring-2027-_2025346-1",
+        "location": "Pittsburgh, PA"
+      },
+      {
+        "company": "Cisco",
+        "role": "Software Engineer Compiler I",
+        "link": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Austin-Texas-US/Software-Engineer-Compiler-I--Full-Time----United-States_2031593",
+        "location": "Austin, TX"
+      },
+      {
+        "company": "TikTok",
+        "role": "Machine Learning Scientist Intern - Local Services 🎓",
+        "link": "https://lifeattiktok.com/search/7703925583541979445",
+        "location": "San Jose, CA"
+      }
+    ]
+  }
+]
