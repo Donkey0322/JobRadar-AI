@@ -1,1 +1,128 @@
-[]
+[
+  {
+    "name": "batches/jwv4ueuzsb3391as5gbemeva2wpfm94w540g",
+    "submittedAt": "2026-11-13T06:41:40.152Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Apple",
+        "role": "Software Engineer, Apple Ads",
+        "link": "https://jobs.apple.com/en-us/details/200694842-0836/software-engineer-apple-ads?team=SFTWR",
+        "location": "Cupertino",
+        "country": "USA"
+      },
+      {
+        "company": "Apple",
+        "role": "Machine Learning Engineer",
+        "link": "https://jobs.apple.com/en-us/details/200694852-0836/machine-learning-engineer?team=SFTWR",
+        "location": "Cupertino",
+        "country": "USA"
+      },
+      {
+        "company": "Apple",
+        "role": "Software Development Engineer, Test Tooling",
+        "link": "https://jobs.apple.com/en-us/details/200693291-0836/software-development-engineer-test-tooling?team=SFTWR",
+        "location": "Cupertino",
+        "country": "USA"
+      },
+      {
+        "company": "Apple",
+        "role": "Applied Machine Learning Research Engineer - Multimodal for Human Understanding",
+        "link": "https://jobs.apple.com/en-us/details/200694398-3956/applied-machine-learning-research-engineer-multimodal-for-human-understanding?team=MLAI",
+        "location": "Sunnyvale",
+        "country": "USA"
+      },
+      {
+        "company": "Apple",
+        "role": "UI Software Engineer - Apple TV",
+        "link": "https://jobs.apple.com/en-us/details/200694832-3543/ui-software-engineer-apple-tv?team=SFTWR",
+        "location": "San Diego",
+        "country": "USA"
+      },
+      {
+        "company": "Apple",
+        "role": "Machine Learning Engineer, Evaluation and Quality, Creativity Apps",
+        "link": "https://jobs.apple.com/en-us/details/200691707-7141/machine-learning-engineer-evaluation-and-quality-creativity-apps?team=SFTWR",
+        "location": "Various Locations within San Diego Metro Area",
+        "country": "USA"
+      },
+      {
+        "company": "Apple",
+        "role": "PHY Systems Engineer",
+        "link": "https://jobs.apple.com/en-us/details/200694578-3543/phy-systems-engineer?team=HRDWR",
+        "location": "San Diego",
+        "country": "USA"
+      },
+      {
+        "company": "Apple",
+        "role": "PHY Systems Engineer",
+        "link": "https://jobs.apple.com/en-us/details/200694578-3956/phy-systems-engineer?team=HRDWR",
+        "location": "Sunnyvale",
+        "country": "USA"
+      },
+      {
+        "company": "Apple",
+        "role": "Build Automation & iOS Engineer - Services Special Project",
+        "link": "https://jobs.apple.com/en-us/details/200694227-0836/build-automation-ios-engineer-services-special-project?team=SFTWR",
+        "location": "Cupertino",
+        "country": "USA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-Stack Engineer 4 (Java, Spring Boot, AWS) (Enterprise Platforms Technology)",
+        "link": "https://www.capitalonecareers.com/job/plano/full-stack-engineer-4-java-spring-boot-aws-enterprise-platforms-technology/1732/103239273216",
+        "location": "Plano, TX",
+        "country": "USA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-Stack Engineer 4 (Java, Python, Cloud) (Enterprise Platforms Technology)",
+        "link": "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4-java-python-cloud-enterprise-platforms-technology/1732/103239273072",
+        "location": "McLean, VA",
+        "country": "USA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-Stack Engineer 4 (Java, Spring Boot, AWS) (Enterprise Platforms Technology)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Plano-TX/Full-Stack-Engineer-4--Java--Spring-Boot--AWS---Enterprise-Platforms-Technology-_R1005416-2",
+        "location": "Plano, TX",
+        "country": "USA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-Stack Engineer 4 (Java, Python, Cloud) (Enterprise Platforms Technology)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-Stack-Engineer-4--Java--Python--Cloud---Enterprise-Platforms-Technology-_R1005693-1",
+        "location": "McLean, VA",
+        "country": "USA"
+      },
+      {
+        "company": "Kyndryl",
+        "role": "Mainframe MQ System Programmer",
+        "link": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers/job/Bangalore-Karnataka-India/Mainframe-MQ-System-Programmer_R-71870",
+        "location": "4 Locations",
+        "country": "Unsure"
+      },
+      {
+        "company": "Thomsonreuters",
+        "role": "Software Engineer",
+        "link": "https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/India-Bengaluru-Karnataka/Software-Engineer_JREQ204994-1",
+        "location": "",
+        "country": "Unsure"
+      },
+      {
+        "company": "Westinghouse Electric Company, LLC",
+        "role": "System Planning Engineer",
+        "link": "http://careers.westinghousenuclear.com/WECTEC_Staffing/job/OTHER-System-Planning-Engineer-MA-0/1430403700/",
+        "location": "OTHER, MA, US, 0",
+        "country": "USA"
+      },
+      {
+        "company": "SpaceXSI",
+        "role": "Government Cloud Security Engineer",
+        "link": "https://job-boards.greenhouse.io/xai/jobs/5294116007",
+        "location": "Austin, TX; New York, NY; Palo Alto, CA; Washington, DC",
+        "country": "USA"
+      }
+    ]
+  }
+]
