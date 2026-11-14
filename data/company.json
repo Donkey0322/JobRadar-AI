@@ -16820,7 +16820,8 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/claylabs",
     "urls": [
-      "https://jobs.ashbyhq.com/claylabs/5b7eced2-36bd-4265-a2a8-da0f786e47aa/application?embed=true"
+      "https://jobs.ashbyhq.com/claylabs/5b7eced2-36bd-4265-a2a8-da0f786e47aa/application?embed=true",
+      "https://jobs.ashbyhq.com/claylabs/f8d2a754-8ac4-4ba8-9c36-ed56184132a7"
     ]
   },
   {
@@ -20966,6 +20967,7 @@
       "https://jobs.ericsson.com/careers/job/563121774181800?domain=ericsson.com&8fold_id=563121774181800",
       "https://jobs.ericsson.com/careers/job/563121775140665?domain=ericsson.com&8fold_id=563121775140665",
       "https://jobs.ericsson.com/careers/job/563121775879328?domain=ericsson.com&8fold_id=563121775879328",
+      "https://jobs.ericsson.com/careers/job/563121776668074?domain=ericsson.com&8fold_id=563121776668074",
       "https://jobs.ericsson.com/careers/job/563121776777756?domain=ericsson.com&8fold_id=563121776777756",
       "https://jobs.ericsson.com/careers/job/563121776796797?domain=ericsson.com&8fold_id=563121776796797",
       "https://jobs.ericsson.com/careers/job/563121776827902?domain=ericsson.com&8fold_id=563121776827902",
@@ -33761,6 +33763,7 @@
       "https://jobs.ashbyhq.com/mercor/6d1de461-c08d-419c-96cf-ed38083e0976",
       "https://jobs.ashbyhq.com/mercor/799ecfcc-4258-4075-8b11-12fc64fb2868",
       "https://jobs.ashbyhq.com/mercor/aac13ab1-a746-437a-8c56-daf6e8b6c542",
+      "https://jobs.ashbyhq.com/mercor/ae344099-3fde-4027-bfde-f953db8b4728",
       "https://jobs.ashbyhq.com/mercor/e106399e-d85e-4af2-9bc8-6a0e144f318f",
       "https://jobs.ashbyhq.com/mercor/f6035e89-f820-482c-9500-efb70226b134",
       "https://jobs.ashbyhq.com/mercor/fa580f7f-8752-428c-bb6b-439fa72c76e7"
@@ -34109,6 +34112,7 @@
       "https://www.metacareers.com/profile/job_details/2282367178830920",
       "https://www.metacareers.com/profile/job_details/2288012098648243",
       "https://www.metacareers.com/profile/job_details/2288055238639571",
+      "https://www.metacareers.com/profile/job_details/2296637507735867",
       "https://www.metacareers.com/profile/job_details/2316600655751692",
       "https://www.metacareers.com/profile/job_details/2326448434856529",
       "https://www.metacareers.com/profile/job_details/2329761541160858",
@@ -40823,6 +40827,7 @@
       "https://careers.qualcomm.com/careers/job/446719623106?domain=qualcomm.com&8fold_id=446719623106",
       "https://careers.qualcomm.com/careers/job/446720637931?domain=qualcomm.com&8fold_id=446720637931",
       "https://careers.qualcomm.com/careers/job/446720988289?domain=qualcomm.com&8fold_id=446720988289",
+      "https://careers.qualcomm.com/careers/job/446721293506?domain=qualcomm.com&8fold_id=446721293506",
       "https://careers.qualcomm.com/careers/job/446721349370?domain=qualcomm.com&8fold_id=446721349370",
       "https://careers.qualcomm.com/careers/job/446721430478?domain=qualcomm.com&8fold_id=446721430478",
       "https://careers.qualcomm.com/careers/job/446721614073?domain=qualcomm.com&8fold_id=446721614073",
@@ -47750,6 +47755,7 @@
     "page": "https://careers.synopsys.com/search-jobs/resultspost",
     "urls": [
       "https://careers.synopsys.com/job/canonsburg/data-center-site-reliability-engineer/44408/103167895200",
+      "https://careers.synopsys.com/job/hillsboro/front-end-design-engineer/44408/103189170128",
       "https://careers.synopsys.com/job/nepean/engineering-documentation-and-ai-automation-internship-16-month-co-op/44408/103136134960",
       "https://careers.synopsys.com/job/porto-salvo/system-validation-engineer/44408/102786026320",
       "https://careers.synopsys.com/job/porto-salvo/web-application-engineer-ux-ui/44408/102946018720",
