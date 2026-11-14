@@ -21066,6 +21066,16 @@
     ]
   },
   {
+    "name": "esrtreit",
+    "ats": "lever",
+    "identifier": "esrtreit",
+    "domain": "https://jobs.lever.co",
+    "page": "https://api.lever.co/v0/postings/esrtreit?mode=json",
+    "urls": [
+      "https://jobs.lever.co/esrtreit/9ec61f1b-1eeb-44c8-8be2-f25167b83267"
+    ]
+  },
+  {
     "name": "Etched",
     "ats": "ashby",
     "identifier": "Etched",
@@ -33118,6 +33128,17 @@
     "urls": []
   },
   {
+    "name": "martinmarietta",
+    "ats": "workday",
+    "identifier": "martinmarietta-martin_marietta_careers",
+    "domain": "https://martinmarietta.wd5.myworkdayjobs.com/Martin_Marietta_Careers",
+    "page": "https://martinmarietta.wd5.myworkdayjobs.com/wday/cxs/martinmarietta/Martin_Marietta_Careers/jobs",
+    "urls": [
+      "https://martinmarietta.wd5.myworkdayjobs.com/Martin_Marietta_Careers/job/Raleigh-NC/Intern--Data-Scientist_JR024144-1",
+      "https://martinmarietta.wd5.myworkdayjobs.com/Martin_Marietta_Careers/job/Raleigh-NC/Intern--Software-Data-Integration-Engineer_JR024146"
+    ]
+  },
+  {
     "name": "marvell",
     "ats": "workday",
     "identifier": "marvell-marvellcareers",
@@ -36051,6 +36072,17 @@
     ]
   },
   {
+    "name": "netapp",
+    "ats": "eightfold",
+    "identifier": "netapp",
+    "domain": "netapp.com",
+    "page": "https://netapp.eightfold.ai/api/apply/v2/jobs?domain=netapp.com",
+    "urls": [
+      "https://netapp.eightfold.ai/careers/job/45497201",
+      "https://netapp.eightfold.ai/careers/job/45498081"
+    ]
+  },
+  {
     "name": "NetApp, Inc.",
     "ats": "successfactors",
     "identifier": "jobs.netapp.com",
@@ -36468,6 +36500,7 @@
       "https://jobs.nexteraenergy.com/job/Juno-Beach-Prin-Software-Development-Eng-FL-33408/1437258800/",
       "https://jobs.nexteraenergy.com/job/Juno-Beach-Software-Engineering-Intern-Measurement-and-Control-FL-33408/1332910400/?ats=successfactors",
       "https://jobs.nexteraenergy.com/job/Juno-Beach-Sr-Data-Scientist-FL-33408/1448113900/",
+      "https://jobs.nexteraenergy.com/job/Juno-Beach-Summer-Intern-Technical-FL-33408/1450749000/?ats=successfactors",
       "https://jobs.nexteraenergy.com/job/Miami-IT-Business-Systems-Analyst-FL-33134/1448073400/",
       "https://jobs.nexteraenergy.com/job/St_-Paul-Cybersecurity-Analyst-MN-55107/1437253100/",
       "https://jobs.nexteraenergy.com/job/St_-Paul-Sr-Software-Development-Eng-MN-55107/1448657600/",
@@ -42886,6 +42919,7 @@
       "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MN-BURNSVILLE-NORTH--2900-County-Rd-42-W--NORTH-BLDG/Systems-Engineering-Intern_01881462",
       "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-TX-MCKINNEY-513WB--2501-W-University-Dr--WING-B-BLDG/Software-Engineering-Intern--Summer-2027-_01886440",
       "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-TX-REMOTE/SAP-GTS-Systems-Analyst_01850208",
+      "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineering-Co-op--Summer-Fall-_01884404",
       "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/Warminster-Wiltshire/Principle-Training-Systems-Engineer_01888951",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/AU-QLD-CANNON-HILL-101--101-Southgate-Ave--SOUTHGATE/Systems-Safety-Engineer_01870026",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/AU-SA-MAWSON-LAKES-111--1-11-Technology-Dr--BLDG-111/Graduate-DevSecOps-Engineer_01883926",
@@ -53799,6 +53833,16 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/xantium/jobs",
     "urls": []
+  },
+  {
+    "name": "xboxgaming",
+    "ats": "workday",
+    "identifier": "xboxgaming-external",
+    "domain": "https://xboxgaming.wd1.myworkdayjobs.com/External",
+    "page": "https://xboxgaming.wd1.myworkdayjobs.com/wday/cxs/xboxgaming/External/jobs",
+    "urls": [
+      "https://xboxgaming.wd1.myworkdayjobs.com/External/job/Middleton/Activision-2027-Summer-Internships---Game-Systems-Engineering_R028106"
+    ]
   },
   {
     "name": "xcelenergy",
