@@ -10911,7 +10911,9 @@
     "identifier": "braincorp",
     "domain": "https://www.braincorp.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/braincorp/jobs",
-    "urls": []
+    "urls": [
+      "https://www.braincorp.com/open-positions?gh_jid=8879726002"
+    ]
   },
   {
     "name": "braincorporation",
@@ -10919,9 +10921,7 @@
     "identifier": "braincorporation",
     "domain": "https://www.braincorp.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/braincorporation/jobs",
-    "urls": [
-      "https://www.braincorp.com/open-positions?gh_jid=8879726002"
-    ]
+    "urls": []
   },
   {
     "name": "brave",
@@ -42194,6 +42194,16 @@
     "domain": "https://rodanenergysolutionsinc.applytojob.com",
     "page": "https://rodanenergysolutionsinc.applytojob.com/apply/jobs",
     "urls": []
+  },
+  {
+    "name": "Rodriguez Services",
+    "ats": "jazzhr",
+    "identifier": "rodriguezservicesllc.applytojob.com",
+    "domain": "https://rodriguezservicesllc.applytojob.com",
+    "page": "https://rodriguezservicesllc.applytojob.com/apply/jobs",
+    "urls": [
+      "https://rodriguezservicesllc.applytojob.com/apply/EGcmxtMt7K/2027-Software-Engineer-Intern-Placement-Year"
+    ]
   },
   {
     "name": "roku",
