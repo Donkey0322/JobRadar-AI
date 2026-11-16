@@ -4069,7 +4069,8 @@
       "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26016137",
       "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26016174",
       "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26016309",
-      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26016539"
+      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26016539",
+      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26016677"
     ]
   },
   {
@@ -27806,6 +27807,16 @@
     ]
   },
   {
+    "name": "instil",
+    "ats": "ashby",
+    "identifier": "instil",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/instil",
+    "urls": [
+      "https://jobs.ashbyhq.com/instil/b1be07e8-60de-432c-82ff-6ffb220ce563/application?embed=true"
+    ]
+  },
+  {
     "name": "insulet",
     "ats": "workday",
     "identifier": "insulet-insuletcareers",
@@ -34430,6 +34441,16 @@
     ]
   },
   {
+    "name": "minitab",
+    "ats": "greenhouse",
+    "identifier": "minitab",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/minitab/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/minitab/jobs/8200708003"
+    ]
+  },
+  {
     "name": "mintive",
     "ats": "ashby",
     "identifier": "mintive",
@@ -34655,6 +34676,16 @@
     "urls": [
       "https://ats.rippling.com/momentumcareers/jobs/6149a3f0-dcc2-47fd-820d-14bf38cae015",
       "https://ats.rippling.com/momentumcareers/jobs/dbcd3c46-e2fa-4d75-8da1-ac8d15d3771e"
+    ]
+  },
+  {
+    "name": "momentumcompany3",
+    "ats": "greenhouse",
+    "identifier": "momentumcompany3",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/momentumcompany3/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/momentumcompany3/jobs/8614696002"
     ]
   },
   {
@@ -38345,7 +38376,8 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/pacificfusion/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/pacificfusion/jobs/4048816009",
-      "https://job-boards.greenhouse.io/pacificfusion/jobs/4398373009"
+      "https://job-boards.greenhouse.io/pacificfusion/jobs/4398373009",
+      "https://job-boards.greenhouse.io/pacificfusion/jobs/4505668009"
     ]
   },
   {
@@ -43762,6 +43794,7 @@
       "https://job-boards.greenhouse.io/schonfeld/jobs/7957507",
       "https://job-boards.greenhouse.io/schonfeld/jobs/7958235",
       "https://job-boards.greenhouse.io/schonfeld/jobs/8031499",
+      "https://job-boards.greenhouse.io/schonfeld/jobs/8171699",
       "https://job-boards.greenhouse.io/schonfeld/jobs/8209327",
       "https://job-boards.greenhouse.io/schonfeld/jobs/8209331",
       "https://job-boards.greenhouse.io/schonfeld/jobs/8285213",
@@ -44534,7 +44567,10 @@
     "identifier": "shopify.com",
     "domain": "https://www.shopify.com",
     "page": "",
-    "urls": []
+    "urls": [
+      "https://www.shopify.com/careers/applied-machine-learning-engineering-internships-summer-2027_1d6b9bb9-a132-4ad9-b33f-3e55d2cfc536",
+      "https://www.shopify.com/careers/can-software-engineering-internships-summer-2027_7ebb28da-0f4a-40ae-b41f-f5de60f3ca2a"
+    ]
   },
   {
     "name": "shure",
