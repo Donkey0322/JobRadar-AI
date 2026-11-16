@@ -14,6 +14,20 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Schonfeld</td>
+      <td width="420" align="left" valign="top">Platform Engineering Intern<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/schonfeld/jobs/8171699"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 16</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Pacificfusion</td>
+      <td width="420" align="left" valign="top">HPC/DevOps Engineering Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">San Leandro, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/pacificfusion/jobs/4505668009"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 16</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">GM Financial United States</td>
       <td width="420" align="left" valign="top">Intern - Software Development Engineer</td>
       <td width="180" align="left" valign="top">Irving, TX</td>
@@ -2099,24 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-TX-RICHARDSON-462--3200-E-Renner-Rd--RENNER-BLDG-462/Systems-Engineer-2027-Summer-Intern--Onsite-_01883887"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 3</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Spectrum</td>
-      <td width="420" align="left" valign="top">2027 Summer Intern: Software Engineer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Englewood, CO</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Tmobile</td>
-      <td width="420" align="left" valign="top">Software Engineering Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Atlanta, GA</td>
-      <td width="120" align="left" valign="top"><a href="https://tmobile.wd1.myworkdayjobs.com/External/job/Atlanta-Georgia/Summer-2027-Software-Engineering-Internship_REQ380652"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 2,161 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 2,163 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-16T23:13:43.528Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-16T23:18:47.501Z</code></sub>

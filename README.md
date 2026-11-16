@@ -89,9 +89,9 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [2027 Summer Intern](./job-postings/summer-intern.md) — 2,161 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 1,898 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,543 opportunities
+- [2027 Summer Intern](./job-postings/summer-intern.md) — 2,163 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 1,899 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,544 opportunities
 
 ## The List 🚴‍♂️
 
@@ -110,6 +110,20 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Schonfeld</td>
+      <td width="420" align="left" valign="top">Platform Engineering Intern<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/schonfeld/jobs/8171699"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 16</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Pacificfusion</td>
+      <td width="420" align="left" valign="top">HPC/DevOps Engineering Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">San Leandro, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/pacificfusion/jobs/4505668009"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 16</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">GM Financial United States</td>
       <td width="420" align="left" valign="top">Intern - Software Development Engineer</td>
@@ -306,23 +320,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7703925583541979445"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 13</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Quickenloans</td>
-      <td width="420" align="left" valign="top">Data Analyst Intern - Summer 2027</td>
-      <td width="180" align="left" valign="top">Detroit, MI</td>
-      <td width="120" align="left" valign="top"><a href="https://quickenloans.wd5.myworkdayjobs.com/rocket_careers/job/Detroit-MI/Data-Analyst-Intern---Summer-2027_R-083832"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 13</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Geaerospace</td>
-      <td width="420" align="left" valign="top">Digital Systems Engineering Intern - Bohemia, NY - Summer 2027<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Bohemia, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Bohemia/Digital-Systems-Engineering-Intern---Bohemia--NY---Summer-2027_R5042961-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 13</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 2,161 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 2,163 opportunities in this section.</sub></p>
 
 ### Off Season Intern
 
@@ -337,6 +337,13 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Minitab</td>
+      <td width="420" align="left" valign="top">Software Engineering Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">State College, PA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/minitab/jobs/8200708003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 16</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Optimum</td>
       <td width="420" align="left" valign="top">Intern - Software Developer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
@@ -540,16 +547,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477913195?domain=lockheedmartin.com&amp;8fold_id=996477913195"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 12</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Engineer Intern</td>
-      <td width="180" align="left" valign="top">King of Prussia, PA</td>
-      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477119628?domain=lockheedmartin.com&amp;8fold_id=996477119628"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 12</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,898 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,899 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -564,6 +564,13 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Momentum</td>
+      <td width="420" align="left" valign="top">New Grad 2027: Associate Cybersecurity Analyst</td>
+      <td width="180" align="left" valign="top">Dallas, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/momentumcompany3/jobs/8614696002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 16</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Symbotic</td>
       <td width="420" align="left" valign="top">Software Engineer, Core Systems &amp; Platform Services</td>
@@ -767,16 +774,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10551912"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 13</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Cisco</td>
-      <td width="420" align="left" valign="top">Software Engineer Compiler I</td>
-      <td width="180" align="left" valign="top">Austin, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Austin-Texas-US/Software-Engineer-Compiler-I--Full-Time----United-States_2031593"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 13</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,543 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,544 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -795,7 +795,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-16T23:13:43.528Z</code>
+      🕒 Last updated <code>2026-11-16T23:18:47.501Z</code>
     </span>
   </p>
 </div>

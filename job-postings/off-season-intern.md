@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Minitab</td>
+      <td width="420" align="left" valign="top">Software Engineering Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">State College, PA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/minitab/jobs/8200708003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 16</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Optimum</td>
       <td width="420" align="left" valign="top">Intern - Software Developer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Bethpage, NY</td>
@@ -2106,17 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/RTP-North-Carolina-US/Security-Consulting-Engineer-I--Intern----United-States_2024817"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 29</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Two Six Technologies</td>
-      <td width="420" align="left" valign="top">Systems Software Engineering Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Arlington, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/twosixtechnologies/jobs/6236518004"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 29</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,898 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,899 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-16T23:13:43.528Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-16T23:18:47.501Z</code></sub>

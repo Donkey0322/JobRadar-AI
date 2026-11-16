@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Momentum</td>
+      <td width="420" align="left" valign="top">New Grad 2027: Associate Cybersecurity Analyst</td>
+      <td width="180" align="left" valign="top">Dallas, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/momentumcompany3/jobs/8614696002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 16</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Symbotic</td>
       <td width="420" align="left" valign="top">Software Engineer, Core Systems &amp; Platform Services</td>
       <td width="180" align="left" valign="top">Wilmington, MA</td>
@@ -2106,17 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/whoop/d31312c2-236a-45f1-8da7-61a7ca8d1622"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 9</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">CSI</td>
-      <td width="420" align="left" valign="top">Software Engineer I, C#/.NET 🛂<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Paducah, KY</td>
-      <td width="120" align="left" valign="top"><a href="https://csiweb.wd1.myworkdayjobs.com/CSI_Careers/job/Paducah-KY-Corporate/Software-Engineer-I---C--NET---Hybrid---Paducah--KY_R-100739"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 9</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 3,543 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 3,544 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-16T23:13:43.528Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-16T23:18:47.501Z</code></sub>
