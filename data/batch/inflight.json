@@ -1,1 +1,57 @@
-[]
+[
+  {
+    "name": "batches/6d8s84sq4mehif5tkgl6ha2gdnjodr6xb9do",
+    "submittedAt": "2026-11-17T05:08:21.561Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "HexArmor",
+        "role": "Software Engineer Intern",
+        "link": "https://job-boards.greenhouse.io/hexarmor/jobs/8206200003",
+        "location": "Atlanta, GA"
+      },
+      {
+        "company": "Clera",
+        "role": "Full-Stack Software Engineering Intern",
+        "link": "https://jobs.ashbyhq.com/Clera/42992916-9ca1-48ca-9378-f4a13ea3733d",
+        "location": "New York, NY"
+      },
+      {
+        "company": "Silna Health",
+        "role": "AI Deployment Analyst",
+        "link": "https://jobs.ashbyhq.com/silnahealth.com/61222b3c-70fd-4e80-8903-468d96070833",
+        "location": "New York, NY"
+      },
+      {
+        "company": "Crosscountry-consulting",
+        "role": "New Grad 2027: Junior Forward Deployed Software Engineer",
+        "link": "https://jobs.lever.co/crosscountry-consulting/5f8a920b-77ed-4200-b37d-1f5d68c1bc21",
+        "location": "Philadelphia, PA"
+      },
+      {
+        "company": "Quest Analytics",
+        "role": "Software Engineer Intern - C# - ASP.NET",
+        "link": "https://jobs.lever.co/questanalytics/8e5758b7-6945-4c22-9f89-3d029ca9716f/apply",
+        "location": "Overland Park, KS"
+      },
+      {
+        "company": "TikTok",
+        "role": "Client Security & Data Foundation Machine Learning Engineer Intern 🎓",
+        "link": "https://lifeattiktok.com/search/7708750900450134325",
+        "location": "San Jose, CA"
+      },
+      {
+        "company": "Wyetech",
+        "role": "Software Engineer 0 or 1",
+        "link": "https://wyetech.applytojob.com/apply/7d200RlbqP/Software-Engineer-Skill-Level-0-Or-1",
+        "location": "United States"
+      },
+      {
+        "company": "Laborie Medical Technologies",
+        "role": "Software Engineer 1",
+        "link": "https://jobs.jobvite.com/laborie/job/oQOXAfwV?nl=1&nl=1&fr=false",
+        "location": "Portsmouth, NH"
+      }
+    ]
+  }
+]
