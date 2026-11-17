@@ -1,1 +1,63 @@
-[]
+[
+  {
+    "name": "batches/2i640huv024fcdkmbo7fr9obbz10nffz81ac",
+    "submittedAt": "2026-11-17T22:03:07.536Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Sedaro",
+        "role": "Software Engineer Intern",
+        "link": "https://sedarotech.bamboohr.com/careers/97",
+        "location": "Arlington, VA"
+      },
+      {
+        "company": "Garmin",
+        "role": "Software Engineer Intern, Real Time Aviation Data",
+        "link": "https://careers.garmin.com/jobs/20081",
+        "location": "Chanhassen, MN"
+      },
+      {
+        "company": "Andurilindustries",
+        "role": "Machine Learning Engineer Intern",
+        "link": "https://boards.greenhouse.io/andurilindustries/jobs/5274037007?gh_jid=5274037007",
+        "location": "Santa Ana, CA"
+      },
+      {
+        "company": "AfterQuery",
+        "role": "Software Engineering Intern",
+        "link": "https://jobs.ashbyhq.com/AfterQuery/83ca470d-b1f7-41d6-935f-c1f2b8243e4b",
+        "location": "San Francisco, CA"
+      },
+      {
+        "company": "Recruiting.paylocity.com",
+        "role": "Junior Developer - AI Team",
+        "link": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4669574",
+        "location": "Nashville, TN"
+      },
+      {
+        "company": "Jobgether",
+        "role": "New Grad 2027: Software Engineer, Open Source and Linux",
+        "link": "https://jobs.lever.co/jobgether/f4b092a6-63f4-4209-897e-eb386e4aa422",
+        "location": "Remote"
+      },
+      {
+        "company": "Angel Host",
+        "role": "AI Product Engineer Intern Co-op",
+        "link": "https://angelhost.bamboohr.com/careers/123/",
+        "location": "Montreal, QC, Canada"
+      },
+      {
+        "company": "Xradar",
+        "role": "Software Engineer Co-op",
+        "link": "https://xradar.bamboohr.com/careers/203/",
+        "location": "Burnaby, BC, Canada"
+      },
+      {
+        "company": "Kraun Electric",
+        "role": "Junior Software Developer",
+        "link": "https://kraunelectric.bamboohr.com/careers/98/",
+        "location": "St. Catharines, ON, Canada"
+      }
+    ]
+  }
+]
