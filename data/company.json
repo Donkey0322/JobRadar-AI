@@ -6405,6 +6405,9 @@
       "https://apply.workable.com/botpress/j/9B3CB646E8/apply",
       "https://apply.workable.com/datavisor-jobs/j/2FB6A93BF6",
       "https://apply.workable.com/datavisor-jobs/j/2FB6A93BF6/apply",
+      "https://apply.workable.com/falcomm/j/41F139E6F7/apply",
+      "https://apply.workable.com/falcomm/j/64D0E86EFE",
+      "https://apply.workable.com/falcomm/j/64D0E86EFE/apply",
       "https://apply.workable.com/j/007CBE9F1D",
       "https://apply.workable.com/j/2FB6A93BF6",
       "https://apply.workable.com/j/472CF47F60",
@@ -9437,6 +9440,16 @@
     "domain": "https://biotechne.wd5.myworkdayjobs.com/biotechne",
     "page": "https://biotechne.wd5.myworkdayjobs.com/wday/cxs/biotechne/biotechne/jobs",
     "urls": []
+  },
+  {
+    "name": "bis",
+    "ats": "lever",
+    "identifier": "bis",
+    "domain": "https://jobs.lever.co",
+    "page": "https://api.lever.co/v0/postings/bis?mode=json",
+    "urls": [
+      "https://jobs.lever.co/bis/ce37713b-9922-4a73-999a-f0b8e544540b/apply"
+    ]
   },
   {
     "name": "Black Cape",
@@ -15738,6 +15751,16 @@
     ]
   },
   {
+    "name": "CDM Smith",
+    "ats": "icims",
+    "identifier": "careers.cdmsmith.com",
+    "domain": "https://careers.cdmsmith.com",
+    "page": "https://careers.cdmsmith.com/api/jobs",
+    "urls": [
+      "https://careers.cdmsmith.com/jobs/4994?icims=1&lang=en-us"
+    ]
+  },
+  {
     "name": "celonis",
     "ats": "greenhouse",
     "identifier": "celonis",
@@ -17668,7 +17691,8 @@
     "domain": "https://jobs.constellationenergy.com",
     "page": "https://jobs.constellationenergy.com/api/jobs",
     "urls": [
-      "https://jobs.constellationenergy.com/jobs/142558?icims=1"
+      "https://jobs.constellationenergy.com/jobs/142558?icims=1",
+      "https://jobs.constellationenergy.com/jobs/143150?icims=1&lang=en-us"
     ]
   },
   {
@@ -19707,6 +19731,7 @@
     "domain": "https://draper.wd5.myworkdayjobs.com/draper_careers",
     "page": "https://draper.wd5.myworkdayjobs.com/wday/cxs/draper/draper_careers/jobs",
     "urls": [
+      "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Software-Engineering---DevOps-Intern_JR003155",
       "https://draper.wd5.myworkdayjobs.com/draper_careers/job/Cambridge-MA/Chief-Engineer---Navy-Strategic-Systems_JR002918",
       "https://draper.wd5.myworkdayjobs.com/draper_careers/job/Cambridge-MA/Embedded-Software-Engineer_JR001254",
       "https://draper.wd5.myworkdayjobs.com/draper_careers/job/Cambridge-MA/Flight-Compute-Software-in-the-Loop-Simulation-Engineer_JR002425",
@@ -29918,6 +29943,8 @@
     "page": "",
     "urls": [
       "https://jobs.jobvite.com/aarete/job/otGLAfwe?nl=1&nl=1&fr=false",
+      "https://jobs.jobvite.com/compunetix/job/oMdpAfwI?nl=1&nl=1&fr=false",
+      "https://jobs.jobvite.com/gei-consultants/job/ogR5zfwv?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/laborie/job/oQOXAfwV?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/metropolitantransportationauthority/job/oOvWAfwz?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/src-inc/job/o8lHAfwu",
@@ -31443,6 +31470,16 @@
       "https://jobs.l3harris.com/job/Wilmington-Intern,-Software-Engineer-MA-01887/1425515000/?ats=successfactors",
       "https://jobs.l3harris.com/job/Wilmington-Intern-D,-Software-Engineer-MA-01887/1422529400/?ats=successfactors",
       "https://jobs.l3harris.com/job/Yorba-Linda-Specialist%2C-Systems-Engineering-CA-92887/1437408000/"
+    ]
+  },
+  {
+    "name": "Laansu",
+    "ats": "jazzhr",
+    "identifier": "laansu.applytojob.com",
+    "domain": "https://laansu.applytojob.com",
+    "page": "https://laansu.applytojob.com/apply/jobs",
+    "urls": [
+      "https://laansu.applytojob.com/apply/IiHJSaTASV/Junior-Software-Developer"
     ]
   },
   {
@@ -35281,6 +35318,16 @@
     ]
   },
   {
+    "name": "Mirantis",
+    "ats": "smartrecruiters",
+    "identifier": "Mirantis",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/Mirantis/postings",
+    "urls": [
+      "https://jobs.smartrecruiters.com/Mirantis/744000162186029"
+    ]
+  },
+  {
     "name": "MIT Lincoln Laboratory",
     "ats": "successfactors",
     "identifier": "careers.ll.mit.edu",
@@ -39019,7 +39066,8 @@
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/349336",
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/349974",
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/350202",
-      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/350518"
+      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/350518",
+      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/350821"
     ]
   },
   {
@@ -39790,6 +39838,16 @@
       "https://www.pathai.com/careers/8651564002?gh_jid=8651564002",
       "https://www.pathai.com/careers/8696764002?gh_jid=8696764002",
       "https://www.pathai.com/careers/8769657002?gh_jid=8769657002"
+    ]
+  },
+  {
+    "name": "Pathlabs",
+    "ats": "jazzhr",
+    "identifier": "pathlabs.applytojob.com",
+    "domain": "https://pathlabs.applytojob.com",
+    "page": "https://pathlabs.applytojob.com/apply/jobs",
+    "urls": [
+      "https://pathlabs.applytojob.com/apply/qW73dwA0iS/Software-And-AI-Engineering-Intern"
     ]
   },
   {
@@ -41676,7 +41734,8 @@
       "https://qualcomm.eightfold.ai/careers/job/446721876471?domain=qualcomm.com&8fold_id=446721876471",
       "https://qualcomm.eightfold.ai/careers/job/446721876482?domain=qualcomm.com&8fold_id=446721876482",
       "https://qualcomm.eightfold.ai/careers/job/446721898983?domain=qualcomm.com&8fold_id=446721898983",
-      "https://qualcomm.eightfold.ai/careers/job/446722005254"
+      "https://qualcomm.eightfold.ai/careers/job/446722005254",
+      "https://qualcomm.eightfold.ai/careers/job/446722176432"
     ]
   },
   {
@@ -42017,6 +42076,16 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/rapdev",
     "urls": []
+  },
+  {
+    "name": "Raptor Maps",
+    "ats": "rippling",
+    "identifier": "raptor-maps-inc",
+    "domain": "https://ats.rippling.com",
+    "page": "https://api.rippling.com/platform/api/ats/v1/board/raptor-maps-inc/jobs",
+    "urls": [
+      "https://ats.rippling.com/raptor-maps-inc/jobs/be25d98e-262f-42a2-8276-dffbfbbf402a"
+    ]
   },
   {
     "name": "ravl_io",
@@ -47535,7 +47604,9 @@
     "domain": "https://statestreet.wd1.myworkdayjobs.com/Global",
     "page": "https://statestreet.wd1.myworkdayjobs.com/wday/cxs/statestreet/Global/jobs",
     "urls": [
+      "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/State-Street-Investment-Management---Data-Scientist---Summer-Internship-2027_R-801213",
       "https://statestreet.wd1.myworkdayjobs.com/Global/job/Quincy-Massachusetts/Full-Stack-Development-Intern--Full-time-Internship--Jan---June-2027-_R-801232",
+      "https://statestreet.wd1.myworkdayjobs.com/Global/job/Quincy-Massachusetts/Software-Engineering-Intern---Full-time-Internship--Jan---June-2027-_R-801236",
       "https://statestreet.wd1.myworkdayjobs.com/global/job/Austin-Texas/Site-Reliability-Engineer_R-799337",
       "https://statestreet.wd1.myworkdayjobs.com/global/job/Bangalore-India/Corporate-Audit-Integrated-Data-Analyst--Officer_R-786717",
       "https://statestreet.wd1.myworkdayjobs.com/global/job/Bangalore-India/Data-Scientist--AVP_R-795621",
@@ -54504,7 +54575,8 @@
       "https://wyetech.applytojob.com/apply/JZaqCVsoYm",
       "https://wyetech.applytojob.com/apply/QpdfIhgi64",
       "https://wyetech.applytojob.com/apply/YEDGRpI7Z3",
-      "https://wyetech.applytojob.com/apply/imyEU6hQQb"
+      "https://wyetech.applytojob.com/apply/imyEU6hQQb",
+      "https://wyetech.applytojob.com/apply/vH1nr4O9nO/Cloud-Software-Engineer-1"
     ]
   },
   {
