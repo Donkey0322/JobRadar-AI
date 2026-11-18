@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/AI%20Parsed-google%20%2F%20gemini--2.5--flash-blue" />
   <img src="https://img.shields.io/badge/Countries-USA-green" />
-  <img src="https://img.shields.io/badge/Updated-2026--11--17-orange" />
+  <img src="https://img.shields.io/badge/Updated-2026--11--18-orange" />
   <img src="https://img.shields.io/badge/License-MIT-yellow" />
 </p>
 
@@ -89,9 +89,9 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [2027 Summer Intern](./job-postings/summer-intern.md) — 2,176 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 1,917 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,588 opportunities
+- [2027 Summer Intern](./job-postings/summer-intern.md) — 2,174 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 1,915 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,587 opportunities
 
 ## The List 🚴‍♂️
 
@@ -322,7 +322,7 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 2,176 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 2,174 opportunities in this section.</sub></p>
 
 ### Off Season Intern
 
@@ -549,7 +549,7 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,917 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,915 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -776,7 +776,7 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,588 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,587 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -795,7 +795,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-17T22:07:44.643Z</code>
+      🕒 Last updated <code>2026-11-18T00:36:55.089Z</code>
     </span>
   </p>
 </div>
