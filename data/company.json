@@ -1901,6 +1901,16 @@
     "urls": []
   },
   {
+    "name": "alliedconsultants",
+    "ats": "icims",
+    "identifier": "alliedconsultants",
+    "domain": "https://careers-alliedconsultants.icims.com",
+    "page": "https://careers-alliedconsultants.icims.com/jobs/search",
+    "urls": [
+      "https://careers-alliedconsultants.icims.com/jobs/9084/ai-ml-engineer-intern/job"
+    ]
+  },
+  {
     "name": "alliedsolutions",
     "ats": "workday",
     "identifier": "alliedsolutions-allied_external",
@@ -4068,6 +4078,7 @@
       "https://amazon.jobs/en/jobs/3205224",
       "https://amazon.jobs/en/jobs/3205651",
       "https://amazon.jobs/en/jobs/3206077",
+      "https://www.amazon.jobs/en/jobs/10502826/post-silicon-systems-validation-engineer-i-annapurna-labs",
       "https://www.amazon.jobs/en/jobs/10595839/software-development-engineer-embedded-systems-early-career-2027-us",
       "https://www.amazon.jobs/en/jobs/3101249/software-development-engineer-internship-winter-2026-us"
     ]
@@ -4500,7 +4511,9 @@
     "identifier": "amperity",
     "domain": "https://amperity.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/amperity/jobs",
-    "urls": []
+    "urls": [
+      "https://amperity.com/careers?gh_jid=8393990#openpositions"
+    ]
   },
   {
     "name": "amplify",
@@ -9592,6 +9605,16 @@
     ]
   },
   {
+    "name": "bitdeer.breezy.hr",
+    "ats": "none",
+    "identifier": "bitdeer.breezy.hr",
+    "domain": "https://bitdeer.breezy.hr",
+    "page": "",
+    "urls": [
+      "https://bitdeer.breezy.hr/p/826249d5dbdc-2027-us-ai-engineering-new-college-graduate"
+    ]
+  },
+  {
     "name": "Black Cape",
     "ats": "jazzhr",
     "identifier": "blackcape.applytojob.com",
@@ -12383,6 +12406,7 @@
     "domain": "https://caci.wd1.myworkdayjobs.com/external",
     "page": "https://caci.wd1.myworkdayjobs.com/wday/cxs/caci/external/jobs",
     "urls": [
+      "https://caci.wd1.myworkdayjobs.com/External/job/Houston-TX-US/Early-Career-NASA-Space-Reactor---1-Freedom-Flight-Software-Development-Engineer_335249",
       "https://caci.wd1.myworkdayjobs.com/external/job/473-LISLE-IL-LISLE-EISENHOWER-IL-CACI-SITE-CLIENT-REIMBURSEMENT-SITE/System-Test-Engineer_332864",
       "https://caci.wd1.myworkdayjobs.com/external/job/473-LISLE-IL-LISLE-EISENHOWER-IL-CACI-SITE-CLIENT-REIMBURSEMENT-SITE/System-Test-Engineer_334392",
       "https://caci.wd1.myworkdayjobs.com/external/job/999-REMOTE/SAP-Software-Test-Engineer_332530",
@@ -14954,7 +14978,8 @@
     "domain": "https://careers.garmin.com",
     "page": "",
     "urls": [
-      "https://careers.garmin.com/jobs/20081"
+      "https://careers.garmin.com/jobs/20081",
+      "https://careers.garmin.com/jobs/20177"
     ]
   },
   {
@@ -14981,6 +15006,16 @@
       "https://careers.hellofresh.com/global/en/job/8280627?ph_id=8280627",
       "https://careers.hellofresh.com/global/en/job/8331574?ph_id=8331574",
       "https://careers.hellofresh.com/global/en/job/8335726?ph_id=8335726"
+    ]
+  },
+  {
+    "name": "careers.hpe.com",
+    "ats": "none",
+    "identifier": "careers.hpe.com",
+    "domain": "https://careers.hpe.com",
+    "page": "",
+    "urls": [
+      "https://careers.hpe.com/us/en/job/1217876"
     ]
   },
   {
@@ -21711,6 +21746,16 @@
       "https://job-boards.greenhouse.io/eulerity/jobs/4709040006",
       "https://job-boards.greenhouse.io/eulerity/jobs/4716146006",
       "https://job-boards.greenhouse.io/eulerity/jobs/4718113006"
+    ]
+  },
+  {
+    "name": "Euna Solutions",
+    "ats": "bamboohr",
+    "identifier": "euna",
+    "domain": "https://euna.bamboohr.com",
+    "page": "https://euna.bamboohr.com/careers/list",
+    "urls": [
+      "https://euna.bamboohr.com/careers/822"
     ]
   },
   {
@@ -30457,6 +30502,7 @@
       "https://jobs.dover.com/north-texas-family-health/a6b7e113-b823-45a1-9e8b-56aa0f6c36c9",
       "https://jobs.dover.com/operio/33f22876-e6ca-4faa-a020-f3ae95558e4f",
       "https://jobs.dover.com/operio/c0d270a6-eb23-4837-960f-eacb542a7434",
+      "https://jobs.dover.com/peripheral/1ef74a94-ed4a-44b8-a08a-cc662066cf0c",
       "https://jobs.dover.com/peripheral/4f4baf30-f659-4172-881e-4497b3808ad0",
       "https://jobs.dover.com/peripheral/6faa193a-8c36-4416-b97b-38602292f157",
       "https://jobs.dover.com/peripheral/7682c7e9-33ad-4975-8c29-a21e0cb62693",
@@ -41382,6 +41428,7 @@
     "domain": "https://pipersandler.wd501.myworkdayjobs.com/piper_sandler_careers",
     "page": "https://pipersandler.wd501.myworkdayjobs.com/wday/cxs/pipersandler/piper_sandler_careers/jobs",
     "urls": [
+      "https://pipersandler.wd501.myworkdayjobs.com/Piper_Sandler_Careers/job/Minneapolis-MN---HQ/XMLNAME-2027-Summer-Internship-Program---Data-Engineering_R-100805",
       "https://pipersandler.wd501.myworkdayjobs.com/piper_sandler_careers/job/Houston-4-TX-Main-Street/XMLNAME-2028-Campus-Recruiting---Investment-Banking-Summer-Analyst---Energy--Power---Infrastructure_R-100745",
       "https://pipersandler.wd501.myworkdayjobs.com/piper_sandler_careers/job/Minneapolis-MN---HQ/Core-Infrastructure-Engineer---Professional_R-100749"
     ]
@@ -45786,6 +45833,16 @@
     ]
   },
   {
+    "name": "scoutspace",
+    "ats": "greenhouse",
+    "identifier": "scoutspace",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/scoutspace/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/scoutspace/jobs/5489231008"
+    ]
+  },
+  {
     "name": "Seagate Technology",
     "ats": "successfactors",
     "identifier": "seagatecareers.com",
@@ -49024,6 +49081,23 @@
     "domain": "https://studentemployment-stthomas.icims.com",
     "page": "https://studentemployment-stthomas.icims.com/jobs/search",
     "urls": []
+  },
+  {
+    "name": "studentopportunities-lutron",
+    "ats": "icims",
+    "identifier": "studentopportunities-lutron",
+    "domain": "https://studentopportunities-lutron.icims.com",
+    "page": "https://studentopportunities-lutron.icims.com/jobs/search",
+    "urls": [
+      "https://studentopportunities-lutron.icims.com/jobs/5366/summer-2027---embedded-software-engineering-intern---cincinnati%2c-oh/job",
+      "https://studentopportunities-lutron.icims.com/jobs/5382/summer-2027---software-engineering-intern---lehigh-valley%2c-pa/job",
+      "https://studentopportunities-lutron.icims.com/jobs/5384/summer-2027---software-engineering-intern---philadelphia%2c-pa/job",
+      "https://studentopportunities-lutron.icims.com/jobs/5387/summer-2027---software-engineering-intern---boston%2c-ma/job",
+      "https://studentopportunities-lutron.icims.com/jobs/5388/summer-2027---software-engineering-intern---austin%2c-tx/job",
+      "https://studentopportunities-lutron.icims.com/jobs/5392/summer-2027---software-engineering-intern---cincinnati%2c-oh/job",
+      "https://studentopportunities-lutron.icims.com/jobs/5421/summer-2027-%e2%80%93-data-engineering-intern---philadelphia%2c-pa/job",
+      "https://studentopportunities-lutron.icims.com/jobs/5517/summer-2027-%e2%80%93-data-engineering-intern---coopersburg%2c-pa/job"
+    ]
   },
   {
     "name": "studiokraftonboard",
