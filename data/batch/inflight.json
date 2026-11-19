@@ -1,1 +1,138 @@
-[]
+[
+  {
+    "name": "batches/l3swc41t3toyamj8e102d9ez9ad7drgvgd95",
+    "submittedAt": "2026-11-19T21:59:21.553Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Thrivent",
+        "role": "Associate Investment Data Integrity Analyst",
+        "link": "https://thrivent.wd5.myworkdayjobs.com/external/job/MN---Minneapolis/Associate-Investment-Data-Integrity-Analyst_REQ-49083",
+        "location": "MN - Minneapolis",
+        "country": "USA"
+      },
+      {
+        "company": "Scout Space",
+        "role": "Computer Vision Engineer Intern, AI/ML",
+        "link": "https://job-boards.greenhouse.io/scoutspace/jobs/5489231008",
+        "location": "Reston, VA"
+      },
+      {
+        "company": "Lutron",
+        "role": "Embedded Software Engineering Intern",
+        "link": "https://studentopportunities-lutron.icims.com/jobs/5366/summer-2027---embedded-software-engineering-intern---cincinnati%2c-oh/job",
+        "location": "Cincinnati, OH"
+      },
+      {
+        "company": "Lutron",
+        "role": "Software Engineering Intern",
+        "link": "https://studentopportunities-lutron.icims.com/jobs/5382/summer-2027---software-engineering-intern---lehigh-valley%2c-pa/job",
+        "location": "Coopersburg, PA"
+      },
+      {
+        "company": "Lutron",
+        "role": "Software Engineering Intern",
+        "link": "https://studentopportunities-lutron.icims.com/jobs/5384/summer-2027---software-engineering-intern---philadelphia%2c-pa/job",
+        "location": "Philadelphia, PA"
+      },
+      {
+        "company": "Lutron",
+        "role": "Software Engineering Intern",
+        "link": "https://studentopportunities-lutron.icims.com/jobs/5387/summer-2027---software-engineering-intern---boston%2c-ma/job",
+        "location": "Boston, MA"
+      },
+      {
+        "company": "Lutron",
+        "role": "Software Engineering Intern",
+        "link": "https://studentopportunities-lutron.icims.com/jobs/5388/summer-2027---software-engineering-intern---austin%2c-tx/job",
+        "location": "Austin, TX"
+      },
+      {
+        "company": "Lutron",
+        "role": "Software Engineering Intern",
+        "link": "https://studentopportunities-lutron.icims.com/jobs/5392/summer-2027---software-engineering-intern---cincinnati%2c-oh/job",
+        "location": "Cincinnati, OH"
+      },
+      {
+        "company": "Lutron",
+        "role": "Data Engineering Intern",
+        "link": "https://studentopportunities-lutron.icims.com/jobs/5421/summer-2027-%e2%80%93-data-engineering-intern---philadelphia%2c-pa/job",
+        "location": "Philadelphia, PA"
+      },
+      {
+        "company": "Lutron",
+        "role": "Data Engineering Intern",
+        "link": "https://studentopportunities-lutron.icims.com/jobs/5517/summer-2027-%e2%80%93-data-engineering-intern---coopersburg%2c-pa/job",
+        "location": "Coopersburg, PA"
+      },
+      {
+        "company": "Careers.garmin.com",
+        "role": "Software Engineering Intern",
+        "link": "https://careers.garmin.com/jobs/20177",
+        "location": "Manhattan, KS"
+      },
+      {
+        "company": "Amperity",
+        "role": "Software Development Engineer Intern",
+        "link": "https://amperity.com/careers?gh_jid=8393990#openpositions",
+        "location": "Seattle, WA"
+      },
+      {
+        "company": "Allied Consultants",
+        "role": "AI/ML Engineer Intern",
+        "link": "https://careers-alliedconsultants.icims.com/jobs/9084/ai-ml-engineer-intern/job",
+        "location": "Austin, TX"
+      },
+      {
+        "company": "EUNA Solutions",
+        "role": "Associate AI-Enablement Developer Co-op",
+        "link": "https://euna.bamboohr.com/careers/822",
+        "location": "Oakville, Canada"
+      },
+      {
+        "company": "Hpe Simplivity",
+        "role": "Linux Software Engineer",
+        "link": "https://careers.hpe.com/us/en/job/1217876",
+        "location": "Roseville, CA"
+      },
+      {
+        "company": "Bitdeer",
+        "role": "New Grad 2027: AI Engineering",
+        "link": "https://bitdeer.breezy.hr/p/826249d5dbdc-2027-us-ai-engineering-new-college-graduate",
+        "location": "San Jose, CA"
+      },
+      {
+        "company": "Amazon",
+        "role": "Post-Silicon Systems Validation Engineer I, Annapurna Labs",
+        "link": "https://www.amazon.jobs/en/jobs/10502826/post-silicon-systems-validation-engineer-i-annapurna-labs",
+        "location": "Austin, TX"
+      }
+    ]
+  },
+  {
+    "name": "batches/z7dzwo1u3gfozm9ub8tnh8bkx4vhwopp4yf8",
+    "submittedAt": "2026-11-19T21:59:24.749Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Caci",
+        "role": "Flight Software Development Engineer, NASA Space Reactor – 1 Freedom 🇺🇸",
+        "link": "https://caci.wd1.myworkdayjobs.com/External/job/Houston-TX-US/Early-Career-NASA-Space-Reactor---1-Freedom-Flight-Software-Development-Engineer_335249",
+        "location": "Houston, TX"
+      }
+    ]
+  },
+  {
+    "name": "batches/wvhe6hxhsc3v6rp19e0zmyik5kg1e7804v8s",
+    "submittedAt": "2026-11-19T21:59:27.607Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Pipersandler",
+        "role": "Data Engineering Intern",
+        "link": "https://pipersandler.wd501.myworkdayjobs.com/Piper_Sandler_Careers/job/Minneapolis-MN---HQ/XMLNAME-2027-Summer-Internship-Program---Data-Engineering_R-100805",
+        "location": "Minneapolis, MN"
+      }
+    ]
+  }
+]
