@@ -6476,6 +6476,7 @@
       "https://apply.workable.com/bask-health-1/j/F0E122E877",
       "https://apply.workable.com/botpress/j/16C68A50A7/apply",
       "https://apply.workable.com/botpress/j/9B3CB646E8/apply",
+      "https://apply.workable.com/cwill-us/j/1BC6285A3C",
       "https://apply.workable.com/datavisor-jobs/j/2FB6A93BF6",
       "https://apply.workable.com/datavisor-jobs/j/2FB6A93BF6/apply",
       "https://apply.workable.com/falcomm/j/41F139E6F7/apply",
@@ -11074,6 +11075,7 @@
     "domain": "https://boseallaboutme.wd503.myworkdayjobs.com/bose_careers",
     "page": "https://boseallaboutme.wd503.myworkdayjobs.com/wday/cxs/boseallaboutme/bose_careers/jobs",
     "urls": [
+      "https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Software-Engineer-Co-op_R29387",
       "https://boseallaboutme.wd503.myworkdayjobs.com/bose_careers/job/CHN-Shenzhen-BOC/Andriod-Audio-Engineer---Audio-Technology-Licensing_R29173",
       "https://boseallaboutme.wd503.myworkdayjobs.com/bose_careers/job/CHN-Shenzhen-BOC/Controls-Systems-Engineer---Audio-Technology_R29227",
       "https://boseallaboutme.wd503.myworkdayjobs.com/bose_careers/job/CHN-Shenzhen-BOC/Software-Integration-Engineer---Audio-Technology_R29229",
@@ -12908,6 +12910,16 @@
       "https://campbellsoup.wd5.myworkdayjobs.com/externalcareers_globalsite/job/USA---NJ---Camden/Cloud-DevOps-Engineer_Req-69137",
       "https://campbellsoup.wd5.myworkdayjobs.com/externalcareers_globalsite/job/USA---Remote/Agentic-AI-Engineer-Co-Op_Req-66014",
       "https://campbellsoup.wd5.myworkdayjobs.com/externalcareers_globalsite/job/USA---Remote/Agentic-AI-Engineer-Co-Op_Req-66015"
+    ]
+  },
+  {
+    "name": "campingworld",
+    "ats": "workday",
+    "identifier": "campingworld-jobs",
+    "domain": "https://campingworld.wd5.myworkdayjobs.com/Jobs",
+    "page": "https://campingworld.wd5.myworkdayjobs.com/wday/cxs/campingworld/Jobs/jobs",
+    "urls": [
+      "https://campingworld.wd5.myworkdayjobs.com/Jobs/job/Chicago-IL/Junior-AI-Engineering-Intern_26_09290"
     ]
   },
   {
