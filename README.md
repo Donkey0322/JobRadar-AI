@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/AI%20Parsed-google%20%2F%20gemini--2.5--flash-blue" />
   <img src="https://img.shields.io/badge/Countries-USA-green" />
-  <img src="https://img.shields.io/badge/Updated-2026--11--18-orange" />
+  <img src="https://img.shields.io/badge/Updated-2026--11--19-orange" />
   <img src="https://img.shields.io/badge/License-MIT-yellow" />
 </p>
 
@@ -91,7 +91,7 @@ Each category page shows up to 300 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 2,187 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,926 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,639 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,638 opportunities
 
 ## The List 🚴‍♂️
 
@@ -776,7 +776,7 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,639 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,638 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -795,7 +795,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-18T21:46:40.458Z</code>
+      🕒 Last updated <code>2026-11-19T00:20:05.375Z</code>
     </span>
   </p>
 </div>
