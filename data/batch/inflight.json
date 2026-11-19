@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "name": "batches/ruxc9ygcm9ivhnxpyfewwqrd8v0ig0vllyx1",
+    "submittedAt": "2026-11-19T04:56:10.256Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Workstream",
+        "role": "Full Stack Engineer Intern",
+        "link": "https://job-boards.greenhouse.io/workstream/jobs/6265872004",
+        "location": "Vancouver, Canada"
+      },
+      {
+        "company": "Lockheedmartin",
+        "role": "Software Engineer Intern 🇺🇸",
+        "link": "https://lockheedmartin.eightfold.ai/careers/job/996477886327",
+        "location": "Owego, NY"
+      }
+    ]
+  }
+]
