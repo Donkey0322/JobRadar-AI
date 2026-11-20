@@ -6586,6 +6586,7 @@
       "https://apply.workable.com/j/9C2964C7CD",
       "https://apply.workable.com/j/CA15908E0A",
       "https://apply.workable.com/j/E81C7F7D3B",
+      "https://apply.workable.com/neurohire-dot-a-i/j/59974A3466",
       "https://apply.workable.com/persimmons-ai/j/E8AF3CDFB3",
       "https://apply.workable.com/prosync/j/6ECFBED6E7/apply"
     ]
@@ -9080,6 +9081,16 @@
       "https://careers-barrios.icims.com/jobs/2956/commercial-destinations-office---systems-engineer/job",
       "https://careers-barrios.icims.com/jobs/2985/thermal-protection-systems-%28tps%29-test-and-development-engineer/job",
       "https://careers-barrios.icims.com/jobs/3015/thermal-protection-systems-%28tps%29-test-and-development-engineer/job"
+    ]
+  },
+  {
+    "name": "Barry's",
+    "ats": "rippling",
+    "identifier": "barrys-careers",
+    "domain": "https://ats.rippling.com",
+    "page": "https://api.rippling.com/platform/api/ats/v1/board/barrys-careers/jobs",
+    "urls": [
+      "https://ats.rippling.com/barrys-careers/jobs/1205224b-cfd0-4b9e-afc1-fc041da94c7f"
     ]
   },
   {
@@ -17981,6 +17992,7 @@
     "domain": "https://compassion.wd5.myworkdayjobs.com/compassioncareers",
     "page": "https://compassion.wd5.myworkdayjobs.com/wday/cxs/compassion/compassioncareers/jobs",
     "urls": [
+      "https://compassion.wd5.myworkdayjobs.com/CompassionCareers/job/USA---Global-Ministry-Center/XMLNAME-2027-Summer-Internship---Data-and-Software-Engineering_R8840",
       "https://compassion.wd5.myworkdayjobs.com/compassioncareers/job/Honduras---Home-Office/Workday-HCM-Systems-Analyst--Temporary-_R8088"
     ]
   },
@@ -19496,6 +19508,16 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/deliveroo",
     "urls": []
+  },
+  {
+    "name": "deliveroo",
+    "ats": "greenhouse",
+    "identifier": "deliveroo",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/deliveroo/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/deliveroo/jobs/8398982"
+    ]
   },
   {
     "name": "Dell",
@@ -23371,6 +23393,16 @@
     ]
   },
   {
+    "name": "Ford Global",
+    "ats": "oraclecloud",
+    "identifier": "efds.fa.em5.oraclecloud.com",
+    "domain": "https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://efds.fa.em5.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/74636"
+    ]
+  },
+  {
     "name": "foresters",
     "ats": "workday",
     "identifier": "foresters-forestersfinancialcareers",
@@ -27057,6 +27089,7 @@
       "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Technical-Engineer---Cloud-Engineer_J284579",
       "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/Pittsburgh-PA-15222-FAP-5th-Avenue-Place/Summer-2027-Data-Analyst-Undergraduate-Intern_J288017",
       "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/Summer-2027-Data-Analyst-enGen-Undergraduate-Intern_J286826",
+      "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/Summer-2027-Data-Engineer---Analyst-enGen-Undergraduate-Intern_J291722",
       "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/Summer-2027-Enterprise-Architecture-Software-Engineer---Architect-enGen-Undergradute-Intern_J289821",
       "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/Summer-2027-Enterprise-Data-Warehouse-Systems-enGen-Undergraduate-Intern_J289826",
       "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/Summer-2027-Epic-Systems-Analyst---Epic-AI-enGen-Undergraduate-Internship_J289801"
@@ -31666,7 +31699,9 @@
     "identifier": "koch.avature.net",
     "domain": "https://koch.avature.net",
     "page": "",
-    "urls": []
+    "urls": [
+      "https://koch.avature.net/en_US/careers/JobDetail/197657"
+    ]
   },
   {
     "name": "Kodak",
@@ -32802,7 +32837,10 @@
       "https://jobs.smartrecruiters.com/LinkedIn3/744000159509679",
       "https://jobs.smartrecruiters.com/LinkedIn3/744000161375119",
       "https://jobs.smartrecruiters.com/LinkedIn3/744000161930950",
-      "https://jobs.smartrecruiters.com/LinkedIn3/744000162178160"
+      "https://jobs.smartrecruiters.com/LinkedIn3/744000162178160",
+      "https://jobs.smartrecruiters.com/LinkedIn3/744000162623368",
+      "https://jobs.smartrecruiters.com/LinkedIn3/744000162623639",
+      "https://jobs.smartrecruiters.com/LinkedIn3/744000162628808"
     ]
   },
   {
@@ -43051,6 +43089,20 @@
     ]
   },
   {
+    "name": "Ralliant",
+    "ats": "oraclecloud",
+    "identifier": "ibwujb.fa.ocs.oraclecloud.com",
+    "domain": "https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job",
+    "page": "https://ibwujb.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1001%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/11153",
+      "https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/11167",
+      "https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/11168",
+      "https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/11231",
+      "https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/11266"
+    ]
+  },
+  {
     "name": "rambus",
     "ats": "icims",
     "identifier": "rambus",
@@ -43209,6 +43261,16 @@
       "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4648416",
       "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4663112",
       "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4669574"
+    ]
+  },
+  {
+    "name": "recruiting.ultipro.ca",
+    "ats": "none",
+    "identifier": "recruiting.ultipro.ca",
+    "domain": "https://recruiting.ultipro.ca",
+    "page": "",
+    "urls": [
+      "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=b5aef546-676b-4f7a-8c20-acfa8f25069f"
     ]
   },
   {
@@ -53302,6 +53364,16 @@
       "https://upbound.wd501.myworkdayjobs.com/Upbound/job/Plano-TX/Associate-Enterprise-Security-Architect_R-100650",
       "https://upbound.wd501.myworkdayjobs.com/Upbound/job/Plano-TX/Platform-Engineer-II_R-100847",
       "https://upbound.wd501.myworkdayjobs.com/Upbound/job/Plano-TX/SOFTWARE-ENGINEER-IV---DIGITAL-COMMERCE_R-100843"
+    ]
+  },
+  {
+    "name": "Uplinq Inc",
+    "ats": "rippling",
+    "identifier": "uplinq",
+    "domain": "https://ats.rippling.com",
+    "page": "https://api.rippling.com/platform/api/ats/v1/board/uplinq/jobs",
+    "urls": [
+      "https://ats.rippling.com/uplinq/jobs/db54b553-b172-4569-ac5f-933a5f8a8d8c"
     ]
   },
   {
