@@ -14,6 +14,20 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">The SilverLogic</td>
+      <td width="420" align="left" valign="top">AI Engineer/Consultant Intern</td>
+      <td width="180" align="left" valign="top">Boca Raton, FL</td>
+      <td width="120" align="left" valign="top"><a href="https://silverlogic.bamboohr.com/careers/36"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 20</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Smule</td>
+      <td width="420" align="left" valign="top">Machine Learning Engineer Intern</td>
+      <td width="180" align="left" valign="top">Salt Lake City, UT</td>
+      <td width="120" align="left" valign="top"><a href="https://smule.bamboohr.com/careers/31"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 20</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top"><img height="28" alt="Meta" src="../assets/featured-badges/meta.svg" /></td>
       <td width="420" align="left" valign="top">Research Scientist Intern, Security &amp; Integrity (PhD)</td>
       <td width="180" align="left" valign="top">Redmond, WA</td>
@@ -2099,24 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://cai.wd5.myworkdayjobs.com/computer_aid/job/AZ-CLIENT-STATE/Cybersecurity-Analyst-Intern_R8900"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 3</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Microsoft" src="../assets/featured-badges/microsoft.svg" /></td>
-      <td width="420" align="left" valign="top">Software Engineer- CoreAI<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Redmond, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://apply.careers.microsoft.com/careers/job/1970393556989020?domain=microsoft.com&amp;8fold_id=1970393556989020"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Pacific Northwest National Laboratory</td>
-      <td width="420" align="left" valign="top">NSIP Undergraduate Intern – Artificial Intelligence &amp; Data Analytics - SWE Conference<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Richland, WA</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,952 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,954 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-20T21:42:25.237Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-20T21:45:29.009Z</code></sub>
