@@ -1214,6 +1214,12 @@
     "domain": "https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4001/job",
     "page": "https://icfcjb.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_4001%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
     "urls": [
+      "https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Aerospace/job/119718",
+      "https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Aerospace/job/119821",
+      "https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Aerospace/job/119880",
+      "https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Aerospace/job/119899",
+      "https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Aerospace/job/120265",
+      "https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Aerospace/job/120524",
       "https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4001/job/126864",
       "https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4001/job/126929",
       "https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_4001/job/127277",
@@ -5183,6 +5189,16 @@
       "https://jobs.aon.com/jobs/105082?icims=1",
       "https://jobs.aon.com/jobs/110099?icims=1",
       "https://jobs.aon.com/jobs/110764?icims=1"
+    ]
+  },
+  {
+    "name": "aon3d",
+    "ats": "greenhouse",
+    "identifier": "aon3d",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/aon3d/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/aon3d/jobs/4504702009"
     ]
   },
   {
@@ -10211,7 +10227,8 @@
       "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Tukwila-WA/Design-and-Analysis-Engineer--Electronic-Sys-Design---Analy-_JR2026498108-1",
       "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Tukwila-WA/Systems-Engineer---Requirements--Integration---Verification_JR2026519748-1",
       "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Colorado-Springs-CO/Associate-Systems-Engineer_JR2026498654-1",
-      "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Huntsville-AL/Associate-Systems-Engineer_JR2026498638-1"
+      "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Huntsville-AL/Associate-Systems-Engineer_JR2026498638-1",
+      "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Tinker-AFB-OK/Entry-Level-Software-Engineer-Test---Verification_JR2026523081"
     ]
   },
   {
@@ -12914,6 +12931,7 @@
     "domain": "https://cadence.wd1.myworkdayjobs.com/univ_careers",
     "page": "https://cadence.wd1.myworkdayjobs.com/wday/cxs/cadence/univ_careers/jobs",
     "urls": [
+      "https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/SAN-JOSE/Software-Engineering-Intern---Circuit-Simulation-infrastructure_R57254",
       "https://cadence.wd1.myworkdayjobs.com/univ_careers/job/SAN-JOSE/Software-Engineer---new-college-grad-Dec-2026-_R55738-2"
     ]
   },
@@ -12929,9 +12947,21 @@
     "name": "cadence",
     "ats": "workday",
     "identifier": "cadence-university_talent_intern",
-    "domain": "https://cadence.wd1.myworkdayjobs.com/university_talent_intern",
-    "page": "https://cadence.wd1.myworkdayjobs.com/wday/cxs/cadence/university_talent_intern/jobs",
-    "urls": []
+    "domain": "https://cadence.wd1.myworkdayjobs.com/University_Talent_Intern",
+    "page": "https://cadence.wd1.myworkdayjobs.com/wday/cxs/cadence/University_Talent_Intern/jobs",
+    "urls": [
+      "https://cadence.wd1.myworkdayjobs.com/University_Talent_Intern/job/BOSTON-02/Software-Engineering-Intern_R57179"
+    ]
+  },
+  {
+    "name": "cadence",
+    "ats": "workday",
+    "identifier": "cadence-university_talent_ncg",
+    "domain": "https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG",
+    "page": "https://cadence.wd1.myworkdayjobs.com/wday/cxs/cadence/University_Talent_NCG/jobs",
+    "urls": [
+      "https://cadence.wd1.myworkdayjobs.com/University_Talent_NCG/job/SAN-JOSE/Software-Engineering--Verification-IP-Team--Recent-Grad-2026-_R55884"
+    ]
   },
   {
     "name": "cadent",
@@ -18616,6 +18646,16 @@
     ]
   },
   {
+    "name": "cpicardgroup",
+    "ats": "icims",
+    "identifier": "cpicardgroup",
+    "domain": "https://careers-cpicardgroup.icims.com",
+    "page": "https://careers-cpicardgroup.icims.com/jobs/search",
+    "urls": [
+      "https://careers-cpicardgroup.icims.com/jobs/11619/devops-engineer-i/job"
+    ]
+  },
+  {
     "name": "creatify",
     "ats": "ashby",
     "identifier": "creatify",
@@ -20295,6 +20335,7 @@
     "domain": "https://draftkings.wd1.myworkdayjobs.com/campus_career_portal",
     "page": "https://draftkings.wd1.myworkdayjobs.com/wday/cxs/draftkings/campus_career_portal/jobs",
     "urls": [
+      "https://draftkings.wd1.myworkdayjobs.com/Campus_Career_Portal/job/Boston-MA/Data-Engineer-Intern--Summer-2027-_JR15464",
       "https://draftkings.wd1.myworkdayjobs.com/campus_career_portal/job/Boston-MA/Data-Science-Engineer--December-2026-and-May-2027-Grads-_JR14959",
       "https://draftkings.wd1.myworkdayjobs.com/campus_career_portal/job/Boston-MA/Software-Engineer--December-2026-Grads-_JR15389",
       "https://draftkings.wd1.myworkdayjobs.com/campus_career_portal/job/Boston-MA/Software-Engineer-Intern--Summer-2027-_JR14928",
@@ -23276,6 +23317,16 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/fizz",
     "urls": []
+  },
+  {
+    "name": "Flare",
+    "ats": "bamboohr",
+    "identifier": "flare",
+    "domain": "https://flare.bamboohr.com",
+    "page": "https://flare.bamboohr.com/careers/list",
+    "urls": [
+      "https://flare.bamboohr.com/careers/29"
+    ]
   },
   {
     "name": "flex",
@@ -27928,7 +27979,8 @@
     "domain": "https://hpe.wd5.myworkdayjobs.com/acjobsite",
     "page": "https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/acjobsite/jobs",
     "urls": [
-      "https://hpe.wd5.myworkdayjobs.com/acjobsite/job/Spring-Texas-United-States-of-America/AI-Automation-Engineer-Graduate_1213068"
+      "https://hpe.wd5.myworkdayjobs.com/acjobsite/job/Spring-Texas-United-States-of-America/AI-Automation-Engineer-Graduate_1213068",
+      "https://hpe.wd5.myworkdayjobs.com/acjobsite/job/Sunnyvale-California-United-States-of-America/Systems---Software-Engineer-I-Graduate_1214972"
     ]
   },
   {
@@ -29840,6 +29892,17 @@
       "https://itron.wd5.myworkdayjobs.com/Early_Careers/job/United-States-of-America-South-Carolina-West-Union/Intern---Systems-Engineer--Spring-2027-_JR102789-1",
       "https://itron.wd5.myworkdayjobs.com/early_careers/job/United-States-of-America-Washington-Liberty-Lake/Intern---Data-Science--Distributed-Intelligence_JR102942-2",
       "https://itron.wd5.myworkdayjobs.com/early_careers/job/United-States-of-America-Washington-Liberty-Lake/Software-Quality-Assurance-Engineer_JR102923"
+    ]
+  },
+  {
+    "name": "itw",
+    "ats": "workday",
+    "identifier": "itw-external",
+    "domain": "https://itw.wd5.myworkdayjobs.com/external",
+    "page": "https://itw.wd5.myworkdayjobs.com/wday/cxs/itw/external/jobs",
+    "urls": [
+      "https://itw.wd5.myworkdayjobs.com/external/job/Appleton-1635-W-Spencer/Software-Engineering-Intern_JR10122",
+      "https://itw.wd5.myworkdayjobs.com/external/job/Rogers---55374/Software-Engineering-Intern_JR10129"
     ]
   },
   {
@@ -32409,6 +32472,7 @@
       "https://jobs.l3harris.com/job/Farnborough-Software-Engineering-Intern-(Sept-2026)-HAM-GU14-6FF/1334006800/?ats=successfactors",
       "https://jobs.l3harris.com/job/Forest-Associate%2C-Systems-Engineering-VA-24551/1418444300/",
       "https://jobs.l3harris.com/job/Forest-Specialist%2C-Systems-Engineering-VA-24551/1451214700/",
+      "https://jobs.l3harris.com/job/Fort-Wayne-Associate,-Embedded-Software-Engineer-IN-46818/1452529800/?ats=successfactors",
       "https://jobs.l3harris.com/job/Fort-Wayne-Intern,-Software-Engineer-IN-46818/1422837600/?ats=successfactors",
       "https://jobs.l3harris.com/job/Fort-Wayne-Intern,-Software-Engineer-IN-46818/1422837800/?ats=successfactors",
       "https://jobs.l3harris.com/job/Fort-Wayne-Intern,-Software-Engineer-IN-46818/1422838400/?ats=successfactors",
@@ -34084,6 +34148,16 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/lodestarspace/jobs",
     "urls": [
       "https://job-boards.eu.greenhouse.io/lodestarspace/jobs/4987198101"
+    ]
+  },
+  {
+    "name": "logan-a-c-heat-services-b29ac6f9712d.breezy.hr",
+    "ats": "none",
+    "identifier": "logan-a-c-heat-services-b29ac6f9712d.breezy.hr",
+    "domain": "https://logan-a-c-heat-services-b29ac6f9712d.breezy.hr",
+    "page": "",
+    "urls": [
+      "https://logan-a-c-heat-services-b29ac6f9712d.breezy.hr/p/dcaae58041cb-junior-business-systems-automation-developer"
     ]
   },
   {
@@ -36262,6 +36336,7 @@
       "https://micron.wd1.myworkdayjobs.com/external/job/Penang-Malaysia---Grande/Jr-Sr-IT-Engineer---Data-Services--Shift-rotation-_JR107777",
       "https://micron.wd1.myworkdayjobs.com/external/job/Richardson-TX/Design-Infrastructure-Engineer--Standard-and-Custom-Cell-Characterization--HBM_JR104068-1",
       "https://micron.wd1.myworkdayjobs.com/external/job/San-Jose-CA/MTS--Systems-Software-Engineering_JR109321",
+      "https://micron.wd1.myworkdayjobs.com/external/job/San-Jose-CA/New-College-Grad---AI-Innovation-Research-Engineer_JR108594",
       "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---AATT-Taiwan/AI-ENGINEER---SMART-MFG--TECH-SOLUTIONS-_JR109751",
       "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---AATT-Taiwan/AI-Enabled-Full-Stack-Developer---Experienced_JR103711",
       "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---AATT-Taiwan/SOFTWARE-DEVELOPMENT-ENGINEER_JR107601",
@@ -39585,6 +39660,7 @@
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Software-Engineer--World-Model-Systems-Engineering---Autonomous-Vehicles_JR2020021",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/SoC-Software-Engineer---New-College-Graduate-2026_JR2027552-1",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-DevOps-Engineer--Networking_JR2025882",
+      "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--DL-Kernel-Libraries---New-College-Grad-2027_JR2027337",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Data-Systems_JR2028978",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Hardware-Tools-and-Methodology---New-College-Grad-2026_JR2018659",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--ML-Performance_JR2028979",
@@ -40415,7 +40491,8 @@
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/350678",
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/350692",
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/350821",
-      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/351046"
+      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/351046",
+      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobearch/job/350824"
     ]
   },
   {
@@ -43645,7 +43722,9 @@
     "domain": "https://recruiting.ultipro.com",
     "page": "",
     "urls": [
+      "https://recruiting.ultipro.com/AME1095ACHM/JobBoard/c06ddd6c-8fd2-42b0-96f5-4d70bdc7655a/OpportunityDetail?opportunityId=f9b67716-a1c1-489e-8c95-ed52ab2ca846",
       "https://recruiting.ultipro.com/FIN1008FICT/JobBoard/c0ae7303-ee90-41c6-b44a-abf63303ceb4/OpportunityDetail?opportunityId=cf27351e-5100-4731-8882-c7bf9ba1451f",
+      "https://recruiting.ultipro.com/ame1095achm/JobBoard/c06ddd6c-8fd2-42b0-96f5-4d70bdc7655a/OpportunityDetail?opportunityId=f4a85f67-8ec0-4763-89e3-64742aaf23e0",
       "https://recruiting.ultipro.com/asc1003/JobBoard/57b0d3c6-a250-9a6a-7787-1093a619de01/OpportunityDetail?opportunityId=df8da3fd-cd4d-48ac-a5fa-b519199f9389"
     ]
   },
@@ -44918,6 +44997,7 @@
     "urls": [
       "https://rollsroyce.wd3.myworkdayjobs.com/Intern_Graduate/job/Indianapolis/Controls-Operations-Engineer_JR6160756",
       "https://rollsroyce.wd3.myworkdayjobs.com/Intern_Graduate/job/Indianapolis/Integrated-Control-Systems-Engineer--Software-_JR6162819",
+      "https://rollsroyce.wd3.myworkdayjobs.com/Intern_Graduate/job/Indianapolis/Junior-Machine-Learning-Engineering_JR6160142",
       "https://rollsroyce.wd3.myworkdayjobs.com/Intern_Graduate/job/Indianapolis/LibertyWorks-Thermofluids-Systems-Engineer_JR6160145"
     ]
   },
@@ -47685,6 +47765,16 @@
     "page": "https://smucker.wd5.myworkdayjobs.com/wday/cxs/smucker/us_external_careers/jobs",
     "urls": [
       "https://smucker.wd5.myworkdayjobs.com/us_external_careers/job/Orrville-OH/Plant-Systems-Engineering-Intern--Orrville--OH-Spring-2027_115712"
+    ]
+  },
+  {
+    "name": "Smule",
+    "ats": "bamboohr",
+    "identifier": "smule",
+    "domain": "https://smule.bamboohr.com",
+    "page": "https://smule.bamboohr.com/careers/list",
+    "urls": [
+      "https://smule.bamboohr.com/careers/31"
     ]
   },
   {
@@ -51021,6 +51111,16 @@
     "urls": [
       "https://haskell.jibeapply.com/jobs/7415?icims=1&lang=en-us",
       "https://haskell.jibeapply.com/jobs/7432?icims=1"
+    ]
+  },
+  {
+    "name": "The SilverLogic",
+    "ats": "bamboohr",
+    "identifier": "silverlogic",
+    "domain": "https://silverlogic.bamboohr.com",
+    "page": "https://silverlogic.bamboohr.com/careers/list",
+    "urls": [
+      "https://silverlogic.bamboohr.com/careers/36"
     ]
   },
   {
@@ -56115,6 +56215,7 @@
     "domain": "https://workforcenow.adp.com",
     "page": "",
     "urls": [
+      "https://workforcenow.adp.com/job?cid=93fdfc70-37a2-4cde-ba86-0da4925db4c8&jobId=9200936414429_1",
       "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?jobId=555080",
       "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?jobId=560273"
     ]
