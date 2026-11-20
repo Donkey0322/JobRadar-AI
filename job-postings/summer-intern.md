@@ -14,6 +14,34 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Snowflake" src="../assets/featured-badges/snowflake.svg" /></td>
+      <td width="420" align="left" valign="top">Software Engineer Intern (Database Engineering) - Summer 2027</td>
+      <td width="180" align="left" valign="top">Menlo Park, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.snowflake.com/us/en/job/70074572-5399-4d6f-be64-6a32de622fb6?ph_id=70074572-5399-4d6f-be64-6a32de622fb6"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 19</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern (Core, Infrastructure &amp; Security) — Summer 2027</td>
+      <td width="180" align="left" valign="top">Menlo Park, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.snowflake.com/us/en/job/b1a79d5e-b28d-4fa5-9cee-38be61261073?ph_id=b1a79d5e-b28d-4fa5-9cee-38be61261073"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 19</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern (AI / ML) - Summer 2027</td>
+      <td width="180" align="left" valign="top">Menlo Park, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.snowflake.com/us/en/job/b279efdc-7caf-4ce2-b1ff-d842ee5cc37e?ph_id=b279efdc-7caf-4ce2-b1ff-d842ee5cc37e"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 19</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Anduril Industries</td>
+      <td width="420" align="left" valign="top">2027 Engineering Systems Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Costa Mesa, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/andurilindustries/jobs/5302147007?gh_jid=5302147007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 19</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Lucid Motors</td>
       <td width="420" align="left" valign="top">Product Security Engineering Intern</td>
       <td width="180" align="left" valign="top">Newark, CA</td>
@@ -2085,38 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/raft/jobs/6240549004"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 5</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">DevOps Engineering Intern 🇺🇸<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">McLean, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/raft/jobs/6239819004"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 5</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Zoox</td>
-      <td width="420" align="left" valign="top">Software Engineer Intern - Autonomy Software 🎓<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Foster City, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/zoox/7b20b929-d9a4-4995-a472-16cd4925a877/apply"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 5</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Spectrum</td>
-      <td width="420" align="left" valign="top">2027 Summer Intern: Data Developer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Greenwood Village, CO</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 5</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">2027 Summer Intern: Software Engineer - P&amp;T<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Maryland Heights, MO</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.spectrum.com/job/maryland-heights/2027-summer-intern-software-engineer-p-and-t/4673/100830276992"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 5</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 2,227 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 2,231 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-20T07:09:47.555Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-20T07:14:34.494Z</code></sub>

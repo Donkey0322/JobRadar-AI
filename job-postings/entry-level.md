@@ -14,6 +14,55 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Qualcomm</td>
+      <td width="420" align="left" valign="top">DSP Applications Software Engineer</td>
+      <td width="180" align="left" valign="top">Austin, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.qualcomm.com/careers/job/446722230518?domain=qualcomm.com&amp;8fold_id=446722230518"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 19</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="SpaceX" src="../assets/featured-badges/spacex.svg" /></td>
+      <td width="420" align="left" valign="top">Process Engineer, AI Satellites (Starmind)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Bastrop, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/spacex/jobs/8954083002?gh_jid=8954083002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 19</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">HPE</td>
+      <td width="420" align="left" valign="top">Customer Systems Engineer Graduate</td>
+      <td width="180" align="left" valign="top">Roseville, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.hpe.com/us/en/job/1213080?ph_id=1213080"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 19</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Ericsson</td>
+      <td width="420" align="left" valign="top">Software Development Engineer-1<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Boise, ID</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ericsson.com/careers/job/563121777588433?domain=ericsson.com&amp;8fold_id=563121777588433"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 19</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Apple" src="../assets/featured-badges/apple.svg" /></td>
+      <td width="420" align="left" valign="top">AR/VR Software Engineer - Spatial System UI, Vision Products Software</td>
+      <td width="180" align="left" valign="top">Boulder, CO</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200696147-0365/ar-vr-software-engineer-spatial-system-ui-vision-products-software?team=SFTWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 19</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">AR/VR Software Engineer - Spatial System UI, Vision Products Software</td>
+      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200696147-3956/ar-vr-software-engineer-spatial-system-ui-vision-products-software?team=SFTWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 19</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer - Machine Learning and Intelligent Engineering Workflows</td>
+      <td width="180" align="left" valign="top">San Diego, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200696049-3543/software-engineer-machine-learning-and-intelligent-engineering-workflows?team=SFTWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 19</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Ford Motor Company</td>
       <td width="420" align="left" valign="top">Vehicle Access System Engineering Intern, Advanced EV<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Allen Park, MI</td>
@@ -2064,59 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://careers.arm.com/job/seattle/graduate-research-scientist-ai/33099/103208990256"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 12</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Capitalone</td>
-      <td width="420" align="left" valign="top">Associate, Data Scientist - US Card<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">McLean, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Associate--Data-Scientist---US-Card_R1005289-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 12</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Careers at Atlantic Health System</td>
-      <td width="420" align="left" valign="top">Cybersecurity Engineer I</td>
-      <td width="180" align="left" valign="top">Morristown, NJ</td>
-      <td width="120" align="left" valign="top"><a href="https://erqh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs/job/32509"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 12</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Rtx</td>
-      <td width="420" align="left" valign="top">Associate Software Engineer I – CDS / Engine System Software (Onsite)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">East Hartford, CT</td>
-      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Associate-Software-Engineer-I---CDS---Engine-System-Software--Onsite-_01884197"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 11</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Viasat</td>
-      <td width="420" align="left" valign="top">Associate Software Engineer, Early Career</td>
-      <td width="180" align="left" valign="top">Carlsbad, CA</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 11</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Lockheedmartin</td>
-      <td width="420" align="left" valign="top">Software Engineer Asc - Early Career<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Fort Worth, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477471437?domain=lockheedmartin.com&amp;8fold_id=996477471437"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 11</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Systems Integration/Test Engineer Associate - E1<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Chelmsford, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996476692615?domain=lockheedmartin.com&amp;8fold_id=996476692615"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 11</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Medpace</td>
-      <td width="420" align="left" valign="top">Junior Data Governance Analyst</td>
-      <td width="180" align="left" valign="top">Cincinnati, OH</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.medpace.com/jobs/13127?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 11</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 3,715 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 3,722 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-20T07:09:47.555Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-20T07:14:34.494Z</code></sub>
