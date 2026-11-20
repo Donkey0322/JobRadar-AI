@@ -2115,8 +2115,8 @@
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,948 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,947 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-20T04:50:31.770Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-20T07:09:47.555Z</code></sub>
