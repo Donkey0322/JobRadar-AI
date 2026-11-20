@@ -17989,8 +17989,8 @@
     "name": "compassion",
     "ats": "workday",
     "identifier": "compassion-compassioncareers",
-    "domain": "https://compassion.wd5.myworkdayjobs.com/compassioncareers",
-    "page": "https://compassion.wd5.myworkdayjobs.com/wday/cxs/compassion/compassioncareers/jobs",
+    "domain": "https://compassion.wd5.myworkdayjobs.com/CompassionCareers",
+    "page": "https://compassion.wd5.myworkdayjobs.com/wday/cxs/compassion/CompassionCareers/jobs",
     "urls": [
       "https://compassion.wd5.myworkdayjobs.com/CompassionCareers/job/USA---Global-Ministry-Center/XMLNAME-2027-Summer-Internship---Data-and-Software-Engineering_R8840",
       "https://compassion.wd5.myworkdayjobs.com/compassioncareers/job/Honduras---Home-Office/Workday-HCM-Systems-Analyst--Temporary-_R8088"
@@ -33930,6 +33930,7 @@
       "https://lucidmotors.com/careers/search/5254390007?gh_jid=5254390007",
       "https://lucidmotors.com/careers/search/5290911007?gh_jid=5290911007",
       "https://lucidmotors.com/careers/search/5290925007?gh_jid=5290925007",
+      "https://lucidmotors.com/careers/search/5290941007?gh_jid=5290941007",
       "https://lucidmotors.com/careers/search/5290947007?gh_jid=5290947007"
     ]
   },
