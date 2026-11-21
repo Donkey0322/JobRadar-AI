@@ -46946,6 +46946,16 @@
     "urls": []
   },
   {
+    "name": "secureframe",
+    "ats": "ashby",
+    "identifier": "secureframe",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/secureframe",
+    "urls": [
+      "https://jobs.ashbyhq.com/secureframe/ab69f040-9b87-4420-9150-edc6e4f54cfb"
+    ]
+  },
+  {
     "name": "Securitas Security Services",
     "ats": "oraclecloud",
     "identifier": "ekaw.fa.us2.oraclecloud.com",
