@@ -26558,6 +26558,16 @@
     ]
   },
   {
+    "name": "Gradient MSP",
+    "ats": "bamboohr",
+    "identifier": "gradientmsp",
+    "domain": "https://gradientmsp.bamboohr.com",
+    "page": "https://gradientmsp.bamboohr.com/careers/list",
+    "urls": [
+      "https://gradientmsp.bamboohr.com/careers/72/"
+    ]
+  },
+  {
     "name": "Grainger Businesses",
     "ats": "successfactors",
     "identifier": "jobs.grainger.com",
