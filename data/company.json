@@ -38314,6 +38314,16 @@
     ]
   },
   {
+    "name": "nerostechnologies",
+    "ats": "greenhouse",
+    "identifier": "nerostechnologies",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/nerostechnologies/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/nerostechnologies/jobs/5278981007"
+    ]
+  },
+  {
     "name": "Nestle Operational Services Worldwide SA",
     "ats": "successfactors",
     "identifier": "jobdetails.nestle.com",
