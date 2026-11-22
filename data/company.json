@@ -38314,6 +38314,16 @@
     ]
   },
   {
+    "name": "neogen",
+    "ats": "workday",
+    "identifier": "neogen-neogencareers",
+    "domain": "https://neogen.wd5.myworkdayjobs.com/neogencareers",
+    "page": "https://neogen.wd5.myworkdayjobs.com/wday/cxs/neogen/neogencareers/jobs",
+    "urls": [
+      "https://neogen.wd5.myworkdayjobs.com/neogencareers/job/Oakdale/Software-or-Firmware-Engineer-Intern_REQ-11064"
+    ]
+  },
+  {
     "name": "nerostechnologies",
     "ats": "greenhouse",
     "identifier": "nerostechnologies",
