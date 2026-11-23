@@ -1656,6 +1656,16 @@
     ]
   },
   {
+    "name": "AJBell1",
+    "ats": "smartrecruiters",
+    "identifier": "AJBell1",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/AJBell1/postings",
+    "urls": [
+      "https://jobs.smartrecruiters.com/AJBell1/744000163169494"
+    ]
+  },
+  {
     "name": "Akamai",
     "ats": "oraclecloud",
     "identifier": "fa-extu-saasfaprod1.fa.ocs.oraclecloud.com",
@@ -9635,6 +9645,7 @@
       "https://jobs.ashbyhq.com/benchling/6183438d-1ff6-4389-aff9-a0128ff3a407",
       "https://jobs.ashbyhq.com/benchling/7b1ffaaf-2374-4b09-8495-899cc4847862",
       "https://jobs.ashbyhq.com/benchling/7c32ac1e-3de3-462b-aa17-7618317f0da0",
+      "https://jobs.ashbyhq.com/benchling/96370d1b-d35e-446b-8e26-dce088860099",
       "https://jobs.ashbyhq.com/benchling/ba0bcb25-d2e9-4ef6-ada0-dc5f7ea5424e",
       "https://jobs.ashbyhq.com/benchling/baa78673-4c25-4d61-8888-2eac4c63d8c5",
       "https://jobs.ashbyhq.com/benchling/c1ad7288-ad78-4a0f-8f19-1fcc3f6cf85b",
@@ -23365,6 +23376,16 @@
       "https://firstcitizens.jibeapply.com/jobs/34716?icims=1",
       "https://firstcitizens.jibeapply.com/jobs/35910?icims=1",
       "https://firstcitizens.jibeapply.com/jobs/36358?icims=1"
+    ]
+  },
+  {
+    "name": "first-resonance",
+    "ats": "ashby",
+    "identifier": "first-resonance",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/first-resonance",
+    "urls": [
+      "https://jobs.ashbyhq.com/first-resonance/0c88b508-432d-442d-aa5f-486e08aaf5a7/application?embed=true"
     ]
   },
   {
@@ -39002,6 +39023,7 @@
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/Software-Configuration-Analyst--SCM----Level-4_R10257122",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/Software-Signal-Processing-Engineer_R10249040",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Associate-Software-Engineer---Pathways---Colorado-Springs_R10260174",
+      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Associate-Software-Engineer---Software-Engineer---Colorado-Springs-CO_R10261637",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Associate-Systems-Engineer---Pathways---Colorado-Springs_R10260203",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs_R10256259",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs_R10257803",
