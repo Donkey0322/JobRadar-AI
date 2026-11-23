@@ -91,7 +91,7 @@ Each category page shows up to 300 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 2,244 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,961 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,760 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,762 opportunities
 
 ## The List 🚴‍♂️
 
@@ -565,6 +565,20 @@ Each category page shows up to 300 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">RoadRunner</td>
+      <td width="420" align="left" valign="top">New Grad: Forward Deployed Engineer</td>
+      <td width="180" align="left" valign="top">San Francisco, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/Roadrunner/c82b1987-bb02-4420-8fa2-b79075b04480"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 22</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Calyx Containers</td>
+      <td width="420" align="left" valign="top">Junior Software Developer - Print &amp; Packaging</td>
+      <td width="180" align="left" valign="top">West Valley City, UT</td>
+      <td width="120" align="left" valign="top"><a href="https://calyxcontainers.applytojob.com/apply/HHSphZTCc2/Junior-Software-Developer-Print-Packaging"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 22</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Secureframe</td>
       <td width="420" align="left" valign="top">New Grad 2027: Software Engineer</td>
       <td width="180" align="left" valign="top">New York, NY</td>
@@ -760,23 +774,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://careers-cpicardgroup.icims.com/jobs/11619/devops-engineer-i/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 20</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">United Launch Alliance</td>
-      <td width="420" align="left" valign="top">Systems Test Engineer 1<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Decatur, AL</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ulalaunch.com/job/Decatur-Systems-Test-Engineer-1-AL-35601/1452612600/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">MIT Lincoln Laboratory</td>
-      <td width="420" align="left" valign="top">Data Analyst<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Lexington, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.ll.mit.edu/job/Lexington-Data-Analyst-MA-02420/1452537000/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 20</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,760 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,762 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -795,7 +795,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-23T01:08:35.714Z</code>
+      🕒 Last updated <code>2026-11-23T01:14:02.896Z</code>
     </span>
   </p>
 </div>
