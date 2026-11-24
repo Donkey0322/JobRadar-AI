@@ -1,1 +1,75 @@
-[]
+[
+  {
+    "name": "batches/24w6o83owjwjkib3ulp89swb8816wxjp7rnf",
+    "submittedAt": "2026-11-24T19:04:42.418Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Rfsmart",
+        "role": "Software Developer Intern",
+        "link": "https://job-boards.greenhouse.io/rfsmart/jobs/5446867008",
+        "location": "Highlands Ranch, CO</br>Jacksonville, FL"
+      },
+      {
+        "company": "NVIDIA",
+        "role": "Developer Technology Intern, AI",
+        "link": "https://jobs.nvidia.com/careers/job/893398824101",
+        "location": "Santa Clara, CA"
+      },
+      {
+        "company": "BEUMER Group",
+        "role": "AI Development Intern",
+        "link": "https://jobs.smartrecruiters.com/BEUMERGroup1/744000163483739",
+        "location": "United States"
+      },
+      {
+        "company": "QuEra Computing",
+        "role": "Site Reliability Engineer Co-op",
+        "link": "https://job-boards.greenhouse.io/queracomputinginc/jobs/5493521008",
+        "location": "Boston, MA"
+      },
+      {
+        "company": "SambaNova Systems",
+        "role": "New Grad: AI Performance Engineer",
+        "link": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6224936004",
+        "location": "Austin, TX</br>San Jose, CA"
+      },
+      {
+        "company": "Visa",
+        "role": "Software Engineer, Agentic Developer",
+        "link": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/Software-Engineer--Agentic-Developer_REF090196W",
+        "location": "Denver, CO"
+      },
+      {
+        "company": "Peraton",
+        "role": "New Grad 2027: Software Engineering, Ignite Innovator Pgm",
+        "link": "https://careers-peraton.icims.com/jobs/177377/job?mobile=true&needsRedirect=false",
+        "location": "Blacksburg, VA"
+      },
+      {
+        "company": "Iridium",
+        "role": "Software Test Engineer I",
+        "link": "https://careers-iridium.icims.com/jobs/5154/software-test-engineer-i/job",
+        "location": "Chandler, AZ"
+      },
+      {
+        "company": "AMD",
+        "role": "Masters AI Rack/Cluster Design Engineering Co-op 🎓",
+        "link": "https://careers.amd.com/jobs/89564?icims=1&lang=en-us",
+        "location": "Austin, TX"
+      },
+      {
+        "company": "JP Morgan Chase",
+        "role": "Software Engineer 1 - Multiple Teams",
+        "link": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210803021",
+        "location": "Newark, DE"
+      },
+      {
+        "company": "Garmin",
+        "role": "Software Engineer 1",
+        "link": "https://careers.garmin.com/jobs/19953?icims=1&lang=en-us",
+        "location": "Chandler, AZ"
+      }
+    ]
+  }
+]
