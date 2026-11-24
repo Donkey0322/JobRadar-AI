@@ -4056,6 +4056,7 @@
       "https://amazon.jobs/en/jobs/10606801",
       "https://amazon.jobs/en/jobs/10606812",
       "https://amazon.jobs/en/jobs/10606820",
+      "https://amazon.jobs/en/jobs/10606968/software-development-engineer-intern-artificial-general-intelligence-summer-2027",
       "https://amazon.jobs/en/jobs/10606989",
       "https://amazon.jobs/en/jobs/10606994",
       "https://amazon.jobs/en/jobs/10607008",
@@ -11663,7 +11664,8 @@
       "https://job-boards.greenhouse.io/brave/jobs/8159413",
       "https://job-boards.greenhouse.io/brave/jobs/8161945",
       "https://job-boards.greenhouse.io/brave/jobs/8165845",
-      "https://job-boards.greenhouse.io/brave/jobs/8360001"
+      "https://job-boards.greenhouse.io/brave/jobs/8360001",
+      "https://job-boards.greenhouse.io/brave/jobs/8412532"
     ]
   },
   {
@@ -13430,7 +13432,8 @@
       "https://canadiantirecorporation.wd3.myworkdayjobs.com/Enterprise_External_Careers_Site/job/Toronto-ON/Business-Systems-Engineer---AI_JR160709",
       "https://canadiantirecorporation.wd3.myworkdayjobs.com/Enterprise_External_Careers_Site/job/Toronto-ON/Data-Analyst---Center-of-Excellence---Data-Analytics_JR163585-1",
       "https://canadiantirecorporation.wd3.myworkdayjobs.com/Enterprise_External_Careers_Site/job/Toronto-ON/Martech-Platform-Engineer---12--Months-Contract_JR160816",
-      "https://canadiantirecorporation.wd3.myworkdayjobs.com/Enterprise_External_Careers_Site/job/Toronto-ON/Platform-Engineer--Transportation-Systems_JR165775"
+      "https://canadiantirecorporation.wd3.myworkdayjobs.com/Enterprise_External_Careers_Site/job/Toronto-ON/Platform-Engineer--Transportation-Systems_JR165775",
+      "https://canadiantirecorporation.wd3.myworkdayjobs.com/Enterprise_External_Careers_Site/job/Toronto-ON/Software-Development-Student--4-Months----Winter-2027_JR168222"
     ]
   },
   {
@@ -14570,7 +14573,9 @@
     "urls": [
       "https://boards.greenhouse.io/capitaltg/jobs/5147833007?gh_jid=5147833007",
       "https://boards.greenhouse.io/capitaltg/jobs/5239724007?gh_jid=5239724007",
-      "https://boards.greenhouse.io/capitaltg/jobs/5268774007?gh_jid=5268774007"
+      "https://boards.greenhouse.io/capitaltg/jobs/5268774007?gh_jid=5268774007",
+      "https://boards.greenhouse.io/capitaltg/jobs/5281563007?gh_jid=5281563007",
+      "https://boards.greenhouse.io/capitaltg/jobs/5307074007?gh_jid=5307074007"
     ]
   },
   {
@@ -15748,6 +15753,7 @@
     "domain": "https://careers.itw.com",
     "page": "https://careers.itw.com",
     "urls": [
+      "https://careers.itw.com/global/en/job/JR11356",
       "https://careers.itw.com/us/en/job/JR10060?ph_id=JR10060",
       "https://careers.itw.com/us/en/job/JR10122?ph_id=JR10122",
       "https://careers.itw.com/us/en/job/JR10129?ph_id=JR10129",
@@ -18612,6 +18618,16 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/context",
     "urls": []
+  },
+  {
+    "name": "contoro",
+    "ats": "ashby",
+    "identifier": "contoro",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/contoro",
+    "urls": [
+      "https://jobs.ashbyhq.com/contoro/6a1f0c10-3e5f-4899-ad86-38036a9cd434"
+    ]
   },
   {
     "name": "CooperCompanies",
@@ -29159,7 +29175,9 @@
       "https://jobs.ashbyhq.com/illumio/2bcba5c3-c6e7-407c-92b2-73027594789e",
       "https://jobs.ashbyhq.com/illumio/8013747a-938c-41ef-9d5b-7b6188ae0b5c",
       "https://jobs.ashbyhq.com/illumio/823ff2f2-481c-4fc4-a813-a6434b71a1b8",
-      "https://jobs.ashbyhq.com/illumio/8708e622-900e-458a-96b3-ae339329a56d"
+      "https://jobs.ashbyhq.com/illumio/8708e622-900e-458a-96b3-ae339329a56d",
+      "https://jobs.ashbyhq.com/illumio/95bc7491-9b2f-493c-9297-e9cb36a63b45",
+      "https://jobs.ashbyhq.com/illumio/a211377c-7db7-4c62-97ba-8176c5a61293"
     ]
   },
   {
@@ -30358,6 +30376,7 @@
     "page": "https://itw.wd5.myworkdayjobs.com/wday/cxs/itw/external/jobs",
     "urls": [
       "https://itw.wd5.myworkdayjobs.com/external/job/Appleton-1635-W-Spencer/Software-Engineering-Intern_JR10122",
+      "https://itw.wd5.myworkdayjobs.com/external/job/Fairmont---56031/Software-or-Computer-Engineer-Intern---Summer-2027_JR11356",
       "https://itw.wd5.myworkdayjobs.com/external/job/Rogers---55374/Software-Engineering-Intern_JR10129"
     ]
   },
@@ -32571,6 +32590,16 @@
     ]
   },
   {
+    "name": "koddi",
+    "ats": "greenhouse",
+    "identifier": "koddi",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/koddi/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/koddi/jobs/8944769002"
+    ]
+  },
+  {
     "name": "kodiak",
     "ats": "greenhouse",
     "identifier": "kodiak",
@@ -33121,6 +33150,7 @@
       "https://jobs.l3harris.com/job/West-Palm-Beach-Specialist%2C-Systems-Engineer-Modeling-Simulation-and-Controls-Control-Logic-Design-FL-33478/1429777400/",
       "https://jobs.l3harris.com/job/Wilmington-Intern,-Software-Engineer-MA-01887/1425515000/?ats=successfactors",
       "https://jobs.l3harris.com/job/Wilmington-Intern-D,-Software-Engineer-MA-01887/1422529400/?ats=successfactors",
+      "https://jobs.l3harris.com/job/Yorba-Linda-Associate,-Software-Engineering-CA-92887/1452910400/?ats=successfactors",
       "https://jobs.l3harris.com/job/Yorba-Linda-Specialist%2C-Systems-Engineering-CA-92887/1437408000/"
     ]
   },
@@ -33378,6 +33408,7 @@
       "https://leidos.wd5.myworkdayjobs.com/External/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00191713",
       "https://leidos.wd5.myworkdayjobs.com/External/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00192858",
       "https://leidos.wd5.myworkdayjobs.com/External/job/Annapolis-Junction-MD/Software-Developer-Intern_R-00195829",
+      "https://leidos.wd5.myworkdayjobs.com/External/job/Arlington-VA/Software-Engineering-Intern_R-00197526",
       "https://leidos.wd5.myworkdayjobs.com/External/job/Arnold-MO/Software-Engineer-Data-Science-Librarian_R-00184468",
       "https://leidos.wd5.myworkdayjobs.com/External/job/Atlanta-GA/Full-Stack-Developer_R-00191367",
       "https://leidos.wd5.myworkdayjobs.com/External/job/Bethesda-MD/Cybersecurity-Engineer-Co-op_R-00190764",
@@ -37953,6 +37984,7 @@
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Schaumburg-IL/Embedded-Software-Engineer_R67073",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Schaumburg-IL/IT-Business-System-Analyst--US-REMOTE-_R69685",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Schaumburg-IL/Mission-Critical-Networks-Software-Engineer---2027-Co-op_R67782",
+      "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Schaumburg-IL/Mission-Critical-Networks-Software-Engineer---Summer-2027-Internship_R70631",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Schaumburg-IL/Software-Engineer---Java---Python_R69271",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Schaumburg-IL/Software-Engineer_R67582",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Schaumburg-IL/Software-Engineer_R69235",
@@ -41181,6 +41213,16 @@
     "urls": []
   },
   {
+    "name": "oscar",
+    "ats": "greenhouse",
+    "identifier": "oscar",
+    "domain": "https://oscarhealth.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/oscar/jobs",
+    "urls": [
+      "https://oscarhealth.com/careers/jobs?gh_jid=8407472"
+    ]
+  },
+  {
     "name": "OSF HealthCare",
     "ats": "icims",
     "identifier": "osfcareers.org",
@@ -41349,7 +41391,8 @@
       "https://jobs.paccar.com/job/Renton-Data-Engineer-WA-98057/1447799633/",
       "https://jobs.paccar.com/job/Renton-Summer-Internship-IT-Applications-WA-98055/1256156801/?ats=successfactors",
       "https://jobs.paccar.com/job/Renton-Summer-Internship-IT-Applications-WA-98055/1389651133/?ats=successfactors",
-      "https://jobs.paccar.com/job/Sunnyvale-2026-Summer-Internship-Advanced-Mobility-Tech-Engineering-CA-94089/1292877901/?ats=successfactors"
+      "https://jobs.paccar.com/job/Sunnyvale-2026-Summer-Internship-Advanced-Mobility-Tech-Engineering-CA-94089/1292877901/?ats=successfactors",
+      "https://jobs.paccar.com/job/Sunnyvale-2027-Spring-Internship-Vehicle-Software-Integration-Engineer-CA-94089/1459888133/?ats=successfactors"
     ]
   },
   {
@@ -43976,6 +44019,16 @@
     ]
   },
   {
+    "name": "quantiq",
+    "ats": "greenhouse",
+    "identifier": "quantiq",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/quantiq/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/quantiq/jobs/4280650009"
+    ]
+  },
+  {
     "name": "Quantum Signal AI",
     "ats": "jazzhr",
     "identifier": "quantumsignalai.applytojob.com",
@@ -44444,6 +44497,7 @@
       "https://recruiting2.ultipro.com/mes1003mfac/JobBoard/69451223-cdce-4faf-9407-23a2cd5ac83b/OpportunityDetail?opportunityId=a49c4e87-41f9-4c3b-9051-40985a0fc9b1",
       "https://recruiting2.ultipro.com/mes1003mfac/JobBoard/69451223-cdce-4faf-9407-23a2cd5ac83b/OpportunityDetail?opportunityId=fff73393-2657-4159-86d3-5a04f5767214",
       "https://recruiting2.ultipro.com/mil1017/JobBoard/f54234e9-dfde-b183-fd20-4fbdb19cba7a/OpportunityDetail?opportunityId=4f353716-eb67-4f11-a274-efee2100be07",
+      "https://recruiting2.ultipro.com/sor1001sore/JobBoard/1fe5e40e-4e0c-4b11-86e3-9a8e1f396263/OpportunityDetail?opportunityId=06b49418-36cf-4c00-9ff1-e3e181278d25",
       "https://recruiting2.ultipro.com/sou1016sfbli/JobBoard/adba73e4-f371-45d0-a5d2-32260abcd2f8/OpportunityDetail?opportunityId=87bde30a-d527-4d94-880d-db1a93afa941",
       "https://recruiting2.ultipro.com/sou1052sppi/JobBoard/bc99b5f0-ed6b-436e-b545-2196af0704de/OpportunityDetail?opportunityId=943cabde-fca3-4692-8828-a6afbb7392e1"
     ]
@@ -46381,7 +46435,9 @@
       "https://saabusa.wd1.myworkdayjobs.com/saab_careers/job/East-Syracuse-NY-Collamer/Associate-Software-Engineer_R-03377-1",
       "https://saabusa.wd1.myworkdayjobs.com/saab_careers/job/East-Syracuse-NY-Collamer/Associate-Systems-Engineer_R-03186",
       "https://saabusa.wd1.myworkdayjobs.com/saab_careers/job/East-Syracuse-NY-Collamer/Data-Informatics-Analyst_R-03381-1",
+      "https://saabusa.wd1.myworkdayjobs.com/saab_careers/job/East-Syracuse-NY-Collamer/Software-Engineer-Co-Op--Summer-2027-_R-03264-1",
       "https://saabusa.wd1.myworkdayjobs.com/saab_careers/job/East-Syracuse-NY-Collamer/Software-Engineer_R-03210-1",
+      "https://saabusa.wd1.myworkdayjobs.com/saab_careers/job/East-Syracuse-NY-Collamer/Software-Engineering-Co-Op--Summer-2027-_R-03237-1",
       "https://saabusa.wd1.myworkdayjobs.com/saab_careers/job/East-Syracuse-NY-Collamer/Systems-Engineer_R-03059-1"
     ]
   },
@@ -47873,6 +47929,7 @@
       "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4668832006",
       "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4680287006",
       "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4723152006",
+      "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4725867006",
       "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4728305006"
     ]
   },
@@ -49821,6 +49878,16 @@
     "urls": [
       "https://jobs.lever.co/standtogether/35deb481-fc0b-4513-abf5-68880006189b/apply",
       "https://jobs.lever.co/standtogether/f379a7ee-c2b6-47db-b1de-08283462ea6c/apply"
+    ]
+  },
+  {
+    "name": "Stantec",
+    "ats": "oraclecloud",
+    "identifier": "hdhl.fa.us6.oraclecloud.com",
+    "domain": "https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://hdhl.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1009005"
     ]
   },
   {
@@ -54691,7 +54758,8 @@
     "page": "https://us-erac.icims.com/jobs/search",
     "urls": [
       "https://us-erac.icims.com/jobs/566721/job?mobile=true&needsRedirect=false",
-      "https://us-erac.icims.com/jobs/567651/job?mobile=true&needsRedirect=false"
+      "https://us-erac.icims.com/jobs/567651/job?mobile=true&needsRedirect=false",
+      "https://us-erac.icims.com/jobs/595973/job?mobile=true&needsRedirect=false"
     ]
   },
   {
