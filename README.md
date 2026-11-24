@@ -89,9 +89,9 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [2027 Summer Intern](./job-postings/summer-intern.md) — 2,254 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 1,968 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,773 opportunities
+- [2027 Summer Intern](./job-postings/summer-intern.md) — 2,261 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 1,971 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,777 opportunities
 
 ## The List 🚴‍♂️
 
@@ -110,6 +110,55 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Illumio</td>
+      <td width="420" align="left" valign="top">Engineering Intern, Architecture Platform<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/illumio/a211377c-7db7-4c62-97ba-8176c5a61293"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 23</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Engineering Intern, Security Platforms<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/illumio/95bc7491-9b2f-493c-9297-e9cb36a63b45"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 23</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Capitaltg</td>
+      <td width="420" align="left" valign="top">Software Development Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Silver Spring, MD</td>
+      <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/capitaltg/jobs/5281563007?gh_jid=5281563007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 23</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Data Engineering and Data Science Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Silver Spring, MD</td>
+      <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/capitaltg/jobs/5307074007?gh_jid=5307074007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 23</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Amazon" src="./assets/featured-badges/amazon.svg" /></td>
+      <td width="420" align="left" valign="top">Software Development Engineer Intern - Artificial General Intelligence</td>
+      <td width="180" align="left" valign="top">Boston, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10606968/software-development-engineer-intern-artificial-general-intelligence-summer-2027"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 23</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Stantec</td>
+      <td width="420" align="left" valign="top">Data Scientist Intern - Water</td>
+      <td width="180" align="left" valign="top">San Diego, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://hdhl.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1009005"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 23</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Sharkninjaoperatingllc</td>
+      <td width="420" align="left" valign="top">Software Development Test Engineering Co-op</td>
+      <td width="180" align="left" valign="top">Needham, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4725867006"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 23</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Lockheedmartin</td>
       <td width="420" align="left" valign="top">Software Engineer Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
@@ -271,58 +320,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Aerospace/job/119899"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 20</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">AI Software Engineer Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">USA</td>
-      <td width="120" align="left" valign="top"><a href="https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Aerospace/job/119880"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Ralliant</td>
-      <td width="420" align="left" valign="top">Software Engineering (AI Building) Intern (Summer 2027)</td>
-      <td width="180" align="left" valign="top">Beaverton, OR</td>
-      <td width="120" align="left" valign="top"><a href="https://ibwujb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/11324"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Snowflake" src="./assets/featured-badges/snowflake.svg" /></td>
-      <td width="420" align="left" valign="top">Software Engineer Intern (Database Engineering) - Summer 2027</td>
-      <td width="180" align="left" valign="top">Menlo Park, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.snowflake.com/us/en/job/70074572-5399-4d6f-be64-6a32de622fb6?ph_id=70074572-5399-4d6f-be64-6a32de622fb6"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 19</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Engineer Intern (Core, Infrastructure &amp; Security) — Summer 2027</td>
-      <td width="180" align="left" valign="top">Menlo Park, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.snowflake.com/us/en/job/b1a79d5e-b28d-4fa5-9cee-38be61261073?ph_id=b1a79d5e-b28d-4fa5-9cee-38be61261073"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 19</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Engineer Intern (AI / ML) - Summer 2027</td>
-      <td width="180" align="left" valign="top">Menlo Park, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.snowflake.com/us/en/job/b279efdc-7caf-4ce2-b1ff-d842ee5cc37e?ph_id=b279efdc-7caf-4ce2-b1ff-d842ee5cc37e"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 19</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Anduril Industries</td>
-      <td width="420" align="left" valign="top">2027 Engineering Systems Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Costa Mesa, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/andurilindustries/jobs/5302147007?gh_jid=5302147007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 19</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Lucid Motors</td>
-      <td width="420" align="left" valign="top">Product Security Engineering Intern</td>
-      <td width="180" align="left" valign="top">Newark, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://lucidmotors.com/careers/search/5290941007?gh_jid=5290941007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 19</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 2,254 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 2,261 opportunities in this section.</sub></p>
 
 ### Off Season Intern
 
@@ -337,6 +337,27 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Oscar Health</td>
+      <td width="420" align="left" valign="top">Software Engineering Intern</td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://oscarhealth.com/careers/jobs?gh_jid=8407472"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 23</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Contoro Robotics</td>
+      <td width="420" align="left" valign="top">Robotics Software Engineer Intern, Autonomy &amp; Automation</td>
+      <td width="180" align="left" valign="top">Austin, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/contoro/6a1f0c10-3e5f-4899-ad86-38036a9cd434"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 23</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">PACCAR</td>
+      <td width="420" align="left" valign="top">Vehicle Software Integration Engineer Intern</td>
+      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.paccar.com/job/Sunnyvale-2027-Spring-Internship-Vehicle-Software-Integration-Engineer-CA-94089/1459888133/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 23</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">BAE Systems</td>
       <td width="420" align="left" valign="top">Software or Computer Engineering Co-op 2027</td>
@@ -526,30 +547,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25020388"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 19</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Veolia Environnement SA</td>
-      <td width="420" align="left" valign="top">Manufacturing Software Engineer Intern</td>
-      <td width="180" align="left" valign="top">Boulder, CO</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000162593839"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 19</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">HPE</td>
-      <td width="420" align="left" valign="top">AI Engineering Technical Intern</td>
-      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.hpe.com/us/en/job/1218702?ph_id=1218702"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 19</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Gdms</td>
-      <td width="420" align="left" valign="top">Software Test Engineering Intern - Space and Embedded Crypto<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Scottsdale, AZ</td>
-      <td width="120" align="left" valign="top"><a href="https://careers-gdms.icims.com/jobs/75633/software-test-engineering-intern---space-and-embedded-crypto/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 19</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,968 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,971 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -564,6 +564,34 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Quantiq</td>
+      <td width="420" align="left" valign="top">New Grad: Software Developer</td>
+      <td width="180" align="left" valign="top">Austin, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/quantiq/jobs/4280650009"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 23</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">L3Harris</td>
+      <td width="420" align="left" valign="top">Associate, Software Engineering 🇺🇸<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Yorba Linda, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.l3harris.com/job/Yorba-Linda-Associate,-Software-Engineering-CA-92887/1452910400/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 23</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Koddi</td>
+      <td width="420" align="left" valign="top">Associate Software Engineer</td>
+      <td width="180" align="left" valign="top">Fort Worth, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/koddi/jobs/8944769002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 23</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Us-erac</td>
+      <td width="420" align="left" valign="top">Data Scientist 1 (Master&#39;s)<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">St. Louis, MO</td>
+      <td width="120" align="left" valign="top"><a href="https://us-erac.icims.com/jobs/595973/job?mobile=true&amp;needsRedirect=false"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 23</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Wyetech</td>
       <td width="420" align="left" valign="top">SWE 0= Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
@@ -746,37 +774,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/furtherearlycareer/jobs/8932674002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 20</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Garmin International</td>
-      <td width="420" align="left" valign="top">Software Engineer 1</td>
-      <td width="180" align="left" valign="top">Salem, OR</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.garmin.com/jobs/21486?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">L3Harris</td>
-      <td width="420" align="left" valign="top">Engineering Leadership Development Program - Software Engineer (Various Locations)</td>
-      <td width="180" align="left" valign="top">Melbourne, FL</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.l3harris.com/job/Melbourne-Engineering-Leadership-Development-Program-Software-Engineer-%28Various-Locations%29-FL-32919/1426639500/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Laansu</td>
-      <td width="420" align="left" valign="top">Junior Software Developer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Sterling, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://laansu.applytojob.com/apply/VlgxKiBUqZ"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Lockheedmartin</td>
-      <td width="420" align="left" valign="top">Systems Engineer Asc - E1<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Littleton, CO</td>
-      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477889305?domain=lockheedmartin.com&amp;8fold_id=996477889305"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 20</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,773 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,777 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -795,7 +795,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-24T01:30:25.753Z</code>
+      🕒 Last updated <code>2026-11-24T01:34:53.502Z</code>
     </span>
   </p>
 </div>

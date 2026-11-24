@@ -14,6 +14,27 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Oscar Health</td>
+      <td width="420" align="left" valign="top">Software Engineering Intern</td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://oscarhealth.com/careers/jobs?gh_jid=8407472"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 23</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Contoro Robotics</td>
+      <td width="420" align="left" valign="top">Robotics Software Engineer Intern, Autonomy &amp; Automation</td>
+      <td width="180" align="left" valign="top">Austin, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/contoro/6a1f0c10-3e5f-4899-ad86-38036a9cd434"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 23</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">PACCAR</td>
+      <td width="420" align="left" valign="top">Vehicle Software Integration Engineer Intern</td>
+      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.paccar.com/job/Sunnyvale-2027-Spring-Internship-Vehicle-Software-Integration-Engineer-CA-94089/1459888133/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 23</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">BAE Systems</td>
       <td width="420" align="left" valign="top">Software or Computer Engineering Co-op 2027</td>
       <td width="180" align="left" valign="top">Sterling Heights, MI</td>
@@ -2092,31 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/hearst/jobs/4473043009"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 3</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">RoboForce</td>
-      <td width="420" align="left" valign="top">Machine Learning Engineer Intern - AI &amp; Robotics</td>
-      <td width="180" align="left" valign="top">Milpitas, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/roboforce/jobs/5470001008"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="TikTok" src="../assets/featured-badges/tiktok.svg" /></td>
-      <td width="420" align="left" valign="top">Machine Learning Engineer - Intern (TikTok BRIC) - 2027 Start (PhD)</td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7703899923206867205"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Toshiba Global Commerce Solutions - External</td>
-      <td width="420" align="left" valign="top">AI Software Engineering Intern<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Frisco, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5283178007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 3</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,968 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,971 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-24T01:30:25.753Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-24T01:34:53.502Z</code></sub>
