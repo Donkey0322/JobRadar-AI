@@ -2093,6 +2093,7 @@
       "https://altera.wd1.myworkdayjobs.com/altera/job/San-Jose-California-United-States/Software-Validation-Engineer_R02858",
       "https://altera.wd1.myworkdayjobs.com/altera/job/Shanghai-China/AI-Engineer_R02693",
       "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/AI-Cloud-Data-Engineer_R03371-1",
+      "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/AI-Software-Development-Engineer-Intern_R03487",
       "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/Software-Engineer----Intern_R03414",
       "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/Software-Engineer---Factory-Apps---Intern_R03384"
     ]
@@ -4312,6 +4313,7 @@
       "https://careers.amd.com/jobs/88589?icims=1",
       "https://careers.amd.com/jobs/89499?icims=1",
       "https://careers.amd.com/jobs/89557?icims=1",
+      "https://careers.amd.com/jobs/89564?icims=1&lang=en-us",
       "https://careers.amd.com/jobs/91795?icims=1",
       "https://careers.amd.com/jobs/92144?icims=1",
       "https://careers.amd.com/jobs/92582?icims=1",
@@ -6831,7 +6833,8 @@
       "https://apply.workable.com/j/E81C7F7D3B",
       "https://apply.workable.com/neurohire-dot-a-i/j/59974A3466",
       "https://apply.workable.com/persimmons-ai/j/E8AF3CDFB3",
-      "https://apply.workable.com/prosync/j/6ECFBED6E7/apply"
+      "https://apply.workable.com/prosync/j/6ECFBED6E7/apply",
+      "https://apply.workable.com/serko-ltd/j/2BD3D4F4DE/apply"
     ]
   },
   {
@@ -9802,6 +9805,16 @@
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/BestEgg?mode=json",
     "urls": []
+  },
+  {
+    "name": "BEUMERGroup1",
+    "ats": "smartrecruiters",
+    "identifier": "BEUMERGroup1",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/BEUMERGroup1/postings",
+    "urls": [
+      "https://jobs.smartrecruiters.com/BEUMERGroup1/744000163483739"
+    ]
   },
   {
     "name": "beyondsoft",
@@ -24772,6 +24785,7 @@
       "https://careers.garmin.com/jobs/19695?icims=1",
       "https://careers.garmin.com/jobs/19858?icims=1",
       "https://careers.garmin.com/jobs/19926?icims=1",
+      "https://careers.garmin.com/jobs/19953?icims=1&lang=en-us",
       "https://careers.garmin.com/jobs/19999?icims=1",
       "https://careers.garmin.com/jobs/20055?icims=1",
       "https://careers.garmin.com/jobs/20080?icims=1",
@@ -28053,6 +28067,7 @@
       "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/South-Boston-Virginia-United-States-of-America/Quality-System-Analyst_R0139120",
       "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Stuttgart-Baden-Wrttemberg-Germany/Duales-Studium-Embedded-Systems-General-Engineering--m-w-d-_R1009937-1",
       "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Stuttgart-Baden-Wrttemberg-Germany/Security-Engineer---Produktsicherheit--m-w-d-_R1012311-1",
+      "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/Data-and-Business-Intelligence-Analyst--Intern_R0151457",
       "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/DevOps-Analyst-Intern_R0145523",
       "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/Software-Analyst-Intern--Fall-2026--8-months-_R0148741",
       "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/Software-Analyst_R0143365",
@@ -30465,6 +30480,7 @@
     "page": "https://careers-iridium.icims.com/jobs/search",
     "urls": [
       "https://careers-iridium.icims.com/jobs/5136/iridium-software-engineering-internship-%e2%80%93-summer-2027/job",
+      "https://careers-iridium.icims.com/jobs/5154/software-test-engineer-i/job",
       "https://careers-iridium.icims.com/jobs/5186/software-engineer-i/job"
     ]
   },
@@ -31734,6 +31750,16 @@
     "urls": []
   },
   {
+    "name": "jobs.nvidia.com",
+    "ats": "none",
+    "identifier": "jobs.nvidia.com",
+    "domain": "https://jobs.nvidia.com",
+    "page": "",
+    "urls": [
+      "https://jobs.nvidia.com/careers/job/893398824101"
+    ]
+  },
+  {
     "name": "jobs.sap.com",
     "ats": "none",
     "identifier": "jobs.sap.com",
@@ -31966,6 +31992,7 @@
       "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210791916",
       "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210800193",
       "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210801013",
+      "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210803021",
       "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210807094"
     ]
   },
@@ -42626,7 +42653,8 @@
       "https://careers-peraton.icims.com/jobs/176584/aws-cloud-security-engineer/job",
       "https://careers-peraton.icims.com/jobs/176617/cobol-software-developer/job",
       "https://careers-peraton.icims.com/jobs/176883/software-engineer/job",
-      "https://careers-peraton.icims.com/jobs/177079/cloud-engineer---governance%2c-risk%2c-and-compliance-%28grc%29/job"
+      "https://careers-peraton.icims.com/jobs/177079/cloud-engineer---governance%2c-risk%2c-and-compliance-%28grc%29/job",
+      "https://careers-peraton.icims.com/jobs/177377/job?mobile=true&needsRedirect=false"
     ]
   },
   {
@@ -44276,6 +44304,16 @@
     "urls": []
   },
   {
+    "name": "queracomputinginc",
+    "ats": "greenhouse",
+    "identifier": "queracomputinginc",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/queracomputinginc/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/queracomputinginc/jobs/5493521008"
+    ]
+  },
+  {
     "name": "questanalytics",
     "ats": "lever",
     "identifier": "questanalytics",
@@ -45392,7 +45430,8 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/rfsmart/jobs",
     "urls": [
-      "https://job-boards.greenhouse.io/rfsmart/jobs/5409370008"
+      "https://job-boards.greenhouse.io/rfsmart/jobs/5409370008",
+      "https://job-boards.greenhouse.io/rfsmart/jobs/5446867008"
     ]
   },
   {
@@ -47026,6 +47065,7 @@
     "domain": "https://sambanova.ai",
     "page": "https://boards-api.greenhouse.io/v1/boards/sambanovasystems/jobs",
     "urls": [
+      "https://sambanova.ai/sambanova-available-positions/?gh_jid=6224936004",
       "https://sambanova.ai/sambanova-available-positions/?gh_jid=6224938004",
       "https://sambanova.ai/sambanova-available-positions/?gh_jid=6224940004",
       "https://sambanova.ai/sambanova-available-positions/?gh_jid=6240725004"
@@ -56131,6 +56171,7 @@
       "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Bellevue-WA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Bellevue_REF089920W-2",
       "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/Network-and-Security-Engineering-Intern---2027--Highlands-Ranch--CO_REF089779W-1",
       "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/Software-Development-Engineer--Product-Reliability-Engineering_REF089580W",
+      "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/Software-Engineer--Agentic-Developer_REF090196W",
       "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/Software-Engineer_REF089009W",
       "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Highlands-Ranch_REF089880W-1",
       "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Associate-Data-Engineer_REF089618W",
