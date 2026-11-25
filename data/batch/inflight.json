@@ -1,1 +1,57 @@
-[]
+[
+  {
+    "name": "batches/due9njagf1r8aim09pzuuh9zho6l6cle3afn",
+    "submittedAt": "2026-11-25T22:58:03.196Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Xona Space",
+        "role": "Software Engineering Intern, Engineering Productivity 🇺🇸",
+        "link": "https://jobs.ashbyhq.com/xona-space/d3549244-52e2-4894-87f9-99fc8cbe26ab",
+        "location": "Burlingame, CA"
+      },
+      {
+        "company": "Saputo",
+        "role": "Data Engineer Intern, Enterprise Analytics",
+        "link": "https://saputo.wd5.myworkdayjobs.com/Saputo_External_Careers/job/Mississauga-ON/Intern--Data-Engineer-Enterprise-Analytics_JR68381",
+        "location": "Mississauga, Canada"
+      },
+      {
+        "company": "Jabil",
+        "role": "Data Scientist Intern",
+        "link": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Data-Scientist-Intern_J2468236",
+        "location": "St. Petersburg, FL</br>Tampa, FL"
+      },
+      {
+        "company": "Coinbase",
+        "role": "Security Engineer Intern",
+        "link": "https://www.coinbase.com/careers/positions/8415869?gh_jid=8415869",
+        "location": "New York, NY"
+      },
+      {
+        "company": "Celestica",
+        "role": "Engineering Data Analytics Intern",
+        "link": "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Engineering-Data-Analytics-ON/1460684533",
+        "location": "Toronto, Canada"
+      },
+      {
+        "company": "Celestica",
+        "role": "Engineering AI Development Intern",
+        "link": "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Engineering-AI-Development-ON/1460691233",
+        "location": "Toronto, Canada"
+      },
+      {
+        "company": "Carrier",
+        "role": "Software & Controls Engineering Intern 🛂",
+        "link": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAN05-CCS-Charlotte-5900-Northwoods-Business-Parkway-Charlotte-NC-28269-USA/Software---Controls-Engineering-Intern---Summer_30222979",
+        "location": "Charlotte, NC"
+      },
+      {
+        "company": "XPENG Motors",
+        "role": "New Grad: Software Engineer - Computing Platform",
+        "link": "https://job-boards.greenhouse.io/xpengmotors/jobs/8962912002",
+        "location": "Santa Clara, CA"
+      }
+    ]
+  }
+]
