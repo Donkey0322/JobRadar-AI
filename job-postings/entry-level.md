@@ -14,6 +14,55 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Lockheedmartin</td>
+      <td width="420" align="left" valign="top">Software Engineer (Simulation and Training) - Early Career<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Mount Laurel, NJ</td>
+      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996478004473?domain=lockheedmartin.com&amp;8fold_id=996478004473"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Qualcomm</td>
+      <td width="420" align="left" valign="top">System Integration &amp; Test Engineer</td>
+      <td width="180" align="left" valign="top">San Diego, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.qualcomm.com/careers/job/446722334606?domain=qualcomm.com&amp;8fold_id=446722334606"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Rubrik Job Board</td>
+      <td width="420" align="left" valign="top">Software Engineer - Data Protection</td>
+      <td width="180" align="left" valign="top">Palo Alto, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.rubrik.com/company/careers/departments/job.8314058?gh_jid=8314058"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Veeva</td>
+      <td width="420" align="left" valign="top">Associate Software Engineer - 2027 Start Dates<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Raleigh, NC</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/veeva/7272b636-1a5e-4e4b-a0af-763d2951429f"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">BAE Systems</td>
+      <td width="420" align="left" valign="top">Engineer I - Mechanical - Process and Software Support</td>
+      <td width="180" align="left" valign="top">Boulder, CO</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.baesystems.com/global/en/job/133210BR?ph_id=133210BR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Systems Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Fort Wayne, IN</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.baesystems.com/global/en/job/133303BR?ph_id=133303BR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Lockheedmartin</td>
+      <td width="420" align="left" valign="top">Systems Engineer (Mission Systems) - Early Career<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Owego, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996478081251?domain=lockheedmartin.com&amp;8fold_id=996478081251"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Wurl</td>
       <td width="420" align="left" valign="top">Software Engineer I - Remote</td>
       <td width="180" align="left" valign="top">Remote - United States</td>
@@ -2064,59 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477644034?domain=lockheedmartin.com&amp;8fold_id=996477644034"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 16</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Americas-cookmedical</td>
-      <td width="420" align="left" valign="top">Software Engineer 1, Full-Stack<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Bloomington, IN</td>
-      <td width="120" align="left" valign="top"><a href="https://americas-cookmedical.icims.com/jobs/20874/software-engineer-1%2c-full-stack/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 16</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">HPE</td>
-      <td width="420" align="left" valign="top">HPC &amp; AI Performance Engineer</td>
-      <td width="180" align="left" valign="top">Bloomington, MN</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.hpe.com/us/en/job/1206826?ph_id=1206826"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 16</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Computer Task Group</td>
-      <td width="420" align="left" valign="top">Software Engineer I</td>
-      <td width="180" align="left" valign="top">Buffalo, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.ctg.com/jobs/18333?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 16</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Panasonic</td>
-      <td width="420" align="left" valign="top">AI Automation Process Assurance Engineer I</td>
-      <td width="180" align="left" valign="top">Irvine, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.na.panasonic.com/jobs/52744?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 13</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Trace3</td>
-      <td width="420" align="left" valign="top">System Integration Engineer - C2BMC<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Colorado Springs, CO</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/trace3/jobs/8386882"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 13</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Triumph-arcade</td>
-      <td width="420" align="left" valign="top">Data Engineer</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/triumph-arcade/8863c7e0-60a5-4775-b15b-d0e46329a230"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 13</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Twitch</td>
-      <td width="420" align="left" valign="top">Software Engineer I, Payments</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/twitch/jobs/8943553002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 13</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 3,820 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 3,827 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-25T03:33:39.274Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-25T03:37:38.870Z</code></sub>

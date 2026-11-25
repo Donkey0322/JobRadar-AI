@@ -14,6 +14,76 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Lockheedmartin</td>
+      <td width="420" align="left" valign="top">Systems Engineer - Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Owego, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996478149799?domain=lockheedmartin.com&amp;8fold_id=996478149799"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer - Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Owego, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996478149210?domain=lockheedmartin.com&amp;8fold_id=996478149210"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer - Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Stratford, CT</td>
+      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477971944?domain=lockheedmartin.com&amp;8fold_id=996477971944"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Bandwidth</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern - Summer 2027</td>
+      <td width="180" align="left" valign="top">Raleigh, NC</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/bandwidth/jobs/8414444"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern - Summer 2027</td>
+      <td width="180" align="left" valign="top">Raleigh, NC</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/bandwidth/jobs/8414452"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern - Summer 2027</td>
+      <td width="180" align="left" valign="top">Raleigh, NC</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/bandwidth/jobs/8414448"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern - Summer 2027</td>
+      <td width="180" align="left" valign="top">Raleigh, NC</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/bandwidth/jobs/8414436"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern - Summer 2027</td>
+      <td width="180" align="left" valign="top">Raleigh, NC</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/bandwidth/jobs/8414430"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern - Summer 2027</td>
+      <td width="180" align="left" valign="top">Raleigh, NC</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/bandwidth/jobs/8414440"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern - Summer 2027</td>
+      <td width="180" align="left" valign="top">Raleigh, NC</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/bandwidth/jobs/8414426"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Apex-technology-inc</td>
       <td width="420" align="left" valign="top">Software Engineer Intern, Test Automation<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Los Angeles, CA</td>
@@ -2043,80 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/NBCUniversal3/744000160659459"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 9</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Rtx</td>
-      <td width="420" align="left" valign="top">Software Engineering Intern (Summer 2027) (Hybrid)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Aguadilla, PR</td>
-      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-PR-AGUADILLA-110--Rd-110-N-Km-288--RD110/Software-Engineering-Intern--Summer-2027---Hybrid-_01888108"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 9</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Gdms</td>
-      <td width="420" align="left" valign="top">Full-Stack Application Development Intern, Summer 2027<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Scottsdale, AZ</td>
-      <td width="120" align="left" valign="top"><a href="https://careers-gdms.icims.com/jobs/75971/full-stack-application-development-intern%2c-summer-2027/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 9</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Full-Stack Software Engineering Intern, Summer 2027<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Scottsdale, AZ</td>
-      <td width="120" align="left" valign="top"><a href="https://careers-gdms.icims.com/jobs/75970/full-stack-software-engineering-intern%2c-summer-2027/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 9</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Lockheedmartin</td>
-      <td width="420" align="left" valign="top">Systems Engineer-Intern</td>
-      <td width="180" align="left" valign="top">King of Prussia, PA</td>
-      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477829891?domain=lockheedmartin.com&amp;8fold_id=996477829891"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 9</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Systems Engineer-Intern</td>
-      <td width="180" align="left" valign="top">King of Prussia, PA</td>
-      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477829646?domain=lockheedmartin.com&amp;8fold_id=996477829646"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 9</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Engineer - Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Fort Worth, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477473137?domain=lockheedmartin.com&amp;8fold_id=996477473137"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 9</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Engineer (AMMM) - Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Marietta, GA</td>
-      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996476704238?domain=lockheedmartin.com&amp;8fold_id=996476704238"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 9</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">CesiumAstro</td>
-      <td width="420" align="left" valign="top">Summer 2027 - Embedded Software Engineering Internship<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Melbourne, FL</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/CesiumAstro/e3abc815-107d-4206-8a83-dd02932e2361"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 9</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Springswindowfashions</td>
-      <td width="420" align="left" valign="top">Textile Engineering Analytics &amp; Software Intern</td>
-      <td width="180" align="left" valign="top">Middleton, WI</td>
-      <td width="120" align="left" valign="top"><a href="https://careers-springswindowfashions.icims.com/jobs/12881/textile-engineering-analytics-%26-software-internship---summer-2027/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 7</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Thetorocompany</td>
-      <td width="420" align="left" valign="top">Cloud Software Development Intern - The Toro Company<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Frederick, CO</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.thetorocompany.com/job/frederick/cloud-software-development-intern-the-toro-company/40062/102169808400"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 7</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 2,277 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 2,287 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-25T03:33:39.274Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-25T03:37:38.870Z</code></sub>

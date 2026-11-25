@@ -15,6 +15,27 @@
   <tbody>
     <tr>
       <td width="180" align="left" valign="top">Lockheedmartin</td>
+      <td width="420" align="left" valign="top">Software Engineer - Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Owego, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477665301?domain=lockheedmartin.com&amp;8fold_id=996477665301"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Meta" src="../assets/featured-badges/meta.svg" /></td>
+      <td width="420" align="left" valign="top">Battery Engineering Intern, Battery Systems Engineering</td>
+      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.metacareers.com/profile/job_details/1165674205921515"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Sparksoft Corporation</td>
+      <td width="420" align="left" valign="top">Business / Data Analyst<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Remote/Onsite if local to Maryland</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/sparksoftcorporation/jobs/5308152007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Lockheedmartin</td>
       <td width="420" align="left" valign="top">Systems Engineering Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Huntsville, AL</td>
       <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996478129976?domain=lockheedmartin.com&amp;8fold_id=996478129976"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -2092,31 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://jobs.paccar.com/job/Denton-2027-Summer-Internship-Data-Engineer-TX-76205-7864/1454360033/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 4</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Borgwarner</td>
-      <td width="420" align="left" valign="top">Software Engineering Intern (Year-Round)<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Auburn Hills, MI</td>
-      <td width="120" align="left" valign="top"><a href="https://borgwarner.wd5.myworkdayjobs.com/borgwarner_careers/job/Auburn-Hills---Michigan---USA/Software-Engineering-Intern--Year-Round-_R2026-2448-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 4</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Bostonscientific</td>
-      <td width="420" align="left" valign="top">Urology R&amp;D Software Engineering Co-op<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Maple Grove, MN</td>
-      <td width="120" align="left" valign="top"><a href="https://bostonscientific.eightfold.ai/careers/job/563602813743813?domain=bostonscientific.com&amp;8fold_id=563602813743813"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 4</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">L3harris</td>
-      <td width="420" align="left" valign="top">Intern, Systems Engineering<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Nashville, TN</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.l3harris.com/job/nashville/intern-systems-engineering/4832/102854131552"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 4</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,981 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,984 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-25T03:33:39.274Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-25T03:37:38.870Z</code></sub>
