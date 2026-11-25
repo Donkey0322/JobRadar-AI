@@ -16569,6 +16569,7 @@
       "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAI23-Carrier-Indianapolis-7310-West-Morris-Street-Indianapolis-IN-46231-USA/Systems-Engineering-Intern---Summer_30220556-1",
       "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAN01-Carrier-Syracuse-6304-Carrier-Parkway-East-Syracuse-NY-13057-USA/New-Product-Development---Refrigeration-Systems-Engineer_30218137",
       "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAN05-CCS-Charlotte-5900-Northwoods-Business-Parkway-Charlotte-NC-28269-USA/Data-Center-Customer-Quality-Sr-Engineer_30219231",
+      "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAN05-CCS-Charlotte-5900-Northwoods-Business-Parkway-Charlotte-NC-28269-USA/Software---Controls-Engineering-Intern---Summer_30222979",
       "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAN05-CCS-Charlotte-5900-Northwoods-Business-Parkway-Charlotte-NC-28269-USA/Systems-Engineering-Intern---Summer_30220432",
       "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAV20-ALC---Virginia-4948-Dominion-Boulevard-Glen-Allen-VA-23060-USA/Associate-Controls-Engineer---Building-Automation-Systems---Automated-Logic_30218032",
       "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAW11-ALC-Brown-Deer-1501-Paramount-Drive-Waukesha-WI-53186-USA/Building-Automation-Field-Engineer---Data-Center_30216604",
@@ -16830,6 +16831,17 @@
     "page": "https://careers.cdmsmith.com/api/jobs",
     "urls": [
       "https://careers.cdmsmith.com/jobs/4994?icims=1&lang=en-us"
+    ]
+  },
+  {
+    "name": "Celestica International LP",
+    "ats": "successfactors",
+    "identifier": "careers.celestica.com",
+    "domain": "https://careers.celestica.com",
+    "page": "https://careers.celestica.com/services/rss/job/?locale=en_US",
+    "urls": [
+      "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Engineering-AI-Development-ON/1460691233",
+      "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Engineering-Data-Analytics-ON/1460684533"
     ]
   },
   {
@@ -18626,7 +18638,8 @@
       "https://www.coinbase.com/careers/positions/8318599?gh_jid=8318599",
       "https://www.coinbase.com/careers/positions/8319444?gh_jid=8319444",
       "https://www.coinbase.com/careers/positions/8394654?gh_jid=8394654",
-      "https://www.coinbase.com/careers/positions/8400323?gh_jid=8400323"
+      "https://www.coinbase.com/careers/positions/8400323?gh_jid=8400323",
+      "https://www.coinbase.com/careers/positions/8415869?gh_jid=8415869"
     ]
   },
   {
@@ -30922,6 +30935,7 @@
     "page": "https://jabil.wd5.myworkdayjobs.com/wday/cxs/jabil/Jabil_Careers/jobs",
     "urls": [
       "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Austin-TX/Software-Engineering-Intern_J2472697",
+      "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Data-Scientist-Intern_J2468236",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Austin-TX/Software-Test-Development-Engineer_J2469613",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Bandung/Quality-System-Engineer_J2457468",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Bray/BR-Control-Systems-Engineer-I_J2463903",
@@ -47827,6 +47841,16 @@
     ]
   },
   {
+    "name": "saputo",
+    "ats": "workday",
+    "identifier": "saputo-saputo_external_careers",
+    "domain": "https://saputo.wd5.myworkdayjobs.com/Saputo_External_Careers",
+    "page": "https://saputo.wd5.myworkdayjobs.com/wday/cxs/saputo/Saputo_External_Careers/jobs",
+    "urls": [
+      "https://saputo.wd5.myworkdayjobs.com/Saputo_External_Careers/job/Mississauga-ON/Intern--Data-Engineer-Enterprise-Analytics_JR68381"
+    ]
+  },
+  {
     "name": "sargentlundy",
     "ats": "icims",
     "identifier": "sargentlundy",
@@ -58554,6 +58578,26 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/xometry/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/xometry/jobs/5287085007"
+    ]
+  },
+  {
+    "name": "xona-space",
+    "ats": "ashby",
+    "identifier": "xona-space",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/xona-space",
+    "urls": [
+      "https://jobs.ashbyhq.com/xona-space/d3549244-52e2-4894-87f9-99fc8cbe26ab"
+    ]
+  },
+  {
+    "name": "xpengmotors",
+    "ats": "greenhouse",
+    "identifier": "xpengmotors",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/xpengmotors/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/xpengmotors/jobs/8962912002"
     ]
   },
   {
