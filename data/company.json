@@ -6921,6 +6921,8 @@
       "https://apply.workable.com/cwill-us/j/1BC6285A3C",
       "https://apply.workable.com/datavisor-jobs/j/2FB6A93BF6",
       "https://apply.workable.com/datavisor-jobs/j/2FB6A93BF6/apply",
+      "https://apply.workable.com/digital-control/j/AB9A181560",
+      "https://apply.workable.com/digital-control/j/AB9A181560/apply",
       "https://apply.workable.com/falcomm/j/41F139E6F7/apply",
       "https://apply.workable.com/falcomm/j/64D0E86EFE",
       "https://apply.workable.com/falcomm/j/64D0E86EFE/apply",
@@ -6934,6 +6936,7 @@
       "https://apply.workable.com/j/98DB106D88",
       "https://apply.workable.com/j/9B3CB646E8",
       "https://apply.workable.com/j/9C2964C7CD",
+      "https://apply.workable.com/j/AB9A181560",
       "https://apply.workable.com/j/CA15908E0A",
       "https://apply.workable.com/j/E81C7F7D3B",
       "https://apply.workable.com/neurohire-dot-a-i/j/59974A3466",
@@ -8330,6 +8333,17 @@
       "https://careers-axway.icims.com/jobs/9031/devops-engineer/job",
       "https://careers-axway.icims.com/jobs/9042/senior-software-engineer-ii/job",
       "https://careers-axway.icims.com/jobs/9153/devops-engineer-i/job"
+    ]
+  },
+  {
+    "name": "ayosemi",
+    "ats": "ashby",
+    "identifier": "ayosemi",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/ayosemi",
+    "urls": [
+      "https://jobs.ashbyhq.com/ayosemi/25ce1f36-356a-4a0e-95e0-24c3babb34ff",
+      "https://jobs.ashbyhq.com/ayosemi/cc1d3968-2b15-4442-828c-7950077c3a8a"
     ]
   },
   {
@@ -18571,6 +18585,16 @@
     "page": "https://api.smartrecruiters.com/v1/companies/Codeage/postings",
     "urls": [
       "https://jobs.smartrecruiters.com/Codeage/743999669081604"
+    ]
+  },
+  {
+    "name": "coderabbit",
+    "ats": "ashby",
+    "identifier": "coderabbit",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/coderabbit",
+    "urls": [
+      "https://jobs.ashbyhq.com/coderabbit/50e51501-4421-496f-95ea-c793aed3bd51"
     ]
   },
   {
@@ -36098,7 +36122,8 @@
     "domain": "https://mantech.avature.net",
     "page": "",
     "urls": [
-      "https://mantech.avature.net/en_US/careers/JobDetail/67115"
+      "https://mantech.avature.net/en_US/careers/JobDetail/67115",
+      "https://mantech.avature.net/en_US/careers/JobDetail/67285"
     ]
   },
   {
@@ -42624,6 +42649,16 @@
   },
   {
     "name": "parallel",
+    "ats": "ashby",
+    "identifier": "parallel",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/parallel",
+    "urls": [
+      "https://jobs.ashbyhq.com/parallel/8b4ff118-444c-425a-b33b-f38d8338d87c"
+    ]
+  },
+  {
+    "name": "parallel",
     "ats": "greenhouse",
     "identifier": "parallel",
     "domain": "https://boards.greenhouse.io",
@@ -48284,6 +48319,17 @@
       "https://job-boards.greenhouse.io/scopely/jobs/5395475008?gh_jid=5395475008",
       "https://job-boards.greenhouse.io/scopely/jobs/5456049008?gh_jid=5456049008",
       "https://job-boards.greenhouse.io/scopely/jobs/5476480008?gh_jid=5476480008"
+    ]
+  },
+  {
+    "name": "scout-ai",
+    "ats": "ashby",
+    "identifier": "scout-ai",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/scout-ai",
+    "urls": [
+      "https://jobs.ashbyhq.com/scout-ai/7da1991b-f264-4465-8747-8cc5421a9897/application?embed=true",
+      "https://jobs.ashbyhq.com/scout-ai/ad3dd69f-f568-4a7c-abbf-280424bc63ed/application?embed=true"
     ]
   },
   {
@@ -54336,7 +54382,8 @@
       "https://lifeattiktok.com/search/7706439145591392517",
       "https://lifeattiktok.com/search/7706481808216688901",
       "https://lifeattiktok.com/search/7706693387932633397",
-      "https://lifeattiktok.com/search/7708750900450134325"
+      "https://lifeattiktok.com/search/7708750900450134325",
+      "https://lifeattiktok.com/search/7712192759532357893"
     ]
   },
   {
@@ -54624,6 +54671,16 @@
     "urls": [
       "https://www.toyotaconnected.com/job?gh_jid=8624314002&gh_jid=8624314002",
       "https://www.toyotaconnected.com/job?gh_jid=8806245002&gh_jid=8806245002"
+    ]
+  },
+  {
+    "name": "tql.avature.net",
+    "ats": "none",
+    "identifier": "tql.avature.net",
+    "domain": "https://tql.avature.net",
+    "page": "",
+    "urls": [
+      "https://tql.avature.net/en_US/TQLexternalcareers/JobDetail/19763"
     ]
   },
   {
@@ -56328,6 +56385,7 @@
       "https://jobs.lever.co/veeva/0d88dc70-1023-4ee5-a7fe-67eb0b5cb848",
       "https://jobs.lever.co/veeva/35dd31bf-c0ee-4366-b9c9-88a9f41e4cf5",
       "https://jobs.lever.co/veeva/47279623-8cbf-42f9-8f41-461c25af2edf",
+      "https://jobs.lever.co/veeva/4738ae75-9f7b-4082-b129-69fb82f6d7b2",
       "https://jobs.lever.co/veeva/4c553771-00ae-474d-b69e-670ee67fec7d",
       "https://jobs.lever.co/veeva/58edfcf2-acbf-4646-8976-a05fe29b4be5",
       "https://jobs.lever.co/veeva/607ae6ec-ab7e-4a16-931e-3c3a8d075ec7",
@@ -56342,6 +56400,7 @@
       "https://jobs.lever.co/veeva/dc31cd5c-0aa5-45a5-9cc2-fd4179f47b40",
       "https://jobs.lever.co/veeva/e38ab928-18d3-4907-901e-e3dc889aab1c",
       "https://jobs.lever.co/veeva/ee3ae875-5db1-49b3-ae64-0fbac944d2a3",
+      "https://jobs.lever.co/veeva/f277bc52-1dd6-4447-ac3b-a6127e625ec7",
       "https://jobs.lever.co/veeva/fc5343d1-f637-4729-9ecb-aeb963619e01",
       "https://jobs.lever.co/veeva/fecaef42-b5c1-4fb2-b819-058171174ed1"
     ]
@@ -57764,6 +57823,17 @@
       "https://wellsky.wd1.myworkdayjobs.com/wellskycareers/job/Overland-Park-KS/Red-Team---Sr-Security-Engineer_JR5095-1",
       "https://wellsky.wd1.myworkdayjobs.com/wellskycareers/job/Overland-Park-KS/Software-Engineer_JR5077",
       "https://wellsky.wd1.myworkdayjobs.com/wellskycareers/job/Overland-Park-KS/Sr-Software-Engineer---Remote_JR5258"
+    ]
+  },
+  {
+    "name": "WELLSTAR",
+    "ats": "jazzhr",
+    "identifier": "wellhealthtechnologiescorp.applytojob.com",
+    "domain": "https://wellhealthtechnologiescorp.applytojob.com",
+    "page": "https://wellhealthtechnologiescorp.applytojob.com/apply/jobs",
+    "urls": [
+      "https://wellhealthtechnologiescorp.applytojob.com/apply/5kq5CE1n76/Junior-Software-Developer",
+      "https://wellhealthtechnologiescorp.applytojob.com/apply/URnVV0S4yQ/Junior-Software-Developer"
     ]
   },
   {
