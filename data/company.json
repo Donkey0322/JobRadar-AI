@@ -20554,6 +20554,16 @@
     "urls": []
   },
   {
+    "name": "dept",
+    "ats": "greenhouse",
+    "identifier": "dept",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/dept/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/dept/jobs/8414501"
+    ]
+  },
+  {
     "name": "deshaw.com",
     "ats": "none",
     "identifier": "deshaw.com",
