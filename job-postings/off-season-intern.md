@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Clera</td>
+      <td width="420" align="left" valign="top">Product Engineer Intern, Mobile<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">San Francisco Bay Area, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/Clera/dc18d62b-baf7-4cc1-8bda-7f8985fe10de"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 26</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Coderabbit</td>
       <td width="420" align="left" valign="top">Software Engineer - Intern</td>
       <td width="180" align="left" valign="top">San Francisco, CA</td>
@@ -2106,17 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/San-Juan-Puerto-Rico-Puerto-Rico/Systems-Software-Testing-Engineer-Cloud---On-Premise-Intern_1218105"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 4</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Lockheedmartin</td>
-      <td width="420" align="left" valign="top">Software Engineer Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Colorado Springs, CO</td>
-      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477757313?domain=lockheedmartin.com&amp;8fold_id=996477757313"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 4</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,991 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,992 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-26T18:25:18.869Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-26T18:29:00.194Z</code></sub>

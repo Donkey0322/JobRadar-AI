@@ -90,8 +90,8 @@
 Each category page shows up to 300 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 2,302 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 1,991 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,852 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 1,992 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,854 opportunities
 
 ## The List 🚴‍♂️
 
@@ -338,6 +338,13 @@ Each category page shows up to 300 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Clera</td>
+      <td width="420" align="left" valign="top">Product Engineer Intern, Mobile<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">San Francisco Bay Area, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/Clera/dc18d62b-baf7-4cc1-8bda-7f8985fe10de"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 26</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Coderabbit</td>
       <td width="420" align="left" valign="top">Software Engineer - Intern</td>
       <td width="180" align="left" valign="top">San Francisco, CA</td>
@@ -540,16 +547,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://careers.serco-na.com/us/en/job/36121?ph_id=36121"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 23</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Engineering Intern- Middletown, RI<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Middletown, RI</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.serco-na.com/us/en/job/36120?ph_id=36120"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 23</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,991 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,992 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -564,6 +564,20 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Super Micro Computer</td>
+      <td width="420" align="left" valign="top">System Validation Engineer</td>
+      <td width="180" align="left" valign="top">San Jose, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.supermicro.com/job/San-Jose-System-Validation-Engineer-Cali/1425155800/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 26</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Amazon" src="./assets/featured-badges/amazon.svg" /></td>
+      <td width="420" align="left" valign="top">Software Development Engineer - Military Veterans</td>
+      <td width="180" align="left" valign="top">Seattle, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/3179205"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 26</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Cisco</td>
       <td width="420" align="left" valign="top">Software Engineer</td>
@@ -760,23 +774,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://careers.qualcomm.com/careers/job/446722334606?domain=qualcomm.com&amp;8fold_id=446722334606"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 24</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Rubrik Job Board</td>
-      <td width="420" align="left" valign="top">Software Engineer - Data Protection</td>
-      <td width="180" align="left" valign="top">Palo Alto, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.rubrik.com/company/careers/departments/job.8314058?gh_jid=8314058"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 24</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Veeva</td>
-      <td width="420" align="left" valign="top">Associate Software Engineer - 2027 Start Dates<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Raleigh, NC</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/veeva/7272b636-1a5e-4e4b-a0af-763d2951429f"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 24</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,852 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,854 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -795,7 +795,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-26T18:25:18.869Z</code>
+      🕒 Last updated <code>2026-11-26T18:29:00.194Z</code>
     </span>
   </p>
 </div>
