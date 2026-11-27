@@ -28789,6 +28789,7 @@
     "domain": "https://homedepot.wd5.myworkdayjobs.com/careerdepotcanada",
     "page": "https://homedepot.wd5.myworkdayjobs.com/wday/cxs/homedepot/careerdepotcanada/jobs",
     "urls": [
+      "https://homedepot.wd5.myworkdayjobs.com/CareerDepotCanada/job/CANADA-STORE-SUPPORT-CENTER---7000/Intern--Full-Stack-Software-Developer_Req195012",
       "https://homedepot.wd5.myworkdayjobs.com/careerdepotcanada/job/ASKUITY-OFFICE-TORONTO---2595/Data-Scientist--Askuity-division-_Req191919"
     ]
   },
@@ -52886,6 +52887,16 @@
       "https://jobs.ashbyhq.com/terranova/a8e5a8d2-4af3-4736-b66e-e0804447f7a0/application?embed=true",
       "https://jobs.ashbyhq.com/terranova/ab65c694-e140-4efe-b7f7-abca43e48ba7",
       "https://jobs.ashbyhq.com/terranova/b6ce03c4-07b6-45e1-94e9-24b3ec17d942"
+    ]
+  },
+  {
+    "name": "tesco.avature.net",
+    "ats": "none",
+    "identifier": "tesco.avature.net",
+    "domain": "https://tesco.avature.net",
+    "page": "",
+    "urls": [
+      "https://tesco.avature.net/en_GB/careers/JobDetail/218753"
     ]
   },
   {
