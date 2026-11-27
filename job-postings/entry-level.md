@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Synectic Solutions</td>
+      <td width="420" align="left" valign="top">Software Engineer 1<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Norco, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://synecsolu.applytojob.com/apply/kQT1OASGDG/Software-Engineer-I"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 26</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Super Micro Computer</td>
       <td width="420" align="left" valign="top">System Validation Engineer</td>
       <td width="180" align="left" valign="top">San Jose, CA</td>
@@ -2106,17 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477645104?domain=lockheedmartin.com&amp;8fold_id=996477645104"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 16</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Systems Engineer Associate - Early Career<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Colorado Springs, CO</td>
-      <td width="120" align="left" valign="top"><a href="https://lockheedmartin.eightfold.ai/careers/job/996477875986?domain=lockheedmartin.com&amp;8fold_id=996477875986"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 16</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 3,854 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 3,855 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-27T04:49:00.739Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-27T04:51:20.534Z</code></sub>
