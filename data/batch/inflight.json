@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "name": "batches/d1ajf3n2jtq22v712bp4axdaaehte25v2m6b",
+    "submittedAt": "2026-11-27T04:49:09.256Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "PQShield",
+        "role": "Software Engineer Intern",
+        "link": "https://pqshield.com/careers/apply/5049820101?gh_jid=5049820101",
+        "location": "Oxford, UK"
+      },
+      {
+        "company": "Orion Digital",
+        "role": "Junior Full Stack AI Engineer",
+        "link": "https://mogo.applytojob.com/apply/yLhCvCiypq/Junior-Full-Stack-AI-Engineer",
+        "location": "Remote in Canada"
+      },
+      {
+        "company": "Synectic Solutions",
+        "role": "Software Engineer 1",
+        "link": "https://synecsolu.applytojob.com/apply/kQT1OASGDG/Software-Engineer-I",
+        "location": "Norco, CA"
+      }
+    ]
+  }
+]
