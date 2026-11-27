@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "name": "batches/vvom44usn12rbi7p2ylmut0ll5er6qz94upv",
+    "submittedAt": "2026-11-27T02:11:03.741Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Amazon",
+        "role": "Software Development Engineer - AWS Identity & Access Management, AWS Identity",
+        "link": "https://amazon.jobs/en/jobs/10438698",
+        "location": "US, WA, Seattle",
+        "country": "USA"
+      },
+      {
+        "company": "Atoms",
+        "role": "Software Engineering Intern - 2027 Summer Term",
+        "link": "https://job-boards.greenhouse.io/atoms/jobs/8356100002",
+        "location": "San Francisco, CA",
+        "country": "USA"
+      },
+      {
+        "company": "ATOMS Careers page",
+        "role": "Software Engineering Intern - 2027 Summer Term",
+        "link": "https://job-boards.greenhouse.io/cssmerge/jobs/8963704002",
+        "location": "San Francisco, CA",
+        "country": "USA"
+      },
+      {
+        "company": "Meta",
+        "role": "Software Engineer, Endpoint Networking (Technical Leadership)",
+        "link": "https://www.metacareers.com/profile/job_details/1603944021501959",
+        "location": "Bellevue, WA, Menlo Park, CA",
+        "country": "USA"
+      },
+      {
+        "company": "PACCAR",
+        "role": "Vehicle Calibration Engineer - Software Integration",
+        "link": "https://jobs.paccar.com/job/Mount-Vernon-Vehicle-Calibration-Engineer-Software-Integration-WA-98273-9671/1452619933/",
+        "location": "Mount Vernon, WA, US, 98273-9671",
+        "country": "USA"
+      },
+      {
+        "company": "SoFi",
+        "role": "Data Scientist",
+        "link": "https://sofi.com/careers/job/8197871003?gh_jid=8197871003",
+        "location": "Cottonwood Heights, Utah, United States, Jacksonville - FL",
+        "country": "USA"
+      }
+    ]
+  }
+]
