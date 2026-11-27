@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "name": "batches/6cks08pyu2032dv4j0ksbnkpt7y7tiyarwf9",
+    "submittedAt": "2026-11-27T08:22:35.404Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Jobgether",
+        "role": "Regulatory Business System Analyst",
+        "link": "https://jobs.lever.co/jobgether/c607a938-e08b-4289-85db-8b161b108f0b",
+        "location": "US",
+        "country": "USA"
+      },
+      {
+        "company": "Jobgether",
+        "role": "Regulatory Business System Analyst - Remote (San Francisco Bay Area)",
+        "link": "https://jobs.lever.co/jobgether/bc25028a-b47a-479b-b709-76991d441a7f",
+        "location": "San Francisco Bay Area",
+        "country": "USA"
+      },
+      {
+        "company": "L3Harris",
+        "role": "Specialist, Software Engineering",
+        "link": "https://jobs.l3harris.com/job/San-Diego-Specialist%2C-Software-Engineering-CA-92123/1445041100/",
+        "location": "San Diego, CA, US, 92123",
+        "country": "USA"
+      },
+      {
+        "company": "L3Harris",
+        "role": "Specialist, Software Engineer - LabVIEW",
+        "link": "https://jobs.l3harris.com/job/Londonderry-Specialist%2C-Software-Engineer-LabVIEW-NH-03053/1435229100/",
+        "location": "Londonderry, NH, US, 03053",
+        "country": "USA"
+      }
+    ]
+  }
+]
