@@ -8274,6 +8274,16 @@
     ]
   },
   {
+    "name": "axiscapital",
+    "ats": "workday",
+    "identifier": "axiscapital-confidentialaxiscareers",
+    "domain": "https://axiscapital.wd1.myworkdayjobs.com/confidentialaxiscareers",
+    "page": "https://axiscapital.wd1.myworkdayjobs.com/wday/cxs/axiscapital/confidentialaxiscareers/jobs",
+    "urls": [
+      "https://axiscapital.wd1.myworkdayjobs.com/confidentialaxiscareers/job/Halifax-NS/Data-Engineer-Co-op_REQ06856"
+    ]
+  },
+  {
     "name": "axon",
     "ats": "greenhouse",
     "identifier": "axon",
@@ -42242,6 +42252,16 @@
     ]
   },
   {
+    "name": "Orion Digital",
+    "ats": "jazzhr",
+    "identifier": "mogo.applytojob.com",
+    "domain": "https://mogo.applytojob.com",
+    "page": "https://mogo.applytojob.com/apply/jobs",
+    "urls": [
+      "https://mogo.applytojob.com/apply/yLhCvCiypq/Junior-Full-Stack-AI-Engineer"
+    ]
+  },
+  {
     "name": "orthoclinical",
     "ats": "workday",
     "identifier": "orthoclinical-search",
@@ -44154,6 +44174,16 @@
     "domain": "https://careers-powerschool.icims.com",
     "page": "https://careers-powerschool.icims.com/jobs/search",
     "urls": []
+  },
+  {
+    "name": "pqshield",
+    "ats": "greenhouse",
+    "identifier": "pqshield",
+    "domain": "https://pqshield.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/pqshield/jobs",
+    "urls": [
+      "https://pqshield.com/careers/apply/5049820101?gh_jid=5049820101"
+    ]
   },
   {
     "name": "preciselyusjobs",
@@ -52208,6 +52238,16 @@
     "page": "https://synchronyfinancial.wd5.myworkdayjobs.com/wday/cxs/synchronyfinancial/University/jobs",
     "urls": [
       "https://synchronyfinancial.wd5.myworkdayjobs.com/University/job/Stamford-Hub/BLP-Intern---Technology_2601695-1"
+    ]
+  },
+  {
+    "name": "Synectic Solutions Inc",
+    "ats": "jazzhr",
+    "identifier": "synecsolu.applytojob.com",
+    "domain": "https://synecsolu.applytojob.com",
+    "page": "https://synecsolu.applytojob.com/apply/jobs",
+    "urls": [
+      "https://synecsolu.applytojob.com/apply/kQT1OASGDG/Software-Engineer-I"
     ]
   },
   {
