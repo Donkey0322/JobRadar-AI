@@ -2158,6 +2158,7 @@
       "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Data-Governance-and-Protection-Analyst_R2625922",
       "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Electrical-Engineer_R2626829",
       "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Software-Engineer--Bachelors-Degree--New-College-Grad--Santa-Clara-_R2630683",
+      "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Summer-2027-Data-Finance-Analyst-Intern--Bachelor-s--Santa-Clara--CA-_R2626652",
       "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Summer-2027-Data-Scientist-Intern---Master-s--Santa-Clara--CA-_R2627691",
       "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/System-Engineer_R2630393-1",
       "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Systems-Engineer-IV_R2627542",
@@ -9121,6 +9122,7 @@
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/Cybersecurity-Systems-Engineer_R0246523",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/Data-Engineer_R0252062",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/Data-Engineer_R0252064",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/Data-Scientist--Junior_R0251120",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/Data-Scientist--Mid_R0247322",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/Data-Scientist--Mid_R0251653",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/DevOps-Platform-Engineer--Senior_R0252614",
@@ -10417,6 +10419,7 @@
     "domain": "https://bmo.wd3.myworkdayjobs.com/external",
     "page": "https://bmo.wd3.myworkdayjobs.com/wday/cxs/bmo/external/jobs",
     "urls": [
+      "https://bmo.wd3.myworkdayjobs.com/External/job/Berkeley-Heights-NJ-USA/Software-Developer_R260023733",
       "https://bmo.wd3.myworkdayjobs.com/external/job/Calgary-AB-CAN/GenAI-Software-Developer_R260018524",
       "https://bmo.wd3.myworkdayjobs.com/external/job/Chicago-IL-USA/Data-Analyst_R260027161",
       "https://bmo.wd3.myworkdayjobs.com/external/job/Irving-TX-USA/Software-Developer----AI---Java---Python--AWS-_R260030751-1",
@@ -11938,6 +11941,16 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/braincorporation/jobs",
     "urls": [
       "https://www.braincorp.com/open-positions?gh_jid=8879726002"
+    ]
+  },
+  {
+    "name": "brambles",
+    "ats": "workday",
+    "identifier": "brambles-brambles_careers",
+    "domain": "https://brambles.wd5.myworkdayjobs.com/Brambles_Careers",
+    "page": "https://brambles.wd5.myworkdayjobs.com/wday/cxs/brambles/Brambles_Careers/jobs",
+    "urls": [
+      "https://brambles.wd5.myworkdayjobs.com/en-US/Brambles_Careers/job/Santa-Clara-California-USA/Software-Developer---Applications_JR25540"
     ]
   },
   {
