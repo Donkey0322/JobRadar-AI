@@ -14,6 +14,20 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">S&amp;C</td>
+      <td width="420" align="left" valign="top">Design Engineer (Power System Analysis)</td>
+      <td width="180" align="left" valign="top">Chicago, IL</td>
+      <td width="120" align="left" valign="top"><a href="https://ejia.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/107258"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 27</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Westinghouse Electric Company, LLC</td>
+      <td width="420" align="left" valign="top">Physical Security Engineer</td>
+      <td width="180" align="left" valign="top">Cranberry Township, PA</td>
+      <td width="120" align="left" valign="top"><a href="http://careers.westinghousenuclear.com/job/Cranberry-Township-Physical-Security-Engineer-NC/1389543400/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 27</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">United Launch Alliance</td>
       <td width="420" align="left" valign="top">Systems Test Engineer 1 (3x12 Fri-Sun Day Shift)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Decatur, AL</td>
@@ -2099,24 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/crosscountry-consulting/5f8a920b-77ed-4200-b37d-1f5d68c1bc21"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 16</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Wyetech</td>
-      <td width="420" align="left" valign="top">Software Engineer 0 or 1<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">USA</td>
-      <td width="120" align="left" valign="top"><a href="https://wyetech.applytojob.com/apply/7d200RlbqP/Software-Engineer-Skill-Level-0-Or-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 16</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Laborie Medical Technologies</td>
-      <td width="420" align="left" valign="top">Software Engineer 1<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Portsmouth, NH</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.jobvite.com/laborie/job/oQOXAfwV?nl=1&amp;nl=1&amp;fr=false"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 16</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 3,856 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 3,858 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-28T01:29:00.598Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-11-28T01:31:55.765Z</code></sub>

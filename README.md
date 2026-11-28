@@ -91,7 +91,7 @@ Each category page shows up to 300 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 2,304 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,992 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,856 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,858 opportunities
 
 ## The List 🚴‍♂️
 
@@ -565,6 +565,20 @@ Each category page shows up to 300 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">S&amp;C</td>
+      <td width="420" align="left" valign="top">Design Engineer (Power System Analysis)</td>
+      <td width="180" align="left" valign="top">Chicago, IL</td>
+      <td width="120" align="left" valign="top"><a href="https://ejia.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/107258"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 27</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Westinghouse Electric Company, LLC</td>
+      <td width="420" align="left" valign="top">Physical Security Engineer</td>
+      <td width="180" align="left" valign="top">Cranberry Township, PA</td>
+      <td width="120" align="left" valign="top"><a href="http://careers.westinghousenuclear.com/job/Cranberry-Township-Physical-Security-Engineer-NC/1389543400/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Nov 27</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">United Launch Alliance</td>
       <td width="420" align="left" valign="top">Systems Test Engineer 1 (3x12 Fri-Sun Day Shift)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Decatur, AL</td>
@@ -760,23 +774,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://careers.hpe.com/us/en/job/1218679"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Nov 25</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Johns Hopkins Applied Physics Laboratory</td>
-      <td width="420" align="left" valign="top">New Grad 2027: Reverse Engineer - Systems Exploitation<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Laurel, MD</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.jhuapl.edu/jobs/59797?lang=en-us"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 25</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Westinghouse Electric Company, LLC</td>
-      <td width="420" align="left" valign="top">Power System Planning Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Juno Beach, FL</td>
-      <td width="120" align="left" valign="top"><a href="http://careers.westinghousenuclear.com/WECTEC_Staffing/job/OTHER-Power-System-Planning-Engineer-MA-0/1424680100/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Nov 25</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,856 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,858 opportunities in this section.</sub></p>
 
 <!-- TABLE_END -->
 
@@ -795,7 +795,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-11-28T01:29:00.598Z</code>
+      🕒 Last updated <code>2026-11-28T01:31:55.765Z</code>
     </span>
   </p>
 </div>
